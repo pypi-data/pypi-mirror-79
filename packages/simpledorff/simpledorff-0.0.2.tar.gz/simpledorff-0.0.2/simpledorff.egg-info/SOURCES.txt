@@ -1,0 +1,10 @@
+README.md
+setup.py
+simpledorff/__init__.py
+simpledorff/data_transforms.py
+simpledorff/metrics.py
+simpledorff/simpledorff.py
+simpledorff.egg-info/PKG-INFO
+simpledorff.egg-info/SOURCES.txt
+simpledorff.egg-info/dependency_links.txt
+simpledorff.egg-info/top_level.txt
