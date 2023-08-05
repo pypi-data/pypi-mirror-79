@@ -1,0 +1,52 @@
+{% set name = "pysprint" %}
+{% set version = "0.12.3" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: 608c7700f89e7491bd2dab82e9cf751e5ee594c2f2d81a3677e493181a756ca4
+
+build:
+  number: 0
+
+  script_env:
+   - CONDA_BLD_PATH
+  entry_points:
+   - pysprint = pysprint.templates.build:main
+
+requirements:
+  host:
+    - matplotlib
+    - numpy >=1.16.6
+    - pandas
+    - pip
+    - python
+    - scipy
+    - jinja2
+  run:
+    - matplotlib
+    - numpy >=1.16.6
+    - pandas
+    - python
+    - scipy
+    - jinja2
+
+test:
+  imports:
+    - pysprint
+    - pysprint.api
+    - pysprint.core
+    - pysprint.core.bases
+    - pysprint.core.io
+    - pysprint.core.methods
+    - pysprint.mpl_tools
+    - pysprint.tests
+    - pysprint.utils
+
+about:
+  home: "https://github.com/Ptrskay3/PySprint"
+  license: MIT
+  summary: "Spectrally refined interferometry for Python"
