@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: colabcode
+Version: 0.0.6
+Summary: ColabCode - Run codeserver on Colab!
+Home-page: https://github.com/abhishekkrthakur/colabcode
+Author: Abhishek Thakur
+Author-email: abhishek4@gmail.com
+License: MIT License
+Platform: linux
+Platform: unix
+Requires-Python: >3.5.2
+Description-Content-Type: text/markdown
+Requires-Dist: pyngrok (>=4.1.11)
+
+# ColabCode
+
+Run code server on Google Colab or Kaggle Notebooks
+
+Quickstart:
+- install colabcode: `pip install colabcode`
+- import colabcode: `from colabcode import ColabCode`
+- run: `ColabCode(port=10000, password="abhishek")`
+- you can also run it with any password or port :)
+
+
+`ColabCode` has the following arguments:
+- `port`: the port you want to run code-server on, default 10000
+- `password`: password to protect your code server from being accessed by someone else. Note that there is no password by default!
+- `mount_drive`: True or False to mount your Google Drive
+
+`ColabCode` comes pre-installed with some VS Code extensions.
+
+See an example in [this video tutorial](https://www.youtube.com/watch?v=7kTbM3D02jU).
+
+
