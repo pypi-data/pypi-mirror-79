@@ -1,0 +1,12 @@
+pygments>=2.6.1
+typing_extensions>=3.7.4.3
+
+[all]
+sphinx
+sphinx-autodoc-typehints
+sphinx-toolbox>=0.2.1
+
+[sphinx]
+sphinx
+sphinx-autodoc-typehints
+sphinx-toolbox>=0.2.1
