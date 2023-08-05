@@ -1,0 +1,1 @@
+from .xgb_basic_usage import test_iris_classification
