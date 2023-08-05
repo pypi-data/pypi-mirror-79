@@ -1,0 +1,4 @@
+[console_scripts]
+notesplit = notesplit.split:main
+notesync = notesplit.sync:main
+
