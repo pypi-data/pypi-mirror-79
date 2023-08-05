@@ -1,0 +1,12 @@
+pyspeedx/__init__.py,sha256=AnYuvbCssiwL0ROfAC-SnzsXQ-isfBzz_pRYr_ywNwM,83
+pyspeedx/helpers.py,sha256=ThfEBunIF2uOdNx8GnaSeG_PbdYxH_Nuk4lVuzlX_WE,4344
+pyspeedx/main.py,sha256=XlvWJGfuppc7UyI5unQ-hw8xc7m4bN9jLJxAyT_YI6M,705
+pyspeedx/test.py,sha256=0Az15XIM-WePzi1dj0kJnsUxoyK3j_-qpkzg7puWj6c,166
+subp/__init__.py,sha256=dH1xoblBufdyiphUa7uIO3Lb4zCypMcqzvbf5T-bWm4,43
+subp/main.py,sha256=HPgnhbxR1Z35ia7XXda9C444EfaJaHIs1uTmhibS7Jg,81
+subp/test.py,sha256=Wc3NzbP1cVlGkdRlF7fP_z5wcGH2lddV5CAKScP0xLk,162
+pyspeedx-0.1.1.3.6.dist-info/LICENSE.txt,sha256=fQv5yO7hS5MbgmE_rsFA1A4JPncVOhJUScZVNqXXI9Y,1084
+pyspeedx-0.1.1.3.6.dist-info/METADATA,sha256=sMeK3FrWfmu-mPprl-kJtin0nK_tm8FezkZlipVs4XM,468
+pyspeedx-0.1.1.3.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pyspeedx-0.1.1.3.6.dist-info/top_level.txt,sha256=edLu8s_Vw3xoLfKixM730G9sQOv3NupzqJ0mUkjn0-o,14
+pyspeedx-0.1.1.3.6.dist-info/RECORD,,
