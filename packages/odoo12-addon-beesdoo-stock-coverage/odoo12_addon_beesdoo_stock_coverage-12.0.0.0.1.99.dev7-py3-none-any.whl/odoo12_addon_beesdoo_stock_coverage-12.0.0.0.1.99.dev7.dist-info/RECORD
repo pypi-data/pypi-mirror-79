@@ -1,0 +1,16 @@
+odoo/addons/beesdoo_stock_coverage/README.rst,sha256=3J3XmJdBFIs41ePpZ19vIFCj3HaWEQKwSZslOYA-QkU,1876
+odoo/addons/beesdoo_stock_coverage/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/beesdoo_stock_coverage/__manifest__.py,sha256=m_fQu-eR3fWfKQtoaIrGGT5D9SjVjqIFyCmfjTkeqMw,618
+odoo/addons/beesdoo_stock_coverage/data/cron.xml,sha256=NsAC0WeOz6tIpW6sSY6IhI537Y7pXM9fpq1lHE_4jAU,703
+odoo/addons/beesdoo_stock_coverage/models/__init__.py,sha256=ocL5EWjUgdlVWcLpGjcO1Gkka2igyW2sutWqtdGvc-U,31
+odoo/addons/beesdoo_stock_coverage/models/product_template.py,sha256=V6gvWXClmM4zw1MYH1lvo-JV63Ccs4QNAk1Au9w6jCU,2873
+odoo/addons/beesdoo_stock_coverage/readme/CONTRIBUTORS.rst,sha256=170LKuygRs6qDXYfRxha2LvDy_5gH0TMyB037jxPrys,34
+odoo/addons/beesdoo_stock_coverage/readme/DESCRIPTION.rst,sha256=AgNf-Qdj_DJw0HFZY4WXbhNCg8oBPr0bWwnhmCoBrNA,75
+odoo/addons/beesdoo_stock_coverage/static/description/index.html,sha256=gTL3XIA5igHJzrQekDSvBmD03oHpnuwcFMcp1RQKvdU,10822
+odoo/addons/beesdoo_stock_coverage/tests/__init__.py,sha256=tmqgjwGC2CqHqztezFZvfOWzx6wkVAGR93I7eaXWxzo,34
+odoo/addons/beesdoo_stock_coverage/tests/test_stock_coverage.py,sha256=d7NrZVEnUkJo4_OKOQzotij61d_8rWMQLn-5uT-_elE,3527
+odoo/addons/beesdoo_stock_coverage/views/product_template_view.xml,sha256=7S3hTGD7m5fiO1jIdu_1iROsz4aX_PmdDViXiSGRp2I,1314
+odoo12_addon_beesdoo_stock_coverage-12.0.0.0.1.99.dev7.dist-info/METADATA,sha256=teOFU-3WG9oAA5QbGqOPcntsgyyK84DDsC21vtofVes,2365
+odoo12_addon_beesdoo_stock_coverage-12.0.0.0.1.99.dev7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_stock_coverage-12.0.0.0.1.99.dev7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_stock_coverage-12.0.0.0.1.99.dev7.dist-info/RECORD,,
