@@ -1,0 +1,9 @@
+msitrees-0.1.dist-info/RECORD,,
+msitrees-0.1.dist-info/METADATA,sha256=2NwTBdYbqpK6rrsHi6Iwn9EFHgDtjBOC0UX7sYE1beA,3184
+msitrees-0.1.dist-info/LICENSE,sha256=uz8Tyl9uGdHBRUTrDad4hr4Pzo_Anr3NqDJ7ommvU4M,1068
+msitrees-0.1.dist-info/top_level.txt,sha256=-o5Kt5aayOS3iwFOCEv6D1X7BxbtBpbriJrxs186M6U,9
+msitrees-0.1.dist-info/WHEEL,sha256=kRpTOiUzoWO2GDfCevceK0ME-mjr5hdBNCWO78h60mA,112
+msitrees/_core.cpython-36m-x86_64-linux-gnu.so,sha256=dP9JznDK9IzrdNNAIMqxdwcjl9m5xQvY9Mwl3OPPpPI,9462832
+msitrees/_node.py,sha256=tDIsddfryLH8TbtHN8soHHcW3v_6kyyLvSHY92sGfIo,6715
+msitrees/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msitrees/tree.py,sha256=svvpi35GA15bB7pwEqpx6bONzZVfz1_zyqXNlbpqn9k,16738
