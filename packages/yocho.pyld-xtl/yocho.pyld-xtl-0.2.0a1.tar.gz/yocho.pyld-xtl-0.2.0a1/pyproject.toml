@@ -1,0 +1,33 @@
+# https://python-poetry.org/docs/pyproject/
+# https://www.python.org/dev/peps/pep-0621/
+[tool.poetry]
+name = "yocho.pyld-xtl"
+version = "0.2.0-alpha.1"
+description = "Extra tools for pyld"
+authors = ["Iwan Aucamp <aucampia@gmail.com>"]
+license = "CC0-1.0"
+readme = "README.md"
+homepage = "https://gitlab.com/aucampia/wip/pyld-xtl"
+# repository = "https://gitlab.com/aucampia/wip/pyld-xtl"
+# documentation = "https://gitlab.com/aucampia/wip/pyld-xtl"
+packages = [
+    { include = "yocho", from = "src" }
+]
+
+[tool.poetry.scripts]
+"pyld-xtl" = "yocho.pyld_xtl.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyld = "^2.0.3"
+pyyaml = "^5.3.1"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.782"
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
