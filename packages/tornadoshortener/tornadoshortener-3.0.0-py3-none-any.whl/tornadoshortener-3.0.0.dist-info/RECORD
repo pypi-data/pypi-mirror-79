@@ -1,0 +1,16 @@
+tornadoshortener/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tornadoshortener/app.py,sha256=QIvXscFVOUEqFtK7iAkuNot97UJPc91Ue-dnRocVrV0,4954
+tornadoshortener/handler.py,sha256=gH7OFq9Gc-CbwKwWVzpVAZc0XnQR2Jlakf2BjURThJY,9826
+tornadoshortener/utils.py,sha256=RR_OFPFJRWJb5ol9w86fVfzuf9-INcQ_H8dl8ntEWO4,2214
+tornadoshortener/templates/redirect.android.fallback.html,sha256=yfJr-MRC9519pXaUiLfJOE_bXTJ9USllBOoBeJEN9-g,1058
+tornadoshortener/templates/redirect.android.html,sha256=zeUmTgOQLQTMbEXDvJpC68wx3NN_H679H5SUOC3fmvw,613
+tornadoshortener/templates/redirect.ios.fallback.html,sha256=DDRWQEsMfWc4_otchLbOY-_3mLXywCTnPZ2wY2ZhVU4,414
+tornadoshortener/templates/redirect.ios.html,sha256=3zlISHoLsn-5ruBC7em7haZvY6-Z8Sb6Lz6cm20Ytt8,219
+tornadoshortener-3.0.0.dist-info/AUTHORS,sha256=Rr22L4PW7hVVEO_ruTALKTdjKE3aAwLc4Vsvg0LFxj8,222
+tornadoshortener-3.0.0.dist-info/LICENSE,sha256=u8B2p4S1D17CA8B3zdWz7fQebeVGobjay0LovVwJGQ0,1071
+tornadoshortener-3.0.0.dist-info/METADATA,sha256=N9PJCCnfkLWerBu0OGnD1b7huI9h6RPhJYOqkx0rwak,677
+tornadoshortener-3.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tornadoshortener-3.0.0.dist-info/entry_points.txt,sha256=1WAVpLdAt-MNPNwhgn0lIhQS8__qrQNG-dEtuMrj94k,64
+tornadoshortener-3.0.0.dist-info/pbr.json,sha256=YbDvNNfn2OgpdJ5udLkAiQwajbtearAvElAPTSNFkew,46
+tornadoshortener-3.0.0.dist-info/top_level.txt,sha256=iU4qeiS-fFJ24RWqcV-fZuKoY2PWlvyT7PwQHDdU6us,17
+tornadoshortener-3.0.0.dist-info/RECORD,,
