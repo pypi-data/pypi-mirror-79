@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+strup.py
+upperdek.egg-info/PKG-INFO
+upperdek.egg-info/SOURCES.txt
+upperdek.egg-info/dependency_links.txt
+upperdek.egg-info/top_level.txt
