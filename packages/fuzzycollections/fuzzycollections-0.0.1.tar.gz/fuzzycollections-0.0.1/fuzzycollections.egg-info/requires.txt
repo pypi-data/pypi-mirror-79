@@ -1,0 +1,9 @@
+future
+
+[all]
+
+[all:python_version < "3"]
+python-Levenshtein
+
+[all:python_version >= "3"]
+genutilityjellyfishpolyleven
