@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: botframe
+Version: 0.0a3
+Summary: Bot framework for Vk.com
+Home-page: https://github.com/Waika28/botframe
+Author: Eugene-Rybin
+Author-email: z.ribin20@gmail.com
+License: UNKNOWN
+Description: # Как пользоваться
+        
+        Установка
+        
+        ```
+        pip install botframe
+        ```
+        
+        Пример
+        
+        ```python
+        from botframe import Bot
+        
+        bot = Bot("token")
+        
+        @bot.command(["hello"])
+        def hello(api):
+            return "world"
+        
+        if __name__ == "__main__":
+            bot.run()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
