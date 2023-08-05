@@ -1,0 +1,4 @@
+robotframework>=3.2
+
+[testing]
+flake8
