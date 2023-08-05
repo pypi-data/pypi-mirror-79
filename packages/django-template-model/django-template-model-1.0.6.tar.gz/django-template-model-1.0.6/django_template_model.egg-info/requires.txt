@@ -1,0 +1,7 @@
+Django>=2.2
+
+[dev]
+flake8
+coverage
+codecov
+factory-boy
