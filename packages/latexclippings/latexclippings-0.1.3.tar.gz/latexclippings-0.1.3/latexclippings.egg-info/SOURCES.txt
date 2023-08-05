@@ -1,0 +1,8 @@
+README.md
+latexclippings.py
+setup.py
+latexclippings.egg-info/PKG-INFO
+latexclippings.egg-info/SOURCES.txt
+latexclippings.egg-info/dependency_links.txt
+latexclippings.egg-info/entry_points.txt
+latexclippings.egg-info/top_level.txt
