@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+lvis/requirements.txt
+mmpycocotools.egg-info/PKG-INFO
+mmpycocotools.egg-info/SOURCES.txt
+mmpycocotools.egg-info/dependency_links.txt
+mmpycocotools.egg-info/requires.txt
+mmpycocotools.egg-info/top_level.txt
+pycocotools/setup.py
+pycocotools/pycocotools/_mask.pyx
