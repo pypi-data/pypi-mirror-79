@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kis
+Version: 0.10.0
+Summary: Image Segmentation toolkit for keras edited for work
+Home-page: https://github.com/bahablgn/kis
+Author: Baha
+Author-email: bahablgn@gmail.com
+License: GPLv3
+Download-URL: https://github.com/bahablgn/kis/archive/v_10.tar.gz
+Description: UNKNOWN
+Platform: any
+Provides-Extra: tensorflow
+Provides-Extra: cntk
+Provides-Extra: theano
+Provides-Extra: tests-default
