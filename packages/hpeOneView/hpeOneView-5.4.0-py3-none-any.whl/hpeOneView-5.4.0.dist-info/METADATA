@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hpeOneView
+Version: 5.4.0
+Summary: HPE OneView Python Library
+Home-page: https://github.com/HewlettPackard/oneview-python
+Author: Hewlett Packard Enterprise Development LP
+Author-email: oneview-pythonsdk@hpe.com
+License: Apache
+Download-URL: https://github.com/HewlettPackard/oneview-python/tarball/v5.4.0
+Keywords: oneview,hpe
+Platform: UNKNOWN
+Requires-Dist: future (>=0.15.2)
+
+UNKNOWN
+
+
