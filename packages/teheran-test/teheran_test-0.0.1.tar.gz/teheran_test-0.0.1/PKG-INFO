@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: teheran_test
+Version: 0.0.1
+Summary: A test of web scrapping tool for teherannews.com
+Home-page: https://github.com/cesardeaptude/teheran_test
+Author: César Pérez Moreno
+Author-email: cperez@aptude.com
+License: MIT
+Description: Preeliminary Crawler
+        -------------------------------------------
+        
+        A news crawler for the site tehrantimes.com
+        
+        Prerequsites
+        -------------------------------------------
+        
+        Python3 and beautifulsoup library installed
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
