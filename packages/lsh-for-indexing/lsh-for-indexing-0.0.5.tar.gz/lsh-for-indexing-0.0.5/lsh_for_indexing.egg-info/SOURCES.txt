@@ -1,0 +1,13 @@
+README.md
+setup.py
+lsh/__init__.py
+lsh/random_projection.py
+lsh/scripts/__init__.py
+lsh/scripts/fasttext.py
+lsh/tests/__init__.py
+lsh/tests/test_lsh.py
+lsh_for_indexing.egg-info/PKG-INFO
+lsh_for_indexing.egg-info/SOURCES.txt
+lsh_for_indexing.egg-info/dependency_links.txt
+lsh_for_indexing.egg-info/requires.txt
+lsh_for_indexing.egg-info/top_level.txt
