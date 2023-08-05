@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fast-tcrdist
+Version: 0.0.1
+Summary: Optimized TCRDist calculation for TCR repertoire data analysis
+Home-page: UNKNOWN
+Author: Neal Smith
+Author-email: nsmith19@mgh.harvard.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Natural Language :: English
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: distance
+Requires-Dist: cython
+Requires-Dist: hdbscan
+Requires-Dist: logomaker
+Requires-Dist: anndata
+Requires-Dist: scanpy
+
+UNKNOWN
+
+

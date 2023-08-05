@@ -1,0 +1,16 @@
+fast_tcrdist/__init__.py,sha256=K9FsENJK16ESkp0gtxNt4aprrJjehSifhaWZ_jyJ9DQ,56
+fast_tcrdist/aggregate_data.py,sha256=88swXhTecTlJB6cygpINECGas3MlvUa256evx6x3BF0,1451
+fast_tcrdist/plot.py,sha256=F3KypPFjegOeRA3OrnTTmWVARcd_e5BXMpZ0E6ilD6U,5245
+fast_tcrdist/useful.py,sha256=o5qeIGgMWmPwOlMR7zvyaBTDg4osC20F3acUNZWK4VQ,1403
+fast_tcrdist/tcrdist/__init__.py,sha256=ArdknSE48AzAlkhuIavNtWj0pUx71k4RLXqm4mWg9Uo,47
+fast_tcrdist/tcrdist/create_datasets.py,sha256=TadoSr5Zu1b96idHQtFe_UCnRkTdJJ-W1ah0l23t2ag,9158
+fast_tcrdist/tcrdist/stats.py,sha256=uAZr41fiUQfWmCbQK1GRLXy34mdX6haN2YZJ4dhFUzU,2036
+fast_tcrdist/tcrdist/v_gene_distances.py,sha256=jkwN5_1efqw4sfqXKcHZyENIRPxl1OUgH67VsCUA0mE,1607
+fast_tcrdist/tcrdist/cython/cnwalign.cp37-win_amd64.pyd,sha256=dCIjVDnQVWy-EVXqX0ZWK5b3KzajRRPW4waIyhGHAZ8,102400
+fast_tcrdist/tcrdist/cython/seq_dist.cp37-win_amd64.pyd,sha256=BqLtMY7Y35lwqoFb_A6X5Q98scm6o5edZkQWe8UxHXM,84992
+fast_tcrdist/tcrdist/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_tcrdist-0.0.1.dist-info/LICENSE,sha256=sHhnRLMQC1YFGxfxXN2f8OuhYA7uNVfmm7LvbEYsAo4,1089
+fast_tcrdist-0.0.1.dist-info/METADATA,sha256=vAB85C7PFevI6KR9rkAVOK0BhlsB6N8w5ro5n233EkQ,681
+fast_tcrdist-0.0.1.dist-info/WHEEL,sha256=rpJIxsZQulJdxSTRRlB5eKYFBr_5T7UwADMbZS3uepA,106
+fast_tcrdist-0.0.1.dist-info/top_level.txt,sha256=DK5fy2VfJQqK3aaQcFcFylXnoebuq9vSDBeStIJZrAs,13
+fast_tcrdist-0.0.1.dist-info/RECORD,,
