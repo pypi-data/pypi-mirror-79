@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+dekupper/__init__.py
+dekupper.egg-info/PKG-INFO
+dekupper.egg-info/SOURCES.txt
+dekupper.egg-info/dependency_links.txt
+dekupper.egg-info/top_level.txt
