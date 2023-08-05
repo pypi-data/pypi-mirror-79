@@ -1,0 +1,11 @@
+LICENSE
+README.md
+future_annotations.py
+setup.cfg
+setup.py
+future_annotations.egg-info/PKG-INFO
+future_annotations.egg-info/SOURCES.txt
+future_annotations.egg-info/dependency_links.txt
+future_annotations.egg-info/entry_points.txt
+future_annotations.egg-info/requires.txt
+future_annotations.egg-info/top_level.txt
