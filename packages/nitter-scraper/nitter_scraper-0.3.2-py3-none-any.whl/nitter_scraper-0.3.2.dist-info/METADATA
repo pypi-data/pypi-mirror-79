@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nitter-scraper
+Version: 0.3.2
+Summary: Scrape Twitter API without authentication using Nitter.
+License: MIT
+Author: dgnsrekt
+Author-email: dgnsrekt@pm.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: docker (>=4.3.1,<5.0.0)
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
+Requires-Dist: requests-html (>=0.10.0,<0.11.0)
