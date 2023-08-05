@@ -1,0 +1,9 @@
+[console_scripts]
+celescope = celescope.celescope:main
+multi_capture_virus = celescope.capture_virus.multi_capture_virus:main
+multi_fusion = celescope.fusion.multi_fusion:main
+multi_rna = celescope.rna.multi_rna:main
+multi_rna_virus = celescope.rna_virus.multi_rna_virus:main
+multi_smk = celescope.smk.multi_smk:main
+multi_vdj = celescope.vdj.multi_vdj:main
+
