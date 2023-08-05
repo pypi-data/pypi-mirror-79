@@ -1,0 +1,3 @@
+[console_scripts]
+balance-sheet = balance_sheet.cli:main
+
