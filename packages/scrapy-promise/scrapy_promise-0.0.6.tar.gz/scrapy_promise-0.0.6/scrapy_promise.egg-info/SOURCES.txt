@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+scrapy_promise/__init__.py
+scrapy_promise/_version.py
+scrapy_promise/promise.py
+scrapy_promise.egg-info/PKG-INFO
+scrapy_promise.egg-info/SOURCES.txt
+scrapy_promise.egg-info/dependency_links.txt
+scrapy_promise.egg-info/requires.txt
+scrapy_promise.egg-info/top_level.txt
