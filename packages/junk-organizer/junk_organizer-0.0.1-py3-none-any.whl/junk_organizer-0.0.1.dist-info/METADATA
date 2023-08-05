@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: junk-organizer
+Version: 0.0.1
+Summary: This module helps to organize the files that are randomly placed inside a specified folder.
+Home-page: https://github.com/Ajay2810-hub/file-organizer
+Author: Ajay Lingayat
+Author-email: lingayatajay2810@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# junk-organizer
+
+## Requirements
+```
+ python>=3.0
+```
+
+## Installation
+```
+ pip install junk-organizer
+```
+
+## Usage
+
+### Organize a single folder
+```python
+ from JunkOrganizer import Organizer
+ Junk = Organizer()
+ Junk.organize('path/to/the/folder/')
+```
+
+Output
+```
+ folder 'path/to/the/folder' has been organized!
+```
+
+### Organize multiple folders
+Pass a list of all folders that you want organize to the organize_more method. 
+
+```python
+ folders = [
+   'path/to/a/folder/', 
+   'path/to/another/folder/', 
+   'path/to/one_more/folder/'
+ ]
+ Junk.organize_more(folders) 
+```
+
+Output
+```
+ Organizing folders...
+ folder 'path/to/a/folder' has been organized! 
+ folder 'path/to/another/folder' has been organized! 
+ folder 'path/to/one_more/folder' has been organized! 
+```
+
+## Upcoming Updates
+- Organize more files with more extensions. 
+- And many more.
+
+
