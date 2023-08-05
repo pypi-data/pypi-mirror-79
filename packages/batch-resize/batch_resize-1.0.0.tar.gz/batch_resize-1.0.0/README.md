@@ -1,0 +1,1 @@
+Resize and crop all images stored in the folder.

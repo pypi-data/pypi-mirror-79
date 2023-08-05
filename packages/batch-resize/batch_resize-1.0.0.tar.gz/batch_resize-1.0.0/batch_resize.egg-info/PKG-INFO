@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: batch-resize
+Version: 1.0.0
+Summary: Resize and crop all images stored in the folder.
+Home-page: https://github.com/YoungjuneKwon/python-batch-resize
+Author: YoungjuneKwon
+Author-email: shining@uvas.kr
+License: MIT
+Description: Resize and crop all images stored in the folder.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
