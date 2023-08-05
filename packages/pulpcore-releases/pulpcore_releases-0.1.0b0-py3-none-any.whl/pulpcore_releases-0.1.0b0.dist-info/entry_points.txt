@@ -1,0 +1,3 @@
+[console_scripts]
+prc=pulpcore_releases.prc:run
+
