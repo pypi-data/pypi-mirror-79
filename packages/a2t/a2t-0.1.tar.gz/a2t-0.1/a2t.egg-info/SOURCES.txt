@@ -1,0 +1,15 @@
+README.md
+setup.py
+a2t/__init__.py
+a2t.egg-info/PKG-INFO
+a2t.egg-info/SOURCES.txt
+a2t.egg-info/dependency_links.txt
+a2t.egg-info/requires.txt
+a2t.egg-info/top_level.txt
+a2t/topic_classification/__init__.py
+a2t/topic_classification/annotate_wordnet.py
+a2t/topic_classification/base.py
+a2t/topic_classification/mlm.py
+a2t/topic_classification/mnli.py
+a2t/topic_classification/nsp.py
+a2t/topic_classification/run_evaluation.py
