@@ -1,0 +1,17 @@
+pytest-cov
+pytest-xdist
+pytest-tldr
+pytest-picked
+pytest-sugar
+pytest
+cookiecutter
+setuptools
+wheel
+twine
+tox
+tox-battery
+sphinx>2
+sphinx_rtd_theme>=0.4.3
+sphinx-autoapi>=1.2.1
+sphinxcontrib-apidoc>=0.3.0
+sphinxcontrib-napoleon>=0.7
