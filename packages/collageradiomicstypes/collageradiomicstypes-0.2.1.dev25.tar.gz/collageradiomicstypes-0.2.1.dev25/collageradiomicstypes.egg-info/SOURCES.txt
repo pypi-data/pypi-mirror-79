@@ -1,0 +1,6 @@
+README.md
+setup.py
+collageradiomicstypes.egg-info/PKG-INFO
+collageradiomicstypes.egg-info/SOURCES.txt
+collageradiomicstypes.egg-info/dependency_links.txt
+collageradiomicstypes.egg-info/top_level.txt
