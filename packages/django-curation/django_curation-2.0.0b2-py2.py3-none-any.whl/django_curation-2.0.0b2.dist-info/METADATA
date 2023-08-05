@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-curation
+Version: 2.0.0b2
+Summary: A model used for curating other models and proxying their attributes
+Home-page: https://github.com/theatlantic/django-curation
+Author: The Atlantic
+Author-email: programmers@theatlantic.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4*, <4
+
+UNKNOWN
+
+
