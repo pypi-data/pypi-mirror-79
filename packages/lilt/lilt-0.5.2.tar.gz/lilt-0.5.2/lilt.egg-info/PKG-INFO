@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: lilt
+Version: 0.5.2
+Summary: Lilt REST API
+Home-page: https://github.com/lilt/lilt-python
+Author: Lilt REST API Support
+Author-email: support@lilt.com
+License: UNKNOWN
+Description:     Python client for the Lilt REST API https://lilt.com/docs/api
+            
+Keywords: OpenAPI,OpenAPI-Generator,Lilt REST API
+Platform: UNKNOWN
