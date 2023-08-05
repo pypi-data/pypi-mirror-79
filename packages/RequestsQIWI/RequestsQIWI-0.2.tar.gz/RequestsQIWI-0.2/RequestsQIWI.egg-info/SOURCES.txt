@@ -1,0 +1,10 @@
+README.md
+setup.py
+RequestsQIWI/Errors.py
+RequestsQIWI/Session.py
+RequestsQIWI/__init__.py
+RequestsQIWI.egg-info/PKG-INFO
+RequestsQIWI.egg-info/SOURCES.txt
+RequestsQIWI.egg-info/dependency_links.txt
+RequestsQIWI.egg-info/requires.txt
+RequestsQIWI.egg-info/top_level.txt
