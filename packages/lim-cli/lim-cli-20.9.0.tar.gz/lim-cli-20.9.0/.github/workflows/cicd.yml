@@ -1,0 +1,132 @@
+name: CICD
+on: [ push, pull_request ]
+
+jobs:
+  build-test:
+    name: Test and Build
+    if: >-
+      github.event_name == 'push' &&
+      startsWith(github.ref, 'refs/heads/') &&
+      ! contains(github.ref, 'release')
+    runs-on: ubuntu-18.04
+    env:
+      PY_COLORS: 1
+      TOX_PARALLEL_NO_SPINNER: 1
+    steps:
+    - name: Dump select GitHub event context
+      run: |
+        echo "github.ref=${{ github.ref }}"
+        echo "github.event.head_commit=${{ toJson(github.event.head_commit) }}"
+    - name: Check out src from GitHub
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        sudo apt-get -y install make bats
+        python3 -m pip install --upgrade pip
+        python3 -m pip install --upgrade setuptools wheel twine pbr
+        [ -f requirements.txt ] && python3 -m pip install -Ur requirements.txt
+        make bats-libraries
+    - name: Get variables
+      id: get_vars
+      run: |
+        REPO=$(basename ${{ github.repository }})
+        echo "REPO=${REPO}"
+        echo ::set-output name=REPO::${REPO}
+
+        BRANCH=${GITHUB_REF##*/}
+        echo "BRANCH=${BRANCH}"
+        echo ::set-output name=BRANCH::${BRANCH}
+
+        VERSION=$(python3 setup.py --version)
+        echo "VERSION=${VERSION}"
+        echo ::set-output name=VERSION::${VERSION}
+
+        TAG_VERSION=$(git describe --abbrev=0 --tags)
+        echo "TAG_VERSION=${TAG_VERSION}"
+        echo ::set-output name=TAG_VERSION::${TAG_VERSION}
+
+        ARTIFACT="${REPO}-${VERSION}"
+        echo "ARTIFACT=${ARTIFACT}"
+        echo ::set-output name=ARTIFACT::${REPO}-${VERSION}
+      env:
+        SETUPTOOLS_SCM_DEBUG: 1
+    - name: Run tests
+      run: make test
+    - name: Build artifacts
+      run: make bdist_wheel sdist twine-check
+    - name: Display artifacts
+      run: ls -lR dist
+    - name: Store artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ steps.get_vars.outputs.ARTIFACT }}
+        path: dist/*
+
+  deploy:
+    name: Publish
+    if: >-
+      github.event_name == 'push' &&
+      (
+        (
+          startsWith(github.event.head_commit.message, 'Merge branch ') &&
+          contains(github.event.head_commit.message, 'release/') &&
+          endsWith(github.event.head_commit.message, ' into master')
+        ) ||
+        contains(github.ref, '.RC')
+      )
+    needs:
+      - build-test
+    runs-on: ubuntu-18.04
+    env:
+      PY_COLORS: 1
+      TOX_PARALLEL_NO_SPINNER: 1
+    steps:
+    - name: Download artifacts
+      uses: actions/download-artifact@v2
+    - name: Get variables
+      id: get_vars
+      run: |
+        BRANCH=${GITHUB_REF##*/}
+        echo "BRANCH=${BRANCH}"
+        echo ::set-output name=BRANCH::${BRANCH}
+
+        REPO=$(basename ${{ github.repository }})
+        echo "REPO=${REPO}"
+        echo ::set-output name=REPO::${REPO}
+
+        ARTIFACT=$(echo ${REPO}*)
+        echo "ARTIFACT:${ARTIFACT}"
+        echo ::set-output name=ARTIFACT::${ARTIFACT}
+      env:
+        SETUPTOOLS_SCM_DEBUG: 1
+    - name: Display artifacts
+      run: |
+        ls -lR
+    - name: Publish artifacts to TestPyPI
+      if: >-
+        github.event_name == 'push' &&
+        contains(github.ref, '.RC')
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        repository_url: https://test.pypi.org/legacy/
+        password: ${{ secrets.lim_test_pypi_token }}
+        packages_dir: ${{ steps.get_vars.outputs.ARTIFACT }}
+    - name: Publish artifacts to PyPI
+      if: >-
+        github.event_name == 'push' &&
+        (
+          startsWith(github.event.head_commit.message, 'Merge branch ') &&
+          contains(github.event.head_commit.message, 'release/') &&
+          endsWith(github.event.head_commit.message, ' into master')
+        )
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.lim_pypi_token }}
+        packages_dir: ${{ steps.get_vars.outputs.ARTIFACT }}
+
