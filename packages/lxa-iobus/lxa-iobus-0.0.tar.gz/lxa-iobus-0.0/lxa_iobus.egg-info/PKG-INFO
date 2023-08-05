@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: lxa-iobus
+Version: 0.0
+Summary: Linux Automation iobus
+Home-page: https://github.com/linux-automation/lxa-iobus
+Author: Linux Automation GmbH
+Author-email: python@pengutronix.de
+License: Apache License 2.0
+Description: Linux Automation GmbH lxa-iobus
+        ===============================
+        
+        .. image:: https://img.shields.io/pypi/l/lxa-iobus.svg
+            :alt: pypi.org
+            :target: https://pypi.org/project/lxa-iobus
+        .. image:: https://img.shields.io/pypi/pyversions/lxa-iobus.svg
+            :alt: pypi.org
+            :target: https://pypi.org/project/lxa-iobus
+        .. image:: https://img.shields.io/pypi/v/lxa-iobus.svg
+            :alt: pypi.org
+            :target: https://pypi.org/project/lxa-iobus
+        
+Platform: UNKNOWN
