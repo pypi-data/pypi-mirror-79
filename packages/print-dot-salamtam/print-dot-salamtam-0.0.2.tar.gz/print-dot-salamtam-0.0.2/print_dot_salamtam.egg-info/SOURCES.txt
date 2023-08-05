@@ -1,0 +1,8 @@
+README.md
+setup.py
+dot/__init__.py
+dot/dot.py
+print_dot_salamtam.egg-info/PKG-INFO
+print_dot_salamtam.egg-info/SOURCES.txt
+print_dot_salamtam.egg-info/dependency_links.txt
+print_dot_salamtam.egg-info/top_level.txt
