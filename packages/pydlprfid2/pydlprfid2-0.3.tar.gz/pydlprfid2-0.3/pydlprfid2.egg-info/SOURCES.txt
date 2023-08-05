@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/bp2bridge
+bin/pdr2
+pydlprfid2/__init__.py
+pydlprfid2/bp2bridge.py
+pydlprfid2/crc.py
+pydlprfid2/pydlprfid2.py
+pydlprfid2.egg-info/PKG-INFO
+pydlprfid2.egg-info/SOURCES.txt
+pydlprfid2.egg-info/dependency_links.txt
+pydlprfid2.egg-info/requires.txt
+pydlprfid2.egg-info/top_level.txt

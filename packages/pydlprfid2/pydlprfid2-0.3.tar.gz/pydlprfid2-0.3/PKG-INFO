@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pydlprfid2
+Version: 0.3
+Summary: Drive DLP RFID2 reader to read/write EEPROM
+Home-page: https://github.com/Martoni/pydlprfid2
+Author: Fabien Marteau
+Author-email: fabien.marteau@armadeus.com
+License: MIT
+Description: pyrfidgeek fork that drive DLP RFID2 reader to read/write EEPROM
+Keywords: rfid iso15693 iso14443 libdev trf7970a dlprfid2
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7

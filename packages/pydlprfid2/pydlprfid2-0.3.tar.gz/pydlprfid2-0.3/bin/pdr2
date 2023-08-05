@@ -1,0 +1,8 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+import pydlprfid2
+from pydlprfid2 import main
+
+main(sys.argv[1:])
