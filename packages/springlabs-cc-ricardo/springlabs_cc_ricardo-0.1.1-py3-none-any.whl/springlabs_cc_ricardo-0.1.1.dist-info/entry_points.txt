@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        springlabs_cc_ricardo=springlabs_cc_ricardo.scripts.springlabs_cc_ricardo:cli
+    
