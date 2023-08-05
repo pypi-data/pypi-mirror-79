@@ -1,0 +1,8 @@
+aws_solutions_constructs/aws_apigateway_lambda/__init__.py,sha256=JKI3SKlBD604p30BEPb2V4HCmtZLIksiHgF2O-2OkUM,10418
+aws_solutions_constructs/aws_apigateway_lambda/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_apigateway_lambda/_jsii/__init__.py,sha256=bEhV0zDBqdw3Jm2hlwYZ8KdF7jrcU2DEiYUfb-5Zr1Q,591
+aws_solutions_constructs/aws_apigateway_lambda/_jsii/aws-apigateway-lambda@1.62.0.jsii.tgz,sha256=bVFRGbKcL6yV8-a4cPVFLFmpz-Cpnwn3ZHoD-_ipJCE,119029
+aws_solutions_constructs.aws_apigateway_lambda-1.62.0.dist-info/METADATA,sha256=HJqtc0jAA1TIiVrP2C_9RO4eWg9f0pyJvaDz-yayOmQ,5830
+aws_solutions_constructs.aws_apigateway_lambda-1.62.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_solutions_constructs.aws_apigateway_lambda-1.62.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_apigateway_lambda-1.62.0.dist-info/RECORD,,
