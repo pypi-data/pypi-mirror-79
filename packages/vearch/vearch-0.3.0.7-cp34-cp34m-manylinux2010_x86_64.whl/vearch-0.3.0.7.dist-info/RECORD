@@ -1,0 +1,12 @@
+vearch/swigvearch.py,sha256=lSXFT_Ffsayz3cNZuphI5ss4YGDrc7bXf1OBWQYy_t4,53058
+vearch/_swigvearch.cpython-34m.so,sha256=UrnVBP8i2D7b8986atLVqC2T3ASo-LpX75IIDT2_UGQ,1168760
+vearch/__init__.py,sha256=iV31EF1vKTITmghTGRgTo0m9nd2wI-AjsgsoE9phjnA,40891
+vearch/.libs/libfaiss-63801818.so,sha256=I4BGZ5xriwanxcksbLSTZmJW_fTKrgxJqaDXNdMJDRs,22329576
+vearch/.libs/libgomp-f7e03b3e.so.1.0.0,sha256=76BVnL8zq1gHU5iuCWYO6_i6Icpp-63rCGU0xGxZdII,93080
+vearch/.libs/libgfortran-139be63a.so.3.0.0,sha256=gqiLNN_ddehEXXYQ3n0bPVxM4Oy3_2w_4zWIEH-rdWA,1023952
+vearch/.libs/libopenblas-r0-da994f36.3.3.so,sha256=e9enNBkSZi21oh0G32rYRoFXkM14wKk8fSG175Wykog,33489408
+vearch/.libs/libgamma-bcf9e6e8.so.0.1,sha256=5p3qaTV9rXMxeH3xiqgzPEj5oRy9jyLcbRhqgNZnXYI,1496856
+vearch-0.3.0.7.dist-info/METADATA,sha256=7FdXHUAjaNwjQd-apV-aI7wAN8yT5jpmFsogpLkUCfs,639
+vearch-0.3.0.7.dist-info/RECORD,,
+vearch-0.3.0.7.dist-info/WHEEL,sha256=ESNPYxsyn1zCRbcJYojqbYw9juB5zrokVxSdJBm_mI0,112
+vearch-0.3.0.7.dist-info/top_level.txt,sha256=Cwnx57t8ep3BkL_f3hgxGSYHOJa8nlPtf-upwHgvq80,7
