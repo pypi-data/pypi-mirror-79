@@ -1,0 +1,285 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Reports &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reporters" href="reporters.html" />
+    <link rel="prev" title="Diff filters" href="diff_filters.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diff_filters.html">Diff filters</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reports</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#text">Text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#optional-sub-directives"><strong>Optional sub-directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#html">HTML</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4"><strong>Optional sub-directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#markdown">Markdown</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6"><strong>Optional sub-directives</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Reports</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/reports.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="reports">
+<span id="id1"></span><h1>Reports<a class="headerlink" href="#reports" title="Permalink to this headline">¶</a></h1>
+<p>Reports are the text of the summary, and can be one of the following formats (depending on what
+ref:<cite>reporter &lt;reporters&gt;</cite> you use):</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#text"><span class="std std-ref">Text</span></a></p></li>
+<li><p><a class="reference internal" href="#html"><span class="std std-ref">HTML</span></a></p></li>
+<li><p><a class="reference internal" href="#markdown"><span class="std std-ref">Markdown</span></a></p></li>
+</ul>
+<div class="section" id="text">
+<span id="id2"></span><h2>Text<a class="headerlink" href="#text" title="Permalink to this headline">¶</a></h2>
+<p>Unicode text.</p>
+<div class="section" id="optional-sub-directives">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#optional-sub-directives" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>minimal: An abbreviated version (directives below are ignored)</p></li>
+<li><p>line_length: The maximum length of each line</p></li>
+<li><p>show_details: Show details of each job</p></li>
+<li><p>show_footer: Show footer listing number of jobs and elapsed time</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="html">
+<span id="id3"></span><h2>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
+<p>HTML.</p>
+<p>These reports are by default <code class="docutils literal notranslate"><span class="pre">unified</span></code> diffs that are prettified by <cite>webchanges</cite>.</p>
+<p>If for some reason you want the output to be the python <a class="reference external" href="https://docs.python.org/3/library/difflib.html#difflib.HtmlDiff">HtmlDiff</a> table format, set the sub-directive <code class="docutils literal notranslate"><span class="pre">diff</span></code> to
+<code class="docutils literal notranslate"><span class="pre">table</span></code>.</p>
+<div class="section" id="id4">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>diff: unified (default) or table. See above.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="markdown">
+<span id="id5"></span><h2>Markdown<a class="headerlink" href="#markdown" title="Permalink to this headline">¶</a></h2>
+<p>Markdown text, used for Matrix.</p>
+<div class="section" id="id6">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>minimal: An abbreviated version (directives below are ignored)</p></li>
+<li><p>show_details: Show details of each job</p></li>
+<li><p>show_footer: Show footer listing number of jobs and elapsed time</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="reporters.html" class="btn btn-neutral float-right" title="Reporters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="diff_filters.html" class="btn btn-neutral float-left" title="Diff filters" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

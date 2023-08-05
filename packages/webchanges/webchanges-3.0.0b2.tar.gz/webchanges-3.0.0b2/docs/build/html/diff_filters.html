@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Diff filters &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Reports" href="reports.html" />
+    <link rel="prev" title="Configuration" href="configuration.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Diff filters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#generic-filters">Generic filters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#additions-only">additions_only</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#deletions-only">deletions_only</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Diff filters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/diff_filters.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="diff-filters">
+<span id="id1"></span><h1>Diff filters<a class="headerlink" href="#diff-filters" title="Permalink to this headline">¶</a></h1>
+<p>The same filters listed at <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a> can be applied to the diff before it’s sent.</p>
+<p>In addition, two filters are custom-made for diff results:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#additions-only"><span class="std std-ref">additions_only</span></a></p></li>
+<li><p><a class="reference internal" href="#deletions-only"><span class="std std-ref">deletions_only</span></a></p></li>
+</ul>
+<div class="section" id="generic-filters">
+<span id="id2"></span><h2>Generic filters<a class="headerlink" href="#generic-filters" title="Permalink to this headline">¶</a></h2>
+<p>See <a class="reference internal" href="filters.html#filters"><span class="std std-ref">here</span></a> for the full list of generic filters.  Below is an example on using one on the result from
+the diff:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+<span class="p p-Indicator">-</span> <span class="nt">delete_lines_containing</span><span class="p">:</span> <span class="s">&quot;@@&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="additions-only">
+<span id="id3"></span><h2>additions_only<a class="headerlink" href="#additions-only" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">additions_only</span></code> directive causes the report for that source to contain only lines that are added by the diff (no
+deletions). This is extremely useful for monitoring new content on sites where content gets added while old content
+“scrolls” away.</p>
+<p>Because lines that are modified generate both a deleted and an added line by the diff, this filter always displays
+modified lines.</p>
+<p>As a safeguard, <code class="docutils literal notranslate"><span class="pre">additions_only</span></code> will display a warning and all deleted lines when the size of the source shrinks
+by 75% or more.</p>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/#add_only</span>
+<span class="nt">additions_only</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>---------------------------------------------------------------------------
+CHANGED: https://example.com/#add_only
+---------------------------------------------------------------------------
+... @   Sat, 12 Jul 2020 00:00:00 +0000
++++ @   Sat, 12 Jul 2020 01:00:00 +0000
+/**Comparison type: Additions only**
+@@ -1,2 +1,2 @@
++This is a line that has been added or changed
+</pre></div>
+</div>
+<p>Example (when the source content shrinks by 75% or more):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/#add_only2</span>
+<span class="nt">additions_only</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>---------------------------------------------------------------------------
+CHANGED: https://example.com/#add_only2
+---------------------------------------------------------------------------
+... @   Sat, 12 Jul 2020 00:00:00 +0000
++++ @   Sat, 12 Jul 2020 01:00:00 +0000
+/**Comparison type: Additions only**
+/**Deletions are being shown as 75% or more of the content has been deleted**
+@@ -1,3 +0,0 @@
+-# Example Domain
+-This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.
+-[More information...](https://www.iana.org/domains/example)
+---------------------------------------------------------------------------
+</pre></div>
+</div>
+</div>
+<div class="section" id="deletions-only">
+<span id="id4"></span><h2>deletions_only<a class="headerlink" href="#deletions-only" title="Permalink to this headline">¶</a></h2>
+<p>The <cite>deletions_only</cite> directive causes the report for that source to contain only lines that are deleted by the diff (no
+additions).</p>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/#del_only</span>
+<span class="l l-Scalar l-Scalar-Plain">deletions_only</span>
+</pre></div>
+</div>
+<p>Output:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>---------------------------------------------------------------------------
+CHANGED: https://example.com/#del_only
+---------------------------------------------------------------------------
+--- @   Sat, 12 Jul 2020 00:00:00 +0000
+... @   Sat, 12 Jul 2020 01:00:00 +0000
+/**Comparison type: Deletions only**
+@@ -1,2 +1,2 @@
+-This is a line that has been deleted or changed
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="reports.html" class="btn btn-neutral float-right" title="Reports" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="configuration.html" class="btn btn-neutral float-left" title="Configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

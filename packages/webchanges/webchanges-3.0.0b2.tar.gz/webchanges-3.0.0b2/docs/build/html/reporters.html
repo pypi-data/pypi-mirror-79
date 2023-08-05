@@ -1,0 +1,595 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Reporters &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Advanced topics" href="advanced.html" />
+    <link rel="prev" title="Reports" href="reports.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diff_filters.html">Diff filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Reporters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#stdout">stdout</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#optional-directives"><strong>Optional directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#browser">Browser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#email">Email</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sub-directives"><strong>sub-directives</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#smtp">SMTP</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#smtp-login-with-keyring">SMTP login with keyring</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#smtp-sub-directives"><strong>SMTP sub-directives</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gmail-example">Gmail example</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#amazon-simple-email-service-ses-example">Amazon Simple Email Service (SES) example</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sendmail">sendmail</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#xmpp">XMPP</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#required-packages"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#slack">Slack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#telegram">Telegram</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pushover">Pushover</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pushbullet">Pushbullet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ifttt">IFTTT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#matrix">Matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mailgun">Mailgun</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id17"><strong>sub-directives</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Reporters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/reporters.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="reporters">
+<span id="id1"></span><h1>Reporters<a class="headerlink" href="#reporters" title="Permalink to this headline">¶</a></h1>
+<p>By default <cite>webchanges</cite> prints out information about changes to the data collected to standard output (<code class="docutils literal notranslate"><span class="pre">stdout</span></code>),
+which is your terminal if you run it interactively. If running via <cite>cron</cite> or another scheduler service, the destination
+of this output depends on the schedure and its configuration.</p>
+<p>You can change the settings to add or change where the report is sent to.  Settings are contained in the configuration
+file <code class="docutils literal notranslate"><span class="pre">webchanges.yaml</span></code>, a text file located in the <code class="docutils literal notranslate"><span class="pre">~\.urwatch\</span></code> directory (Linux) or in a <code class="docutils literal notranslate"><span class="pre">webchanges</span></code> folder
+within your Documents folder, i.e. <code class="docutils literal notranslate"><span class="pre">%USERPROFILE%/Documents/webchanges</span></code> (Windows) and editable using any text editor
+or with the command <code class="docutils literal notranslate"><span class="pre">webchanges</span> <span class="pre">--edit--config</span></code>.  The configuration for the reporters will be listed under the
+<code class="docutils literal notranslate"><span class="pre">reporters</span></code> section.</p>
+<p>Tip: to test a reporter, use the <code class="docutils literal notranslate"><span class="pre">--test-reporter</span></code> command-line option with the name of the reporter, e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">webchanges</span> <span class="o">--</span><span class="n">test</span><span class="o">-</span><span class="n">reporter</span> <span class="n">stdout</span>
+</pre></div>
+</div>
+<p><cite>webchanges</cite> will generate test  <code class="docutils literal notranslate"><span class="pre">new</span></code>, <code class="docutils literal notranslate"><span class="pre">changed</span></code>, <code class="docutils literal notranslate"><span class="pre">unchanged</span></code> and <code class="docutils literal notranslate"><span class="pre">error</span></code> notifications and send (the ones
+configured to be sent under <code class="docutils literal notranslate"><span class="pre">display</span></code>) via the <code class="docutils literal notranslate"><span class="pre">stdout</span></code> reporter (if it is enabled). Any reporter that is
+configured and enabled can be tested. To test if your email reporter is configured correctly, you use:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">webchanges</span> <span class="o">--</span><span class="n">test</span><span class="o">-</span><span class="n">reporter</span> <span class="n">email</span>
+</pre></div>
+</div>
+<p>If the test does not work, check your configuration and/or add the <code class="docutils literal notranslate"><span class="pre">--verbose</span></code> command-line option to show
+detailed debug logs:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">webchanges</span> <span class="o">--</span><span class="n">verbose</span> <span class="o">--</span><span class="n">test</span><span class="o">-</span><span class="n">reporter</span> <span class="n">email</span>
+</pre></div>
+</div>
+<p>At the moment, the following reporters are available</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#stdout"><span class="std std-ref">stdout</span></a> (enabled by default): Display summary on stdout (the console)</p></li>
+<li><p><a class="reference internal" href="#browser"><span class="std std-ref">Browser</span></a>: Display summary on the default web browser</p></li>
+<li><p><a class="reference internal" href="#email"><span class="std std-ref">Email</span></a>: Send summary via email (including SMTP)</p></li>
+<li><p><a class="reference internal" href="#xmpp"><span class="std std-ref">XMPP</span></a>: Send a message using the Extensible Messaging and Presence Protocol (XMPP)</p></li>
+<li><p><a class="reference internal" href="#slack"><span class="std std-ref">Slack</span></a>: Send a message to a Slack channel</p></li>
+<li><p><a class="reference internal" href="#telegram"><span class="std std-ref">Telegram</span></a>: Send a message using Telegram</p></li>
+<li><p><a class="reference internal" href="#pushbullet"><span class="std std-ref">Pushbullet</span></a>: Send summary via pushbullet.com</p></li>
+<li><p><a class="reference internal" href="#pushover"><span class="std std-ref">Pushover</span></a>: Send summary via pushover.net</p></li>
+<li><p><a class="reference internal" href="#ifttt"><span class="std std-ref">IFTTT</span></a>: Send summary via IFTTT</p></li>
+<li><p><a class="reference internal" href="#matrix"><span class="std std-ref">Matrix</span></a>: Send a message to a room using the Matrix protocol</p></li>
+<li><p><a class="reference internal" href="#mailgun"><span class="std std-ref">Mailgun</span></a>: Send email via the Mailgun service</p></li>
+</ul>
+<p>Each reporter has a directive called <code class="docutils literal notranslate"><span class="pre">enabled</span></code> that can be toggled (true/false).</p>
+<p>Please note that many reporters need additional Python packages installed to work, as noted below and in
+<a class="reference internal" href="dependencies.html#dependencies"><span class="std std-ref">Dependencies</span></a>.</p>
+<div class="section" id="stdout">
+<span id="id2"></span><h2>stdout<a class="headerlink" href="#stdout" title="Permalink to this headline">¶</a></h2>
+<p>Displays the summary in text format on stdout (the console)</p>
+<div class="section" id="optional-directives">
+<h3><strong>Optional directives</strong><a class="headerlink" href="#optional-directives" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>color: Uses color (green for additions, red for deletions) (true/false)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="browser">
+<span id="id3"></span><h2>Browser<a class="headerlink" href="#browser" title="Permalink to this headline">¶</a></h2>
+<p>Displays the summary in HTML format using the system’s default web browser</p>
+</div>
+<div class="section" id="email">
+<span id="id4"></span><h2>Email<a class="headerlink" href="#email" title="Permalink to this headline">¶</a></h2>
+<p>Sends email, via smtp or sendmail.</p>
+<div class="section" id="sub-directives">
+<h3><strong>sub-directives</strong><a class="headerlink" href="#sub-directives" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">method</span></code>: Either <cite>smtp</cite> or <cite>sendmail</cite></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">from</span></code>: The sender’s email address. <strong>Do not use your main email address</strong> but create a throwaway one!</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">to</span></code>: The destination email address</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">subject</span></code>: The subject line. Use {count} for the number of reports, {jobs} for the titles of the jobs reported</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">html</span></code>: Whether the email includes HTML (true/false)</p></li>
+</ul>
+</div>
+<div class="section" id="smtp">
+<h3>SMTP<a class="headerlink" href="#smtp" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="smtp-login-with-keyring">
+<span id="id5"></span><h4>SMTP login with keyring<a class="headerlink" href="#smtp-login-with-keyring" title="Permalink to this headline">¶</a></h4>
+<p>For added security, you can store your password on a keychain if you have one installed.  To do so, run <code class="docutils literal notranslate"><span class="pre">webchanges</span>
+<span class="pre">--smtp-login</span></code> and enter your password.  Note that this won’t allow you to run <cite>webchanges</cite> unattended
+(e.g. from a scheduler), so you can save it in the <code class="docutils literal notranslate"><span class="pre">insecure_password</span></code> directive in the SMTP config instead. However,
+as the name says, storing the password as plaintext in the configuration is insecure and bad practice,
+but for an email account that’s only dedicated for sending emails this might be a way.</p>
+<p><strong>Never ever use this method with your your primary email account!</strong></p>
+<p>Seriously! Create a throw-away Gmail (or other) account just for sending out these emails!</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">report</span><span class="p">:</span>
+  <span class="nt">email</span><span class="p">:</span>
+    <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">smtp</span>
+      <span class="l l-Scalar l-Scalar-Plain">auth</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="l l-Scalar l-Scalar-Plain">insecure_password</span><span class="p p-Indicator">:</span> <span class="s">&#39;this_is_my_secret_password&#39;</span>
+</pre></div>
+</div>
+<p>Once again, note that this makes it really easy for your password to be picked up by software running on your machine,
+by other users logged into the system and/or for the password to appear in log files accidentally.</p>
+</div>
+<div class="section" id="smtp-sub-directives">
+<h4><strong>SMTP sub-directives</strong><a class="headerlink" href="#smtp-sub-directives" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">host</span></code>: The address of the smtp server</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">port</span></code>: The port used to communicate with the server</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">starttls</span></code>: Whether the server uses TLS (secure)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">auth</span></code>: Whether authentication via username/password is required (true/false)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">user</span></code>: The username used to authenticate</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">insecure_password</span></code>: The passowrd used to authenticate (if no <code class="docutils literal notranslate"><span class="pre">keyring</span></code>)</p></li>
+</ul>
+</div>
+<div class="section" id="gmail-example">
+<h4>Gmail example<a class="headerlink" href="#gmail-example" title="Permalink to this headline">¶</a></h4>
+<p>WARNING: You <strong>do not want to do this with your primary Google account</strong>, but rather get a free separate one just for
+sending mails from <cite>webchanges</cite> and similar programs. Allowing less secure apps and storing the password (even if it’s
+in the keychain) is not good security practice for your primary account. You have been warned!</p>
+<p>First configure your Gmail account to allow for “less secure” (password-based) apps to login:</p>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://myaccount.google.com/">https://myaccount.google.com/</a></p></li>
+<li><p>Click on “Security”</p></li>
+<li><p>Scroll all the way down to “less secure apps access” and turn it on</p></li>
+</ol>
+<p>Then configure these directives as follows:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">report</span><span class="p">:</span>
+  <span class="nt">email</span><span class="p">:</span>
+    <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">from</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">your.username@gmail.com</span>  <span class="c1"># (edit accordingly; don&#39;t use your primary account for this!!)</span>
+    <span class="nt">to</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">your.destination@example.org</span>  <span class="c1"># The email address of where want to receive reports</span>
+    <span class="nt">subject</span><span class="p">:</span> <span class="s">&#39;{count}</span><span class="nv"> </span><span class="s">changes:</span><span class="nv"> </span><span class="s">{jobs}&#39;</span>
+    <span class="nt">html</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">smtp</span>
+      <span class="l l-Scalar l-Scalar-Plain">host</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">smtp.gmail.com</span>
+      <span class="l l-Scalar l-Scalar-Plain">insecure_password</span><span class="p p-Indicator">:</span> <span class="s">&#39;this_is_my_secret_password&#39;</span>
+      <span class="nt">auth</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">587</span>
+      <span class="nt">starttls</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="amazon-simple-email-service-ses-example">
+<h4>Amazon Simple Email Service (SES) example<a class="headerlink" href="#amazon-simple-email-service-ses-example" title="Permalink to this headline">¶</a></h4>
+<p>First ensure that you have configured SES as per the <a class="reference external" href="https://docs.aws.amazon.com/ses/latest/DeveloperGuide/quick-start.html">Quick start</a></p>
+<p>Create a user just for <cite>webchanges</cite> for security reasons (so you can easily recover from a compromised user/password
+leak from, e.g. from a scan of your jobs file), then configure these directives as follows:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">report</span><span class="p">:</span>
+  <span class="nt">email</span><span class="p">:</span>
+    <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">from</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">you@verified_domain.com</span>  <span class="c1"># (edit accordingly)</span>
+    <span class="nt">to</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">your.destination@example.org</span>  <span class="c1"># The email address you want to send reports to</span>
+    <span class="nt">subject</span><span class="p">:</span> <span class="s">&#39;{count}</span><span class="nv"> </span><span class="s">changes:</span><span class="nv"> </span><span class="s">{jobs}&#39;</span>
+    <span class="nt">html</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">smtp</span>
+      <span class="l l-Scalar l-Scalar-Plain">host</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">email-smtp.us-west-2.amazonaws.com</span>  <span class="c1"># (edit accordingly)</span>
+      <span class="nt">user</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ABCDEFGHIJ1234567890</span>  <span class="c1"># (edit  accordingly)</span>
+      <span class="nt">insecure_password</span><span class="p">:</span> <span class="s">&#39;this_is_my_secret_password&#39;</span>  <span class="c1"># (edit accordingly)</span>
+      <span class="nt">auth</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">587</span>  <span class="c1"># (25 or 465 also work)</span>
+      <span class="nt">starttls</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="sendmail">
+<span id="id6"></span><h3>sendmail<a class="headerlink" href="#sendmail" title="Permalink to this headline">¶</a></h3>
+<p>(Linux only)</p>
+<p>Calls the <a class="reference external" href="https://www.proofpoint.com/us/products/email-protection/open-source-email-solution">sendmail</a> program .</p>
+</div>
+</div>
+<div class="section" id="xmpp">
+<span id="id7"></span><h2>XMPP<a class="headerlink" href="#xmpp" title="Permalink to this headline">¶</a></h2>
+<p>You can have notifications sent to you through the <cite>XMPP protocol</cite>.</p>
+<p>To achieve this, you should register a new XMPP account that is just used for <cite>webchanges</cite>.</p>
+<p>Here is a sample configuration:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">xmpp</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">sender</span><span class="p">:</span> <span class="s">&#39;BOT_ACCOUNT_NAME&#39;</span>
+  <span class="nt">recipient</span><span class="p">:</span> <span class="s">&#39;YOUR_ACCOUNT_NAME&#39;</span>
+</pre></div>
+</div>
+<p>For added security, you can store your password on a keychain if you have one installed.  To do so, run <code class="docutils literal notranslate"><span class="pre">webchanges</span>
+<span class="pre">--xmpp-login</span></code> and enter your password.  Note that this won’t allow you to run <cite>webchanges</cite> unattended
+(e.g. from a scheduler), so you can save it in the <code class="docutils literal notranslate"><span class="pre">insecure_password</span></code> directive in the XMPP config instead. However,
+as the name says, storing the password as plaintext in the configuration is insecure and bad practice,
+but for an account that’s only dedicated for this purpose this might be a way.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">report</span><span class="p">:</span>
+  <span class="nt">xmpp</span><span class="p">:</span>
+    <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">sender</span><span class="p">:</span> <span class="s">&#39;BOT_ACCOUNT_NAME&#39;</span>
+    <span class="nt">recipient</span><span class="p">:</span> <span class="s">&#39;YOUR_ACCOUNT_NAME&#39;</span>
+    <span class="nt">insecure_password</span><span class="p">:</span> <span class="s">&#39;this_is_my_secret_password&#39;</span>
+</pre></div>
+</div>
+<div class="section" id="required-packages">
+<h3><strong>Required packages</strong><a class="headerlink" href="#required-packages" title="Permalink to this headline">¶</a></h3>
+<p>To run jobs with this filter, you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>xmpp<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="slack">
+<span id="id8"></span><h2>Slack<a class="headerlink" href="#slack" title="Permalink to this headline">¶</a></h2>
+<p>Slack notifications are configured using “Slack Incoming Webhooks”. Here is a sample configuration:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">slack</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">webhook_url</span><span class="p">:</span> <span class="s">&#39;https://hooks.slack.com/services/T50TXXXXXU/BDVYYYYYYY/PWTqwyFM7CcCfGnNzdyDYZ&#39;</span>
+</pre></div>
+</div>
+<p>To set up Slack, from you Slack Team, create a new app and activate “Incoming Webhooks” on a channel, you’ll get a
+webhook URL, copy it into the configuration as seen above.</p>
+</div>
+<div class="section" id="telegram">
+<span id="id9"></span><h2>Telegram<a class="headerlink" href="#telegram" title="Permalink to this headline">¶</a></h2>
+<p>Telegram notifications are configured using the Telegram Bot API. For this, you’ll need a Bot API token and a chat id
+(see <a class="reference external" href="https://core.telegram.org/bots">https://core.telegram.org/bots</a>). Sample configuration:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">telegram</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">bot_token</span><span class="p">:</span> <span class="s">&#39;999999999:3tOhy2CuZE0pTaCtszRfKpnagOG8IQbP5gf&#39;</span> <span class="c1"># your bot api token</span>
+  <span class="nt">chat_id</span><span class="p">:</span> <span class="s">&#39;88888888&#39;</span> <span class="c1"># the chat id where the messages should be sent</span>
+</pre></div>
+</div>
+<p>To set up Telegram, from your Telegram app, chat up BotFather (New Message, Search, “BotFather”), then say <code class="docutils literal notranslate"><span class="pre">/newbot</span></code>
+and follow the instructions. Eventually it will tell you the bot token (in the form seen above,
+<code class="docutils literal notranslate"><span class="pre">&lt;number&gt;:&lt;random</span> <span class="pre">string&gt;</span></code>) - add this to your config file.</p>
+<p>You can then click on the link of your bot, which will send the message <code class="docutils literal notranslate"><span class="pre">/start</span></code>. At this point, you can use the
+command <code class="docutils literal notranslate"><span class="pre">webchanges</span> <span class="pre">--telegram-chats</span></code> to list the private chats the bot is involved with. This is the chat ID that you
+need to put into the config file as <code class="docutils literal notranslate"><span class="pre">chat_id</span></code>. You may add multiple chat IDs as a YAML list:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">telegram</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">bot_token</span><span class="p">:</span> <span class="s">&#39;999999999:3tOhy2CuZE0pTaCtszRfKpnagOG8IQbP5gf&#39;</span> <span class="c1"># your bot api token</span>
+  <span class="nt">chat_id</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="s">&#39;11111111&#39;</span>
+    <span class="p p-Indicator">-</span> <span class="s">&#39;22222222&#39;</span>
+</pre></div>
+</div>
+<p>Don’t forget to also enable the reporter.</p>
+</div>
+<div class="section" id="pushover">
+<span id="id10"></span><h2>Pushover<a class="headerlink" href="#pushover" title="Permalink to this headline">¶</a></h2>
+<p>You can configure webchanges to send real time notifications about changes via <a class="reference external" href="https://pushover.net/">Pushover</a>.
+To enable this, ensure you
+have the <code class="docutils literal notranslate"><span class="pre">chump</span></code> python package installed (see <a class="reference internal" href="dependencies.html"><span class="doc">Dependencies</span></a>). Then edit your config (<code class="docutils literal notranslate"><span class="pre">webchanges</span>
+<span class="pre">--edit-config</span></code>) and enable pushover. You will also need to add to the config your Pushover user key and a unique app
+key (generated by registering webchanges as an application on your <a class="reference external" href="https://pushover.net/apps/build">Pushover account</a>.</p>
+<p>You can send to a specific device by using the device name, as indicated when you add or view your list of devices in
+the Pushover console. For example <code class="docutils literal notranslate"><span class="pre">device:</span>&#160; <span class="pre">'MyPhone'</span></code>, or <code class="docutils literal notranslate"><span class="pre">device:</span> <span class="pre">'MyLaptop'</span></code>. To send to <em>all</em> of your devices,
+set <code class="docutils literal notranslate"><span class="pre">device:</span> <span class="pre">null</span></code> in your config (<code class="docutils literal notranslate"><span class="pre">webchanges</span> <span class="pre">--edit-config</span></code>) or leave out the device configuration completely.</p>
+<p>Setting the priority is possible via the <code class="docutils literal notranslate"><span class="pre">priority</span></code> config option, which can be <code class="docutils literal notranslate"><span class="pre">lowest</span></code>, <code class="docutils literal notranslate"><span class="pre">low</span></code>, <code class="docutils literal notranslate"><span class="pre">normal</span></code>,
+<code class="docutils literal notranslate"><span class="pre">high</span></code> or <code class="docutils literal notranslate"><span class="pre">emergency</span></code>. Any other setting (including leaving the option unset) maps to <code class="docutils literal notranslate"><span class="pre">normal</span></code>.</p>
+<div class="section" id="id11">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>To use this report you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>pushover<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="pushbullet">
+<span id="id12"></span><h2>Pushbullet<a class="headerlink" href="#pushbullet" title="Permalink to this headline">¶</a></h2>
+<p>Pushbullet notifications are configured similarly to Pushover (see above). You’ll need to add to the config your
+Pushbullet Access Token, which you can generate at <a class="reference external" href="https://www.pushbullet.com/#settings">https://www.pushbullet.com/#settings</a></p>
+<div class="section" id="id13">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p>To use this report you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>pushbullet<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="ifttt">
+<span id="id14"></span><h2>IFTTT<a class="headerlink" href="#ifttt" title="Permalink to this headline">¶</a></h2>
+<p>To configure IFTTT events, you need to retrieve your key from <a class="reference external" href="https://ifttt.com/maker_webhooks/settings">https://ifttt.com/maker_webhooks/settings</a>.</p>
+<p>The URL shown in “Account Info” has the following format:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">maker</span><span class="o">.</span><span class="n">ifttt</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">use</span><span class="o">/</span><span class="p">{</span><span class="n">key</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>In this URL, <code class="docutils literal notranslate"><span class="pre">{key}</span></code> is your API key. The configuration should look like this (you can pick any event name you want):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">ifttt</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">aA12abC3D456efgHIjkl7m</span>
+  <span class="nt">event</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">event_name_you_want</span>
+</pre></div>
+</div>
+<p>The event will contain three values in the posted JSON:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">value1</span></code>: The type of change (<code class="docutils literal notranslate"><span class="pre">new</span></code>, <code class="docutils literal notranslate"><span class="pre">changed</span></code>, <code class="docutils literal notranslate"><span class="pre">unchanged</span></code> or <code class="docutils literal notranslate"><span class="pre">error</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">value2</span></code>: The name of the job (<code class="docutils literal notranslate"><span class="pre">name</span></code> directive in <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">value3</span></code>: The location of the job (<code class="docutils literal notranslate"><span class="pre">url</span></code> or <code class="docutils literal notranslate"><span class="pre">command</span></code> directive in <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code>)</p></li>
+</ul>
+<p>These values will be passed on to the Action in your Recipe.</p>
+</div>
+<div class="section" id="matrix">
+<span id="id15"></span><h2>Matrix<a class="headerlink" href="#matrix" title="Permalink to this headline">¶</a></h2>
+<p>Sends notifications through the <a class="reference external" href="https://matrix.org">Matrix protocol</a>.</p>
+<p>You first need to register a Matrix account for the bot on any home server.</p>
+<p>You then need to acquire an access token and room ID, using the following instructions adapted from <a class="reference external" href="https://t2bot.io/docs/access_tokens/">this
+guide</a>:</p>
+<ol class="arabic simple">
+<li><p>Open <a class="reference external" href="https://riot.im/app/">Riot.im</a> in a private browsing window</p></li>
+<li><p>Register/Log in as your bot, using its user ID and password.</p></li>
+<li><p>Set the display name and avatar, if desired.</p></li>
+<li><p>In the settings page, select the “Help &amp; About” tab, scroll down to the bottom and click Access Token:
+&lt;click to reveal&gt;.</p></li>
+<li><p>Copy the highlighted text to your configuration.</p></li>
+<li><p>Join the room that you wish to send notifications to.</p></li>
+<li><p>Go to the Room Settings (gear icon) and copy the <em>Internal Room ID</em> from the bottom.</p></li>
+<li><p>Close the private browsing window <strong>but do not log out, as this invalidates the Access Token</strong>.</p></li>
+</ol>
+<p>Here is a sample configuration:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">matrix</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">homeserver</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://matrix.org</span>
+  <span class="nt">access_token</span><span class="p">:</span> <span class="s">&#39;YOUR_TOKEN_HERE&#39;</span>
+  <span class="nt">room_id</span><span class="p">:</span> <span class="s">&#39;!roomroomroom:matrix.org&#39;</span>
+</pre></div>
+</div>
+<p>You will probably want to use the following configuration for the <code class="docutils literal notranslate"><span class="pre">markdown</span></code> reporter, if you intend to post change
+notifications to a public Matrix room, as the messages quickly become noisy:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">markdown</span><span class="p">:</span>
+  <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">details</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="nt">footer</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+  <span class="nt">minimal</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="mailgun">
+<span id="id16"></span><h2>Mailgun<a class="headerlink" href="#mailgun" title="Permalink to this headline">¶</a></h2>
+<p>Sends email using the commercial <a class="reference external" href="https://www.mailgun.com/">Mailgun</a> service.</p>
+<div class="section" id="id17">
+<h3><strong>sub-directives</strong><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">domain</span></code>: The domain</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">api_key</span></code>: API key (see <a class="reference external" href="https://help.mailgun.com/hc/en-us/articles/203380100-Where-Can-I-Find-My-API-Key-and-SMTP-Credentials-">here</a>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">from_name</span></code>: Sender’s name</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">from_mail</span></code>: Sender’s email address</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">to</span></code>: Recipient’s email address</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">subject</span></code>: The subject line. Use {count} for the number of reports, {jobs} for the titles of the jobs reported</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">region</span></code> (optional)</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="advanced.html" class="btn btn-neutral float-right" title="Advanced topics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="reports.html" class="btn btn-neutral float-left" title="Reports" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

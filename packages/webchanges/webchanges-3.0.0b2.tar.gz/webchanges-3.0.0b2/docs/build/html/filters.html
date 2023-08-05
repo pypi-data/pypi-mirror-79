@@ -1,0 +1,877 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Filters &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Configuration" href="configuration.html" />
+    <link rel="prev" title="Jobs" href="jobs.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Filters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#css-and-xpath">css and xpath</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#using-css-and-xpath-filters-with-xml-and-exclusions">Using CSS and XPath filters with XML and exclusions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#limiting-the-returned-items-from-a-css-selector-or-xpath">Limiting the returned items from a CSS Selector or XPath</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#duplicated-results">Duplicated results</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#optional-directives"><strong>Optional directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#element-by">element-by-</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#html2text">html2text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5"><strong>Optional directives</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id6"><code class="docutils literal notranslate"><span class="pre">html2text</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bs4"><code class="docutils literal notranslate"><span class="pre">bs4</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#re"><code class="docutils literal notranslate"><span class="pre">re</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#beautify">beautify</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pdf2text">pdf2text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11"><strong>Optional sub-directives</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#format-json">format-json</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id14"><strong>Optional sub-directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#format-xml">format-xml</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ical2text">ical2text</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id17"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#hexdump">hexdump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sha1sum">sha1sum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#keep-lines-containing">keep_lines_containing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#delete-lines-containing">delete_lines_containing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#re-sub">re.sub</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id23"><strong>Optional sub-directives</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#strip">strip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sort">sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reverse">reverse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ocr">ocr</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id28"><strong>Optional sub-directives</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id29"><strong>Required packages</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#shellpipe">shellpipe</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diff_filters.html">Diff filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Filters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/filters.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="filters">
+<span id="id1"></span><h1>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h1>
+<p>Filters can be applied at either of two stages of processing:</p>
+<ul class="simple">
+<li><p>Applied to the downloaded data before storing it and diffing for changes (<code class="docutils literal notranslate"><span class="pre">filter</span></code>)</p></li>
+<li><p>Applied to the diff result before reporting the changes (<code class="docutils literal notranslate"><span class="pre">diff_filter</span></code>)</p></li>
+</ul>
+<p>While creating your job pipeline, you might want to preview what the filtered output looks like. For filters applied
+to the data, you can run <cite>webchanges</cite> with the <code class="docutils literal notranslate"><span class="pre">--test-filter</span></code> command-line option, passing in the index (from
+<code class="docutils literal notranslate"><span class="pre">--list</span></code>) or the URL/command of the job to be tested:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">webchanges</span> <span class="o">--</span><span class="n">test</span> <span class="mi">1</span>   <span class="c1"># Test the first job in the list and show the data colleted after it&#39;s filtered</span>
+<span class="n">webchanges</span> <span class="o">--</span><span class="n">test</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">example</span><span class="o">.</span><span class="n">net</span><span class="o">/</span>  <span class="c1"># Test the job that matches the given URL</span>
+</pre></div>
+</div>
+<p>This command will show the output that will be captured and stored, and used to compare to the old version stored from
+a previous run against the same url or shell command.</p>
+<p>Once <cite>webchanges</cite> has collected at least 2 historic snapshots of a job (two different states of a webpage) you can start
+testing the effects of your <code class="docutils literal notranslate"><span class="pre">diff_filter</span></code> with the command-line option <code class="docutils literal notranslate"><span class="pre">--test-diff</span></code>, passing in the index (from
+<code class="docutils literal notranslate"><span class="pre">--list</span></code>) or the URL/command of the job to be tested, which using the historic data saved locally in the cache:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">webchanges</span> <span class="o">--</span><span class="n">test</span><span class="o">-</span><span class="n">diff</span> <span class="mi">1</span>   <span class="c1"># Test the first job in the list and show the report</span>
+</pre></div>
+</div>
+<p>At the moment, the following filters are available:</p>
+<ul class="simple">
+<li><p>To select HTML (or XML) elements:</p>
+<ul>
+<li><p><a class="reference internal" href="#css-and-xpath"><span class="std std-ref">css</span></a>: Filter XML/HTML using CSS selectors</p></li>
+<li><p><a class="reference internal" href="#css-and-xpath"><span class="std std-ref">xpath</span></a>: Filter XML/HTML using XPath expressions</p></li>
+<li><p><a class="reference internal" href="#element-by"><span class="std std-ref">element-by-class</span></a>: Get all HTML elements by class</p></li>
+<li><p><a class="reference internal" href="#element-by"><span class="std std-ref">element-by-id</span></a>: Get an HTML element by its ID</p></li>
+<li><p><a class="reference internal" href="#element-by"><span class="std std-ref">element-by-style</span></a>: Get all HTML elements by style</p></li>
+<li><p><a class="reference internal" href="#element-by"><span class="std std-ref">element-by-tag</span></a>: Get an HTML element by its tag</p></li>
+</ul>
+</li>
+<li><p>To make HTML more readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#html2text"><span class="std std-ref">html2text</span></a>: Convert HTML to plaintext</p></li>
+<li><p><a class="reference internal" href="#beautify"><span class="std std-ref">beautify</span></a>: Beautify HTML</p></li>
+</ul>
+</li>
+<li><p>To make PDFs readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#pdf2text"><span class="std std-ref">pdf2text</span></a>: Convert PDF to plaintext</p></li>
+</ul>
+</li>
+<li><p>To extract text from images:</p>
+<ul>
+<li><p><a class="reference internal" href="#ocr"><span class="std std-ref">ocr</span></a>: Extract text from images</p></li>
+</ul>
+</li>
+<li><p>To make JSON more readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#format-json"><span class="std std-ref">format-json</span></a>: Reformat (pretty-print) JSON</p></li>
+</ul>
+</li>
+<li><p>To make XML more readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#format-xml"><span class="std std-ref">format-xml</span></a>: Reformat (pretty-print) XML</p></li>
+</ul>
+</li>
+<li><p>To make iCal more readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#ical2text"><span class="std std-ref">ical2text</span></a>: Convert iCalendar to plaintext</p></li>
+</ul>
+</li>
+<li><p>To make binary readable:</p>
+<ul>
+<li><p><a class="reference internal" href="#hexdump"><span class="std std-ref">hexdump</span></a>: Display data in hex dump format</p></li>
+</ul>
+</li>
+<li><p>To just detect changes:</p>
+<ul>
+<li><p><a class="reference internal" href="#sha1sum"><span class="std std-ref">sha1sum</span></a>: Calculate the SHA-1 checksum of the data</p></li>
+</ul>
+</li>
+<li><p>To edit/filter text:</p>
+<ul>
+<li><p><a class="reference internal" href="#keep-lines-containing"><span class="std std-ref">keep_lines_containing</span></a>: Keep only lines matching a regular expression</p></li>
+<li><p><a class="reference internal" href="#delete-lines-containing"><span class="std std-ref">delete_lines_containing</span></a>: Delete lines matching a regular expression</p></li>
+<li><p><a class="reference internal" href="#re-sub"><span class="std std-ref">re.sub</span></a>: Replace or remove text matching a regular expression</p></li>
+<li><p><a class="reference internal" href="#strip"><span class="std std-ref">strip</span></a>: Strip leading and trailing whitespace</p></li>
+<li><p><a class="reference internal" href="#sort"><span class="std std-ref">sort</span></a>: Sort lines</p></li>
+<li><p><a class="reference internal" href="#reverse"><span class="std std-ref">reverse</span></a>: Reverse the order of items (lines)</p></li>
+</ul>
+</li>
+<li><p>Any custom script or program:</p>
+<ul>
+<li><p><a class="reference internal" href="#shellpipe"><span class="std std-ref">shellpipe</span></a>: Run a program or custom script</p></li>
+</ul>
+</li>
+</ul>
+<p>Python programmers can write their own plug-in that could include filters; see <a class="reference internal" href="hooks.html#hooks"><span class="std std-ref">Hooks</span></a>.</p>
+<div class="section" id="css-and-xpath">
+<span id="id2"></span><h2>css and xpath<a class="headerlink" href="#css-and-xpath" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">css</span></code> filter extracts content based on a <a class="reference external" href="https://www.w3.org/TR/selectors/">CSS selector</a>. It uses the
+<a class="reference external" href="https://pypi.org/project/cssselect/">cssselect</a> Python package, which has limitations and extensions as explained
+in its <a class="reference external" href="https://cssselect.readthedocs.io/en/latest/#supported-selectors">documentation</a>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">xpath</span></code> filter extracts content based on a <a class="reference external" href="https://www.w3.org/TR/xpath">XPath</a> expression.</p>
+<p>Examples: to filter only the <code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code> element of the HTML document, stripping out everything else:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/css.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ul#groceries &gt; li.unchecked</span>
+</pre></div>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/xpath.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">xpath</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/html/body/marquee</span>
+</pre></div>
+</div>
+<p>See Microsoft’s <a class="reference external" href="https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx">XPath Examples</a> page for some
+other examples</p>
+<div class="section" id="using-css-and-xpath-filters-with-xml-and-exclusions">
+<h3>Using CSS and XPath filters with XML and exclusions<a class="headerlink" href="#using-css-and-xpath-filters-with-xml-and-exclusions" title="Permalink to this headline">¶</a></h3>
+<p>By default, CSS and XPath filters are set up for HTML documents, but it is possible to use them for XML documents as
+well.</p>
+<p>Example to parse an RSS feed and filter only the titles and publication dates:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/blog/css-index.rss</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span>
+      <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">xml</span>
+      <span class="nt">selector</span><span class="p">:</span> <span class="s">&#39;item</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">title,</span><span class="nv"> </span><span class="s">item</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">pubDate&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">re</span>
+</pre></div>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/blog/xpath-index.rss</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">xpath</span><span class="p">:</span>
+      <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">xml</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="s">&#39;//item/title/text()|//item/pubDate/text()&#39;</span>
+</pre></div>
+</div>
+<p>To match an element in an <a class="reference external" href="https://www.w3.org/TR/xml-names/">XML namespace</a>, use a namespace prefix before the tag
+name. Use a <code class="docutils literal notranslate"><span class="pre">|</span></code> to seperate the namespace prefix and the tag name in a CSS selector, and use a <code class="docutils literal notranslate"><span class="pre">:</span></code> in an XPath
+expression.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/feed/css-namespace.xml</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span>
+      <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">xml</span>
+      <span class="nt">selector</span><span class="p">:</span> <span class="s">&#39;item</span><span class="nv"> </span><span class="s">&gt;</span><span class="nv"> </span><span class="s">media|keywords&#39;</span>
+      <span class="nt">namespaces</span><span class="p">:</span>
+        <span class="nt">media</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://search.yahoo.com/mrss/</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">html2text</span>
+</pre></div>
+</div>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/feed/xpath-namespace.xml</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">xpath</span><span class="p">:</span>
+      <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">xml</span>
+      <span class="nt">path</span><span class="p">:</span> <span class="s">&#39;//item/media:keywords/text()&#39;</span>
+      <span class="nt">namespaces</span><span class="p">:</span>
+        <span class="nt">media</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://search.yahoo.com/mrss/</span>
+</pre></div>
+</div>
+<p>Alternatively, use the XPath expression <code class="docutils literal notranslate"><span class="pre">//*[name()='&lt;tag_name&gt;']</span></code> to bypass the namespace entirely.</p>
+<p>Another useful option with XPath and CSS filters is <code class="docutils literal notranslate"><span class="pre">exclude</span></code>. Elements selected by this <code class="docutils literal notranslate"><span class="pre">exclude</span></code> expression are
+removed from the final result. For example, the following job will not have any <code class="docutils literal notranslate"><span class="pre">&lt;a&gt;</span></code> tag in its results:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/css-exclude.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span>
+      <span class="nt">selector</span><span class="p">:</span> <span class="s">&#39;body&#39;</span>
+      <span class="nt">exclude</span><span class="p">:</span> <span class="s">&#39;a&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="limiting-the-returned-items-from-a-css-selector-or-xpath">
+<h3>Limiting the returned items from a CSS Selector or XPath<a class="headerlink" href="#limiting-the-returned-items-from-a-css-selector-or-xpath" title="Permalink to this headline">¶</a></h3>
+<p>If you only want to return a subset of the items returned by a CSS selector or XPath filter, you can use two additional
+subfilters:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">skip</span></code>: How many elements to skip from the beginning (default: 0)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">maxitems</span></code>: How many elements to return at most (default: no limit)</p></li>
+</ul>
+<p>For example, if the page has multiple elements, but you only want to select the second and third matching element (skip
+the first, and return at most two elements), you can use this filter:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/css-skip-maxitems.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span>
+      <span class="nt">selector</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">div.cpu</span>
+      <span class="nt">skip</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+      <span class="nt">maxitems</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="duplicated-results">
+<h3>Duplicated results<a class="headerlink" href="#duplicated-results" title="Permalink to this headline">¶</a></h3>
+<p>If you get multiple results from one page, but you only expected one (e.g. because the page contains both a mobile and
+desktop version in the same HTML document, and shows/hides one via CSS depending on the viewport size), you can use
+‘<code class="docutils literal notranslate"><span class="pre">maxitems:</span> <span class="pre">1</span></code>’ to only return the first item.</p>
+</div>
+<div class="section" id="optional-directives">
+<h3><strong>Optional directives</strong><a class="headerlink" href="#optional-directives" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">selector</span></code> (for css) or <code class="docutils literal notranslate"><span class="pre">path</span></code> (for xpath) [can be entered as the value of the <cite>xpath</cite> or <cite>css</cite> directive]</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">method</span></code>: Either of <code class="docutils literal notranslate"><span class="pre">html</span></code> (default) or <code class="docutils literal notranslate"><span class="pre">xml</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">namespaces</span></code> Mapping of XML namespaces for matching</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">exclude</span></code>: Elements to remove from the final result</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">skip</span></code>: ‘Number of elements to skip from the beginning (default: 0)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">maxitems</span></code>: Maximum numbe of items to be returned</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="element-by">
+<span id="id3"></span><h2>element-by-<a class="headerlink" href="#element-by" title="Permalink to this headline">¶</a></h2>
+<p>The filters <strong>element-by-class</strong>, <strong>element-by-id</strong>, <strong>element-by-style</strong>,
+and <strong>element-by-tag</strong> allow you to select all matching instances of a given
+HTML element.</p>
+<p>Examples:</p>
+<p>To extract only the <code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code> of a page:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/bodytag.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">element-by-tag</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">body</span>
+</pre></div>
+</div>
+<p>To extract <code class="docutils literal notranslate"><span class="pre">&lt;div</span> <span class="pre">id=&quot;something&quot;&gt;.../&lt;div&gt;</span></code> from a page:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/idtest.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">element-by-id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">something</span>
+</pre></div>
+</div>
+<p>Since you can chain filters, use this to extract an element within another element:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/idtest_2.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">element-by-id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">outer_container</span>
+  <span class="p p-Indicator">-</span> <span class="nt">element-by-id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">something_inside</span>
+</pre></div>
+</div>
+<p>To make the output human-friendly you can chain html2text on the result:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/id2text.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">element-by-id</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">something</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pyhtml2text</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="html2text">
+<span id="id4"></span><h2>html2text<a class="headerlink" href="#html2text" title="Permalink to this headline">¶</a></h2>
+<p>This filter converts HTML (or XML) to plaintext</p>
+<div class="section" id="id5">
+<h3><strong>Optional directives</strong><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">method</span></code>: One of:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">html2text</span></code>: Uses the <a class="reference external" href="https://pypi.org/project/html2text/">html2text</a> Python package (default)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">bs4</span></code>: Uses the <a class="reference external" href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a> Python package</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">re</span></code>: a simple regex-based tag stripper</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<div class="section" id="id6">
+<h4><code class="docutils literal notranslate"><span class="pre">html2text</span></code><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<p>This filter converts HTML into <a class="reference external" href="https://www.markdownguide.org/">Markdown</a>.
+using the <a class="reference external" href="https://pypi.org/project/html2text/">html2text</a> Python package.</p>
+<p>It is the recommended option to convert all types of HTML into readable text.</p>
+<p>Example configuration:</p>
+<p>Note: If the content has tables, adding the sub-directive <cite>pad_tables: true</cite> <em>may</em> improve readability.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/html2text.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">xpath</span><span class="p">:</span> <span class="s">&#39;//section[@role=&quot;main&quot;]&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span>
+      <span class="nt">pad_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<div class="section" id="optional-sub-directives">
+<h5><strong>Optional sub-directives</strong><a class="headerlink" href="#optional-sub-directives" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p>See <a class="reference external" href="https://github.com/Alir3z4/html2text/blob/master/docs/usage.md#available-options">documentation</a></p></li>
+<li><p>Note that the following options are set by default (but can be overridden): ensure that accented
+characters are kept as they are (<cite>unicode_snob: true</cite>), lines aren’t chopped up
+(<cite>body_width: 0</cite>), additional empty lines aren’t added between sections
+(<cite>single_line_break: true</cite>), and images are ignored (<cite>ignore_images: true</cite>).</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="bs4">
+<h4><code class="docutils literal notranslate"><span class="pre">bs4</span></code><a class="headerlink" href="#bs4" title="Permalink to this headline">¶</a></h4>
+<p>This filter extract unfromatted text from HTML using the <a class="reference external" href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, specifically its
+<a class="reference external" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text">get_text(strip=True)</a> method.</p>
+<p>Note that as of Beautiful Soup version 4.9.0, when lxml or html.parser are in use, the contents of &lt;script&gt;, &lt;style&gt;,
+and &lt;template&gt; tags are not considered to be ‘text’, since those tags are not part of the human-visible content of the
+page.</p>
+<div class="section" id="id7">
+<h5><strong>Optional sub-directives</strong><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h5>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">parser</span></code> (defaults to <code class="docutils literal notranslate"><span class="pre">lxml</span></code>): as per <a class="reference external" href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#specifying-the-parser-to-use">documentation</a></p></li>
+</ul>
+</div>
+<div class="section" id="required-packages">
+<h5><strong>Required packages</strong><a class="headerlink" href="#required-packages" title="Permalink to this headline">¶</a></h5>
+<p>To run jobs with this filter, you need to have additional Python package(s) installed.</p>
+<p>Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>bs4<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="re">
+<h4><code class="docutils literal notranslate"><span class="pre">re</span></code><a class="headerlink" href="#re" title="Permalink to this headline">¶</a></h4>
+<p>A simple HTML/XML tag stripper based on applying a regex.  Very fast but may
+not yield the prettiest results.</p>
+</div>
+</div>
+</div>
+<div class="section" id="beautify">
+<span id="id8"></span><h2>beautify<a class="headerlink" href="#beautify" title="Permalink to this headline">¶</a></h2>
+<p>This filter uses the <a class="reference external" href="https://pypi.org/project/beautifulsoup4/">BeautifulSoup</a>, <a class="reference external" href="https://pypi.org/project/jsbeautifier/">jsbeautifier</a> and <a class="reference external" href="https://pypi.org/project/cssbeautifier/">cssbeautifier</a> Python packages to reformat an
+HTML document to make it more readable.</p>
+<div class="section" id="id9">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>To run jobs with this filter, you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>beautify<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="pdf2text">
+<span id="id10"></span><h2>pdf2text<a class="headerlink" href="#pdf2text" title="Permalink to this headline">¶</a></h2>
+<p>This filter converts a PDF file to plaintext using the <a class="reference external" href="https://github.com/jalan/pdftotext/blob/master/README.md#pdftotext">pdftotext</a> Python
+library, itself based on the <a class="reference external" href="https://poppler.freedesktop.org/">Poppler</a>
+library.</p>
+<p>This filter <em>must</em> be the first filter in a chain of filters.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/pdf-test.pdf</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">pdf2text</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">strip</span>
+</pre></div>
+</div>
+<p>If the PDF file is password protected, you can specify its password:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/pdf-test-password.pdf</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">pdf2text</span><span class="p">:</span>
+      <span class="nt">password</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">webchangessecret</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">strip</span>
+</pre></div>
+</div>
+<div class="section" id="id11">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">password</span></code>: password for a password-protected PDF file</p></li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>To run jobs with this filter, you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>pdf2text<span class="o">]</span>
+</pre></div>
+</div>
+<p>In addition, you need to install any of the OS-specific dependencies of Poppler (see
+<a class="reference external" href="https://github.com/jalan/pdftotext/blob/master/README.md#os-dependencies">website</a>).</p>
+<p>Example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Convert PDF to text</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/sample.pdf</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">pdf2text</span><span class="p">:</span>
+      <span class="nt">password</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pdfpassword</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="format-json">
+<span id="id13"></span><h2>format-json<a class="headerlink" href="#format-json" title="Permalink to this headline">¶</a></h2>
+<p>This filter deserializes a JSON object and reformats it using Python’s <a class="reference external" href="https://docs.python.org/3/library/json.html#json.dumps">json.dumps</a> with indentations.</p>
+<div class="section" id="id14">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">indentation</span></code> (defaults to 4): indent to pretty-print JSON array elements. <code class="docutils literal notranslate"><span class="pre">None</span></code> selects the most compact</dt><dd><p>representation.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="format-xml">
+<span id="id15"></span><h2>format-xml<a class="headerlink" href="#format-xml" title="Permalink to this headline">¶</a></h2>
+<p>This filter deserializes an XML object and reformats it using the <a class="reference external" href="https://lxml.de">lxml</a> Python package’s
+etree.tostring <a class="reference external" href="https://lxml.de/apidoc/lxml.etree.html#lxml.etree.tostring">pretty_print</a> option.</p>
+</div>
+<div class="section" id="ical2text">
+<span id="id16"></span><h2>ical2text<a class="headerlink" href="#ical2text" title="Permalink to this headline">¶</a></h2>
+<p>This filter reads an iCalendar document and converts them to easy-to read text</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Make</span><span class="nv"> </span><span class="s">iCal</span><span class="nv"> </span><span class="s">file</span><span class="nv"> </span><span class="s">readable</span><span class="nv"> </span><span class="s">test&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/cal.ics</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">ical2text</span><span class="p">:</span>
+</pre></div>
+</div>
+<div class="section" id="id17">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p>To run jobs with this filter, you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>ical2text<span class="o">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="hexdump">
+<span id="id18"></span><h2>hexdump<a class="headerlink" href="#hexdump" title="Permalink to this headline">¶</a></h2>
+<p>This filter display the contents both in binary and ASCII (hex dump format).</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Display binary and ASCII test</span>
+<span class="nt">command</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">cat testfile</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">hexdump</span><span class="p">:</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="sha1sum">
+<span id="id19"></span><h2>sha1sum<a class="headerlink" href="#sha1sum" title="Permalink to this headline">¶</a></h2>
+<p>This filter calculates a SHA-1 hash for the document,</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Calculate</span><span class="nv"> </span><span class="s">SHA-1</span><span class="nv"> </span><span class="s">hash</span><span class="nv"> </span><span class="s">test&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/sha.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">sha1sum</span><span class="p">:</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="keep-lines-containing">
+<span id="id20"></span><h2>keep_lines_containing<a class="headerlink" href="#keep-lines-containing" title="Permalink to this headline">¶</a></h2>
+<p>This filter <em>emulates</em> Linux’s <cite>grep</cite> using Pyton’s
+<a class="reference external" href="https://docs.python.org/3/library/re.html">regular expression matching</a>
+(regex) and keeps only lines that match the pattern, discarding the others.
+Note that mothwistanding its name, this filter <strong>does not</strong> use the executable
+<cite>grep</cite>.</p>
+<p>Example: convert HTML to text, strip whitespace, and only keep lines that have the sequence <code class="docutils literal notranslate"><span class="pre">a,b:</span></code> in them:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Keep line matching test</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/keep_lines_containing.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">strip</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">keep_lines_containing</span><span class="p">:</span>
+      <span class="nt">re</span><span class="p">:</span> <span class="s">&#39;a,b:&#39;</span>
+</pre></div>
+</div>
+<p>Example: keep only lines that contain “error” irrespective of its case (e.g. Error, ERROR, etc.):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Lines</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">error</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">them,</span><span class="nv"> </span><span class="s">case</span><span class="nv"> </span><span class="s">insensitive&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/keep_lines_containing_i.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">keep_lines_containing</span><span class="p">:</span>
+      <span class="nt">re</span><span class="p">:</span> <span class="s">&#39;(?i)error&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="delete-lines-containing">
+<span id="id21"></span><h2>delete_lines_containing<a class="headerlink" href="#delete-lines-containing" title="Permalink to this headline">¶</a></h2>
+<p>This filter is the inverse of <code class="docutils literal notranslate"><span class="pre">keep_lines_containing</span></code> above and keeps only lines that do
+not match the text or the <a class="reference external" href="https://docs.python.org/3/library/re.html#regular-expression-syntax">regular expression</a>,
+discarding the others.</p>
+<p>Example: eliminate lines that contain “xyz”:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Lines</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">error</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">them,</span><span class="nv"> </span><span class="s">case</span><span class="nv"> </span><span class="s">insensitive&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/delete_lines_containing.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">delete_lines_containing</span><span class="p">:</span> <span class="s">&#39;xyz&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="re-sub">
+<span id="id22"></span><h2>re.sub<a class="headerlink" href="#re-sub" title="Permalink to this headline">¶</a></h2>
+<p>This filter removes or replaces text using <a class="reference external" href="https://docs.python.org/3/library/re.html#regular-expression-syntax">regular expressions</a>.</p>
+<ol class="arabic simple">
+<li><p>Just specifying a string as the value will remove the matches.</p></li>
+<li><p>Simple patterns can be replaced with another string using <code class="docutils literal notranslate"><span class="pre">pattern</span></code> as the expression and <code class="docutils literal notranslate"><span class="pre">repl</span></code> as the
+replacement.</p></li>
+<li><p>You can use regex groups (<code class="docutils literal notranslate"><span class="pre">()</span></code>) and back-reference them with <code class="docutils literal notranslate"><span class="pre">\1</span></code> (etc..) to put groups into the replacement
+string.</p></li>
+</ol>
+<p>All features are described in Python’s re.sub <a class="reference external" href="https://docs.python.org/3/library/re.html#re.sub">documentation</a>.
+The <code class="docutils literal notranslate"><span class="pre">pattern</span></code> and <code class="docutils literal notranslate"><span class="pre">repl</span></code> values are passed to this function as-is.</p>
+<p>Just like Python’s <a class="reference external" href="https://docs.python.org/3/library/re.html#re.sub">re.sub</a> function, there’s the possibility to
+apply a regular expression and either remove of replace the matched text. The following example applies the filter
+3 times:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;re.sub</span><span class="nv"> </span><span class="s">test&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/re_sub.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">re.sub</span><span class="p">:</span> <span class="s">&#39;\s*href=&quot;[^&quot;]*&quot;&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">re.sub</span><span class="p">:</span>
+      <span class="nt">pattern</span><span class="p">:</span> <span class="s">&#39;&lt;h1&gt;&#39;</span>
+      <span class="nt">repl</span><span class="p">:</span> <span class="s">&#39;HEADING</span><span class="nv"> </span><span class="s">1:</span><span class="nv"> </span><span class="s">&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">re.sub</span><span class="p">:</span>
+      <span class="nt">pattern</span><span class="p">:</span> <span class="s">&#39;&lt;/([^&gt;]*)&gt;&#39;</span>
+      <span class="nt">repl</span><span class="p">:</span> <span class="s">&#39;&lt;END</span><span class="nv"> </span><span class="s">OF</span><span class="nv"> </span><span class="s">TAG</span><span class="nv"> </span><span class="s">\1&gt;&#39;</span>
+</pre></div>
+</div>
+<div class="section" id="id23">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pattern</span></code>: pattern to be replaced. This sub-directive must be specified if also using the <code class="docutils literal notranslate"><span class="pre">repl</span></code> sub-directive. Otherwise the
+pattern can be specified as the value of <code class="docutils literal notranslate"><span class="pre">re.sub</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">repl</span></code>: the string for replacement. If this sub-directive is missing, defaults to empty string (i.e. deletes the string
+matched in <code class="docutils literal notranslate"><span class="pre">pattern</span></code>)</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="strip">
+<span id="id24"></span><h2>strip<a class="headerlink" href="#strip" title="Permalink to this headline">¶</a></h2>
+<p>This filter removes leading and trailing whitespace.  It applies to the entire
+document: it is <strong>not</strong> applied line-by line.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Stripping</span><span class="nv"> </span><span class="s">leading</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">trailing</span><span class="nv"> </span><span class="s">whitespace</span><span class="nv"> </span><span class="s">test&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/strip.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">strip</span><span class="p">:</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="sort">
+<span id="id25"></span><h2>sort<a class="headerlink" href="#sort" title="Permalink to this headline">¶</a></h2>
+<p>This filter performs a line-based sorting, ignoring cases (case folding as per
+Python’s <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str.casefold">implementation</a></p>
+<p>If the source provides data in random order, you should sort it before
+the comparison in order to avoid diffing based only on changes in the sequence.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Sorting</span><span class="nv"> </span><span class="s">lines</span><span class="nv"> </span><span class="s">test&quot;</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/sorting.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">sort</span>
+</pre></div>
+</div>
+<p>The sort filter takes an optional <code class="docutils literal notranslate"><span class="pre">separator</span></code> parameter that defines
+the item separator (by default sorting is line-based), for example to
+sort text paragraphs (text separated by an empty line):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/paragraphs.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">sort</span><span class="p">:</span>
+      <span class="nt">separator</span><span class="p">:</span> <span class="s">&quot;\n\n&quot;</span>
+</pre></div>
+</div>
+<p>This can be combined with a boolean <code class="docutils literal notranslate"><span class="pre">reverse</span></code> option, which is useful
+for sorting and reversing with the same separator (using <code class="docutils literal notranslate"><span class="pre">%</span></code> as
+separator, this would turn <code class="docutils literal notranslate"><span class="pre">3%2%4%1</span></code> into <code class="docutils literal notranslate"><span class="pre">4%3%2%1</span></code>):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/sort-reverse-percent.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">sort</span><span class="p">:</span>
+      <span class="nt">separator</span><span class="p">:</span> <span class="s">&#39;%&#39;</span>
+      <span class="nt">reverse</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="reverse">
+<span id="id26"></span><h2>reverse<a class="headerlink" href="#reverse" title="Permalink to this headline">¶</a></h2>
+<p>This filter reverses the order of items (lines) without sorting:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/reverse-lines.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">reverse</span>
+</pre></div>
+</div>
+<p>This behavior can be changed by using an optional separator string argument (e.g. items separated by a pipe (<code class="docutils literal notranslate"><span class="pre">|</span></code>)
+symbol, as in <code class="docutils literal notranslate"><span class="pre">1|4|2|3</span></code>, which would be reversed to <code class="docutils literal notranslate"><span class="pre">3|2|4|1</span></code>):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/reverse-separator.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">reverse</span><span class="p">:</span> <span class="s">&#39;|&#39;</span>
+</pre></div>
+</div>
+<p>Alternatively, the filter can be specified more verbose with a dict. In this example <code class="docutils literal notranslate"><span class="pre">&quot;\n\n&quot;</span></code> is used to separate
+paragraphs (items that are separated by an empty line):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.org/reverse-paragraphs.txt</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">reverse</span><span class="p">:</span>
+      <span class="nt">separator</span><span class="p">:</span> <span class="s">&quot;\n\n&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="ocr">
+<span id="id27"></span><h2>ocr<a class="headerlink" href="#ocr" title="Permalink to this headline">¶</a></h2>
+<p>This filter extracts text from images using the <a class="reference external" href="https://github.com/tesseract-ocr">Tesseract OCR engine</a> It requires two Python modules to be installed:
+<a class="reference external" href="https://github.com/madmaze/pytesseract">pytesseract</a> and <a class="reference external" href="https://python-pillow.org">Pillow</a>. Any file formats supported by Pillow (PIL) are supported.</p>
+<p>This filter <em>must</em> be the first filter in a chain of filters, since it consumes binary data and outputs text data.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/ocr-test.png</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">ocr</span><span class="p">:</span>
+      <span class="nt">timeout</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+      <span class="nt">language</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">eng</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">strip</span>
+</pre></div>
+</div>
+<div class="section" id="id28">
+<h3><strong>Optional sub-directives</strong><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">timeout</span></code>: Timeout for the recognition, in seconds (default: 10 seconds)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">language</span></code>: Text language (e.g. <code class="docutils literal notranslate"><span class="pre">fra</span></code> or <code class="docutils literal notranslate"><span class="pre">eng+fra</span></code>, default: <code class="docutils literal notranslate"><span class="pre">eng</span></code>)</p></li>
+</ul>
+</div>
+<div class="section" id="id29">
+<h3><strong>Required packages</strong><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p>To run jobs with this filter, you need to install <a class="reference internal" href="dependencies.html#optional-packages"><span class="std std-ref">Optional packages</span></a>. Install them using:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install --upgrade webchanges<span class="o">[</span>ocr<span class="o">]</span>
+</pre></div>
+</div>
+<p>In addition, you need to install <a class="reference external" href="https://tesseract-ocr.github.io/tessdoc/Home.html">Tesseract</a>.</p>
+</div>
+</div>
+<div class="section" id="shellpipe">
+<span id="id30"></span><h2>shellpipe<a class="headerlink" href="#shellpipe" title="Permalink to this headline">¶</a></h2>
+<p>The data to be filtered is passed to a command or script and the output from the script is used.  The environment
+variable <code class="docutils literal notranslate"><span class="pre">URLWATCH_JOB_NAME</span></code> will have the name of the job, while <code class="docutils literal notranslate"><span class="pre">URLWATCH_JOB_LOCATION</span></code> its location
+(either URL or command).</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.net/shellpipe.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">shellpipe</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">customscript.py</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="configuration.html" class="btn btn-neutral float-right" title="Configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="jobs.html" class="btn btn-neutral float-left" title="Jobs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

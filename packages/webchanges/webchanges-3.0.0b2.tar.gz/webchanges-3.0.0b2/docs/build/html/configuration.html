@@ -1,0 +1,325 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Configuration &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Diff filters" href="diff_filters.html" />
+    <link rel="prev" title="Filters" href="filters.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#display">Display</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#filter-changes-are-not-applied-for-unchanged">Filter changes are not applied for <code class="docutils literal notranslate"><span class="pre">unchanged</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#reporters">Reporters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#job-defaults">Job Defaults</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="diff_filters.html">Diff filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/configuration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuration">
+<span id="id1"></span><h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<p>The global configuration for <cite>webchanges</cite> contains basic settings for the generic behavior of <cite>webchanges</cite> as well as
+the <a class="reference internal" href="reporters.html#reporters"><span class="std std-ref">Reporters</span></a> in <strong>YAML format</strong> called <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code> and located in the <code class="docutils literal notranslate"><span class="pre">~/.config/webchanges</span></code> (Linux),
+<code class="docutils literal notranslate"><span class="pre">~/Library/Preferences/webchanges</span></code> (MacOS), or in the <code class="docutils literal notranslate"><span class="pre">webchanges</span></code> folder within your Documents folder, i.e.
+<code class="docutils literal notranslate"><span class="pre">%USERPROFILE%/Documents/webchanges</span></code> (Windows). You can edit it with any text editor or:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>webchanges --edit-config
+</pre></div>
+</div>
+<p>(Linux) If you use this command and get an error, set your <code class="docutils literal notranslate"><span class="pre">$EDITOR</span></code> (or <code class="docutils literal notranslate"><span class="pre">$VISUAL</span></code>) environment variable in your shell with
+a command such as <code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">EDITOR=nano</span></code>.</p>
+<p><strong>About YAML special characters</strong></p>
+<p>Certain characters that could be present in names could have significance in the YAML format (e.g. certain special
+characters at the beginning of the line or, anywhere, a <code class="docutils literal notranslate"><span class="pre">:</span></code> followed by a space or a space followed by <code class="docutils literal notranslate"><span class="pre">#</span></code>, all
+sort of brackets, and more) and therefore need to either be enclosed in quotes like so:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">This is a human-readable name/label of the job</span>  <span class="c1"># and this is a remark</span>
+<span class="nt">name</span><span class="p">:</span> <span class="s">&quot;This</span><span class="nv"> </span><span class="s">human-readable</span><span class="nv"> </span><span class="s">name/label</span><span class="nv"> </span><span class="s">has</span><span class="nv"> </span><span class="s">a:</span><span class="nv"> </span><span class="s">colon</span><span class="nv"> </span><span class="s">followed</span><span class="nv"> </span><span class="s">by</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">space</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">space</span><span class="nv"> </span><span class="s">#</span><span class="nv"> </span><span class="s">followed</span><span class="nv"> </span><span class="s">by</span><span class="nv"> </span><span class="s">hashmark&quot;</span>
+<span class="nt">name</span><span class="p">:</span> <span class="s">&quot;I</span><span class="nv"> </span><span class="s">can</span><span class="nv"> </span><span class="s">escape</span><span class="nv"> </span><span class="s">\&quot;double\&quot;</span><span class="nv"> </span><span class="s">quotes</span><span class="nv"> </span><span class="s">within</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">double</span><span class="nv"> </span><span class="s">quoted</span><span class="nv"> </span><span class="s">string</span><span class="nv"> </span><span class="s">which</span><span class="nv"> </span><span class="s">also</span><span class="nv"> </span><span class="s">has</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">colon:</span><span class="nv"> </span><span class="s">followed</span><span class="nv"> </span><span class="s">by</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">space&quot;</span>
+</pre></div>
+</div>
+<p>You can learn more about quoting <a class="reference external" href="https://www.yaml.info/learn/quote.html#flow">here</a> (note: the library we use
+supports YAML 1.1, and our examples use “flow scalars”).  URLs are always safe and don’t need to be enclosed in quotes.</p>
+<div class="section" id="display">
+<span id="configuration-display"></span><h2>Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h2>
+<p>In addition to always reporting changes (which is the whole point of webchanges), webchanges by default reports
+newly-added (<code class="docutils literal notranslate"><span class="pre">new</span></code>) pages and errors (<code class="docutils literal notranslate"><span class="pre">error</span></code>). You can change this behavior in the <code class="docutils literal notranslate"><span class="pre">display</span></code> section of the
+configuration:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">display</span><span class="p">:</span>
+  <span class="nt">new</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">error</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="nt">unchanged</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+<p>If you set <code class="docutils literal notranslate"><span class="pre">unchanged</span></code> to <code class="docutils literal notranslate"><span class="pre">true</span></code>, webchanges will always report all pages that are checked but have not changed.</p>
+<div class="section" id="filter-changes-are-not-applied-for-unchanged">
+<h3>Filter changes are not applied for <code class="docutils literal notranslate"><span class="pre">unchanged</span></code><a class="headerlink" href="#filter-changes-are-not-applied-for-unchanged" title="Permalink to this headline">¶</a></h3>
+<p>Due to the way the filtered output is stored, <code class="docutils literal notranslate"><span class="pre">unchanged</span></code> will always report the old contents with the filters at the
+time of retrieval, meaning that any changes you do to the <code class="docutils literal notranslate"><span class="pre">filter</span></code> of a job will not be visible in the <code class="docutils literal notranslate"><span class="pre">unchanged</span></code>
+report. When the page changes, the new filter will be applied.</p>
+<p>For this reason, <code class="docutils literal notranslate"><span class="pre">unchanged</span></code> cannot be used to test filters, you should use the <code class="docutils literal notranslate"><span class="pre">--test-filter</span></code> command line option
+to apply your current filter to the current page contents.</p>
+</div>
+</div>
+<div class="section" id="reporters">
+<h2>Reporters<a class="headerlink" href="#reporters" title="Permalink to this headline">¶</a></h2>
+<p>Configuration of reporters is described in <a class="reference internal" href="reporters.html#reporters"><span class="std std-ref">Reporters</span></a>.</p>
+<p>Here is an example configuration that reports on standard output in color, as well as HTML email using <code class="docutils literal notranslate"><span class="pre">sendmail</span></code>:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">report</span><span class="p">:</span>
+  <span class="nt">text</span><span class="p">:</span>
+    <span class="nt">details</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">footer</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">line_length</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">75</span>
+  <span class="nt">html</span><span class="p">:</span>
+    <span class="nt">diff</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">unified</span>
+  <span class="nt">email</span><span class="p">:</span>
+    <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">sendmail</span>
+    <span class="nt">sendmail</span><span class="p">:</span>
+        <span class="nt">path</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/usr/sbin/sendmail</span>
+    <span class="nt">from</span><span class="p">:</span> <span class="s">&#39;webchanges@example.org&#39;</span>
+    <span class="nt">to</span><span class="p">:</span> <span class="s">&#39;you@example.org&#39;</span>
+    <span class="nt">html</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">subject</span><span class="p">:</span> <span class="s">&#39;{count}</span><span class="nv"> </span><span class="s">changes:</span><span class="nv"> </span><span class="s">{jobs}&#39;</span>
+  <span class="nt">stdout</span><span class="p">:</span>
+    <span class="nt">color</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+    <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<p>Any reporter-specific configuration must be below the <code class="docutils literal notranslate"><span class="pre">report</span></code> directive in the configuration.</p>
+<p>Configuration settings like <code class="docutils literal notranslate"><span class="pre">text</span></code>, <code class="docutils literal notranslate"><span class="pre">html</span></code> and <code class="docutils literal notranslate"><span class="pre">markdown</span></code> will apply to all reporters that derive from that
+reporter (for example, the <code class="docutils literal notranslate"><span class="pre">stdout</span></code> reporter uses <code class="docutils literal notranslate"><span class="pre">text</span></code>, while the <code class="docutils literal notranslate"><span class="pre">email</span></code> reporter with <code class="docutils literal notranslate"><span class="pre">html:</span> <span class="pre">true</span></code>
+uses <code class="docutils literal notranslate"><span class="pre">html</span></code>).</p>
+</div>
+<div class="section" id="job-defaults">
+<span id="id2"></span><h2>Job Defaults<a class="headerlink" href="#job-defaults" title="Permalink to this headline">¶</a></h2>
+<p>If you want to change some settings for all your jobs, edit the <code class="docutils literal notranslate"><span class="pre">job_defaults</span></code> section in your config file:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">job_defaults</span><span class="p">:</span>
+  <span class="nt">all</span><span class="p">:</span>
+    <span class="nt">diff_tool</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">wdiff</span>
+  <span class="nt">url</span><span class="p">:</span>
+    <span class="nt">ignore_connection_errors</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<p>The above config file sets all jobs to use <code class="docutils literal notranslate"><span class="pre">wdiff</span></code> as diff tool, and all <code class="docutils literal notranslate"><span class="pre">url</span></code> jobs to ignore connection errors.</p>
+<p>The possible sub-directives to <code class="docutils literal notranslate"><span class="pre">job_defaults</span></code> are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">all</span></code>: Applies to all your jobs, independent of its kind</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">shell</span></code>: Applies only to <code class="docutils literal notranslate"><span class="pre">shell</span></code> jobs (with directive <code class="docutils literal notranslate"><span class="pre">command</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">url</span></code>: Applies only to <code class="docutils literal notranslate"><span class="pre">url</span></code> jobs (with directive <code class="docutils literal notranslate"><span class="pre">url</span></code> and no <code class="docutils literal notranslate"><span class="pre">use_browser</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">browser</span></code>: Applies only to <code class="docutils literal notranslate"><span class="pre">url</span></code> jobs with directive <code class="docutils literal notranslate"><span class="pre">use_browser</span></code> set to <strong>true</strong></p></li>
+</ul>
+<p>See <a class="reference internal" href="jobs.html#jobs"><span class="std std-ref">Jobs</span></a> about the different job kinds and directives that can be set.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="diff_filters.html" class="btn btn-neutral float-right" title="Diff filters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="filters.html" class="btn btn-neutral float-left" title="Filters" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

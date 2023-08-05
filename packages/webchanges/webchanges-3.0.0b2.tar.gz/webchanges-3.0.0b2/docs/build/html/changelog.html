@@ -1,0 +1,357 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Changelog &mdash; webchanges 3.0.0-beta.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Migration from urlwatch 2.21" href="migration.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diff_filters.html">Diff filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reports.html">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hooks.html">Hooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command line switches</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.21</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Changelog</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#unreleased">Unreleased</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#version-3-0-0-2020-09-15">Version 3.0.0 (2020-09-15)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#milestone">Milestone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#added">Added</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#changed-and-deprecated">Changed and deprecated</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#removed">Removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fixed">Fixed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#security">Security</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#documentation-changes">Documentation changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#known-bugs">Known bugs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Changelog</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/changelog.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="changelog">
+<h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<p>This changelog mostly follows <a class="reference external" href="https://keepachangelog.com/en/1.0.0/">keep a changelog</a>. Release numbering mostly
+follows <a class="reference external" href="https://semver.org/spec/v2.0.0.html#semantic-versioning-200">Semantic Versioning</a>.</p>
+<div class="section" id="unreleased">
+<h2>Unreleased<a class="headerlink" href="#unreleased" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>None</p></li>
+</ul>
+<p><a class="reference external" href="https://github.com/mborsetti/webchanges/blob/master/CHANGELOG.rst">Contributions</a> always welcomed!</p>
+</div>
+<div class="section" id="version-3-0-0-2020-09-15">
+<h2>Version 3.0.0 (2020-09-15)<a class="headerlink" href="#version-3-0-0-2020-09-15" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="milestone">
+<h3>Milestone<a class="headerlink" href="#milestone" title="Permalink to this headline">¶</a></h3>
+<p>Initial release of <cite>webchanges</cite> as an updated fork of <cite>urlwatch</cite> 2.21. Changes below are relative to <cite>urlwatch</cite> 2.21</p>
+</div>
+<div class="section" id="added">
+<h3>Added<a class="headerlink" href="#added" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>You can now specify just a <code class="docutils literal notranslate"><span class="pre">url</span></code> and the “just works for web” philosophy optimizes the monitoring of text in
+webpages by applying all necessary filters  <strong>TODO</strong></p></li>
+<li><p>If no job <code class="docutils literal notranslate"><span class="pre">name</span></code> is provided, the title of an HTML page will be used for a job name in reports</p></li>
+<li><p>The Python <code class="docutils literal notranslate"><span class="pre">html2text</span></code> package (used by the <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter, previously known as <code class="docutils literal notranslate"><span class="pre">pyhtml2text</span></code>) is now
+initialized with the following purpose-optimized non-default <a class="reference external" href="https://github.com/Alir3z4/html2text/blob/master/docs/usage.md#available-options">options</a>: unicode_snob = True,
+body_width = 0, single_line_break = True, and ignore_images = True</p></li>
+<li><p>The output from <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter is reconstructed into HTML (for html reports), preserving basic formatting
+such as bolding, italics, list bullets, etc. as well as making links clickable</p></li>
+<li><p>The formatting of HTML has been made radically more legible and useful, including long lines wrapping around</p></li>
+<li><p>Reports are now rendered correctly by HTML email clients who reformat style sheets</p></li>
+<li><p>Filter <code class="docutils literal notranslate"><span class="pre">format-xml</span></code> reformats (pretty-print) XML</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">webchanges</span> <span class="pre">--errors</span></code> will run all jobs and list all errors and empty responses (after filtering)</p></li>
+<li><p>Browser jobs now recognize <code class="docutils literal notranslate"><span class="pre">cookies</span></code>, <code class="docutils literal notranslate"><span class="pre">headers</span></code>, <code class="docutils literal notranslate"><span class="pre">http_proxy</span></code>, <code class="docutils literal notranslate"><span class="pre">https_proxy</span></code>, and <code class="docutils literal notranslate"><span class="pre">timeout</span></code></p></li>
+<li><p>Can select the revision number of Chromium browser to use with <code class="docutils literal notranslate"><span class="pre">chromium_revision</span></code></p></li>
+<li><p>Can set the user directory for the Chromium browser with <code class="docutils literal notranslate"><span class="pre">user_data_dir</span></code></p></li>
+<li><p>Chromium can be directed to ignore HTTPs errors with <code class="docutils literal notranslate"><span class="pre">ignore_https_errors</span></code></p></li>
+<li><p>Chromium can be directed as to when to consider a page loaded with <code class="docutils literal notranslate"><span class="pre">wait_until</span></code></p></li>
+<li><p>Additional command line switches can be passed to Chromium with <code class="docutils literal notranslate"><span class="pre">switches</span></code></p></li>
+<li><p>New report filters <code class="docutils literal notranslate"><span class="pre">additions_only</span></code> and <code class="docutils literal notranslate"><span class="pre">deletions_only</span></code> allow to track only content that was added (or
+deleted) from the source</p></li>
+<li><p>Support for Python 3.9</p></li>
+<li><p>Backward compatibility with <cite>urlwatch</cite> 2.21</p></li>
+</ul>
+</div>
+<div class="section" id="changed-and-deprecated">
+<h3>Changed and deprecated<a class="headerlink" href="#changed-and-deprecated" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Navigation by full browser is now accomplished by specifying the <code class="docutils literal notranslate"><span class="pre">url</span></code> and adding the <code class="docutils literal notranslate"><span class="pre">use_browser:</span> <span class="pre">true</span></code> directive</p></li>
+<li><p>The <cite>navigate</cite> directive has been deprecated for clarity and will trigger a warning <strong>*TODO*</strong></p></li>
+<li><p>The name of the default job’s configuration file has been changed to <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code>; if at program launch <code class="docutils literal notranslate"><span class="pre">urls.yaml</span></code>
+is found and no <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code> exists, it is copied over for backward-compatibility</p></li>
+<li><p>The name of the default program configuration file has been changed to <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code>; if at program launch
+<code class="docutils literal notranslate"><span class="pre">urlwatch.yaml</span></code> is found and no <code class="docutils literal notranslate"><span class="pre">config.yaml</span></code> exists, it is copied over for backward-compatibility.</p></li>
+<li><p>The location of config files in Windows has been moved to <code class="docutils literal notranslate"><span class="pre">%USERPROFILE%\Documents\webchanges</span></code>
+where they can be more easily edited (they are indexed there) and backed up</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter defaults to using the Python <code class="docutils literal notranslate"><span class="pre">html2text</span></code> package (with optimized defaults)</p></li>
+<li><p>New <cite>additions_only</cite> directive to report only added lines (useful when monitoring only new content)</p></li>
+<li><p>New <cite>deletions_only</cite> directive to report only deleted lines</p></li>
+<li><p><cite>keyring</cite> and <cite>cssselect</cite> Python packages are no longer installed by default</p></li>
+<li><p><cite>html2text</cite> and <cite>markdown2</cite> Python packages are installed by default</p></li>
+<li><p>Installation of Python packages required by a feature is now made easier with pip extras</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter’s <code class="docutils literal notranslate"><span class="pre">re</span></code> method has been renamed <code class="docutils literal notranslate"><span class="pre">strip_tags</span></code>, which is deprecated and will trigger a
+warning</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">grep</span></code> filter has been renamed <code class="docutils literal notranslate"><span class="pre">keep_lines_containing</span></code>, which is deprecated and will trigger a warning</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">grepi</span></code> filter has been renamed <code class="docutils literal notranslate"><span class="pre">delete_lines_containing</span></code>, which is deprecated and will trigger a warning</p></li>
+<li><p>Both the <code class="docutils literal notranslate"><span class="pre">keep_lines_containing</span></code> and <code class="docutils literal notranslate"><span class="pre">delete_lines_containing</span></code> accept <code class="docutils literal notranslate"><span class="pre">text</span></code> (default) in addition to <code class="docutils literal notranslate"><span class="pre">re</span></code>
+(regular expressions)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--test</span></code> command line switch is used to test a job (formerly <code class="docutils literal notranslate"><span class="pre">--test-filter</span></code>, deprecated)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--test-diff</span></code> command line switch is used to test a jobs’ diff (formerly <code class="docutils literal notranslate"><span class="pre">--test-diff-filter</span></code>, deprecated)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">-V</span></code> command line switch added as an alias to <code class="docutils literal notranslate"><span class="pre">--version</span></code></p></li>
+<li><p>If a filename for <code class="docutils literal notranslate"><span class="pre">--jobs</span></code>, <code class="docutils literal notranslate"><span class="pre">--config</span></code> or <code class="docutils literal notranslate"><span class="pre">--hooks</span></code> is supplied without a path and the file is not present in
+the current directory, <cite>webchanges</cite> now looks for it in the default configuration directory</p></li>
+<li><p>In Windows, <code class="docutils literal notranslate"><span class="pre">--edit</span></code> defaults to using built-in notepad.exe if %EDITOR% or %VISUAL% are not set</p></li>
+<li><p>When using <code class="docutils literal notranslate"><span class="pre">--job</span></code> command line switch, if there’s no file by that name in the specified directory will look in
+the default one before giving up.</p></li>
+<li><p>The use of the <code class="docutils literal notranslate"><span class="pre">kind</span></code> directive in <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code> configuration files has been deprecated (but is, for now, still
+used internally)</p></li>
+<li><p>The database (cache) file is backed up at every run to <cite>*.bak</cite></p></li>
+<li><p>The list of default and optional dependencies has been updated (see documentation) to enable “Just works”</p></li>
+<li><p>Dependencies are now specified as PyPi <a class="reference external" href="https://stackoverflow.com/questions/52474931/what-is-extra-in-pypi-dependency">extras</a> to simplify their installation</p></li>
+<li><p>Changed timing from <a class="reference external" href="https://docs.python.org/3/library/datetime.html">datetime</a> to <a class="reference external" href="https://docs.python.org/3/library/timeit.html#timeit.default_timer">timeit.default_timer</a></p></li>
+<li><p>Upgraded concurrent execution loop to <a class="reference external" href="https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.map">concurrent.futures.ThreadPoolExecutor.map</a></p></li>
+<li><p>Reports’ elapsed time now always has at least 2 significant digits</p></li>
+<li><p>Using flake8 to the test suite</p></li>
+</ul>
+</div>
+<div class="section" id="removed">
+<h3>Removed<a class="headerlink" href="#removed" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter’s <code class="docutils literal notranslate"><span class="pre">lynx</span></code> method is no longer supported; use <code class="docutils literal notranslate"><span class="pre">html2text</span></code> instead</p></li>
+<li><p>Python 3.5 (obsoleted by 3.6 on December 23, 2016) is no longer supported</p></li>
+</ul>
+</div>
+<div class="section" id="fixed">
+<h3>Fixed<a class="headerlink" href="#fixed" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>The <code class="docutils literal notranslate"><span class="pre">html2text</span></code> filter’s <code class="docutils literal notranslate"><span class="pre">html2text</span></code> method defaults to unicode handling</p></li>
+<li><p>HTML href links ending with spaces are no longer broken by <code class="docutils literal notranslate"><span class="pre">xpath</span></code> replacing spaces with <cite>%20</cite></p></li>
+<li><p>Initial config file no longer has directives sorted alphabetically, but are saved logically (e.g. enabled is always
+the first sub-directive</p></li>
+</ul>
+</div>
+<div class="section" id="security">
+<h3>Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>None</p></li>
+</ul>
+</div>
+<div class="section" id="documentation-changes">
+<h3>Documentation changes<a class="headerlink" href="#documentation-changes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Complete rewrite</p></li>
+</ul>
+</div>
+<div class="section" id="known-bugs">
+<h3>Known bugs<a class="headerlink" href="#known-bugs" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>An empty report will still be generated for a job when no reportable changes survive the <code class="docutils literal notranslate"><span class="pre">additions_only</span></code> or
+<code class="docutils literal notranslate"><span class="pre">deletions_only</span></code> report filters</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="migration.html" class="btn btn-neutral float-left" title="Migration from urlwatch 2.21" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
