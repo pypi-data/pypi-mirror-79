@@ -1,0 +1,9 @@
+transifex-client
+pytest
+pytest-qt
+pytest-mock
+pytest-faulthandler
+pyinstaller
+tox
+flake8
+pylint
