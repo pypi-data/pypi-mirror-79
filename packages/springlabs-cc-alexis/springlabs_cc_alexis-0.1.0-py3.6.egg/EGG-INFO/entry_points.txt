@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        springlabs_cc_alexis=springlabs_cc_alexis.scripts.springlabs_cc_alexis:cli
+    
