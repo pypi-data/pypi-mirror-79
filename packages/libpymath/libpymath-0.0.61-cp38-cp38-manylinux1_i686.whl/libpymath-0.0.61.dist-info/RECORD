@@ -1,0 +1,15 @@
+libpymath-0.0.61.dist-info/LICENSE.txt,sha256=tLbspKnFoIzA2So-nxfZga_0_25_D87fMxaE94svl8I,1049
+libpymath-0.0.61.dist-info/top_level.txt,sha256=-dPTYieHX8ZBGru2vFIFjMuhcNCQDWN84DbrDW7CHFw,10
+libpymath-0.0.61.dist-info/RECORD,,
+libpymath-0.0.61.dist-info/METADATA,sha256=SV-a8HK9QafV3Z_0hEDnWiBf1REiy_5ztdtkG9amYNs,4430
+libpymath-0.0.61.dist-info/WHEEL,sha256=wPxrIIXf6HP_Ngy3dtEpQKnrJHjmNptgbipHQD4ON7s,106
+libpymath.libs/libgomp-c0bd41c1.so.1.0.0,sha256=NFDgdqlLydwd9qx41tG-h_-nnrjDFT1alsqE0Ob74Ew,67140
+libpymath/__init__.py,sha256=SmTX5WH23VFhL8JkoQuqT0Kd02hLjsvRZFCEIGZ2MOk,1079
+libpymath/testModule/testScript.py,sha256=eeucQNbeBc4sPv4V8smKooyvvueijFZ1E8TDV--xXPk,185
+libpymath/testModule/__init__.py,sha256=t3kfF9bWisTk7ntm3tiEkXj7lfLnNCDli7CE0oAxGr4,21
+libpymath/LibPyMathModules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libpymath/LibPyMathModules/matrix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libpymath/core/matrix.cpython-38-i386-linux-gnu.so,sha256=AQ5fFkuD57mmO7RTxvZLCaT1xhANY4-m59quY_pSs34,50292
+libpymath/core/testModule.cpython-38-i386-linux-gnu.so,sha256=nV9B7zQl1IWtkJwutnJl4pL_clDClW94ZyN0Bhn5Y80,16658
+libpymath/matrix/matrix.py,sha256=snLYVl4S8P5_Q0BP1IXR01TpvJtmWeVQ4T0uBTFwG-M,11554
+libpymath/matrix/__init__.py,sha256=JIDlfB1drJYM-eFR5e6SQFnEXrvsqQ8TnC92TF5ETrw,1086
