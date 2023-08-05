@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-default-language
+Version: 0.0.1
+Summary: Set a default language for Django project with ease!
+Home-page: https://github.com/yifaneye/django-default-language
+Author: Yifan Ai
+Author-email: yifanai@aol.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# django-default-language
+
+This is a Django middleware which helps you to set a default language for Django project with ease!
+
+
