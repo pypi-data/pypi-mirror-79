@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+kecaja/__init__.py
+kecaja/command_line.py
+kecaja.egg-info/PKG-INFO
+kecaja.egg-info/SOURCES.txt
+kecaja.egg-info/dependency_links.txt
+kecaja.egg-info/entry_points.txt
+kecaja.egg-info/not-zip-safe
+kecaja.egg-info/requires.txt
+kecaja.egg-info/top_level.txt
