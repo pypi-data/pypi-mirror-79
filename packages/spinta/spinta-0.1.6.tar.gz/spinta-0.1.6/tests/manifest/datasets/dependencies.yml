@@ -1,0 +1,10 @@
+---
+type: dataset
+name: datasets/dependencies
+version:
+  id: 1
+  date: 2019-03-08
+resources:
+  continents:
+    type: csv
+    external: http://example.com

@@ -1,0 +1,7 @@
+---
+type: dataset
+name: datasets/sql
+resources:
+  db:
+    type: sql
+    prepare: schema(public)

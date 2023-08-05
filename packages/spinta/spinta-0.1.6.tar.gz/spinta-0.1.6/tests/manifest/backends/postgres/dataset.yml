@@ -1,0 +1,6 @@
+---
+type: dataset
+name: datasets/backends/postgres/dataset
+resources:
+  sql:
+    type: sql

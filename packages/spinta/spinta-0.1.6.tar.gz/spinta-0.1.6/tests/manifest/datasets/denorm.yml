@@ -1,0 +1,7 @@
+---
+type: dataset
+name: datasets/denorm
+resources:
+  orgs:
+    type: csv
+    external: http://example.com/

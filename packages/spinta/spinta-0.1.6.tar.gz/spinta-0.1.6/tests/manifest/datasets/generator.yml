@@ -1,0 +1,7 @@
+---
+type: dataset
+name: datasets/generator
+resources:
+  continents:
+    type: csv
+    external: http://example.com/{year}/

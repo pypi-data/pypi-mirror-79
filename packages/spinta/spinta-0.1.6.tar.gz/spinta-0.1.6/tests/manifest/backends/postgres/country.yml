@@ -1,0 +1,14 @@
+---
+type: model
+name: backends/postgres/country
+title: Country
+properties:
+  title:
+    type: string
+  code:
+    type: string
+    unique: true
+    title: Two letters country code
+  continent:
+    type: ref
+    model: backends/postgres/continent

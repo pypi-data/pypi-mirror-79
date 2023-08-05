@@ -1,0 +1,7 @@
+---
+type: dataset
+name: datasets/nested/dataset/name
+resources:
+  resource:
+    type: csv
+    external: https://example.com/resource.csv

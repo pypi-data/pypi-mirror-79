@@ -1,0 +1,7 @@
+---
+type: dataset
+name: datasets/xlsx
+resources:
+  data:
+    type: xlsx
+    external: http://example.com/data.xlsx

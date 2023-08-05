@@ -1,0 +1,8 @@
+type: model
+name: datasets/dtypes/binary
+external:
+  dataset: datasets/dtypes/binary
+  resource: resource
+properties:
+  blob:
+    type: binary

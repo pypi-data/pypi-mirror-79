@@ -1,0 +1,18 @@
+---
+type: model
+name: backends/mongo/country
+backend: mongo
+title: Country
+version:
+  id: 1
+  date: 2019-02-06
+properties:
+  title:
+    type: string
+  code:
+    type: string
+    unique: true
+    title: Two letters country code
+  continent:
+    type: ref
+    model: backends/mongo/continent

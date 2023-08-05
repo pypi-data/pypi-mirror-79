@@ -1,0 +1,26 @@
+image: python:3.7
+
+services:
+  - postgres:11.2-alpine
+  - mongo:4.0.9-xenial
+
+variables:
+  POSTGRES_DB: spinta
+  POSTGRES_USER: ci
+  POSTGRES_PASSWORD: secret
+
+cache:
+  paths:
+    - ~/.cache/pip/
+
+before_script:
+  - python --version
+  - python -m venv ci/env
+  - ci/env/bin/pip install -r requirements-dev.txt -e .
+
+test:
+  variables:
+    SPINTA_BACKENDS__DEFAULT__DSN: postgresql://ci:secret@postgres:5432/spinta
+    SPINTA_BACKENDS__MONGO__DSN: mongodb://mongo/
+  script:
+    - ci/env/bin/py.test -vvxra --tb=native --log-level=debug --cov=spinta --cov-report=term-missing tests
