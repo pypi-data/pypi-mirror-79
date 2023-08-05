@@ -1,0 +1,8 @@
+README.md
+setup.py
+xml2ajson/__init__.py
+xml2ajson/xml2ajson.py
+xml2ajson.egg-info/PKG-INFO
+xml2ajson.egg-info/SOURCES.txt
+xml2ajson.egg-info/dependency_links.txt
+xml2ajson.egg-info/top_level.txt
