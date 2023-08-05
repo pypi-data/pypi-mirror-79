@@ -1,0 +1,16 @@
+flask_cloud_services/__init__.py,sha256=AZSclwlf9L6nBs_JFuea1wEmHU3LzFLXWzdWyylCDS4,590
+flask_cloud_services/config.py,sha256=1QwiXZJZMyyMZ11CwaX9qiBvsJ1PnnGgN7EMOdnX3Oo,353
+flask_cloud_services/contract.py,sha256=M0dVqZOZ9as9Uj1dIQ_WehEhLOj_8bUNQMPXF9evkEg,3513
+flask_cloud_services/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_cloud_services/constants/responses.py,sha256=fJYD_aSDJc56QCGUj9riT5vHq3xqwr6MlpI0hurWPSU,68
+flask_cloud_services/provider/__init__.py,sha256=uuIXqg3tICMxaLxMF6Yyj_76XZ2fL10uw8FaMLwfIKo,59
+flask_cloud_services/provider/aws.py,sha256=sxdM_qPq3nXcliPFWcpsv1u8YoWFoJ5odMRUheBn3-M,6390
+flask_cloud_services/provider/factory.py,sha256=Yd7IrwCwAHHeiiKjY4DmEz0CHBLTnL_kJtBYg89BXU0,598
+flask_cloud_services/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_cloud_services/services/notifications.py,sha256=JmarWdgSsfKQs2K-2u933RTwHE7TeFKNwOOP-FYj2Nw,1091
+flask_cloud_services/services/storage.py,sha256=HqIiArqeAQtXp0BjgYwR2GklgaTjDyswJdB7eWoI3hI,2720
+flask_cloud_services-0.0.7.dist-info/LICENSE.txt,sha256=iBtPdLUA5sr-tGMGSyp1qHXrPHXuyMHLTvd9nooMWmo,1072
+flask_cloud_services-0.0.7.dist-info/METADATA,sha256=OfT30PbGkAxPoQf-DAGbaUi6e0qt-5J2zWn904eBcoM,2036
+flask_cloud_services-0.0.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flask_cloud_services-0.0.7.dist-info/top_level.txt,sha256=mU6twBhHTpSgIUSAKm8UmN-YXagfxM0m43gRHJVlPVE,21
+flask_cloud_services-0.0.7.dist-info/RECORD,,
