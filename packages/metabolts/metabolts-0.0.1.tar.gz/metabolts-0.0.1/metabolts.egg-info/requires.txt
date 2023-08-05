@@ -1,0 +1,2 @@
+learn2learn>=0.1.2
+pytorch_lightning

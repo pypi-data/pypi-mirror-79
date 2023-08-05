@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: metabolts
+Version: 0.0.1
+Summary: Description of my super metabolts.
+Home-page: https://learnables.github.com/metabolts
+Author: Seb Arnold
+Author-email: smr.arnold@gmail.com
+License: License :: OSI Approved :: Apache Software License
+Download-URL: https://github.com/learnables/metabolts/archive/0.0.1.zip
+Description: # mypackage
+        
+        --------------------------------------------------------------------------------
+        
+        [![Build Status](https://travis-ci.com/seba-1511/mypackage.svg?branch=master)](https://travis-ci.com/seba-1511/mypackage)
+        
+        Template to start new PyPI packages
+        
+        To get started, grep and replace for `mypackage` everywhere.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
