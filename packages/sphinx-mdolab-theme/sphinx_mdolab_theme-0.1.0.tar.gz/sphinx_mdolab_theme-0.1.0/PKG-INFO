@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: sphinx_mdolab_theme
+Version: 0.1.0
+Summary: MDO Lab sphinx theme
+Home-page: https://github.com/mdolab/sphinx_mdolab_theme
+Author: MDO Lab
+Author-email: mdolabbuildbot@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: SPHINX,THEME,MDOLAB
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
