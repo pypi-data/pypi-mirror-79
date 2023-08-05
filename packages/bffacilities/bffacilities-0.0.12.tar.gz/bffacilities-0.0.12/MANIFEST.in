@@ -1,0 +1,6 @@
+recursive-include bffacilities/locale *
+global-exclude *.pyc
+recursive-include bffacilities/flask *.py
+recursive-include bffacilities/torch *.py
+recursive-include bffacilities/myscripts *.py
+recursive-include bffacilities/imgs *
