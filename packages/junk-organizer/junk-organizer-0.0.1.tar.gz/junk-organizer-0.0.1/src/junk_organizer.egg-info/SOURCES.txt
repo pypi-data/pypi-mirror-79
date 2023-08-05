@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+dist/junk_organizer-0.0.1-py3-none-any.whl
+src/JunkOrganizer.py
+src/junk_organizer.egg-info/PKG-INFO
+src/junk_organizer.egg-info/SOURCES.txt
+src/junk_organizer.egg-info/dependency_links.txt
+src/junk_organizer.egg-info/requires.txt
+src/junk_organizer.egg-info/top_level.txt
