@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyd-tpl
+Version: 0.1.1
+Summary: pyd generate tools
+Home-page: https://github.com/yafeile/pyd_tpl
+Author: Cat
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: pyd generate,pyd templates
+Platform: any
+Requires-Dist: Jinja2 (>=2.11.2)
+
+# pyd_tpl
+Python的C接口模板,安装后使用如下的命令进行生成:
+
+<pre>
+pyd_tpl module_name=Animal --class-name=Cat
+</pre>
+
+将生成Animal模块Cat类
+
