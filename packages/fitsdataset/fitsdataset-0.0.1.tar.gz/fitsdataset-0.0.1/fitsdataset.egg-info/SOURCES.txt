@@ -1,0 +1,9 @@
+README.md
+setup.py
+fitsdataset/__init__.py
+fitsdataset/dataset.py
+fitsdataset.egg-info/PKG-INFO
+fitsdataset.egg-info/SOURCES.txt
+fitsdataset.egg-info/dependency_links.txt
+fitsdataset.egg-info/requires.txt
+fitsdataset.egg-info/top_level.txt
