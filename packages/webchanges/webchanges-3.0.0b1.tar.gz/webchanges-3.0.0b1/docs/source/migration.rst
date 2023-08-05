@@ -1,0 +1,21 @@
+.. _migration:
+
+Migration from urlwatch 2.2
+===========================
+
+`webchanges` |version| is backward compatible with `urlwatch` 2.2 and its configuration files.
+
+The following items are deprecated and will eventually be removed:
+
+* Job key ``kind``: remove
+* Job key ``navigate``: use ``url`` and add ``use_browser: true``
+* Method ``pyhtml2text`` of filter ``html2text``: use ``html2text`` instead
+* Method ``re`` of filter ``html2text``: use ``strip_tags`` instead
+* Filter ``grep``: use ``keep_lines_matching`` instead
+* Filter ``grepi``: use ``delete_lines_matching`` instead
+* Command line ``--test-filter``: use ``--test`` instead
+* Command line ``--test-diff-filter``: use ``--test-diff`` instead
+* The location of config files in Windows has been moved to ``%USERPROFILE%/Documents/urlwatch``
+  where they can be more easily edited and backed up.
+* The name of the default job file has been changed to ``jobs.yaml`` (if ``urls.yaml`` is found at startup,
+  it is copied over for backward-compatibility).

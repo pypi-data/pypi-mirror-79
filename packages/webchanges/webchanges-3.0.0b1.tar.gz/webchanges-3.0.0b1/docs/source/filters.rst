@@ -1,0 +1,529 @@
+.. All code examples here should have a unique URL that maps to
+   an entry in test/data/filter_documentation_testdata.yaml which
+   will be used to provide input/output data for the filter example
+   so that the examples can be verified to be correct automatically.
+
+.. https://github.com/thp/webchanges/pull/524/files
+.. https://raw.githubusercontent.com/mborsetti/webchanges/a307068485cc085d55c3ba5d2dca4f045157045d/docs/source/filters.rst
+
+.. _filters:
+
+Filters
+=======
+
+Filters can be applied to two stages of processing:
+
+* Applied to the downloaded data before storing it and diffing for changes (``filter``)
+* Applied to the diff result before reporting the changes (``diff_filter``)
+
+While creating your job pipeline, you might want to preview what the filtered output looks like. For filters applied
+to the data, you can run `webchanges` with the ``--test-filter`` command-line option, passing in the index (from
+``--list``) or the URL/command of the job to be tested::
+
+   webchanges --test 1   # Test the first job in the list
+   webchanges --test https://example.net/  # Test the job that matches the given URL
+
+This command will show the output that will be captured and stored, and used to compare to the old version stored from
+a previous run against the same url or shell command.
+
+Once `webchanges` has collected at least 2 historic snapshots of a job (two different states of a webpage) you can start
+testing the effects of your ``diff_filter`` with the command-line option ``--test-diff``, passing in the index (from
+``--list``) or the URL/command of the job to be tested, which using the historic data saved locally in the cache::
+
+   webchanges --test-diff 1   # Test the first job in the list
+
+
+At the moment, the following filters are available:
+
+To select HTML (or XML) elements:
+
+* :ref:`css <css-and-xpath>`: Filter XML/HTML using CSS selectors
+
+.. holding
+  * :ref:`xpath <css-and-xpath>`: Filter XML/HTML using XPath expressions
+  * :ref:`element-by-class <element-by->`: Get all HTML elements by class
+  * :ref:`element-by-id <element-by->`: Get an HTML element by its ID
+  * :ref:`element-by-style <element-by->`: Get all HTML elements by style
+  * :ref:`element-by-tag <element-by->`: Get an HTML element by its tag
+  .
+  To make HTML more readable:
+  .
+  * :ref:`html2text`: Convert HTML to plaintext
+  * :ref:`beautify`: Beautify HTML
+  .
+  To make PDFs readable:
+  .
+  * :ref:`pdf2text`: Convert PDF to plaintext
+  .
+  To make JSON more readable:
+  .
+  * :ref:`format-json`: Reformat (pretty-print) JSON
+  .
+  To make iCal more readable:
+  .
+  * :ref:`ical2text`: Convert iCalendar to plaintext
+  .
+  To make binary readable:
+  .
+  * :ref:`hexdump`: Display data in hex dump format
+  .
+  To just detect changes:
+  .
+  * :ref:`sha1sum`: Calculate the SHA-1 checksum of the data
+  .
+  To edit/filter text:
+  .
+  * :ref:`grep`: Keep only lines matching a regular expression
+  * :ref:`grepi`: Delete lines matching a regular expression
+  * :ref:`re.sub`: Replace or remove text matching a regular expression
+  * :ref:`strip`: Strip leading and trailing whitespace
+  * :ref:`sort`: Sort lines
+
+
+.. To convert the "webchanges --features" output, use:
+   webchanges --features | sed -e 's/^  \* \(.*\) - \(.*\)$/- **\1**: \2/'
+
+
+.. _css-and-xpath:
+
+``css`` and ``xpath``
+---------------------
+
+The ``css`` filter extracts content based on a `CSS selector <https://www.w3.org/TR/selectors/>`__. It uses the
+`cssselect <https://pypi.org/project/cssselect/>`__ Python package, which has limitations and extensions as explained
+in its `documentation <https://cssselect.readthedocs.io/en/latest/#supported-selectors>`__.
+
+The ``xpath`` filter extracts content based on a `XPath <https://www.w3.org/TR/xpath>`__ expression.
+
+Examples: to filter only the ``<body>`` element of the HTML document, stripping out everything else:
+
+.. code-block:: yaml
+
+   url: https://example.net/css.html
+   filter:
+     - css: ul#groceries > li.unchecked
+
+.. code-block:: yaml
+
+   url: https://example.net/xpath.html
+   filter:
+     - xpath: /html/body/marquee
+
+See Microsoft’s `XPath Examples <https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx>`__ page for some
+other examples
+
+**Optional keys**
+"""""""""""""""""
+
+* ``selector``
+* ``path``
+* ``method``: either of ``html`` (default) or ``xml``
+* ``exclude``
+* ``namespaces``
+
+Using CSS and XPath filters with XML and exclusions
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+By default, CSS and XPath filters are set up for HTML documents, but it is possible to use them for XML documents as
+well.
+
+Example to parse an RSS feed and filter only the titles and publication dates:
+
+.. code-block:: yaml
+
+   url: https://example.com/blog/css-index.rss
+   filter:
+     - css:
+         method: xml
+         selector: 'item > title, item > pubDate'
+     - html2text: re
+
+.. code-block:: yaml
+
+   url: https://example.com/blog/xpath-index.rss
+   filter:
+     - xpath:
+         method: xml
+         path: '//item/title/text()|//item/pubDate/text()'
+
+To match an element in an `XML namespace <https://www.w3.org/TR/xml-names/>`__, use a namespace prefix before the tag
+name. Use a ``|`` to seperate the namespace prefix and the tag name in a CSS selector, and use a ``:`` in an XPath
+expression.
+
+.. code-block:: yaml
+
+   url: https://example.org/feed/css-namespace.xml
+   filter:
+     - css:
+         method: xml
+         selector: 'item > media|keywords'
+         namespaces:
+           media: http://search.yahoo.com/mrss/
+     - html2text
+
+.. code-block:: yaml
+
+   url: https://example.net/feed/xpath-namespace.xml
+   filter:
+     - xpath:
+         method: xml
+         path: '//item/media:keywords/text()'
+         namespaces:
+           media: http://search.yahoo.com/mrss/
+
+
+Alternatively, use the XPath expression ``//*[name()='<tag_name>']`` to bypass the namespace entirely.
+
+Another useful option with XPath and CSS filters is ``exclude``. Elements selected by this ``exclude`` expression are
+removed from the final result. For example, the following job will not have any ``<a>`` tag in its results:
+
+.. code-block:: yaml
+
+   url: https://example.org/css-exclude.html
+   filter:
+     - css:
+         selector: 'body'
+         exclude: 'a'
+
+Limiting the returned items from a CSS Selector or XPath
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+If you only want to return a subset of the items returned by a CSS selector or XPath filter, you can use two additional
+subfilters:
+
+* ``skip``: How many elements to skip from the beginning (default: 0)
+* ``maxitems``: How many elements to return at most (default: no limit)
+
+For example, if the page has multiple elements, but you only want to select the second and third matching element (skip
+the first, and return at most two elements), you can use this filter:
+
+.. code:: yaml
+
+   url: https://example.net/css-skip-maxitems.html
+   filter:
+     - css:
+         selector: div.cpu
+         skip: 1
+         maxitems: 2
+
+Dealing with duplicated results
+.. *******************************  ######### TODO
+
+If you get multiple results on one page, but you only expected one (e.g. because the page contains both a mobile and
+desktop version in the same HTML document, and shows/hides one via CSS depending on the viewport size), you can use
+'``maxitems: 1``' to only return the first item.
+
+
+Picking out elements from a webpage
+-----------------------------------
+
+You can pick only a given HTML element with the built-in filter, for
+example to extract ``<div id="something">.../<div>`` from a page, you
+can use the following in your ``urls.yaml``:
+
+.. code:: yaml
+
+   url: https://example.org/idtest.html
+   filter:
+     - element-by-id: something
+
+Also, you can chain filters, so you can run html2text on the result:
+
+.. code:: yaml
+
+   url: https://example.net/id2text.html
+   filter:
+     - element-by-id: something
+     - html2text
+
+
+Chaining multiple filters
+-------------------------
+
+The example urls.yaml file also demonstrates the use of built-in
+filters, here 3 filters are used: html2text, line-grep and whitespace
+removal to get just a certain info field from a webpage:
+
+.. code:: yaml
+
+   url: https://example.net/version.html
+   filter:
+     - html2text
+     - grep: "Current.*version"
+     - strip
+
+
+Extracting only the ``<body>`` tag of a page
+--------------------------------------------
+
+If you want to extract only the body tag you can use this filter:
+
+.. code:: yaml
+
+   url: https://example.org/bodytag.html
+   filter:
+     - element-by-tag: body
+
+
+Filtering PDF documents
+-----------------------
+
+To monitor the text of a PDF file, you use the `pdf2text` filter. It requires 
+the installation of the `pdftotext`_ library and any of its
+`OS-specific dependencies`_.
+
+.. _pdftotext: https://github.com/jalan/pdftotext/blob/master/README.md#pdftotext
+.. _OS-specific dependencies: https://github.com/jalan/pdftotext/blob/master/README.md#os-dependencies
+
+This filter *must* be the first filter in a chain of filters, since it
+consumes binary data and outputs text data.
+
+.. code-block:: yaml
+
+   url: https://example.net/pdf-test.pdf
+   filter:
+     - pdf2text
+     - strip
+
+
+If the PDF file is password protected, you can specify its password:
+
+.. code-block:: yaml
+
+   url: https://example.net/pdf-test-password.pdf
+   filter:
+     - pdf2text:
+         password: webchangessecret
+     - strip
+
+
+Sorting of webpage content
+--------------------------
+
+Sometimes a web page can have the same data between comparisons but it
+appears in random order. If that happens, you can choose to sort before
+the comparison.
+
+.. code:: yaml
+
+   url: https://example.net/sorting.txt
+   filter:
+     - sort
+
+The sort filter takes an optional ``separator`` parameter that defines
+the item separator (by default sorting is line-based), for example to
+sort text paragraphs (text separated by an empty line):
+
+.. code:: yaml
+
+   url: https://example.org/paragraphs.txt
+   filter:
+     - sort:
+         separator: "\n\n"
+
+This can be combined with a boolean ``reverse`` option, which is useful
+for sorting and reversing with the same separator (using ``%`` as
+separator, this would turn ``3%2%4%1`` into ``4%3%2%1``):
+
+.. code:: yaml
+
+   url: https://example.org/sort-reverse-percent.txt
+   filter:
+     - sort:
+         separator: '%'
+         reverse: true
+
+
+Reversing of lines or separated items
+-------------------------------------
+
+To reverse the order of items without sorting, the ``reverse`` filter
+can be used. By default it reverses lines:
+
+.. code:: yaml
+
+   url: https://example.com/reverse-lines.txt
+   filter:
+     - reverse
+
+This behavior can be changed by using an optional separator string
+argument (e.g. items separated by a pipe (``|``) symbol,
+as in ``1|4|2|3``, which would be reversed to ``3|2|4|1``):
+
+.. code:: yaml
+
+   url: https://example.net/reverse-separator.txt
+   filter:
+     - reverse: '|'
+
+Alternatively, the filter can be specified more verbose with a dict.
+In this example ``"\n\n"`` is used to separate paragraphs (items that
+are separated by an empty line):
+
+.. code:: yaml
+
+   url: https://example.org/reverse-paragraphs.txt
+   filter:
+     - reverse:
+         separator: "\n\n"
+
+
+Watching Github releases
+------------------------
+
+This is an example how to watch the GitHub “releases” page for a given
+project for the latest release version, to be notified of new releases:
+
+.. code:: yaml
+
+   url: https://github.com/user/project/releases
+   filter:
+     - xpath: '(//div[contains(@class,"release-timeline-tags")]//h4)[1]/a'
+     - html2text: re
+     - strip
+
+
+Remove or replace text using regular expressions
+------------------------------------------------
+
+Just like Python’s ``re.sub`` function, there’s the possibility to apply
+a regular expression and either remove of replace the matched text. The
+following example applies the filter 3 times:
+
+1. Just specifying a string as the value will replace the matches with
+   the empty string.
+2. Simple patterns can be replaced with another string using “pattern”
+   as the expression and “repl” as the replacement.
+3. You can use groups (``()``) and back-reference them with ``\1``
+   (etc..) to put groups into the replacement string.
+
+All features are described in Python’s
+`re.sub <https://docs.python.org/3/library/re.html#re.sub>`__
+documentation (the ``pattern`` and ``repl`` values are passed to this
+function as-is, with the value of ``repl`` defaulting to the empty
+string).
+
+.. code:: yaml
+
+   url: https://example.com/regex-substitute.html
+   filter:
+       - re.sub: '\s*href="[^"]*"'
+       - re.sub:
+           pattern: '<h1>'
+           repl: 'HEADING 1: '
+       - re.sub:
+           pattern: '</([^>]*)>'
+           repl: '<END OF TAG \1>'
+
+If you want to enable certain flags (e.g. ``re.MULTILINE``) in the
+call, this is possible by inserting an "inline flag" documented in
+`flags in re.compile`_, here are some examples:
+
+* ``re.MULTILINE``: ``(?m)`` (Makes ``^`` match start-of-line and ``$`` match end-of-line)
+* ``re.DOTALL``: ``(?s)`` (Makes ``.`` also match a newline)
+* ``re.IGNORECASE``: ``(?i)`` (Perform case-insensitive matching)
+
+.. _flags in re.compile: https://docs.python.org/3/library/re.html#re.compile
+
+This allows you, for example, to remove all leading spaces (only
+space character and tab):
+
+.. code:: yaml
+
+   url: https://example.com/leading-spaces.txt
+   filter:
+     - re.sub: '(?m)^[ \t]*'
+
+
+Using a shell script as a filter
+--------------------------------
+
+While the built-in filters are powerful for processing markup such as
+HTML and XML, in some cases you might already know how you would filter
+your content using a shell command or shell script. The ``shellpipe``
+filter allows you to start a shell and run custom commands to filter
+the content.
+
+The text data to be filtered will be written to the standard input
+(``stdin``) of the shell process and the filter output will be taken
+from the shell's standard output (``stdout``).
+
+For example, if you want to use ``grep`` tool with the case insensitive
+matching option (``-i``) and printing only the matching part of
+the line (``-o``), you can specify this as ``shellpipe`` filter:
+
+.. code:: yaml
+
+   url: https://example.net/shellpipe-grep.txt
+   filter:
+     - shellpipe: "grep -i -o 'price: <span>.*</span>'"
+
+This feature also allows you to use ``sed``, ``awk`` and ``perl``
+one-liners for text processing (of course, any text tool that
+works in a shell can be used). For example, this ``awk`` one-liner
+prepends the line number to each line:
+
+.. code:: yaml
+
+   url: https://example.net/shellpipe-awk-oneliner.txt
+   filter:
+     - shellpipe: awk '{ print FNR " " $0 }'
+
+You can also use a multi-line command for a more sophisticated
+shell script (``|`` in YAML denotes the start of a text block):
+
+.. code:: yaml
+
+   url: https://example.org/shellpipe-multiline.txt
+   filter:
+     - shellpipe: |
+         FILENAME=`mktemp`
+         # Copy the input to a temporary file, then pipe through awk
+         tee $FILENAME | awk '/The numbers for (.*) are:/,/The next draw is on (.*)./'
+         # Analyze the input file in some other way
+         echo "Input lines: $(wc -l $FILENAME | awk '{ print $1 }')"
+         rm -f $FILENAME
+
+
+Within the ``shellpipe`` script, two environment variables will
+be set for further customization (this can be useful if you have
+a external shell script file that is used as filter for multiple
+jobs, but needs to treat each job in a slightly different way):
+
++----------------------------+------------------------------------------------------+
+| Environment variable       | Contents                                             |
++============================+======================================================+
+| ``$URLWATCH_JOB_NAME``     | The name of the job (``name`` key in jobs YAML)      |
++----------------------------+------------------------------------------------------+
+| ``$URLWATCH_JOB_LOCATION`` | The URL of the job, or command line (for shell jobs) |
++----------------------------+------------------------------------------------------+
+
+
+Converting text in images to plaintext
+--------------------------------------
+
+The ``ocr`` filter uses the `Tesseract OCR engine`_ to convert text in images
+to plain text. It requires two Python modules to be installed:
+`pytesseract`_ and `Pillow`_. Any file formats supported by Pillow (PIL) are
+supported.
+
+.. _Tesseract OCR engine: https://github.com/tesseract-ocr
+.. _pytesseract: https://github.com/madmaze/pytesseract
+.. _Pillow: https://python-pillow.org
+
+This filter *must* be the first filter in a chain of filters, since it
+consumes binary data and outputs text data.
+
+.. code-block:: yaml
+
+   url: https://example.net/ocr-test.png
+   filter:
+     - ocr:
+         timeout: 5
+         language: eng
+     - strip
+
+The sub-filters ``timeout`` and ``language`` are optional:
+
+* ``timeout``: Timeout for the recognition, in seconds (default: 10 seconds)
+* ``language``: Text language (e.g. ``fra`` or ``eng+fra``, default: ``eng``)

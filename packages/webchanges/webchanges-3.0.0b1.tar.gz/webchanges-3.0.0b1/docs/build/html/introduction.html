@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction &mdash; webchanges 3.0.0b1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Dependencies" href="dependencies.html" />
+    <link rel="prev" title="webchanges" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#jobs"><span class="xref std std-ref">Jobs</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#filters"><span class="xref std std-ref">Filters</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comparison">Comparison</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diff-filters">Diff <span class="xref std std-ref">Filters</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reporters"><span class="xref std std-ref">Reporters</span></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/introduction.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction">
+<span id="id1"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>webchanges monitors the output of webpages or commands on your computer shell.</p>
+<p>Every time you run webchanges, it:</p>
+<ol class="arabic simple">
+<li><p>retrieves the output;</p></li>
+<li><p>transforms and filters it (optional);</p></li>
+<li><p>compares this with what it saved from the previous run, producing a “diff” report if it finds changes;</p></li>
+<li><p>(optional) filters the diff report;</p></li>
+<li><p>displays such report (default) and/or send it via one or more methods (configurable) such as email.</p></li>
+</ol>
+<div class="section" id="jobs">
+<h2><a class="reference internal" href="jobs.html#jobs"><span class="std std-ref">Jobs</span></a><a class="headerlink" href="#jobs" title="Permalink to this headline">¶</a></h2>
+<p>You can monitor multiple sources with a single run of <cite>urlwatch</cite>; each such source of data is a “job”. The instructions for each
+such job are contained in a config file in the <strong>YAML format</strong> called <code class="docutils literal notranslate"><span class="pre">jobs.yaml</span></code> and located in the
+<code class="docutils literal notranslate"><span class="pre">~/.urwatch/</span></code> directory (Linux) or in the <code class="docutils literal notranslate"><span class="pre">urlwatch</span></code> folder within your Documents folder, i.e.
+<code class="docutils literal notranslate"><span class="pre">%USERPROFILE%/Documents/urlwatch</span></code> (Windows).  You can use any text editor to edit it.</p>
+<p>For additional information on YAML, see the <a class="reference external" href="https://yaml.org/spec/">YAML specifications</a>.</p>
+<p>The minimum configuration necessary for <cite>urlwatch</cite> to work is a single <code class="docutils literal notranslate"><span class="pre">url</span></code> key (for web resources) or
+<code class="docutils literal notranslate"><span class="pre">command</span></code> key (for the output of a shell command):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/</span>
+</pre></div>
+</div>
+<p>If you have multiple sources to monitor, i.e. multiple “jobs”, separate each with a line of three dashes
+(<code class="docutils literal notranslate"><span class="pre">---</span></code>):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/</span>
+<span class="nn">---</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/page2</span>
+<span class="nn">---</span>
+<span class="nt">command</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">dir</span>
+</pre></div>
+</div>
+<p>By default, the content of a web URL is downloaded as-is; if you need for a webpage to be
+rendered and its JavaScript run before its HTML is captured, add the key <code class="docutils literal notranslate"><span class="pre">use_browser:</span> <span class="pre">true</span></code> in its own line. This
+requires additional downloads and uses many resources; see <a class="reference internal" href="jobs.html#use-browser"><span class="std std-ref">here</span></a> for more information.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/</span>
+<span class="nt">use_browser</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<p>Each job can have a <code class="docutils literal notranslate"><span class="pre">name</span></code> to help you identify what you’re monitoring, but if you don’t enter one
+and you are monitoring a webpage <cite>urlwatch</cite> will automatically use its title in the report.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Sample</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/</span>
+</pre></div>
+</div>
+<p>You can enter remarks in your YAML configuration file using <code class="docutils literal notranslate"><span class="pre">#</span></code>:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># I am monitoring this site because I expect it to change for the better</span>
+<span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Sample</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.dummy/</span>
+</pre></div>
+</div>
+<p>Finally, there are many and many options available to finely control the job; see <a class="reference internal" href="jobs.html#jobs"><span class="std std-ref">Jobs</span></a>.</p>
+</div>
+<div class="section" id="filters">
+<h2><a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a><a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h2>
+<p>Once you have collected the output, you may transform it to increase its utility.  You use the <code class="docutils literal notranslate"><span class="pre">filter</span></code> key to
+select one or more <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a> to:</p>
+<ul class="simple">
+<li><p>select HTML or (XML): <code class="docutils literal notranslate"><span class="pre">css</span></code>, <code class="docutils literal notranslate"><span class="pre">xpath</span></code>, <code class="docutils literal notranslate"><span class="pre">element-by-class</span></code>, <code class="docutils literal notranslate"><span class="pre">element-by-id</span></code>, <code class="docutils literal notranslate"><span class="pre">element-by-style</span></code>, <code class="docutils literal notranslate"><span class="pre">element-by-tag</span></code></p></li>
+<li><p>extract text from HTML: <code class="docutils literal notranslate"><span class="pre">html2text</span></code></p></li>
+<li><p>make HTML more readable: <code class="docutils literal notranslate"><span class="pre">beautify</span></code></p></li>
+<li><p>extract text from PDF: <code class="docutils literal notranslate"><span class="pre">pdf2text</span></code>, <code class="docutils literal notranslate"><span class="pre">ocr</span></code></p></li>
+<li><p>make JSON more readable: <code class="docutils literal notranslate"><span class="pre">format-json</span></code></p></li>
+<li><p>make iCal more readable: <code class="docutils literal notranslate"><span class="pre">ical2text</span></code></p></li>
+<li><p>make binary readable: <code class="docutils literal notranslate"><span class="pre">hexdump</span></code></p></li>
+<li><p>detect if anything changed: <code class="docutils literal notranslate"><span class="pre">sha1sum</span></code></p></li>
+<li><p>edit text: <code class="docutils literal notranslate"><span class="pre">keep_lines_matching</span></code>, <code class="docutils literal notranslate"><span class="pre">delete_lines_matching</span></code>, <code class="docutils literal notranslate"><span class="pre">re.sub</span></code>, <code class="docutils literal notranslate"><span class="pre">strip</span></code>, <code class="docutils literal notranslate"><span class="pre">sort</span></code></p></li>
+</ul>
+<p>Please note that some filters require additional Python packages to work; see <a class="reference internal" href="dependencies.html#dependencies"><span class="std std-ref">Dependencies</span></a> or the filter
+description.</p>
+<p>These filters can be chained. As an example, after retrieving an HTML document by using the <code class="docutils literal notranslate"><span class="pre">url</span></code> key, you
+can extract a selection with the <code class="docutils literal notranslate"><span class="pre">xpath</span></code> filter, convert it to text with <code class="docutils literal notranslate"><span class="pre">html2text</span></code>, extract only lines matching
+a specific regular expression with <code class="docutils literal notranslate"><span class="pre">keep_lines_matching</span></code>, and sort the result with <code class="docutils literal notranslate"><span class="pre">sort</span></code>:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Sample urlwatch job definition</span>
+<span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">https_proxy</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://user:passwor@example.net:8080</span>
+<span class="nt">max_tries</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">2</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">xpath</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">//section[@role=&quot;main&quot;]</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span>
+      <span class="nt">method</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">html2text</span>
+      <span class="nt">unicode_snob</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="nt">body_width</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0</span>
+      <span class="nt">inline_links</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+      <span class="nt">ignore_links</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="nt">ignore_images</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+      <span class="nt">pad_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+      <span class="nt">single_line_break</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+  <span class="p p-Indicator">-</span> <span class="nt">keep_lines_matching</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">lines I care about</span>
+  <span class="p p-Indicator">-</span> <span class="nt">sort</span><span class="p">:</span>
+<span class="nn">---</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comparison">
+<h2>Comparison<a class="headerlink" href="#comparison" title="Permalink to this headline">¶</a></h2>
+<p><cite>urlwatch</cite> automatically performs a comparison between the filtered data collected in this run with the one
+saved from the prior run, computing a diff in the <a class="reference external" href="https://en.wikipedia.org/wiki/Diff#Unified_format">unified format</a> by default.</p>
+</div>
+<div class="section" id="diff-filters">
+<h2>Diff <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a><a class="headerlink" href="#diff-filters" title="Permalink to this headline">¶</a></h2>
+<p>(Rare) The same filters as above can be applied to the diff report itself; see <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a>.</p>
+</div>
+<div class="section" id="reporters">
+<h2><a class="reference internal" href="reporters.html#reporters"><span class="std std-ref">Reporters</span></a><a class="headerlink" href="#reporters" title="Permalink to this headline">¶</a></h2>
+<p>By default <cite>urlwatch</cite> displays the diff report on the <code class="docutils literal notranslate"><span class="pre">stdout</span></code> console, but you can add (or change to) one or more of:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">email</span></code> (using SMTP)</p></li>
+<li><p>email using <code class="docutils literal notranslate"><span class="pre">mailgun</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">browser</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">slack</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pushbullet</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">telegram</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">matrix</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pushover</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">stdout</span></code> (your console)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">xmpp</span></code></p></li>
+</ul>
+<p>Please note that some reporters require additional Python packages to work; see <a class="reference internal" href="dependencies.html#dependencies"><span class="std std-ref">Dependencies</span></a> or the reporter
+description.</p>
+<p>Reporters are configured in a separate file, see <a class="reference internal" href="configuration.html#configuration"><span class="std std-ref">Configuration</span></a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="dependencies.html" class="btn btn-neutral float-right" title="Dependencies" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="webchanges" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

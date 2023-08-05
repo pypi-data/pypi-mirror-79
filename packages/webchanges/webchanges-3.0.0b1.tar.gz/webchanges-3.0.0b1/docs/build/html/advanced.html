@@ -1,0 +1,472 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Advanced Topics &mdash; webchanges 3.0.0b1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="Reporters" href="reporters.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> webchanges
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jobs.html">Jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filters.html">Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reporters.html">Reporters</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced Topics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#adding-urls-from-the-command-line">Adding URLs from the command line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-word-based-differences">Using word-based differences</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ignoring-connection-errors">Ignoring connection errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#overriding-the-content-encoding">Overriding the content encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#changing-the-default-timeout">Changing the default timeout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#supplying-cookie-data">Supplying cookie data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comparing-with-several-latest-snapshots">Comparing with several latest snapshots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#receiving-a-report-every-time-urlwatch-runs">Receiving a report every time urlwatch runs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-redis-as-a-cache-backend">Using Redis as a cache backend</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#watching-changes-on-onion-tor-pages">Watching changes on .onion (Tor) pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#watching-facebook-page-events">Watching Facebook Page Events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#only-show-added-or-removed-lines-rudimentary">Only show added or removed lines (rudimentary)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pass-diff-output-to-a-custom-script">Pass diff output to a custom script</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#comparing-web-pages-visually">Comparing web pages visually</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#only-show-added-or-removed-lines">Only show added or removed lines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Pass diff output to a custom script</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migration.html">Migration from urlwatch 2.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">webchanges</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Advanced Topics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/advanced.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="advanced-topics">
+<span id="id1"></span><h1>Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permalink to this headline">¶</a></h1>
+<p>or you can use the <code class="docutils literal notranslate"><span class="pre">urlwatch</span> <span class="pre">--edit</span></code> command.
+If you get an error, set your <code class="docutils literal notranslate"><span class="pre">$EDITOR</span></code> (or <code class="docutils literal notranslate"><span class="pre">$VISUAL</span></code>) environment
+variable in your shell with a command such as <code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">EDITOR=/bin/nano</span></code>.</p>
+<div class="section" id="adding-urls-from-the-command-line">
+<h2>Adding URLs from the command line<a class="headerlink" href="#adding-urls-from-the-command-line" title="Permalink to this headline">¶</a></h2>
+<p>Quickly adding new URLs to the job list from the command line:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">urlwatch</span> <span class="o">--</span><span class="n">add</span> <span class="n">url</span><span class="o">=</span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">example</span><span class="o">.</span><span class="n">org</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="n">Example</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="using-word-based-differences">
+<h2>Using word-based differences<a class="headerlink" href="#using-word-based-differences" title="Permalink to this headline">¶</a></h2>
+<p>You can also specify an external <code class="docutils literal notranslate"><span class="pre">diff</span></code>-style tool (a tool that takes
+two filenames (old, new) as parameter and returns on its standard output
+the difference of the files), for example to use GNU <code class="docutils literal notranslate"><span class="pre">wdiff</span></code> to get
+word-based differences instead of line-based difference:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">diff_tool</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">wdiff</span>
+</pre></div>
+</div>
+<p>Note that <code class="docutils literal notranslate"><span class="pre">diff_tool</span></code> specifies an external command-line tool, so that
+tool must be installed separately (e.g. <code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">install</span> <span class="pre">wdiff</span></code> on Debian
+or <code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">wdiff</span></code> on macOS). Coloring is supported for
+<code class="docutils literal notranslate"><span class="pre">wdiff</span></code>-style output, but potentially not for other diff tools.</p>
+</div>
+<div class="section" id="ignoring-connection-errors">
+<h2>Ignoring connection errors<a class="headerlink" href="#ignoring-connection-errors" title="Permalink to this headline">¶</a></h2>
+<p>In some cases, it might be useful to ignore (temporary) network errors
+to avoid notifications being sent. While there is a <code class="docutils literal notranslate"><span class="pre">display.error</span></code>
+config option (defaulting to <code class="docutils literal notranslate"><span class="pre">true</span></code>) to control reporting of errors
+globally, to ignore network errors for specific jobs only, you can use
+the <code class="docutils literal notranslate"><span class="pre">ignore_connection_errors</span></code> key in the job list configuration file:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">ignore_connection_errors</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+<p>Similarly, you might want to ignore some (temporary) HTTP errors on the
+server side:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">ignore_http_error_codes</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">408, 429, 500, 502, 503, 504</span>
+</pre></div>
+</div>
+<p>or ignore all HTTP errors if you like:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">ignore_http_error_codes</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">4xx, 5xx</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="overriding-the-content-encoding">
+<h2>Overriding the content encoding<a class="headerlink" href="#overriding-the-content-encoding" title="Permalink to this headline">¶</a></h2>
+<p>For web pages with misconfigured HTTP headers or rare encodings, it may
+be useful to explicitly specify an encoding from Python’s <a class="reference external" href="https://docs.python.org/3/library/codecs.html#standard-encodings">Standard
+Encodings</a>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">encoding</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">utf-8</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="changing-the-default-timeout">
+<h2>Changing the default timeout<a class="headerlink" href="#changing-the-default-timeout" title="Permalink to this headline">¶</a></h2>
+<p>By default, url jobs timeout after 60 seconds. If you want a different
+timeout period, use the <code class="docutils literal notranslate"><span class="pre">timeout</span></code> key to specify it in number of
+seconds, or set it to 0 to never timeout.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">timeout</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">300</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="supplying-cookie-data">
+<h2>Supplying cookie data<a class="headerlink" href="#supplying-cookie-data" title="Permalink to this headline">¶</a></h2>
+<p>It is possible to add cookies to HTTP requests for pages that need it,
+the YAML syntax for this is:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.com/</span>
+<span class="nt">cookies</span><span class="p">:</span>
+    <span class="nt">Key</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">ValueForKey</span>
+    <span class="nt">OtherKey</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">OtherValue</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comparing-with-several-latest-snapshots">
+<h2>Comparing with several latest snapshots<a class="headerlink" href="#comparing-with-several-latest-snapshots" title="Permalink to this headline">¶</a></h2>
+<p>If a webpage frequently changes between several known stable states, it
+may be desirable to have changes reported only if the webpage changes
+into a new unknown state. You can use <code class="docutils literal notranslate"><span class="pre">compared_versions</span></code> to do this.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://example.com/</span>
+<span class="nt">compared_versions</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3</span>
+</pre></div>
+</div>
+<p>In this example, changes are only reported if the webpage becomes
+different from the latest three distinct states. The differences are
+shown relative to the closest match.</p>
+</div>
+<div class="section" id="receiving-a-report-every-time-urlwatch-runs">
+<h2>Receiving a report every time urlwatch runs<a class="headerlink" href="#receiving-a-report-every-time-urlwatch-runs" title="Permalink to this headline">¶</a></h2>
+<p>If you are watching pages that change seldomly, but you still want to
+be notified daily if <code class="docutils literal notranslate"><span class="pre">urlwatch</span></code> still works, you can watch the output
+of the <code class="docutils literal notranslate"><span class="pre">date</span></code> command, for example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span> <span class="s">&quot;urlwatch</span><span class="nv"> </span><span class="s">watchdog&quot;</span>
+<span class="nt">command</span><span class="p">:</span> <span class="s">&quot;date&quot;</span>
+</pre></div>
+</div>
+<p>Since the output of <code class="docutils literal notranslate"><span class="pre">date</span></code> changes every second, this job should produce a
+report every time urlwatch is run.</p>
+</div>
+<div class="section" id="using-redis-as-a-cache-backend">
+<h2>Using Redis as a cache backend<a class="headerlink" href="#using-redis-as-a-cache-backend" title="Permalink to this headline">¶</a></h2>
+<p>If you want to use Redis as a cache backend over the default SQLite3 file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">urlwatch</span> <span class="o">--</span><span class="n">cache</span><span class="o">=</span><span class="n">redis</span><span class="p">:</span><span class="o">//</span><span class="n">localhost</span><span class="p">:</span><span class="mi">6379</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>There is no migration path from the SQLite3 format, the cache will be empty
+the first time Redis is used.</p>
+</div>
+<div class="section" id="watching-changes-on-onion-tor-pages">
+<h2>Watching changes on .onion (Tor) pages<a class="headerlink" href="#watching-changes-on-onion-tor-pages" title="Permalink to this headline">¶</a></h2>
+<p>Since pages on the <a class="reference external" href="https://www.torproject.org">Tor Network</a> are not accessible via public DNS and TCP,
+you need to either configure a Tor client as HTTP/HTTPS proxy or use the
+<code class="docutils literal notranslate"><span class="pre">torify(1)</span></code> tool from the <code class="docutils literal notranslate"><span class="pre">tor</span></code> package (<code class="docutils literal notranslate"><span class="pre">apt</span> <span class="pre">install</span> <span class="pre">tor</span></code> on Debian,
+<code class="docutils literal notranslate"><span class="pre">brew</span> <span class="pre">install</span> <span class="pre">tor</span></code> on macOS). Setting up Tor is out of scope for this
+document. On a properly set up Tor installation, one can just prefix the
+<code class="docutils literal notranslate"><span class="pre">urlwatch</span></code> command with the <code class="docutils literal notranslate"><span class="pre">torify</span></code> wrapper to access .onion pages:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>torify urlwatch
+</pre></div>
+</div>
+</div>
+<div class="section" id="watching-facebook-page-events">
+<h2>Watching Facebook Page Events<a class="headerlink" href="#watching-facebook-page-events" title="Permalink to this headline">¶</a></h2>
+<p>If you want to be notified of new events on a public Facebook page, you
+can use the following job pattern, replace <code class="docutils literal notranslate"><span class="pre">PAGE</span></code> with the name of the
+page (can be found by navigating to the events page on your browser):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://m.facebook.com/PAGE/pages/permalink/?view_type=tab_events</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span>
+      <span class="nt">selector</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">div#objects_container</span>
+      <span class="nt">exclude</span><span class="p">:</span> <span class="s">&#39;div.x,</span><span class="nv"> </span><span class="s">#m_more_friends_who_like_this,</span><span class="nv"> </span><span class="s">img&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">re.sub</span><span class="p">:</span>
+      <span class="nt">pattern</span><span class="p">:</span> <span class="s">&#39;(/events/\d*)[^&quot;]*&#39;</span>
+      <span class="nt">repl</span><span class="p">:</span> <span class="s">&#39;\1&#39;</span>
+  <span class="p p-Indicator">-</span> <span class="nt">html2text</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">pyhtml2text</span>
+<span class="nt">comparison_filter</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">additions</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="only-show-added-or-removed-lines-rudimentary">
+<h2>Only show added or removed lines (rudimentary)<a class="headerlink" href="#only-show-added-or-removed-lines-rudimentary" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">diff_filter</span></code> feature can be used to filter the diff output text
+with the same tools (see <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a>) used for filtering web pages.</p>
+<p>In order to show only diff lines with added lines, use:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.com/things-get-added.html</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">grep</span><span class="p">:</span> <span class="s">&#39;^[@+]&#39;</span>
+</pre></div>
+</div>
+<p>This will only keep diff lines starting with <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> or <code class="docutils literal notranslate"><span class="pre">+</span></code>. Similarly,
+to only keep removed lines:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.com/things-get-removed.html</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">grep</span><span class="p">:</span> <span class="s">&#39;^[@-]&#39;</span>
+</pre></div>
+</div>
+<p>More sophisticated diff filtering is possibly by combining existing
+filters, writing a new filter or using <code class="docutils literal notranslate"><span class="pre">shellpipe</span></code> to delegate the
+filtering/processing of the diff output to an external tool.</p>
+</div>
+<div class="section" id="pass-diff-output-to-a-custom-script">
+<h2>Pass diff output to a custom script<a class="headerlink" href="#pass-diff-output-to-a-custom-script" title="Permalink to this headline">¶</a></h2>
+<p>In some situations, it might be useful to run a script with the diff as input
+when changes were detected (e.g. to start an update or process something). This
+can be done by combining <code class="docutils literal notranslate"><span class="pre">diff_filter</span></code> with the <code class="docutils literal notranslate"><span class="pre">shellpipe</span></code> filter, which
+can be any custom script.</p>
+<p>The output of the custom script will then be the diff result as reported by
+urlwatch, so if it outputs any status, the <code class="docutils literal notranslate"><span class="pre">CHANGED</span></code> notification that
+urlwatch does will contain the output of the custom script, not the original
+diff. This can even have a “normal” filter attached to only watch links
+(the <code class="docutils literal notranslate"><span class="pre">css:</span> <span class="pre">a</span></code> part of the filter definitions):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.org/downloadlist.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">a</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">shellpipe</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/usr/local/bin/process_new_links.sh</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comparing-web-pages-visually">
+<h2>Comparing web pages visually<a class="headerlink" href="#comparing-web-pages-visually" title="Permalink to this headline">¶</a></h2>
+<p>To compare the visual contents of web pages, Nicolai has written
+<a class="reference external" href="https://github.com/nspo/pyvisualcompare">pyvisualcompare</a> as
+a frontend (with GUI) to <code class="docutils literal notranslate"><span class="pre">urlwatch</span></code>. The tool can be used to
+select a region of a web page. It then generates a configuration
+for <code class="docutils literal notranslate"><span class="pre">urlwatch</span></code> to run <code class="docutils literal notranslate"><span class="pre">pyvisualcompare</span></code> and generate a hash
+for the screen contents.</p>
+</div>
+<div class="section" id="only-show-added-or-removed-lines">
+<h2>Only show added or removed lines<a class="headerlink" href="#only-show-added-or-removed-lines" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">diff_filter</span></code> feature can be used to filter the diff output text
+with the same tools (see <a class="reference internal" href="filters.html#filters"><span class="std std-ref">Filters</span></a>) used for filtering web pages.</p>
+<p>In order to show only diff lines with added lines, use:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.com/things-get-added.html</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">grep</span><span class="p">:</span> <span class="s">&#39;^[@+]&#39;</span>
+</pre></div>
+</div>
+<p>This will only keep diff lines starting with <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> or <code class="docutils literal notranslate"><span class="pre">+</span></code>. Similarly,
+to only keep removed lines:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.com/things-get-removed.html</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">grep</span><span class="p">:</span> <span class="s">&#39;^[@-]&#39;</span>
+</pre></div>
+</div>
+<p>More sophisticated diff filtering is possibly by combining existing
+filters, writing a new filter or using <code class="docutils literal notranslate"><span class="pre">shellpipe</span></code> to delegate the
+filtering/processing of the diff output to an external tool.</p>
+</div>
+<div class="section" id="id2">
+<h2>Pass diff output to a custom script<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>In some situations, it might be useful to run a script with the diff as input
+when changes were detected (e.g. to start an update or process something). This
+can be done by combining <code class="docutils literal notranslate"><span class="pre">diff_filter</span></code> with the <code class="docutils literal notranslate"><span class="pre">shellpipe</span></code> filter, which
+can be any custom script.</p>
+<p>The output of the custom script will then be the diff result as reported by
+urlwatch, so if it outputs any status, the <code class="docutils literal notranslate"><span class="pre">CHANGED</span></code> notification that
+urlwatch does will contain the output of the custom script, not the original
+diff. This can even have a “normal” filter attached to only watch links
+(the <code class="docutils literal notranslate"><span class="pre">css:</span> <span class="pre">a</span></code> part of the filter definitions):</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">url</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://example.org/downloadlist.html</span>
+<span class="nt">filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">css</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">a</span>
+<span class="nt">diff_filter</span><span class="p">:</span>
+  <span class="p p-Indicator">-</span> <span class="nt">shellpipe</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">/usr/local/bin/process_new_links.sh</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="contributing.html" class="btn btn-neutral float-right" title="Contributing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="reporters.html" class="btn btn-neutral float-left" title="Reporters" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright Copyright 2020- Mike Borsetti
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

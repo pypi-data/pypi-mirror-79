@@ -1,0 +1,448 @@
+.. _reporters:
+
+Reporters
+=========
+
+By default `webchanges` prints out information about changes to the data collected
+to standard output (``stdout``), which is your terminal if
+you run it interactively. If running via `cron` or another scheduler service, the destination of this output
+depends on the schedure and its configuration.
+
+You can change the settings to add or change where the report is sent to.  Settings are
+contained in the configuration file ``webchanges.yaml``, a text file located in the ``~\.urwatch\`` directory (Linux) or
+in a ``webchanges`` folder within your Documents folder, i.e. ``%USERPROFILE%/Documents/webchanges`` (Windows) and editable using any text editor or with the command
+``webchanges --edit--config``.  The configuration for the reporters will be listed under the ``reporters`` section.
+
+Tip: to test a reporter, use the ``--test-reporter`` command-line option with the name of the reporter, e.g.::
+
+   webchanges --test-reporter stdout
+
+`webchanges` will generate test  ``new``, ``changed``, ``unchanged`` and ``error`` notifications and send (the ones
+configured to be sent under ``display``) via the ``stdout`` reporter (if it is enabled). Any reporter that is configured and enabled can be tested. To test if your e-mail reporter is configured correctly,
+you use::
+
+   webchanges --test-reporter email
+
+If the test does not work, check your configuration and/or add the ``--verbose`` command-line option to show
+detailed debug logs::
+
+   webchanges --verbose --test-reporter email
+
+Reporters
+---------
+
+At the moment, the following reporters are available
+
+- **browser**: Display summary on the default web browser
+- **email**: Send summary via e-mail (including SMTP)
+- **ifttt**: Send summary via IFTTT
+- **mailgun**: Send e-mail via the Mailgun service
+- **matrix**: Send a message to a room using the Matrix protocol
+- **pushbullet**: Send summary via pushbullet.com
+- **pushover**: Send summary via pushover.net
+- **slack**: Send a message to a Slack channel
+- **stdout** (enabled by default): Print summary on stdout (the console)
+- **telegram**: Send a message using Telegram
+
+.. To convert the "webchanges --features" output, use:
+   webchanges --features | sed -e 's/^  \* \(.*\) - \(.*\)$/- **\1**: \2/'
+
+Please note that many reporters need additional Python packages installed to work, as noted below and in
+:ref:`dependencies`.
+
+Email via SMTP: Gmail example
+-----------------------------
+
+First configure your Gmail account to allow for "less secure" (password-based) apps to login:
+
+#. Go to https://myaccount.google.com/
+#. Click on "Security"
+#. Scroll all the way down to "less secure apps access" and turn it on
+
+WARNING: You do not want to do this with your primary Google account, but rather get a free separate one just for
+sending mails via `webchanges`. Allowing less secure apps and storing the password (even if it's in the keychain) is not
+good security practice for your primary account.
+
+Then configure these keys as follows:
+
+.. code-block:: yaml
+
+   report:
+     email:
+       enabled: true
+       from: your.username@gmail.com  # (edit accordingly)
+       to: your.destination@example.org  # The e-mail address of where want to receive reports
+       subject: '{count} changes: {jobs}'
+       html: true
+       method: smtp
+         host: smtp.gmail.com
+         insecure_password: 'this_is_my_secret_password'
+         auth: true
+         port: 587
+         starttls: true
+
+The password is not stored in the config file, but in your keychain. To store the password, run: ``webchanges
+--smtp-login`` and enter your password.  If for whatever reason you cannot use a keyring to store your password, you can
+save it in the ``insecure_password`` key in the SMTP config. For more information about the security implications,
+see :ref:`smtp-login-without-keyring`.
+
+Email via SMTP: Amazon Simple E-Mail Service (SES) example
+----------------------------------------------------------
+
+First ensure that you have configured SES as per the `Quick start
+<https://docs.aws.amazon.com/ses/latest/DeveloperGuide/quick-start.html>`__
+
+Then configure these keys as follows:
+
+.. code-block:: yaml
+
+   report:
+     email:
+       enabled: true
+       from: you@verified_domain.com  # (edit accordingly)
+       to: your.destination@example.org  # The e-mail address you want to send reports to
+       subject: '{count} changes: {jobs}'
+       html: true
+       method: smtp
+         host: email-smtp.us-west-2.amazonaws.com  # (edit accordingly)
+         user: ABCDEFGHIJ1234567890  # (edit  accordingly)
+         auth: true
+         port: 587  # (25 or 465 also work)
+         starttls: true
+
+The password is not stored in the config file, but in your keychain. To store the password, run: ``webchanges
+--smtp-login`` and enter your password. If for whatever reason you cannot use a keyring to store your password, you can
+save it in the ``insecure_password`` key in the SMTP config. For more information about the security implications, see
+:ref:`smtp-login-without-keyring`.
+
+.. _smtp-login-without-keyring:
+
+SMTP login without keyring
+--------------------------
+
+If for whatever reason you cannot use a keyring to store your password, (for example, when using it from a ``cron``
+job) you can save it in the ``insecure_password`` option in the SMTP config:
+
+.. code-block:: yaml
+
+   report:
+     email:
+       method: smtp
+         auth: true
+         insecure_password: 'this_is_my_secret_password'
+
+The ``insecure_password`` key will be preferred over the data stored in the keyring. Please note that as the name says,
+storing the password as plaintext in the configuration is insecure and bad practice, but for an e-mail account that’s
+only dedicated for sending mails this might be a way. **Never ever use this with your your primary e-mail account!**
+Seriously! Create a throw-away Gmail (or other) account just for sending out those e-mails or use local ``sendmail``
+with a mail server configured instead of relying on SMTP and password auth.
+
+Note that this makes it really easy for your password to be picked up by software running on your machine, by other
+users logged into the system and/or for the password to appear in log files accidentally.
+
+
+Pushover
+--------
+
+You can configure webchanges to send real time notifications about changes via `Pushover`_. To enable this, ensure you
+have the ``chump`` python package installed (see :doc:`dependencies`). Then edit your config (``webchanges
+--edit-config``) and enable pushover. You will also need to add to the config your Pushover user key and a unique app
+key (generated by registering webchanges as an application on your `Pushover account`_.
+
+.. _Pushover: https://pushover.net/
+.. _Pushover account: https://pushover.net/apps/build
+
+You can send to a specific device by using the device name, as indicated when you add or view your list of devices in
+the Pushover console. For example ``device:  'MyPhone'``, or ``device: 'MyLaptop'``. To send to *all* of your devices,
+set ``device: null`` in your config (``webchanges --edit-config``) or leave out the device configuration completely.
+
+Setting the priority is possible via the ``priority`` config option, which can be ``lowest``, ``low``, ``normal``,
+``high`` or ``emergency``. Any other setting (including leaving the option unset) maps to ``normal``.
+
+Pushbullet
+----------
+
+Pushbullet notifications are configured similarly to Pushover (see above). You’ll need to add to the config your
+Pushbullet Access Token, which you can generate at https://www.pushbullet.com/#settings
+
+Telegram
+--------
+
+Telegram notifications are configured using the Telegram Bot API. For this, you’ll need a Bot API token and a chat id
+(see https://core.telegram.org/bots). Sample configuration:
+
+.. code:: yaml
+
+   telegram:
+     enabled: true
+     bot_token: '999999999:3tOhy2CuZE0pTaCtszRfKpnagOG8IQbP5gf' # your bot api token
+     chat_id: '88888888' # the chat id where the messages should be sent
+
+To set up Telegram, from your Telegram app, chat up BotFather (New Message, Search, “BotFather”), then say ``/newbot``
+and follow the instructions. Eventually it will tell you the bot token (in the form seen above,
+``<number>:<random string>``) - add this to your config file.
+
+You can then click on the link of your bot, which will send the message ``/start``. At this point, you can use the
+command ``webchanges --telegram-chats`` to list the private chats the bot is involved with. This is the chat ID that you
+need to put into the config file as ``chat_id``. You may add multiple chat IDs as a YAML list:
+
+.. code:: yaml
+
+   telegram:
+     enabled: true
+     bot_token: '999999999:3tOhy2CuZE0pTaCtszRfKpnagOG8IQbP5gf' # your bot api token
+     chat_id:
+       - '11111111'
+       - '22222222'
+
+Don’t forget to also enable the reporter.
+
+Slack
+-----
+
+Slack notifications are configured using “Slack Incoming Webhooks”. Here is a sample configuration:
+
+.. code:: yaml
+
+   slack:
+     enabled: true
+     webhook_url: 'https://hooks.slack.com/services/T50TXXXXXU/BDVYYYYYYY/PWTqwyFM7CcCfGnNzdyDYZ'
+
+To set up Slack, from you Slack Team, create a new app and activate “Incoming Webhooks” on a channel, you’ll get a
+webhook URL, copy it into the configuration as seen above.
+
+IFTTT
+-----
+
+To configure IFTTT events, you need to retrieve your key from `<https://ifttt.com/maker_webhooks/settings>`__.
+
+The URL shown in "Account Info" has the following format:
+
+.. code::
+
+   https://maker.ifttt.com/use/{key}
+
+In this URL, ``{key}`` is your API key. The configuration should look like this (you can pick any event name you want):
+
+.. code:: yaml
+
+   ifttt:
+     enabled: true
+     key: aA12abC3D456efgHIjkl7m
+     event: event_name_you_want
+
+The event will contain three values in the posted JSON:
+
+* ``value1``: The type of change (``new``, ``changed``, ``unchanged`` or ``error``)
+* ``value2``: The name of the job (``name`` key in ``jobs.yaml``)
+* ``value3``: The location of the job (``url`` or ``command`` key in ``jobs.yaml``)
+
+These values will be passed on to the Action in your Recipe.
+
+Matrix
+------
+
+You can have notifications sent to you through the `Matrix protocol`_.
+
+.. _Matrix protocol: https://matrix.org
+
+To achieve this, you first need to register a Matrix account for the bot on any homeserver.
+
+You then need to acquire an access token and room ID, using the following instructions adapted from `this
+guide <https://t2bot.io/docs/access_tokens/>`__:
+
+1. Open `Riot.im <https://riot.im/app/>`__ in a private browsing window
+2. Register/Log in as your bot, using its user ID and password.
+3. Set the display name and avatar, if desired.
+4. In the settings page, select the "Help & About" tab, scroll down to the bottom and click Access Token:
+   <click to reveal>.
+5. Copy the highlighted text to your configuration.
+6. Join the room that you wish to send notifications to.
+7. Go to the Room Settings (gear icon) and copy the *Internal Room ID* from the bottom.
+8. Close the private browsing window **but do not log out, as this invalidates the Access Token**.
+
+Here is a sample configuration:
+
+.. code:: yaml
+
+   matrix:
+     enabled: true
+     homeserver: https://matrix.org
+     access_token: 'YOUR_TOKEN_HERE'
+     room_id: '!roomroomroom:matrix.org'
+
+You will probably want to use the following configuration for the ``markdown`` reporter, if you intend to post change
+notifications to a public Matrix room, as the messages quickly become noisy:
+
+.. code:: yaml
+
+   markdown:
+     enabled: true
+     details: false
+     footer: false
+     minimal: true
+
+XMPP
+----
+
+You can have notifications sent to you through the `XMPP protocol`.
+
+To achieve this, you should register a new XMPP account that is just used for `webchanges`.
+
+Here is a sample configuration:
+
+.. code:: yaml
+
+   xmpp:
+     enabled: true
+     sender: 'BOT_ACCOUNT_NAME'
+     recipient: 'YOUR_ACCOUNT_NAME'
+
+The password is not stored in the config file, but in your keychain. To store the password, run: ``webchanges
+--xmpp-login`` and enter your password.
+
+If for whatever reason you cannot use a keyring to store your password, you can save it in the ``insecure_password``
+key in the XMPP config. For more information about the security implications, see :ref:`smtp-login-without-keyring`.
+
+
+.. _comparison_filter:
+
+``comparison_filter``
+----------------------
+
+The ``comparison_filter`` filters the output of the unified diff to keep only addition or deleted lines
+ - A value of `additions` will cause reports to contain only lines that are added by the diff (no deletions).
+ - A value of `deleted` key will cause reports to contain only lines that are deleted by the diff (no additions).
+
+`comparison_filter: additions` is extremely useful for monitoring new content on sites where content gets added while old content "scrolls" away.
+
+Because lines that are modified generate both a deleted and an added line by the diff, this filters always displays modified lines.
+
+As a safeguard, `additions` will display a warning with the deletions when the size of the content shrinks by 75% or more.
+
+
+Sample output for `additions`:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   ... @   Sat, 12 Jul 2020 00:00:00 +0000
+   +++ @   Sat, 12 Jul 2020 01:00:00 +0000
+   -**Comparison type: Additions only**
+   @@ -1,2 +1,2 @@
+   +This is a line that has been added or changed
+
+Sample output for `deletions`:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   --- @   Sat, 12 Jul 2020 00:00:00 +0000
+   ... @   Sat, 12 Jul 2020 01:00:00 +0000
+   +**Comparison type: Deletions only**
+   @@ -1,2 +1,2 @@
+   -This is a line that has been deleted or changed
+
+Sample output for `additions` when the source content shrinks by 75% or more:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   ... @   Sat, 12 Jul 2020 00:00:00 +0000
+   +++ @   Sat, 12 Jul 2020 01:00:00 +0000
+   -**Comparison type: Additions only**
+   -**Deletions are being shown as 75% or more of the content has been deleted**
+   @@ -1,3 +0,0 @@
+   -# Example Domain
+   -This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.
+   -[More information...](https://www.iana.org/domains/example)
+   ---------------------------------------------------------------------------
+
+.. _additions_only:
+
+``additions_only``
+-------------------
+
+The new ``additions_only`` key causes the report for that source to contain only lines that are
+added by the diff (no deletions). This is extremely useful for monitoring new content on sites where content gets added while old content "scrolls" away.
+
+Because lines that are modified generate both a deleted and an added line by the diff, this filter always displays modified lines.
+
+As a safeguard, ``additions_only`` will display a warning and all deleted lines when the size of the source shrinks by 75% or more.
+
+Example:
+
+.. code-block:: yaml
+
+   url: https://example.com
+   additions_only:
+
+Output:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   ... @   Sat, 12 Jul 2020 00:00:00 +0000
+   +++ @   Sat, 12 Jul 2020 01:00:00 +0000
+   -**Comparison type: Additions only**
+   @@ -1,2 +1,2 @@
+   +This is a line that has been added or changed
+
+Example (when the source content shrinks by 75% or more):
+
+.. code-block:: yaml
+
+   url: https://example.com
+   additions_only:
+
+Output:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   ... @   Sat, 12 Jul 2020 00:00:00 +0000
+   +++ @   Sat, 12 Jul 2020 01:00:00 +0000
+   -**Comparison type: Additions only**
+   -**Deletions are being shown as 75% or more of the content has been deleted**
+   @@ -1,3 +0,0 @@
+   -# Example Domain
+   -This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.
+   -[More information...](https://www.iana.org/domains/example)
+   ---------------------------------------------------------------------------
+
+
+.. _deletions_only:
+
+``deletions_only``
+------------------
+The new `deletions_only` key causes the report for that source to contain only lines that are deleted by the diff (no additions).
+
+Example:
+
+.. code-block:: yaml
+
+   url: https://example.com
+   deletions_only
+
+Output:
+
+.. code-block:: none
+
+   ---------------------------------------------------------------------------
+   CHANGED: https://example.com
+   ---------------------------------------------------------------------------
+   --- @   Sat, 12 Jul 2020 00:00:00 +0000
+   ... @   Sat, 12 Jul 2020 01:00:00 +0000
+   +**Comparison type: Deletions only**
+   @@ -1,2 +1,2 @@
+   -This is a line that has been deleted or changed
