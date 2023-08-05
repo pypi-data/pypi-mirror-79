@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hello-testo1
+Version: 0.0.1
+Summary: A demo_car package
+Home-page: https://github.com/
+Author: Testo
+Author-email: nedamh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Testo
+This is a sample package to learn the steps of creating and publishing package.
+
+
