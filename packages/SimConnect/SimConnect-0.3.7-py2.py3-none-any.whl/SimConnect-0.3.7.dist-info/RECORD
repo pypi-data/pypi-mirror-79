@@ -1,0 +1,12 @@
+SimConnect/Attributes.py,sha256=NvTb1RqdV5Hpk4E_2O5eBSNE_v3HCI2z03oxZVDKR84,29885
+SimConnect/Constants.py,sha256=vDJg3kmqYTQLAZgpP-9fOyfOHX1b6U1B2zO0u4rsGFw,2517
+SimConnect/Enum.py,sha256=RRCUQKYMeVDEpICMLIH0Yp64RmFCf1urtmT6PW-fBRo,23400
+SimConnect/EventList.py,sha256=PcV8kZfwEZ9s7seEze9Q92IxeGQ7rjbePcUlT1Zr8PI,89882
+SimConnect/RequestList.py,sha256=nFLSHqiNlAZ8dzMN5YRL_zUhwHtsTqOVk49QmsQY67c,112541
+SimConnect/SimConnect.py,sha256=_U6pmx7vRmzbqdv63bcDp3agY2FfL9oBb36JjhqRqIY,9733
+SimConnect/__init__.py,sha256=dT65TngrsQTvbU8sWjfmfRjvDKseQqW_4XubhkjUvOg,415
+opt/hostedtoolcache/Python/3.8.5/x64/lib/python3.8/site-packages/SimConnect/SimConnect.dll,sha256=Z3_ThJ1U4qaDHcGqNI2XTq0iVexgn79YMO8yvwgEuLw,58368
+SimConnect-0.3.7.dist-info/METADATA,sha256=n1GC-hinvb0uZSPlSWWzLBkguipjzbfa_EZ7Aqi10y0,1356
+SimConnect-0.3.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+SimConnect-0.3.7.dist-info/top_level.txt,sha256=-l3sVHmM-c-3kET7CmFRzkEIF3FrMlqfpaZrL6q-7Fk,11
+SimConnect-0.3.7.dist-info/RECORD,,
