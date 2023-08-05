@@ -1,0 +1,8 @@
+tft/artemis_cli/__init__.py,sha256=Q9y8mMTy_6EehPAlDgo6pTSqdS1q7Px8atWUcLvqA7Y,8986
+tft/artemis_cli/artemis_cli.py,sha256=wOWj3K47ZgPtDzp2gC9mSh3LOkPwP6tCgio8NxOTobE,10825
+tft/artemis_cli/schemas/config.yaml,sha256=Ua7tvglDgTkLHDe7YI_b7p73LwUda2WwZjZ5RhkUr2U,84
+tft_artemis_cli-0.0.1.dist-info/entry_points.txt,sha256=XYSD7aLBeobTKVNFUYTi3c9cdugjGf8dhdXPwQr2_10,68
+tft_artemis_cli-0.0.1.dist-info/LICENSE,sha256=098mmpX3ztVSauY1WxCLo7-DSC78FtG4yYrN_tJTLqw,556
+tft_artemis_cli-0.0.1.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+tft_artemis_cli-0.0.1.dist-info/METADATA,sha256=34tvWPNGdK_kZX7cZUeQnvqnZ8Vz6If92eitMFcXopc,818
+tft_artemis_cli-0.0.1.dist-info/RECORD,,
