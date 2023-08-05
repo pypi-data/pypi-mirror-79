@@ -1,0 +1,26 @@
+emgfit/__init__.py,sha256=-WVAXP8nqFnb2i3H2QUH2twOQrtE-BkL8XTvRmXcpdU,836
+emgfit/_version.py,sha256=l2WcESb3dQDSJXaigfchdKNGGpVYJi34-HcpRXDuzlc,518
+emgfit/ame_funcs.py,sha256=UmQhmxst2W7YYAHAla41on_5dAtb5jiOx9AUUAm7hAs,4320
+emgfit/config.py,sha256=7WXLdAsk5HuM_lNbfbPjWALAD97e4gZVNlZXKfFAukE,902
+emgfit/emg_funcs.py,sha256=81kL4TVic4u1l68leJouSpbjFgv0BB45r9Omm9DwMiI,15585
+emgfit/fit_models.py,sha256=0wCsnVSN7ZSvI3gmHlOl7oAqxbOSOqMQw6Zlay2tdng,42373
+emgfit/spectrum.py,sha256=lUaztJTcYCFMKWr5U7BUr-nc_ztef2EExAJRpDWEnQA,161659
+emgfit/AME2016/AME 2016 dataframe.ipynb,sha256=WBLm5Ibr75h_8CVeZnpe4GqSt-wp6HXcZn4dF7Jk3rE,4089
+emgfit/AME2016/AME2016_formatted.csv,sha256=ZJcYurAKMseHU8_DNrVTrKC4Wz1Y_kRkl3jA3PqnPhQ,315042
+emgfit/AME2016/ame16.txt,sha256=IWf1eiqYMx5GSbLdK2WKkAbtT7oZdXKev-UqQrS5IYo,418937
+emgfit/examples/tutorial/2019-09-13_004-_006 SUMMED High stats 62Ga.txt,sha256=epIEAGW-jN0DYXsXeGtw5avCJfjRB5JC6oaKpYPNYz4,36683
+emgfit/examples/tutorial/emgfit_tutorial.ipynb,sha256=BWx3s05G0yjvhtAoqY1bEEHMofOl-ILGiwGUqABX5dU,21363
+emgfit/examples/tutorial/outputs/readme.txt,sha256=BnU_Al1QnhEXzeVqeADXuqvlV1lo3TXDRG43ZM9Qn_Q,111
+emgfit/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emgfit/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emgfit/tests/test_examples.py,sha256=lGtJdx4irqrcZGMpcehAVyx03sK6Lh7BVHDZX537Yd8,915
+emgfit-0.2.0.data/data/emgfit/LICENSE.txt,sha256=RsiFiR9dhiznyK1C7whLVsdUlAaBOwsvXBsdEDdh-oY,7291
+emgfit-0.2.0.data/data/emgfit/README.rst,sha256=qyfitTqfFAM9VJwOD74yzF8uvJp4eSv6C9188__Y6dA,2070
+emgfit-0.2.0.data/data/emgfit/requirements.txt,sha256=RnX3A7EJhvMT7sXrA5iB8vlS7vYrVmj4hnJvVni31nc,225
+emgfit-0.2.0.dist-info/AUTHORS.rst,sha256=_8kJAc0-vSgF68qdu3nP9OjHEtQxXHvSpOMFULIStIw,168
+emgfit-0.2.0.dist-info/LICENSE.txt,sha256=RsiFiR9dhiznyK1C7whLVsdUlAaBOwsvXBsdEDdh-oY,7291
+emgfit-0.2.0.dist-info/METADATA,sha256=uuIuDJJBQZTigkXBYSIWCzALm_rRJZ7mC7vdR7Y9_pE,2964
+emgfit-0.2.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+emgfit-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+emgfit-0.2.0.dist-info/top_level.txt,sha256=fKtjF7kSpfH05ZUGBS4-oY-730QLfxr3mRJGIX7oNnU,7
+emgfit-0.2.0.dist-info/RECORD,,
