@@ -1,0 +1,17 @@
+*~
+__pycache__
+*.pyc
+hardware-control.egg-info/
+build/
+dist/
+python/.eggs/
+.mypy_cache
+*.DS_*
+.eggs/*
+*.egg-info/*
+*.json
+*.log
+*.mcro
+*.txt
+.idea/*
+.directory
