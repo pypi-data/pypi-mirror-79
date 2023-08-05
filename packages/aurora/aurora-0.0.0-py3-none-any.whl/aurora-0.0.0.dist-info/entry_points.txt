@@ -1,0 +1,4 @@
+[console_scripts]
+aurora = aurora.server:main
+aurora-quickstart = aurora.quickstart:main
+
