@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: asol-probability-dist
+Version: 0.1
+Summary: A package to visualize Gaussian and Binomial probability distributions
+Home-page: UNKNOWN
+Author: Andrew Leung
+Author-email: Andrew.sLeung@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
