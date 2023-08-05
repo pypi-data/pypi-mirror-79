@@ -1,0 +1,13 @@
+README.md
+setup.py
+pykickloc/__init__.py
+pykickloc/intuitive.py
+pykickloc/kalman.py
+pykickloc.egg-info/PKG-INFO
+pykickloc.egg-info/SOURCES.txt
+pykickloc.egg-info/dependency_links.txt
+pykickloc.egg-info/requires.txt
+pykickloc.egg-info/top_level.txt
+pykickloc/kalman/__init__.py
+pykickloc/kalman/ekf.py
+pykickloc/kalman/kalmanfilter.py
