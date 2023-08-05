@@ -1,0 +1,14 @@
+ftmstore/__init__.py,sha256=HrSTv9ls32Tovp-uSMiLxaZNMzBWSh8MS3WjlNnMdD0,124
+ftmstore/cli.py,sha256=YcbnewdEYAZVZKiuo8RjEN-bMKdiysjtMLk25z5bgWY,3205
+ftmstore/dataset.py,sha256=Lg5omYDtwS5785euT6bbdnRiVoOF8g0ikp6r0ngQo1w,5875
+ftmstore/loader.py,sha256=E8kxkODHhw-Jx39bkzs-W-tnFQqX-0ghR54n7cSPuhE,3843
+ftmstore/memorious.py,sha256=sdxPjWgZMwpzCqDMp27cECVChUTLBLfjylnakdMhWTM,2819
+ftmstore/settings.py,sha256=ezFOF9Ra9y8Iq4p7mCqdpBgKRnjl5uenIsGPmtJsb_g,260
+ftmstore/utils.py,sha256=qP889ueEyfyOj0VFpBhMFI7AOiTmboQ1YAIjX4AzkDM,386
+followthemoney_store-2.2.3.dist-info/LICENSE,sha256=6tW7YslJ_ybH4bdRKUsurKiRaZ6UgpMR22658cNn84A,1081
+followthemoney_store-2.2.3.dist-info/METADATA,sha256=6GT_Oiq11fOvgMJTDLNxQHGPU7H8sDlWygrrFcebQI4,1675
+followthemoney_store-2.2.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+followthemoney_store-2.2.3.dist-info/entry_points.txt,sha256=I_x3M9SXa5C9vYBQXOVkcf5BJhCM0goKgdSQHou17Po,207
+followthemoney_store-2.2.3.dist-info/top_level.txt,sha256=qmPESqvSsfVDfz0CN-XB8EaM9nuUJq41UNVvRzKnSRI,9
+followthemoney_store-2.2.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+followthemoney_store-2.2.3.dist-info/RECORD,,
