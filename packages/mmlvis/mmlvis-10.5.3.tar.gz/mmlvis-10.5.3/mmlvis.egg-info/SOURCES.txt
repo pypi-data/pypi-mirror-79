@@ -1,0 +1,12 @@
+setup.py
+lvis/__init__.py
+lvis/colormap.py
+lvis/eval.py
+lvis/lvis.py
+lvis/results.py
+lvis/vis.py
+mmlvis.egg-info/PKG-INFO
+mmlvis.egg-info/SOURCES.txt
+mmlvis.egg-info/dependency_links.txt
+mmlvis.egg-info/requires.txt
+mmlvis.egg-info/top_level.txt
