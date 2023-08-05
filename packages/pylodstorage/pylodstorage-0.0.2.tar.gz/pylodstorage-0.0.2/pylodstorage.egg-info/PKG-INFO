@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pylodstorage
+Version: 0.0.2
+Summary: python List of Dict (Table) Storage library
+Home-page: https://github.com/WolfgangFahl/pyLodStorage
+Author: Wolfgang Fahl
+Author-email: wf@bitplan.com
+Maintainer: Wolfgang Fahl
+License: Apache License
+Description: # pyLoDStorage
+        python List of Dict (Table) Storage library
+        
+        [![pypi](https://img.shields.io/pypi/pyversions/pyLoDStorage)](https://pypi.org/project/pyLoDStorage/)
+        [![Github Actions Build](https://github.com/WolfgangFahl/pyLoDStorage/workflows/Build/badge.svg?branch=master)](https://github.com/WolfgangFahl/pyLoDStorage/actions?query=workflow%3ABuild+branch%3Amaster)
+        [![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/pyLoDStorage.svg)](https://github.com/WolfgangFahl/pyLoDStorage/issues)
+        [![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/pyLoDStorage.svg)](https://github.com/WolfgangFahl/pyLoDStorage/issues/?q=is%3Aissue+is%3Aclosed)
+        [![License](https://img.shields.io/github/license/WolfgangFahl/pyLoDStorage.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+        
+        What it is
+        ==========
+        pyLoDStorage allows to store table like data (List of Dicts) via Sqlite3
+        
+        Installation
+        ============
+        ```bash
+        pip install pylodstorage
+        ```
+        
+        Get Sources 
+        ===========
+        ```bash
+        git clone https://github.com/WolfgangFahl/pyLoDStorage
+        cd pyLodStorage
+        scripts/install
+        ```
+        
+        Testing
+        =======
+        ```bash
+        scripts/test
+        ```
+        
+        Usage
+        =====
+        see [test cases](https://github.com/WolfgangFahl/pyLoDStorage/tests)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
