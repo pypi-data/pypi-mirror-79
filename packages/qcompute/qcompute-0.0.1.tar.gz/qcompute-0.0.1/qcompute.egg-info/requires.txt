@@ -1,0 +1,8 @@
+bce-python-sdk-reborn==0.8.32
+bidict==0.21.0
+matplotlib==3.3.1
+numpy==1.19.1
+pprint==0.1
+protobuf==3.13.0
+requests==2.24.0
+scipy==1.5.2
