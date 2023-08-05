@@ -1,0 +1,6 @@
+README.md
+setup.py
+cowpoke.egg-info/PKG-INFO
+cowpoke.egg-info/SOURCES.txt
+cowpoke.egg-info/dependency_links.txt
+cowpoke.egg-info/top_level.txt
