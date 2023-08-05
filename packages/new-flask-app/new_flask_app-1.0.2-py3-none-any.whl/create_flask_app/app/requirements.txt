@@ -1,0 +1,13 @@
+black
+isort
+flask
+Flask-CORS
+{{ 'pytest' if extras_includes('test') }}
+{{ 'gunicorn' if extras_includes('heroku') }}
+{{ 'Flask-Assets' if extras_includes('sass') }}
+{{ 'pyscss' if extras_includes('sass') }}
+{{ 'Flask-Login' if extras_includes('flask-login') }}
+{{ 'Flask-Admin' if extras_includes('flask-admin') }}
+{{ 'Flask-WTF' if extras_includes('flask-wtf') }}
+{{ 'Flask-SQLAlchemy' if extras_includes('sqlite') }}
+{{ 'Flask-PyMongo' if extras_includes('mongodb') }}
