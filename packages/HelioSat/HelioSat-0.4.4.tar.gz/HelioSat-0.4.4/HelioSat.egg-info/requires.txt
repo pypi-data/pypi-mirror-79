@@ -1,0 +1,8 @@
+bs4
+cdflib
+netcdf4
+numba
+numpy
+requests
+requests-ftp
+spiceypy
