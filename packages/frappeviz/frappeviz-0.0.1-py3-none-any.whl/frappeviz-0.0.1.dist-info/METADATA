@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: frappeviz
+Version: 0.0.1
+Summary: Python app for visualizing class diagrams for a Frappe Framework App using PlantUML
+Home-page: https://github.com/yemikudaisi/frappe_viz
+Author: Yemi Kudaisi
+Author-email: contact@yemikudaisi.online
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: plantuml (==0.3.0)
+
+# Frappe App Visualizer
+
+A python app for visualizing class diagrams of a [Frappe App's](https://frappeframework.com/) doctypes using [PlantUML](https://plantuml.com/)
+
+![Screenshot](https://github.com/yemikudaisi/frappe_viz/raw/master/docs/library_management.png)
+
+## Dependencies
+
+- [Python 3](https://www.python.org/download/releases/3.0/)
+- [PlantUML](https://pypi.org/project/plantuml/)
+
+## Usage
+
+```
+$ git clone https://github.com/yemikudaisi/frappe-app-viz.git
+$ cd frappe-app-viz
+$ pip install -r requirements.txt
+$ python main.py path/to/frappe/app/dir -o /path/to/output/dir
+```
+
+### Arguments
+- frappe folder path
+- --output : output folder
+
+The UML for each module in the app is generated in separate files (PlantUML text and .png images) that shares the same name as the app's respective modules.
+
+## TODO
+- [x] Add support for output folder argument
+- [ ] Add support for selecting specific modules within an app
+
+
