@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zps
+Version: 0.1.1
+Summary: Zeek PCAP Scalpel
+Home-page: https://github.com/SuperCowPowers/zps
+Author: Brian Wylie
+Author-email: briford@supercowpowers.com
+License: Apache
+Keywords: Zeek,Bro,Python,PCAP
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+
+# zps
+Zeek PCAP Scalpel
+
+
