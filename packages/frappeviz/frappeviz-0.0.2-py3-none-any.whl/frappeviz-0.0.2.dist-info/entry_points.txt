@@ -1,0 +1,3 @@
+[console_scripts]
+frappeviz = frappeviz.__main__:cmdline
+
