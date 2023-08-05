@@ -1,0 +1,9 @@
+README.md
+setup.py
+logprov/__init__.py
+logprov/capture.py
+logprov/io.py
+logprov.egg-info/PKG-INFO
+logprov.egg-info/SOURCES.txt
+logprov.egg-info/dependency_links.txt
+logprov.egg-info/top_level.txt
