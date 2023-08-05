@@ -1,0 +1,8 @@
+README.md
+setup.py
+Stocky/__init__.py
+Stocky/stocky.py
+stockie.egg-info/PKG-INFO
+stockie.egg-info/SOURCES.txt
+stockie.egg-info/dependency_links.txt
+stockie.egg-info/top_level.txt
