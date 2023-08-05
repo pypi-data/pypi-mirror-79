@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: whoami
+Version: 2.1.8
+Summary: ✔ A convenient library to get our ip (real public ip or private ip).
+Home-page: https://github.com/wangbohan2000/whoami
+Author: Bohan Wang
+Author-email: wbhan_cn@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ✔ Who am I ?
+
+### A convenient library to get our ip (real public ip or private ip).
+
+## Tutorial
+
+```bash
+pip3 install whoami
+```
+
+```python
+from whoami import get_my_ip, IPType
+
+get_my_ip(IPType.WAN)
+
+get_my_ip(IPType.LAN)
+
+# the return type will be a list storing your ip.
+```
+
