@@ -1,0 +1,14 @@
+setup.py
+odoo/addons/beesdoo_account/README.rst
+odoo/addons/beesdoo_account/__init__.py
+odoo/addons/beesdoo_account/__manifest__.py
+odoo/addons/beesdoo_account/readme/CONTRIBUTORS.rst
+odoo/addons/beesdoo_account/readme/DESCRIPTION.rst
+odoo/addons/beesdoo_account/static/description/index.html
+odoo/addons/beesdoo_account/views/account_invoice.xml
+odoo12_addon_beesdoo_account.egg-info/PKG-INFO
+odoo12_addon_beesdoo_account.egg-info/SOURCES.txt
+odoo12_addon_beesdoo_account.egg-info/dependency_links.txt
+odoo12_addon_beesdoo_account.egg-info/not-zip-safe
+odoo12_addon_beesdoo_account.egg-info/requires.txt
+odoo12_addon_beesdoo_account.egg-info/top_level.txt
