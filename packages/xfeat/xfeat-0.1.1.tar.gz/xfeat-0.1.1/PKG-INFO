@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xfeat
+Version: 0.1.1
+Summary: Feature Engineering & Exploration Library using GPUs and Optuna
+Home-page: UNKNOWN
+Author: Kohei Ozaki
+Author-email: ozaki@preferred.jp
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: develop
