@@ -1,0 +1,88 @@
+systems:
+### This is where you define CUSTOMER SYSTEM information, including
+###   site_id, dbs version, pdcr, and connection details.
+###   Additionally you can define fileset override parameters, which
+###   override all other parameter locations.
+
+### Teradata Transcend information is listed here for your convenience.
+###   Also, a sample
+###   To setup your customer, copy/paste an existing system below, then
+###   modify as needed. Be mindful of indenting, it is important in YAML!
+
+### For more details please see:
+###  YAML Format:  https://www.youtube.com/watch?v=o9pT9cWzbnI
+###  COA:  https://teradata.sharepoint.com/teams/Sales/ConsumptionAnalytics
+###  SiteID:  SELECT * FROM TABLE (SYSLIB.MonitorSystemPhysicalConfig()) AS cfg;
+
+  Transcend:
+    active:      "True"
+    # these are the actual settings for Transcend Prod:
+    siteid:      "TRANSCEND02"
+    dbsversion:  "16.20"
+    collection:  "pdcr"
+    use:         "Production"
+    # connection info:
+    host:        "tdprd.td.teradata.com"
+    logmech:     "ldap"
+    driver:      "sqlalchemy"
+    encryption:  "false"
+    username:    "{td_quicklook}"
+    password:    "{td_password}"
+    # other name/value pairs (anything you want)
+    some_value:  "Bear"
+    # Optional (advanced) fileset definitions, for scripting or overrides
+    # if this doesn't make sense, just stick with the GUI, which makes
+    # this section irrelevant.
+    filesets:
+      demo:
+        active:     "True"
+        some_value: "Aardvark"
+
+
+  TranscendAWS:
+    active:      "True"
+    # these are the actual settings for Transcend AWS:
+    siteid:      "TRNAWS01"
+    dbsversion:  "16.20"
+    collection:  "pdcr"
+    use:         "DR/Test"
+    # connection info:
+    host:        "tdprd2.td.teradata.com"
+    logmech:     "ldap"
+    driver:      "sqlalchemy"
+    encryption:  "false"
+    username:    "{td_quicklook}"
+    password:    "{td_password}"
+    # other name/value pairs (anything you want)
+    some_value:  "Bear"
+    # Optional (advanced) fileset definitions, for scripting or overrides
+    # if this doesn't make sense, just stick with the GUI, which makes
+    # this section irrelevant.
+    filesets:
+      demo:
+        active:     "True"
+
+
+  Axeda_SystemABC:
+    active:      "True"
+    # system info:   YOU WILL NEED TO REPLACE THESE VALUES!
+    siteid:      "Enter_Site_ID_Here"
+    dbsversion:  "16.20"
+    collection:  "pdcr"
+    use:         "test"   # prod/qa/dr/dev/etc
+    # connection info:
+    host:        "127.0.0.10"  # this is default for Axeda connections
+    username:    "{custsys_username}"
+    password:    "{custsys_password}"
+    logmech:     "ldap"
+    driver:      "sqlalchemy"
+    encryption:  "false"
+    # other name/value pairs (anything you want)
+    some_value:  "Bear"
+    # Optional (advanced) fileset definitions, for scripting or overrides
+    # if this doesn't make sense, just stick with the GUI, which makes
+    # this section irrelevant.
+    filesets:
+      demo:
+        active:     "True"
+        some_value: "Aardvark"
