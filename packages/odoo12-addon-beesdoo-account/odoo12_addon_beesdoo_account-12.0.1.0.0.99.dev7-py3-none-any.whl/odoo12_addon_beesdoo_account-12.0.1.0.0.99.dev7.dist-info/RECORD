@@ -1,0 +1,11 @@
+odoo/addons/beesdoo_account/README.rst,sha256=KdV2cP8G_aeedvmakHp6t6tUfxfdZItTXKsXJpN58Ow,1867
+odoo/addons/beesdoo_account/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_account/__manifest__.py,sha256=ZtLt4QGccHUAq3jOStSwxJeUeVrsjlBgPByF-Ws1Ixk,665
+odoo/addons/beesdoo_account/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_account/readme/DESCRIPTION.rst,sha256=ZXCxPCSPlnsdcyqPymCIExmrH3HGSR4IBzzGYLDwU9Y,51
+odoo/addons/beesdoo_account/static/description/index.html,sha256=EYGSde_iy-rPqav4BTzpXPifq8sviXiByyxCP2qwyK8,10749
+odoo/addons/beesdoo_account/views/account_invoice.xml,sha256=W2m_ulND2QPVYdqC3-MCdzJm4JJSzOAzWRCCOih3S7o,977
+odoo12_addon_beesdoo_account-12.0.1.0.0.99.dev7.dist-info/METADATA,sha256=yHWAVM4wQQUaP8Fm2lAdn3FZPi16tunh_vqMASsSMy8,2441
+odoo12_addon_beesdoo_account-12.0.1.0.0.99.dev7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_account-12.0.1.0.0.99.dev7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_account-12.0.1.0.0.99.dev7.dist-info/RECORD,,
