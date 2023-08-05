@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: drug-learning
+Version: 1.0.0
+Summary: Convert 3D molecules into fingerprints or descriptors.
+Home-page: https://github.com/anasf97/drug_learning
+Author: Ana Sánchez
+Author-email: ana.sanchez01@estudiant.upf.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
