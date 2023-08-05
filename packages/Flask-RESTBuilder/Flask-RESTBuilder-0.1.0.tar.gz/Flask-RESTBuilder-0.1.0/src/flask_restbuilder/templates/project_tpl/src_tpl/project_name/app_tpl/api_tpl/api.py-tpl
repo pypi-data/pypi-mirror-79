@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+# Define class API views from RESTful everywhere
+from flask_restbuilder import RESTful
+
