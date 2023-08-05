@@ -1,0 +1,3 @@
+[console_scripts]
+pypptkit = pypptkit.endpoints.main:main
+

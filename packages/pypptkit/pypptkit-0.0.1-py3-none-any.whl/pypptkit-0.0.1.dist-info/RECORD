@@ -1,0 +1,13 @@
+pypptkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypptkit/configs.py,sha256=gENZ6h8_ZirGgT1TT-EUAGfwS3SRUHqzOUQACSgszzQ,108
+pypptkit/utils.py,sha256=gbhVIPPxMQQi3XsisphiawgQprlK5WMKtr1IOePuGLI,497
+pypptkit/version.py,sha256=dse08UYN9kCDib7OMh549Vpp4n5-pwRN0c9p-xRdP7o,83
+pypptkit/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypptkit/endpoints/group_default.py,sha256=Z3pCpbeZbBVo6E6VIAbkMTy3p1211TNS5MauKU-3_NM,1305
+pypptkit/endpoints/main.py,sha256=rET9Bhohz-Rs_zkAF_-nc1ihoe7tXsEvsKKpsrK8Wco,539
+pypptkit-0.0.1.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pypptkit-0.0.1.dist-info/METADATA,sha256=MBITD2iVZ-3ut425fYKB4QIQGIqezIIH13gaaqMl6dI,1324
+pypptkit-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pypptkit-0.0.1.dist-info/entry_points.txt,sha256=Qeycpnh1oT6wvDTaZDL672lLL-txB4RoO6If80rprik,59
+pypptkit-0.0.1.dist-info/top_level.txt,sha256=7a5OC2Hwt1bfnW4_s73dClSOa3zBLfAN9Shz5PcKlHA,9
+pypptkit-0.0.1.dist-info/RECORD,,
