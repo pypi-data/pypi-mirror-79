@@ -1,0 +1,8 @@
+asgi_cable/__init__.py,sha256=6poEJ-sJooPvUBWasPPD7OIePguZkFjwgSbrXcJJNE8,59
+asgi_cable/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_cable/contrib/django/__init__.py,sha256=tExqxKkSpAZUWNrqm_9jBlc6doMbrfLHPEXsueJ8M3A,476
+asgi_cable/static/wire/socket.js,sha256=_90tQNmYNtjRIJwKUEfISrMjJXVmpEcAta-wImYd5rc,9968
+asgi_cable/websockets.py,sha256=fzuHuWgtWaITMWI26BXAfdHrZnItBuKVJnQQQT1IHhc,7099
+asgi_cable-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+asgi_cable-0.1.0.dist-info/METADATA,sha256=PEpH60IXpGL_7SgT451mPSd6vL7bR1YR9a6t_jiiu2Q,410
+asgi_cable-0.1.0.dist-info/RECORD,,
