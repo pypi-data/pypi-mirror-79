@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: VectorsPY
+Version: 0.0.1
+Summary: Python Module to use Vectors
+Home-page: https://github.com/aryansh-1/VectorsPY
+Author: Aryansh Gupta
+Author-email: Aryanshappmaker@gmail.com
+License: UNKNOWN
+Description: # VectorsPY
+        
+        Python module to use Vector2 and Vector3 (as in Unity Game Engine - C#) in Python.
+        
+        - Create Vector2 objects for 2D Vectors (x and y coordinate system)
+        - Create Vector3 objects for 3D Vectors (x,y and z coordinate system)
+        - Add, Subtract 2 Vectors
+        - Get Magnitude of Vector Object<br>
+        and much more]
+        
+        ## Installation
+        
+        Using pip - 
+        ```
+        pip install VectorsPY
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown

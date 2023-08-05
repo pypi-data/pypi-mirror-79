@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+VectorsPY.egg-info/PKG-INFO
+VectorsPY.egg-info/SOURCES.txt
+VectorsPY.egg-info/dependency_links.txt
+VectorsPY.egg-info/top_level.txt
