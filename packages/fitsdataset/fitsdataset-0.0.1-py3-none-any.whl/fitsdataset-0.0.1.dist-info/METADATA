@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fitsdataset
+Version: 0.0.1
+Summary: A PyTorch Dataset for the FITS file format
+Home-page: https://github.com/amritrau/fits-dataset
+Author: Amrit Rau
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: astropy
+
+FITSDataset
+===
+
+This package contains a custom PyTorch Dataset for quick and easy training on FITS files, commonly used in astronomical data analysis. In particular, the `FITSDataset` class caches FITS files as PyTorch tensors for the purpose of increasing training speed.
+
+Contributions and feedback are welcome; please open a pull request or an issue.
+
+## Quickstart
+Using Python 3.6+, install from source with
+```bash
+python -m pip install git+https://github.com/amritrau/fitsdataset.git
+```
+
+Create a toy dataset with samples from the
+[Hyper Suprime-Cam survey](https://www.naoj.org/Projects/HSC/) with:
+```python
+>>> from fitsdataset import FITSDataset
+>>> dataset = FITSDataset("path/to/examples/hsc/", size=101, label_col="target")
+```
+
+Notice that the cached tensors appear in `path/to/examples/hsc/tensors`.
+
+## Documentation
+```python
+>>> from fitsdataset import FITSDataset
+>>> help(FITSDataset)
+```
+
+
