@@ -1,0 +1,10 @@
+django
+var-dump
+arrow
+django-extensions
+serpy
+validators
+pyyaml
+openpyxl
+weasyprint
+djangorestframework-simplejwt
