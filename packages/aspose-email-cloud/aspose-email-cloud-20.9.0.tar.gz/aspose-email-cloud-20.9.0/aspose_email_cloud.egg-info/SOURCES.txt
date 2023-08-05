@@ -1,0 +1,6 @@
+README.md
+aspose_email_cloud.egg-info/PKG-INFO
+aspose_email_cloud.egg-info/SOURCES.txt
+aspose_email_cloud.egg-info/dependency_links.txt
+aspose_email_cloud.egg-info/requires.txt
+aspose_email_cloud.egg-info/top_level.txt
