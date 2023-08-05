@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: colearn
+Version: 0.0.1
+Summary: The Standalone Fetch AI Collective Learning Framework
+Home-page: https://github.com/fetchai/colearn
+Author: Fetch.ai
+Author-email: pypi@fetch.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# colearn-interface
+
+
