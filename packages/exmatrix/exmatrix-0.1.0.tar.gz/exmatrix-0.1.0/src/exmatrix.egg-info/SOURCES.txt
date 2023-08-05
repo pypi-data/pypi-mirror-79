@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/exmatrix/__init__.py
+src/exmatrix/drawmatrix.py
+src/exmatrix/explainablematrix.py
+src/exmatrix/explanation.py
+src/exmatrix/rulevectormatrix.py
+src/exmatrix/treevis.py
+src/exmatrix.egg-info/PKG-INFO
+src/exmatrix.egg-info/SOURCES.txt
+src/exmatrix.egg-info/dependency_links.txt
+src/exmatrix.egg-info/requires.txt
+src/exmatrix.egg-info/top_level.txt
