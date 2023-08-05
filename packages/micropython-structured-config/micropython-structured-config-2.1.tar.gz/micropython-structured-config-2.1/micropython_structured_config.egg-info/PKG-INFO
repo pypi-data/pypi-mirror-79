@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: micropython-structured-config
+Version: 2.1
+Summary: Configuration file support for micropython where the config structure is solely defined in python.
+Home-page: https://gitlab.com/alelec/micropython-structured-config
+Author: Andrew Leech
+Author-email: andrew@alelec.net
+Maintainer: Andrew Leech
+Maintainer-email: andrew@alelec.net
+License: MIT
+Description: Micropython port of https://gitlab.com/alelec/structured_config supporting json backend
+Platform: UNKNOWN
