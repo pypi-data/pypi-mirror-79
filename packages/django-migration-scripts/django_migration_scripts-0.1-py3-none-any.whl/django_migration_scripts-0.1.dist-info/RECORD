@@ -1,0 +1,11 @@
+scriptsapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scriptsapp/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+scriptsapp/apps.py,sha256=mrGSBr8ZVAF3nG580Csmo2Rw1AaQJ6omtize8TW3ZuU,95
+scriptsapp/models.py,sha256=g4r2PTMJHcc78JDqsoKbcMFCsYH1m3DqGQnqvZBWv6U,315
+scriptsapp/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+scriptsapp/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_migration_scripts-0.1.dist-info/LICENSE,sha256=IBZ391TC9uKmeQyN6cgtL6wa0oFIx089sD51vhGTxTw,1053
+django_migration_scripts-0.1.dist-info/METADATA,sha256=cp6zt3uPhrNUfMrFhMhv4zUl1YhUJSuggqYC_N3k-gw,305
+django_migration_scripts-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_migration_scripts-0.1.dist-info/top_level.txt,sha256=T7Howb5NGROlsefBiEtkMBhLnsFlxf0LeSc_sj57-6Y,11
+django_migration_scripts-0.1.dist-info/RECORD,,
