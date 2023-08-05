@@ -1,0 +1,10 @@
+lumpyrem/__init__.py,sha256=WRjWz6a_VJHnVlc71Y4LUXa5kugLW2np9EweWLKxqkw,22
+lumpyrem/get.py,sha256=DMXAhaiqdVXP0GU2mYkVYlDYcz0nzeoEFOgR2hDBguY,423
+lumpyrem/lumpyrem.py,sha256=AGGzG_QtkUE9ufo3VWd7gloufyMza2uDcOtVJsrKitQ,4281
+lumpyrem/run.py,sha256=-zXO-_DDAz-RddhuyKMCUkAXEwVgmxviAbmctFJnBuk,734
+lumpyrem/write.py,sha256=01ExxkL0H8hIIaDLUNYwnuJuE_aU1MPd3OTC6YzfpGY,2870
+lumpyrem-0.0.2.dist-info/LICENSE,sha256=QykornnHyc8CJDomHt_L83FUskL9nbyci-TZSOZpPXA,1092
+lumpyrem-0.0.2.dist-info/METADATA,sha256=swD9h2vKinPiyibnZypGY4LEwS59MbaZLoqa8m_UN_o,515
+lumpyrem-0.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+lumpyrem-0.0.2.dist-info/top_level.txt,sha256=Bl9hbIcHp3dX_grh3yEuRRGsQ6_oy27R_yp0zOjSJ0c,9
+lumpyrem-0.0.2.dist-info/RECORD,,
