@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mars-test1
+Version: 0.0.1
+Summary: mart_test
+Home-page: UNKNOWN
+Author: anonymous
+Author-email: pratickyel@gmail.com
+License: MIT
+Description: short description of what your library does
+        
+        release a new version of ther library and you'll add release notes is what's change
+Keywords: donotdothat
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5

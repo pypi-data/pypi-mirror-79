@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+mars_test/__init__.py
+mars_test/python1.py
+mars_test/teamnova.png
+mars_test.egg-info/PKG-INFO
+mars_test.egg-info/SOURCES.txt
+mars_test.egg-info/dependency_links.txt
+mars_test.egg-info/top_level.txt
+mars_test/hierarychy/__init__.py
+mars_test/hierarychy/python2.py
+mars_test/hierarychy/teamnova.txt
