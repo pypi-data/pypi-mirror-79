@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: phpserialize3
+Version: 0.0.4
+Summary: fork from http://github.com/mitsuhiko/phpserializeh
+Home-page: http://github.com/codeif/phpserialize3
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: UNKNOWN
+Description: phpserialize
+        ~~~~~~~~~~~~
+        
+        Only support python3
+        
+        a port of the serialize and unserialize functions of php to python. This module
+        implements the python serialization interface (eg: provides dumps, loads and
+        similar functions).
+        
+        Usage
+        =====
+        
+        dafda
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: PHP
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
