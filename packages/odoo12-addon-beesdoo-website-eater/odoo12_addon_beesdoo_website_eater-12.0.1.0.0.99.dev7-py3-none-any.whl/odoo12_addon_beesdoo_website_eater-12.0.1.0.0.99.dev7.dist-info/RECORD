@@ -1,0 +1,13 @@
+odoo/addons/beesdoo_website_eater/README.rst,sha256=fdSvj5AzQttMnS01UX3Pqepm0Az250QQBWBZ7q0LJ30,1878
+odoo/addons/beesdoo_website_eater/__init__.py,sha256=kSWYuO-PxZ84nc6BjSWeVUfsZm6WHS036w3uy09DqBA,26
+odoo/addons/beesdoo_website_eater/__manifest__.py,sha256=2Yod2UcHNuKhRdI-7r6U-Nig_UBVIuqxGAtI78TjAKE,551
+odoo/addons/beesdoo_website_eater/controllers/__init__.py,sha256=4KFqEP2QHFbPN66eQJMdGsmNz2v7ywWv_FR1pW_kkLk,19
+odoo/addons/beesdoo_website_eater/controllers/main.py,sha256=Khw8xVXTU0X5IASmztzx9zjs9pTBX8iRzSoUmT0VO0w,560
+odoo/addons/beesdoo_website_eater/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_website_eater/readme/DESCRIPTION.rst,sha256=y5PZ7QlKfX7pdH1X8BGxzAcCmYfQXtTZfOpvJ8GPNB8,55
+odoo/addons/beesdoo_website_eater/static/description/index.html,sha256=jNhkTqNoYFl6PhK48v4GWoNKAS379HgCOY7JRQijwcU,10761
+odoo/addons/beesdoo_website_eater/views/beesdoo_website_eater_templates.xml,sha256=w5KLsx5kfooetfX6YB2IdFQLOJkL74mMPwK2PS8-NRI,1045
+odoo12_addon_beesdoo_website_eater-12.0.1.0.0.99.dev7.dist-info/METADATA,sha256=V5H_NfXXj-7aSAy9GOV7DjrSd5KVtruZMgHKd6xhURQ,2413
+odoo12_addon_beesdoo_website_eater-12.0.1.0.0.99.dev7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_website_eater-12.0.1.0.0.99.dev7.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_website_eater-12.0.1.0.0.99.dev7.dist-info/RECORD,,
