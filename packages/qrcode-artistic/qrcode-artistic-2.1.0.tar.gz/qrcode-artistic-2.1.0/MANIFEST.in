@@ -1,0 +1,2 @@
+include *.txt *.rst
+exclude requirements-testing.txt
