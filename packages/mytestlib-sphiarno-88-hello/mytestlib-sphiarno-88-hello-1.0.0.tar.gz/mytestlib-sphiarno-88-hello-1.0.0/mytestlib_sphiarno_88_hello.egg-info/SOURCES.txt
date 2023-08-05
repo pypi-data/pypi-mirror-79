@@ -1,0 +1,8 @@
+README.txt
+setup.py
+mytestlib/__init__.py
+mytestlib/greet.py
+mytestlib_sphiarno_88_hello.egg-info/PKG-INFO
+mytestlib_sphiarno_88_hello.egg-info/SOURCES.txt
+mytestlib_sphiarno_88_hello.egg-info/dependency_links.txt
+mytestlib_sphiarno_88_hello.egg-info/top_level.txt
