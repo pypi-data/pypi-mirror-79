@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: argformat
+Version: 0.0.3
+Summary: Provides a structured formatter for the argparse module
+Home-page: https://github.com/Thijsvanede/argformat
+Author: Thijs van Ede
+Author-email: t.s.vanede@utwente.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# argformat
+Provides a more structured formatter for python's argparse module.
+
+## Installation
+```
+pip install argformat
+```
+
+## Usage
+Simply import the `StructuredFormatter` and set it as the argparse `formatter_class`:
+
+### Example
+```python
+import argparse
+from argformat import StructuredFormatter
+
+# Parse arguments
+parser = argparse.ArgumentParser(
+    prog        = <Your program>,
+    description = <Your description>,
+    formatter_class=StructuredFormatter
+)
+
+# Add your arguments normally...
+```
+
+
