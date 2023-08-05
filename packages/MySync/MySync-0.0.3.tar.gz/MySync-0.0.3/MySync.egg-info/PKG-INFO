@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MySync
+Version: 0.0.3
+Summary: 同步MySQL数据到ElasticSearch
+Home-page: https://github.com/mouday/MySync
+Author: Peng Shiyu
+Author-email: pengshiyuyx@gmail.com
+License: MIT
+Description: # MySync
+        
+        同步MySQL数据到ElasticSearch
+        
+        支持全量同步
+        
+        必须有自增id
+        
+Keywords: mysql elasticsearch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
