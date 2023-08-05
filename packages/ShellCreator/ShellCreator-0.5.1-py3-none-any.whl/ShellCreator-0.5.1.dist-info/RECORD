@@ -1,0 +1,15 @@
+ShellCreator/Commands.py,sha256=Pu0CHMNfJExfNgt6L1EjlXzX4Q2lpS_ad3_Ogw24uts,6624
+ShellCreator/Completer.py,sha256=NibaQ2kWrkXSYzZ8qbylKG46z_Nbg0ihWh4Ro1sViY4,3029
+ShellCreator/Expressions.py,sha256=8dFQcErfQVbiulNZBBQ5twZWDFtIpzubvmuURujmhZs,6030
+ShellCreator/Highlighter.py,sha256=bAN1N0pnvUoDp2CoFrVolKwx28lSWawAit9iJiUXHR4,1788
+ShellCreator/Indenter.py,sha256=6s3CIJOLQjLA3WzMxciwxh6yeB1ScwShZA2FpPxxIEg,702
+ShellCreator/Shell.py,sha256=RYy_upT7b5Op7xhdaaNsHnVxELhgk1W95uOE35UCa2E,11246
+ShellCreator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ShellCreator/Utils/ColoredLogs.py,sha256=zlI31tsfgD3vJjwLfd5QTW_tFnpZl7uCOAuadpv4Y78,4074
+ShellCreator/Utils/Operators.py,sha256=FBDjkTtatYDipqLZ_FJJKAjklVx3CiRn7YLtZoEeUx4,105
+ShellCreator/Utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ShellCreator-0.5.1.dist-info/LICENSE,sha256=GKNMLNO3zjf0VjrpoYgDfjnRrUHstN6210Sr0UzMVek,1071
+ShellCreator-0.5.1.dist-info/METADATA,sha256=gIWtg0inglsU-W2ZmQpmEiCo4as3nLx3u0Q7xeUPsA4,5128
+ShellCreator-0.5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ShellCreator-0.5.1.dist-info/top_level.txt,sha256=vz8x6bhugnBSdqAS6roAGMufwOuDV09lLPT7BsLrcDU,13
+ShellCreator-0.5.1.dist-info/RECORD,,
