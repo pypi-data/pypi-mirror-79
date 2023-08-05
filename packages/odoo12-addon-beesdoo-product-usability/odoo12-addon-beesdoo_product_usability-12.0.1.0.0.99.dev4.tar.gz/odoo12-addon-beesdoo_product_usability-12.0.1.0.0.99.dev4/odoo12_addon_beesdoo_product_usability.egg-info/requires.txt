@@ -1,0 +1,4 @@
+odoo12-addon-beesdoo_product
+odoo12-addon-beesdoo_purchase
+odoo12-addon-beesdoo_stock_coverage
+odoo<12.1dev,>=12.0a

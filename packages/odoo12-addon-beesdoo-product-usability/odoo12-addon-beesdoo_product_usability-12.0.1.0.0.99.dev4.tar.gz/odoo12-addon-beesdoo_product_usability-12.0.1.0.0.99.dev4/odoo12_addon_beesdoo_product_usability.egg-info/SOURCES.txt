@@ -1,0 +1,16 @@
+setup.py
+odoo/addons/beesdoo_product_usability/README.rst
+odoo/addons/beesdoo_product_usability/__init__.py
+odoo/addons/beesdoo_product_usability/__manifest__.py
+odoo/addons/beesdoo_product_usability/models/__init__.py
+odoo/addons/beesdoo_product_usability/models/beesdoo_product.py
+odoo/addons/beesdoo_product_usability/readme/CONTRIBUTORS.rst
+odoo/addons/beesdoo_product_usability/readme/DESCRIPTION.rst
+odoo/addons/beesdoo_product_usability/static/description/index.html
+odoo/addons/beesdoo_product_usability/views/beesdoo_product.xml
+odoo12_addon_beesdoo_product_usability.egg-info/PKG-INFO
+odoo12_addon_beesdoo_product_usability.egg-info/SOURCES.txt
+odoo12_addon_beesdoo_product_usability.egg-info/dependency_links.txt
+odoo12_addon_beesdoo_product_usability.egg-info/not-zip-safe
+odoo12_addon_beesdoo_product_usability.egg-info/requires.txt
+odoo12_addon_beesdoo_product_usability.egg-info/top_level.txt
