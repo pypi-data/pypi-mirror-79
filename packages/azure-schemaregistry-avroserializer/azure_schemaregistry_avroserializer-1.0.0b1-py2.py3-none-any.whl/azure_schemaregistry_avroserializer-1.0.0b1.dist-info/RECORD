@@ -1,0 +1,9 @@
+azure/schemaregistry/serializer/avroserializer/__init__.py,sha256=9W0l3xhN8QzGc6KRdpzI_0cZgbIjCUCU7240Cbcddy8,1482
+azure/schemaregistry/serializer/avroserializer/_avro_serializer.py,sha256=ZgQLHJJq7aud74lOkBNZD4e8h4ulzsrQBTH50hitzGQ,4380
+azure/schemaregistry/serializer/avroserializer/_constants.py,sha256=lAGXMXd7utyavtfcLfL6loiH4yK9ZYd-ue2fV4LAHHY,1594
+azure/schemaregistry/serializer/avroserializer/_schema_registry_avro_serializer.py,sha256=hD1GXRfrCjTvx9IwcfFEnKfyYu8xL81O0gjHcFJ1ch4,6777
+azure/schemaregistry/serializer/avroserializer/_version.py,sha256=JUqs2ZzFaWhE9r2TJoq65nhIuYLL-kODUAIrZ8t3g-w,1324
+azure_schemaregistry_avroserializer-1.0.0b1.dist-info/METADATA,sha256=fzWHGdXwfcwkDU8ZFSJ1yFN7vTR0h0q0rK32Dkv_mlc,9796
+azure_schemaregistry_avroserializer-1.0.0b1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+azure_schemaregistry_avroserializer-1.0.0b1.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_schemaregistry_avroserializer-1.0.0b1.dist-info/RECORD,,
