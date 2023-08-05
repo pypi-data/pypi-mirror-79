@@ -1,0 +1,6 @@
+include *.rst
+recursive-include cryspy *.txt *.py *.dat *.png *pyw
+include cryspy/corecif/bscat.tab
+include cryspy/magneticcif/formmag.tab
+include cryspy/symcif/itables.txt
+include cryspy/symcif/wyckoff.dat
