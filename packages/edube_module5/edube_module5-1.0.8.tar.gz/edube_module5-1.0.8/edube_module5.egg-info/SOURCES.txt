@@ -1,0 +1,17 @@
+AUTHORS
+CHANGELOG
+INSTALL
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/Makefile
+edube_module5/__init__.py
+edube_module5/iota.py
+edube_module5.egg-info/PKG-INFO
+edube_module5.egg-info/SOURCES.txt
+edube_module5.egg-info/dependency_links.txt
+edube_module5.egg-info/entry_points.txt
+edube_module5.egg-info/not-zip-safe
+edube_module5.egg-info/top_level.txt
