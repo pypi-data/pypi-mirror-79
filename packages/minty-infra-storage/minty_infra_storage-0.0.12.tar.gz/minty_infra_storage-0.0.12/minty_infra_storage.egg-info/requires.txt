@@ -1,0 +1,8 @@
+black==v19.10b0
+flake8==3.7.9
+isort==4.3.10
+bumpversion
+minty~=1.6
+python-keystoneclient
+python-swiftclient
+boto3
