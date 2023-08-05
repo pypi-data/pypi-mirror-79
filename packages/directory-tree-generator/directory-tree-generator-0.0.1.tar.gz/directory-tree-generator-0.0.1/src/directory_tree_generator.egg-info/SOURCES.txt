@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+dist/directory_tree_generator-0.0.1-py3-none-any.whl
+src/DirectoryTree.py
+src/directory_tree_generator.egg-info/PKG-INFO
+src/directory_tree_generator.egg-info/SOURCES.txt
+src/directory_tree_generator.egg-info/dependency_links.txt
+src/directory_tree_generator.egg-info/requires.txt
+src/directory_tree_generator.egg-info/top_level.txt
