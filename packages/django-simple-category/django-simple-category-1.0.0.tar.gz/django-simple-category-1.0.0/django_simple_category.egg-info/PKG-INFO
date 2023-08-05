@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: django-simple-category
+Version: 1.0.0
+Summary: A simple and extendable hierarchical category app for django.
+Home-page: https://www.github.com/xionxiao/django-simple-category/
+Author: Allen Shaw
+Author-email: xhui.xiao@gmail.com
+License: BSD-3-Clause
+Description: # Django Simple Category
+        
+        > A simple django category libaray
+        
+        This simple libaray provide an abstract Category class for django whitch does not need MPTT support.
+        
+        ## Feature overview
+        
+        - Abstract Category class
+        
+        ## Install
+        
+        ```shell
+            pip install django-simple-category
+        ```
+        
+        ## Usage
+        
+        1. Add "simple-category" to your INSTALLED_APPS setting like this:
+        
+            ```python
+            INSTALLED_APPS = [
+                'category',
+            ]
+            ```
+        
+        2. Inherit from the Category class like this:
+        
+            ```python
+            from simple_category.models import Category
+        
+            class MyCategory(Category):
+                pass
+            ```
+        
+        3. Run migrations to create your category models.
+        
+            ```shell
+            python manage.py makemigrations
+            python manage.py migrate
+            ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
