@@ -1,0 +1,10 @@
+sphinx
+
+[code_style]
+pre-commit==2.6
+
+[testing]
+coverage
+pytest
+pytest-cov
+sphinx_testing
