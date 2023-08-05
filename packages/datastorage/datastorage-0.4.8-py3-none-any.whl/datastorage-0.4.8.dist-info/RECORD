@@ -1,0 +1,11 @@
+datastorage/__init__.py,sha256=Z_qS363l6TjRqUxMxcisP8oXKKWWOtAuuh_VA7ZSHR8,105
+datastorage/datastorage.py,sha256=Th1sQmHhOtGq9LfsJc5vmj_L6dupWJZEakdZgUfF3oY,15962
+datastorage/datastorage_int.py,sha256=hSCK-VR_e6hwuUZccPesT_MlPT4WjKmuNy0z0WtFyZs,15198
+datastorage/examples.py,sha256=DSiaGBrGUocKnb40_8B1cNm_ICUew3b_ZSMlXYPakeI,1197
+datastorage/prolem.py,sha256=ZqcL78je7Vyr_AumdbdDyGNTaUKJYKqQwXr616OwTbM,410
+datastorage/test.py,sha256=BKycVsdIi1PwgyY--d6cojqK92JKagG0oAOkKbFB1to,2846
+datastorage-0.4.8.dist-info/LICENSE,sha256=N_P49FIWYbLj2p-z3A0Z35ker2xIef-lxsfx9XIeeoE,1077
+datastorage-0.4.8.dist-info/METADATA,sha256=YA0hhyJCeOuaIYchnYAU3zPB-7dC6Yza_pcAwqtsC6g,851
+datastorage-0.4.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datastorage-0.4.8.dist-info/top_level.txt,sha256=zJSYqb_6NWBQFteQ-sQZLIDZYheAfEHHnROpMNumvhk,12
+datastorage-0.4.8.dist-info/RECORD,,
