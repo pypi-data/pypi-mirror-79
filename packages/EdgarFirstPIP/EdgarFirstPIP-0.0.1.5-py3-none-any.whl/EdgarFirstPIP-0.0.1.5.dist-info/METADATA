@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: EdgarFirstPIP
+Version: 0.0.1.5
+Summary: My first PIP package
+Home-page: https://github.com/ersmoreira/ersmoreira_dummy_hello_world
+Author: Contisystems - Edgar Moreira
+Author-email: edgar.moreira@teste.pt
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+##### Edgar Moreira
+`Este Ã© o meu primeiro modulo a ser disponibilizado no PIP`
+
+`Por esse motivo trata-se de um projeto Dummy`
+
+
