@@ -1,0 +1,7 @@
+datasette
+dnspython
+
+[test]
+pytest
+pytest-asyncio
+httpx

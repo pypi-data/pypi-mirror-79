@@ -1,0 +1,9 @@
+README.md
+setup.py
+datasette_dns/__init__.py
+datasette_dns.egg-info/PKG-INFO
+datasette_dns.egg-info/SOURCES.txt
+datasette_dns.egg-info/dependency_links.txt
+datasette_dns.egg-info/entry_points.txt
+datasette_dns.egg-info/requires.txt
+datasette_dns.egg-info/top_level.txt
