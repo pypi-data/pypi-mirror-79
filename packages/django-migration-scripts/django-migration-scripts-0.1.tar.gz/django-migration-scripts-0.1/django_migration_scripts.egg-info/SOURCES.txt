@@ -1,0 +1,12 @@
+setup.py
+django_migration_scripts.egg-info/PKG-INFO
+django_migration_scripts.egg-info/SOURCES.txt
+django_migration_scripts.egg-info/dependency_links.txt
+django_migration_scripts.egg-info/requires.txt
+django_migration_scripts.egg-info/top_level.txt
+scriptsapp/__init__.py
+scriptsapp/admin.py
+scriptsapp/apps.py
+scriptsapp/models.py
+scriptsapp/tests.py
+scriptsapp/views.py

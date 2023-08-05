@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-migration-scripts
+Version: 0.1
+Summary: Add migration scripts seamlessly
+Home-page: https://github.com/harshatba/django-migration-scripts/
+Author: Harsha Tanguturi
+Author-email: harshatba@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
