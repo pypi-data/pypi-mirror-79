@@ -1,0 +1,9 @@
+numpy
+matplotlib
+openpyxl
+pandas
+scipy
+hyperspy
+matplotlib_scalebar
+tqdm
+Pillow
