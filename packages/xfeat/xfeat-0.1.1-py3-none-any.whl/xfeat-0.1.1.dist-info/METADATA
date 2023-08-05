@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xfeat
+Version: 0.1.1
+Summary: Feature Engineering & Exploration Library using GPUs and Optuna
+Home-page: UNKNOWN
+Author: Kohei Ozaki
+Author-email: ozaki@preferred.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML
+Requires-Dist: ml-metrics
+Requires-Dist: optuna (>=1.3.0)
+Requires-Dist: lightgbm
+Requires-Dist: scikit-learn
+Requires-Dist: pyarrow
+Provides-Extra: develop
+Requires-Dist: pytest ; extra == 'develop'
+
+UNKNOWN
+
+
