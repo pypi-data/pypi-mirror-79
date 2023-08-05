@@ -1,0 +1,19 @@
+include AUTHORS
+include CHANGELOG
+include INSTALL
+include LICENSE
+include READMY.rst
+
+include docs/Makefile
+recursive-include docs *.rst
+recursive-include docs *.py
+
+recursive-include tests *
+recursive-include robots_controller *
+recursive-include robots_controller/common *
+recursive-include robots_controller/connectors *
+recursive-include robots_controller/dal *
+recursive-include robots_controller/helpers *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
