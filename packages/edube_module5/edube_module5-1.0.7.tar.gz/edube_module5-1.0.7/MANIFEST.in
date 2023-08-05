@@ -1,0 +1,18 @@
+include AUTHORS
+include CHANGELOG
+include INSTALL
+include LICENSE
+include READMY.rst
+
+include docs/Makefile
+recoursive-include docs *.rst
+recoursive-include docs *.py
+
+recoursive-include tests *
+recoursive-include edube_module5 *
+recoursive-include edube_module5/Common *
+recoursive-include edube_module5/Connectors *
+recoursive-include edube_module5/DAL *
+
+recoursive-exclude * __pycache__
+recoursive-exclude * *.py[co]
