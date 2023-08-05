@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: scpy4reactome
+Version: 0.1.0
+Summary: python service for single cell analysis in Reactome
+Home-page: https://github.com/reactome-fi/fi_sc_analysis
+Author: Guanming Wu
+Author-email: wu@ohsu.edu
+License: Apache
+Description: #### Installation 
+        
+        [![scpy4reactome from PyPI](https://img.shields.io/pypi/v/scpy4reactome.svg)](https://pypi.python.org/pypi/scpy4reactome/)[![Supported Python Versions](https://img.shields.io/pypi/pyversions/scpy4reactome.svg)](https://pypi.python.org/pypi/scpy4reactome/) 
+        
+        - PyPI install using pip 
+            ``` 
+            (sudo) pip install scpy4reactome 
+            ```
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: pandas
+Provides-Extra: anndata
+Provides-Extra: statsmodels

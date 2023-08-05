@@ -1,0 +1,16 @@
+.gitignore
+README.md
+build.sh
+dependencies.md
+setup.py
+scpy4reactome/AutoencoderNetwork.py
+scpy4reactome/GeneRelEval.py
+scpy4reactome/ScJSONServer.py
+scpy4reactome/ScanpyWrapper.py
+scpy4reactome/__init__.py
+scpy4reactome/__main__.py
+scpy4reactome.egg-info/PKG-INFO
+scpy4reactome.egg-info/SOURCES.txt
+scpy4reactome.egg-info/dependency_links.txt
+scpy4reactome.egg-info/requires.txt
+scpy4reactome.egg-info/top_level.txt
