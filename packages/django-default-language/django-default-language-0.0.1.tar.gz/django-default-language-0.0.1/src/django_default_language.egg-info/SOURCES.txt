@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+src/language.py
+src/django_default_language.egg-info/PKG-INFO
+src/django_default_language.egg-info/SOURCES.txt
+src/django_default_language.egg-info/dependency_links.txt
+src/django_default_language.egg-info/top_level.txt
