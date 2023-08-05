@@ -1,0 +1,9 @@
+bbd/__init__.py,sha256=869acZda3nnwemEm11FZeY3_8e0V7V6xXDrwN6c6Wvs,70
+bbd/gis/__init__.py,sha256=fBf_wz14HTtQIRTuknZMSv9LIgjcC1QFyvhx2SltjxQ,264
+bbd/gis/make_map.py,sha256=P_j3CuoIA3J-E3BfRsokDzrwl7yCeRyxwhw0DNRfyA4,6489
+bbd/gis/utils.py,sha256=zrLQSYpmiPsPmCOHNE6gN142ypUwTHgWPv61mJhFakA,4943
+bbd-0.0.3.dist-info/LICENSE,sha256=Fg9d-GNuncS9DAGocwQTsXU7-5SiARIErNoNUn5xeF4,1091
+bbd-0.0.3.dist-info/METADATA,sha256=BoukK8qGtr02ISek9WvoCthAfF4ohH2_KZOwPRxtKAU,6624
+bbd-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bbd-0.0.3.dist-info/top_level.txt,sha256=lhOZHDd3Gv42DAJbG2SNtqmjXkIxNWyYQ-wSx4wPcb0,4
+bbd-0.0.3.dist-info/RECORD,,
