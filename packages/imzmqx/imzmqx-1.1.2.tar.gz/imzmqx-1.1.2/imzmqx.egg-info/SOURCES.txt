@@ -1,0 +1,15 @@
+HISTORY.md
+LICENSE.txt
+MANIFEST.in
+PyPI_README.rst
+README.rst
+setup.py
+imzmqx/__init__.py
+imzmqx/__version__.py
+imzmqx/imzmqx.py
+imzmqx.egg-info/PKG-INFO
+imzmqx.egg-info/SOURCES.txt
+imzmqx.egg-info/dependency_links.txt
+imzmqx.egg-info/not-zip-safe
+imzmqx.egg-info/requires.txt
+imzmqx.egg-info/top_level.txt
