@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pydatasci
+Version: 0.0.1
+Summary: Simplify the end-to-end workflow of machine learning.
+Home-page: https://github.com/pydatasci-repo
+Author: Layne Sadler
+Author-email: layne.sadler@gmail.com
+License: UNKNOWN
+Description: # pydatasci
+        
+        Simplify the end-to-end workflow of machine learning.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
