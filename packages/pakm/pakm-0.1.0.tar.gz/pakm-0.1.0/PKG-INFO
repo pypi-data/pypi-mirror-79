@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pakm
+Version: 0.1.0
+Summary: Universal Package Manager
+Home-page: https://github.com/dstathis/pakm
+Author: Dylan Stephano-Shachter
+Author-email: dylan@theone.ninja
+License: UNKNOWN
+Description: # pakm
+        Universal Package Manager
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Classifier: Topic :: System

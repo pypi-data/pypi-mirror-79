@@ -1,0 +1,10 @@
+README.md
+setup.py
+pakm/__main__.py
+pakm/constants.py
+pakm/main.py
+pakm.egg-info/PKG-INFO
+pakm.egg-info/SOURCES.txt
+pakm.egg-info/dependency_links.txt
+pakm.egg-info/entry_points.txt
+pakm.egg-info/top_level.txt
