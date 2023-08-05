@@ -1,0 +1,8 @@
+README.md
+setup.py
+swiftuvotlc/__init__.py
+swiftuvotlc/swiftuvotlc.py
+swiftuvotlc.egg-info/PKG-INFO
+swiftuvotlc.egg-info/SOURCES.txt
+swiftuvotlc.egg-info/dependency_links.txt
+swiftuvotlc.egg-info/top_level.txt
