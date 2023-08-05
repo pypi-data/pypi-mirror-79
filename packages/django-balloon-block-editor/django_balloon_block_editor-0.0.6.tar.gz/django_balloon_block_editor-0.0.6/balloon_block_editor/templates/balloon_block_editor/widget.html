@@ -1,0 +1,77 @@
+{% load static %}
+<script src="{% static 'balloon_block_editor/ckeditor.js' %}"></script>
+
+<textarea id="id_{{ name }}" style="display:none" name="{{ name }}">{% if value %}{{ value | safe }}{% endif %}</textarea>
+<div class="balloon-block-editor" id="balloon-block-editor-{{ name }}">{% if value %}{{ value | safe }}{% endif %}</div>
+<script>
+  var textarea = document.querySelector('#id_{{ name }}');
+	var UploadAdapter = function (loader) {
+		this.upload = function () {
+			console.log('uploading!');
+		};
+
+		this.abort = function () {
+			console.log('aborting');
+		};
+	};
+	BalloonEditor
+		.create( document.querySelector( '#balloon-block-editor-{{ name }}' ), {
+			blockToolbar: [
+				'paragraph', 'heading',
+				'|',
+				'bulletedList', 'numberedList',
+				'|',
+				'blockQuote', 'imageUpload',
+        '|',
+        'codeBlock',
+			],
+		})
+		.then(function (editor) {
+      editor.model.document.on('change', function () {
+        textarea.value = editor.getData();
+      });
+			editor.plugins.get('FileRepository').createUploadAdapter = function (loader) {
+				return new UploadAdapter(loader);
+			}
+			console.log(Array.from( editor.ui.componentFactory.names() ));
+		})
+		.catch( error => {
+				console.error( error );
+		} );
+</script>
+<style>
+.balloon-block-editor {
+  border: 1px solid #eee !important;
+}
+
+.balloon-block-editor h2, 
+.balloon-block-editor h3,
+.balloon-block-editor h4 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+  background: none;
+  color: black;
+}
+
+.balloon-block-editor h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.balloon-block-editor h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.balloon-block-editor h4 {
+  font-weight: bold;
+  font-size: 14px;
+}
+</style>
