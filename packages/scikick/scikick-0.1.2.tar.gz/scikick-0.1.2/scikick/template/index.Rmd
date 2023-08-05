@@ -1,0 +1,29 @@
+
+### Git History ###
+
+```{r, include=TRUE, echo=FALSE}
+gitlog = scikick_get_gitlog()
+rm("scikick_get_gitlog")
+```
+
+### List of Contributors ###  
+
+```{r, include=TRUE, echo=FALSE}
+authors = as.data.frame(table(gitlog$author))
+colnames(authors) = c("author", "commits")
+
+knitr::kable(authors, "markdown", align=rep("l", 2))
+
+```
+
+### List of Changes ###  
+
+```{r, include=TRUE, echo=FALSE}
+
+# trim if summary line is too long to fit on screen
+gitlog$summary = ifelse(nchar(gitlog$summary) > 80, paste0(strtrim(gitlog$summary, 80), "..."), gitlog$summary)
+gitlog$summary = gsub("_", " ", gitlog$summary)
+knitr::kable(gitlog, "markdown", align=rep("l", 4))
+
+```
+
