@@ -1,0 +1,2 @@
+django-oscar>=1.6
+django>=2.1
