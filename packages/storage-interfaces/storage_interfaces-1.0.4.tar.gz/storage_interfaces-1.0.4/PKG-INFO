@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: storage_interfaces
+Version: 1.0.4
+Summary: Abstract classes for representing storage-related objects
+Home-page: https://github.com/Infinidat/storage_interfaces
+Author: Infinidat Ltd.
+Author-email: info@infinidat.com
+License: BSD3
+Description: Storage Interfaces
+        ==================
+        
+        |                       |                                                                                     |
+        |-----------------------|-------------------------------------------------------------------------------------|
+        | Build Status          | ![Build Status](https://secure.travis-ci.org/Infinidat/storage_interfaces.png)      |
+        | Supported Versions    | ![Supported Versions](https://img.shields.io/pypi/pyversions/storage_interfaces.svg)|
+        | Latest Version        | ![Latest Version](https://img.shields.io/pypi/v/storage_interfaces.svg)             |
+        
+        
+        Abstract classes for representing storage-related objects
+        
+        Licence
+        -------
+        BSD3
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5.*
+Description-Content-Type: text/markdown
+Provides-Extra: testing

@@ -1,0 +1,21 @@
+language: python
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+install:
+  - pip install -e ".[testing]"
+script:
+- pylint --rcfile=.pylintrc storage_interfaces tests setup.py
+- pytest tests
+jobs:
+  include:
+    - stage: deploy
+      python: 3.6
+      install: pip install twine
+      script:
+        - python setup.py sdist bdist_wheel
+        - twine upload -u $PYPI_USERNAME -p $PYPI_PASSWORD dist/*
+      if: tag IS present
+

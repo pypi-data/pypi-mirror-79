@@ -1,0 +1,40 @@
+CHANGES
+=======
+
+1.0.4
+-----
+
+* Add NVMe type
+* Update supported python versions to >= 3.5 (#5)
+* Update supported python versions to >= 3.5
+* Updates (#4)
+* Add Pylint
+* Switch to PBR
+* Move to pytest (from nosetest)
+* Travis deployment (closes #2)
+
+1.0.3
+-----
+
+* Bump version to 1.0.3
+
+1.0.2
+-----
+
+* Bump version to 1.0.2
+* Fix NFS endpoint type
+* Add NFS endpoint type
+* Update README links: Remove Downloads & update Version
+* Add PATH\_TYPE
+
+1.0.1
+-----
+
+* bump version
+* Fix import error
+
+1.0.0
+-----
+
+* Added abstracts: ScsiSystem, ScsiVolume, LogicalUnit & EndPoint
+* Initial version
