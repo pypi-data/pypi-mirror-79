@@ -1,0 +1,3 @@
+[console_scripts]
+py-rename = src:main
+
