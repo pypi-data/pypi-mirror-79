@@ -1,0 +1,4 @@
+os-scrapy-cookiecutter>=0.0.12
+
+[ujson]
+ujson
