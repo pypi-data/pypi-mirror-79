@@ -1,0 +1,14 @@
+setup.py
+pyd_tpl/__init__.py
+pyd_tpl/pyd_tpl.py
+pyd_tpl/setup.tpl
+pyd_tpl.egg-info/PKG-INFO
+pyd_tpl.egg-info/SOURCES.txt
+pyd_tpl.egg-info/dependency_links.txt
+pyd_tpl.egg-info/entry_points.txt
+pyd_tpl.egg-info/requires.txt
+pyd_tpl.egg-info/top_level.txt
+pyd_tpl/py2/class.tpl
+pyd_tpl/py2/demo.tpl
+pyd_tpl/py3/class.tpl
+pyd_tpl/py3/demo.tpl
