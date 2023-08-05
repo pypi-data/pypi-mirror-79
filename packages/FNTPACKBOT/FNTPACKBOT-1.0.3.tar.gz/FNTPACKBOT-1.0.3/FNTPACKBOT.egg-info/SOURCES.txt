@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+FNTPACKBOT.egg-info/PKG-INFO
+FNTPACKBOT.egg-info/SOURCES.txt
+FNTPACKBOT.egg-info/dependency_links.txt
+FNTPACKBOT.egg-info/requires.txt
+FNTPACKBOT.egg-info/top_level.txt
+FTNPACKBOT/__init__.py
