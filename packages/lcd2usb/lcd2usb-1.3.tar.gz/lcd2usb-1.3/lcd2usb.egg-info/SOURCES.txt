@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+lcd2usb.py
+setup.cfg
+setup.py
+examples/blink.py
+examples/sysload.py
+examples/testapp.py
+lcd2usb.egg-info/PKG-INFO
+lcd2usb.egg-info/SOURCES.txt
+lcd2usb.egg-info/dependency_links.txt
+lcd2usb.egg-info/requires.txt
+lcd2usb.egg-info/top_level.txt
+udev/51-lcd.rules
