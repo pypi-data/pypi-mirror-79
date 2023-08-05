@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: nefila
+Version: 0.0.4.dev0
+Summary: Nefila is an elegant and simple Fortinet Security Fabric library for Python.
+Home-page: https://github.com/mbdraks/nefila
+Author: Michel Barbosa
+Author-email: nefila@deadpackets.io
+License: GPL-3
+Download-URL: https://github.com/mbdraks/nefila/archive/v0.0.4.tar.gz
+Description: UNKNOWN
+Keywords: fortinet,fortigate,security fabric
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.7
