@@ -1,0 +1,8 @@
+matplotlib
+numpy
+scipy
+pandas
+fiona
+rasterio
+shapely
+pyproj>=2.0
