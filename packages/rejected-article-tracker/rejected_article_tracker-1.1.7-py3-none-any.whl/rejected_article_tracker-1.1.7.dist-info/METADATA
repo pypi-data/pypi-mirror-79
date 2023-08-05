@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: rejected-article-tracker
+Version: 1.1.7
+Summary: Utility package to track if a journal article has been published elsewhere.
+Home-page: https://github.com/sagepublishing/catlib
+Author: Andy Hails
+Author-email: andy.hails@sagepub.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: markdown
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: fuzzywuzzy
+Requires-Dist: requests
+Requires-Dist: sklearn
+Requires-Dist: numpy
+
+## Usage
+```
+from rejected_article_tracker import RejectedArticlesMatch
+
+results = []
+RejectedArticlesMatch(
+            articles=articles,
+            config=config,
+            email=email,
+            results=results
+        ).match()
+```
+
+<br>
+<br>
+
+---
+## Compile and deploy  
+
+Prerequisites:
+
+```
+pip install --upgrade pip setuptools wheel
+pip install tqdm
+pip install --user --upgrade twine
+```
+
+To compile:
+```
+python3 setup.py bdist_wheel
+```
+
+To push to pypi:
+```
+python3 -m twine upload dist/*
+```
+
+
