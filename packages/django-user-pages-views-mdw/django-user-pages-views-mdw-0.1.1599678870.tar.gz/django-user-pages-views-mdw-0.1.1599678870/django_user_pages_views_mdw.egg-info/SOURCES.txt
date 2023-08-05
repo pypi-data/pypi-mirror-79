@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+django_user_pages_views_mdw/__init__.py
+django_user_pages_views_mdw/admin.py
+django_user_pages_views_mdw/apps.py
+django_user_pages_views_mdw/models.py
+django_user_pages_views_mdw/tests.py
+django_user_pages_views_mdw/views.py
+django_user_pages_views_mdw.egg-info/PKG-INFO
+django_user_pages_views_mdw.egg-info/SOURCES.txt
+django_user_pages_views_mdw.egg-info/dependency_links.txt
+django_user_pages_views_mdw.egg-info/requires.txt
+django_user_pages_views_mdw.egg-info/top_level.txt
+django_user_pages_views_mdw/middlewares/__init__.py
+django_user_pages_views_mdw/middlewares/main.py
+django_user_pages_views_mdw/migrations/__init__.py
