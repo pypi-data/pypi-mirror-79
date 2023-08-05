@@ -1,0 +1,3 @@
+[console_scripts]
+tablify-csv = tablify.runner:main
+
