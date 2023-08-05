@@ -1,0 +1,16 @@
+sdenet/__init__.py,sha256=qDELPlksFSwWLqsldfcO3h82HUM9qbRemTxcdjn1Jb8,16
+sdenet/eval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdenet/eval/calculate_log.py,sha256=u_LfIcHwOvm9KbXnbERjw2hvyNU8lMoJ6dMuFc7SxLc,6430
+sdenet/eval/eval_detection.py,sha256=Mq4ChMUDKyZ-F1vmey-v97BDU0Of_fdoazGj1H_X2wI,5562
+sdenet/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdenet/models/helpers.py,sha256=RBIEybTYmrmUygKfCHOkkXEB8mkw5ObdnJoSGEQrOdc,3554
+sdenet/models/resnet.py,sha256=VYsIL4mRvFBFB-8U5YMhFOTsKWVy7OcT9o-1BLNKjjs,2066
+sdenet/models/sdenet.py,sha256=1hF0gfATVor9TNnTOTKPOJ1oWLGrgNvdhbM7wG4ZXyA,5417
+sdenet/train/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdenet/train/resnet_train.py,sha256=MI43SLq144NafUh4WhhHb5KLRLa0yq4gATgWygFrAXI,4461
+sdenet/train/sdenet_train.py,sha256=auJq4bV8iab0FqkUQrHfl23SHrUTU0Ywh-XBKx_D4vU,7677
+sdenet-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sdenet-1.0.dist-info/METADATA,sha256=fEWFYbQy_xsczz-DIuS86QcjH74Y-d_swQ2Ldy0SggI,6181
+sdenet-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sdenet-1.0.dist-info/top_level.txt,sha256=nYBkvOPxNtI1Y_zwirboAPSLM395gF7iclTUDafmTsM,7
+sdenet-1.0.dist-info/RECORD,,
