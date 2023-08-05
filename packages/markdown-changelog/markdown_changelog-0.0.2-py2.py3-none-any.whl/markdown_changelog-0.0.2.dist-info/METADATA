@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: markdown-changelog
+Version: 0.0.2
+Summary: Python-Markdown extension for easy changelog tagging
+Home-page: https://github.com/lukasz-migas/markdown-changelog
+Author: Lukasz G. Migas
+Author-email: lukas.migas@yahoo.com
+Maintainer: Lukasz G. Migas
+Maintainer-email: lukas.migas@yahoo.com
+License: MIT
+Download-URL: https://github.com/lukasz-migas/markdown-changelog
+Keywords: text,filter,markdown,html,changelog
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Description-Content-Type: text/markdown
+Requires-Dist: markdown
+
+# Markdown-changelog
+
+Markdown extension to enable easy addition of changelog badges to your documentation
+
+## Installation
+
+The easiest way to install `markdown-changelog` is to use pip
+
+```bash
+pip install markdown-changelog
+```
+
+## Usage
+```python
+import markdown
+
+text = """;;fix;;"""
+md = markdown.Markdown(extensions=["changelog"])
+md.convert(text)
+'<p><span class="badge badge-fix">Fix</span></p>'
+
+# or
+md = markdown.Markdown(extensions=["markdown_changelog.changelog"])
+md.convert(text)
+'<p><span class="badge badge-fix">Fix</span></p>'
+
+# or 
+from markdown_changelog import ChangelogExtension
+md = markdown.Markdown(extensions=[ChangelogExtension()])
+
+md.convert(text)
+'<p><span class="badge badge-fix">Fix</span></p>'
+```
+
+## Supported tags
+
+The following tags are supported by default:
+
+- ;;fix;;
+- ;;change;; (or ;;changes;;, ;;changed;;)
+- ;;improvement;; (or ;;improvements;;, ;;enhancement;;, ;;enhancements;;)
+- ;;new;;  (or ;;feature;;)
+- ;;efficiency;;
+- ;;docs;; (or ;;documentation;;)
+
+

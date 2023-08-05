@@ -1,0 +1,10 @@
+markdown_changelog/__init__.py,sha256=0DfrqlGk-EkiRJuordJFNbwjWcXw7aa9FnC-GtaxM1k,284
+markdown_changelog/changelog.py,sha256=hq7khUWY_a9dnXx5-1zpuWY0QmTGAZDbal4OClX0vBs,7147
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_changelog.py,sha256=xOoyMttU5dzmz5G8DPY24O7QsK_xREPnfAM6R41_0as,2668
+markdown_changelog-0.0.2.dist-info/LICENSE,sha256=7ExiVhX3pSFjn0gKmllJpoUxRxhs7YVLtHBpuSHuADk,1069
+markdown_changelog-0.0.2.dist-info/METADATA,sha256=5uEmTjQFevu0CWChBi0mtZDhxhVp6DGGdN_qfFDr2GM,2475
+markdown_changelog-0.0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+markdown_changelog-0.0.2.dist-info/entry_points.txt,sha256=yi96M2BUC2x7UVWL6uMFp0wk2gSoXk2jNqzfa2yiE1A,73
+markdown_changelog-0.0.2.dist-info/top_level.txt,sha256=YfpbEWWLBKHsE8gY8rsVVA4wSPKR7zQz_iNb0iIXOcE,25
+markdown_changelog-0.0.2.dist-info/RECORD,,
