@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tft-artemis-cli
+Version: 0.0.1
+Summary: Comand line tool for Artemis service
+License: Apache-2.0
+Author: Milos Prchlik
+Author-email: mprchlik@redhat.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click
+Requires-Dist: click_completion (>=0.5.2,<0.6.0)
+Requires-Dist: click_spinner
+Requires-Dist: jsonschema
+Requires-Dist: requests
+Requires-Dist: rich (>=2.2.6,<3.0.0)
+Requires-Dist: ruamel.yaml (>=0.15.51,<0.16.0)
+Requires-Dist: stackprinter (>=0.2.4,<0.3.0)
+Requires-Dist: tabulate
+Requires-Dist: urlnormalizer (>=1.2.5,<2.0.0)
