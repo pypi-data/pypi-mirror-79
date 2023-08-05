@@ -1,0 +1,11 @@
+vtgui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtgui/app.py,sha256=re76QeRpi75LgfamFyDkGkuL3GSPE8sF_KjYp4QWA4E,4588
+vtgui/fields.py,sha256=atix5KMhIu0hN3c_AqTM8Jj2RN7t40_lkrqsUrOUunI,5517
+vtgui/gui.py,sha256=iCMp4AICiPcxkoJIgO3TvDqmb6PW6hJndd5POFYyJLk,4131
+vtgui/utils.py,sha256=TinP7HQRC-FjFtWMAxpXX1GvVkitPCP4_bpyIwHLLbs,3304
+vtgui-0.0.0.9.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+vtgui-0.0.0.9.dist-info/METADATA,sha256=STsULxegdJEwKPhoepN0ZWbbdBblA1RGqwNrw9D_Zek,506
+vtgui-0.0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vtgui-0.0.0.9.dist-info/entry_points.txt,sha256=OyvD09ROXd-weA6E77TP6_OPPAQAf1zLM8Y7eQOXn4I,51
+vtgui-0.0.0.9.dist-info/top_level.txt,sha256=OvOEw9LjyNEIzw5XhAXm0YbRNphXCyI2V7RdQEYhS9o,6
+vtgui-0.0.0.9.dist-info/RECORD,,
