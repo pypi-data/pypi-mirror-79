@@ -1,0 +1,184 @@
+Metadata-Version: 2.1
+Name: webchanges
+Version: 3.0.0b1
+Summary: webchanges monitors webpages for you
+Home-page: https://github.com/mborsetti/webchanges
+Author: Mike Borsetti
+Author-email: mike@borsetti.com
+License: MIT, BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/mborsetti/webchanges/issues
+Project-URL: Source Code, https://github.com/mborsetti/webchanges
+Project-URL: Documentation, https://webchanges.readthedocs.io/en/stable/
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: all
+Requires-Dist: pyppeteer ; extra == 'all'
+Requires-Dist: beautifulsoup4 ; extra == 'all'
+Requires-Dist: jsbeautifier ; extra == 'all'
+Requires-Dist: cssbeautifier ; extra == 'all'
+Requires-Dist: pdftotext ; extra == 'all'
+Requires-Dist: vobject ; extra == 'all'
+Requires-Dist: pytesseract ; extra == 'all'
+Requires-Dist: Pillow ; extra == 'all'
+Requires-Dist: chump ; extra == 'all'
+Requires-Dist: pushbullet.py ; extra == 'all'
+Requires-Dist: matrix-client ; extra == 'all'
+Requires-Dist: aioxmpp ; extra == 'all'
+Requires-Dist: keyring ; extra == 'all'
+Requires-Dist: redis ; extra == 'all'
+Requires-Dist: msgpack ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: flake8-import-order ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: docutils ; extra == 'all'
+Requires-Dist: sphynx ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Provides-Extra: beautify
+Requires-Dist: beautifulsoup4 ; extra == 'beautify'
+Requires-Dist: jsbeautifier ; extra == 'beautify'
+Requires-Dist: cssbeautifier ; extra == 'beautify'
+Provides-Extra: bs4
+Requires-Dist: beautifulsoup4 ; extra == 'bs4'
+Provides-Extra: developer
+Requires-Dist: flake8 ; extra == 'developer'
+Requires-Dist: flake8-import-order ; extra == 'developer'
+Requires-Dist: pytest ; extra == 'developer'
+Requires-Dist: docutils ; extra == 'developer'
+Requires-Dist: sphynx ; extra == 'developer'
+Requires-Dist: sphinx-rtd-theme ; extra == 'developer'
+Provides-Extra: ical2text
+Requires-Dist: vobject ; extra == 'ical2text'
+Provides-Extra: matrix
+Requires-Dist: matrix-client ; extra == 'matrix'
+Provides-Extra: ocr
+Requires-Dist: pytesseract ; extra == 'ocr'
+Requires-Dist: Pillow ; extra == 'ocr'
+Provides-Extra: pdf2text
+Requires-Dist: pdftotext ; extra == 'pdf2text'
+Provides-Extra: pushbullet
+Requires-Dist: pushbullet.py ; extra == 'pushbullet'
+Provides-Extra: pushover
+Requires-Dist: chump ; extra == 'pushover'
+Provides-Extra: redis
+Requires-Dist: redis ; extra == 'redis'
+Requires-Dist: msgpack ; extra == 'redis'
+Provides-Extra: safe_password
+Requires-Dist: keyring ; extra == 'safe_password'
+Provides-Extra: use_browser
+Requires-Dist: pyppeteer ; extra == 'use_browser'
+Provides-Extra: xmpp
+Requires-Dist: aioxmpp ; extra == 'xmpp'
+
+webchanges
+==========
+
+|pypi| |support| |licence|
+
+|readthedocs| |travis| |coverage|
+
+.. |pypi| image:: https://img.shields.io/pypi/v/webchanges.svg?style=flat-square
+    :target: https://pypi.org/project/webchanges/
+    :alt: pypi version
+
+.. |support| image:: https://img.shields.io/pypi/pyversions/webchanges.svg?style=flat-square
+    :target: https://pypi.org/project/webchanges/
+    :alt: supported Python version
+
+.. |licence| image:: https://img.shields.io/pypi/l/webchanges.svg?style=flat-square
+    :target: https://pypi.org/project/webchanges/
+    :alt: licence
+
+.. |readthedocs| image:: https://img.shields.io/readthedocs/dateutil/latest.svg?style=flat-square&label=Read%20the%20Docs
+   :alt: Read the documentation at https://dateutil.readthedocs.io/en/latest/
+   :target: https://dateutil.readthedocs.io/en/latest/
+
+.. |travis| image:: https://img.shields.io/travis/webchanges/webchanges/master.svg?style=flat-square&label=Travis%20Build
+    :target: https://travis-ci.org/dateutil/dateutil
+    :alt: travis build status
+
+.. |appveyor| image:: https://img.shields.io/appveyor/ci/dateutil/dateutil/master.svg?style=flat-square&logo=appveyor
+    :target: https://ci.appveyor.com/project/dateutil/dateutil
+    :alt: appveyor build status
+
+.. |coverage| image:: https://codecov.io/github/dateutil/dateutil/coverage.svg?branch=master
+    :target: https://codecov.io/github/dateutil/dateutil?branch=master
+    :alt: Code coverage
+
+`webchanges` watches changes in webpages and notifies you (via e-mail or other services) of any
+changes. The change notification will include the URL that has changed and
+a unified diff of what has changed. This project is a fork of `webchanges <https://github.com/thp/webchanges>`__
+as suggested `here <https://github.com/thp/webchanges/pull/518#discussion_r456885484>`__ to optimize it for HTML and
+make it to "just work".
+
+`webchanges` is intended to help you watch changes in webpages or local commands and get notified (via e-mail, in your
+terminal or through various third party services) of any changes. The change notification will inclueds the URL
+that has changed and a unified diff of what has changed.
+
+Installation
+============
+
+`webchanges` is available on PyPI: https://pypi.org/project/webchanges/
+
+`webchanges` can be installed from PyPI using `pip`::
+
+   pip install webchanges
+
+Documentation
+=============
+
+The documentation is hosted at: https://webchanges.readthedocs.io/en/stable/
+
+Code
+====
+
+The code and issue tracker are hosted on GitHub: https://github.com/mborsetti/webchanges
+
+Quick Start
+============
+
+#. Run ``webchanges --edit`` to customize your job list (this will create/edit ``jobs.yaml``)
+#. Run ``webchanges --edit-config`` if you want to set up e-mail sending
+#. Add ``webchanges`` to your scheduler (e.g. ``crontab -e``) to monitor webpages periodically
+
+The interval is defined by how often you run ``webchanges``.
+
+- In Linux, you can use e.g.
+  `crontab.guru <https://crontab.guru>`__ to figure out the schedule expression for the checking interval, we recommend
+  no more often than 30 minutes (this would be ``*/30 * * * *``). If you have never used cron before, check out the
+  `crontab command help <https://www.computerhope.com/unix/ucrontab.htm>`__.
+- On Windows, use the `Windows Task Scheduler <https://en.wikipedia.org/wiki/Windows_Task_Scheduler>`__
+  or see `this StackOverflow question <https://stackoverflow.com/q/132971/1047040>`__ for alternatives.
+
+Contributing
+============
+
+We welcome many types of contributions - bug reports, pull requests (code, infrastructure or documentation fixes).
+For more information about how to contribute to the project, see the `CONTRIBUTING.rst
+<https://github.com/mborsetti/webchanges/blob/master/CONTRIBUTING.rst>`__ file in the repository.
+
+License
+=======
+
+Released under the `MIT License <https://opensource.org/licenses/MIT>`_, but including code licensed under the
+`BSD 3-Clause License <https://opensource.org/licenses/BSD-3-Clause>`_.
+
+
