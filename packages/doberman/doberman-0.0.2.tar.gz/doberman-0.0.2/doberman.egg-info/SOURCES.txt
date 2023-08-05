@@ -1,0 +1,9 @@
+README.md
+setup.py
+doberman/__init__.py
+doberman/main.py
+doberman.egg-info/PKG-INFO
+doberman.egg-info/SOURCES.txt
+doberman.egg-info/dependency_links.txt
+doberman.egg-info/requires.txt
+doberman.egg-info/top_level.txt
