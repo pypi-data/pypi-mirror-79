@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: asol-probability-dist
+Version: 0.2
+Summary: A package to visualize Gaussian and Binomial probability distributions
+Home-page: UNKNOWN
+Author: Andrew Leung
+Author-email: Andrew.sLeung@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # asol_probability_dist
+        
+        
+        ## Table of Contents
+        * [Purpose](#purpose)
+        * [List of key files](#list_of_key_files)
+        * [Python Libraries](#python_libraries)
+        * [Creator](#creators)
+        
+        ## Purpose
+        
+        This is a Python package that creates gaussian and binomial distribution objects. Plotting functions are included to visualize the probability distribution functions. Values for distributions can be read in line by line from text file.
+        
+        
+        ## List_of_key_files
+        
+        * **Binomialdistribution.py** - Binomial distribution class and methods.
+        * **Gaussiandistribution.py** - Gaussian distribution class and methods.
+        * **Generaldistribution.py** - General distribution class and methods.
+        
+        
+        ## Python_Libraries
+        
+        * math
+        * matplotlib
+        
+        
+        ## Creators
+        
+        * Andrew Leung
+            - [https://github.com/as2leung](https://github.com/as2leung)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
