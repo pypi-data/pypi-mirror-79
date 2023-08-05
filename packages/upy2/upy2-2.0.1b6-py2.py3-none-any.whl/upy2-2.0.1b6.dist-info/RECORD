@@ -1,0 +1,16 @@
+upy2/__init__.py,sha256=WrjwGqt0u6V18G-U4ya1NKfXVkCeHGwtHiCP37DlwOI,447
+upy2/core.py,sha256=Ca21adaO5gFlSnjQ0PTQsVFxQszS9mbXLN8Z9CmYDPY,28251
+upy2/dependency.py,sha256=HrmYQnzRLSrmywPVu4Ix-89AGGYi7hW-Wa4ClKzJ_HA,14102
+upy2/id_generator.py,sha256=KWf8O3JhttGjcgEDFaXN7-ui9g-R1VpTiJ681HWmGlQ,1119
+upy2/numpy_operators.py,sha256=XBlnebvVg_j2qnqXZifOLoTR2BVfWcEH979ogCELl-A,3324
+upy2/sessions.py,sha256=_LL027n5mzKhm3bKWutvdIWSvBY0ZA3hleOSZqG3aP8,6231
+upy2/typesetting/__init__.py,sha256=GTC-nTkPMuXCmttqlo2ldLjuTd66ZgJvT5v9-SUrWxU,61
+upy2/typesetting/numbers.py,sha256=4Tww-jXiWWdBs6ac-V4IwTk-Y-hsLxKNUD0vi8ttwQo,9530
+upy2/typesetting/protocol.py,sha256=eAbZsIeeMlwxXrJPRw_HAc_wXW28unryVNnIEyyi9rY,316
+upy2/typesetting/rules.py,sha256=66RHGwhQz2yuF4BtT0En4UTuEWLzWZEXroOOlJZIo4I,741
+upy2/typesetting/scientific.py,sha256=DYIsr7zYXMx635WrYnCrfosorRbYbhH0eg7V5KdqsEk,11979
+upy2-2.0.1b6.dist-info/LICENSE,sha256=w7aezgHgN0OoPZU5cGVOhK0saqoXq_iVr1siK4SJgVk,1067
+upy2-2.0.1b6.dist-info/METADATA,sha256=9SyE1t8W-2KqtrY1B-xE-UxdvZ_FELd5G8Gky8wSios,3284
+upy2-2.0.1b6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+upy2-2.0.1b6.dist-info/top_level.txt,sha256=piZGzQaFYAdjrrE7aXWt4gcudyBkdsDYwRHN-GqFIa8,5
+upy2-2.0.1b6.dist-info/RECORD,,
