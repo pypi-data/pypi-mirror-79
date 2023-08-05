@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-satispaython
+Version: 0.0.0
+Summary: A simple django app to manage Satispay payments following the Web-button flow.
+Home-page: https://github.com/otto-torino/django-satispaython
+License: GPL-3.0-or-later
+Keywords: python,django,satispay
+Author: Daniele Pira
+Author-email: daniele.pira@otto.to.it
+Requires-Python: >=3.6,<4.0
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: django (>=3,<4)
+Requires-Dist: satispaython
+Project-URL: Repository, https://github.com/otto-torino/django-satispaython
+Description-Content-Type: text/markdown
+
+# django-satispaython
