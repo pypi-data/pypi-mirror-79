@@ -1,0 +1,6 @@
+cookiebanner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiebanner/templates/cookiebanner/bootstrap4.html,sha256=p-FrKUxHhvkFmTk5hMAgZLHiWQ-tuVUChVlDh_UuT5U,5677
+cookiebanner/templatetags/cookiebanner.py,sha256=idlAZJ_xBPXibR6bZfkQoVD5mV9qTqwM43FxP8T-UEA,1831
+django_cookiebanner-0.2.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+django_cookiebanner-0.2.1.dist-info/METADATA,sha256=OcsfERqEW3WrAo0IAuP-cF70hiDvrwpcCcGCDipW7e0,2516
+django_cookiebanner-0.2.1.dist-info/RECORD,,
