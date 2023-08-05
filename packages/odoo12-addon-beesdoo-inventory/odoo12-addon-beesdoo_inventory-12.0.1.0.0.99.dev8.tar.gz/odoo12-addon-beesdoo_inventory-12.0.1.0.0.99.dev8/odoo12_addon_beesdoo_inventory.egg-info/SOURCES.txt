@@ -1,0 +1,17 @@
+setup.py
+odoo/addons/beesdoo_inventory/README.rst
+odoo/addons/beesdoo_inventory/__init__.py
+odoo/addons/beesdoo_inventory/__manifest__.py
+odoo/addons/beesdoo_inventory/i18n/fr_BE.po
+odoo/addons/beesdoo_inventory/models/__init__.py
+odoo/addons/beesdoo_inventory/models/stock.py
+odoo/addons/beesdoo_inventory/readme/CONTRIBUTORS.rst
+odoo/addons/beesdoo_inventory/readme/DESCRIPTION.rst
+odoo/addons/beesdoo_inventory/static/description/index.html
+odoo/addons/beesdoo_inventory/views/stock.xml
+odoo12_addon_beesdoo_inventory.egg-info/PKG-INFO
+odoo12_addon_beesdoo_inventory.egg-info/SOURCES.txt
+odoo12_addon_beesdoo_inventory.egg-info/dependency_links.txt
+odoo12_addon_beesdoo_inventory.egg-info/not-zip-safe
+odoo12_addon_beesdoo_inventory.egg-info/requires.txt
+odoo12_addon_beesdoo_inventory.egg-info/top_level.txt
