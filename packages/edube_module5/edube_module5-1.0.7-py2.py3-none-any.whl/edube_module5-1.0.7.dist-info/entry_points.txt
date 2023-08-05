@@ -1,0 +1,3 @@
+[console_scripts]
+edube_module5 = edube_module5.cli.main
+
