@@ -1,0 +1,10 @@
+freenom_dns/__init__.py,sha256=JGNV83x4tWhIlDNA3EaTi7J3gChmKeRndcao1pDCeFg,330
+freenom_dns/app.py,sha256=LVrsT9RKWni5Cm95M-n3XeYVfMPCJSVEwfbuBX9psQ4,15766
+freenom_dns/parse.py,sha256=f8NXvcO5k0IXCQFO-4sZSEshXtnoSK_oI5FAGsba0lE,3109
+freenom_dns/url.py,sha256=45v34nwthHKzfn6OBZxn9IklSQtnZ9vF5GUxElGK9JQ,1137
+freenom_dns/utils.py,sha256=CqJ8lSqUr9soh4lR3GPWnoQpRB5tplxyQZkB_0LW7H8,1043
+freenom_dns-2.0.1.dist-info/LICENSE,sha256=tF7vhQLS_rDrRkAi2V-amKtciPhFe19l8rgsR_YtKxE,1088
+freenom_dns-2.0.1.dist-info/METADATA,sha256=-obDawCyDGaQAMPV_1vjkov-df2f_z9ia55PnKkFs2o,2450
+freenom_dns-2.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+freenom_dns-2.0.1.dist-info/top_level.txt,sha256=1watpvFTC0SKVsTmxbsZQbw0k6xQFkPwM5BKTpcXawQ,12
+freenom_dns-2.0.1.dist-info/RECORD,,
