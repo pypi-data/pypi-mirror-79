@@ -1,0 +1,26 @@
+Changelog
+=========
+
+1.1.2
+-----
+ - updated Travis authentication token
+
+1.1.1
+-----
+ - updated doctests for Travis-CI
+ - updated Travis-CI configuration
+
+1.1.0
+-----
+ - added watermark opacity argument to IThumbnails.get_thumbnail interface
+ - added support for Bootstrap 'xl' responsive image size
+ - updated SVG images renderer
+ - updated doctests
+
+1.0.1
+-----
+ - use current request registry instead of global registry to query adapters
+
+1.0.0
+-----
+ - initial release
