@@ -1,0 +1,3 @@
+[console_scripts]
+batik = batik.cli:main
+
