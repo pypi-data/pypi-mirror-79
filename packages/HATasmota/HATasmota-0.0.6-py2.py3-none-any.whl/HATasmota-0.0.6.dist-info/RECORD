@@ -1,0 +1,12 @@
+hatasmota/__init__.py,sha256=VgraJNiehMtRu6gzdTTeugh6Ox3Lz0_QreciWj6nnPw,17
+hatasmota/config_validation.py,sha256=1R96HQNJAIcfLbXxI45kvjNnG9cIoMBjiriBxhV-hNA,768
+hatasmota/const.py,sha256=sniuJ_-CkwpYG7xkIj8H_7UAbF_NkpSpURXhBj5WmZ4,534
+hatasmota/discovery.py,sha256=WXy8UzBoQ9sZthngGm5iClE3yOLE1akNqfqsW9voK-U,5605
+hatasmota/entity.py,sha256=s3CeR7XRFKYULtK-yedLFl7hdpPufqUchH8dOCcykvk,2344
+hatasmota/switch.py,sha256=UOorN-lwIHr_2pjgP81OpYt4UzrXe_DG84D-ttbVGKM,3417
+hatasmota/utils.py,sha256=o-hAdeSFN8K7R59rd_zW3oE84cfy9trJKxgMCHvnZ-k,3195
+HATasmota-0.0.6.dist-info/LICENSE,sha256=WrfjYzQOCSrOY_R40CBWJHirhbXcZGeGtamy8Ty1SeI,1072
+HATasmota-0.0.6.dist-info/METADATA,sha256=5zajVmCAt_i1JIs8AwbjmGMuKUyjuuR1eg8Gro1cVdE,683
+HATasmota-0.0.6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+HATasmota-0.0.6.dist-info/top_level.txt,sha256=g7CffbzCdQYg9mi6J21h_ePcGch1eUQwYKFYJnWiWio,10
+HATasmota-0.0.6.dist-info/RECORD,,
