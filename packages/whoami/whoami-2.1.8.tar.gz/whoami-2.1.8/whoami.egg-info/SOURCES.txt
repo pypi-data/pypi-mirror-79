@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+whoami/__init__.py
+whoami/whoami.py
+whoami.egg-info/PKG-INFO
+whoami.egg-info/SOURCES.txt
+whoami.egg-info/dependency_links.txt
+whoami.egg-info/top_level.txt
