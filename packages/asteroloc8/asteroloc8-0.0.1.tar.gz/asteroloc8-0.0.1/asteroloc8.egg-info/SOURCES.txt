@@ -1,0 +1,10 @@
+README.md
+setup.py
+asteroloc8/__init__.py
+asteroloc8/prior.py
+asteroloc8/version.py
+asteroloc8.egg-info/PKG-INFO
+asteroloc8.egg-info/SOURCES.txt
+asteroloc8.egg-info/dependency_links.txt
+asteroloc8.egg-info/requires.txt
+asteroloc8.egg-info/top_level.txt
