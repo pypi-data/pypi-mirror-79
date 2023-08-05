@@ -1,0 +1,14 @@
+qri/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+qri/__version__.py,sha256=nwRvZca17c7hezptKsXPrVrdV8Z_neh0EDqmaQF_ky0,370
+qri/client.py,sha256=pLswIPdRcA7D2oKvuQqmBhvgkOKCZ99w1QbNaq53f1g,1221
+qri/cmd_util.py,sha256=sTmlzKfE6q0AbdrEmylYQCf1_qeXx5YFkh3LLi-wItg,1519
+qri/dataset.py,sha256=_84OKakFVW3JIFWfP0sda2_avHlSRwORgdwOvy9IP5s,4171
+qri/dsref.py,sha256=lQuLfYLA1WyGnX61DMKlzZHIPgNJnMTpTTynDT1j-pI,616
+qri/loader.py,sha256=FrtE-IlhsTbmX_t4VEXCO3cxm7Wu01DDFm9AKCAeL2k,3261
+qri/util.py,sha256=4ReuebRODOJ4t-N983XJeF2Sbo9ach8uzLBq1ih0KMo,601
+qri/version_info.py,sha256=XNu2fiKJX22AilWV4Ypxs64cVBBtNs8qUVVASoSDRNg,240
+qri-0.1.4.dist-info/LICENSE,sha256=5NNuWjS5RYCp8t1EtPcSAqIAm6ldLjqe4E5HFtApazk,1063
+qri-0.1.4.dist-info/METADATA,sha256=0QtKzzBzCr8bCiASjEA6ZDjLoc5KNvRU21RNe_NLP5g,1635
+qri-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qri-0.1.4.dist-info/top_level.txt,sha256=H0Sov_GX_6BJ3x-cR4y-um70JLDbda8n2Oqa3Z28Vro,4
+qri-0.1.4.dist-info/RECORD,,
