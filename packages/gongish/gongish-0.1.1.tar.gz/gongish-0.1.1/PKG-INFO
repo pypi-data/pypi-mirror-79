@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gongish
+Version: 0.1.1
+Summary: A lightweight, extendable web backend library for python
+Home-page: http://github.com/meyt/gongish
+Author: Mahdi Ghane.g
+License: MIT
+Description: # gongish
+        
+        
+        An artistic HTTP router for Python
+        
+        
+        ```python
+        from gongish import Application
+        
+        app = Application()
+        
+        
+        @app.route('/hello/:name')
+        def get(name: str):
+            return f'Hello {name}'
+        
+        ```
+        
+        ---
+        
+        <center> <i>under construction</i> </center>
+        
+Keywords: web tool-chain
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
