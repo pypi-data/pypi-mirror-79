@@ -1,0 +1,11 @@
+numpy
+json5
+anytree
+pathos
+scipy
+scikit-learn
+matplotlib
+flake8
+pytest
+black
+gpflow>=2.0.0
