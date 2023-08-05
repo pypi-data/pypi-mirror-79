@@ -1,0 +1,86 @@
+phpserialize
+~~~~~~~~~~~~
+
+fork from: `mitsuhiko/phpserialize <https://github.com/mitsuhiko/phpserialize>`_
+Only support python3
+
+a port of the serialize and unserialize functions of php to python. This module
+implements the python serialization interface (eg: provides dumps, loads and
+similar functions).
+
+Usage
+=====
+
+>>> from phpserialize import *
+>>> obj = dumps("Hello World")
+>>> loads(obj)
+'Hello World'
+
+Due to the fact that PHP doesn't know the concept of lists, lists
+are serialized like hash-maps in PHP.  As a matter of fact the
+reverse value of a serialized list is a dict:
+
+>>> loads(dumps(range(2)))
+{0: 0, 1: 1}
+
+If you want to have a list again, you can use the `dict_to_list`
+helper function:
+
+>>> dict_to_list(loads(dumps(range(2))))
+[0, 1]
+
+It's also possible to convert into a tuple by using the `dict_to_tuple`
+function:
+
+>>> dict_to_tuple(loads(dumps((1, 2, 3))))
+(1, 2, 3)
+
+Another problem are unicode strings.  By default unicode strings are
+encoded to 'utf-8' but not decoded on `unserialize`.  The reason for
+this is that phpserialize can't guess if you have binary or text data
+in the strings:
+
+>>> loads(dumps(u'Hello W\xf6rld'))
+'Hello W\xc3\xb6rld'
+
+If you know that you have only text data of a known charset in the result
+you can decode strings by setting `decode_strings` to True when calling
+loads:
+
+>>> loads(dumps(u'Hello W\xf6rld'), decode_strings=True)
+u'Hello W\xf6rld'
+
+Dictionary keys are limited to strings and integers.  `None` is converted
+into an empty string and floats and booleans into integers for PHP
+compatibility:
+
+>>> loads(dumps({None: 14, 42.23: 'foo', True: [1, 2, 3]}))
+{'': 14, 1: {0: 1, 1: 2, 2: 3}, 42: 'foo'}
+
+It also provides functions to read from file-like objects:
+
+>>> from StringIO import StringIO
+>>> stream = StringIO('a:2:{i:0;i:1;i:1;i:2;}')
+>>> dict_to_list(load(stream))
+[1, 2]
+
+And to write to those:
+
+>>> stream = StringIO()
+>>> dump([1, 2], stream)
+>>> stream.getvalue()
+'a:2:{i:0;i:1;i:1;i:2;}'
+
+Like `pickle` chaining of objects is supported:
+
+>>> stream = StringIO()
+>>> dump([1, 2], stream)
+>>> dump("foo", stream)
+>>> stream.seek(0)
+>>> load(stream)
+{0: 1, 1: 2}
+>>> load(stream)
+'foo'
+
+This feature however is not supported in PHP.  PHP will only unserialize
+the first object.
