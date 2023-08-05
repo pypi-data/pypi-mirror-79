@@ -1,0 +1,11 @@
+cuda_slic/__init__.py,sha256=otOCGkO-l8cmKgCel81bjoXoED_aILsoGSPBH5moeoU,31
+cuda_slic/slic.py,sha256=8TGdcU9_wLNwQUSKmY1hXBRyPnOKfCCiXng-05HY3e4,10707
+cuda_slic/types.py,sha256=6BOqhiD10zxOjg1s-m5svDShc03Wj4k9vTZfEPfh5Oc,338
+cuda_slic/debug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cuda_slic/debug/__main__.py,sha256=o2QOdhrSdaDDk7T9LEhxnZtDqKy8WKh2yRQFNp6q4Oc,469
+cuda_slic/kernels/slic3d_template.cu,sha256=Klu4UBbPRUuT4qN7kCEBGaVCFUNhCnrSyE2tpXI8nF4,7710
+gpu_slic-0.0.1a3.dist-info/LICENSE,sha256=lPUWsIOSbEcOHCd-QWUPPPQNE1ulm2RNO8ulxihB-lY,583
+gpu_slic-0.0.1a3.dist-info/METADATA,sha256=UwmtHLbUTwo4ureTiIa6AoSz2wcjgeBGfj-KfiEx3Qk,5681
+gpu_slic-0.0.1a3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+gpu_slic-0.0.1a3.dist-info/top_level.txt,sha256=tGCYbJjhJho87h_yluCu6sEDd77UU8sWlvM3rQnayrE,10
+gpu_slic-0.0.1a3.dist-info/RECORD,,
