@@ -1,0 +1,9 @@
+README.md
+setup.py
+fonc/__init__.py
+fonc/test_fonc.py
+fonc.egg-info/PKG-INFO
+fonc.egg-info/SOURCES.txt
+fonc.egg-info/dependency_links.txt
+fonc.egg-info/requires.txt
+fonc.egg-info/top_level.txt
