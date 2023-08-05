@@ -1,0 +1,16 @@
+py_rename/__init__.py,sha256=yG_fJCTAOj40wBvnCVG5tJzWz-lamxj6-bhM7g4vMS4,81
+py_rename/__main__.py,sha256=9zEkgWcd4s1n3XO8s5IU6zkDeVhtlpb9DlsT6BLPI1k,88
+py_rename/main.py,sha256=h1He8mm8x0W7utjaamHDDAvMJfIjuqNPLCtrof6ta4U,3801
+py_rename/py_rename.py,sha256=mx6q8lAkIMyRPS7wFZYDkgltTuOvtj2LdoUQITqLFAM,5642
+py_rename/version.py,sha256=Q7L2gOqJ6IKL9jC3ZAoNNasgJrFnrDAnyf33TEpU9sY,84
+src/__init__.py,sha256=yG_fJCTAOj40wBvnCVG5tJzWz-lamxj6-bhM7g4vMS4,81
+src/__main__.py,sha256=9zEkgWcd4s1n3XO8s5IU6zkDeVhtlpb9DlsT6BLPI1k,88
+src/main.py,sha256=h1He8mm8x0W7utjaamHDDAvMJfIjuqNPLCtrof6ta4U,3801
+src/py_rename.py,sha256=gFIwPLpOOEDWPUiQ04iF2y4UfqjDgphXdcl8YLz3kfk,5832
+src/version.py,sha256=dDWczAm0o7O2QJHY69ofOfrygBYKQunCrhREC_TCXO8,84
+py_rename-1.2.1.dist-info/LICENSE,sha256=nu8JQENEKwAwfO_aPkNRqCkHmh1DUY2U6pVxw6BnoZA,1068
+py_rename-1.2.1.dist-info/METADATA,sha256=cVa9FUT1sNDLs0apExR8SMaYiZgYUE2SWr-ZOPvKWoo,4399
+py_rename-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_rename-1.2.1.dist-info/entry_points.txt,sha256=VgsYdO21OrAJSKyIgfh9QMtnypYu2DBsayk_rJCUixo,40
+py_rename-1.2.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+py_rename-1.2.1.dist-info/RECORD,,
