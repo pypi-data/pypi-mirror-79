@@ -1,0 +1,16 @@
+setup.py
+odoo/addons/beesdoo_website_eater/README.rst
+odoo/addons/beesdoo_website_eater/__init__.py
+odoo/addons/beesdoo_website_eater/__manifest__.py
+odoo/addons/beesdoo_website_eater/controllers/__init__.py
+odoo/addons/beesdoo_website_eater/controllers/main.py
+odoo/addons/beesdoo_website_eater/readme/CONTRIBUTORS.rst
+odoo/addons/beesdoo_website_eater/readme/DESCRIPTION.rst
+odoo/addons/beesdoo_website_eater/static/description/index.html
+odoo/addons/beesdoo_website_eater/views/beesdoo_website_eater_templates.xml
+odoo12_addon_beesdoo_website_eater.egg-info/PKG-INFO
+odoo12_addon_beesdoo_website_eater.egg-info/SOURCES.txt
+odoo12_addon_beesdoo_website_eater.egg-info/dependency_links.txt
+odoo12_addon_beesdoo_website_eater.egg-info/not-zip-safe
+odoo12_addon_beesdoo_website_eater.egg-info/requires.txt
+odoo12_addon_beesdoo_website_eater.egg-info/top_level.txt
