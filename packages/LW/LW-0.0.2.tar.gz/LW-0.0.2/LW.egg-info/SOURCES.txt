@@ -1,0 +1,10 @@
+README.rst
+setup.py
+LW.egg-info/PKG-INFO
+LW.egg-info/SOURCES.txt
+LW.egg-info/dependency_links.txt
+LW.egg-info/requires.txt
+LW.egg-info/top_level.txt
+lwilbert/Neural_Network.py
+lwilbert/__init__.py
+lwilbert/__main__.py
