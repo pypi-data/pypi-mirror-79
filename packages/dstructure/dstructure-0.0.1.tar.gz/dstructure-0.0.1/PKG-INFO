@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dstructure
+Version: 0.0.1
+Summary: Data Structure
+Home-page: UNKNOWN
+Author: Vivek Pisal
+Author-email: vivekpisal12345@gmail.com
+License: UNKNOWN
+Description: This library contain the singly linked list,singly circular linked list,doubly linked list,doubly circular linked list,binary tree,hashmap.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
