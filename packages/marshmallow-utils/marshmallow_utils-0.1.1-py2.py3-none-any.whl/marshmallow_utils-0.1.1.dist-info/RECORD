@@ -1,0 +1,13 @@
+marshmallow_utils/__init__.py,sha256=vmhVXMPSjuAQJ4yjnNVfBBAPF_U_uRGJPEohbNYAdjM,1004
+marshmallow_utils/version.py,sha256=rCAOACBawH2xyyBRDLt3v4G_ktYQLWlc0JZrQ3HEiH4,367
+marshmallow_utils/fields/__init__.py,sha256=aqeSAOWm3qu1Pes2wPjJPzUWyaSoCMiGY53a5NKpWuA,500
+marshmallow_utils/fields/isodate.py,sha256=3eTNVv1KFbHphUf4tW2tVJ5kOtwlj1AhX7Lz_Jj0BV4,869
+marshmallow_utils/fields/sanitizedhtml.py,sha256=u26Nn7y2jyBuESuPvSmTlguONLnr79QQHktgqC6-hWg,1574
+marshmallow_utils/fields/sanitizedunicode.py,sha256=-OBO8BG0jb5yj29TqSkMpFf_vqzloJpSVE7rTJb7x38,1434
+marshmallow_utils/fields/trimmed.py,sha256=4Hvisu41zhM_5z5gA9uKEbH6YiC8pKHiQXB1Qvm0kMo,592
+marshmallow_utils-0.1.1.dist-info/AUTHORS.rst,sha256=09P0ksxlJAmR3LZFpKOw-iTPEprTeMljsl4iU6tUF44,297
+marshmallow_utils-0.1.1.dist-info/LICENSE,sha256=UvI8pR8jGWqe0sTkb_hRG6eIrozzWwWzyCGEpuXX4KE,1062
+marshmallow_utils-0.1.1.dist-info/METADATA,sha256=W2mB73JCxbV6-dPJY2HgeFU9AW2PQCn8D1XK7IpFaXw,3319
+marshmallow_utils-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+marshmallow_utils-0.1.1.dist-info/top_level.txt,sha256=ql7yknleyLFg-OL5a1G3CKZ2N1kU2xgD_lSV51CRoQQ,18
+marshmallow_utils-0.1.1.dist-info/RECORD,,
