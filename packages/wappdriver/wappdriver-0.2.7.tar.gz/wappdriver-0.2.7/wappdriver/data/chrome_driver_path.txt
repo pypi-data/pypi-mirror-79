@@ -1,0 +1,9 @@
+not set
+This file is a part of package data
+this file is used to store package data
+
+Chrome Driver Path will be saved here after user species path for the first time
+
+The value can be modified by making a function call
+
+Read Documentation for more details
