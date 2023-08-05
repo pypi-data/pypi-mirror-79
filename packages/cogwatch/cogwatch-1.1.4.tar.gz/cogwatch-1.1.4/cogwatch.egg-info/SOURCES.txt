@@ -1,0 +1,9 @@
+README.md
+setup.py
+cogwatch/__init__.py
+cogwatch/cogwatch.py
+cogwatch.egg-info/PKG-INFO
+cogwatch.egg-info/SOURCES.txt
+cogwatch.egg-info/dependency_links.txt
+cogwatch.egg-info/requires.txt
+cogwatch.egg-info/top_level.txt
