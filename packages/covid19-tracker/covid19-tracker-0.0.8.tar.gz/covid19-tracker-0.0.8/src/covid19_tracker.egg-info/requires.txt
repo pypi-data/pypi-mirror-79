@@ -1,0 +1,6 @@
+bs4
+requests
+regex
+
+[dev]
+pytest>=3.7

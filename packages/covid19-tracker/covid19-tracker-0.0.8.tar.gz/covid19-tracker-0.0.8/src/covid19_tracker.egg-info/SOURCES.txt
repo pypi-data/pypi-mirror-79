@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/covid19tracker.py
+src/covid19_tracker.egg-info/PKG-INFO
+src/covid19_tracker.egg-info/SOURCES.txt
+src/covid19_tracker.egg-info/dependency_links.txt
+src/covid19_tracker.egg-info/requires.txt
+src/covid19_tracker.egg-info/top_level.txt
