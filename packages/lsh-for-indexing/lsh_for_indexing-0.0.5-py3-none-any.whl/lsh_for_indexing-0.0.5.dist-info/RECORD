@@ -1,0 +1,11 @@
+lsh/__init__.py,sha256=Nqiu5SlBjQ_vQkNS99F7mnLBmurMz6KLDjR7z4qau3o,127
+lsh/random_projection.py,sha256=KqPslrOqNSCvhUtVhDCzQm6Vfvk-q1gF9ictIct5idk,3842
+lsh/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsh/scripts/fasttext.py,sha256=JXl040-jid6lZ29UuIuSBTFGZD3FuqE9h5MbZQMAz-U,475
+lsh/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsh/tests/test_lsh.py,sha256=Ol9ixxTJ0WswaDYYdlkgCS_9ysJ4rPynDaY99C-QTWI,1354
+lsh_for_indexing-0.0.5.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+lsh_for_indexing-0.0.5.dist-info/METADATA,sha256=ZXDGKtiJzZPqYlFTPTKhc2vT78_fsZclWiGDhpOLIdc,1335
+lsh_for_indexing-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+lsh_for_indexing-0.0.5.dist-info/top_level.txt,sha256=7YOI3JTH2XAClmUAA5s8A1XZfTMHtDWirHfe418JdJ4,4
+lsh_for_indexing-0.0.5.dist-info/RECORD,,

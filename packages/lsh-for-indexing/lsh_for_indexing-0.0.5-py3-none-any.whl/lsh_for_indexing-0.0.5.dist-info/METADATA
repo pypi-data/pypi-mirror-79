@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: lsh-for-indexing
+Version: 0.0.5
+Summary: Package for indexing vectors to solr/es
+Home-page: https://github.com/helmanofer/lsh-for-indexing
+Author: Ofer Helman
+Author-email: helmanofer@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+## LSH for indexing
+
+This package helps search engines to index and easily search on vector using Local sensitivity hashing (LSH)
+
+### Installation
+
+    pip install -i https://test.pypi.org/simple/ lsh-for-indexing
+
+### Usage example
+
+    from lsh.random_projection import LshGaussianRandomProjection
+    import numpy as np
+
+    rp = LshGaussianRandomProjection(vector_dimension=6, bucket_size=3, num_of_buckets=2)    import numpy as np
+    vec = np.asarray([1,0,1,1,0,0])
+    rp.fit()
+    rp.indexable_transform(vec)
+    >> ['0_010', '1_000']
+
+if you know your collection size and you want an optimal number of bucket_size
+
+    rp.fit(sample_size=2000)
+
+transforming a bulk of vectors
+
+    mat = np.asarray([[1,0,1,1,0,0], [1,0,0,1,0,1]])
+    rp.indexable_transform(mat)
+    >> [['0_010', '1_111'], ['0_010', '1_101']]
+
