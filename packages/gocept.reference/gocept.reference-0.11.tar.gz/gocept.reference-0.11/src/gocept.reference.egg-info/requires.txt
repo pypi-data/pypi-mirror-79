@@ -1,0 +1,23 @@
+BTrees
+ZODB
+persistent
+setuptools
+six
+transaction
+zope.annotation
+zope.component
+zope.container
+zope.deferredimport
+zope.generations
+zope.interface
+zope.location
+zope.schema>=3.6.0
+zope.traversing
+
+[test]
+zope.app.testing
+zope.app.zcmlfiles
+gocept.pytestlayer
+
+[test:python_version == "2.7"]
+mock
