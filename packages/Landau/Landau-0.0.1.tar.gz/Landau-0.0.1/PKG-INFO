@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Landau
+Version: 0.0.1
+Summary: The Landau Project
+Home-page: https://github.com/pypa/sampleproject
+Author: Nikita Fedoraev
+Author-email: nikita.bayarea@gmail.com
+License: UNKNOWN
+Description: # Project Landau
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
