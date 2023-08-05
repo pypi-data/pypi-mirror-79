@@ -1,0 +1,10 @@
+scpy4reactome/AutoencoderNetwork.py,sha256=qigTemuuf3hIl9h5kP0q4zgGJh4s0mFrTXoEk-gbzsw,2974
+scpy4reactome/GeneRelEval.py,sha256=pkuJfTkZm1XPDWTTaLSOVWNKBhHApbfvaFDJLu70pck,5129
+scpy4reactome/ScJSONServer.py,sha256=uYS30jG1Hw_1Bn74GZJLAnQB65854o1QXVP-nh2Npoc,17595
+scpy4reactome/ScanpyWrapper.py,sha256=Zk74Wazarvf0oMGZ85k2K0OFk7IZiKFPGWQCmAI_0G4,25743
+scpy4reactome/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpy4reactome/__main__.py,sha256=n-92b7EGwj2M88OZi8-ka70Xv5kfdQ-F4-Akl3sS4Iw,70
+scpy4reactome-0.1.0.dist-info/METADATA,sha256=_ucavWFrFumTpWbVpDviDBzga9QBculwohHJx7NNBPA,1839
+scpy4reactome-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+scpy4reactome-0.1.0.dist-info/top_level.txt,sha256=zgnigurb-x8enbz5cnUE0ic-nZtr93PhJ2Nf4Z_5xb0,14
+scpy4reactome-0.1.0.dist-info/RECORD,,

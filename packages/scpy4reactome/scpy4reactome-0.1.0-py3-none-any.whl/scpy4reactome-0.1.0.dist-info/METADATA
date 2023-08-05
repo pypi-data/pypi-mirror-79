@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: scpy4reactome
+Version: 0.1.0
+Summary: python service for single cell analysis in Reactome
+Home-page: https://github.com/reactome-fi/fi_sc_analysis
+Author: Guanming Wu
+Author-email: wu@ohsu.edu
+License: Apache
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: tensorflow (>=2.3.0)
+Requires-Dist: keras (>=2.4.3)
+Requires-Dist: jsonrpclib-pelix (>=0.4.1)
+Requires-Dist: scanpy (>=1.5.1)
+Requires-Dist: networkx (>=2.4)
+Requires-Dist: scvelo (>=0.2.2)
+Requires-Dist: python-igraph (>=0.8.2)
+Requires-Dist: scikit-learn (>=0.23.1)
+Requires-Dist: leidenalg (>=0.8.1)
+Requires-Dist: umap-learn (>=0.4.6)
+Requires-Dist: umap (>=0.1.1)
+Provides-Extra: anndata
+Requires-Dist: anndata (>=0.7.4) ; extra == 'anndata'
+Provides-Extra: pandas
+Requires-Dist: pandas (>=1.0.5) ; extra == 'pandas'
+Provides-Extra: statsmodels
+Requires-Dist: statsmodels (>=0.11.1) ; extra == 'statsmodels'
+
+#### Installation 
+
+[![scpy4reactome from PyPI](https://img.shields.io/pypi/v/scpy4reactome.svg)](https://pypi.python.org/pypi/scpy4reactome/)[![Supported Python Versions](https://img.shields.io/pypi/pyversions/scpy4reactome.svg)](https://pypi.python.org/pypi/scpy4reactome/) 
+
+- PyPI install using pip 
+    ``` 
+    (sudo) pip install scpy4reactome 
+    ```
+
+
