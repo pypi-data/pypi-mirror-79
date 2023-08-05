@@ -1,0 +1,16 @@
+adminutils/__init__.py,sha256=A5cgl_FAeCDlPTL5ZvJb-RpvQTILTqn0CcW3-emj12c,3164
+adminutils/actions.py,sha256=bgmjKC9K6lQsaJr-ebTwVq3rnXMIAqbCTWuA3P8Elvk,2180
+adminutils/decorators.py,sha256=ym3cvU1qrgZm9Nzo4i3r8SFeqaIjf8vzgf04jLKiL8s,260
+adminutils/images.py,sha256=5bXTG2_XpyDDjrFavbQrA2SgCYvyoAhRHVuTjSw9iYE,1785
+adminutils/widgets.py,sha256=C3uXAZ1cOdKa5vNbx9npwjo3Vn-eckP7t20BUAg_8C4,1446
+adminutils/static/admin/css/object-actions.css,sha256=YStpPTTC0j_--uE2mKFY0UUldrvpJPq4ZkBxAkQYpzs,378
+adminutils/static/admin/css/overrides.css,sha256=K1_bAR9BBR1xMhaRW-rwKALmNvsz7Q2VIwcTZCDyy4M,587
+adminutils/static/admin/css/print.css,sha256=aXe0kmxz7PaJTYxplLR7N_T6J_u5nnFTDri3Xz_-r7A,837
+adminutils/templates/admin/generic_form.html,sha256=P71_sLzrTFPA7N0OZzPxlW4uI44KXCRlo9OUvZ58al0,1915
+adminutils/templates/django_object_actions/change_form.html,sha256=xgi_H6telHvcYoopzYV_JquOhqzR9ArdqYo90UyQA4g,1297
+adminutils/templates/django_object_actions/change_list.html,sha256=tPFQrXt7Gh9OxoKSM-F_SdDvTFKd7fDtYfxW4JMBGxQ,1271
+django_adminutils-0.0.10.dist-info/LICENSE,sha256=saweQMC0NJNiV3CokRRoisS4A0KJlnHfCRK7KwnlM5o,1061
+django_adminutils-0.0.10.dist-info/METADATA,sha256=r48UZLKHrqk7Ul2T8ADVbzrlC41TPF0QBLgg5_zXLcg,1951
+django_adminutils-0.0.10.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_adminutils-0.0.10.dist-info/top_level.txt,sha256=7NgN5wNzzmV-xTpcS0tzObVRlrVA7ZbSyl9CAoox4Qc,11
+django_adminutils-0.0.10.dist-info/RECORD,,
