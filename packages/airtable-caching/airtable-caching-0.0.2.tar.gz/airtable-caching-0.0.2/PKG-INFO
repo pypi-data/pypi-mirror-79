@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: airtable-caching
+Version: 0.0.2
+Summary: Utility for caching api responses from the airtable-python-wrapper
+Home-page: https://github.com/rmountjoy92/AirtableCaching
+Author: rmountjoy
+Author-email: ross.mountjoy@gmail.com
+License: UNKNOWN
+Description: # Airtable Caching
+        Utility for caching api responses from the airtable-python-wrapper
+        
+        Readme coming soon!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
