@@ -1,0 +1,2 @@
+advent_of_code.cpython-38-darwin.so
+advent_of_code_rs_python.cpython-38-darwin.so
