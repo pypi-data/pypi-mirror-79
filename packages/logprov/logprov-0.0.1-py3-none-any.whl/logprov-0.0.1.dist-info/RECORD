@@ -1,0 +1,7 @@
+logprov/__init__.py,sha256=q00qNDlmchC5ewo6vQDG9BlP-4KxPvmfTXrd7mPZKWU,137
+logprov/capture.py,sha256=M9tA2-PWhVBsf1NwhZ6p6GhDsPoKvREdiU9he4PRE8E,25008
+logprov/io.py,sha256=uLS23wJB9sjVMVHMKcd-5JcOb9AMThnYcu4s_2v_2ZQ,9035
+logprov-0.0.1.dist-info/METADATA,sha256=ZCWK_Mz1Vw9ioBLgMxWY1ZXA1TVEBqCAvoM2xebrFvU,912
+logprov-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+logprov-0.0.1.dist-info/top_level.txt,sha256=idJZtOS5EBtO1Y8EhBPmPLTQ6oPpY8GHWH1LKXwWDm4,8
+logprov-0.0.1.dist-info/RECORD,,
