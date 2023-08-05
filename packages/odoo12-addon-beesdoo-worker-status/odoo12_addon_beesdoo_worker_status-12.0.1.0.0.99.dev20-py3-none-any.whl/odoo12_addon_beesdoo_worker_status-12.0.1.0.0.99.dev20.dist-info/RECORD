@@ -1,0 +1,16 @@
+odoo/addons/beesdoo_worker_status/README.rst,sha256=5j_u3ZBknDj542lR2eLZwf_4hSzjBFa99tfkFAIxSOI,1912
+odoo/addons/beesdoo_worker_status/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/beesdoo_worker_status/__manifest__.py,sha256=oV5Sy_qjuM2fQ_on-zNRRja0P5FALOmspEdwr9POYf4,599
+odoo/addons/beesdoo_worker_status/demo/tasks.xml,sha256=I4Ejo-9KRlmHuna55ytXDTmFt7-oTXLmUrAjcMpDEP0,2563
+odoo/addons/beesdoo_worker_status/models/__init__.py,sha256=KMZdPX2D6itPlDjnQWE2-yS2OwwfKu-E33QYEmkjRTg,52
+odoo/addons/beesdoo_worker_status/models/cooperative_status.py,sha256=5PfEnKBSGhl6c5mgrDMG4frjldb8mTNYTjnc2Rd_3Cw,13813
+odoo/addons/beesdoo_worker_status/models/task.py,sha256=5xI0-853efc2zJ2mxvbctzZ4U_W7zIWhtOnK28v9zA8,3017
+odoo/addons/beesdoo_worker_status/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_worker_status/readme/DESCRIPTION.rst,sha256=AdtJ3ScZvKeHnp85q_2CR4-XwoNad4FXSKsBjgu5C4k,47
+odoo/addons/beesdoo_worker_status/static/description/index.html,sha256=uT5fkIsobM_ZIxoZ3i2XcSFF91OEsQV-swW-HDh1ofc,10802
+odoo/addons/beesdoo_worker_status/tests/__init__.py,sha256=4ceElj95Gc3D8tBQNM0JaJar5pMhcAzsrOR7Fythd7Q,33
+odoo/addons/beesdoo_worker_status/tests/test_beesdoo_shift.py,sha256=odh__RAZq7ZBFh0TCI-h-upu5mB0swFbZKssZMRNb6A,8811
+odoo12_addon_beesdoo_worker_status-12.0.1.0.0.99.dev20.dist-info/METADATA,sha256=7n7ivXRUuug0Uq5-aYXMMq-qbzeOpFlrOcRHrWvDowQ,2502
+odoo12_addon_beesdoo_worker_status-12.0.1.0.0.99.dev20.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_worker_status-12.0.1.0.0.99.dev20.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_worker_status-12.0.1.0.0.99.dev20.dist-info/RECORD,,
