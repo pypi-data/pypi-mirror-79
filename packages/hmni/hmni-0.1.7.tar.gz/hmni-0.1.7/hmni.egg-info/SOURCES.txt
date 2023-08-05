@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+hmni/__init__.py
+hmni/input_helpers.py
+hmni/matcher.py
+hmni/preprocess.py
+hmni/siamese_network.py
+hmni/syllable_tokenizer.py
+hmni.egg-info/PKG-INFO
+hmni.egg-info/SOURCES.txt
+hmni.egg-info/dependency_links.txt
+hmni.egg-info/requires.txt
+hmni.egg-info/top_level.txt
+hmni/models/latin.tar.gz
