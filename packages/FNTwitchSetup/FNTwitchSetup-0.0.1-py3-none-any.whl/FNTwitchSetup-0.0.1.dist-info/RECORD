@@ -1,0 +1,13 @@
+FNTwitchSetup/__init__.py,sha256=08gNM_z4XPrPHR3-6vurwmiFHq3cpn6HP8OETJzF6is,8978
+FNTwitchSetup/get_cosmetic.py,sha256=1wBPhMurYHY1KAgycssVYIFPahpowDRDB3ACuIpMpuY,7262
+FNTwitchSetup/glitch.py,sha256=XPMgtBWJCbYcjtXVCzHYrg9xSTjQSzjfgCUH1sEDia4,7946
+FNTwitchSetup/utils.py,sha256=MYc1u1n18S85zkn79QBEiVNeglBa9AjroKanlXopsZ8,11945
+FNTwitchSetup/events/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FNTwitchSetup/events/friends.py,sha256=vvxq98IXer37q6XXMb03NLY1bwet4BnxoAW6882hKCo,992
+FNTwitchSetup/events/message.py,sha256=sEGI9Po10nJS5nuDF2C4EqxIDcyWJyhyH4FiqoRN2gg,18073
+FNTwitchSetup/events/party.py,sha256=plAL9thzbwNuSFFyUSCQ9sKEqSYfscgq_bhZvTGVI1w,2203
+FNTwitchSetup/events/ready.py,sha256=p9fvnxx9XKsLlmSvDok3I_6a7VlN67catgpTrQnrCR8,1760
+FNTwitchSetup-0.0.1.dist-info/METADATA,sha256=E79cngFx63Mu9KBCizw8nZ4MxzrX9_ugLXUzgkrNimU,339
+FNTwitchSetup-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+FNTwitchSetup-0.0.1.dist-info/top_level.txt,sha256=lRG-tj_fC_QxpeboFBcYKpekYrt0WKGQHhPs9Z6-Zew,14
+FNTwitchSetup-0.0.1.dist-info/RECORD,,

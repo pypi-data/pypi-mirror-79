@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: FNTwitchSetup
+Version: 0.0.1
+Summary: Private module
+Home-page: https://github.com/TwitchCousinYT-FN/fntruc
+Author: Bryna
+Author-email: nazimek.helfi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: fortnitepy (==1.7.1)
+Requires-Dist: sanic
+Requires-Dist: requests
+Requires-Dist: aiofiles
+
+UNKNOWN
+
+
