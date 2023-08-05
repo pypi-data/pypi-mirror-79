@@ -1,0 +1,7 @@
+README.md
+setup.py
+seqhash/__init__.py
+seqhash.egg-info/PKG-INFO
+seqhash.egg-info/SOURCES.txt
+seqhash.egg-info/dependency_links.txt
+seqhash.egg-info/top_level.txt
