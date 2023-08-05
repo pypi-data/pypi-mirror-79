@@ -1,0 +1,11 @@
+repovisor/__about__.py,sha256=mGXcmyWPPQyJM4Jqmxc9hhGgqicG322eTiLP0SM54gs,265
+repovisor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repovisor/__main__.py,sha256=-Mn_7oFmO830pwMDX5KarAMAbOqvHigquxybcg-HLQU,1340
+repovisor/repostate.py,sha256=F9INluAHxxffqXzTLB91eVJpWYH3sfXIDilqQA7jtDQ,1311
+repovisor/repovisor.py,sha256=yA4tTZhVqC65ToSDzSfbMsGchqRe-94UC4PpEH-Sg7g,3717
+repovisor-0.0.8.dist-info/LICENSE.md,sha256=HxQYYrv66cvN5DHULIuc0QCxKDXWv9Hqifw9OzTJXtQ,1482
+repovisor-0.0.8.dist-info/METADATA,sha256=rQwU-PCExM_xl5kJpzJS_WKghmaWNAD3TPd4i8Tb1TQ,2287
+repovisor-0.0.8.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+repovisor-0.0.8.dist-info/entry_points.txt,sha256=7C5_DiPzUrtK3F-TrF9B_cWgFb8qR0hGOAHtTAQzhqE,54
+repovisor-0.0.8.dist-info/top_level.txt,sha256=WPxLY2OiuQRxC9ZwTYCnv_eio06kdN3DnJel9xcQK5I,10
+repovisor-0.0.8.dist-info/RECORD,,
