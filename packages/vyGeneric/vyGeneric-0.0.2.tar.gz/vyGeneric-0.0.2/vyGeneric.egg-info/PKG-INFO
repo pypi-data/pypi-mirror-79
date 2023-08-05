@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: vyGeneric
+Version: 0.0.2
+Summary: Package for creating generic objects with transparent 'repr'
+Home-page: https://github.com/niteshb/common-python-vyGeneric
+Author: Nitesh Bhandari
+License: UNKNOWN
+Description: # vyGeneric Library
+        
+        ### vyGenericObjectRepr
+        `from vyGeneric import vyGenericObjectRepr`
+        * vyGenericObjectRepr(object) will return nice printable 'repr' for your objects
+        * If you inherit your class, say 'MyClass', from vyGeneric, then any object of 
+          MyClass, say 'myObject', prints all its hidden info when you call 
+          print(myObject)
+        
+        ### vyGeneric
+        `from vyGeneric import vyGeneric`
+        * A generic class which uses vyGenericObjectRepr for repr
+        
+        ### vyGenericDict
+        `from vyGeneric import vyGenericDict`
+        * A descendant of vyGeneric which can store items like a dictionary
+        
+        ### vyGenericObjectRepr
+        `from vyGeneric import vyGenericArray`
+        * A descendant of vyGeneric which can store items like a list
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown

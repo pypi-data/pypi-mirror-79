@@ -1,0 +1,6 @@
+README.md
+setup.py
+vyGeneric.egg-info/PKG-INFO
+vyGeneric.egg-info/SOURCES.txt
+vyGeneric.egg-info/dependency_links.txt
+vyGeneric.egg-info/top_level.txt
