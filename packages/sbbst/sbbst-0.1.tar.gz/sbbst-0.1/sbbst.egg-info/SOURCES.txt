@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+sbbst/__init__.py
+sbbst.egg-info/PKG-INFO
+sbbst.egg-info/SOURCES.txt
+sbbst.egg-info/dependency_links.txt
+sbbst.egg-info/top_level.txt
