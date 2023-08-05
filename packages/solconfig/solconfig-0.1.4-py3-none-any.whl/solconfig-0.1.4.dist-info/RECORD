@@ -1,0 +1,12 @@
+solconfig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solconfig/cmd.py,sha256=UWRbMPeWDarQ6NF99qzE0NMOcgU8EwBr0NZJZcsU-qo,5701
+solconfig/config.py,sha256=DmqkYyj7DSx4UkCrGicwlpx0qSUuGOFVYLbp_WgYKEo,11387
+solconfig/dataclasses.py,sha256=8I1cupQ_1eOyNGazNVBkildHwQoACP0owikIdTeFmKE,2209
+solconfig/rest_commands.py,sha256=oOFFVR3ySFJUn_eWcVnuznLJJWL1jPaZclHXTU8kM1c,3077
+solconfig/solconfig.py,sha256=F-pyPaa3yBJVVmPv6qMJM-1K1JSzvKWPyBxBN0DXqSA,7126
+solconfig/spec.py,sha256=WyyEJQiwsXwt9i-Pwuk2e2aInJtcInamTjSYFYh1TJY,9242
+solconfig/util.py,sha256=giQBzcGODToRlhQvrhgr4imgI5rwcxUHtuN_srOEYhE,187
+solconfig-0.1.4.dist-info/entry_points.txt,sha256=rTRN54CRymB3fRRNXPig3iuVT875VTBdMp5tUs2VyiU,47
+solconfig-0.1.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+solconfig-0.1.4.dist-info/METADATA,sha256=Z8XCRVOGZBVmE7PfCtwa4sYdwl9iBOVmMb8SVP1co7M,6487
+solconfig-0.1.4.dist-info/RECORD,,
