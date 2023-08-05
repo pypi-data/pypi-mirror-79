@@ -1,0 +1,13 @@
+storage_interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+storage_interfaces/__version__.py,sha256=yAMPNWhyPm8fUe-_h_EYG-wST0tYdZD0Ri_gWLabtYM,97
+storage_interfaces/_compat.py,sha256=B_s4s1JdRgkCngNdCx_WXiIajc2kSuO5NYHbUWy4HaQ,1137
+storage_interfaces/abstracts.py,sha256=yivAZuLKggiPVYEVu8Fnz0vKZ5Cv5sqxp0vDNxbcVXw,592
+storage_interfaces/scsi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+storage_interfaces/scsi/abstracts.py,sha256=OQq4IkledBmOrNpCBYXj0cXAx6-bARDm9q6aEvu3RVc,1102
+storage_interfaces-1.0.4.dist-info/AUTHORS,sha256=XKMjp3qjh4R0IICnLZDbtVw1nmikm1skpGIZM8IQ4BA,207
+storage_interfaces-1.0.4.dist-info/LICENSE,sha256=R1Fg3Vt7LRxG_SjIVLYigx1chFmI0yToMVTyCf5ivyQ,1491
+storage_interfaces-1.0.4.dist-info/METADATA,sha256=Anjlb-ccuwUSDjyhBasQwr0WME2QjeeQpnpTpVsbcZk,1398
+storage_interfaces-1.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+storage_interfaces-1.0.4.dist-info/pbr.json,sha256=MdH44Vvzk-p18x4IAR71cKvXgJomtH62q3b9qFoU2YA,47
+storage_interfaces-1.0.4.dist-info/top_level.txt,sha256=2LosLxgGYMYBiJK7pZo_9AOqEpqUAS6Z6yVVc6aWyl0,19
+storage_interfaces-1.0.4.dist-info/RECORD,,
