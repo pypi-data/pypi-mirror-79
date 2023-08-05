@@ -1,0 +1,19 @@
+#!python
+# -*- coding: utf-8 -*-
+
+"""
+File: start.py.py
+Author: Scott Yang(Scott)
+Email: yangyingfa@skybility.com
+Copyright: Copyright (c) 2020, Skybility Software Co.,Ltd. All rights reserved.
+Description:
+"""
+from client.pywx.login_gui import LoginGui, App
+from client.uri.connection import PipeData, Connection
+
+if __name__ == '__main__':
+    app = App()
+    lg = LoginGui(PipeData, Connection, None, -1, "", size=(659, 500))
+    lg.cook_tray(app)
+    lg.Show()
+    app.MainLoop()
