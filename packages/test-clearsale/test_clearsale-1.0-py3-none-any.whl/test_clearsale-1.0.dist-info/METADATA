@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: test-clearsale
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: CotaBest
+Author-email: fernando.coutinho@cotabest.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: attrs (==20.1.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: decorator (==4.4.2)
+Requires-Dist: idna (==2.10)
+Requires-Dist: jedi (==0.17.2)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: parso (==0.7.1)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==3.0.6)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: pyrsistent (==0.16.0)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: typed-ast (==1.4.1)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: wcwidth (==0.2.5)
+
+UNKNOWN
+
+
