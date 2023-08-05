@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+zps/__init__.py
+zps.egg-info/PKG-INFO
+zps.egg-info/SOURCES.txt
+zps.egg-info/dependency_links.txt
+zps.egg-info/top_level.txt
