@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: batch-resize
+Version: 1.0.1
+Summary: Resize and crop all images stored in the folder.
+Home-page: https://github.com/YoungjuneKwon/python-batch-resize
+Author: YoungjuneKwon
+Author-email: shining@uvas.kr
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+
+By designating a specific folder, resize and crop all images in the sub folders of the specified folder according to settings that you specify. Also save them in the other or the originally designated folder as you specified.
+
+
