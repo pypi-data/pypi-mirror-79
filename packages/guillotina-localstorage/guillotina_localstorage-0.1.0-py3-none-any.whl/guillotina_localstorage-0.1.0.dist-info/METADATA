@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: guillotina-localstorage
+Version: 0.1.0
+Summary: Local FS storage support for Guillotina
+Author: Jordi Masip
+Author-email: jordi@masip.cat
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiofiles (>=0.5.0,<0.6.0)
+Requires-Dist: guillotina (>5.3.48)
