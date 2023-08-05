@@ -1,0 +1,56 @@
+attrs<20,>=17.4
+six
+
+[:python_version < "3.5"]
+typing~=3.7.4
+
+[country]
+
+[country:python_version < "3"]
+pycountry<19.7.15
+
+[country:python_version >= "3"]
+pycountry>=19.7.15
+
+[currency]
+currint
+
+[docs]
+currint
+
+[docs:python_version < "3"]
+pycountry<19.7.15
+
+[docs:python_version >= "3"]
+pycountry>=19.7.15
+
+[docs:python_version >= "3.6"]
+sphinx~=2.2
+
+[sphinx]
+
+[sphinx:python_version >= "3.6"]
+sphinx~=2.2
+
+[testing]
+freezegun
+pytest<5.4,>4.2
+pytest-cov
+pytest-runner
+pytz
+currint
+
+[testing:python_version < "3"]
+pycountry<19.7.15
+
+[testing:python_version < "3.3"]
+mock
+
+[testing:python_version > "3.4"]
+mypy~=0.740
+
+[testing:python_version >= "3"]
+pycountry>=19.7.15
+
+[testing:python_version >= "3.6"]
+sphinx~=2.2
