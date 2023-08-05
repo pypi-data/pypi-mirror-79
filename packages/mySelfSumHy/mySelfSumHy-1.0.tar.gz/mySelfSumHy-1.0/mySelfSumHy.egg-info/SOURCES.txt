@@ -1,0 +1,5 @@
+setup.py
+mySelfSumHy.egg-info/PKG-INFO
+mySelfSumHy.egg-info/SOURCES.txt
+mySelfSumHy.egg-info/dependency_links.txt
+mySelfSumHy.egg-info/top_level.txt
