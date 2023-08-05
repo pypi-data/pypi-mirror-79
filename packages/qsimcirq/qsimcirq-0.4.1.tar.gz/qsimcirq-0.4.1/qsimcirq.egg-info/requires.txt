@@ -1,0 +1,6 @@
+cirq==0.8.2
+numpy~=1.16
+typing_extensions
+absl-py
+pybind11
+pytest
