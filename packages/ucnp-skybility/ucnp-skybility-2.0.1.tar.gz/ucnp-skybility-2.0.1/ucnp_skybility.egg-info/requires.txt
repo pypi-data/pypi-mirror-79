@@ -1,0 +1,7 @@
+pyperclip>=1.8.0
+python-engineio>=3.13.2
+python-socketio>=4.6.0
+requests>=2.24.0
+wxPython>=4.1.0
+pypubsub>=4.0.3
+pinyin>=0.4.0
