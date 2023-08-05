@@ -1,0 +1,11 @@
+future
+
+[all]
+genutility
+jellyfish
+
+[all:python_version < "3"]
+python-Levenshtein
+
+[all:python_version >= "3"]
+polyleven

@@ -1,0 +1,8 @@
+fuzzycollections.py
+setup.cfg
+setup.py
+fuzzycollections.egg-info/PKG-INFO
+fuzzycollections.egg-info/SOURCES.txt
+fuzzycollections.egg-info/dependency_links.txt
+fuzzycollections.egg-info/requires.txt
+fuzzycollections.egg-info/top_level.txt
