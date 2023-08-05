@@ -1,0 +1,15 @@
+odoo/addons/beesdoo_purchase/README.rst,sha256=9PSmald5OBmWSB_jC0kqoFPj9IIdzJYVnRgM5L3jFIk,2173
+odoo/addons/beesdoo_purchase/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/beesdoo_purchase/__manifest__.py,sha256=kqIVtd7WxqcbtGmGIOhm02b5Zx48CdwjAmBPO2bl3vs,555
+odoo/addons/beesdoo_purchase/i18n/fr_BE.po,sha256=nvyHSHlhNTL6p4QBAsuYyz0Sho5H6N0CYlIhSYqsw3g,597
+odoo/addons/beesdoo_purchase/models/__init__.py,sha256=DDoSUzUJ2zVg4zxbV9M1eu7c-JSqe9PXFE46JT-2s0I,23
+odoo/addons/beesdoo_purchase/models/purchase.py,sha256=twJ4oEZNolMQ3FHtto2_T_1QcrRMGXoW6TJSSUgZiBc,1279
+odoo/addons/beesdoo_purchase/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_purchase/readme/DESCRIPTION.rst,sha256=MyiFNJYOWXOTc9ktxYDHH4aBUWvrX1DL7k_5coDw7sY,387
+odoo/addons/beesdoo_purchase/report/report_purchaseorder.xml,sha256=xOqeAbIp1VrYSy73PnuH65XPqIKK0fJ0kq42kFbcJBA,671
+odoo/addons/beesdoo_purchase/static/description/index.html,sha256=ib_Y5CLsI_ma5vvk3Kraw6MqAhlkIDD_PHu2DwuV1rc,11068
+odoo/addons/beesdoo_purchase/views/purchase_order.xml,sha256=uN52ST7o43Z4hB8PUL6Q1hEi4mFSiJYWs0bpqYX0pXg,1809
+odoo12_addon_beesdoo_purchase-12.0.1.1.0.99.dev4.dist-info/METADATA,sha256=fsfUfSR8fZ8qCrMsJacOvtY_U0sIXZiSKKKyrh5M5ig,2796
+odoo12_addon_beesdoo_purchase-12.0.1.1.0.99.dev4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_purchase-12.0.1.1.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_purchase-12.0.1.1.0.99.dev4.dist-info/RECORD,,
