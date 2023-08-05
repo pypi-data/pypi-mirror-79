@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_et_industry_openapi.egg-info/PKG-INFO
+aliyun_python_sdk_et_industry_openapi.egg-info/SOURCES.txt
+aliyun_python_sdk_et_industry_openapi.egg-info/dependency_links.txt
+aliyun_python_sdk_et_industry_openapi.egg-info/requires.txt
+aliyun_python_sdk_et_industry_openapi.egg-info/top_level.txt
+aliyunsdket_industry_openapi/__init__.py
+aliyunsdket_industry_openapi/request/__init__.py
+aliyunsdket_industry_openapi/request/v20200824/UploadIndustryDeviceDataRequest.py
+aliyunsdket_industry_openapi/request/v20200824/__init__.py
