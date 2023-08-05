@@ -1,0 +1,10 @@
+setup.py
+wchowdhu_distributions/Binomialdistribution.py
+wchowdhu_distributions/Gaussiandistribution.py
+wchowdhu_distributions/Generaldistribution.py
+wchowdhu_distributions/__init__.py
+wchowdhu_distributions.egg-info/PKG-INFO
+wchowdhu_distributions.egg-info/SOURCES.txt
+wchowdhu_distributions.egg-info/dependency_links.txt
+wchowdhu_distributions.egg-info/not-zip-safe
+wchowdhu_distributions.egg-info/top_level.txt
