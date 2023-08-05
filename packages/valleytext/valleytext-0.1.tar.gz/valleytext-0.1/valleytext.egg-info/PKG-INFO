@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: valleytext
+Version: 0.1
+Summary: Extract keywords from sentences.
+Home-page: https://github.com/yzho0907/valleytext.git
+Author: young, xiuzhizheng
+Author-email: 598299410@qq.com, xiuzhi_zxz@163.com
+License: UNKNOWN
+Description: =========
+        ValleyText
+        =========
+        
+        This tool can be used to extract keywords from sentences without chunks or word boundaries (for example, Chinese).
+        It is based on trie tree optimized by AhoCorasick Automation.
+        
+        
+        Installation
+        ------------
+        ::
+        
+            $ pip install valleytext
+        
+        
+        
+        
+        Usage
+        -----
+        Extract keywords
+            >>> from valleytext import create_trie
+            >>> words_dict = {'设备': ['GPS', '设备']}
+            >>> extractor = create_trie(words_dict, False)
+            >>> extracts = extractor.extract_keywords_from_text('我有一台gps设备')
+            >>> extracts
+            >>> # [(4, 7, 'gps', '设备'), (7, 9, '设备', '设备')]
+        
+        
+        License
+        -------
+        
+        The project is licensed under the MIT license.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

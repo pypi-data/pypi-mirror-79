@@ -1,0 +1,8 @@
+README.md
+setup.py
+valleytext/__init__.py
+valleytext/valleytext.py
+valleytext.egg-info/PKG-INFO
+valleytext.egg-info/SOURCES.txt
+valleytext.egg-info/dependency_links.txt
+valleytext.egg-info/top_level.txt
