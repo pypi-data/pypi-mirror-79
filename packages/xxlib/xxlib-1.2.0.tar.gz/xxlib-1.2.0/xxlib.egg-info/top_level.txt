@@ -1,0 +1,3 @@
+xxlib\xxlibmyqr
+xxlib\xxlibprint
+xxlib\xxlibsearch
