@@ -1,0 +1,3 @@
+[console_scripts]
+fasta_manipulate = fasta_manipulate.__main__:main
+

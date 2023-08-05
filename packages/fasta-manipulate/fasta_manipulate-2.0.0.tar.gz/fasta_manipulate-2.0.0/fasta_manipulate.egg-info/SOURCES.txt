@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+fasta_manipulate/__init__.py
+fasta_manipulate/__main__.py
+fasta_manipulate.egg-info/PKG-INFO
+fasta_manipulate.egg-info/SOURCES.txt
+fasta_manipulate.egg-info/dependency_links.txt
+fasta_manipulate.egg-info/entry_points.txt
+fasta_manipulate.egg-info/top_level.txt

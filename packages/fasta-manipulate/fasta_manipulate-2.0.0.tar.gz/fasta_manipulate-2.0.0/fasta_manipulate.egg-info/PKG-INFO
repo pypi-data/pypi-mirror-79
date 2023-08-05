@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: fasta-manipulate
+Version: 2.0.0
+Summary: fasta-manipulate is used to merge multiple line sequences in fasta files into one line sequence and count the number of different length sequences in the fasta file.
+Home-page: https://github.com/WeiSong-bio/fasta_manipulate
+Author: Wilson
+Author-email: 3120195705@bit.edu.cn
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: fasta-manipulate is used to merge multiple line sequences in fasta files into one line sequence and count the number of different length sequences in the fasta file.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
