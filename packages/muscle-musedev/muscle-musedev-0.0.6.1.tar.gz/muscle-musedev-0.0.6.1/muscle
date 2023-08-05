@@ -1,0 +1,70 @@
+#!/usr/bin/env pipenv run python
+
+import click
+import os
+import sys
+import json
+from requests_helper import branch_to_hash, post_analyze, get_results, get_status
+from github_api_helper import getSupportedRepos
+
+user_token = os.getenv('MUSEDEV_TOKEN')
+
+@click.group()
+@click.option('--token', help = "Overrides environment variable MUSEDEV_TOKEN")
+def muscle(token):
+  global user_token
+  if token:
+    user_token = token
+  if not user_token:
+    sys.exit("User Token muse be provided with either --token or environment variable MUSEDEV_TOKEN")
+
+@muscle.command()
+@click.argument('owner')
+@click.argument('repo')
+@click.option('--branch', default = "master", help = "The branch to analyze, default to 'master'")
+@click.option('--commit', help = "Hash of the commit to analyze, overrides --branch")
+def analyze(owner, repo, branch, commit):
+  _analyze(owner, repo, branch, commit)
+
+def _analyze(owner, repo, branch, commit):
+  print(f"Going to analyze https://github.com/{owner}/{repo} {commit or branch}")
+  if not commit:
+    commit = branch_to_hash(owner, repo, branch)
+  job_id = post_analyze(user_token, owner, repo, commit)
+  print(f"job_id: {job_id}")
+  print("To check job Status:")
+  print(f"{sys.argv[0]} status {job_id}")
+  return job_id
+
+@muscle.command()
+@click.argument('job_ids', nargs=-1)
+def status(job_ids):
+  for job_id in job_ids:
+    status = get_status(user_token, job_id)
+    print(f"Current status of job {job_id}:")
+    print(status)
+    if "JobCompleteSuccess" in status:
+      print("To retrieve job results:")
+      print(f"{sys.argv[0]} results {job_id}")
+
+@muscle.command()
+@click.argument('job_ids', nargs=-1)
+def results(job_ids):
+  for job_id in job_ids:
+    print(f"Trying to retrieve results of job {job_id}:")
+    results = get_results(user_token, job_id)
+    prettyResults = json.dumps(results, indent=2)
+    print(prettyResults)
+
+@muscle.command()
+@click.argument('owner')
+def scan(owner):
+  repos = getSupportedRepos(owner)
+  job_ids = [_analyze(owner, repo, "master", None) for repo in repos]
+  print("To check job Status of all scanned repos:")
+  print(f"{sys.argv[0]} status {' '.join(job_ids)}")
+  print("To retrieve job results of all scanned repos:")
+  print(f"{sys.argv[0]} results {' '.join(job_ids)}")
+
+if __name__ == '__main__':
+  muscle()
