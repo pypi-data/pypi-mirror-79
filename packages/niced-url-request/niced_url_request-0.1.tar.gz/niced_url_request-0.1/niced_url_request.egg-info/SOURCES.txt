@@ -1,0 +1,10 @@
+README.md
+setup.py
+niced_url_request/__init__.py
+niced_url_request/niced_url_request.py
+niced_url_request/niced_url_request_test.py
+niced_url_request.egg-info/PKG-INFO
+niced_url_request.egg-info/SOURCES.txt
+niced_url_request.egg-info/dependency_links.txt
+niced_url_request.egg-info/requires.txt
+niced_url_request.egg-info/top_level.txt
