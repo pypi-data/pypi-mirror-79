@@ -1,0 +1,4 @@
+[console_scripts]
+marccount = marctools.marccount:marccount
+marcpager = marctools.marcpagerimp:marcpager
+
