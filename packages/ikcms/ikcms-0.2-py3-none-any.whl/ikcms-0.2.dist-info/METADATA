@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ikcms
+Version: 0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: six
+Requires-Dist: pytz
+Requires-Dist: babel
+Requires-Dist: webob
+Requires-Dist: sqlalchemy
+Requires-Dist: iktomi
+Requires-Dist: PyYAML
+Requires-Dist: jinja2
+Requires-Dist: jsonschema
+Provides-Extra: aiomcache
+Requires-Dist: aiomcache ; extra == 'aiomcache'
+Provides-Extra: aiomysql
+Requires-Dist: aiomysql ; extra == 'aiomysql'
+Provides-Extra: aiopg
+Requires-Dist: aiopg ; extra == 'aiopg'
+Provides-Extra: aioredis
+Requires-Dist: aioredis ; extra == 'aioredis'
+Provides-Extra: memcache
+Requires-Dist: pymemcache ; extra == 'memcache'
+Provides-Extra: mysql
+Requires-Dist: PyMySQL ; extra == 'mysql'
+Provides-Extra: redis
+Requires-Dist: redis ; extra == 'redis'
+
+UNKNOWN
+
+
