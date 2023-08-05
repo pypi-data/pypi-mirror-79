@@ -1,0 +1,9 @@
+[Core]
+Name = Survey
+Module = survey
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom survey object and functions

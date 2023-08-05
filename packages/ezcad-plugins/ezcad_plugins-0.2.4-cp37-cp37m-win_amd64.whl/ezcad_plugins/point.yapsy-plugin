@@ -1,0 +1,9 @@
+[Core]
+Name = Point
+Module = point
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom point object and functions

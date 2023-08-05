@@ -1,0 +1,9 @@
+[Core]
+Name = Polygon Menubar
+Module = polygon_menubar
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom polygon menubar

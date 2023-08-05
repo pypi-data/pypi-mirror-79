@@ -1,0 +1,9 @@
+[Core]
+Name = Tsurface
+Module = tsurf
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom t-surface object and functions

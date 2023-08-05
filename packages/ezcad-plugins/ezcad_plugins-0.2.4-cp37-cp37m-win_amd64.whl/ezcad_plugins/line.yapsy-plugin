@@ -1,0 +1,9 @@
+[Core]
+Name = Line
+Module = line
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom line object and functions

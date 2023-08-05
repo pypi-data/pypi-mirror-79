@@ -1,0 +1,9 @@
+[Core]
+Name = Tsurface Menubar
+Module = tsurf_menubar
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom t-surface menubar

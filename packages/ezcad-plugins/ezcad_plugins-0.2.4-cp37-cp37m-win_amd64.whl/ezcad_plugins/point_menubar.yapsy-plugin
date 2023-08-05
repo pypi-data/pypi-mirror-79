@@ -1,0 +1,9 @@
+[Core]
+Name = Point Menubar
+Module = point_menubar
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom point menubar

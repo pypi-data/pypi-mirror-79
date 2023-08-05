@@ -1,0 +1,9 @@
+[Core]
+Name = Label
+Module = label
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom label object and functions

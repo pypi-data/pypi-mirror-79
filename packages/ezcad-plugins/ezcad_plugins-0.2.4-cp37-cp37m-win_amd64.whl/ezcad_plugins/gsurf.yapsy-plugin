@@ -1,0 +1,9 @@
+[Core]
+Name = Gsurface
+Module = gsurf
+
+[Documentation]
+Author = Joseph Zhu
+Version = 0.1
+Website = ezcad.org
+Description = Custom g-surface object and functions
