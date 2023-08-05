@@ -1,0 +1,17 @@
+odoo/addons/beesdoo_website_theme/README.rst,sha256=3CRr1o429hn5cHHdB4Ung_lG8f_IpKccvR8u0IcYwPM,1853
+odoo/addons/beesdoo_website_theme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/beesdoo_website_theme/__manifest__.py,sha256=7wKXIagceaTkSnS3qtBPo7wvXm5_um_eNMR64aU8efQ,383
+odoo/addons/beesdoo_website_theme/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_website_theme/readme/DESCRIPTION.rst,sha256=pXOm4mxie8PEsi1xaRwPgPNh9_9CZQi-E66wzCuy55Q,30
+odoo/addons/beesdoo_website_theme/static/description/index.html,sha256=lHCtt9lbXdg8V7cpIazWqDJZHUO7IKV2bwPEEGcaPcU,10736
+odoo/addons/beesdoo_website_theme/static/src/font/BebasNeue-Bold.ttf,sha256=xtXhptNpHxebMCYBXTDx4WyELIUPufbWlNsbd99mbG8,163180
+odoo/addons/beesdoo_website_theme/static/src/font/Roboto-Bold.ttf,sha256=JFcVAxQHYCQJJNzRI493580EVMDYsHk5kM76L61xRx8,163448
+odoo/addons/beesdoo_website_theme/static/src/font/Roboto-BoldItalic.ttf,sha256=FlptAv2Jc3A3h_7u9TGbf9jLP2ZaPB5wLvDKSXAVR8k,165864
+odoo/addons/beesdoo_website_theme/static/src/font/Roboto-Italic.ttf,sha256=RwEjxvtdbAAFQxwPU5B0JJfFUIc2GnY2t-gus1Y13tc,160736
+odoo/addons/beesdoo_website_theme/static/src/font/Roboto-Regular.ttf,sha256=FkZu9lBk5vOIWm0oBriUmsGsOLUk3Qz4_JZWXrTMKOg,158604
+odoo/addons/beesdoo_website_theme/static/src/less/beesdoo_website_design.less,sha256=an2uhYEHjZYaIPZrfBLTWHucrWCIFzhA5Ablhq2dzc4,4496
+odoo/addons/beesdoo_website_theme/views/assets.xml,sha256=P2VpeR4nZFWhSQQXgb7UM1JKb0RoxOsN7emrkQ8t64I,390
+odoo12_addon_beesdoo_website_theme-12.0.0.0.1.99.dev1.dist-info/METADATA,sha256=T8Z22WLIjdjO9cvzKK6pPR6dR2ROUVXRbUloZ_3zlQk,2322
+odoo12_addon_beesdoo_website_theme-12.0.0.0.1.99.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_website_theme-12.0.0.0.1.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_website_theme-12.0.0.0.1.99.dev1.dist-info/RECORD,,
