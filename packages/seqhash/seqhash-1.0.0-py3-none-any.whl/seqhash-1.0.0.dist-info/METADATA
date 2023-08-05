@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: seqhash
+Version: 1.0.0
+Summary: The seqhash algorithm implemented in python
+Home-page: https://git.sr.ht/~koeng/python-seqhash
+Author: Keoni Gandall
+Author-email: koeng101@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Python Seqhash
+This repo holds the simple seqhash algorith implemented in python. Built for integration in different applications.
+
+
