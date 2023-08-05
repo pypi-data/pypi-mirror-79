@@ -1,0 +1,12 @@
+odoo/addons/beesdoo_pos_reporting/README.rst,sha256=Ynn4Joq8uHcOxoAcjlJ5AmQDKTO7bWkXKn9AaXWTflA,1862
+odoo/addons/beesdoo_pos_reporting/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/beesdoo_pos_reporting/__manifest__.py,sha256=jxqTWn45kZY63GA3WlCCrBTH3MY80GjY2Sv8sNXSaC4,532
+odoo/addons/beesdoo_pos_reporting/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/beesdoo_pos_reporting/models/res_partner.py,sha256=-IjQWViib68QCeVngNQL03zWxsQJ4mZzudBs8QlZPrY,145
+odoo/addons/beesdoo_pos_reporting/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_pos_reporting/readme/DESCRIPTION.rst,sha256=3NSF1D3wpLtQ8qnRsfLqlG6fXChwo6kr-1le6cF6Qsg,61
+odoo/addons/beesdoo_pos_reporting/static/description/index.html,sha256=sx-eOL65hlqgYanBI-Z9grTNnsWg6MPpEaI87YOl03g,10738
+odoo12_addon_beesdoo_pos_reporting-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=8XGK2PAx9IFU8VWFl1JogvyiXhbBRl-1acncLKtUtJE,2347
+odoo12_addon_beesdoo_pos_reporting-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_pos_reporting-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_pos_reporting-12.0.1.0.0.99.dev4.dist-info/RECORD,,
