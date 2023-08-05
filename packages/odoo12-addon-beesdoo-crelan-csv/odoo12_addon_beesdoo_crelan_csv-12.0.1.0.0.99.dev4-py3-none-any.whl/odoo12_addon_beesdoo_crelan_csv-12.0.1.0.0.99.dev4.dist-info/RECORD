@@ -1,0 +1,15 @@
+odoo/addons/beesdoo_crelan_csv/README.rst,sha256=vZUlrCALNny_aJdFjNod47Y0bVhfFO1WHiTXSvxiO6s,1865
+odoo/addons/beesdoo_crelan_csv/__init__.py,sha256=R3l5zcM1DHY7iqr3kt92069kmImpPafRbNSzv6p_hBE,42
+odoo/addons/beesdoo_crelan_csv/__manifest__.py,sha256=WcmDeBSk-4KoK74Tb0qh0Dmcs--k7hh0pvVI247h5A4,548
+odoo/addons/beesdoo_crelan_csv/i18n/fr_BE.po,sha256=rjcVgLmTor3pUB2ehMI1kic2zr-_JPrN8rA6NblpdYM,1321
+odoo/addons/beesdoo_crelan_csv/models/__init__.py,sha256=PNUfckxG6z1uZZxHevj2k0TJBShKVCvbN7vQ6ZIhH9k,30
+odoo/addons/beesdoo_crelan_csv/models/account_journal.py,sha256=PH6822SRQbqjknh7c5U6zVB8xNcCbcE8sTmJs32OwRw,302
+odoo/addons/beesdoo_crelan_csv/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_crelan_csv/readme/DESCRIPTION.rst,sha256=uAl4uivESf4RES4OMWjd8koHpxOlv0kFEiOEVFlJSKg,25
+odoo/addons/beesdoo_crelan_csv/static/description/index.html,sha256=n4IuGtMYcIAGnW1t6xD8LpgMK1DDZOnQmLnKWZpaLl4,10748
+odoo/addons/beesdoo_crelan_csv/wizard/__init__.py,sha256=uQum4H0hbltYSebqOjf9BlSk8QazcgJMIzNO2HN-nBc,32
+odoo/addons/beesdoo_crelan_csv/wizard/import_crelan_csv.py,sha256=gi8eO05ewcpnyp-UBb0nxNbjWNxrPCGEqwhlxJG52YE,5521
+odoo12_addon_beesdoo_crelan_csv-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=zs2VlOtB5KYQY82mcMB7AsFvQ0GfvIuuJZ3gHR0Wv14,2334
+odoo12_addon_beesdoo_crelan_csv-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_crelan_csv-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_crelan_csv-12.0.1.0.0.99.dev4.dist-info/RECORD,,
