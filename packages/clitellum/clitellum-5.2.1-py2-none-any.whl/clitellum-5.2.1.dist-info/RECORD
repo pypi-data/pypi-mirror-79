@@ -1,0 +1,16 @@
+clitellum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clitellum/atomic.py,sha256=fcvZiaFn5uIaCh_APQgWoLz5rEjmf3ypB1aPsOTISAY,9598
+clitellum/exceptions.py,sha256=_pySYRecrKFHR3Ztd52ayc5lGFLOL3QtkSZXtGJQQf8,163
+clitellum/handlers.py,sha256=DpsIpAjmcsN7SznqQnfIPfkfoVUB9AZo5lTpaMuxqFE,3323
+clitellum/logger_manager.py,sha256=0f1f8gvpYl8AeQ_vTzCG3VSgJ1xjXzf7z8Hytk3bg6Q,194
+clitellum/microservices.py,sha256=t9ZtNmt7VYBMsw7Y5PVYo6FR9220B0zsVyWcg4dyYcc,3450
+clitellum/services.py,sha256=D3Gb5_PwwgFNBsc80UoSWqJpYId45rZtXCnt_kzB3rY,8496
+clitellum/channels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clitellum/channels/amqp.py,sha256=hVJ6r39TIn_tChp8ZuVjBNJaY7pF_AO05RX4uT9PrDU,10426
+clitellum/channels/channel.py,sha256=sdR6Bc5QXljK5DEFRWV64M5z7ku5oINQAjx6oHXo0WU,2758
+clitellum/channels/configuration.py,sha256=gmITU4UJhs-mu_oQqiYolP1xhx00Udg3XSR2N2-Ip4g,3207
+clitellum-5.2.1.dist-info/LICENSE,sha256=_j7qbFmeI6AMCMX1yyMgwwrcj4aH21_OybeaZixT_2s,35120
+clitellum-5.2.1.dist-info/METADATA,sha256=SghPTzN38K2AH1flCL6R6g6lzuppLDqUH4WsjLEGM5o,251
+clitellum-5.2.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+clitellum-5.2.1.dist-info/top_level.txt,sha256=Tblsy7Ng0StVBfzzHwH2t1nGov2jc47CyvURySf-nbk,10
+clitellum-5.2.1.dist-info/RECORD,,
