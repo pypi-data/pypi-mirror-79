@@ -1,0 +1,3 @@
+[console_scripts]
+merge_kdbx = merge_kdbx.merge_kdbx:main
+
