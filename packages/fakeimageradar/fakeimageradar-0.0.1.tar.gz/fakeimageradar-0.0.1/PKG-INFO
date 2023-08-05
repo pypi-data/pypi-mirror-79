@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: fakeimageradar
+Version: 0.0.1
+Summary: Fake Image detector
+Home-page: UNKNOWN
+Author: Heitor Sampaio
+Author-email: heitor.sampaio@parafernalia.net.br
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3

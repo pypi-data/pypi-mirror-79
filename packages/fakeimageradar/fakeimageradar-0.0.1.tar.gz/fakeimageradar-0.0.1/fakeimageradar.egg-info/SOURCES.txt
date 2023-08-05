@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+fakeimageradar/__init__.py
+fakeimageradar.egg-info/PKG-INFO
+fakeimageradar.egg-info/SOURCES.txt
+fakeimageradar.egg-info/dependency_links.txt
+fakeimageradar.egg-info/requires.txt
+fakeimageradar.egg-info/top_level.txt
