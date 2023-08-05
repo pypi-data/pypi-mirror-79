@@ -1,0 +1,17 @@
+odoo/addons/beesdoo_pos/README.rst,sha256=cBvE2uscmOkg1lO3f4BPK7l6NmiiVyzb_LMHnalhOs4,1894
+odoo/addons/beesdoo_pos/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/beesdoo_pos/__manifest__.py,sha256=rgYJ0LDfw6mV5dA7MeYDzY_yo7fP57ApSgluZ6ROxtY,823
+odoo/addons/beesdoo_pos/data/default_barcode_pattern.xml,sha256=I_jTaHKAbtQH0K4lA0VdBa2uvxAjp4YbQzzKgydYMeY,182
+odoo/addons/beesdoo_pos/models/__init__.py,sha256=pVo6Ki40KarP0PKvMq_x1i9TKJ6QIboTXd00Yx0DY8E,26
+odoo/addons/beesdoo_pos/models/beesdoo_pos.py,sha256=sQHAQ1lnhWDCrNOcMtatleHKiZqjmVaqy1ufwvqXFO0,417
+odoo/addons/beesdoo_pos/readme/CONTRIBUTORS.rst,sha256=WLFeomX-tAe0Knr6IZ9iXLrvxbJzsxca5AYFusBhTWI,46
+odoo/addons/beesdoo_pos/readme/DESCRIPTION.rst,sha256=PQXll6m9PBdgCoDOot_Hep7wylC0D8ayUjpPXftbw48,96
+odoo/addons/beesdoo_pos/static/description/index.html,sha256=GdnqRec1FCRCnmi7cltzJp4MWIT1mUoJ75S8l-lhGiE,10777
+odoo/addons/beesdoo_pos/static/src/css/beesdoo.css,sha256=Y0S8oCkxycmeVVabcim7sKGNtz9aHIY8AXGtfQAHqNU,486
+odoo/addons/beesdoo_pos/static/src/js/beesdoo.js,sha256=idv_1g3NwXAb6I0DBcj9l8tk9R5t5VnyR4h7LbhEAzg,2830
+odoo/addons/beesdoo_pos/static/src/xml/templates.xml,sha256=p_mqi5u8aFvYM0wSb_5wMDv3g_6PpumxrjCFDYdI2BM,2207
+odoo/addons/beesdoo_pos/views/beesdoo_pos.xml,sha256=y_UsDJy9RrIroTKnCDkbYGFAqbQLCTLGh3tph5fD520,371
+odoo12_addon_beesdoo_pos-12.0.1.0.0.99.dev11.dist-info/METADATA,sha256=0_VgEmdT_LEVDK3d6hMMw7vj8L112BKy9yDRF-3zirE,2513
+odoo12_addon_beesdoo_pos-12.0.1.0.0.99.dev11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_beesdoo_pos-12.0.1.0.0.99.dev11.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_beesdoo_pos-12.0.1.0.0.99.dev11.dist-info/RECORD,,
