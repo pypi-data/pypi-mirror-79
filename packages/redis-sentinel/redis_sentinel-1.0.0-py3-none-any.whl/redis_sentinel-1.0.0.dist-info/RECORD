@@ -1,0 +1,7 @@
+redis_sentinel/RedisSentinel.py,sha256=ecAgFsU1KAMG4UeqdbWhSBu86kkFMfBqseZr1mu-08c,1863
+redis_sentinel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redis_sentinel-1.0.0.dist-info/LICENSE,sha256=g0jbM1Jv6kVQvv_V2lDBAY04sr2Az0Is0wiuwe0s3m8,35099
+redis_sentinel-1.0.0.dist-info/METADATA,sha256=8FPeccfrhH9CVvQVM7dMtvlonjTe4gFRY9CUIvBbfgQ,1738
+redis_sentinel-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+redis_sentinel-1.0.0.dist-info/top_level.txt,sha256=nARGrLfwMbU_HO3zkKBEGZC3ZGi8mcadN_kwWEg1pNQ,15
+redis_sentinel-1.0.0.dist-info/RECORD,,
