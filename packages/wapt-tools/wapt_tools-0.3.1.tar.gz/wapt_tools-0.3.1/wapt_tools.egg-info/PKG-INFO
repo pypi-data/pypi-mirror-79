@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wapt-tools
+Version: 0.3.1
+Summary: WAPT modules to ease version upgrades.
+Home-page: https://github.com/lrobinot/wapt-tools
+Author: Ludovic ROBINOT
+Author-email: lrobinot@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
