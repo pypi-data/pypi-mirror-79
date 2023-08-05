@@ -1,0 +1,52 @@
+stages:
+  - Static Analysis
+  - Unittests
+  - Build
+
+pylint:
+  stage: Static Analysis
+  image: "python:3.8"
+  before_script:
+    - python --version
+    - pip install -r requirements.txt
+    - pip install pylint
+  tags:
+    - shared
+  script:
+    - pylint iniparser
+    - pylint test
+    - pylint setup.py
+
+black:
+  stage: Static Analysis
+  image: "python:3.8"
+  before_script:
+    - pip install -r requirements.txt
+    - pip install black
+  tags:
+    - shared
+  script:
+    - black --check iniparser
+    - black --check test
+    - black --check setup.py
+
+unit:
+  stage: Unittests
+  image: "python:3.8"
+  before_script:
+    - pip install -r requirements.txt
+  tags:
+    - shared
+  script:
+    - python -m unittest discover
+
+build:
+  stage: Build
+  image: "python:3.8"
+  before_script:
+    - pip install -r requirements.txt
+    - pip install wheel
+  tags:
+    - shared
+  script:
+    - python setup.py sdist bdist_wheel
