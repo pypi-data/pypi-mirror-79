@@ -1,0 +1,7 @@
+wpkit2
+wpcv
+pytorchcv
+vtgui
+cv2
+torch
+torchvision
