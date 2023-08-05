@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: netz
+Version: 0.1.2
+Summary: 
+Author: mjaquier
+Author-email: mjaquier@admin.xyz
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: chardet (>=3.0.4,<4.0.0)
+Requires-Dist: pandas (>=1.1.2,<2.0.0)
