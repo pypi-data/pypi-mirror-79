@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: face-mtcnn-keras-facenet
+Version: 1.0
+Summary: 人脸识别
+Home-page: UNKNOWN
+Author: leon.hu
+Author-email: sdcxhuoxiaoqi@126.com
+License: MIT
+Description: 通过深度学习，人脸识别
+Platform: Linux

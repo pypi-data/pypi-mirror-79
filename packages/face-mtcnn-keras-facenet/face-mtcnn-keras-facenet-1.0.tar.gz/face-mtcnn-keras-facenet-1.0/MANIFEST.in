@@ -1,0 +1,4 @@
+include *.txt
+include * .h5
+recursive-include examples *
+recursive-include Doc *
