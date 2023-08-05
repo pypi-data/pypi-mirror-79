@@ -1,0 +1,3 @@
+[console_scripts]
+translate_odf = translate_odf.translate_odf:main
+
