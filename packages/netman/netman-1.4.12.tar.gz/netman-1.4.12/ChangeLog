@@ -1,0 +1,123 @@
+CHANGES
+=======
+
+1.4.12
+------
+
+* Mac-address payload interface name changed
+
+1.4.11
+------
+
+* Remove logical interface marking
+* Inserting type inside of the MacAddress payload
+* Fix unit test + pep8
+* Mac retrieval for juniper (junos 12 and 14)
+* Dell 10G now supports the get\_mac\_addresses fonctionality
+* Retreive Mac Addresses of the devices connected on the interfaces
+* Clean ssh connection in destructor
+* Netman container in travis
+* Move validator to core
+
+1.4.9
+-----
+
+* Specify the README format for pipy
+* Netman now supports new junos error message
+* Netman remains untouched per docker
+* bump-dependencies to fix paramiko security warning
+* Netman in a container
+* Fix documentation generation
+
+1.4.8
+-----
+
+* Add mpls ip support on interface vlan
+
+1.4.7
+-----
+
+* Add load-interval support on interface vlan
+* NotImplemented methods of SwitchOperations now raise with their names
+
+1.4.6
+-----
+
+* Arista uses default\_command\_timeout (#235)
+
+1.4.5
+-----
+
+* Introducing API and compliance tests for VARP (#234)
+* Add VARP to cached Switch
+
+1.4.4
+-----
+
+* Introducing VARP for Arista
+* Arista support for ip helper
+* Arista bond trunk support
+* Arista support for ip helper
+* Rename exceptions test to be run
+* Arista downlink trunk support
+* Arista get interface support
+* Implement rollback on arista
+
+1.4.3
+-----
+
+* Push the transport decision in the factory
+
+1.4.2
+-----
+
+* Commit transaction in Arista
+* Arista support add and remove interface vlan ips
+
+1.4.1
+-----
+
+* Fixing transport hardcoding in eapi connection
+
+1.4.0
+-----
+
+* Add Arista to Global Reactor
+* Introducing arista Vlan management
+
+1.3.9
+-----
+
+* XML bug fix
+
+1.3.8
+-----
+
+* ntp implementation for Cisco switches
+* Corner case validations added for Juniper MX
+
+1.3.7
+-----
+
+* Implement set\_icmp\_redirects for juniper\_mx
+
+1.3.6
+-----
+
+* Add the vrrp information to the vlan objects
+* Remove the trailing whitespaces in MX's tests
+* fix get\_vlan not showing ips
+* Implement remove\_trunk\_vlan
+* Implement remove\_vrrp for juniper mx
+* Juniper MX implementation of interface mode and their vlans
+* Implement unset\_interface\_access\_vlan juniper mx
+* Implement get\_interface for Juniper MX
+
+1.3.5
+-----
+
+* Make add\_vrrp\_group more readable
+* Implement add\_vrrp\_group for juniper mx
+* Remove ip from vlan
+* Add\_ip\_to\_vlan for Juniper MX
+* Implement get\_vlans for Juniper MX
