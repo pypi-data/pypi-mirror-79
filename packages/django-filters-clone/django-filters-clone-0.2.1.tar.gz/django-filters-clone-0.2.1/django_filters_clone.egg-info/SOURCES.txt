@@ -1,0 +1,13 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_filters_clone.egg-info/PKG-INFO
+django_filters_clone.egg-info/SOURCES.txt
+django_filters_clone.egg-info/dependency_links.txt
+django_filters_clone.egg-info/not-zip-safe
+django_filters_clone.egg-info/top_level.txt
+filters/__init__.py
+filters/filters.py
+filters/middleware.py
