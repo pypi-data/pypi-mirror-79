@@ -1,0 +1,15 @@
+setup.py
+odoo/addons/beesdoo_pos_reporting/README.rst
+odoo/addons/beesdoo_pos_reporting/__init__.py
+odoo/addons/beesdoo_pos_reporting/__manifest__.py
+odoo/addons/beesdoo_pos_reporting/models/__init__.py
+odoo/addons/beesdoo_pos_reporting/models/res_partner.py
+odoo/addons/beesdoo_pos_reporting/readme/CONTRIBUTORS.rst
+odoo/addons/beesdoo_pos_reporting/readme/DESCRIPTION.rst
+odoo/addons/beesdoo_pos_reporting/static/description/index.html
+odoo12_addon_beesdoo_pos_reporting.egg-info/PKG-INFO
+odoo12_addon_beesdoo_pos_reporting.egg-info/SOURCES.txt
+odoo12_addon_beesdoo_pos_reporting.egg-info/dependency_links.txt
+odoo12_addon_beesdoo_pos_reporting.egg-info/not-zip-safe
+odoo12_addon_beesdoo_pos_reporting.egg-info/requires.txt
+odoo12_addon_beesdoo_pos_reporting.egg-info/top_level.txt
