@@ -1,0 +1,5 @@
+requests
+PyYAML<5.3,>=3.10
+ds-sdk-mini>=0.0.11
+smartcheck-sdk-mini>=0.0.8
+cc-sdk-mini>=0.0.1
