@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bamp
+Version: 1.0.2
+Summary: Bamp version according to semantic versioning
+License: MIT
+Author: Michał Klich
+Author-email: michal@klichx.dev
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: dulwich (>=0.19.11,<0.20.0)
+Requires-Dist: six (>=1.14.0,<2.0.0)
