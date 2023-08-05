@@ -1,0 +1,8 @@
+README.md
+setup.py
+tsBNgen/__init__.py
+tsBNgen/tsBNgen.py
+tsBNgen.egg-info/PKG-INFO
+tsBNgen.egg-info/SOURCES.txt
+tsBNgen.egg-info/dependency_links.txt
+tsBNgen.egg-info/top_level.txt
