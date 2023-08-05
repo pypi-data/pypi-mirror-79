@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lightkube
+Version: 0.2.0
+Summary: Lightweight kubernetes client library
+Home-page: https://github.com/gtsystem/lightkube
+Author: Giuseppe Tribulato
+Author-email: gtsystem@gmail.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: lightkube-models (>=1.15.6.2)
+Requires-Dist: httpx (>=0.14.1)
+Requires-Dist: respx
+Requires-Dist: PyYAML
+Requires-Dist: backports-datetime-fromisoformat ; python_version < "3.7"
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+Lightweight kubernetes client library
+
+
