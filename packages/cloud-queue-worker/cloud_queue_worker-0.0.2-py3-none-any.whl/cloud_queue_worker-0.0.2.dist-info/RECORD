@@ -1,0 +1,12 @@
+cloud_queue_worker/__init__.py,sha256=FV3QzDHqzy6zHOptByhA3i5aAABx16O7OEG9brkbtXM,55
+cloud_queue_worker/errors.py,sha256=yS2DvKX_daQIfZpNH5plV-QTKSq3oHS5F4bYjqwDlf4,107
+cloud_queue_worker/orchestrator.py,sha256=3-s7JejYauEixBGwdeNtvVPTiqProrUmd992XS9vta4,4091
+cloud_queue_worker/queue_worker.py,sha256=lujGNrKWvetuGz5fmbuiFGtp_D2mfP74DPQosDgAOeE,1473
+cloud_queue_worker/utils.py,sha256=fYZoUuUBvLwyGqKw-YrbS1yj8HRpMQycCRmVJNIVQgk,522
+cloud_queue_worker/worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_queue_worker/worker/worker.py,sha256=GZtxfcesi2zrJu6P_sJ3d4thVckwrrqMkHnS7P54vD0,5621
+cloud_queue_worker-0.0.2.dist-info/LICENCE.md,sha256=ozOdNUF1qPkfvq1tTBS936PyLOUh84ChSj-TIRN09BQ,1049
+cloud_queue_worker-0.0.2.dist-info/METADATA,sha256=iPx-v3I76U3nedz5Qyh-ZnIn6ZOyLv_poapK8MPJfJU,330
+cloud_queue_worker-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cloud_queue_worker-0.0.2.dist-info/top_level.txt,sha256=i4krBBh2QTdBonNf0lQbgupSN_Qfvzv5o0t1KIKzZaM,19
+cloud_queue_worker-0.0.2.dist-info/RECORD,,
