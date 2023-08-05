@@ -1,0 +1,12 @@
+dask_optuna/__init__.py,sha256=J0b0nxOxYOvXS0ZQD5ejkhfir6Vp1m5Q9Nlno-xEGuc,154
+dask_optuna/_version.py,sha256=6esJ93wfgX1cHYJ6xRjvolf332zdmYDrGYuIy_er_qw,497
+dask_optuna/serialize.py,sha256=Dik3SIYUaiM8mMGeVKYJlAXtr0emhPMWC8OF7XG42WI,2263
+dask_optuna/storage.py,sha256=JSxTwwWHV1TzaywqrKrkXtzd9K9gYGXGExvaX2zPmWo,20059
+dask_optuna/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dask_optuna/tests/test_storage.py,sha256=c-LlkBCIdTOgQheGhd0Mf_TZI1syZCfb6KvQBTfyz70,2133
+dask_optuna/tests/utils.py,sha256=ECv2gVzaiz_uNxwQ9it1bccil2QL5eUQB3ahSf2J9xU,611
+dask_optuna-0.0.1.dist-info/LICENSE,sha256=IortUve81tLNfKCAeJG9PdgbQGjzKxP5Pfvqjt1ezo0,1071
+dask_optuna-0.0.1.dist-info/METADATA,sha256=QN1DlaPDQo_Pg0ZmV0bhhofdmzrEW8lxRq5sXoQIxUg,2607
+dask_optuna-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dask_optuna-0.0.1.dist-info/top_level.txt,sha256=i1K0y4BVpcft_cRibHtl5eb_tEwmsIKftRYSdofYWJs,12
+dask_optuna-0.0.1.dist-info/RECORD,,
