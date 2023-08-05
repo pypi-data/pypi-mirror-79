@@ -1,0 +1,13 @@
+README.md
+setup.py
+QNN_Gen.egg-info/PKG-INFO
+QNN_Gen.egg-info/SOURCES.txt
+QNN_Gen.egg-info/dependency_links.txt
+QNN_Gen.egg-info/top_level.txt
+qnn_gen/__init__.py
+qnn_gen/combine_run.py
+qnn_gen/encode.py
+qnn_gen/measurement.py
+qnn_gen/model.py
+qnn_gen/observable.py
+qnn_gen/utility.py
