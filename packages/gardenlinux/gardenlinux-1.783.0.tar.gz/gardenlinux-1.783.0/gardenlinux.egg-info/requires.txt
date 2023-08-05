@@ -1,0 +1,5 @@
+gardener-cicd-libs
+boto3
+google-api-python-client
+google-cloud-storage
+msal
