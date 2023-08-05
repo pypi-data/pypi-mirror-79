@@ -1,0 +1,8 @@
+bifrostlib/__init__.py,sha256=cXKYiutdIBRwuJidr4XAPQ6a3LeGv1rbEIUSDs1dFJI,56
+bifrostlib/check_requirements.py,sha256=-CZauyg9bSAfJvg7VYXBi5Vqm2lINBybxkqmIjM_5ow,5531
+bifrostlib/datahandling.py,sha256=00xCE0MCdzCxl-oC9lTEVRS8c7j1jPzQUVhzLoPURJw,12946
+bifrostlib/mongo_interface.py,sha256=Zo5zoQqjrI5wN5OEi6yCJAbW807Z5T9myUh6bFQLLbU,13892
+bifrostlib-1.2.4.dist-info/METADATA,sha256=IeT6XH60dQSpthyjldfEYHFSMp0gBLXGN5LhyrX3Cco,386
+bifrostlib-1.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bifrostlib-1.2.4.dist-info/top_level.txt,sha256=XFjIfd7eABc90gG6KqscC8p47nlBj_xJQKarZsWBiQE,11
+bifrostlib-1.2.4.dist-info/RECORD,,
