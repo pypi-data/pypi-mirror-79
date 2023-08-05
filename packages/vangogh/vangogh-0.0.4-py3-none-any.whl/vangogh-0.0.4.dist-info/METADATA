@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vangogh
+Version: 0.0.4
+Summary: Geometry calculations for Fermi GBM
+Home-page: https://github.com/grburgess/vangogh
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/grburgess/vangogh/issues
+Project-URL: Source Code, https://github.com/grburgess/vangogh
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: ipyvolume (>=0.6.0a2)
+Requires-Dist: numba
+Requires-Dist: h5py
+
+# vangogh
+Plotting the solar system with ipyvolume
+
+
