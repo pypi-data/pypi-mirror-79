@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+cohort_analysis/__init__.py
+cohort_analysis/accessors.py
+cohort_analysis/cohort_metrics.py
+cohort_analysis/decorators.py
+cohort_analysis/exceptions.py
+cohort_analysis.egg-info/PKG-INFO
+cohort_analysis.egg-info/SOURCES.txt
+cohort_analysis.egg-info/dependency_links.txt
+cohort_analysis.egg-info/requires.txt
+cohort_analysis.egg-info/top_level.txt
