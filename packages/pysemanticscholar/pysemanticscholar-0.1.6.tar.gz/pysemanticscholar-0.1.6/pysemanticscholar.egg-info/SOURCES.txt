@@ -1,0 +1,11 @@
+README.md
+setup.py
+pysemanticscholar.egg-info/PKG-INFO
+pysemanticscholar.egg-info/SOURCES.txt
+pysemanticscholar.egg-info/dependency_links.txt
+pysemanticscholar.egg-info/not-zip-safe
+pysemanticscholar.egg-info/requires.txt
+pysemanticscholar.egg-info/top_level.txt
+semanticscholar/__init__.py
+semanticscholar/restful.py
+semanticscholar/tests.py
