@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: kenya-counties
+Version: 0.0.3
+Summary: This package returns all kenya counties in list and the number of the counties
+Home-page: https://github.com/john-maluki/kenyan_counties
+Author: John Maluki
+Author-email: johnmaluki58@gmail.com
+License: UNKNOWN
+Description: # **Kenya_counties** Package
+        
+        This is a simple package that returns Kenya counties in list, and the number of counties.
+        
+        *Examples.*
+        
+        ```python
+        from k_counties.kenya import get_counties
+        
+        kenyan_counties = get_counties()
+        
+        ```
+        
+        Example code getting the number of counties
+        
+        ```python
+        from k_counties.kenya import get_county_number
+        
+        county_number = get_county_number()
+         
+        ```
+        
+        You can find the package code at [GitHub](https://github.com/john-maluki/kenyan_counties)
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
