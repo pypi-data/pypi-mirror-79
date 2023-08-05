@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bottle_json_pretty.egg-info/PKG-INFO
+bottle_json_pretty.egg-info/SOURCES.txt
+bottle_json_pretty.egg-info/dependency_links.txt
+bottle_json_pretty.egg-info/requires.txt
+bottle_json_pretty.egg-info/top_level.txt
