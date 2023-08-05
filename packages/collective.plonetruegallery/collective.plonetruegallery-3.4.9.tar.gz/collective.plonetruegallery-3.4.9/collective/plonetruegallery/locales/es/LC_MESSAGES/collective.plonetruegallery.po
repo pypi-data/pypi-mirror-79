@@ -1,0 +1,405 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# Diego Rubert, 2009.
+# Mikel Larreategi <mlarreategi@codesyntax.com>, 2012
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.plonetruegallery\n"
+"POT-Creation-Date: 2018-08-18 15:22+0000\n"
+"PO-Revision-Date: 2018-08-31 17:37-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.plonetruegallery\n"
+
+#: ./browser/views/settings.py:82
+#: ./configlet.py:15
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ./browser/views/templates/subgallery.pt:5
+msgid "Browse By"
+msgstr "Filtrar por"
+
+#: ./configlet.py:13
+msgid "Default settings to use for all galleries on site."
+msgstr "Configuración por defecto de todas las nuevas galerías del sitio"
+
+#: ./browser/views/configure.zcml:65
+msgid "Displays a gallery."
+msgstr "Mostrar una galería."
+
+#: ./behavior.zcml:11
+msgid "Enable Plone True Gallery support"
+msgstr "Habilitar soporte a Plone True Gallery"
+
+#: ./profiles.zcml:12
+msgid "Extension profile for the \"collective.plonetruegallery\" Plone product."
+msgstr ""
+"Perfil extensión para el producto Plone \"collective.plonetruegallery\"."
+
+#. Default: "Gallery Settings"
+#: portal Actions
+msgid "Gallery Settings"
+msgstr "Configurar Galería"
+
+#. Default: "Gallery View"
+#: ./browser/views/configure.zcml:65
+msgid "Gallery View"
+msgstr "Vista de galería"
+
+#: ./browser/views/settings.py:20
+msgid "Main"
+msgstr "Principal"
+
+#: ./behavior.zcml:11
+#: ./profiles.zcml:12
+msgid "Plone True Gallery"
+msgstr "Plone True Gallery"
+
+#: ./configlet.py:12
+msgid "PloneTruegallery Default Settings"
+msgstr "Configuración por defecto PloneTruegallery"
+
+#: ./profiles.zcml:21
+msgid "Removes collective.plonetruegallery."
+msgstr "collective.plonetruegallery - Desinstalar."
+
+#: ./browser/views/templates/subgallery.pt:16
+msgid "Search Galleries"
+msgstr "Buscar Galerías"
+
+#: ./browser/views/templates/subgallery.pt:8
+msgid "Select Category"
+msgstr "Seleccionar etiqueta"
+
+#: ./browser/views/templates/subgallery.pt:20
+msgid "Show All"
+msgstr "Mostrar todos"
+
+#: ./profiles.zcml:21
+msgid "collective.plonetruegallery Uninstall Profile"
+msgstr "collective.plonetruegallery - Perfil desintalación"
+
+#: ./profiles.zcml:29
+msgid "collective.plonetruegallery Upgrade to 0.8 profile"
+msgstr "collective.plonetruegallery - perfil de Actualización a 0.8"
+
+#. Default: "If you select this option, the lead images for the subgalleries will be chosen at random. Otherwise the first image is chosen."
+#: ./interfaces.py:202
+msgid "desciption_random_subgallery_lead"
+msgstr ""
+"Si selecciona esta opción, las imágenes principales para las galerías "
+"secundarias se elegirán al azar. De lo contrario, se elige la primera imagen."
+
+#. Default: "The amount of images shown in one page. This is not used for all display types."
+#: ./interfaces.py:209
+msgid "description_batch_size"
+msgstr ""
+"Cantidad de imágenes mostradas en una página. No todos los tipos de "
+"visualización lo usan."
+
+#. Default: "This is only used for customized templates to show body text"
+#: ./interfaces.py:217
+msgid "description_bodytext"
+msgstr ""
+"Este es solamente usado para personalizar plantillas para mostrar el cuerpo "
+"del texto"
+
+#. Default: "Should copyright notices be attached to each image?"
+#: ./interfaces.py:172
+msgid "description_copyright"
+msgstr "¿Deberia adjuntar los derechos de autor a cada imagen?"
+
+#. Default: "Relative path from the root of the site where the stylesheet will be referenced from. This will be included after the display gallery type's styles and is a good entry point for customization."
+#: ./interfaces.py:223
+msgid "description_custom_stylesheet"
+msgstr ""
+"Ruta relativa al raíz del sitio donde la hoja de estilo sera refenciada. "
+"Esto sera incluido después de estilos del tipo de exhibición de galería y es "
+"una buena punto de entrada para la personalización."
+
+#. Default: "If slide show is timed, the delay sets how long before the next image is shown in miliseconds."
+#: ./interfaces.py:179
+msgid "description_delay"
+msgstr ""
+"Si hay temporizador, el retraso especifica los milisegundos entre imagen e "
+"imagen."
+
+#. Default: "The amount of time the change effect should take in miliseconds."
+#: ./interfaces.py:187
+msgid "description_fade_in_duration"
+msgstr "Milisegundos que tarda en cambiar el efecto."
+
+#. Default: "Configure the parameters for this gallery."
+#: ./browser/views/settings.py:32
+msgid "description_gallery_settings_form"
+msgstr "Configurar parámetros para esta galería."
+
+#. Default: "The actual sizes used can vary depending on the gallery type that is used since different services have different size constraints. Only 'Small, Medium and Large' work with Flickr and Picasa"
+#: ./interfaces.py:145
+msgid "description_gallery_size"
+msgstr ""
+"Los tamaños actuales pueden variar dependiendo del tipo de galería que es "
+"usado desde diferentes servicios que tiene diferentes restricciones de "
+"tamaño. Solamente 'Pequeño, Medio y Grande' trabaja con Flickr y Picasa"
+
+#. Default: "Select the type of gallery you want this to be.  If you select something other than default, you must fill out the information in the corresponding tab for that gallery type."
+#: ./interfaces.py:124
+msgid "description_gallery_type"
+msgstr "Seleccionar el tipo de galería."
+
+#. Default: "If you select this option, previews for all nested galleries will show up below this gallery."
+#: ./interfaces.py:195
+msgid "description_show_subgalleries"
+msgstr "¿Mostrar previsualización de galerías secundarias?"
+
+#. Default: "The size of thumbnail images. Will only work with plone image gallery type."
+#: ./interfaces.py:155
+msgid "description_thumb_size"
+msgstr ""
+"Tamaño de las imágenes miniaturas. Solo funcionará con el tipo de galería de "
+"imagen para Plone"
+
+#. Default: "Should this gallery automatically change images for the user?"
+#: ./interfaces.py:165
+msgid "description_timed"
+msgstr "¿Cambiar imágenes automáticamente?"
+
+#. Default: "This portlet allows you to show galleryimages in a portlet."
+#: ./portlets.py:225
+msgid "gallery_portlet_add_form_description"
+msgstr "Puede mostrar las imágenes de la galería en un portlet"
+
+#. Default: "Add Gallery"
+#: ./portlets.py:224
+msgid "gallery_portlet_add_form_title"
+msgstr "Añadir galería"
+
+#. Default: "This portlet allows you to show gallery images in a portlet."
+#: ./portlets.py:239
+msgid "gallery_portlet_edit_form_description"
+msgstr "Editar portlet de la galería"
+
+#. Default: "Edit Gallery Portlet"
+#: ./portlets.py:237
+msgid "gallery_portlet_edit_form_title"
+msgstr "Editar portlet Galería"
+
+#. Default: "The gallery to show in this portlet."
+#: ./portlets.py:28
+msgid "gallery_portlet_gallery_description"
+msgstr "La galería que se mostrará en este portlet"
+
+#. Default: "Gallery"
+#: ./portlets.py:27
+msgid "gallery_portlet_gallery_title"
+msgstr "Galería"
+
+#. Default: "The height of the image in the portlet.If 0, no height is set."
+#: ./portlets.py:50
+msgid "gallery_portlet_height_description"
+msgstr "La altura de la imagen del portlet. Si es 0, no se le asignará tamaño."
+
+#. Default: "Height in pixels"
+#: ./portlets.py:49
+msgid "gallery_portlet_height_title"
+msgstr "Altura en píxeles"
+
+#. Default: "Hide Controls"
+#: ./portlets.py:64
+msgid "gallery_portlet_hide_controls"
+msgstr "Ocultar controles"
+
+#. Default: "Hide portlet gallery controls"
+#: ./portlets.py:65
+msgid "gallery_portlet_hide_controls_description"
+msgstr "Ocultar controles del portlet"
+
+#. Default: "Mini gallery"
+#: ./portlets.py:34
+msgid "gallery_portlet_mini"
+msgstr "Mini-galería"
+
+#. Default: "If false, the actual full gallery will render in an iframe and will follow the width and height settings"
+#: ./portlets.py:35
+msgid "gallery_portlet_mini_desc"
+msgstr "Si es falso, la actual galería se mostrará en un iframe HTML y tendrá la altura y anchura de la configuración."
+
+#. Default: "Check to show the title of the gallery in the portlet"
+#: ./portlets.py:22
+msgid "gallery_portlet_show_title_description"
+msgstr "Mostrar título de la galería en el portlet"
+
+#. Default: "Show Title?"
+#: ./portlets.py:21
+msgid "gallery_portlet_show_title_title"
+msgstr "Mostrar título"
+
+#. Default: "Do you want the gallery to be timed?"
+#: ./portlets.py:58
+msgid "gallery_portlet_timed_description"
+msgstr "¿Desea un temporalizador en la galería?"
+
+#. Default: "Timed"
+#: ./portlets.py:57
+msgid "gallery_portlet_timed_title"
+msgstr "Temporalizar"
+
+#. Default: "The width of the image in the portlet"
+#: ./portlets.py:43
+msgid "gallery_portlet_width_description"
+msgstr "Ancho de la imagen en el portlet"
+
+#. Default: "Width in pixels"
+#: ./portlets.py:42
+msgid "gallery_portlet_width_title"
+msgstr "Ancho en píxeles"
+
+#. Default: "Gallery"
+#: ./browser/views/settings.py:31
+msgid "heading_gallery_settings_form"
+msgstr "Galería"
+
+#. Default: "base: this isn't actually a gallery type.  Think abstract class here..."
+#: ./galleryadapters/base.py:32
+msgid "label_base_gallery_type"
+msgstr "base: no es un tipo de galería, es como una clase abstracta"
+
+#. Default: "Batch Size"
+#: ./interfaces.py:208
+msgid "label_batch_size"
+msgstr "Número de imágenes por página"
+
+#. Default: "Copyright notice?"
+#: ./interfaces.py:171
+msgid "label_copyright"
+msgstr "¿Notificar Derechos de Autor?"
+
+#. Default: "Custom stylesheet"
+#: ./interfaces.py:222
+msgid "label_custom_stylesheet"
+msgstr "Hoja de estilo personalizado"
+
+#. Default: "Use Plone To Manage Images"
+#: ./galleryadapters/basic.py:38
+msgid "label_default_gallery_type"
+msgstr "Usar imágenes guardadas en Plone"
+
+#. Default: "Delay"
+#: ./interfaces.py:178
+msgid "label_delay"
+msgstr "Retraso"
+
+#. Default: "Enable bodytext"
+#: ./interfaces.py:216
+msgid "label_enable_bodytext"
+msgstr "Habilitar texto de cuerpo"
+
+#. Default: "Gallery Display Type"
+#: ./interfaces.py:132
+msgid "label_gallery_display_type"
+msgstr "Tipo de exhibición de la Galería"
+
+#. Default: "Choose the method in which the gallery should be displayed"
+#: ./interfaces.py:134
+msgid "label_gallery_display_type_description"
+msgstr "Escoger el modo de exhibición de la galería"
+
+#. Default: "Size"
+#: ./interfaces.py:144
+msgid "label_gallery_size"
+msgstr "Tamaño"
+
+#. Default: "Type"
+#: ./interfaces.py:123
+msgid "label_gallery_type"
+msgstr "Tipo"
+
+#. Default: "Change Duration"
+#: ./interfaces.py:186
+msgid "label_image_change_duration"
+msgstr "Duración de los cambios"
+
+#. Default: "mini"
+#: ./vocabularies.py:108
+msgid "label_mini"
+msgstr ""
+
+#. Default: "There are no images in this gallery."
+#: ./browser/views/templates/layout.pt:23
+#: ./browser/views/templates/layout_p3.pt:40
+msgid "label_no_images_in_gallery"
+msgstr "No hay imágenes en esta galería."
+
+#. Default: "preview"
+#: ./vocabularies.py:109
+msgid "label_preview"
+msgstr "vista previa"
+
+#. Default: "Show random lead image for subgalleries?"
+#: ./interfaces.py:201
+msgid "label_random_subgallery_lead"
+msgstr "¿Mostrar imagen de cabecera aleatoria para sub-galerías?"
+
+#. Default: "Show Sub-Galleries?"
+#: ./interfaces.py:194
+msgid "label_show_subgalleries"
+msgstr "Mostrar galerías secundarias"
+
+#. Default: "Large"
+#: ./vocabularies.py:77
+msgid "label_size_large"
+msgstr "Grande"
+
+#. Default: "Medium"
+#: ./vocabularies.py:75
+msgid "label_size_medium"
+msgstr "Medio"
+
+#. Default: "Small"
+#: ./vocabularies.py:73
+msgid "label_size_small"
+msgstr "Pequeño"
+
+#. Default: "thumb"
+#: ./vocabularies.py:107
+msgid "label_thumb"
+msgstr ""
+
+#. Default: "Thumbnail image size"
+#: ./interfaces.py:154
+msgid "label_thumb_size"
+msgstr "Tamaño de la imagen pequeña"
+
+#. Default: "tile"
+#: ./vocabularies.py:106
+msgid "label_tile"
+msgstr ""
+
+#. Default: "Timed?"
+#: ./interfaces.py:164
+msgid "label_timed"
+msgstr "¿Temporizado?"
+
+#. Default: "There are no changes in the Gallery settings."
+#: ./browser/views/settings.py:37
+msgid "noChangesMessage_gallery_settings_form"
+msgstr "No hay cambios en la configuración de la galería"
+
+#: ./browser/views/templates/subgallery.pt:13
+msgid "or"
+msgstr "o"
+
+#. Default: "Gallery Settings Saved."
+#: ./browser/views/settings.py:35
+msgid "successMessage_gallery_settings_form"
+msgstr "Cambios guardados."
