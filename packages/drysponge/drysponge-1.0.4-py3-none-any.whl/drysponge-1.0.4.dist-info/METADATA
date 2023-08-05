@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: drysponge
+Version: 1.0.4
+Summary: DryGASCON reference implementation
+Home-page: https://github.com/sebastien-riou/DryGASCON
+Author: Sebastien Riou
+Author-email: matic@nimp.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+DryGASCON reference implementation
+
+
