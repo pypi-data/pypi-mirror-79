@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: headit
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 518
+Author-email: zzycwmx@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: head,header,headers
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4.0
