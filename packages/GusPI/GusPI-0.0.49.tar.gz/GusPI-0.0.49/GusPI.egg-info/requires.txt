@@ -1,0 +1,8 @@
+pandas
+matplotlib
+seaborn
+plotly
+numpy
+urllib
+beautifulsoup4
+simfin
