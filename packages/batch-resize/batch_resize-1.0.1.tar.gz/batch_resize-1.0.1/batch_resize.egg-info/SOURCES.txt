@@ -1,0 +1,8 @@
+README.md
+setup.py
+batch_resize/__init__.py
+batch_resize/__main__.py
+batch_resize.egg-info/PKG-INFO
+batch_resize.egg-info/SOURCES.txt
+batch_resize.egg-info/dependency_links.txt
+batch_resize.egg-info/top_level.txt
