@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: krishanfirstpackage
+Version: 0.0.1
+Summary: Sample package
+Home-page: UNKNOWN
+Author: Kun Han
+Author-email: khan7@uci.edu
+License: MIT
+Description: 
+        
+        Change Log
+        ==========
+        
+        0.0.1 (09/08/2020)
+        --------------------
+        - First Release
+Keywords: package sample
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
