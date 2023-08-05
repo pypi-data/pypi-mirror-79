@@ -1,0 +1,7 @@
+README.md
+setup.py
+sigmet.egg-info/PKG-INFO
+sigmet.egg-info/SOURCES.txt
+sigmet.egg-info/dependency_links.txt
+sigmet.egg-info/requires.txt
+sigmet.egg-info/top_level.txt
