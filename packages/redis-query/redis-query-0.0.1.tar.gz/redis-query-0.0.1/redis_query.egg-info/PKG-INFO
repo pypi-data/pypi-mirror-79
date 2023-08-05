@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: redis-query
+Version: 0.0.1
+Summary: A query language for redis.
+Home-page: https://github.com/Kuba663/redis-query
+Author: VirtualFox
+Author-email: virtualfox@onet.pl
+License: GNU GPL V3
+Description: # redis-query
+        A query language for redis rejson.
+        ## CREATE
+        Creates a documentof a choosen name and schema at a choosen path.
+        ```
+        CREATE DOCUMENT 'obj' ('{"obj":"value"}') AT PATH('ROOT')
+        ```
+        ## SELECT
+        Gets value from redis database by name. 
+        ```
+        SELECT 'name' FROM PATH('ROOT')
+        ```
+        ## INSERT
+        CREATE but only for alredy existion values.
+        ```
+        INSERT 'obj' ('{"obj":"value"}') INTO PATH('ROOT')
+        ```
+        ## PATH
+        A Path in [JSONPath](https://goessner.net/articles/JsonPath/) syntax. Type ROOT for root path.
+        ``` 
+        PATH('ROOT')
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown

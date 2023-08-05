@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+RedisQuery/AST.py
+RedisQuery/Lexer.py
+RedisQuery/Parser.py
+RedisQuery/ParserState.py
+RedisQuery/RedisQuery.py
+RedisQuery/__init__.py
+redis_query.egg-info/PKG-INFO
+redis_query.egg-info/SOURCES.txt
+redis_query.egg-info/dependency_links.txt
+redis_query.egg-info/requires.txt
+redis_query.egg-info/top_level.txt
