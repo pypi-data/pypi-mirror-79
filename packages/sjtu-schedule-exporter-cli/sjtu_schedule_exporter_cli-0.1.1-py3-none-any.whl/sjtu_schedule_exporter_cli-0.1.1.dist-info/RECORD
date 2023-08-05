@@ -1,0 +1,11 @@
+sjtu_schedule_exporter_cli/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+sjtu_schedule_exporter_cli/__main__.py,sha256=mAg990Ht5MIxSPIai-EF4Kf9KTQmZ7sGQIGtGgGAnJ4,3869
+sjtu_schedule_exporter_cli/calendar.py,sha256=-8x8BXkyrEPqyIy_kxoNAMKzzZLWSru9OOnfsuVBbLY,1196
+sjtu_schedule_exporter_cli/tui.py,sha256=xwfHumIJ4Z2bzz94C-Gyo16nzs6kvhq_q_NRQUwkH30,2804
+sjtu_schedule_exporter_cli/utils.py,sha256=Hr8i5pdcHt2mRPUAgjRyEzyDj3BGUPlkeh1Ox_Ao_qY,2004
+sjtu_schedule_exporter_cli-0.1.1.dist-info/LICENSE.md,sha256=-JHhLXXB2RRUeojKiRRTDHyJ1QiOCtrDfwbahUOb6Yc,35150
+sjtu_schedule_exporter_cli-0.1.1.dist-info/METADATA,sha256=jieREhUCSF4gZrBcLXLnDjR4CyE8VOHC2jSyfGsPUbc,1884
+sjtu_schedule_exporter_cli-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sjtu_schedule_exporter_cli-0.1.1.dist-info/entry_points.txt,sha256=WCL4C0dVVuUAB6CPYIsMf5smJndP5zkLAPinZVC91JA,89
+sjtu_schedule_exporter_cli-0.1.1.dist-info/top_level.txt,sha256=KqM9oQSngxLLj7tQIBQ9KYKTiodNt1_iS9wdsDofexc,27
+sjtu_schedule_exporter_cli-0.1.1.dist-info/RECORD,,
