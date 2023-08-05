@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: storecompressfiles
+Version: 0.3
+Summary: Package can be used to store text files in compressed format i.e. allocating less space in the memory
+Home-page: https://github.com/raman77768/storecompressfiles
+Author: Ramandeep Singh
+Author-email: raman77768@gmail.com
+License: MIT
+Download-URL: https://github.com/raman77768/storecompressfiles/archive/v_0.3.tar.gz
+Description: UNKNOWN
+Keywords: compress,small size,memory
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
