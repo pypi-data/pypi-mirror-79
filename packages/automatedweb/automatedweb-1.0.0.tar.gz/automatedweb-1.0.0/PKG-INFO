@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: automatedweb
+Version: 1.0.0
+Summary: A tool to make it easy to communicate with web systems writting and reading data from them
+Home-page: https://github.com/renanleonellocastro/automatedweb.git
+Author: Renan Leonello Castro
+Author-email: renanleonellocastro@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: automatedweb web automated post get requests rest restfull
+Platform: UNKNOWN
