@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xml2ajson
+Version: 0.0.2
+Summary: transfrom the xml files to a json
+Home-page: UNKNOWN
+Author: Mr.Wu
+Author-email: 1160949893@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+#
+
+xml To json
+
+use：
+pip install xml2ajson
+from xml2ajson import getFromXmlDir
+
+getFromXmlDir(your xml directory)
+
