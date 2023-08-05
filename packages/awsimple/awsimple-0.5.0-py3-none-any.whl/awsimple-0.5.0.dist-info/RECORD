@@ -1,0 +1,13 @@
+awsimple/__init__.py,sha256=TXTGrw2iPegOfbtZRpLAvkuy_Ww-zkivVicgqZdtRgE,433
+awsimple/__version__.py,sha256=yXRQK4mamOgxzJNcZNchV7MsXbRgZEAL9jFBEO79LcQ,318
+awsimple/aws.py,sha256=q10wpBEfl_wyFoLE8JodqAYVV3anSV26wTXW9DzBo-c,3445
+awsimple/cache.py,sha256=qCXj3hPciaMJZipdBtzHJ45cKoKWiwRBJNYJUrYTTf0,4264
+awsimple/dynamodb.py,sha256=oPgxsjTsIppWnMJa42Xa2X7bpXoI_GbNMMy-3J8QLpc,14074
+awsimple/s3.py,sha256=l0d6Az81mUN4EkT_xLc8Il6uJf0J__5nxsMVx_9D3vM,10892
+awsimple/sqs.py,sha256=h_Qz_v6cM6pndZdvjv1_BlIxAwEAp-nzmQ9x1uVqImQ,10335
+awsimple-0.5.0.dist-info/LICENSE,sha256=wJpPh6rC_YhbTZ7ZIy1VjrqeLdJ8Pz0ppx2MUi7s8Dg,1088
+awsimple-0.5.0.dist-info/LICENSE.txt,sha256=wJpPh6rC_YhbTZ7ZIy1VjrqeLdJ8Pz0ppx2MUi7s8Dg,1088
+awsimple-0.5.0.dist-info/METADATA,sha256=YPzf47w0G-XuVNMEmggPnOvikYx6hwriFAkHI8Pa1jQ,2273
+awsimple-0.5.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+awsimple-0.5.0.dist-info/top_level.txt,sha256=mwqCoH_8vAaK6iYioiRbasXmVCQM7AK3grNWOKp2VHE,9
+awsimple-0.5.0.dist-info/RECORD,,
