@@ -1,0 +1,3 @@
+[console_scripts]
+django-rest-starter = django_rest_starter.__main__:main
+
