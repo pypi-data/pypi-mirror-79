@@ -1,0 +1,6 @@
+odoo12-addon-beesdoo_base
+odoo12-addon-beesdoo_shift
+odoo12-addon-easy_my_coop
+odoo12-addon-easy_my_coop_website
+odoo12-addon-partner_age
+odoo<12.1dev,>=12.0a
