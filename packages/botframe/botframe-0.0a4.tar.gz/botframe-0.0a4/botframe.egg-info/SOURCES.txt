@@ -1,0 +1,9 @@
+README.md
+setup.py
+botframe/__init__.py
+botframe/vk_bot.py
+botframe.egg-info/PKG-INFO
+botframe.egg-info/SOURCES.txt
+botframe.egg-info/dependency_links.txt
+botframe.egg-info/requires.txt
+botframe.egg-info/top_level.txt
