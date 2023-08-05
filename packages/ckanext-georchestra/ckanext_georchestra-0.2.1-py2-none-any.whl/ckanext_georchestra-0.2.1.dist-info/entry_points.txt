@@ -1,0 +1,10 @@
+
+        [ckan.plugins]
+            georchestra=ckanext.georchestra.plugin:GeorchestraPlugin
+        
+        [paste.paster_command]
+            georchestra=ckanext.georchestra.commands.georchestra_ldap:GeorchestraLDAPCommand
+
+        [babel.extractors]
+            ckan = ckan.lib.extract:extract_ckan
+    
