@@ -1,0 +1,11 @@
+pyyaml
+koji
+toolchest>=0.0.6
+koji_wrapper
+
+[test]
+coverage
+flake8
+pytest
+pytest-datadir
+tox
