@@ -1,0 +1,12 @@
+lxml
+sklearn-crfsuite >= 0.3.3
+parsel >= 1.0.1
+tldextract
+backports.csv
+
+# scikit-learn and eli5 are required only for evaluation, not for usage.
+scikit-learn >= 0.18
+eli5 >= 0.10.1
+
+# docopt is required only for CLI
+docopt
