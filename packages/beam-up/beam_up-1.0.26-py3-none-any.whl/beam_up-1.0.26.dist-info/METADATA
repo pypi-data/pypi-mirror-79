@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: beam-up
+Version: 1.0.26
+Summary: A simple yet powerful static site generator aimed at product pages (not blogs).
+Home-page: https://github.com/adewes/beam
+Author: Andreas Dewes - 7scientists
+Author-email: andreas.dewes@7scientists.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: Pillow
+Requires-Dist: click
+Requires-Dist: jinja2
+Requires-Dist: markdown2
+Requires-Dist: pygments
+Requires-Dist: pyyaml
+Requires-Dist: requests
+
+A simple yet powerful static site generator for Python.
+
+Templates (HTML, Markdown, ...) go in, pages come out.
+
+
