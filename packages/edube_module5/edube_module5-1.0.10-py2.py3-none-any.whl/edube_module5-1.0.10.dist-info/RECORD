@@ -1,0 +1,15 @@
+edube_module5/__init__.py,sha256=jo58V1a7cklJZaEZsHozUObhA7-n3yQipr1aZJj2m-U,148
+edube_module5/iota.py,sha256=hs0KdxATwnESZx_T4uH4Ut4tmdG30RDRGjDWgxlvSdY,199
+edube_module5/good/alpha.py,sha256=EV9yDwcaDq7r5hGZIolTY-1jVZQ8RUKQ3n8KZuBgL6A,175
+edube_module5/good/beta.py,sha256=DMCY7zM9lUo4U-oaxUEwWW7OkMj_QObW5XjySsTObp8,162
+edube_module5/good/best/sigma.py,sha256=Zkks9Dipui4xVj0HzMBvSJ1DFi2guG8fcsyJnSDsxi8,169
+edube_module5/good/best/tau.py,sha256=tpy128ofYbeMK-gOss0JFRRwdcsvFVreCjmGLTud32U,165
+edube_module5/ugly/omega.py,sha256=CvqSNJzG59QIhxQ7c4SQ7fMG7cYkInZcDQjqVFEeATo,164
+edube_module5/ugly/psi.py,sha256=wLklWsdmu_A9dvpqZiCXBKIq7EoWcPtaUouateW5Usw,160
+edube_module5-1.0.10.dist-info/AUTHORS,sha256=0p5yNoYlEXlBQRfa_quFPpZJ3rlFFqUoUUleDW3wWYU,134
+edube_module5-1.0.10.dist-info/LICENSE,sha256=lxKA0QlONHIEmZAHXdDB_1MFGo9hFt_imbk1V-y39L4,1516
+edube_module5-1.0.10.dist-info/METADATA,sha256=LuvH1lKFrgcMM0TnMrtmTn_8m6dDULtxAnSlJsYw4LY,343
+edube_module5-1.0.10.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+edube_module5-1.0.10.dist-info/entry_points.txt,sha256=8TilluEd-jbOmkUCkJ9EHbWdqTHwo7eLkCIfgwKI48o,58
+edube_module5-1.0.10.dist-info/top_level.txt,sha256=vl6m5URJQ6dKm8ZWU-CawQAquAL8veRolCCJ-khzhJo,14
+edube_module5-1.0.10.dist-info/RECORD,,
