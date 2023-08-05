@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+django_tags_select_input/__init__.py
+django_tags_select_input/admin.py
+django_tags_select_input/apps.py
+django_tags_select_input/models.py
+django_tags_select_input/tests.py
+django_tags_select_input/views.py
+django_tags_select_input.egg-info/PKG-INFO
+django_tags_select_input.egg-info/SOURCES.txt
+django_tags_select_input.egg-info/dependency_links.txt
+django_tags_select_input.egg-info/requires.txt
+django_tags_select_input.egg-info/top_level.txt
+django_tags_select_input/forms/__init__.py
+django_tags_select_input/forms/widgets/__init__.py
+django_tags_select_input/migrations/__init__.py
