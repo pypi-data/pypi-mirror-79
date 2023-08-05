@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: marctools
+Version: 0.1.2
+Summary: Command line tools for MARC21 records
+Home-page: UNKNOWN
+Author: Geoffrey Spear
+Author-email: speargh@pitt.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pymarc
+Requires-Dist: click
+
+UNKNOWN
+
+
