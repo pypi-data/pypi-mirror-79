@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+FTP_MU/Binomialdistribution.py
+FTP_MU/Gaussiandistribution.py
+FTP_MU/Generaldistribution.py
+FTP_MU/__init__.py
+FTP_MU.egg-info/PKG-INFO
+FTP_MU.egg-info/SOURCES.txt
+FTP_MU.egg-info/dependency_links.txt
+FTP_MU.egg-info/not-zip-safe
+FTP_MU.egg-info/top_level.txt
