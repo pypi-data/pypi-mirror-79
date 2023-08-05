@@ -1,0 +1,5 @@
+python-dateutil
+jieba
+numpy
+pandas
+emoji
