@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fmkf module &#8212; face-mtcnn-keras-facenet 1.0 文档</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-fmkf">
+<span id="fmkf-module"></span><h1>fmkf module<a class="headerlink" href="#module-fmkf" title="永久链接至标题">¶</a></h1>
+<dl class="py class">
+<dt id="fmkf.fmkf">
+<em class="property">class </em><code class="sig-prename descclassname">fmkf.</code><code class="sig-name descname">fmkf</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">model_path</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>model_path: faceNet 模型文件路径</p></li>
+</ul>
+</div></blockquote>
+<p>face mtcnn keras facenet 整合类
+需要扩展</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Keras                   2.4.3,</p></li>
+<li><p>matplotlib              3.3.1,</p></li>
+<li><p>mtcnn                   0.1.0,</p></li>
+<li><p>numpy                   1.18.5,</p></li>
+<li><p>sklearn                 0.0,</p></li>
+<li><p>tensorflow              2.3.0,</p></li>
+<li><p>opencv-python           3.4.3.18,</p></li>
+</ul>
+</div></blockquote>
+<p>参考文章&lt;<a class="reference external" href="https://www.infoq.cn/article/4wT4mNvKlVvEQZR-JXmp">https://www.infoq.cn/article/4wT4mNvKlVvEQZR-JXmp</a>&gt;</p>
+<dl class="py method">
+<dt id="fmkf.fmkf.assessmentModel">
+<code class="sig-name descname">assessmentModel</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">embedding_path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.assessmentModel" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>模型评估，必须含有测试数据，才能调用这个模型评估，如果文件中只有训练数据，无法正常运行</dt><dd><ul class="simple">
+<li><p>embedding_path：人脸嵌入数据集合文件路径</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.dataset2embedding">
+<code class="sig-name descname">dataset2embedding</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_path</span></em>, <em class="sig-param"><span class="n">test</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.dataset2embedding" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>人脸像素数据集转成人脸嵌入数据</dt><dd><ul class="simple">
+<li><p>dataset_path:数据集路径</p></li>
+<li><p>test:数据集中如果含有测试数据集，请把test数据集也转成嵌入数据</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.extract_face">
+<code class="sig-name descname">extract_face</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">required_size</span><span class="o">=</span><span class="default_value">160, 160</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.extract_face" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>通过MTCNN获取图片中人脸，提取人脸，并且重置大小</dt><dd><ul class="simple">
+<li><p>filename:图片路径</p></li>
+<li><p>required_size:元组，调整后的人脸图片大小</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.get_embedding">
+<code class="sig-name descname">get_embedding</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">face_pixels</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.get_embedding" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>把人脸像素信息转成人脸嵌入向量信息</dt><dd><ul class="simple">
+<li><p>face_pixels：人脸像素集合</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.imgCheckFace">
+<code class="sig-name descname">imgCheckFace</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">img_path</span></em>, <em class="sig-param"><span class="n">save</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">show</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">save_path</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.imgCheckFace" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>检测出图片中的人脸，框出人脸，保存框出人脸后的图片;</dt><dd><ul class="simple">
+<li><p>img_path:含有人脸的图片路径;</p></li>
+<li><p>save:是否保存框出人脸后的图片;</p></li>
+<li><p>show:使用通过matplotlib展示框出人脸后的图片;</p></li>
+<li><p>save_path:处理后的图片保存路径，默认保存到image_path目录下;</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.load_dataset">
+<code class="sig-name descname">load_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directory</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.load_dataset" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>加载数据集</dt><dd><ul class="simple">
+<li><p>directory:加载训练数据的目录</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.load_faces">
+<code class="sig-name descname">load_faces</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directory</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.load_faces" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>获取路径中的人脸图片，并提取图片</dt><dd><ul class="simple">
+<li><p>directory:含有人脸的图片集合路径</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.recognition">
+<code class="sig-name descname">recognition</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">face_img_path</span></em>, <em class="sig-param"><span class="n">embedding_path</span></em>, <em class="sig-param"><span class="n">show</span><span class="o">=</span><span class="default_value">True</span></em>, <em class="sig-param"><span class="n">recognition_low</span><span class="o">=</span><span class="default_value">65</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.recognition" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>识别传入图片</dt><dd><ul class="simple">
+<li><p>face_img_path:待识别的图片</p></li>
+<li><p>embedding_path：人脸嵌入数据</p></li>
+<li><p>show:是否通过matplotlib.pyplot展示识别后的图片</p></li>
+<li><p>recognition_low：最低识别百分比。低于这个值返回无法识别</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.showImageFace">
+<code class="sig-name descname">showImageFace</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">folder</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.showImageFace" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>提取路径中所有图片的人脸，并且通过matplotlib.pyplot 展示出来</dt><dd><ul class="simple">
+<li><p>folder:图片集合路径</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="fmkf.fmkf.testRecognition">
+<code class="sig-name descname">testRecognition</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_path</span></em>, <em class="sig-param"><span class="n">embedding_path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.fmkf.testRecognition" title="永久链接至目标">¶</a></dt>
+<dd><dl class="simple">
+<dt>通过数据集对模型评估</dt><dd><ul class="simple">
+<li><p>dataset_path：数据集路径</p></li>
+<li><p>embedding_path：人脸嵌入数据集路径</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="fmkf.showtime">
+<code class="sig-prename descclassname">fmkf.</code><code class="sig-name descname">showtime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">func</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fmkf.showtime" title="永久链接至目标">¶</a></dt>
+<dd><p>打印运行时间，作为装饰器使用</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">face-mtcnn-keras-facenet</a></h1>
+
+
+
+
+
+
+
+
+<h3>导航</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">快速搜索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="转向" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, leon.hu.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/fmkf.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

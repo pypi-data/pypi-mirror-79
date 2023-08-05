@@ -1,0 +1,7 @@
+fmkf module
+===========
+
+.. automodule:: fmkf
+   :members:
+   :undoc-members:
+   :show-inheritance:
