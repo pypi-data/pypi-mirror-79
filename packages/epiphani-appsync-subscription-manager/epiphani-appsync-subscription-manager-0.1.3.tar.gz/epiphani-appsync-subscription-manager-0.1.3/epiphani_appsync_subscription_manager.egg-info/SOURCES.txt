@@ -1,0 +1,10 @@
+README.md
+setup.py
+appsync_subscription_manager/__init__.py
+appsync_subscription_manager/exceptions.py
+appsync_subscription_manager/types.py
+epiphani_appsync_subscription_manager.egg-info/PKG-INFO
+epiphani_appsync_subscription_manager.egg-info/SOURCES.txt
+epiphani_appsync_subscription_manager.egg-info/dependency_links.txt
+epiphani_appsync_subscription_manager.egg-info/requires.txt
+epiphani_appsync_subscription_manager.egg-info/top_level.txt
