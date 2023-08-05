@@ -1,0 +1,4 @@
+astropy
+numpy
+ipyvolume>=0.6.0a2
+numba

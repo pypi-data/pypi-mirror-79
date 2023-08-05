@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+vangogh/__init__.py
+vangogh/_version.py
+vangogh/cirs_to_gcrs.py
+vangogh/heavenly_bodies.py
+vangogh/sphere.py
+vangogh.egg-info/PKG-INFO
+vangogh.egg-info/SOURCES.txt
+vangogh.egg-info/dependency_links.txt
+vangogh.egg-info/requires.txt
+vangogh.egg-info/top_level.txt
+vangogh/utils/__init__.py
+vangogh/utils/package_utils.py
