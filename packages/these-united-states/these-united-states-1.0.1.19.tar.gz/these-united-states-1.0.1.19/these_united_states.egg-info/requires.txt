@@ -1,0 +1,10 @@
+pyshp!=2.1.1,<3,>=2
+
+[:python_version < "3.7"]
+importlib_resources
+
+[cli]
+click<8,>=7.1
+
+[plot]
+matplotlib<4,>=3.2
