@@ -1,0 +1,9 @@
+README.md
+setup.py
+l3gd20/__init__.py
+l3gd20_python.egg-info/PKG-INFO
+l3gd20_python.egg-info/SOURCES.txt
+l3gd20_python.egg-info/dependency_links.txt
+l3gd20_python.egg-info/entry_points.txt
+l3gd20_python.egg-info/not-zip-safe
+l3gd20_python.egg-info/top_level.txt

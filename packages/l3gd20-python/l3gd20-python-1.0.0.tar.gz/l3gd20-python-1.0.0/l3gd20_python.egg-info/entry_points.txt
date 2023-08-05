@@ -1,0 +1,3 @@
+[console_scripts]
+l3gd20_test = l3gd20:_test
+
