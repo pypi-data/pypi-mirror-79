@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: yocho.pyld-xtl
+Version: 0.2.0a4
+Summary: Extra tools for pyld
+Home-page: https://gitlab.com/aucampia/wip/pyld-xtl
+License: CC0-1.0
+Author: Iwan Aucamp
+Author-email: aucampia@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyld (>=2.0.3,<3.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Extra command line tools for pyld
+
+TODO
+
+Usage examples:
+
+```bash
+# Install pipx
+pip3 install --user --upgrade pipx
+
+# (optionally) clear pipx cache if you want the latest version ...
+\rm -vr ~/.local/pipx/.cache/
+
+# check version
+pipx run --spec yocho.pyld-xtl pyld-xtl --version
+
+# url resolving
+pipx run --spec yocho.pyld-xtl pyld-xtl compact --url https://raw.githubusercontent.com/json-ld/json-ld.org/master/examples/syntax/example-061-Aliasing-keywords.json
+
+# input file handling
+curl --silent https://raw.githubusercontent.com/json-ld/json-ld.org/master/examples/syntax/example-061-Aliasing-keywords.json | pipx run --spec yocho.pyld-xtl pyld-xtl compact -
+curl --silent https://raw.githubusercontent.com/json-ld/json-ld.org/master/examples/syntax/example-061-Aliasing-keywords.json | pipx run --spec yocho.pyld-xtl pyld-xtl compact /dev/stdin
+pipx run --spec yocho.pyld-xtl pyld-xtl compact <(curl --silent https://raw.githubusercontent.com/json-ld/json-ld.org/master/examples/syntax/example-061-Aliasing-keywords.json)
+```
+

@@ -1,0 +1,3 @@
+[console_scripts]
+pyld-xtl=yocho.pyld_xtl.cli:main
+
