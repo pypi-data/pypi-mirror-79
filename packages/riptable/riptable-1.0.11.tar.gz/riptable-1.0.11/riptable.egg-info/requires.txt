@@ -1,0 +1,5 @@
+numpy
+riptide_cpp
+ansi2html
+numba
+python-dateutil
