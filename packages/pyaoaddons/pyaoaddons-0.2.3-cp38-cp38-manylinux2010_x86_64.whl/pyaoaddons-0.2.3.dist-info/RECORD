@@ -1,0 +1,10 @@
+libpyaoaddons.cpython-36m-x86_64-linux-gnu.so,sha256=MtMZIucRbwXLTHgv1FhuFhzjgecSM4cuci1gFTyw78k,4311120
+libpyaoaddons.cpython-38-x86_64-linux-gnu.so,sha256=MtMZIucRbwXLTHgv1FhuFhzjgecSM4cuci1gFTyw78k,4311120
+libpyaoaddons.cpython-37m-x86_64-linux-gnu.so,sha256=MtMZIucRbwXLTHgv1FhuFhzjgecSM4cuci1gFTyw78k,4311120
+pyaoaddons/item_category_mapping.py,sha256=zBuDYvAXdVb6s3IWO6TapnaeUPv_l6hgywZewC1sYfU,195360
+pyaoaddons/localization_mapping.py,sha256=3ik_WuICPFxwJWk1jVAgqokVVwfS6MHHgjuCFERdWdg,588477
+pyaoaddons/__init__.py,sha256=4VYXFDq0Pyee16qNNUi1fr8XJq772747siPOBtMrPw0,410
+pyaoaddons-0.2.3.dist-info/top_level.txt,sha256=kr9INAv3ObG4awuoZyRErrsnJOdKqYpRl1do_M8j7RU,11
+pyaoaddons-0.2.3.dist-info/RECORD,,
+pyaoaddons-0.2.3.dist-info/METADATA,sha256=URAhtDdvitvge1FIP6VjIHTVnEHDOGQEN9FiuL7mKr0,1368
+pyaoaddons-0.2.3.dist-info/WHEEL,sha256=lcFHRL9nxOeSwmwIxlbY5bPkh5a_GtD4XbV-xJYB-ZU,111
