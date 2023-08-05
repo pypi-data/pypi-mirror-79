@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: sigmet
+Version: 0.9.0
+Summary: A Python package to find and measure negative price shocks in financial time-series data
+Home-page: https://github.com/agupta01/sigmet
+Author: Arunav Gupta, Camille Dunning, Lucas Nguyen, Ka Ming Chan
+Author-email: arunavg@ucsd.edu, adunning@ucsd.edu, kmc026@ucsd.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels (==0.12.0)
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
+# sigmet
+![Github Tests](https://github.com/agupta01/sigmet/workflows/Python%20Tests/badge.svg)
+[![Documentation Status](https://readthedocs.org/projects/sigmet/badge/?version=latest)](https://sigmet.readthedocs.io/en/latest/?badge=latest)
+[![GitHub license](https://img.shields.io/github/license/agupta01/sigmet.svg)](https://github.com/agupta01/sigmet/master/LICENSE)
+
+Installation
+------------
+Sigmet (Signal Metrics Toolkit) is an end-to-end solution for the detection and measurement of negative shocks in time series data.
+
+Sigmet requires the following packages: 
+
+- Pandas: primary data format for easy data manipulation and datetime functionality
+- Numpy: for computation
+- Statsmodels: AU3 uses statsmodel’s ARIMA and SARIMAX models for prediction
+- Matplotlib: plotting for .graph() method
+
+
+
+To install, run the following on the command line
+
+```
+pip install sigmet
+```
+
+
+Example
+-------
+
+First we instantiate an AU3 object
+
+```python
+from sigmet import Sigmet
+
+data = pd.read_csv('time-series.csv')
+ex = Sigmet(start, end, data)
+ex.fit(window_start, window_end)
+
+# graph the result as follows
+import matplotlib.pyplot as plt
+fig, ax = plt.subplots()
+ax = ex.graph()
+plt.show()
+```
+
+Contribute
+----------
+
+- Issue Tracker: https://github.com/agupta01/sigmet/issues
+- Source Code: https://github.com/agupta01/sigmet
+
+License
+-------
+
+The project is licensed under the GNU General Public License.
+
+
