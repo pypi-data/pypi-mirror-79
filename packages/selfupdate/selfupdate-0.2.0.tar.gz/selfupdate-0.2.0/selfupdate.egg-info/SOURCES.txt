@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+selfupdate/__init__.py
+selfupdate/__init__.pyc
+selfupdate.egg-info/PKG-INFO
+selfupdate.egg-info/SOURCES.txt
+selfupdate.egg-info/dependency_links.txt
+selfupdate.egg-info/requires.txt
+selfupdate.egg-info/top_level.txt
+selfupdate/__pycache__/__init__.cpython-38.pyc
