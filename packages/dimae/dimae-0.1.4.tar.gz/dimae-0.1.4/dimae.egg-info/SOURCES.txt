@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dimae/__init__.py
+dimae.egg-info/PKG-INFO
+dimae.egg-info/SOURCES.txt
+dimae.egg-info/dependency_links.txt
+dimae.egg-info/requires.txt
+dimae.egg-info/top_level.txt
+dimae/autoencoders/__init__.py
+dimae/autoencoders/autoencoder.py
+dimae/autoencoders/utils.py
