@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: zebrunnerpy
+Version: 0.6
+Summary: Python3 connector for Zebrunner-reporting
+Home-page: https://github.com/shukal94/zebrunner_py
+Author: Sergey Shukalovich
+Author-email: sshukalovich@solvd.com
+License: MIT
+Download-URL: https://github.com/shukal94/zebrunner_py
+Description: UNKNOWN
+Keywords: automation,zebrunner,testing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
