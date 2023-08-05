@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: marshmallow-utils
+Version: 0.1.0
+Summary: Extras and utilities for Marshmallow
+Home-page: https://github.com/inveniosoftware/marshmallow-utils
+Author: CERN
+Author-email: info@inveniosoftware.org
+License: MIT
+Keywords: marshmallow utils extras
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: arrow (>=0.16.0)
+Requires-Dist: bleach (>=3.0.0)
+Requires-Dist: ftfy (<6.0.0,>=5.6)
+Requires-Dist: marshmallow (<4.0.0,>=3.0.0)
+Provides-Extra: all
+Requires-Dist: Sphinx (>=3.0.0) ; extra == 'all'
+Requires-Dist: check-manifest (>=0.25) ; extra == 'all'
+Requires-Dist: coverage (>=4.0) ; extra == 'all'
+Requires-Dist: isort (>=5.0.0) ; extra == 'all'
+Requires-Dist: pydocstyle (>=2.0.0) ; extra == 'all'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'all'
+Requires-Dist: pytest-pep8 (>=1.0.6) ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.0.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: check-manifest (>=0.25) ; extra == 'tests'
+Requires-Dist: coverage (>=4.0) ; extra == 'tests'
+Requires-Dist: isort (>=5.0.0) ; extra == 'tests'
+Requires-Dist: pydocstyle (>=2.0.0) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'tests'
+Requires-Dist: pytest-pep8 (>=1.0.6) ; extra == 'tests'
+
+..
+    Copyright (C) 2020 CERN.
+
+    Marshmallow-Utils is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+===================
+ Marshmallow-Utils
+===================
+
+.. image:: https://img.shields.io/travis/inveniosoftware/marshmallow-utils.svg
+        :target: https://travis-ci.org/inveniosoftware/marshmallow-utils
+
+.. image:: https://img.shields.io/coveralls/inveniosoftware/marshmallow-utils.svg
+        :target: https://coveralls.io/r/inveniosoftware/marshmallow-utils
+
+.. image:: https://img.shields.io/github/tag/inveniosoftware/marshmallow-utils.svg
+        :target: https://github.com/inveniosoftware/marshmallow-utils/releases
+
+.. image:: https://img.shields.io/pypi/dm/marshmallow-utils.svg
+        :target: https://pypi.python.org/pypi/marshmallow-utils
+
+.. image:: https://img.shields.io/github/license/inveniosoftware/marshmallow-utils.svg
+        :target: https://github.com/inveniosoftware/marshmallow-utils/blob/master/LICENSE
+
+Extras and utilities for Marshmallow
+
+Further documentation is available on
+https://marshmallow-utils.readthedocs.io/
+
+
+..
+    Copyright (C) 2020 CERN.
+
+    Marshmallow-Utils is free software; you can redistribute it and/or
+    modify it under the terms of the MIT License; see LICENSE file for more
+    details.
+
+Changes
+=======
+
+Version 0.1.0 (released TBD)
+
+- Initial public release.
+
+
