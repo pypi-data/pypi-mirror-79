@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+plottoterminal/__init__.py
+plottoterminal/main.py
+plottoterminal.egg-info/PKG-INFO
+plottoterminal.egg-info/SOURCES.txt
+plottoterminal.egg-info/dependency_links.txt
+plottoterminal.egg-info/entry_points.txt
+plottoterminal.egg-info/requires.txt
+plottoterminal.egg-info/top_level.txt
+plottoterminal/lib/__init__.py
+plottoterminal/lib/cli.py
+plottoterminal/lib/figure.py
+plottoterminal/lib/graph.py
+plottoterminal/lib/plots.py
+plottoterminal/lib/utils.py
