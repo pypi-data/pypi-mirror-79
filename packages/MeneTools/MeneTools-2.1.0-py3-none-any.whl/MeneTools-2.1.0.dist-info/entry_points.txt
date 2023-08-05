@@ -1,0 +1,7 @@
+[console_scripts]
+meneacti = menetools.__main__:main_meneacti
+menecheck = menetools.__main__:main_menecheck
+menecof = menetools.__main__:main_menecof
+menepath = menetools.__main__:main_menepath
+menescope = menetools.__main__:main_menescope
+
