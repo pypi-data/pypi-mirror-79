@@ -1,0 +1,10 @@
+devpi_builder/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+devpi_builder/cli.py,sha256=RyJCJstq8JTOMwWGpel6a8Kozor7iHjMlnPdUodlBEI,7005
+devpi_builder/requirements.py,sha256=rqAzBMyN5Xq4XdxAJPzT3epzBwNkEduG_XeGqH91Ors,2233
+devpi_builder/wheeler.py,sha256=k_bgRWcN9gg_sXZYKITEWdHGf_549CK_Jsm3Ch4KGZ8,4170
+devpi_builder-5.0.1.dist-info/COPYING,sha256=bKU09mAF80Pcwn_iPCN6Mmpxon6sNRW3Q8zZ-eG5vFg,1528
+devpi_builder-5.0.1.dist-info/METADATA,sha256=W20-DpPjahIN1BrS6jbTfmVCIYKBAJPkbaFcWe1R66s,9473
+devpi_builder-5.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+devpi_builder-5.0.1.dist-info/entry_points.txt,sha256=uU7RTnIw4kHZwJen2JS4B5f97T1xIVqV06Ubq2nQ3rE,58
+devpi_builder-5.0.1.dist-info/top_level.txt,sha256=k0ecLs1L25IFBc-Xdly0YitpAIdzmxAClDjDdtz2eCI,14
+devpi_builder-5.0.1.dist-info/RECORD,,
