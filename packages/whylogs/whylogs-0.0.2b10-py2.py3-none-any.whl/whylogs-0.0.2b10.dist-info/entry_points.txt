@@ -1,0 +1,3 @@
+[console_scripts]
+whylogs = whylogs.logs.cli:main
+
