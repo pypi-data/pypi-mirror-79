@@ -1,0 +1,15 @@
+sphinx_feature_classification/__init__.py,sha256=pGPcgwkNbbhf7aETBp9ixKIYOsU4uGxTbci2W-kpaBg,685
+sphinx_feature_classification/support-matrix.css,sha256=cp2reUvgxhSKUCFwqE8y0_kte_J6-KOl1ZAqo0fYNJs,544
+sphinx_feature_classification/support_matrix.py,sha256=eOS78VT0BwMV0qaMmf6nuesDkWH3GxnOZqPV6mapLrE,16909
+sphinx_feature_classification/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_feature_classification/tests/base.py,sha256=qBwgr_aaXsR0agQd1EPuMMB5dXpBkf-DkLFe5kM1Uwo,786
+sphinx_feature_classification/tests/test_sphinx_feature_classification.py,sha256=qDBaanmLJRYRJgIXgNki3HYitoXDNcAgdfT6TZKMhY0,3093
+sphinx_feature_classification/tests/fakes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_feature_classification/tests/fakes/support-matrix.ini,sha256=OX1xOkaViMpIftIa0KCFk3alt-Gk2-xoHAEBKimxJ88,349
+sphinx_feature_classification-1.1.0.dist-info/DESCRIPTION.rst,sha256=BoUHQycJhR9aZxAwV-AovQV1C5SjJexKt1pg_KqEg20,938
+sphinx_feature_classification-1.1.0.dist-info/METADATA,sha256=o2RD-wlGS1aRh6f5MKAafSeBU_GdD277yIM_KBgN3D0,1990
+sphinx_feature_classification-1.1.0.dist-info/RECORD,,
+sphinx_feature_classification-1.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+sphinx_feature_classification-1.1.0.dist-info/metadata.json,sha256=gXLn1iGJDpYhjMiZCbn3m3lACD_P3HnDMNHdRdBKw3c,1367
+sphinx_feature_classification-1.1.0.dist-info/pbr.json,sha256=pg5GWU5VskvDHUV-8gQ6xFMEThmXKLi96Vt77zaT3V0,46
+sphinx_feature_classification-1.1.0.dist-info/top_level.txt,sha256=g3WyyQz1FNrZj_dbVjzzH4n2V5vQN-FxQtMqsb7WMiQ,30
