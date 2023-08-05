@@ -1,0 +1,13 @@
+numpy
+matplotlib
+
+[all]
+pyserial
+pygame
+scipy
+
+[pygame]
+pygame
+
+[serial]
+pyserial
