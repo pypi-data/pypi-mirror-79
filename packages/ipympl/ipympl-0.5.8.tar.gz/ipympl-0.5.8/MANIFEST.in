@@ -1,0 +1,5 @@
+recursive-include ipympl/static *.*
+include js/*.tgz
+include js/package.json
+include LICENSE
+include jupyter-matplotlib.json
