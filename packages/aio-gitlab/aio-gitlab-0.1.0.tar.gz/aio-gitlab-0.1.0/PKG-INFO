@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: aio-gitlab
+Version: 0.1.0
+Summary: A module that allows for faster fetching of resources from Gitlab API using asyncio
+Home-page: UNKNOWN
+Author: Dominik Bucko
+Author-email: dominik.bucko@pan-net.eu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: gitlab,asyncio,gitlab-ci,devops
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License

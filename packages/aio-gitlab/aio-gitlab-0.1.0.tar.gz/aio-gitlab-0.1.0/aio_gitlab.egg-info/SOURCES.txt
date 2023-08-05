@@ -1,0 +1,9 @@
+README.md
+setup.py
+aio-gitlab/__init__.py
+aio-gitlab/aio_gitlab.py
+aio_gitlab.egg-info/PKG-INFO
+aio_gitlab.egg-info/SOURCES.txt
+aio_gitlab.egg-info/dependency_links.txt
+aio_gitlab.egg-info/requires.txt
+aio_gitlab.egg-info/top_level.txt
