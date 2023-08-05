@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dashstan
+Version: 0.1.0
+Summary: Dashboard for Stan MCMC simulations.
+Home-page: https://github.com/verhalenn/dashstan
+Author: Nicholas Ver Halen
+Author-email: verhalenn@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: dash (>=0.39.0)
+Requires-Dist: dash-core-components (>=0.44.0)
+Requires-Dist: dash-html-components (>=0.14.0)
+Requires-Dist: dash-table (>=3.6.0)
+Requires-Dist: pystan (>=2.18.1.0)
+Requires-Dist: pandas (>=0.24.1)
+Requires-Dist: plotly (>=3.5.0)
+
+UNKNOWN
+
+
