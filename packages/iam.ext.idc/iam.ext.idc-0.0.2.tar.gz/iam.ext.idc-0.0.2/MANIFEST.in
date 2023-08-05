@@ -1,0 +1,8 @@
+include iam/ext/idc/VERSION
+include iam/ext/idc/package.json
+include requirements.txt
+exclude iam/__init__.py
+exclude iam/canon/__init__.py
+exclude iam/lib/__init__.py
+exclude iam/ext/__init__.py
+exclude iam/app/*
