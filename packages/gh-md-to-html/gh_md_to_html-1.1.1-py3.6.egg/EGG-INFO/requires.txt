@@ -1,0 +1,6 @@
+Pillow
+requests
+setuptools
+
+[pdf_export]
+pdfkit
