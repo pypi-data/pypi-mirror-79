@@ -1,0 +1,12 @@
+README.md
+setup.py
+freenom_dns/__init__.py
+freenom_dns/app.py
+freenom_dns/parse.py
+freenom_dns/url.py
+freenom_dns/utils.py
+freenom_dns.egg-info/PKG-INFO
+freenom_dns.egg-info/SOURCES.txt
+freenom_dns.egg-info/dependency_links.txt
+freenom_dns.egg-info/requires.txt
+freenom_dns.egg-info/top_level.txt
