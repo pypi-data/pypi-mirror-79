@@ -1,0 +1,18 @@
+include AUTHORS
+include CHANGELOG
+include INSTALL
+include LICENSE
+include READMY.rst
+
+include docs/Makefile
+recursive-include docs *.rst
+recursive-include docs *.py
+
+recursive-include tests *
+recursive-include edube_module5 *
+recursive-include edube_module5/good *
+recursive-include edube_module5/good/best *
+recursive-include edube_module5/ugly *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

@@ -1,0 +1,27 @@
+edube_module5 installation
+==============================
+
+Python ``pip`` package is required to install ``edube_module5``.
+
+
+From sources
+------------
+
+Use the folowing command line to install ``edube_module5`` from source directory (sontaining setup.py)
+
+    pip install .
+
+or
+
+    python sepup.py install
+
+From PyPI
+---------
+
+Alternatively you can install ``edube_module5`` from PyPI:
+
+    pip install edube_module5
+
+Use `-U` flag from upgrade:
+
+    pip install -U edube_module5
