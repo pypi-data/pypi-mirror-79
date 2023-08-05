@@ -1,0 +1,8 @@
+olsync/__init__.py,sha256=ochAAyLbv7LQ5JCQkLodmzggeHyKopB6gpk27-LGUw0,55
+olsync/olclient.py,sha256=syHGss5r74f4vpPOcghis8GXKcoR4GFymkCI15NJlD4,8280
+olsync/olsync.py,sha256=g6frieRhLJfJ6e5zTRbOfr8Cbabhl5_jjahNRThbw1M,9058
+overleaf_sync-1.1.1.dist-info/entry_points.txt,sha256=qImE9Rd-5p6f3c4jSmLDx9CM8BPETT9wYavngSBpy74,42
+overleaf_sync-1.1.1.dist-info/LICENSE,sha256=ZRlxerh2kkj4tu_-RnJRGE6UvV-bNIeMiXafuPolPAg,1071
+overleaf_sync-1.1.1.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+overleaf_sync-1.1.1.dist-info/METADATA,sha256=cr7BrdYsUPbLcf0UfsQ1XVaNjnenuFsb14XoorymANs,5522
+overleaf_sync-1.1.1.dist-info/RECORD,,
