@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fast-tcrdist
+Version: 0.0.2
+Summary: Optimized TCRDist calculation for TCR repertoire data analysis
+Home-page: https://github.com/villani-lab/fast_tcrdist
+Author: Neal Smith
+Author-email: nsmith19@mgh.harvard.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: distance
+Requires-Dist: cython
+Requires-Dist: hdbscan
+Requires-Dist: logomaker
+Requires-Dist: anndata
+Requires-Dist: scanpy
+
+# fast_tcrdist
+
+fast_tcrdist is an optimized version of the TCRDist algorithm published by Dash et al. Nature (2017): doi:10.1038/nature22383
+
+To enhance the original implementation of TCRDist, fast_tcrdist uses the Needleman-Wunsch alignment algorithm to align TCR sequences
+and creates the TCRDist matrix via cython.  To integrate well with other common single cell analysis tools, fast_tcrdist utilizes
+the Anndata data structure to store the TCRDist matrix and associated metadata.  Currently, this has been tested on TCR/gene expression
+output from Cellranger (https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/what-is-cell-ranger), but 
+future releases will aim to allow for other file formats.
+
+In addition to running the TCRDist algorithm, fast_tcrdist allows you to aggregate TCR info with single-cell gene expression into a single
+anndata object to allow for integrated downstream analyses.
+
+**Outside files**
+
+The BLOSUM62 matrix used for alignments came from NCBI:https://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source/data/BLOSUM62
+
+CDR amino acid info was taken from the TCRDist database file "alphabeta_db.tsv" (https://www.dropbox.com/s/kivfp27gbz2m2st/tcrdist_extras_v2.tgz)
+and reformated into .json format (mouse_CDRs_for_10X.json and human_CDRs_for_10X.json)
+
