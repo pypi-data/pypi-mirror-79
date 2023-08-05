@@ -1,0 +1,5 @@
+README.md
+collageradiomics_types.egg-info/PKG-INFO
+collageradiomics_types.egg-info/SOURCES.txt
+collageradiomics_types.egg-info/dependency_links.txt
+collageradiomics_types.egg-info/top_level.txt
