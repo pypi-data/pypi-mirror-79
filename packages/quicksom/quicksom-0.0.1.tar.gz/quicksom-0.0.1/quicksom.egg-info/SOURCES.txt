@@ -1,0 +1,6 @@
+setup.py
+quicksom.egg-info/PKG-INFO
+quicksom.egg-info/SOURCES.txt
+quicksom.egg-info/dependency_links.txt
+quicksom.egg-info/requires.txt
+quicksom.egg-info/top_level.txt
