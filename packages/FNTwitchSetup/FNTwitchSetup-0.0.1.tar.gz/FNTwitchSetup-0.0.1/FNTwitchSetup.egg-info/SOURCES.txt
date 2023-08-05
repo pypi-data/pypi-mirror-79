@@ -1,0 +1,15 @@
+setup.py
+FNTwitchSetup/__init__.py
+FNTwitchSetup/get_cosmetic.py
+FNTwitchSetup/glitch.py
+FNTwitchSetup/utils.py
+FNTwitchSetup.egg-info/PKG-INFO
+FNTwitchSetup.egg-info/SOURCES.txt
+FNTwitchSetup.egg-info/dependency_links.txt
+FNTwitchSetup.egg-info/requires.txt
+FNTwitchSetup.egg-info/top_level.txt
+FNTwitchSetup/events/__init__.py
+FNTwitchSetup/events/friends.py
+FNTwitchSetup/events/message.py
+FNTwitchSetup/events/party.py
+FNTwitchSetup/events/ready.py
