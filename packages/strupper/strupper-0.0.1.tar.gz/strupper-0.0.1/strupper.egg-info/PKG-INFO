@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: strupper
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Dekel Malul
+Author-email: dekelmalul@gmail.com
+License: MIT
+Description: simple upper string lib
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (10/09/2020)
+        -------------------
+        - First Release
+        
+Keywords: dekupper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

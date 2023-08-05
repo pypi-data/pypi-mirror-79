@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+strupper/__init__.py
+strupper.egg-info/PKG-INFO
+strupper.egg-info/SOURCES.txt
+strupper.egg-info/dependency_links.txt
+strupper.egg-info/top_level.txt
