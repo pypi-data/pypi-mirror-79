@@ -1,0 +1,8 @@
+pandas
+numpy
+distance
+cython
+hdbscan
+logomaker
+anndata
+scanpy

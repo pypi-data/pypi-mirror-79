@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: fast_tcrdist
+Version: 0.0.1
+Summary: Optimized TCRDist calculation for TCR repertoire data analysis
+Home-page: UNKNOWN
+Author: Neal Smith
+Author-email: nsmith19@mgh.harvard.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Natural Language :: English
