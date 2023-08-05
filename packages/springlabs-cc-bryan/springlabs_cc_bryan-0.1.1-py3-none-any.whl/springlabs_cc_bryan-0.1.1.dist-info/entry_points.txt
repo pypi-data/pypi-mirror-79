@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        springlabs_cc_bryan=springlabs_cc_bryan.scripts.springlabs_cc_bryan:cli
+    
