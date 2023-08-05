@@ -1,0 +1,10 @@
+README.md
+setup.py
+frappeviz/__init__.py
+frappeviz/__main__.py
+frappeviz/frappeviz.py
+frappeviz.egg-info/PKG-INFO
+frappeviz.egg-info/SOURCES.txt
+frappeviz.egg-info/dependency_links.txt
+frappeviz.egg-info/requires.txt
+frappeviz.egg-info/top_level.txt
