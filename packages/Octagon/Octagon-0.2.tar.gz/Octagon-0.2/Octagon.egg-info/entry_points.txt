@@ -1,0 +1,3 @@
+[console_scripts]
+octagon = code.__init__
+
