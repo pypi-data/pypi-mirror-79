@@ -1,0 +1,12 @@
+guillotina_localstorage/__init__.py,sha256=1hxh6-gncpGXI5_wnFd8OHiijYGe10Hviq-tih-zuro,360
+guillotina_localstorage/adapters.py,sha256=IiOEIzfalDTfLAhZQgi3OxVUJPJ_IfRC3GfyJOUdNF0,993
+guillotina_localstorage/interfaces.py,sha256=dBF6nw8J-IvQtxTo1B87RdNlh0sBvrnftn4CBFhx3Vc,352
+guillotina_localstorage/storage.py,sha256=hSPZ67ZbwQ8LBPE79Q2nIFS4-9sDBHH37brww6gFU6g,4795
+guillotina_localstorage/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guillotina_localstorage/tests/conftest.py,sha256=sr9FxYKG-9nxeDVBI_RYPFTJE65tqhh3brC5fOR_8ho,89
+guillotina_localstorage/tests/fixtures.py,sha256=BWjm4Q1OZB6wvvvXAxwgB_7zcc5RUEkyQeIVBiSqOtA,852
+guillotina_localstorage/tests/test_storage.py,sha256=rNdZ3Hgm_0u9xZZS7v1nqNf33pdNCinZRw4z9ey-GKk,2173
+guillotina_localstorage/utils.py,sha256=d020aUWWXX3Nb_Rp3BWlM1yjWPtNpoi4Isx8Cgo1QaY,1017
+guillotina_localstorage-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+guillotina_localstorage-0.1.1.dist-info/METADATA,sha256=02s4zd6qHcuQ7gQUwTv_sXZCl9H07vXvCWaHBt1yblE,1389
+guillotina_localstorage-0.1.1.dist-info/RECORD,,
