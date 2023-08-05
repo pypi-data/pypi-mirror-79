@@ -1,0 +1,10 @@
+kess/__init__.py,sha256=SrEpIfADfWn4E9MaAIlSrspv8TLNKU45G8girmy_724,75
+kess/app.py,sha256=q9mYrCK6de2XF19ofOfyC_x8ViPTka_eskzbeFeYyJk,2826
+kess/env.py,sha256=kkUypxB4rebIQehfgREJqiGZnBd6F048DbFHkpZij50,1283
+kess/function.py,sha256=ZgBjfjjsYRMlkQ6UkylBOvgj6TP0MSmfDw4zrVsJ6fc,221
+kess/imports.py,sha256=njcSpQtkrGzufgFOCMetO3ixp5n6Dshhj5nTPgAIHqI,450
+kess/version.py,sha256=WntBqqEY6gr92ol_46Riyou3YJNsDe9MeqhvBxwEQWw,68
+kess-0.1.1.dist-info/METADATA,sha256=t1cbAxLBFqsBKf9u43NrgP3yF2WZ3DIm0kL_9laysTM,646
+kess-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kess-0.1.1.dist-info/top_level.txt,sha256=3tWPUQItrbVTBXy_5D0M-MBVsC0VlkoPFkqCmw95IcU,5
+kess-0.1.1.dist-info/RECORD,,
