@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+_setuptools/__init__.py
+notcallback/__init__.py
+notcallback/_version.py
+notcallback/async_.py
+notcallback/base.py
+notcallback/exceptions.py
+notcallback/promise.py
+notcallback/utils.py
+notcallback.egg-info/PKG-INFO
+notcallback.egg-info/SOURCES.txt
+notcallback.egg-info/dependency_links.txt
+notcallback.egg-info/top_level.txt
