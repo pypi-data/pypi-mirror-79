@@ -1,0 +1,15 @@
+mosek/__init__.py,sha256=C9TLwXSUmnnhl1fRdq_0aedJKfPqhj9rPBdj3dP6EQo,535265
+mosek/_msk.abi3.so,sha256=puFsjOXHUavKdktYCc5aJH1FJDIK6-o6RrzmaWsxoAo,332424
+mosek/_mskpreload.py,sha256=X5j5ahPJ2ZqSsF_QRSU5ek032aRzA2BC41Tp5Y8ITOE,166
+mosek/libcilkrts.so.5,sha256=xlPbs8cIwb9yDeXsXe9qyzRoDFBklxc7w0AbLotyoKo,324676
+mosek/libmosek64.so.9.2,sha256=iEgxKV9QcVAjmBSxiix1rBcQvUFmuvUeJnLH2w9jbuU,30045552
+mosek/mosekorigin.py,sha256=lOR92jrJQeu5f7Yydx2b8htTbMab2k-8rxLdf-728lU,77
+mosek/fusion/Utils.py,sha256=znsPQuECtje_MONgiNnZ9ddQSW3AtXEKcnan_Fb-sfM,350
+mosek/fusion/__init__.py,sha256=ozB4dsscxjZVHxTZZENKW9b0sCMqhBdPrXMQ2nM4Zqk,11598
+mosek/fusion/impl/__init__.py,sha256=Bp0h3vVx8BM-V4aUX56cSgFdv3kjWevQ4BQstzfEHEA,34
+mosek/fusion/impl/_implementation.py,sha256=qgoLjPBJoDlRGbjTa8wXlbypjqtr6sBQaXD_n-ciANY,2294723
+mosek/fusion/impl/fragments.abi3.so,sha256=aBxLx6ik5RAZAIrV5h3BlAPKj5RAp2iMUOQIGNK2_uM,1248496
+Mosek-9.2.22.dist-info/METADATA,sha256=rck4wJOvdiFLD6jgJZW7zkeRIruPPPIAr064Iid_jOY,777
+Mosek-9.2.22.dist-info/WHEEL,sha256=ZCgRoodM6cLv8Z9Z-kuTK9QreeQu8GHOdQFY_br7fEU,109
+Mosek-9.2.22.dist-info/top_level.txt,sha256=H-jE29OEVOzLw9G-O6O5ruUbXFREbXsj350F1Xa4Pc8,6
+Mosek-9.2.22.dist-info/RECORD,,
