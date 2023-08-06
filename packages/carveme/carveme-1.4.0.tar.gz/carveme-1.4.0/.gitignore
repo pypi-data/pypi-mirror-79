@@ -1,0 +1,11 @@
+.idea/*
+build/*
+dist/*
+carveme.egg-info/*
+*.pyc
+.eggs/*
+docs/_build/*
+Dockerfile
+.idea/*
+*.DS_Store
+.vscode/*
