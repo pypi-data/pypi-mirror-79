@@ -1,0 +1,7 @@
+aws_sso_cfn_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_sso_cfn_helper/lookup.py,sha256=2QNBL30RkPpfloCfIvhQSC1NN_DQnLtc4h4uq5xyTnY,8867
+aws_sso_cfn_helper/template.py,sha256=WonR1yb_C37i0QGwmT7zFNc9-CeRS1shsec9KCj15M8,9426
+aws_sso_cfn_helper-0.1.0.dist-info/entry_points.txt,sha256=FtlIXm0w2DICQxPVr4oT4Ok2DS9MrCT4puT_hQRH2EY,117
+aws_sso_cfn_helper-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+aws_sso_cfn_helper-0.1.0.dist-info/METADATA,sha256=R-NyIxMiEX03eEWbQOgmFy0ZV0k6yRD9UY3rQ--TyPs,6287
+aws_sso_cfn_helper-0.1.0.dist-info/RECORD,,

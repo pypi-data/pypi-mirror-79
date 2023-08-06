@@ -1,0 +1,4 @@
+[console_scripts]
+aws-sso-cfn-helper=aws_sso_cfn_helper.template:main
+aws-sso-lookup=aws_sso_cfn_helper.lookup:main
+
