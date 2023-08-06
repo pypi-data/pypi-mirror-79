@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+RELEASE
+setup.py
+extras/.env
+extras/requirements.txt
+rrparser/Parser.py
+rrparser/__init__.py
+rrparser/__main__.py
+rrparser/infos.py
+rrparser.egg-info/PKG-INFO
+rrparser.egg-info/SOURCES.txt
+rrparser.egg-info/dependency_links.txt
+rrparser.egg-info/requires.txt
+rrparser.egg-info/top_level.txt
