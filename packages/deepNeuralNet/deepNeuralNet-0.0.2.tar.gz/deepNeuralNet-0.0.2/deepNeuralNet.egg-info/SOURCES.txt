@@ -1,0 +1,9 @@
+setup.py
+deepNeuralNet/__init__.py
+deepNeuralNet/neural_net_classifier.py
+deepNeuralNet/neural_net_classifier_2_layers.py
+deepNeuralNet.egg-info/PKG-INFO
+deepNeuralNet.egg-info/SOURCES.txt
+deepNeuralNet.egg-info/dependency_links.txt
+deepNeuralNet.egg-info/not-zip-safe
+deepNeuralNet.egg-info/top_level.txt
