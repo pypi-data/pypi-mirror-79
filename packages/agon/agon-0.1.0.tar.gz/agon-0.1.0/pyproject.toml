@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "agon"
+version = "0.1.0"
+description = "Thin wrapper around jmespath in order to compose projections"
+authors = ["Xavier Barbosa <clint.northwood@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+jmespath = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.2"
+black = {version = "^20.8b1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
