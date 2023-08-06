@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pvarc/__init__.py
+pvarc/astmg173.csv
+pvarc/main.py
+pvarc/metrics.py
+pvarc/oceaninsight.py
+pvarc/thin_film_reflectance_calculated_values.npz
+pvarc.egg-info/PKG-INFO
+pvarc.egg-info/SOURCES.txt
+pvarc.egg-info/dependency_links.txt
+pvarc.egg-info/requires.txt
+pvarc.egg-info/top_level.txt
