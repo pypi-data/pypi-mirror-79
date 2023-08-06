@@ -1,0 +1,5 @@
+uuid
+numpy
+scikit-learn
+opencv-python-headless
+face_recognition
