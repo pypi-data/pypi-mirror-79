@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: estore-base
+Version: 0.0.3
+Summary: Event Store Base Classes
+Home-page: https://github.com/lostwire/estore-common
+Author: Jnxy
+Author-email: jnxy@lostwire.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Description-Content-Type: text/markdown
+
+## Installing
+```bash
+
+pip3 install estore-base
+
+```
+
+
