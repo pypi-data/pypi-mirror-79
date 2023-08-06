@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sumologic-apptestutils
+Version: 1.0.6
+Summary: SumoLogic app testing utitities
+Home-page: https://github.com/SumoLogic/sumologic-partner-utils
+Author: SumoLogic
+Author-email: it@sumologic.com, apps-team@sumologic.com
+License: PSF
+Description: # sumologic-apptestutils
+        
+        CLI client for Partner App Developers
+        
+        
+        
+        ## Installation
+        
+        `pip install sumologic-apptestutils`
+        
+        
+        
+        ## Usage
+        <pre>
+        Usage: sumoapp [OPTIONS] COMMAND [ARGS]...
+        
+        Options:
+          -h, --help  Show this message and exit.
+        
+        Commands:
+          create-manifest     For creating manifest file
+          enableautocomplete  To enable command autocompletion in shell
+          init                For generating initial structure of app folder
+          run-app-tests       For running app unit tests
+          update-manifest     For updating manifest file
+          version             For showing CLI tool version
+        </pre>
+        
+        
+        For more details on installation and usage refer docs page https://www.sumologic.com/app-development-checklist/
+Keywords: sumologic python rest api log management analytics sumoapptestutils test agent
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
