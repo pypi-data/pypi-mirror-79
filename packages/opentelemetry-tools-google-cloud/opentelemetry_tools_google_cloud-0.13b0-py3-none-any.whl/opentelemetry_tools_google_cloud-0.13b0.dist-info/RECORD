@@ -1,0 +1,8 @@
+opentelemetry/tools/cloud_trace_propagator.py,sha256=cb30fnC2ALjUZIFrg6YHmBvSoelvIVCoYCqvVDCI5H4,3082
+opentelemetry/tools/resource_detector.py,sha256=uj8_JhcUmwUT7mbNjtLO0M1XpSblvUDGDEhSSsh3cqo,4040
+opentelemetry/tools/google/version.py,sha256=RYFHxN_TX3vQ4ndz4GyViz4QhDIvIOmW9OnB7eQGJoE,604
+opentelemetry_tools_google_cloud-0.13b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_tools_google_cloud-0.13b0.dist-info/METADATA,sha256=j6mmKKC4eB148wfTp2trlAA0NP-kDsZ9ZJLW9rd4nBI,1910
+opentelemetry_tools_google_cloud-0.13b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_tools_google_cloud-0.13b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_tools_google_cloud-0.13b0.dist-info/RECORD,,
