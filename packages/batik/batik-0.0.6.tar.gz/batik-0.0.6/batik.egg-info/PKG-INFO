@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: batik
+Version: 0.0.6
+Summary: Batik Cluster Client (CLI and py lib)
+Home-page: https://github.com/pfnsec/batik.py
+Author: Peter Sherman
+Author-email: pfnsec@gmail.com
+License: MIT
+Description: # batik.py
+        Batik API Command-line Client & library.
+        
+        # Installing: 
+          pip install batik
+          
+        
+Keywords: cli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test

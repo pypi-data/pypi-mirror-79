@@ -1,0 +1,14 @@
+docopt
+requests
+qrcode
+docker
+requests-toolbelt
+clint
+pyyaml
+gitignore-parser
+pycryptodome
+
+[test]
+coverage
+pytest
+pytest-cov
