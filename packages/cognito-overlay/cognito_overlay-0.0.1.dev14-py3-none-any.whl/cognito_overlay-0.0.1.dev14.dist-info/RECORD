@@ -1,0 +1,14 @@
+cognito_overlay/__init__.py,sha256=ytwRSn0IN60_JvUniL_WggHnFC5KslQQkfuKvLgZn84,24
+cognito_overlay/_auth.py,sha256=_0H0-RlZlIsE2vp3D1iiOajpowAJYdzE-ORmfygcdew,386
+cognito_overlay/_config.py,sha256=bHJz9EqHK_qlsCnX_H2iv9Y7ZCMLZ6ih5zbQdVun2tw,297
+cognito_overlay/_defaults.py,sha256=wwuh_DYfu5AobjMSg_nUo6-_LltaZMtfBnYlIOmiRLE,22
+cognito_overlay/users.py,sha256=ZlcP3xcDG0Otx_iw3hRDsRamL060xB2Eh53DXjqP7sg,2961
+src/__init__.py,sha256=ytwRSn0IN60_JvUniL_WggHnFC5KslQQkfuKvLgZn84,24
+src/_auth.py,sha256=ETNXvuaXwqArrIIOEsRw2EBdOWMQXy3Fk-lpCeOhmX8,385
+src/_config.py,sha256=sh3vsVLkd0PZbjqm7A3QQoTeqqArxT10nJIRQA1TWCQ,252
+src/_defaults.py,sha256=wwuh_DYfu5AobjMSg_nUo6-_LltaZMtfBnYlIOmiRLE,22
+src/users.py,sha256=f3htT6gYmC5vV0Ngp-7OFbTXP7lJKUWkAmMGwdCTJzI,1731
+cognito_overlay-0.0.1.dev14.dist-info/METADATA,sha256=_o6UpCZxHYxHAbRF8j_hDavkAbTFfpyWwqIWc7oK6xI,1067
+cognito_overlay-0.0.1.dev14.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cognito_overlay-0.0.1.dev14.dist-info/top_level.txt,sha256=Fry9Ht1cy0g2MEKxduZ5Fq0XBRKYl2M8Lg4AZfoWe90,16
+cognito_overlay-0.0.1.dev14.dist-info/RECORD,,
