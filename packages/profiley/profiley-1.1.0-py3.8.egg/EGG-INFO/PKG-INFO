@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: profiley
+Version: 1.1.0
+Summary: Calculation of common astrophysical profiles
+Home-page: https://github.com/cristobal-sifon/profiley
+Author: Cristobal Sifon
+Author-email: cristobal.sifon@pucv.cl
+License: UNKNOWN
+Description: ========
+        profiley
+        ========
+        
+        Profile calculations for galaxies and clusters
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
