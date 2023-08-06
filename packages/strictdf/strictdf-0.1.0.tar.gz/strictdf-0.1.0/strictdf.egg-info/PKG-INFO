@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: strictdf
+Version: 0.1.0
+Summary: A very basic dataframe check
+Home-page: UNKNOWN
+Author: Test Test
+Author-email: testpypi01@gmail.com
+License: MIT
+Description: Strictdf
+        ********
+        
+        Library with functions to determine data types by columns and clean the dataframe
+        =================================================================================
+        
+        .. image:: https://img.shields.io/badge/Version-V%200.1.0-important?style=for-the-badge
+            :target: https://pypi.org/project/strictdf/
+        
+        .. image:: https://img.shields.io/badge/Level-TechInterview-green?style=for-the-badge
+            :target: https://pypi.org/project/strictdf/
+        
+        .. image:: https://img.shields.io/badge/Tools-Python%20%2F%20Pandas%20%2F%20Jupyter%20%2F%20Pytest-yellow?style=for-the-badge
+            :target: https://pypi.org/project/strictdf/
+        
+        .. image:: https://img.shields.io/badge/Type%20of%20exercise-Practical-sucess?style=for-the-badge
+            :target: https://pypi.org/project/strictdf/
+        
+        Strictdf is a simple dataframe check
+        ------------------------------------
+        
+        Change Log
+        ==========
+        
+        0.1.0 (15/09/2020)
+        -------------------
+        - Last changes
+        
+Keywords: strictdf
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
