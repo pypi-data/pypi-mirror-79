@@ -1,0 +1,16 @@
+jupyterlab_translate/__init__.py,sha256=rJyc__2pHcPY2GjaSVzKDGM_EeJ2d2DFSdRXjG9VteY,211
+jupyterlab_translate/api.py,sha256=PnxJg6ONHOfFqw-GdQ8dPgYbIEv1NB6VcIcLnZ2fFpQ,4913
+jupyterlab_translate/cli.py,sha256=ARS5s72dH5wotusA9HUuREzBj74D1USN43v_oobjm8g,3438
+jupyterlab_translate/constants.py,sha256=3HvuCF73LBCq45HB-ssEXA9NdmRCZCaO6oF4ZUAxG_Y,393
+jupyterlab_translate/converters.py,sha256=JB9C4Oa6VxCdqIiQnQx9Bya3qNMfWiy2hyS6K5tEhLk,2242
+jupyterlab_translate/finder.py,sha256=dI124GtABI09Tp__5foZ8OCYH4QbCBA4XwH2qxvjLDg,2800
+jupyterlab_translate/gettext_extract.py,sha256=M9ELuT9kuFu9H97hygQmZdoGW95-DDGacBQ8DTW34pY,385
+jupyterlab_translate/index.js,sha256=ZGqvkXnHRT7c0Dfg4rTj53ot4xK4bAsg8pSkpyVR0ds,3617291
+jupyterlab_translate/pybabel_config.cfg,sha256=WZa3R843WYb9VkPMhs0Dx-314e2U7ntmvyAX2AsU8Ps,289
+jupyterlab_translate/utils.py,sha256=rZeXHtpoRVErOKfrIS-UGRZVL24Oz2fhNnqqnY6UR1E,21855
+jupyterlab_translate-0.1.1.dist-info/LICENSE.txt,sha256=y-jEVRC0fso9bge9MQ3WsDi6AdkJ3Txmj8cMW9HxwZg,1513
+jupyterlab_translate-0.1.1.dist-info/METADATA,sha256=Rc7CxK_PoxfSSlqEpZJMIKGfDyMIxFTnogbqE_biAfI,2509
+jupyterlab_translate-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+jupyterlab_translate-0.1.1.dist-info/entry_points.txt,sha256=WuceO9oFnKjWmPcgXAfTOKqwcnLUNKs1XyT4Bb6La7Q,132
+jupyterlab_translate-0.1.1.dist-info/top_level.txt,sha256=hPWpqd27F-Y2CQ7duyiPKgy1q9aCx7IzOnKtJpl0USA,21
+jupyterlab_translate-0.1.1.dist-info/RECORD,,
