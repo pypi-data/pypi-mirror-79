@@ -1,0 +1,17 @@
+dbt/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+dbt/adapters/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+dbt/adapters/azuresynapse/__init__.py,sha256=A4UifZSGUFycluiqk4U_SysyAfnWLCZMCQ13gd5IIyU,452
+dbt/adapters/azuresynapse/connections.py,sha256=LFvhzp2p9ubKz2G0MSjo3S65uTdReuKoEEChivJeuOc,5745
+dbt/adapters/azuresynapse/impl.py,sha256=uq0iYWLz1v0UNfnSInUdplOUY9_g6mM5hz6Y9Uz8GlA,643
+dbt/include/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+dbt/include/azuresynapse/__init__.py,sha256=vBGWeG-dHHkimfnX8axBJ4IgAowFw8xADmo6Auzn2xc,52
+dbt/include/azuresynapse/dbt_project.yml,sha256=nIXp8J52umBev9L3nE2HPgzAqE6j-Ir03QQ17bFLq2k,61
+dbt/include/azuresynapse/macros/adapters.sql,sha256=1K9Qwi17cRdA3WYZEBwg52zA-7St1uVGmyyB9-K0Wn8,5966
+dbt/include/azuresynapse/macros/catalog.sql,sha256=I5Cx1cg9a5EbdbfVo0UHNjw-DESixJrW-C7jrfwVA-M,1835
+dbt/include/azuresynapse/macros/materializations/snapshot/snapshot_merge.sql,sha256=o007xzvknY3UwYkvyUzStiLaRROqB_HOqchq-Orfg4w,1513
+dbt/include/azuresynapse/macros/materializations/snapshot/strategy.sql,sha256=Xw_M8_MpBL378ijxuOaM1-f-Dd6r0uuEOIAI1V3L8W4,1834
+dbt_azuresynapse-1.0.2.dist-info/LICENSE.md,sha256=8fZMIfO-VgiN5RAcXKzhZ4IL3WxD8LQtQascqAqxbPA,11343
+dbt_azuresynapse-1.0.2.dist-info/METADATA,sha256=wzPtjIu2UvAN0aN3txrfzqg-h6pFayyl_eB25C-Fr3Y,438
+dbt_azuresynapse-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dbt_azuresynapse-1.0.2.dist-info/top_level.txt,sha256=B2YH4he17ajilEWOGCKHbRcEJlCuZKwCcgFcLPntLsE,4
+dbt_azuresynapse-1.0.2.dist-info/RECORD,,
