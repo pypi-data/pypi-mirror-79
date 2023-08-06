@@ -1,0 +1,9 @@
+README.md
+setup.py
+pj_rf_mongodb/__init__.py
+pj_rf_mongodb/mongo_connection_manager.py
+pj_rf_mongodb/mongoquery.py
+pj_rf_mongodb.egg-info/PKG-INFO
+pj_rf_mongodb.egg-info/SOURCES.txt
+pj_rf_mongodb.egg-info/dependency_links.txt
+pj_rf_mongodb.egg-info/top_level.txt
