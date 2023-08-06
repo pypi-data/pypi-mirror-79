@@ -1,0 +1,4 @@
+lmdb
+pytest
+posix-ipc
+Pipfile

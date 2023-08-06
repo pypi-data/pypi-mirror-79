@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lmdb = "*"
+pytest = "*"
+posix-ipc = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+coverage = "*"
+pipenv = "*"
+twine = "*"
+deepdiff = {extras = ["murmur"],version = "*"}
