@@ -1,0 +1,14 @@
+notecomputer/__init__.py,sha256=O3IL6pJs3OvpI0mAtdQ9Eo3QLW3EiaZgKMk-IoZdryI,29
+notecomputer/config/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+notecomputer/config/core.py,sha256=feVWLOtSXFuZcZHhTSZKLydTEeR7xMqXO6agRIubT9M,516
+notecomputer/install/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+notecomputer/install/base.py,sha256=i-AOO6qY7Feiq88fTXuXlRW2lS1WhDotHIvAG_V74Kk,70
+notecomputer/install/config.py,sha256=KcvaOoPiYuaJSdvVoTGAUKTeLJRCKkMPqEXc63bduV0,1785
+notecomputer/install/core_server.py,sha256=9jWd79yT1K4q3NLQicqmRIFf3tUig-SRP5sjJiZnKpg,2565
+notecomputer/run/__init__.py,sha256=bJU2DHtqw51SDZB0nVGBFy0dASbrdCZ3dvM_Qt-J2Bs,126
+notecomputer/workspace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notecomputer/workspace/core.py,sha256=feuLQgb_pJsI4gPdNU14pE3kgwXjfFXCZu0LAf28DxE,356
+notecomputer-0.0.25.dist-info/METADATA,sha256=0m1FHG26UTBYQ6Gffx0cdvtVMQnh9yFWcsxg8SBOEqE,415
+notecomputer-0.0.25.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+notecomputer-0.0.25.dist-info/top_level.txt,sha256=fAReFKyA_D9Uzvs960oJq9oJFfe95fGKW5VrlwFX8a4,13
+notecomputer-0.0.25.dist-info/RECORD,,
