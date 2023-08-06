@@ -1,0 +1,10 @@
+magzdb/__init__.py,sha256=07CApiEplDOBovzjlUfDgkOlSzGKd21BgFachepo6pY,164
+magzdb/cli.py,sha256=bM9ruTvvIENiZFMiuGXPuin0bPwFoTzIW1Ia2_mizYA,1766
+magzdb/magzdb.py,sha256=6N05VnUVXO2M4Bf-tt9o-nmGM9-P1m081inrSvTvxMc,6110
+magzdb/version.py,sha256=NLBjFJuQkAyrDcRpgs5l9ybrhhoCMD2dUNswN4R612w,88
+magzdb-1.0.4.dist-info/LICENSE,sha256=CgoU7WfHIlmV10ApRrE_esv45qLTGQ3Dnx3XsYa5Evc,1071
+magzdb-1.0.4.dist-info/METADATA,sha256=kVCmKLw9xZc00JENXNu-_XzTj32cRcc5g05SYFY4Zt0,3217
+magzdb-1.0.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+magzdb-1.0.4.dist-info/entry_points.txt,sha256=EEErgUWhArHt0z8iuj_wm7ujU2ZtfYEWV50KiZXkNls,44
+magzdb-1.0.4.dist-info/top_level.txt,sha256=4XFv1PJjcrJ2X9dyjae3Yt7SWxg5GK78UyTY_zMjHb8,7
+magzdb-1.0.4.dist-info/RECORD,,
