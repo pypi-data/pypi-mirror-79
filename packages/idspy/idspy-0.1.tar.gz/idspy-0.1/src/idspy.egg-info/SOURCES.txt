@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/idspy/__init__.py
+src/idspy.egg-info/PKG-INFO
+src/idspy.egg-info/SOURCES.txt
+src/idspy.egg-info/dependency_links.txt
+src/idspy.egg-info/not-zip-safe
+src/idspy.egg-info/requires.txt
+src/idspy.egg-info/top_level.txt
