@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: chatworkpy
+Version: 0.0.7
+Summary: chatwork module for python
+Home-page: https://github.com/tys-hiroshi/chatworkpy
+License: MIT # ライセンス名（省略可）
+Description: # Summary
+        
+        chatwork module for python
+        
+        ## Requirements
+        
+        - Python 3.6+
+        
+        ## Install package
+        
+        https://pypi.org/project/chatworkpy/
+        
+        ```
+        pip install chatworkpy
+        ```
+        
+        ## Usage
+        
+        
+        
+        ## For Develoiper
+        
+        When you need to upload this package, see package_release.md
+        
+        ```
+        pipenv install requests
+        
+        pipenv shell
+        
+        pipenv run
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
