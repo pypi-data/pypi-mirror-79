@@ -1,0 +1,3 @@
+[gui_scripts]
+pygzdl = py_gzdoom_launcher.main:main
+
