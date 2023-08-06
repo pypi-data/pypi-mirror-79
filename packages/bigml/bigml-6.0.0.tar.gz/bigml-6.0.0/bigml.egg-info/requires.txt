@@ -1,0 +1,7 @@
+unidecode
+bigml-chronos>=0.4.3
+requests
+requests-toolbelt
+numpy
+scipy
+msgpack
