@@ -1,0 +1,10 @@
+README.md
+setup.py
+scrapy_zenscrape/__init__.py
+scrapy_zenscrape/middleware.py
+scrapy_zenscrape/request.py
+scrapy_zenscrape.egg-info/PKG-INFO
+scrapy_zenscrape.egg-info/SOURCES.txt
+scrapy_zenscrape.egg-info/dependency_links.txt
+scrapy_zenscrape.egg-info/requires.txt
+scrapy_zenscrape.egg-info/top_level.txt
