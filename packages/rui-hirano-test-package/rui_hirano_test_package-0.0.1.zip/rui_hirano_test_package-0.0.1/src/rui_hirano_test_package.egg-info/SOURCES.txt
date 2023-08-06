@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/rui_hirano_test_package.egg-info/PKG-INFO
+src/rui_hirano_test_package.egg-info/SOURCES.txt
+src/rui_hirano_test_package.egg-info/dependency_links.txt
+src/rui_hirano_test_package.egg-info/requires.txt
+src/rui_hirano_test_package.egg-info/top_level.txt
