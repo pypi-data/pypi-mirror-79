@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: voila-hover
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/yasirroni/voila-hover
+Author: yasirroni
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: voila (<0.2,>=0.1.6)
+
+UNKNOWN
+
+
