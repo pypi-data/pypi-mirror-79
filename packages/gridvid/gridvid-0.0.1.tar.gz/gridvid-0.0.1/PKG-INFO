@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: gridvid
+Version: 0.0.1
+Summary: Allows you to put various grids on videos.
+Home-page: https://github.com/GabrielSCabrera/Gridvid
+Author: Gabriel S. Cabrera
+Author-email: gabriel.sigurd.cabrera@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/GabrielSCabrera/Gridvidarchive/v0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: grid,video,overlay
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.8
