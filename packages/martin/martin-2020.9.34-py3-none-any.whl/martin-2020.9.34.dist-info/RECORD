@@ -1,0 +1,14 @@
+martin/IMDB.py,sha256=Wq1flhBimP-_srDea3yAyhO-U6ew5xyiPRDkq_c2xzY,547
+martin/Movie.py,sha256=Bjj3sYW0CfEY6zPx9i5_9IOgUZa6XtNHxH4gnd8pfho,1919
+martin/MovieCollection.py,sha256=X1esFtDv4u4vk80MnuFr2cbZ-XZ0dapYursIRjEo3nE,1465
+martin/__init__.py,sha256=cWTTW3X9Z_5KGJJ2gTEPJP0ak-8xFyjI7TNjKAIBnss,93
+martin/old/CollectionDirectory.py,sha256=EJctSmYr986YVRiOQY1b_OGk5EhlLnvcwwA36M-rZSk,1119
+martin/old/MovieFile.py,sha256=6Ps4KLToOhEE7zWqdlUBEyuTrOTFATnpT0hWFKDJGE4,6065
+martin/old/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+martin/old/get_title_year_and_resolution.py,sha256=IrSXiXnIoKEFKV2NHqVHtJwQKjTbRi5HcRHr9X74Fko,1477
+martin/old/is_movie_file.py,sha256=g_D3mXwKDLW1kzzy0ejlAbSOWS9dfj6riLNnKMlpGO0,1319
+martin-2020.9.34.dist-info/METADATA,sha256=crloZ3F30d6FnDAWkM5bdYDsugSX2l6s5QxcH94LWg0,743
+martin-2020.9.34.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+martin-2020.9.34.dist-info/top_level.txt,sha256=R64hJHczpmUrKG8wcvSdvIFHuXLuruPwTlx9QFjBuXY,7
+martin-2020.9.34.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+martin-2020.9.34.dist-info/RECORD,,

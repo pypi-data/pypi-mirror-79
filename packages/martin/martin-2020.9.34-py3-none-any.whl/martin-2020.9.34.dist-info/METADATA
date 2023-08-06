@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: martin
+Version: 2020.9.34
+Summary: Python library organizing personal movies
+Home-page: https://github.com/idin/martin
+Author: Idin
+Author-email: py@idin.ca
+License: MIT
+Keywords: graph
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: disk
+Requires-Dist: IMDbPy
+Requires-Dist: chronometry
+
+UNKNOWN
+
+
