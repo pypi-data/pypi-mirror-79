@@ -1,0 +1,12 @@
+numpy>=1.15
+redis
+cvxpy
+cvxopt
+tqdm
+dask
+distributed
+sobol_seq
+satyrn>=0.3.2
+iterprinter
+matplotlib
+scipy>=1.1.0
