@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pip-gui-tools
+Version: 0.0.9
+Summary: A tool for python pip package management
+Home-page: UNKNOWN
+Author: Sam Sultan
+Author-email: sam.ibrahim.sultan@gmail.com
+License: MIT
+Keywords: PIP,UI,pipuitool
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: flask
+Requires-Dist: pytest
+Requires-Dist: wheel-inspect
+
+
+## Install
+
+pip install pip-gui-tools
+
+
+## Run
+
+pipuitool -p <PORT> -i <TARGET_PIP_INSTALL_PATH>
+
+	-p (int): Port Number (optional)
+	-i (str): Target Path of pip install. If not set, then no target is set (optional)
+
+
