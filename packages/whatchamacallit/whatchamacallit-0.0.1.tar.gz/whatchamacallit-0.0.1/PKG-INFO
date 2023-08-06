@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: whatchamacallit
+Version: 0.0.1
+Summary: Helper for In Place web servers.
+Home-page: https://github.com/decatur/insituwebserver
+License: MIT
+Author: Wolfgang Kühn
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/decatur/insituwebserver
+Description-Content-Type: text/markdown
+
+# whatchamacallit
+
+# Configure Poetry
+
+````shell script
+poetry publish
+````
+
+
+# Build
+
+````shell script
+poetry build
+````
+
+# Publishing to PyPI
+
+````shell script
+poetry publish
+````
+
