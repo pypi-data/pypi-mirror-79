@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib<3.3.0
+pandas
+osbrain
+dash
+dash_cytoscape
+networkx
+plotly
+time-series-buffer
+time-series-metadata
