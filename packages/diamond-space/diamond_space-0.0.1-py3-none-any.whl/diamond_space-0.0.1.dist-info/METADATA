@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: diamond-space
+Version: 0.0.1
+Summary: Diamond space transform for python
+Home-page: https://github.com/MarketaJu/diamond_space
+Author: Marketa Jurankova
+Author-email: jurankovam@fit.vutbr.cz
+License: BSD3
+Project-URL: Bug reports, https://github.com/MarketaJu/diamond_space/issues
+Keywords: diamond space,pclines,hough transform,vanishing point detection,cascaded hough transform
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+
+[Example](https://colab.research.google.com/drive/1Ms7aHDozJEok2ytWuPD63i_hdUrT5KG_?usp=sharing) with synthetic lines intersecting in one point.
+
+[Example](https://colab.research.google.com/drive/1GbIfWH5agK4LitUtFBMsGr4Gw0sobtaM?usp=sharing) with point projection from Cartesian coordinate system to Diamond space.
+
+[Example](https://colab.research.google.com/drive/1ISOp7mSgSoIXbPLUlED3FL9vdSZLPeWf?usp=sharing) with vanishing point detection in image.
+
+
+
