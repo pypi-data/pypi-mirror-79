@@ -1,0 +1,7 @@
+README.md
+setup.py
+wonder_pkg/__init__.py
+wonder_pkg_walerydewelow.egg-info/PKG-INFO
+wonder_pkg_walerydewelow.egg-info/SOURCES.txt
+wonder_pkg_walerydewelow.egg-info/dependency_links.txt
+wonder_pkg_walerydewelow.egg-info/top_level.txt

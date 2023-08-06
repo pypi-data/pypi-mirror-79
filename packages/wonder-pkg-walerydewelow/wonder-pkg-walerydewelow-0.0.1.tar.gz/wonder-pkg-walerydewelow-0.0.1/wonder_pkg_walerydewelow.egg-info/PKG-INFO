@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wonder-pkg-walerydewelow
+Version: 0.0.1
+Summary: A wonderful package
+Home-page: https://github.com/walerydewelow/wonderpackage
+Author: Walery Dewelow
+Author-email: walery.dewelow@wp.pl
+License: UNKNOWN
+Description: # A wonderful package
+        
+        This one really is teh shit!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
