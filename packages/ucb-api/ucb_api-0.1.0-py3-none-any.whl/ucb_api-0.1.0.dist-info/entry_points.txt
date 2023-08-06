@@ -1,0 +1,3 @@
+[console_scripts]
+ucb-api=ucb_api.main:app
+
