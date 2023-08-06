@@ -1,0 +1,8 @@
+drf_spreadsheets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_spreadsheets/mixins.py,sha256=bWu9IdlJfwK-I54Rc1gP5qVyXSovqWlQFdL1IZ1uUHY,1952
+drf_spreadsheets/renderers.py,sha256=mFNS9IOjqK-pCpLnvEJMfdyajZhRgbUAlRqnLszJoqs,6168
+drf_spreadsheets_jpaavola-1.0.0.dist-info/LICENSE.md,sha256=SxXMH9sDa5oeGizY_b8WDuW9ayG57nyff7gM_rwOq44,1071
+drf_spreadsheets_jpaavola-1.0.0.dist-info/METADATA,sha256=s7-qm5yh02pYTq6ORGBpXdWFtYKQuyXh9YkBIGdiOjs,2093
+drf_spreadsheets_jpaavola-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+drf_spreadsheets_jpaavola-1.0.0.dist-info/top_level.txt,sha256=JvHFsqDNifOSfpQqLpgn6KF1DZaxq3KEZEHEKYfv0z8,17
+drf_spreadsheets_jpaavola-1.0.0.dist-info/RECORD,,
