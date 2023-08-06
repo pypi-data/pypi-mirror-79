@@ -1,0 +1,3 @@
+[console_scripts]
+aw11-clean = aw11.clean:main
+
