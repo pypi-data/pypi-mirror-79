@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+juanpy/__init__.py
+juanpy/max_min.py
+juanpy.egg-info/PKG-INFO
+juanpy.egg-info/SOURCES.txt
+juanpy.egg-info/dependency_links.txt
+juanpy.egg-info/requires.txt
+juanpy.egg-info/top_level.txt
