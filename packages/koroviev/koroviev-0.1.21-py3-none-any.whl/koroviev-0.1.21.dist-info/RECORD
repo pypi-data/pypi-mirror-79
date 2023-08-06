@@ -1,0 +1,15 @@
+koroviev/__init__.py,sha256=uvS3XawujiNWYQUkzRlE4oTCXgxLuH121R_6pZgGNU4,101
+koroviev/__main__.py,sha256=eUA5KBwn91QUFbu2rDEjTaNf_oyjn6j7NsbfnYZCudc,83
+koroviev/cli.py,sha256=r3wZbCh9jc_UWqUIEO8a8yh_y5iktFler0sB2xiuhXI,3214
+koroviev/components/__init__.py,sha256=cCgsnLem8GdmtI1AzheAe0Iad_e2zGVjqY5XKeg4T_M,176
+koroviev/components/project.py,sha256=4fabZdgu2ioK-IUxto_utnwDx1TzGiqBqyOYg4OVAUE,2026
+koroviev/components/structure.py,sha256=WoAfi8GClD_rVKMP67wV2n8C1Wd6X36bcl_y3y8e_0g,1752
+koroviev/components/templates.py,sha256=dqqONIdGKMU7Gm4-OEjJkyOvXl94BJgYakNUY4BMgss,4268
+koroviev/const.py,sha256=TnlmCRdv4sBA7KxmjKsqqeEek6T8KR000L43eTlxa9Q,375
+koroviev/enums.py,sha256=vG6GooaSRzzmdbdrdS1nyv29FoRCRG7r7RJxUKO7nks,620
+koroviev/models.py,sha256=U1o_PtzwvFUAFRCc4Hjsu4Bi_-8BiI5gaVBsNSTiTKo,753
+koroviev/utils.py,sha256=NtvtxPa6PfLWW5mCDHgcSrZ3ZG_gbUoowg1xoCX4QYo,557
+koroviev-0.1.21.dist-info/entry_points.txt,sha256=CfYEm8-shCrw4TpPq-mJ5kCIfACewm96qePzv1XAWhY,51
+koroviev-0.1.21.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+koroviev-0.1.21.dist-info/METADATA,sha256=Z4URy_AH5tKEOwpYdWWrcHo22w_EFgXbnBPCkRNrV2U,3256
+koroviev-0.1.21.dist-info/RECORD,,

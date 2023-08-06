@@ -1,0 +1,3 @@
+[console_scripts]
+koroviev=koroviev.cli:start_cli
+
