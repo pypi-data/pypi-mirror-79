@@ -1,0 +1,10 @@
+npm_accel/__init__.py,sha256=i-I6xBti-u-IFSkvHikbNzkYx6fVBhewqmiQNTh-CeM,28523
+npm_accel/cli.py,sha256=H-UQ8ZuzlLtfVEz0ZF90f4ItuWrrw8VhZwkhIw6S1Fw,7301
+npm_accel/exceptions.py,sha256=AvT0JMoscqBeXFjwS8AnVktqj-YmkQ3CSAfpyuMtipE,623
+npm_accel/tests.py,sha256=8MytWmd8IFW45UMfOSlA1mbQ7aX9FjIJTkpgwX6bNVc,12595
+npm_accel-2.0.1.dist-info/LICENSE.txt,sha256=C-9P-xhVtlVwME8gGMbUTkurl71d-HFuzXgAAU1xcmc,1056
+npm_accel-2.0.1.dist-info/METADATA,sha256=JiX0a8QibXEflHEaNzqwr-B0ex5JdNG-vJW7K_8Wd1w,12550
+npm_accel-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+npm_accel-2.0.1.dist-info/entry_points.txt,sha256=LV03CZNKZ3BBgxA8goW6J7dtfT5Ga8rlFUQcZGkgY_8,50
+npm_accel-2.0.1.dist-info/top_level.txt,sha256=jZFRmy_gPHp9GSHkt0pXq29MgFM_Ujcxlmi8B3yiiq8,10
+npm_accel-2.0.1.dist-info/RECORD,,
