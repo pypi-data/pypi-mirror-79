@@ -1,0 +1,5 @@
+.eggs
+dist
+.pytest_cache
+docs
+*~
