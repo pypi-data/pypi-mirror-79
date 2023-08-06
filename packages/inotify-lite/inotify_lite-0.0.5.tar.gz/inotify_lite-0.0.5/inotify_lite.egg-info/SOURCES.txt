@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+inotify_lite/__init__.py
+inotify_lite/inotify.py
+inotify_lite.egg-info/PKG-INFO
+inotify_lite.egg-info/SOURCES.txt
+inotify_lite.egg-info/dependency_links.txt
+inotify_lite.egg-info/requires.txt
+inotify_lite.egg-info/top_level.txt
+tests/__init__.py
+tests/test_inotify.py
