@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: FooFinder
+Version: 0.9.1
+Summary: A package designed to help you find foo.
+Home-page: https://github.com/MadisonAster/FooFinder
+Author: Madison Aster
+Author-email: info@MadisonAster.com
+License: GPL
+Description: ![PyPI](https://img.shields.io/pypi/v/FooFinder)
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/FooFinder)
+        [![Build Status](https://travis-ci.org/MadisonAster/FooFinder.svg?branch=master)](https://travis-ci.org/MadisonAster/FooFinder)
+        
+        
+        A package designed to help you find foo.
+        
+        ## Installation:
+        ```
+        pip install FooFinder
+        ```
+        
+        ## Usage:
+        ```
+        import FooFinder
+        from FooFinder import MySuperAwesomeModule
+        ```
+        
+        FooFinder will walk up to each parent directory from your current module and look for a module to import with the name you give it.
+        
+Keywords: staticframe pandas numpy immutable array
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.6.0
+Description-Content-Type: text/markdown
