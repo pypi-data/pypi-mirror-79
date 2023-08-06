@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: deduplify
+Version: 20.9.0
+Summary: A Python package to search for and remove duplicated files in messy datasets
+Home-page: https://github.com/Living-with-Machines/deduplify
+Author: Sarah Gibson
+Author-email: sgibson@turing.ac.uk
+License: MIT
+Description: 
+        # deduplify
+        
+        [![CI](https://github.com/Living-with-machines/deduplify/workflows/CI/badge.svg)](https://github.com/Living-with-machines/deduplify/actions?query=workflow%3ACI)
+        
+        A Python tool to search for and remove duplicated files in messy datasets
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: full
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
