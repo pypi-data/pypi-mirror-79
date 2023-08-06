@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fix-wrapper
+Version: 1.0
+Summary: This is python package for fix wrapper
+Home-page: https://github.com/Joannazhx/FIX_wrapper
+Author: Joanna
+Author-email: joannaunswit@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (==1.19.0)
+Requires-Dist: pandas (==1.1.1)
+Requires-Dist: pep8 (==1.7.1)
+Requires-Dist: pylint (==2.6.0)
+
+UNKNOWN
+
+
