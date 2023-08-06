@@ -1,0 +1,29 @@
+{% extends "conversate/base.html" %}
+{% load static %}
+
+{% block js %}
+{{ block.super }}
+<script src="{% static "conversate/js/room.js" %}"></script>
+{% endblock %}
+
+
+{% block conversate_content %}
+<section class="cnv_container">
+    <input type="checkbox" id="cnv_sidebar__toggler">
+    <label for="cnv_sidebar__toggler">Toggle menu</label>
+    <aside class="cnv_sidebar">
+        {% include "conversate/includes/room_sidebar.html" %}
+    </aside>
+
+    <section class="cnv_content">
+        <article class="cnv_messages">
+            {% include "conversate/includes/room_messages.html" %}
+        </article>
+
+        <footer class="cnv_input">
+            {% include "conversate/includes/room_input.html" %}
+        </footer>
+    </section>
+</section>
+
+{% endblock %}

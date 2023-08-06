@@ -1,0 +1,4 @@
+Django>=2.2
+django-yaa-settings
+commonmark
+emoji
