@@ -1,0 +1,16 @@
+{
+    "name": "testdb",
+    "locale": "es_ES",
+    "dbEngine": "mysql",
+    "tables": [
+        {
+            "name": "table1",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "fooo"
+                }
+            ]
+        }
+    ]
+}

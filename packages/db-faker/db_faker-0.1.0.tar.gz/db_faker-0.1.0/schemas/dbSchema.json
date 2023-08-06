@@ -1,0 +1,80 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Database",
+    "description": "A database to generate fake data",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "The name of the database.",
+            "type": "string"
+        },
+        "locale": {
+            "description": "The locale in which the data will be generated.",
+            "type": "string",
+            "enum": ["es_ES", "en_GB", "it_IT", "fr_FR"]
+        },
+        "dbEngine": {
+            "description": "The database engine for which the data is being generated",
+            "type": "string",
+            "enum": ["mysql"]
+        },
+        "tables": {
+            "description": "The tables that are contained in the database.",
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "description": "The name of the table.",
+                            "type": "string"
+                        },
+                        "fields": {
+                            "description": "The description of each of the fields present in the table.",
+                            "type": "array",
+                            "items": [
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {
+                                            "description": "The name of the field.",
+                                            "type": "string"
+                                        },
+                                        "type": {
+                                            "description": "The data type of the field.",
+                                            "type": "string",
+                                            "enum": ["username", "name", "address", "creditcard", "company", "phone", "email", "vehicle_license", "iban", "color",
+                                                "string", "integer", "numeric", "date", "time", "timestamp", "binary", "bool", "uuid", "inet", "cidr", "macaddr"]
+                                        },
+                                        "minValue": {
+                                            "description": "The minimum possible value. Only checked in integer values",
+                                            "type": "integer"
+                                        },
+                                        "maxValue": {
+                                            "description": "The maximum possible value. Only checked in integer values",
+                                            "type": "integer"
+                                        }
+                                    },
+                                    "required": ["name", "type"],
+                                    "minItems": 1,
+                                    "uniqueItems": true
+                                }
+                            ]
+                        },
+                        "rows": {
+                            "description": "The number of rows that will be generated for this table. Defaults to 50",
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 300,
+                            "default": 50
+                        }
+                    },
+                    "required": ["name", "fields"],
+                    "minItems": 1,
+                    "uniqueItems": true
+                }
+            ]
+        }
+    },
+    "required": ["name", "dbEngine", "tables"]
+}
