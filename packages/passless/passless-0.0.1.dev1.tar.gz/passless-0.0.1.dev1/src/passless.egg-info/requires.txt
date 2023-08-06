@@ -1,0 +1,2 @@
+shadowproxy>=0.7.0
+slowdown

@@ -1,0 +1,3 @@
+[console_scripts]
+passless = passless.__main__:main
+
