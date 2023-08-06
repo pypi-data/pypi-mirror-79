@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bootstrap-discord-bot
+Version: 1.0.3
+Summary: An opinionated discord.py bot code bootstrapper
+Home-page: https://github.com/Pradeep-selva/bootstrap-discord-bot
+Author: pradeep-selva
+Author-email: pradeep.selva8833@gmail.com
+License: MIT
+Description: A python cli-tool to generate a boilerplate folder structure for your discord.py bot code
+Keywords: discord.py cli-tool bootstrapper boilerplate genrator discord bot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
