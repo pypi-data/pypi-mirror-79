@@ -1,0 +1,8 @@
+README.md
+setup.py
+trello_track/__init__.py
+trello_track.egg-info/PKG-INFO
+trello_track.egg-info/SOURCES.txt
+trello_track.egg-info/dependency_links.txt
+trello_track.egg-info/entry_points.txt
+trello_track.egg-info/top_level.txt
