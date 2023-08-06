@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: liblora
+Version: 0.0.2
+Summary: A library with functions related to LoRaWAN, derived from Basic MAC
+Home-page: https://github.com/mkuyper/liblora
+Author: Michael Kuyper
+Author-email: mkuyper@mkdata.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+
+UNKNOWN
+
+
