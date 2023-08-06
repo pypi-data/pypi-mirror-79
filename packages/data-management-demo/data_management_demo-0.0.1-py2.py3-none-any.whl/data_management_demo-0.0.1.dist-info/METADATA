@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: data-management-demo
+Version: 0.0.1
+Summary: Data management solution demo
+Home-page: https://github.com/julianpitney/data_management_demo
+Author: Julian Pitney
+Author-email: julianpitney@gmail.com
+License: MIT license
+Keywords: data_management_demo
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: opencv-python (==3.2.0.8)
+Requires-Dist: tifffile (==2020.9.3)
+Requires-Dist: console-menu (==0.6.0)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: toml (==0.10.1)
+
+====================
+data-management-demo
+====================
+
+
+.. image:: https://img.shields.io/pypi/v/data_management_demo.svg
+        :target: https://pypi.python.org/pypi/data_management_demo
+
+.. image:: https://img.shields.io/travis/julianpitney/data_management_demo.svg
+        :target: https://travis-ci.com/julianpitney/data_management_demo
+
+.. image:: https://readthedocs.org/projects/data-management-demo/badge/?version=latest
+        :target: https://data-management-demo.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Boilerplate for data management demo python package
+
+
+* Free software: MIT license
+* Documentation: https://data-management-demo.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.0.1 (2020-09-07)
+------------------
+
+* First release on PyPI.
+
+
