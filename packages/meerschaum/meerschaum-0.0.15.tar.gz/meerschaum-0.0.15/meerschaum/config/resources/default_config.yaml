@@ -1,0 +1,60 @@
+
+##################################
+# Edit the credentials below     #
+# for the `main` SQL connection. #
+##################################
+
+meerschaum:
+  connectors:
+    api:
+      local: &id001
+        host: localhost
+        password: meerschaum
+        port: 8000
+        protocol: http
+        username: meerschaum
+      main: *id001
+    sql:
+      local:
+        database: mrsm_local
+        flavor: sqlite
+      main:
+        database: mrsm_main
+        flavor: timescaledb
+        host: localhost
+        password: meerschaum
+        port: 5432
+        username: meerschaum
+      meta: {}
+system:
+  api:
+    endpoints:
+      mrsm: /mrsm
+    password: meerschaum
+    protocol: http
+    username: meerschaum
+    uvicorn:
+      app: meerschaum.api:fast_api
+      host: 0.0.0.0
+      port: 8000
+      workers: 4
+    version: 0.0.3
+  arguments:
+    sub_decorators:
+    - '['
+    - ']'
+  connectors:
+    all:
+      pandas: pandas
+    api: {}
+    sql:
+      chunksize: 1000
+      connect_args: {}
+      max_overflow: 10
+      method: multi
+      pool_recycle: 3600
+      pool_size: 5
+      poolclass: sqlalchemy.pool.QueuePool
+  shell:
+    default_editor: nano
+    timeout: 15

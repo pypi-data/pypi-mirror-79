@@ -1,0 +1,14 @@
+sqlalchemy
+pandas
+psycopg2-binary
+pyyaml
+lazy_import
+fastapi
+uvicorn
+databases
+aiosqlite
+graphene
+asyncpg
+cascadict
+pprintpp
+requests
