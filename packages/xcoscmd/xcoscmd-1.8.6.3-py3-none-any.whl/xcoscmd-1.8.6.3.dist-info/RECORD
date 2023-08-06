@@ -1,0 +1,15 @@
+xcoscmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcoscmd/cos_auth.py,sha256=NpVf0G6xPsCvbCL1IcT1zgnQfB0lQ9V89OABb4rsvoM,3756
+xcoscmd/cos_client.py,sha256=VWS0oVIazV6b-SQ-yI9Oe2H3ufWqgljssm7k1v5CB80,93734
+xcoscmd/cos_cmd.py,sha256=ZG0ilo4yGTaV4-xFR3TtUkWLmCQY86f9BCm1H-zN2nE,37518
+xcoscmd/cos_color.py,sha256=fzV35v-3SsFhwQOloEXJJniWE_QQUZFg1wUu8P26pxs,3879
+xcoscmd/cos_comm.py,sha256=_7WVTDpgLQpMkGu2mWm226Jxqo3hL_TXC8QRnYeT3L4,7013
+xcoscmd/cos_global.py,sha256=TSkdtR9DhjJm1rHwkXDWh1Kos74EbHZKkwKlk8Jn4tU,21
+xcoscmd/cos_threadpool.py,sha256=-7iBN2lUCwtnSJTJBCbSYuZ6vAh5J2Yk0o5QytvpHHE,2945
+xcoscmd/test.py,sha256=NTv9_nHV-mFzKpUrJMg3o120NLjzz108j9ecb_bv2tY,6954
+xcoscmd-1.8.6.3.dist-info/LICENSE,sha256=3iF1h5fUYXwpWTclNYJMwS8GzW16p3yA0w8hvR2gosU,1064
+xcoscmd-1.8.6.3.dist-info/METADATA,sha256=SWzQCJkyxIOSHg0EC_Ka_t9JGhHjE0HwIMibXQc7ITw,1548
+xcoscmd-1.8.6.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+xcoscmd-1.8.6.3.dist-info/entry_points.txt,sha256=S0LB3bbWNhiwugmRQvKzUcWLTu_onZDTEP3TnzOSouw,51
+xcoscmd-1.8.6.3.dist-info/top_level.txt,sha256=4n9l3_GIESyLAb6g_ubdWz_Apr8dLV8A2pAjyRLrFfw,8
+xcoscmd-1.8.6.3.dist-info/RECORD,,
