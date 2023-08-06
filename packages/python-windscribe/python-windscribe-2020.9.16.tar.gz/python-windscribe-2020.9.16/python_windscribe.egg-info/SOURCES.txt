@@ -1,0 +1,9 @@
+README.md
+setup.py
+python_windscribe.egg-info/PKG-INFO
+python_windscribe.egg-info/SOURCES.txt
+python_windscribe.egg-info/dependency_links.txt
+python_windscribe.egg-info/requires.txt
+python_windscribe.egg-info/top_level.txt
+windscribe/__init__.py
+windscribe/windscribe.py

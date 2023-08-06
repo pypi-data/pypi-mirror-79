@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: python-windscribe
+Version: 2020.9.16
+Summary: Python Windscribe VPN CLI wrapper.
+Home-page: https://github.com/Dayzpd/Python-Windscribe
+Author: Dayzpd
+Author-email: zach@dayzpd.com
+License: MIT
+Description: UNKNOWN
+Keywords: windscribe vpn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Development Status :: 2 - Pre-Alpha
