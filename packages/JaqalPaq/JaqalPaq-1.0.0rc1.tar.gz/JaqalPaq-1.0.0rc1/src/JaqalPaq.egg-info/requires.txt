@@ -1,0 +1,12 @@
+lark-parser
+
+[docs]
+sphinx
+sphinx-rtd-theme
+jaqalpaq-extras[cirq,projectq,pyquil,pytket,qiskit]==1.0.0rc1
+
+[pygsti-integration]
+pygsti
+
+[tests]
+pytest
