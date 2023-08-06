@@ -1,0 +1,74 @@
+# PyImageExport
+
+Package to convert various formats of raster graphics images in a single line of code. 
+
+A good alternative for image conversion, saving in databases, or image transmission.
+
+From main image formats (like PNG and JPEG), to Base64 and BLOB.
+
+## Formats
+
+Fully supported formats:
+
+* Base64
+
+* BLOB
+
+* BPM
+
+* EPS
+
+* GIF
+
+* IM
+
+* JPEG
+
+* PNG
+
+* PPM
+
+* SGI
+
+* TIFF
+
+* WEBP
+
+## Examples
+
+Import and Instance the class
+
+```
+import PyImageExport
+img = PyImageExport()
+```
+
+1. Convert PNG image to Base64
+
+```
+image = img.export(input_image="./tests/image.png", input_format="png", output_format="base64")
+```
+
+2. Convert JPEG image to BLOB
+
+```
+image = img.export(input_image="./tests/image.jpeg", input_format="jpeg", output_format="blob")
+```
+
+2. Convert GIF image to WEBP
+
+```
+image = img.export(input_image="./tests/image.gif", input_format="gif", output_format="webp", output_name="image", output_path="./tests")
+```
+
+## Contribute
+
+If you want to propose a new format, please contact me using my social networks below.
+
+## Author
+
+Alvaro Azael Rodriguez Rodriguez - (Development Lead) [[Gitlab](https://gitlab.com/azael_rguez), [Twitter](https://twitter.com/azael_rguez)]
+
+## Licence
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

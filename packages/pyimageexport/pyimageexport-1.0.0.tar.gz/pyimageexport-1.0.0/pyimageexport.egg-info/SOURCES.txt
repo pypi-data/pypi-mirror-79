@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyimageexport/__init__.py
+pyimageexport.egg-info/PKG-INFO
+pyimageexport.egg-info/SOURCES.txt
+pyimageexport.egg-info/dependency_links.txt
+pyimageexport.egg-info/requires.txt
+pyimageexport.egg-info/top_level.txt
