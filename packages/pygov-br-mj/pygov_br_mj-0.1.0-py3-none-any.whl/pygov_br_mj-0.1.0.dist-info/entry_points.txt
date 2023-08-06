@@ -1,0 +1,3 @@
+[console_scripts]
+pygov-br = pygov_br.__main__:main
+
