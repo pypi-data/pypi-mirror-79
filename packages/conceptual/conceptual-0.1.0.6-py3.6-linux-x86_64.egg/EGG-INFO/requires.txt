@@ -1,0 +1,4 @@
+pycocotools
+pytest
+numpy>=1.14.5
+opencv-python>=4.0.0
