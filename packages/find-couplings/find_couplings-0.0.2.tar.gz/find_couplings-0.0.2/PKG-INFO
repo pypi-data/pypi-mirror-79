@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: find_couplings
+Version: 0.0.2
+Summary: lookup json x vales for jpeg files
+Home-page: https://YogenderPalChandra@bitbucket.org/YogenderPalChandra/find_couplings_package.git
+Author: Yogender Pal Chandra
+Author-email: yogender027mae@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: json
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
