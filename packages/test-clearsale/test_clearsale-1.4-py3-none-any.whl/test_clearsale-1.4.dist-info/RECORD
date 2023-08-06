@@ -1,0 +1,10 @@
+clearsale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clearsale/api.py,sha256=734nyC0wFACsFFcEaSQ7gyd1yB_I-7WrCPc8PmT1JYc,4708
+clearsale/entities.py,sha256=BOY_fAxC1RIPjYDDaER5K64Z5NYolW4i7-kQe66K2qM,5459
+clearsale/status_options/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clearsale/status_options/request.py,sha256=xhTL0kZjg8v08k5OuQyfjIPe1B22-MV0gMapn7J75-s,464
+clearsale/status_options/response.py,sha256=qeP4SgezquqkrkOudehaf4B8Qmy2484Opu1mDiXT3OI,3130
+test_clearsale-1.4.dist-info/METADATA,sha256=pNFIdUSrI2u4YIqaZwxETjsAt3wUg5oUqZhi2WPosy0,966
+test_clearsale-1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+test_clearsale-1.4.dist-info/top_level.txt,sha256=UlUnw8KDvwV6o6EwMiBGD59Fu8dHZ-j2Ubjg3mD-PiY,10
+test_clearsale-1.4.dist-info/RECORD,,
