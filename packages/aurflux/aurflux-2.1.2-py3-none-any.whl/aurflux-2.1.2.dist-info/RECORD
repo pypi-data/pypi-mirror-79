@@ -1,0 +1,13 @@
+aurflux/__init__.py,sha256=9vx-8EKkucs3yApdN_fteDFvteCgDnZ_gHJLigkM0H8,2697
+aurflux/cog/__init__.py,sha256=B3bLvAp8X0KjK7r3d8HDNnr5yNcYDygLxHm__MHLMM4,1740
+aurflux/cog/builtins.py,sha256=216vdKaqyMdArk7291lgPSVnRA-zQQieZrafbd5V8xU,3831
+aurflux/command/__init__.py,sha256=LyXt6nLIpKcgjEJGwd4yV-nNEUWBPi-Akwx6cY4ArPo,5412
+aurflux/command/argh.py,sha256=B8CEyLkKlCYS4_Isk-gjD970gox7czuWya8cE539ibA,3751
+aurflux/command/response.py,sha256=6Jpr3X9FpztZ-doPtkiNIpj0SJZiSr8STxfFuAmuu9Q,2841
+aurflux/config.py,sha256=ZkA0YrOcyavdTojvE_Haj1BZge0mhUnuD40g2_9WYUc,3727
+aurflux/context/__init__.py,sha256=ctKLk0iwMDm7lTPrxeKG6efEsY-uWfJlzIGTS0pFtpE,2065
+aurflux/errors.py,sha256=3ykHTaeC9ZjUcnexeopnr5j3L1QKwsX8tz_91uzYAD0,1754
+aurflux/utils.py,sha256=oj-Qmhyk238Jh6Nzs-bcFSrJCHuor78_c1fMTe8ISpQ,1843
+aurflux-2.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aurflux-2.1.2.dist-info/METADATA,sha256=lCXpj2dWNORar9N3Wzmu-vG2Xdj9beqUQYnuzavKVCE,301
+aurflux-2.1.2.dist-info/RECORD,,
