@@ -1,0 +1,10 @@
+rapidfuzz/utils.so,sha256=ySXpcynRKbVXY_BkrCm_TsEdry6CneHc_L6dNIMVJ-w,391176
+rapidfuzz/levenshtein.so,sha256=LUQoRnbgwcndJduhP4c6X61t_zlDGDeCRNwpQIKM8FQ,828728
+rapidfuzz/fuzz.so,sha256=Kdp-tdnpLgjqL7s4g5UM1y3zFJEW_OHHrGKW9CEIM-k,5486848
+rapidfuzz/process.py,sha256=ZCixPHH6Bh2AEOKNC9lCeaCV-2Ks5X_3b8DrN-XJQAk,7535
+rapidfuzz/__init__.py,sha256=2wc7tubi7SJJpTU8z_EVEOtq-0jj0fKy-YVVTtZ66Kg,166
+rapidfuzz-0.11.2.dist-info/RECORD,,
+rapidfuzz-0.11.2.dist-info/METADATA,sha256=u4WY2DFTV49SnlK3hmB62SzwmBLWysqn4iviGzaXdQE,5116
+rapidfuzz-0.11.2.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+rapidfuzz-0.11.2.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.11.2.dist-info/WHEEL,sha256=pe6t0RNHCRS5q79HOdL_EzfTLBzu8gAplWB_v766cBw,113
