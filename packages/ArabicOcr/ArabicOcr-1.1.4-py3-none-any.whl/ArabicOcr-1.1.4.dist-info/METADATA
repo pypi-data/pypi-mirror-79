@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ArabicOcr
+Version: 1.1.4
+Summary: Python Package to Convert youtube vieo to images frames
+Home-page: https://iraqprogrammer.wordpress.com/
+Author: Falah.G.Saleh
+Author-email: falahgs07@gmail.com
+License: UNKNOWN
+Keywords: arabic ocr,images,dataset images
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: easyocr
+
+# ArabicOcr Package to convert any Arabic image text to text by ocr techniques 
+## about
+
+Python Package to convert arabic images to text 
+
+# Installation
+
+```
+pip install ArabicOcr
+or in colab google cloud
+!pip install ArabicOcr
+```
+
+## Usage for get frames images 
+
+```
+from ArabicOcr import arabicocr
+```
+```
+image_path='1.jpg'
+out_image='out1.jpg'
+results=arabicocr.arabic_ocr(image_path,out_image)
+print(results)
+```
+
+## Tutorial 
+u can see tutorial in colab 
+
+https://colab.research.google.com/drive/1ay5KT9Za340_kN7fhS2xuJX8suCigaF6?usp=sharing
+
+
+
+
+
