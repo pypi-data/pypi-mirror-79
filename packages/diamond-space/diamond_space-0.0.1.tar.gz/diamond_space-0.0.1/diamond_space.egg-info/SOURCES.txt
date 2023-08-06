@@ -1,0 +1,9 @@
+README.md
+setup.py
+diamond_space/__init__.py
+diamond_space/accumulator.py
+diamond_space.egg-info/PKG-INFO
+diamond_space.egg-info/SOURCES.txt
+diamond_space.egg-info/dependency_links.txt
+diamond_space.egg-info/requires.txt
+diamond_space.egg-info/top_level.txt
