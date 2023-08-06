@@ -1,0 +1,10 @@
+MANIFEST.in
+package.py
+setup.py
+awsunusedresources/__init__.py
+awsunusedresources/aws_resources.py
+awsunusedresources.egg-info/PKG-INFO
+awsunusedresources.egg-info/SOURCES.txt
+awsunusedresources.egg-info/dependency_links.txt
+awsunusedresources.egg-info/requires.txt
+awsunusedresources.egg-info/top_level.txt
