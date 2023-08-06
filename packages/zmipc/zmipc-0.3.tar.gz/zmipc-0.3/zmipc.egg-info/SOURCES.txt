@@ -1,0 +1,9 @@
+README.md
+setup.py
+zmipc/__init__.py
+zmipc/client.py
+zmipc.egg-info/PKG-INFO
+zmipc.egg-info/SOURCES.txt
+zmipc.egg-info/dependency_links.txt
+zmipc.egg-info/not-zip-safe
+zmipc.egg-info/top_level.txt
