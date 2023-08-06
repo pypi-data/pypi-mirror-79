@@ -1,0 +1,13 @@
+
+[dev]
+pytest
+pytest-mypy
+pytest-flake8
+
+[dist]
+setuptools
+wheel
+twine
+
+[docs]
+sphinx
