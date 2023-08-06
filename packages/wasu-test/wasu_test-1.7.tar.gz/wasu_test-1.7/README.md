@@ -1,0 +1,192 @@
+打包
+```python
+python3 setup.py sdist bdist_wheel
+```
+上传
+```python
+twine upload dist/*  
+```
+```text
+# TODO
+添加todo
+```
+单例模式
+```python
+# 单例模式
+def singleton(cls):
+    _instance = {}
+
+    def inner():
+        if cls not in _instance:
+            _instance[cls] = cls()
+        return _instance[cls]
+
+    return inner
+```
+带参数的单例(错误示范) `具体原因待查`
+```python
+# 单例模式
+def singleton(cls, *args, **kw):
+    _instance = {}
+    def inner():
+        if cls not in _instance:
+            _instance[cls] = cls(*args, **kw)
+        return _instance[cls]
+    return inner
+
+```
+带参数的单例(正确示范)
+```python
+def singleton(cls):
+    _instance = {}
+
+    def inner(*args, **kw):
+        if cls not in _instance:
+            _instance[cls] = cls(*args, **kw)
+        return _instance[cls]
+
+    return inner
+
+```
+
+
+
+使用`pathlib.Path`判断文件是否存在
+```python
+pip install -r requirement.txt
+pip freeze > requirements.txt
+
+```
+聊聊装饰器(上)
+
+项目中遇到的一个装饰器的问题，发现对装饰器这块理解有偏差，写一篇文章做个记录
+
+我们人类现在有两个行为方法，先来实现一下
+```python
+def eat():
+    print("eating")
+
+
+def drink():
+    print("drinking")
+
+if __name__ == "__main__":
+    print(eat)
+    print(eat())        
+```
+首先要理解一下这里`eat`和`eat()`的区别,打印一下看看
+返回结果如下：
+```python
+<function eat at 0x7f95378d5ee0>
+eating
+None
+```
+可以看到`eat`打印出来一个方法对象的内存地址，说明这是一个函数对象。而`eat()`则执行了`print`的操作，由于没有返回值
+则返回了一个`None`。这里的区别就是`eat`代表了一个方法对象，而
+`eat()`则是调用了方法的执行。
+那么在面向对象的思想中，我们可以知道对象可以传递，比如将`eat`
+这个方法传递给一个变量`new_eat`,修改下代码看看
+```python
+print(eat)
+new_eat = eat
+print(new_eat())
+```
+运行，发现返回结果还是和之前一样。可以证实刚才得到的结论。
+
+现有有个需求方又对我们人类提出了新的需求，每次吃饭喝水前都要洗手。简单，直接在前面加个方法就可以了
+```python
+def wash_hands():
+    print("washing hands")
+
+
+def eat():
+    wash_hands()
+    print("eating")
+
+
+def drink():
+    wash_hands()
+    print("drinking")
+
+
+if __name__ == "__main__":
+    eat()
+    drink()
+```
+实现好了，需求方拒绝了，因为我们修改了他们原来的方法，不仅麻烦还容易出问题。
+看着这段话，是不是想到了Java中的AOP，那么在Python该怎么办？
+既然我们最开始知道了方法的传递，是不是可以利用一下？实现如下：
+```python
+def wash_hands(func):
+    print("washing hands")
+    func()
+
+
+def eat():
+    print("eating")
+
+
+def drink():
+    print("drinking")
+
+
+if __name__ == "__main__":
+    wash_hands(eat)
+    wash_hands(drink)
+```
+我们可以调用`wash_hands`这个方法，同时将方法作为一个参数传入，在方法中再进行调用，而且还没有修改原来的代码逻辑。
+这样子岂不是轻轻松松解决了？
+![1600243857929](http://tva1.sinaimg.cn/large/006Z1CDoly1gisk5uppc3j306m076glx.jpg)
+
+需求方还没完，又来说了，你虽然没改了我的代码，但是我一开始调用的是`eat`方法，可是你现在全变成`wash_hands`方法了，这不行啊！
+emmm，行吧，谁叫需求是爹呢？我们再来优化一下，我们可以借鉴刚才的传递方法的方式，再来写一个方法：
+```python
+def wash_hands():
+    print("washing hands")
+
+
+def wrapper(func):
+    def inner():
+        wash_hands()
+        func()
+    return inner
+
+
+def eat():
+    print("eating")
+
+
+def drink():
+    print("drinking")
+
+
+if __name__ == "__main__":
+    eat = wrapper(eat)
+    eat()
+```
+我们来梳理一下这段代码的逻辑，`wrapper(eat)`接受了一个`eat`方法的参数，所以会先运行`wrapper(eat)`,这个方法中还定义了一个方法
+`inner()`，但是我们并没有调用它，所以直接执行最后一句`return inner`，而inner也是一个方法，所以返回后赋值给`eat`的时候，
+`eat`也变成了一个方法，既然是一个方法，我们就可以用`eat()`的形式去调用它。（这里调用的并不是原来的`eat()`方法，
+实际上是`inner()`方法，为什么不会调用原来的方法和Python的运行机制有关，这里暂不讨论）。可以看到我们最后调用的时候，给`eat`外面加了一个
+`wrapper`，看起来像被包裹了起来，所以把它称之为*装饰器*，Python也给出了一个语法糖，可以在方法上直接使用`@wrapper`，就像这样
+```python
+@wrapper
+def eat():
+    print("eating")
+
+```
+这个就等同与 `wrapper(eat)`,
+这时候我们只需要直接调用`eat()`方法即可。
+
+需求方看了看，又再一次发出了质疑，如果不同的人吃饭我有不同的服务呢？
+加个参数不就行了，由于我们之前实际调用的都是`inner`，所以我们也要加上参数。但是如果是他人的方法，写了一大堆参数，咋整？
+来，把全宇宙最无敌的参数拿出来，`*args，**kwargs`， 还有什么参数摆不平？
+
+需求方一脸严肃，又准备开始提需求了.....
+
+![33_8480271](http://tvax2.sinaimg.cn/large/006Z1CDoly1gisly21xlaj306o06owen.jpg)
+
+剩下的下回再说吧，待更新...
+
+------
+
