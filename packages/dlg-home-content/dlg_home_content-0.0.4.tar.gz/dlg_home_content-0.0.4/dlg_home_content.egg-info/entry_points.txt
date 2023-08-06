@@ -1,0 +1,4 @@
+[console_scripts]
+custom_train = dlg_home_content.tv_detection:train_cli
+labelme2coco = dlg_home_content.labelme2coco:labelme2coco_cli
+
