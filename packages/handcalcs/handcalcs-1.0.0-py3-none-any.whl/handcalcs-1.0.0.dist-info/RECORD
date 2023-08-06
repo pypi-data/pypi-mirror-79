@@ -1,0 +1,13 @@
+handcalcs/__init__.py,sha256=gXfLSBugUEqntm6n2XXIjQGOnMGDp_uI0XQRmzpBhVU,782
+handcalcs/conversion_funcs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+handcalcs/decorator.py,sha256=BRzzbBdwppEhnT9ptfzgp8O9FQY8U3d7NjzhL53U6GU,2292
+handcalcs/handcalcs.py,sha256=Y8BJUWRH9enTa2US7-IRyvA3M6u0RlxOIZHUq7ZIpV8,77365
+handcalcs/install_templates.py,sha256=4l2rlvtx60vUAzkyXYS-BqFyGQum6VkGckrVO9RFFRQ,5847
+handcalcs/render.py,sha256=pjQQkAY1h1AUMVAMjspEcpzX9hNXdcQJhv1bKdl9eN8,4261
+handcalcs/sympy_kit.py,sha256=aueDQtoxDmdUJ8IiLhQmrqfzXXvNWsl7SSUaYnWjmJY,4073
+handcalcs/templates/html/full_html_noinputs.tpl,sha256=GYxf781B18deWxl23amowB83RWhRMrw2UmQ7pFLkFuM,2649
+handcalcs/templates/latex/t-makaro_classic_romanoutput_noinput.tplx,sha256=Jsn_gMUdsMKJxi4PdTNLDd6isKjxn6kyYYm5UdxOzxI,3504
+handcalcs-1.0.0.dist-info/LICENSE,sha256=oVhyh_8EReFWsO4FRdRCD8zD4IA6eXGeSPI6YzTjtaI,11525
+handcalcs-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+handcalcs-1.0.0.dist-info/METADATA,sha256=tYLkJ0vuaW8BcScRbpVsfIt08BxaqoBBAy3sXMB46H0,723
+handcalcs-1.0.0.dist-info/RECORD,,
