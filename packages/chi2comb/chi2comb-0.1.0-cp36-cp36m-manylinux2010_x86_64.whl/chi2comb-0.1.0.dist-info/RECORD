@@ -1,0 +1,13 @@
+chi2comb/_testit.py,sha256=4L0zHFnHOlsAO28CEASHKL9BX2FG1iP5cBt5ANto3DM,557
+chi2comb/_chi2comb.py,sha256=_xXzN6IWatbqXnGCQMIHYn1TT2JMdJDY9_kwtrJJh2E,3219
+chi2comb/interface.h,sha256=Qshvxp3cK7GiTMUp7aqAB8pUs_drssOxgasiwbSSVQc,416
+chi2comb/__init__.py,sha256=vJ8mYQnWV0yLQ3FfGaWGbQxKkm2ZzGifwA5z_4hV6wI,2160
+chi2comb/_ffi.abi3.so,sha256=Au8YT_xtjBG6zCYcJoJQADQepZLY9-R1gaG73FFNk2I,38432
+chi2comb/test/test_chi2comb.py,sha256=206WgwC9k49r_YOHBLxJUWKfQ-CDDrgi83XnDd4Pths,708
+chi2comb/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chi2comb-0.1.0.dist-info/LICENSE.md,sha256=BIEYszIwoVtu1pGbhOSco3YYEew0CEAe1vHuH6VzfEQ,1105
+chi2comb-0.1.0.dist-info/top_level.txt,sha256=Qxn1o-As-aRdkC5sv0rz3Z7SsO9PfbzbYUxNZvoDabc,9
+chi2comb-0.1.0.dist-info/RECORD,,
+chi2comb-0.1.0.dist-info/METADATA,sha256=JsA_Piv7f76I0d5B8V9HyiEt9TxQ_s6k0bjFbtXv7Os,2878
+chi2comb-0.1.0.dist-info/WHEEL,sha256=kRpTOiUzoWO2GDfCevceK0ME-mjr5hdBNCWO78h60mA,112
+chi2comb.libs/libchi2comb-81af0ffb.so.0.0.3,sha256=6sddpw9GtMlYqwDnnW2dEasaDu2V-EKRYyiXUfZCjWc,25936
