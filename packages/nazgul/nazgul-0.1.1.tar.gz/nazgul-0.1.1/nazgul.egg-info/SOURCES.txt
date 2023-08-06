@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+nazgul/__init__.py
+nazgul/_version.py
+nazgul/fit.py
+nazgul/nazgul.py
+nazgul/versioneer.py
+nazgul.egg-info/PKG-INFO
+nazgul.egg-info/SOURCES.txt
+nazgul.egg-info/dependency_links.txt
+nazgul.egg-info/requires.txt
+nazgul.egg-info/top_level.txt
+nazgul/stan_models/__init__.py
+nazgul/stan_models/stan_models.py
