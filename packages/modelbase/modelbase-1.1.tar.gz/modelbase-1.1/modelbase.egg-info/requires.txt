@@ -1,0 +1,8 @@
+black
+coverage
+dataclasses
+matplotlib>=3.0.0
+numpy>=1.16
+pandas
+python-libsbml
+scipy
