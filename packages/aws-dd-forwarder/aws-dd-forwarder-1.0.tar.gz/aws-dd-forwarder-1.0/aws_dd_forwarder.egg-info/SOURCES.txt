@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+enhanced_lambda_metrics.py
+lambda_function.py
+settings.py
+setup.py
+aws_dd_forwarder.egg-info/PKG-INFO
+aws_dd_forwarder.egg-info/SOURCES.txt
+aws_dd_forwarder.egg-info/dependency_links.txt
+aws_dd_forwarder.egg-info/requires.txt
+aws_dd_forwarder.egg-info/top_level.txt

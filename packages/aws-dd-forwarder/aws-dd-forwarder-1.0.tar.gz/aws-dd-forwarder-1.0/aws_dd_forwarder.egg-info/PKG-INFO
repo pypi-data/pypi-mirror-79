@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: aws-dd-forwarder
+Version: 1.0
+Summary: Datadog AWS Forwarder Lambda Function
+Home-page: https://github.com/DataDog/datadog-serverless-functions/tree/master/aws/logs_monitoring
+Author: Datadog, Inc.
+Author-email: dev@datadoghq.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: datadog aws lambda layer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
