@@ -1,0 +1,17 @@
+coast/ALTIMETRY.py,sha256=fYDF02gGtKKJTb-Q6P4oy9SS7YxI0EdrNDuUAOvnc0M,5880
+coast/CDF.py,sha256=5pk9zK30VIyxrg1nhwHby81sVJ4bLeNAfBBReqyW99Y,9281
+coast/COAsT.py,sha256=thQkqSNI4AEuLA5UECpV8ovzrZgRs_6IOCtfkjQAocM,15687
+coast/CRPS.py,sha256=3rYprlmo1-m7qyNiS9xZgDW9AUDzxw0sEE_aIGUO4m8,13293
+coast/DOMAIN.py,sha256=uRMQt61XrmJVtoHJh-oewEWswghaYAP8xdsLDAlT1Gc,1954
+coast/INTERNALTIDE.py,sha256=3YClzfiUNUE3-LmDxQU0KByEWLRI_vvVTdlJa_Cz3do,10631
+coast/NEMO.py,sha256=6DHebRk2Aw-WTLgaleXUGxR6gCeXvBtW6T5p17XQcIY,28517
+coast/OBSERVATION.py,sha256=k52XmaIFicHDduFd86tlq2iZkj9EOprnolSddBiMz1A,1623
+coast/TIDEGAUGE.py,sha256=sWzKkmJZ-UAWWetz73FdPSMnEOx1rbjhgRV8DvAyrkk,16272
+coast/TRANSECT.py,sha256=0bOldpbivEYwl-ENZux6eCK4HEwFCorE1mxixmw5eqo,19919
+coast/__init__.py,sha256=OdLTKj5BKmMn36Tj6bJwRQuTLY3oicYIm23Lad3ouPU,329
+coast/interpolate_along_dimension.py,sha256=6359mIzK0oh91esyXNRE4bF0FC6bFTL0vOFKy6xDmkA,2182
+COAsT-0.2.1a32.dist-info/LICENSE,sha256=KMOZil1o6_iuhbYCOueS0fW0fuISfyTWY6T29Zuugns,1090
+COAsT-0.2.1a32.dist-info/METADATA,sha256=bgiPKdDbQkeyr44M30OdJov4fKE9M1teftIa1Iba67Y,1045
+COAsT-0.2.1a32.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+COAsT-0.2.1a32.dist-info/top_level.txt,sha256=aowIGjDd7vhVkdGortu-PK6jnjpCG_in5_KE9ghmYBk,6
+COAsT-0.2.1a32.dist-info/RECORD,,
