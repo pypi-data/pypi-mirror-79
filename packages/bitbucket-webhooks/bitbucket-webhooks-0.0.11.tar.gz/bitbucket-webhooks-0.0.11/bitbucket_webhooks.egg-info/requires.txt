@@ -1,0 +1,9 @@
+marshmallow-objects>=2.2.2
+marshmallow>=3.0.0
+
+[dev]
+pytest
+black
+isort
+flake8
+mypy
