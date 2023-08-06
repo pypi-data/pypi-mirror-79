@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+waterwheel/__init__.py
+waterwheel/waterwheel.py
+waterwheel.egg-info/PKG-INFO
+waterwheel.egg-info/SOURCES.txt
+waterwheel.egg-info/dependency_links.txt
+waterwheel.egg-info/requires.txt
+waterwheel.egg-info/top_level.txt
+waterwheel/resources/doc_bins.msgpack

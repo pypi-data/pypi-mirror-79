@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: waterwheel
+Version: 0.4.0
+Summary: Spacy Pipeline Component for Hydrologic Entity Extraction
+Home-page: https://github.com/gwf-uwaterloo/waterwheel
+Author: Govind Sharma
+Author-email: govind.sharma@uwaterloo.ca
+License: UNKNOWN
+Description: # WATERWHEEL
+        
+        **WATERWHEEL** (**WATER**loo **W**ater and **H**ydrologic **E**ntity **E**xtractor and **L**inker) is a [spaCy](https://spacy.io/) pipeline component that detects rivers, lakes, and other hydrologic entities, and links these entities to [Wikidata](https://www.wikidata.org/).
+        Although an acronym, we typically style the name as WaterWheel to avoid the impression that we're screaming all the time.
+        
+        **PyPI:** https://pypi.org/project/waterwheel/
+        
+        ## Simple Usage
+        
+        WaterWheel is written as a [spaCy module](https://spacy.io/).
+        Sample usage:
+        
+        ```python
+        import spacy
+        from waterwheel import WaterWheel
+        
+        nlp = spacy.load('en_core_web_sm')
+        nlp.add_pipe(WaterWheel(nlp))
+        
+        doc = nlp('The ultimate source of the Mackenzie River is Thutade Lake.')
+        
+        for ent in doc.ents:
+            print(f'{ent.text}, type: {ent.label_}, {ent._.wikilink} [{ent.start_char}, {ent.end_char}]')
+        
+        # Results:
+        # Mackenzie River, type: RIVER, https://www.wikidata.org/wiki/Q3411 [27, 42]
+        # Thutade Lake, type: LAKE, https://www.wikidata.org/wiki/Q7333634 [46, 58]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
