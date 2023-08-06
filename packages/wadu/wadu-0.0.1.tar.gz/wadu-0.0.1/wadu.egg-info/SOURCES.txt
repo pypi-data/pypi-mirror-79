@@ -1,0 +1,9 @@
+README.md
+UNLICENSE
+setup.cfg
+setup.py
+wadu.py
+wadu.egg-info/PKG-INFO
+wadu.egg-info/SOURCES.txt
+wadu.egg-info/dependency_links.txt
+wadu.egg-info/top_level.txt
