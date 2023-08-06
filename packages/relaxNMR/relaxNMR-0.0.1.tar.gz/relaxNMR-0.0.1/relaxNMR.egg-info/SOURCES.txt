@@ -1,0 +1,7 @@
+README.md
+setup.py
+relaxNMR.egg-info/PKG-INFO
+relaxNMR.egg-info/SOURCES.txt
+relaxNMR.egg-info/dependency_links.txt
+relaxNMR.egg-info/requires.txt
+relaxNMR.egg-info/top_level.txt
