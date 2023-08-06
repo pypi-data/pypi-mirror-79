@@ -1,0 +1,4 @@
+#!python
+
+import funfoobar
+print( funfoobar.joke() )

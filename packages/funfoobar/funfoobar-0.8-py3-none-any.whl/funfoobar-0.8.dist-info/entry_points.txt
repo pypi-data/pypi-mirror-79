@@ -1,0 +1,3 @@
+[console_scripts]
+funniest-joke = funfoobar.command_line:main
+
