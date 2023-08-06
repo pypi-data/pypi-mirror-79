@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: matgen_rester
+Version: 0.2.0
+Summary: A python wrapper for matgen dft API
+Home-page: https://github.com
+Author: nscc.gz
+License: LICENSE
+Description: # -*- coding: utf-8 -*-
+        """
+        Created on Fri Sep 11 17:31:43 2020
+        
+        @author: LENOVO
+        """
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+requests
+matplotlib
+networkx
+numpy
+scipy
+PyYAML
