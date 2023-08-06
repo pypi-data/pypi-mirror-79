@@ -1,0 +1,9 @@
+README.md
+setup.py
+gqla/GQLA.py
+gqla/__init__.py
+gqla/settings.py
+gqla.egg-info/PKG-INFO
+gqla.egg-info/SOURCES.txt
+gqla.egg-info/dependency_links.txt
+gqla.egg-info/top_level.txt
