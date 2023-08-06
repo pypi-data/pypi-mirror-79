@@ -1,0 +1,7 @@
+argo-workflows==3.5
+inflection
+pyyaml
+
+# --- development ---
+# black
+# deepdiff
