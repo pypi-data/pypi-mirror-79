@@ -1,0 +1,16 @@
+wagtail_mautic/__init__.py,sha256=p2npUTw6J7UHOG3hDPCBUsMk9akbASEHbYZqpz6FZyc,114
+wagtail_mautic/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+wagtail_mautic/apps.py,sha256=NgMT3rjZgndZSwmU42BPP5HzQDjVnZIrBD9hdCVjY0I,102
+wagtail_mautic/models.py,sha256=wC-KseC1BKXiplNdGzPPOXqJi8BFtQt6tmPa88vVDUY,463
+wagtail_mautic/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+wagtail_mautic/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+wagtail_mautic/migrations/0001_initial.py,sha256=fieZpO17UVKB7Dz1Q3zb8YfR1PytayF2PXEuPUi74Rk,1305
+wagtail_mautic/migrations/0002_auto_20200914_1952.py,sha256=ErGtsGXZGAYM2ZQFJvR9KaGbv9CpPtNmGFwKSmmVL88,495
+wagtail_mautic/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_mautic/templates/wagtail_mautic/mautic_prefetch.html,sha256=GR7E_YPoLRE2t68MKSuhGP8hh27j7P0sMcYTh8foxqo,263
+wagtail_mautic/templates/wagtail_mautic/mautic_tracking.html,sha256=ZJBUA0Nb6aaqGxsQmFgf_1vLH3JnlPKvtuTl-OeSrss,649
+wagtail_mautic/templatetags/mautic_tags.py,sha256=ExGiaeHva2yCBKsf413q29b1840AP8ouK8453jvpfL0,315
+wagtail_mautic-0.2.1.dist-info/LICENSE,sha256=XJWffJNzSCzem0BIsV7KV9vGZgqHbGTsf1AkpU2gX48,1062
+wagtail_mautic-0.2.1.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+wagtail_mautic-0.2.1.dist-info/METADATA,sha256=mpIn5j8P4ysQNvdavqQZh8-cOBEsTrbn7qsal01CHWk,2248
+wagtail_mautic-0.2.1.dist-info/RECORD,,
