@@ -1,0 +1,4 @@
+include SoccerNet/data/SoccerNetGamesTraining.json
+include SoccerNet/data/SoccerNetGamesValidation.json
+include SoccerNet/data/SoccerNetGamesTesting.json
+include SoccerNet/data/SoccerNetGamesChallenge.json
