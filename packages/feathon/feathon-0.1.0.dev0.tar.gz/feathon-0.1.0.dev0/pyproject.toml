@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "feathon"
+version = "0.1.0.dev0"
+description = "The Python feature toolbox."
+authors = [
+    "Maximilian Köhl <koehl@cs.uni-saarland.de>"
+]
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.0"
+mxu = "^0.0.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.8.1"
+black = { version = "^19.10b0", allow-prereleases = true }
+flake8 = "^3.7.9"
+flake8-bugbear = "^20.1.2"
+pep8-naming = "^0.9.1"
+mypy = "^0.761"
+poetry = "^1.0.10"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

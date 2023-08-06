@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: feathon
+Version: 0.1.0.dev0
+Summary: The Python feature toolbox.
+Author: Maximilian Köhl
+Author-email: koehl@cs.uni-saarland.de
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: mxu (>=0.0.6,<0.0.7)
+Description-Content-Type: text/markdown
+
+# Feathon
+
+The Python feature toolbox.
+
