@@ -1,0 +1,3 @@
+[console_scripts]
+alpes_s2_updater = sdeux.updater.raspi:main
+
