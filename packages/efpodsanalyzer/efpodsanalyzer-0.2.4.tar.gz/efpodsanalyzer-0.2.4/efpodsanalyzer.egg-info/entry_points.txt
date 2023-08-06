@@ -1,0 +1,3 @@
+[console_scripts]
+efpodsanalyzer = efpodsanalyzer.efpodsanalyzer:main
+
