@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cornershot
+Version: 0.0.1
+Summary: Library to test network connectivity
+Home-page: https://github.com/zeronetworks/cornershot
+Author: Sagie Dulce, Zero Networks
+Author-email: support@zeronetworks.com
+License: Apache v2
+Keywords: cornershot zerotrust ztna zeronetworks network scanner networkscanner
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3
+Requires-Dist: impacket (==0.9.21)
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+cornershot
+
+
