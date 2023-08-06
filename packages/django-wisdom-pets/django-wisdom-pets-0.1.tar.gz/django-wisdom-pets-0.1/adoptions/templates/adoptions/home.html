@@ -1,0 +1,14 @@
+{% extends 'adoptions/base.html' %}
+
+
+{% block content %}
+
+    {% for pet in pets %}
+<h3><a href="{% url 'pet_detail' pet.id %}">{{ pet.name }}</a></h3>
+    <p> {{ pet.species }}</p>
+    {% if pet.breed %}
+        <p> {{ pet.breed }}</p>
+    {% endif %}
+    {% endfor %}
+
+{% endblock %}

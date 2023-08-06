@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: django-wisdom-pets
+Version: 0.1
+Summary: A Django app to manage pet adoptions.
+Home-page: https://www.ghafftech.com/
+Author: Ghaffaru Mudashiru
+Author-email: mudashiruagm@gmail.com
+License: BSD-3-Clause
+Description: =========
+        Adoptions
+        =========
+        
+        Adoptions is a django app to manage pet adoptions.
+        For now, you can view all pets and view specific pet details
+        
+        Detailed documentation is in the docs directory
+        
+        Quick start
+        -----------
+        1. Add "adoptions" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'adoptions',
+            ]
+        
+        
+        2. Include the adoptions URLconf in your project urls.py like this::
+        
+            path('adoptions/', include('adoptions.urls')),
+        
+        3. Run ``python manage.py migrate`` to create the adoptions models.
+        
+        4. Start the development server and visit http://127.0.0.1:8000/adoptions/
+           to view adoptions.
+        
+        5.
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
