@@ -1,0 +1,11 @@
+qnorm/__init__.py,sha256=K_SuskPUSY-u_EGDceysLDV0qXDaYM6kGSOH25Nmk34,225
+qnorm/cli.py,sha256=y4_cJ6F7jlNzijZyvsep6QQCTeur381yq3Ub8mefIsg,962
+qnorm/quantile_normalize.py,sha256=-Sqh4sibf3RiHDNUGjxq2kewW5Pk0WmRBijieL_uH7k,4097
+qnorm-0.2.1.data/data/LICENSE,sha256=DItcFQ3L9yi7IbTVTvjpJO70OXr9hmKoQd6VeE2dSm8,1080
+qnorm-0.2.1.data/data/pyproject.toml,sha256=8aXwLqu2bjCSTUIlOU2_zLxlyk65AnHCkNF4GBZMYCg,908
+qnorm-0.2.1.dist-info/LICENSE,sha256=DItcFQ3L9yi7IbTVTvjpJO70OXr9hmKoQd6VeE2dSm8,1080
+qnorm-0.2.1.dist-info/METADATA,sha256=6bH3G9ymE1lu2nrvOXWQqmhDWNpfhg3msnlFtpBMm8M,3508
+qnorm-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qnorm-0.2.1.dist-info/entry_points.txt,sha256=FG8AOPkqzidMvybnVhmqn0xMGx41fgYrvq1xWIvaAVc,42
+qnorm-0.2.1.dist-info/top_level.txt,sha256=qhVbKzGK2hdkxuOywbYllwMUIhxkbzEnkKV0vhAYVGs,6
+qnorm-0.2.1.dist-info/RECORD,,
