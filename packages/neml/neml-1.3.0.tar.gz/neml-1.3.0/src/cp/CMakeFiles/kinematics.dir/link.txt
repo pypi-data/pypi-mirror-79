@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -march=native -pedantic -Wextra -Wall -Wno-unused-parameter  -shared -Wl,-soname,kinematics.cpython-37m-x86_64-linux-gnu.so -o ../../neml/cp/kinematics.cpython-37m-x86_64-linux-gnu.so CMakeFiles/kinematics.dir/kinematics_wrap.cxx.o -Wl,-rpath,/home/mark/projects/neml/lib -flto ../../lib/libneml.so -lblas -llapack -lblas -llapack 
