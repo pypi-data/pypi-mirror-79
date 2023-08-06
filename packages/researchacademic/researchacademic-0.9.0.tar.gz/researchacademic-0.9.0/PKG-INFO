@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: researchacademic
+Version: 0.9.0
+Summary: A python library that aims to retrieve data from MicrosoftResearch Academic and parse data to human readable
+Home-page: https://github.com/wyh/pymsresearch
+Author: Samuel Wu
+Author-email: samuel.yh.wu@gmail.com
+License: MIT
+Description: # pymsresearch
+        
+        ## Introduction
+        
+        Microsoft Academic Research query and the entity result is very compliated with a 
+        lot of abbrivations. 
+        
+        This package is to parse the query and the returned result to human readable results.
+        
+        ## Usage
+        
+        ```
+            api_key = ""
+            from researchacademic import ResearchAcademic as RA
+            from researchacademic import EntityParser as EP
+           
+            ra = RA(api_key)
+        
+            result = ra.evaluate(query, timeout=5)
+            print(result)
+        ```
+        
+        
+        ## Test
+        
+        ```
+        	MICROSOFT_API_KEY="" python researchacademic/test_fetcher.py
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
