@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: freeway
+Version: 0.0.1
+Summary: Freeway is a module for managing file system structures with recursive pattern rules.
+Home-page: https://github.com/cesioarg
+Author: Leandro Inocencio
+Author-email: cesio.arg@gmail.com
+License: MIT
+Download-URL: https://github.com/cesioarg/freeway/archive/v1.0.0.tar.gz
+Description: # freeway
+        
+        Freeway is a module for managing file system structures with recursive pattern rules.
+        
+Keywords: filesystem,pipeline,parser,forder,patternvideos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: Spanish
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Filesystems
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
