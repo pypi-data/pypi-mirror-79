@@ -1,0 +1,7 @@
+qrcode[pil]
+
+[test]
+tox
+pytest
+pytest-cov
+pytest-pep8
