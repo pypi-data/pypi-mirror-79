@@ -1,0 +1,267 @@
+{
+    "info": {
+        "sql-injection": {
+            "blind-sql-injection": {
+                "description": "Blind SQL Injection occurs when data input by a user is interpreted as an SQL command rather than as normal data by the backend database",
+                "impact": "May possible to run CRUD operations on arbitrary data or tables from the database. In certain cases it is possible to execute commands on the underlying operating system",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.1, PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "GenericBlind.txt",
+                    "MSSQL_blind.txt",
+                    "MSSQL.txt",
+                    "MySQL_MSSQL.txt",
+                    "payloads-sql-blind-MSSQL-INSERT.txt",
+                    "MySQL.txt"
+                ]
+            },
+            "err0r-based-sql-injection": {
+                "description": "Error-based SQLi is a technique that relies on error messages thrown by the database server to obtain information about the structure of the database",
+                "impact": " May possible for an attacker to enumerate an entire database",
+                "severity": "High",
+                "remedy": "Error messages should be disabled on a live site, or logged to a file with restricted access instead.",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            },
+            "union-based-sql-injection": {
+                "description": "Union based in injection technique leverages the UNION SQL operator to combine the results of two or more SELECT statements into a single result which is then returned as part of the HTTP response.",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database. In certain cases it is possible to execute commands on the underlying operating system",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "oracle.txt",
+                    "xplatform.txt",
+                    "db2-enumeration.txt",
+                    "ms-sql-enumeration.txt",
+                    "mysql-injection-login-bypass.txt",
+                    "mysql-read-local-files.txt",
+                    "postgres-enumeration.txt"
+                ]
+            },
+            "out-of-band-sql-injection": {
+                "description": "Out-of-band SQL Injection occurs when an attacker is unable to use the same channel to launch the attack and gather results. In these requests, the target makes a DNS request to the attacker-owned domain, with the query result inside the sub domain. This means that an attacker does not need to see the result of the injection, but can wait until the database server sends a request instead.",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database.",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            }
+        },
+        "code_execution": {
+            "buffer_overflow": {
+                "description": "The vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted traffic to an affected device.",
+                "impact": "A successful exploit could allow the attacker to gain access to information that they are not authorized to access, make changes to the system that they are not authorized to make, and execute commands on an affected system ",
+                "severity": "Critical",
+                "remedy": "Review all code that accepts input from users via the HTTP request and ensure that it provides appropriate size checking on all such inputs.",
+                "ease of exploitation": "Easier to exploit when a tool is available.",
+                "classification": "PCI 3.1, PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            },
+            "file_upload": {
+                "description": "Successfully uploaded a file and when requesting the uploaded file, code is executed in the context of the web server.",
+                "impact": " System can be compromised by uploading and executing a web-shell which can run commands",
+                "severity": "Critical",
+                "remedy": "Never accept a filename and its extension directly without having a white-list filter. Uploaded directory should not have any 'execute' permission",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-210, CWE-94, HIPAA-94, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": []
+            },
+            "localfile_inclusion": {
+                "description": "Local file inclusion occurs when a file from the target system is injected into the attacked page and interpreted as code",
+                "impact": "An attacker can execute malicious code by abusing the Local File Inclusion vulnerability on the server.",
+                "severity": "Critical",
+                "remedy": "If possible, do not permit file paths to be appended directly. Make them hard-coded or selectable from a limited hard-coded path list via an index variable. If you definitely need dynamic path concatenation, ensure you only accept required characters such as 'a-Z0-9' and do not allow '..' or '/' or '%00' (null byte) or any other similar unexpected characters. It's important to limit the API to allow inclusion only from a directory and directories below it. This ensures that any potential attack cannot perform a directory traversal attack.",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            },
+            "command_injection": {
+                "description": "OS command injection or shell injection is a vulnerability that allows an attacker to execute arbitrary operating system (OS) commands on the server that is running an application",
+                "impact": "A successful exploit could allow the attacker to execute arbitrary commands on the system",
+                "severity": "Critical",
+                "remedy": "Avoid system calls whereever possible. Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            }
+        },
+        "path_traversal": {"path_traversal":{
+            "description": "Directory traversal or Path Traversal is an HTTP attack which allows attackers to access restricted directories and may allow to execute commands outside of the web server’s root directory",
+            "impact": "An attacker can access/view files outside the web server directory, this may further allow information for to attacker to compromise the system",
+            "severity": "Critical",
+            "remedy": "Validate user input. Ideally remove everything but the known good data and filter meta characters from the user input. This will ensure that only what should be entered in the field will be submitted to the server.",
+            "ease of exploitation": "",
+            "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+            "references": [],
+            "file_set": [
+                "path-traversal/path-traversal-windows.txt",
+                "path-traversal/traversals-8-deep-exotic-encoding.txt"
+            ]
+        }},
+        "xss": {"xss":{
+            "description": "Whenever HTML code is generated dynamically, and the user input is not sanitized and is reflected on the page an attacker could insert his own HTML code. The web browser will still show the user's code since it pertains to the website where it is injected. In such case an attacker can easily insert JavaScript code which would run under the site's context. By doing so the attacker is able to access other pages on the same domain and can read data like CSRF-Tokens or the set cookies.",
+            "impact": " It ranges from user's Session Hijacking, and if used in conjunction with a social engineering attack it can also lead to disclosure of sensitive data, CSRF attacks and other security vulnerabilities.",
+            "severity": "Critical",
+            "remedy": "To prevent XSS security vulnerabilities it is very important to apply a context dependent output encoding.",
+            "ease of exploitation": "Several tools available to exploit this kind of issue",
+            "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+            "references": [],
+            "file_set": [
+                "JHADDIX_XSS_WITH_CONTEXT.doc.txt"
+            ]
+        }},
+        "Authentication": {"Authentication":{
+            "description": "Whenever HTML code is generated dynamically, and the user input is not sanitized and is reflected on the page an attacker could insert his own HTML code. The web browser will still show the user's code since it pertains to the website where it is injected. In such case an attacker can easily insert JavaScript code which would run under the site's context. By doing so the attacker is able to access other pages on the same domain and can read data like CSRF-Tokens or the set cookies.",
+            "impact": " It ranges from user's Session Hijacking, and if used in conjunction with a social engineering attack it can also lead to disclosure of sensitive data, CSRF attacks and other security vulnerabilities.",
+            "severity": "Critical",
+            "remedy": "To prevent XSS security vulnerabilities it is very important to apply a context dependent output encoding.",
+            "ease of exploitation": "Several tools available to exploit this kind of issue",
+            "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+            "references": [],
+            "file_set": [
+                "JHADDIX_XSS_WITH_CONTEXT.doc.txt"
+            ]
+        }},
+        "http-protocol": {
+            "CRLF Injection": {
+                "description": "The HTTP headers and the HTML response (the website content) are separated by a specific combination of special characters, namely a carriage return and a line feed which is called CRLF. In a CRLF injection vulnerability attack the attacker inserts both the carriage return and linefeed characters into user input to trick the server, the web application or the user into thinking that an object is terminated and another one has started. As such the CRLF sequences are not malicious characters, however they can be used for malicious intend, for HTTP response splitting etc.",
+                "impact": "The impact of CRLF injections vary and also include all the impacts of Cross-site Scripting to information disclosure. It can also deactivate certain security restrictions like XSS Filters and the Same Origin Policy in the victim's browsers, leaving them susceptible to malicious attacks.",
+                "severity": "Medium",
+                "remedy": "The best prevention technique is to not use users input directly inside response headers. If that is not possible, you should always use a function to encode the CRLF special characters. Another good web application security best practise is to update your programming language to a version that does not allow CR and LF to be injected inside functions that set HTTP headers.",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "http-protocol/crlf-injection.txt"
+                ]
+            },
+            "HTTP Parameter Pollution": {
+                "description": "HTTP Parameter Pollution (HPP) is a Web attack evasion technique that allows an attacker to craft a HTTP request in order to manipulate or retrieve hidden information. This evasion technique is based on splitting an attack vector between multiple instances of a parameter with the same name.",
+                "impact": "Attacker can bypass some web application firewalls rules using Parameter Pollution thus enabling further attacks.",
+                "severity": "Medium",
+                "remedy": "In order to prevent these kinds of vulnerabilities, an extensive and proper input validation should be performed. There are safe methods to conform to with each web technology/language. Moreover, awareness about the fact that clients/users can provide more than one parameter should be raised.",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "http-protocol/hpp.txt"
+                ]
+            },
+            "Information Disclosure": {
+                "description": "Typically, attackers try to throw random values to cause unexpected behavior at web service operations, so the service reveals the system data through error messages or stack traces. The HTTP Method fuzzing checks how your service acts in such cases by sending totally random input data in POST messages repeatedly. If the scan does not reveal any information about possible vulnerabilities, it passes successfully. If the scan has Failed, that means your service is vulnerable in handling random values. This causes security problems or reveals sensitive information.",
+                "impact": "This may cause crash of service or reveals sensitive information via stack trace or error messages",
+                "severity": "Medium",
+                "remedy": "Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "http-protocol/http-protocol-methods.txt"
+                ]
+            },
+            "Information Disclosure": {
+                "description": "Typically, attackers try to throw random values to cause unexpected behavior at web service operations, so the service reveals the system data through error messages or stack traces. The Known URI types fuzzing checks how your service acts in such cases by sending known URI types such as  cvs:, data:, audio: etc., in POST messages repeatedly. If the scan does not reveal any information about possible vulnerabilities, it passes successfully. If the scan has Failed, that means your service is vulnerable in handling these URI types. This causes security problems or reveals sensitive information.",
+                "impact": "This may cause crash of service or reveals sensitive information via stack trace or error messages",
+                "severity": "Medium",
+                "remedy": "Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "http-protocol/known-uri-types.txt"
+                ]
+            }
+        },
+        "os-cmd-execution": {
+            "Command Injection": {
+                "description": "OS command injection or shell injection is a vulnerability that allows an attacker to execute arbitrary operating system (OS) commands on the server that is running an application",
+                "impact": "A successful exploit could allow the attacker to execute arbitrary commands on the system",
+                "severity": "Critical",
+                "remedy": "Avoid system calls whereever possible. Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "os-cmd-execution/command-execution-unix.txt",
+                    "os-cmd-execution/command-injection-template.txt",
+                    "os-cmd-execution/Commands-Linux.txt",
+                    "os-cmd-execution/Commands-OSX.txt",
+                    "os-cmd-execution/Commands-WindowsPowershell.txt",
+                    "os-cmd-execution/Commands-Windows.txt",
+                    "os-cmd-execution/OSCommandInject.Windows.txt",
+                    "os-cmd-execution/shell-delimiters.txt",
+                    "os-cmd-execution/shell-operators.txt",
+                    "os-cmd-execution/source-disc-cmd-exec-traversal.txt",
+                    "os-cmd-execution/useful-commands-unix.txt",
+                    "os-cmd-execution/useful-commands-windows.txt"
+                ]
+            }
+        },
+        "json": {
+            "Informatiton Disclosure": {
+                "description": "Typically, attackers try to throw random values to cause unexpected behavior at web service operations, so the service reveals the system data through error messages or stack traces. The JSON Fuzzing checks how your service acts in such cases by sending totally random input data in POST messages repeatedly. If the scan does not reveal any information about possible vulnerabilities, it passes successfully. If the scan has Failed, that means your service is vulnerable to iterative requests, or cannot correctly handle the JSON data. This causes security problems or reveals sensitive information.",
+                "impact": "This may cause crash of service or reveals sensitive information via stack trace or error messages",
+                "severity": "Medium",
+                "remedy": "Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "json/JSON_Fuzzing.txt"
+                ]
+            }
+        },
+        "control-chars": {
+            "Informatiton Disclosure": {
+                "description": "Typically, attackers try to throw random values to cause unexpected behavior at web service operations, so the service reveals the system data through error messages or stack traces. The Control character fuzzing checks how your service acts in such cases by sending totally random input data in POST messages repeatedly. If the scan does not reveal any information about possible vulnerabilities, it passes successfully. If the scan has Failed, that means your service is vulnerable to handling control characters. This causes security problems or reveals sensitive information.",
+                "impact": "This may cause crash of service or reveals sensitive information via stack trace or error messages",
+                "severity": "Medium",
+                "remedy": "Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "control-chars/HexValsAllBytes.txt",
+                    "control-chars/NullByteRepresentations.txt",
+                    "control-chars/terminal-escape-codes.txt",
+                    "control-chars/true.txt"
+                ]
+            }
+        },
+        "unicode": {
+            "Information Disclosure": {
+                "description": "Typically, attackers try to throw random values to cause unexpected behavior at web service operations, so the service reveals the system data through error messages or stack traces. The Unicode character fuzzing checks how your service acts in such cases by sending totally random input data in POST messages repeatedly. If the scan does not reveal any information about possible vulnerabilities, it passes successfully. If the scan has Failed, that means your service is vulnerable to handling unicode characters. This causes security problems or reveals sensitive information.",
+                "impact": "This may cause crash of service or reveals sensitive information via stack trace or error messages",
+                "severity": "Medium",
+                "remedy": "Input validation is a must to ensure your web application code is not vulnerable to other high-impact vulnerabilities",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": [
+                    "unicode/corrupted.txt",
+                    "unicode/emoji.txt",
+                    "unicode/japanese-emoticon.txt",
+                    "unicode/naughty-unicode.txt",
+                    "unicode/regionalindicators.txt",
+                    "unicode/right-to-left.txt",
+                    "unicode/specialchars.txt",
+                    "unicode/two-byte-chars.txt",
+                    "unicode/upsidedown.txt"
+                ]
+            }
+        }
+    }
+}
