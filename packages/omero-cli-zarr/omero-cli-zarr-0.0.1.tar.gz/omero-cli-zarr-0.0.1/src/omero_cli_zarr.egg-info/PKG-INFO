@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: omero-cli-zarr
+Version: 0.0.1
+Summary: Plugin for exporting images in zarr format.
+Home-page: https://github.com/ome/omero-cli-zarr
+Author: The Open Microscopy Team
+Author-email: ome-devel@lists.openmicroscopy.org.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
