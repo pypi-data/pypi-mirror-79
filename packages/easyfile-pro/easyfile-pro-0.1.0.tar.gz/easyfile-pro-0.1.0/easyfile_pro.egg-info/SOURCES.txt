@@ -1,0 +1,8 @@
+README.md
+setup.py
+easyfile/__init__.py
+easyfile/easyfile.py
+easyfile_pro.egg-info/PKG-INFO
+easyfile_pro.egg-info/SOURCES.txt
+easyfile_pro.egg-info/dependency_links.txt
+easyfile_pro.egg-info/top_level.txt
