@@ -1,0 +1,9 @@
+README.md
+setup.py
+polynomial_regression/__init__.py
+polynomial_regression/polyregress.py
+polynomial_regression.egg-info/PKG-INFO
+polynomial_regression.egg-info/SOURCES.txt
+polynomial_regression.egg-info/dependency_links.txt
+polynomial_regression.egg-info/requires.txt
+polynomial_regression.egg-info/top_level.txt
