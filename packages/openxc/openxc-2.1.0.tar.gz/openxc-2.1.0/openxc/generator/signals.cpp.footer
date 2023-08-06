@@ -1,0 +1,47 @@
+CanCommand* openxc::signals::getCommands() {
+    return COMMANDS[getActiveMessageSet()->index];
+}
+
+int openxc::signals::getCommandCount() {
+    return getActiveMessageSet()->commandCount;
+}
+
+const CanMessageDefinition* openxc::signals::getMessages() {
+    return CAN_MESSAGES[getActiveMessageSet()->index];
+}
+
+int openxc::signals::getMessageCount() {
+    return getActiveMessageSet()->messageCount;
+}
+
+const CanSignal* openxc::signals::getSignals() {
+    return SIGNALS[getActiveMessageSet()->index];
+}
+
+SignalManager* openxc::signals::getSignalManagers() {
+    return SIGNAL_MANAGERS[getActiveMessageSet()->index];
+}
+
+int openxc::signals::getSignalCount() {
+    return getActiveMessageSet()->signalCount;
+}
+
+CanBus* openxc::signals::getCanBuses() {
+    return CAN_BUSES[getActiveMessageSet()->index];
+}
+
+int openxc::signals::getCanBusCount() {
+    return getActiveMessageSet()->busCount;
+}
+
+const CanMessageSet* openxc::signals::getActiveMessageSet() {
+    return &MESSAGE_SETS[getConfiguration()->messageSetIndex];
+}
+
+const CanMessageSet* openxc::signals::getMessageSets() {
+    return MESSAGE_SETS;
+}
+
+int openxc::signals::getMessageSetCount() {
+    return MESSAGE_SET_COUNT;
+}
