@@ -1,0 +1,14 @@
+dvmncards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvmncards/anki_deck.py,sha256=komjEu9E-Nij4HCvLNTvDu2oO7r7NV1cSAULzkPh2G4,2440
+dvmncards/anki/__init__.py,sha256=-YNz_Vc6LHal75K_CKHe3bVkvwmb7q9b2wB3ZRLRfoI,540
+dvmncards/anki/collection.py,sha256=eWm03h6tKww7b8619IUYfgOkhUhKWfJXUj0cDcjPhHM,1553
+dvmncards/anki/consts.py,sha256=gO_tZYUdhOGOym25BJR2whUBm-RhKyVAzPmPcsEKRMI,2346
+dvmncards/anki/decks.py,sha256=TnTRcYTMCA-BLXh3lclfuBKIF3VAN1L1HuVMUpfr_pI,18446
+dvmncards/anki/exporting.py,sha256=bKK53th0uq4X8S8LgZHPRnFHiqXfOyng4lpRAGHyirA,14094
+dvmncards/anki/media.py,sha256=N3fTR5zWR6U5Dcb9lo3H9Uh6I8Oib5UPwGz6h4oWUZc,8085
+dvmncards/anki/notes.py,sha256=bsaI_DlASWYo4LYfsnfjfU8rStIN7SCqfTh8qf8WR8A,4335
+dvmncards-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dvmncards-0.0.2.dist-info/METADATA,sha256=TgvbHeXy7Y9Gwn0v1BU72tHgKFPPNDoKpInR-5unGj0,1850
+dvmncards-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dvmncards-0.0.2.dist-info/top_level.txt,sha256=sw4w_fdnk0rkVjdlemfcVc7nV5SxB0krQPU6roku4RQ,10
+dvmncards-0.0.2.dist-info/RECORD,,
