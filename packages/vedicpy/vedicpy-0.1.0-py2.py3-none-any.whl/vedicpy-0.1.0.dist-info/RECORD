@@ -1,0 +1,16 @@
+vedicpy/__init__.py,sha256=qt_XQeVIqtRTq7myMIsNl3o8TTvzsxyRM6UoRfluuBU,392
+vedicpy/compliment.py,sha256=-_RgpanQbCt5UG1Sb2lhn93qe-trIHUZRQFF8zHJJYg,183
+vedicpy/cube.py,sha256=WQs4JumNjWBqItNJHQlHucDIxHvmwTq76H0H3zwsz6s,799
+vedicpy/cuberoot.py,sha256=F7ay28hIFVaXOMOVHgtMCvChmpeI4fdGZlVuchM3GGI,781
+vedicpy/divisibility.py,sha256=_BKrLPYAOY1hCgqFRZYRK9TT3MmP43JPeRkwzQit-wc,989
+vedicpy/division.py,sha256=EmqdY2B7US07qYeDJLUGUV0wWCHQDVLmcvpul_bZAWY,508
+vedicpy/multiply.py,sha256=Wb7iqMehYie_Hdnq8almiG1LZofIVb56Qu-BGQgrbkM,4421
+vedicpy/recurring.py,sha256=khhCGIHGIZe1RAckz6WbB82eVwNaaUCYkBNbmiYSpj8,646
+vedicpy/square.py,sha256=jsH3OT64-TBEjQLQaHdcNj98gzZTUYclaiCzNjLGvec,1080
+vedicpy/squareroot.py,sha256=4bQpKrq6ixasbEsv_4JERWLrMsOStZnGtuIxPSsMxwI,1622
+vedicpy-0.1.0.dist-info/AUTHORS.rst,sha256=bHPYUC2ocnXHDa53AsQOf08CF3ZlbxQBEi_2OjGvqIw,170
+vedicpy-0.1.0.dist-info/LICENSE,sha256=VJRnWXfKSnFre-72qZQ2_F2FzuUE3WPwfE4U_S1uOCk,1522
+vedicpy-0.1.0.dist-info/METADATA,sha256=UwXmaHQoU82CCPsTXjoXmaeaLHjpke4_Ryx8kX4cf5c,2304
+vedicpy-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+vedicpy-0.1.0.dist-info/top_level.txt,sha256=yQEUT4p3xG97ICFJ4dz2My_sqQazstcE8XuCCJQNwQM,8
+vedicpy-0.1.0.dist-info/RECORD,,
