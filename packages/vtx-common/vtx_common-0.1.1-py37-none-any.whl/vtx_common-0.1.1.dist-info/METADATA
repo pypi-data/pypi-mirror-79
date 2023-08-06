@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vtx-common
+Version: 0.1.1
+Summary: Vertex project tools to assist with packaging.
+Home-page: https://github.com/vertexproject/common-tools
+Author: The Vertex Project LLC
+Author-email: epiphyte+tools@vertex.link
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Software Distribution
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PyGithub (==1.53)
+Requires-Dist: pytest (<6.0.0,>=5.0.0)
+Requires-Dist: autopep8 (<2.0.0,>=1.5.3)
+Requires-Dist: pytest-cov (<3.0.0,>=2.9.0)
+Requires-Dist: pycodestyle (<3.0.0,>=2.6.0)
+Requires-Dist: bump2version (<1.1.0,>=1.0.0)
+Requires-Dist: pytest-xdist (<2.0.0,>=1.32.0)
+
+UNKNOWN
+
+
