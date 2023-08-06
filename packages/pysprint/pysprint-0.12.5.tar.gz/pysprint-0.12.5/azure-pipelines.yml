@@ -1,0 +1,42 @@
+trigger:
+- master
+- WFT
+
+pool:
+  vmImage: 'ubuntu-latest'
+strategy:
+  matrix:
+    Python36:
+      python.version: '3.6'
+    Python37:
+      python.version: '3.7'
+    Python38:
+      python.version: '3.8'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '$(python.version)'
+  displayName: 'Use Python $(python.version)'
+
+
+- script: |
+    sudo cp .ci/.azure-pipelines/xvfb.init /etc/init.d/xvfb
+    sudo chmod +x /etc/init.d/xvfb
+    sudo update-rc.d xvfb defaults
+    sudo service xvfb start
+  displayName: 'Start X Virtual Frame Buffer'
+
+- script: |
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    pip install lmfit numba flake8 coverage codecov pytest
+    python setup.py install
+  displayName: 'Install dependencies'
+
+- script: |
+    flake8 pysprint/ --count --select=E9,F63,F72,F82 --show-source --statistics
+    cd pysprint/tests
+    pytest
+  displayName: 'unittest'
+

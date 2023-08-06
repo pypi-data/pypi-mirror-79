@@ -1,0 +1,11 @@
+numpy>=1.16.6
+scipy
+matplotlib
+pandas
+Jinja2
+
+[optional]
+numba
+lmfit
+pytest
+dask
