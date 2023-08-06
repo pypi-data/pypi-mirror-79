@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: openweatherpy
+Version: 0.0.1
+Summary: This module helps to retrieve weather reports from openweathermap.org.
+Home-page: https://github.com/Ajay2810-hub/OpenweatherPy
+Author: Ajay Lingayat
+Author-email: lingayatajay2810@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+# OpenweatherPy
+
+
