@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hoursofoperation
+Version: 0.1.12
+Summary: Utilities for loading and doing calculations with a partner's hours of operations configration.
+Home-page: https://github.com/Brightmd/hoursofoperation
+Author: Ashley Fisher
+Author-email: fish.ash@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: hours
+Platform: UNKNOWN
+Provides-Extra: dev
