@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wapt-tools
+Version: 1.5.2
+Summary: "WAPT packaging utilities."
+Home-page: https://github.com/lrobinot/wapt-tools
+Author: Ludovic ROBINOT
+Author-email: lrobinot@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: <3,>=2.7
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: python-gitlab
+
+UNKNOWN
+
+
