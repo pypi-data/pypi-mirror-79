@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+sheet-sql-report/__init__.py
+sheet-sql-report/sheet2sql.py
+sheet_sql_report.egg-info/PKG-INFO
+sheet_sql_report.egg-info/SOURCES.txt
+sheet_sql_report.egg-info/dependency_links.txt
+sheet_sql_report.egg-info/top_level.txt
