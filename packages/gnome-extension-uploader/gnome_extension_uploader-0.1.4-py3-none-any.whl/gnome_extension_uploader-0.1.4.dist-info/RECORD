@@ -1,0 +1,7 @@
+gnome_extension_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnome_extension_uploader/cli.py,sha256=54Lsvh7rEujPtaHXwCF-RNGJQvZ5uLxc--kaw1FH6-o,2723
+gnome_extension_uploader/utils.py,sha256=22ceq9lM6aNTfVn6lqJe9yMJMHDwO3oIRk21sCthBQ4,1410
+gnome_extension_uploader-0.1.4.dist-info/entry_points.txt,sha256=T8PPg4sq1Th6PBx_Bs5RJzJ-8pBIJ8hroAz_UGFHk0E,56
+gnome_extension_uploader-0.1.4.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+gnome_extension_uploader-0.1.4.dist-info/METADATA,sha256=i7JyUqPws85wj7SidrezeiiqcaZiWc87Ukhxgns2nos,411
+gnome_extension_uploader-0.1.4.dist-info/RECORD,,
