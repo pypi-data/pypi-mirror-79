@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+src/pytal.egg-info/PKG-INFO
+src/pytal.egg-info/SOURCES.txt
+src/pytal.egg-info/dependency_links.txt
+src/pytal.egg-info/top_level.txt
