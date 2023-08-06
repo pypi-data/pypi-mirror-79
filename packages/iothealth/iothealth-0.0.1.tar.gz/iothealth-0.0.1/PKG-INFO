@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: iothealth
+Version: 0.0.1
+Summary: IoT Health
+Home-page: https://github.com/iot-spectator/iot-health
+Author: IoT Spectator
+License: MIT
+Description: ##################
+        IoT Health Library
+        ##################
+        
+        IoT Health is a library which provides the health information for supported IoT devices.
+        
+        
+        
+Keywords: IoT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
