@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+ipyfetch.json
+setup.cfg
+setup.py
+ipyfetch/__init__.py
+ipyfetch/_version.py
+ipyfetch/fetch.py
+ipyfetch.egg-info/PKG-INFO
+ipyfetch.egg-info/SOURCES.txt
+ipyfetch.egg-info/dependency_links.txt
+ipyfetch.egg-info/not-zip-safe
+ipyfetch.egg-info/requires.txt
+ipyfetch.egg-info/top_level.txt
+ipyfetch/static/extension.js
+ipyfetch/static/index.js
+ipyfetch/static/index.js.map
