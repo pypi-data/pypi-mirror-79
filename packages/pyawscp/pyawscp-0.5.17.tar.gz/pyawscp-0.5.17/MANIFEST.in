@@ -1,0 +1,3 @@
+include pyawscp/pymxgraph/css/*
+include pyawscp/pymxgraph/images/*
+include pyawscp/pymxgraph/js/*
