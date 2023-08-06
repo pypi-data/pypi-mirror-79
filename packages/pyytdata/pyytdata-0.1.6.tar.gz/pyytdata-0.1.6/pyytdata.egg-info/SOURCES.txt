@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+pyytdata/__init__.py
+pyytdata/pyytdata.py
+pyytdata.egg-info/PKG-INFO
+pyytdata.egg-info/SOURCES.txt
+pyytdata.egg-info/dependency_links.txt
+pyytdata.egg-info/requires.txt
+pyytdata.egg-info/top_level.txt
+util/__init__.py
+util/chnlinfo.py
+util/info.py
+util/vidinfo.py
