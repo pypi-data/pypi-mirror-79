@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=yU2nP1fzaPBLN2Cju68LlL-UpRPcFatuvdGZaGfE87g,319
+tests/test_filter.py,sha256=fR1-tepdypJc2jNb7DJ-IUmGNDuWeYFFqvFF6m9V8pQ,1719
+thaidp/__init__.py,sha256=0vCp9X92oy9LDRjYkpHac3Wf_6inetQn5ZlGvBDvSBs,51
+thaidp/clean.py,sha256=CP-JwFpjk7980BAGjDxmwlaI8KHZ0J29ddW6C-8jrN0,1702
+thaidp/filter.py,sha256=jRPLfqVGMEiLEdNdS2mnNU_7PtvdFdhD_593KPYnC1Q,1654
+thaidp/gen.py,sha256=-OfdJZR2gBttsAMDVJADI7cEY8L0xsKlX9ZtatTSmCU,1832
+thaidp/rules.py,sha256=r6DdblFgaL_90yBDT60lf3l5F1fOeYdTRRyKb73jTOc,494
+thaidp-0.1.dev0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thaidp-0.1.dev0.dist-info/METADATA,sha256=avoo3u1am3OdUhPcAL83KIckXDCk6mJJoejJtRgPWdQ,719
+thaidp-0.1.dev0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+thaidp-0.1.dev0.dist-info/top_level.txt,sha256=B1nbRR_HMNT8BfQGM4S1bqTnLXivpKB0jOebzaJ4-fc,13
+thaidp-0.1.dev0.dist-info/RECORD,,

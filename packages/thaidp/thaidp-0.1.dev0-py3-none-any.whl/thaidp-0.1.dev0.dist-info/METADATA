@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: thaidp
+Version: 0.1.dev0
+Summary: ThaiDP = Thai Data Privacy Tool For Python
+Home-page: https://github.com/wannaphong/Thai-Data-Privacy
+Author: Wannaphong Phatthiyaphaibun
+Author-email: wannaphong@kkumail.com
+License: Apache Software License 2.0
+Keywords: Data Privacy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: Implementation
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: pythainlp (>=2.1)
+Requires-Dist: Faker
+
+# Thai-Data-Privacy
+ThaiDP = Thai Data Privacy Tool For Python
+
+
