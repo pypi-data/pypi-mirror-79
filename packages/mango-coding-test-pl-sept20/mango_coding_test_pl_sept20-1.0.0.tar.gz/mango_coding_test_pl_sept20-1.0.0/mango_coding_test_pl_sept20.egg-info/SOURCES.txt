@@ -1,0 +1,9 @@
+README.md
+setup.py
+mango_coding_test_pl_sept20.egg-info/PKG-INFO
+mango_coding_test_pl_sept20.egg-info/SOURCES.txt
+mango_coding_test_pl_sept20.egg-info/dependency_links.txt
+mango_coding_test_pl_sept20.egg-info/requires.txt
+mango_coding_test_pl_sept20.egg-info/top_level.txt
+mango_test/__init__.py
+mango_test/mango_test.py
