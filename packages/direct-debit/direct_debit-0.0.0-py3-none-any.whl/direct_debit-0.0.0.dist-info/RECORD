@@ -1,0 +1,8 @@
+direct_debit/__init__.py,sha256=ZhXVObu7Hy36cAKkcaWxl2-oVdLN-VjyA5Jhfl62V5Y,117
+direct_debit/classes.py,sha256=M4q5ZtuBim5A3c6UF22ByT-AHOYjG4LlqBmO-yTTOxg,120
+direct_debit/client.py,sha256=445ycRCITybW7srP4Xae5wCLZqX5DejpGpluQkLabdU,1003
+direct_debit-0.0.0.dist-info/LICENCE,sha256=6FAhm1k9-xxAYCk-H4jKFWVnKepH-4ykrX1krxG7atc,1079
+direct_debit-0.0.0.dist-info/METADATA,sha256=mbp3UHc8QB7iQBG3pEVpFKPAUHgxXs4iejp83RVF0bw,1504
+direct_debit-0.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+direct_debit-0.0.0.dist-info/top_level.txt,sha256=yCRqnlvtQb2wN7Lmd0HWF3m6Rmp3MB96E1pfTXbUly4,13
+direct_debit-0.0.0.dist-info/RECORD,,
