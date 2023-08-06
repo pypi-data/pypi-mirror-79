@@ -1,0 +1,1639 @@
+{
+    "pilot": [
+        {
+            "_id": "pilot.0000",
+            "cfg": {
+                "agent_launch_method": "FORK",
+                "app_comm": [],
+                "bridges": {
+                    "agent_executing_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_schedule_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "agent_scheduling_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_staging_input_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_staging_output_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_unschedule_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "control_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "funcs_req_queue": {
+                        "bulk_size": 1,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "funcs_res_queue": {
+                        "bulk_size": 1,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "state_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    }
+                },
+                "bulk_collection_size": 1024,
+                "bulk_collection_time": 1.0,
+                "bulk_size": 1024,
+                "bulk_time": 1.0,
+                "components": {
+                    "agent_executing": {
+                        "count": 1
+                    },
+                    "agent_scheduling": {
+                        "count": 1
+                    },
+                    "agent_staging_input": {
+                        "count": 1
+                    },
+                    "agent_staging_output": {
+                        "count": 1
+                    },
+                    "update": {
+                        "count": 1
+                    }
+                },
+                "cores": 32,
+                "cores_per_node": 8,
+                "cu_post_exec": null,
+                "cu_pre_exec": null,
+                "cu_tmp": null,
+                "db_poll_sleeptime": 2.0,
+                "dburl": "mongodb://localhost/am",
+                "debug": 10,
+                "export_to_cu": null,
+                "gpus": 0,
+                "gpus_per_node": 2,
+                "heartbeat": {
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "lfs_path_per_node": "/tmp",
+                "lfs_size_per_node": 1024,
+                "logdir": ".",
+                "mode": "shared",
+                "mpi_launch_method": "MPIRUN",
+                "owner": "agent.0",
+                "pid": "pilot.0000",
+                "pilot_sandbox": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+                "pmgr": "pmgr.0000",
+                "resource_cfg": {
+                    "agent_config": "default",
+                    "agent_launch_method": "FORK",
+                    "agent_scheduler": "CONTINUOUS",
+                    "agent_spawner": "POPEN",
+                    "cores_per_node": 8,
+                    "default_remote_workdir": "$HOME",
+                    "description": "Your local machine.",
+                    "fake_resources": true,
+                    "filesystem_endpoint": "file://localhost/",
+                    "gpus_per_node": 2,
+                    "job_manager_endpoint": "fork://localhost/",
+                    "lfs_path_per_node": "/tmp",
+                    "lfs_size_per_node": 1024,
+                    "local": {
+                        "filesystem_endpoint": "file://localhost/",
+                        "job_manager_endpoint": "fork://localhost/"
+                    },
+                    "memory_per_node": 4096,
+                    "mpi_launch_method": "MPIRUN",
+                    "notes": "To use the ssh schema, make sure that ssh access to localhost is enabled.",
+                    "pre_bootstrap_1": [
+                        "export RP_APP_TUNNEL_ADDR=144.76.72.175:27017",
+                        "echo  $RP_APP_TUNNEL_ADDR"
+                    ],
+                    "python_dist": "default",
+                    "resource_manager": "FORK",
+                    "rp_version": "local",
+                    "schemas": [
+                        "local",
+                        "ssh"
+                    ],
+                    "ssh": {
+                        "filesystem_endpoint": "sftp://localhost/",
+                        "job_manager_endpoint": "ssh://localhost/"
+                    },
+                    "task_launch_method": "FORK",
+                    "virtenv_mode": "create"
+                },
+                "resource_manager": "FORK",
+                "resource_sandbox": "/home/merzky/radical.pilot.sandbox",
+                "runtime": 60,
+                "scheduler": "CONTINUOUS",
+                "session_sandbox": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011",
+                "sid": "rp.session.rivendell.merzky.018520.0011",
+                "spawner": "POPEN",
+                "target": "local",
+                "task_launch_method": "FORK"
+            },
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "pmgr",
+            "description": {
+                "access_schema": null,
+                "app_comm": [],
+                "candidate_hosts": [],
+                "cleanup": false,
+                "cores": 32,
+                "exit_on_error": true,
+                "gpus": 0,
+                "input_staging": [],
+                "job_name": null,
+                "layout": "default",
+                "memory": 0,
+                "output_staging": [],
+                "prepare_env": {},
+                "project": null,
+                "queue": null,
+                "resource": "local.localhost",
+                "runtime": 60,
+                "sandbox": null
+            },
+            "js_hop": "fork://localhost/",
+            "js_url": "fork://localhost/",
+            "log": null,
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "pmgr": "pmgr.0000",
+            "resource": "local.localhost",
+            "resource_details": {
+                "lm_detail": null,
+                "lm_info": {
+                    "FORK": {
+                        "version": "0.42",
+                        "version_detail": "There is no spoon"
+                    }
+                },
+                "rm_info": {
+                    "agent_nodes": {},
+                    "cores_per_node": 8,
+                    "gpus_per_node": 2,
+                    "lfs_per_node": {
+                        "path": "/tmp",
+                        "size": 1024
+                    },
+                    "lm_info": {
+                        "version_info": {
+                            "FORK": {
+                                "version": "0.42",
+                                "version_detail": "There is no spoon"
+                            }
+                        }
+                    },
+                    "mem_per_node": 0,
+                    "name": "Fork",
+                    "node_list": [
+                        [
+                            "localhost",
+                            "localhost_0"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_1"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_2"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_3"
+                        ]
+                    ]
+                }
+            },
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "session": "rp.session.rivendell.merzky.018520.0011",
+            "session_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011",
+            "state": "PMGR_ACTIVE",
+            "states": [
+                "NEW",
+                "PMGR_LAUNCHING_PENDING",
+                "PMGR_LAUNCHING",
+                "PMGR_ACTIVE_PENDING",
+                "PMGR_ACTIVE",
+                "PMGR_ACTIVE"
+            ],
+            "stderr": null,
+            "stdout": null,
+            "type": "pilot",
+            "uid": "pilot.0000",
+            "unit_ids": [
+                "unit.000000",
+                "unit.000001",
+                "unit.000002",
+                "unit.000003",
+                "unit.000004",
+                "unit.000005",
+                "unit.000006",
+                "unit.000007",
+                "unit.000008",
+                "unit.000009"
+            ]
+        }
+    ],
+    "pmgr": [
+        {
+            "_id": "pmgr.0000",
+            "cfg": {
+                "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                "bridges": {
+                    "pmgr_launching_queue": {
+                        "bulk_size": 0,
+                        "channel": "pmgr_launching_queue",
+                        "cmgr": "cmgr.0001",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:35211",
+                            "addr_sub": "tcp://192.168.43.127:34001",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "pmgr_launching_queue"
+                    }
+                },
+                "components": {
+                    "pmgr_launching": {
+                        "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                        "cmgr": "cmgr.0001",
+                        "count": 1,
+                        "db_poll_sleeptime": 10.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:35211",
+                            "addr_sub": "tcp://192.168.43.127:34001",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pmgr_launching",
+                        "owner": "pmgr.0000",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "uid": "pmgr_launching.0000"
+                    }
+                },
+                "db_poll_sleeptime": 10.0,
+                "dburl": "mongodb://localhost/am",
+                "heartbeat": {
+                    "addr_pub": "tcp://192.168.43.127:35211",
+                    "addr_sub": "tcp://192.168.43.127:34001",
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "owner": "pmgr.0000",
+                "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                "sid": "rp.session.rivendell.merzky.018520.0011",
+                "uid": "pmgr.0000"
+            },
+            "type": "pmgr",
+            "uid": "pmgr.0000"
+        }
+    ],
+    "session": {
+        "_id": "rp.session.rivendell.merzky.018520.0011",
+        "cfg": {
+            "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+            "bridges": {
+                "control_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                },
+                "log_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                },
+                "state_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                }
+            },
+            "bulk_size": 1024,
+            "bulk_time": 1.0,
+            "client_sandbox": "/mnt/data/home/merzky/radical/radical.pilot.test",
+            "components": {
+                "update": {
+                    "count": 1
+                }
+            },
+            "dburl": "mongodb://localhost/am",
+            "default_dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test",
+            "heartbeat": {
+                "interval": 1.0,
+                "timeout": 60.0
+            },
+            "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+            "record": null,
+            "session_base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+            "sid": "rp.session.rivendell.merzky.018520.0011"
+        },
+        "connected": 1600179125.1457586,
+        "created": 1600179125.1435173,
+        "metadata": [
+            {
+                "radical_stack": {
+                    "py": "3.8.5 (default, Aug  5 2020, 08:36:46)  [GCC 7.3.0]",
+                    "rp": "1.5.4-v1.5.4-3-g134b6a9bb@feature-prep_env",
+                    "rs": "1.5.2-v1.5.2-32-g3ebb0cb1@devel",
+                    "ru": "1.5.3-v1.5.3-1-g8ee4558@fix-munch_defaults"
+                }
+            }
+        ],
+        "type": "session",
+        "uid": "rp.session.rivendell.merzky.018520.0011"
+    },
+    "umgr": [
+        {
+            "_id": "umgr.0000",
+            "cfg": {
+                "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                "bridges": {
+                    "umgr_reschedule_pubsub": {
+                        "bulk_size": 0,
+                        "channel": "umgr_reschedule_pubsub",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pubsub",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "umgr_reschedule_pubsub"
+                    },
+                    "umgr_scheduling_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_scheduling_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "umgr_scheduling_queue"
+                    },
+                    "umgr_staging_input_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_staging_input_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "umgr_staging_input_queue"
+                    },
+                    "umgr_staging_output_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_staging_output_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "umgr_staging_output_queue"
+                    },
+                    "umgr_unschedule_pubsub": {
+                        "bulk_size": 0,
+                        "channel": "umgr_unschedule_pubsub",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pubsub",
+                        "log_level": "error",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "stall_hwm": 0,
+                        "uid": "umgr_unschedule_pubsub"
+                    }
+                },
+                "bulk_collection_size": 100,
+                "bulk_collection_time": 1.0,
+                "components": {
+                    "umgr_scheduling": {
+                        "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_scheduling",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "uid": "umgr_scheduling.0000"
+                    },
+                    "umgr_staging_input": {
+                        "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_staging_input",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "uid": "umgr_staging_input.0000"
+                    },
+                    "umgr_staging_output": {
+                        "base": "/mnt/data/home/merzky/radical/radical.pilot.test",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://192.168.43.127:40963",
+                            "addr_sub": "tcp://192.168.43.127:36957",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_staging_output",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018520.0011",
+                        "uid": "umgr_staging_output.0000"
+                    }
+                },
+                "db_poll_sleeptime": 1.0,
+                "dburl": "mongodb://localhost/am",
+                "heartbeat": {
+                    "addr_pub": "tcp://192.168.43.127:40963",
+                    "addr_sub": "tcp://192.168.43.127:36957",
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "owner": "umgr.0000",
+                "path": "/mnt/data/home/merzky/radical/radical.pilot.test/rp.session.rivendell.merzky.018520.0011",
+                "scheduler": "round_robin",
+                "sid": "rp.session.rivendell.merzky.018520.0011",
+                "uid": "umgr.0000"
+            },
+            "type": "umgr",
+            "uid": "umgr.0000"
+        }
+    ],
+    "unit": [
+        {
+            "_id": "unit.000000",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000000",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000000/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000000/"
+        },
+        {
+            "_id": "unit.000001",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                1
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000001",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000001/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000001/"
+        },
+        {
+            "_id": "unit.000002",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                2
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000002",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000002/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000002/"
+        },
+        {
+            "_id": "unit.000003",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                3
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000003",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000003/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000003/"
+        },
+        {
+            "_id": "unit.000004",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                4
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000004",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000004/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000004/"
+        },
+        {
+            "_id": "unit.000005",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                5
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000005",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000005/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000005/"
+        },
+        {
+            "_id": "unit.000006",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                6
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000006",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000006/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000006/"
+        },
+        {
+            "_id": "unit.000007",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                7
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000007",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000007/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000007/"
+        },
+        {
+            "_id": "unit.000008",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_1"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000008",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000008/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000008/"
+        },
+        {
+            "_id": "unit.000009",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "agent",
+            "description": {
+                "arguments": [
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 1,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "/mnt/data/home/merzky/radical/radical.pilot.test/examples/hello_rp.sh",
+                "gpu_process_type": "",
+                "gpu_processes": 0,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "env_1",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {}
+            },
+            "exit_code": null,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 8,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                1
+                            ]
+                        ],
+                        "gpu_map": [],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_1"
+                    }
+                ]
+            },
+            "state": "FAILED",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "FAILED"
+            ],
+            "stderr": "\nPilot cannot start compute unit:\nnot enough arguments for format string\nTraceback (most recent call last):\n  File \"/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/rp_install/lib/python3.8/site-packages/radical/pilot/agent/executing/popen.py\", line 144, in _handle_unit\n    raise ValueError('invalid named env %s for task %s'\nTypeError: not enough arguments for format string\n",
+            "stdout": null,
+            "tuple_size": [
+                1,
+                1,
+                0,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000009",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000009/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018520.0011/pilot.0000/unit.000009/"
+        }
+    ]
+}
