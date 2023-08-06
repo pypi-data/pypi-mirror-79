@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+micro_center_price_monitor/__init__.py
+micro_center_price_monitor/__main__.py
+micro_center_price_monitor/custom_exceptions.py
+micro_center_price_monitor/data.py
+micro_center_price_monitor/mail.py
+micro_center_price_monitor/price_checker.py
+micro_center_price_monitor/scraper.py
+micro_center_price_monitor.egg-info/PKG-INFO
+micro_center_price_monitor.egg-info/SOURCES.txt
+micro_center_price_monitor.egg-info/dependency_links.txt
+micro_center_price_monitor.egg-info/entry_points.txt
+micro_center_price_monitor.egg-info/requires.txt
+micro_center_price_monitor.egg-info/top_level.txt

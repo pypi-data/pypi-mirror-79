@@ -1,0 +1,3 @@
+include *.in
+include *.txt
+recursive-include micro_center_price_monitor *.py
