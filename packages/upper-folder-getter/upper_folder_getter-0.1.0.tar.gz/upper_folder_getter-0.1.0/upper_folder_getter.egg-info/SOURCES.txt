@@ -1,0 +1,8 @@
+README.md
+setup.py
+upper_folder_getter/__init__.py
+upper_folder_getter/upper_folder_getter.py
+upper_folder_getter.egg-info/PKG-INFO
+upper_folder_getter.egg-info/SOURCES.txt
+upper_folder_getter.egg-info/dependency_links.txt
+upper_folder_getter.egg-info/top_level.txt
