@@ -1,0 +1,10 @@
+README.md
+setup.py
+internalmonologue.egg-info/PKG-INFO
+internalmonologue.egg-info/SOURCES.txt
+internalmonologue.egg-info/dependency_links.txt
+internalmonologue.egg-info/entry_points.txt
+internalmonologue.egg-info/requires.txt
+internalmonologue.egg-info/top_level.txt
+logue/__init__.py
+logue/logue.py
