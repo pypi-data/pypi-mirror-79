@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+kappy/__init__.py
+kappy/bench.py
+kappy/dummy.c
+kappy/kappa_common.py
+kappy/kappa_graph.py
+kappy/kappa_rest.py
+kappy/kappa_std.py
+kappy.egg-info/PKG-INFO
+kappy.egg-info/SOURCES.txt
+kappy.egg-info/dependency_links.txt
+kappy.egg-info/not-zip-safe
+kappy.egg-info/requires.txt
+kappy.egg-info/top_level.txt
