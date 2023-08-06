@@ -1,0 +1,7 @@
+connio
+
+[simulator]
+sinstruments>=1
+
+[tango]
+pytango>=9
