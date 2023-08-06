@@ -1,0 +1,8 @@
+README.md
+setup.py
+auto_removable_pathlib/__init__.py
+auto_removable_pathlib/auto_removable_path.py
+auto_removable_pathlib.egg-info/PKG-INFO
+auto_removable_pathlib.egg-info/SOURCES.txt
+auto_removable_pathlib.egg-info/dependency_links.txt
+auto_removable_pathlib.egg-info/top_level.txt

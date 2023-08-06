@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: auto_removable_pathlib
+Version: 0.0.7
+Summary: The alternative implementation of pathlib.Path's context manager that automatically removes open file or dir after leaving a 'with ... as' statement
+Home-page: https://github.com/DobroAlex/auto_removable_pathlib
+Author: Alex Konsmanov
+Author-email: alexkoshernosiegov@gmail.com
+License: UNKNOWN
+Description: # auto_removable_pathlib
+        The modification for python3 -> pathlib that automaticaly removes a Path after leaving a "with ... as " statement 
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
