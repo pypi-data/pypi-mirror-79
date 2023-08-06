@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2018] (kpathsea + Thai support).
+Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
+Scanning input file stallings_graphs.idx....done (83 entries accepted, 0 rejected).
+Sorting entries....done (575 comparisons).
+Generating output file stallings_graphs.ind....done (170 lines written, 0 warnings).
+Output written in stallings_graphs.ind.
+Transcript written in stallings_graphs.ilg.

@@ -1,0 +1,13 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Finitely generated subgroups of free groups}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}The class \sphinxstyleliteralintitle {\sphinxupquote {FinitelyGeneratedSubgroup}}}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Ancillary functions about words}{15}{section.1.2}
+\contentsline {section}{\numberline {1.3}Ancillary functions about automata}{24}{section.1.3}
+\contentsline {section}{\numberline {1.4}The folding algorithm}{36}{section.1.4}
+\contentsline {section}{\numberline {1.5}Connecting with the \sphinxstyleliteralintitle {\sphinxupquote {train\_track}} package}{39}{section.1.5}
+\contentsline {chapter}{\numberline {2}Partial injections}{43}{chapter.2}
+\contentsline {section}{\numberline {2.1}The class \sphinxstyleliteralintitle {\sphinxupquote {PartialInjection}}}{43}{section.2.1}
+\contentsline {section}{\numberline {2.2}Ancillary functions about partial injections}{46}{section.2.2}
+\contentsline {chapter}{\numberline {3}Indices and tables}{49}{chapter.3}
+\contentsline {chapter}{Python Module Index}{51}{chapter*.80}
+\contentsline {chapter}{Index}{53}{chapter*.82}

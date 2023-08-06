@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: stallings-graphs
+Version: 0.1
+Summary: Stallings graph representation of finitely generated subgroups of free groups
+Home-page: https://github.com/...
+Author: Pascal Weil
+Author-email: pascal.weil@labri.fr
+License: GPLv2+
+Description: ================
+        Stallings Graphs
+        ================
+        
+        A package to deal with Stallings graphs, representing finitely generated subgroups of free groups.
+        
+        
+Keywords: SageMath Stallings Graphs Finitely Generated Subgroups Free Groups
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 2.7

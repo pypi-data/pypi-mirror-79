@@ -1,0 +1,170 @@
+\begin{sphinxtheindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item alphabetic\_inverse() (in module stallings\_graphs.about\_words), \hyperpage{16}
+  \item ambient\_group\_rank() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{5}
+  \item are\_equal\_as\_rooted\_unlabeled() (in module stallings\_graphs.about\_automata), 
+		\hyperpage{25}
+
+  \indexspace
+  \bigletter B
+  \item basis() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{5}
+  \item basis\_from\_spanning\_tree() (in module stallings\_graphs.about\_automata), \hyperpage{27}
+  \item bouquet() (in module stallings\_graphs.about\_automata), \hyperpage{27}
+
+  \indexspace
+  \bigletter C
+  \item conjugated\_by() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{5}
+  \item contains\_element() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{6}
+  \item contains\_subgroup() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{7}
+  \item cyclic\_reduction() (in module stallings\_graphs.about\_automata), \hyperpage{28}
+  \item cyclic\_reduction\_of\_a\_word() (in module stallings\_graphs.about\_words), \hyperpage{16}
+
+  \indexspace
+  \bigletter D
+  \item DiGraph\_to\_list\_of\_PartialInjection() (in module stallings\_graphs.about\_automata), 
+		\hyperpage{25}
+  \item domain\_size() (stallings\_graphs.partial\_injections.PartialInjection method), 
+		\hyperpage{44}
+
+  \indexspace
+  \bigletter E
+  \item exchange\_labels() (in module stallings\_graphs.about\_automata), \hyperpage{28}
+  \item express\_Word\_in\_basis\_from\_spanning\_tree() (in module stallings\_graphs.about\_automata), 
+		\hyperpage{29}
+
+  \indexspace
+  \bigletter F
+  \item fibered\_product() (in module stallings\_graphs.about\_automata), \hyperpage{29}
+  \item FinitelyGeneratedSubgroup (class in stallings\_graphs.finitely\_generated\_subgroup), 
+		\hyperpage{4}
+  \item free\_group\_reduction() (in module stallings\_graphs.about\_words), \hyperpage{17}
+  \item from\_digraph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method), 
+		\hyperpage{7}
+  \item from\_generators() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method), 
+		\hyperpage{8}
+
+  \indexspace
+  \bigletter G
+  \item group\_inverse() (in module stallings\_graphs.about\_words), \hyperpage{17}
+
+  \indexspace
+  \bigletter H
+  \item has\_index() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{9}
+
+  \indexspace
+  \bigletter I
+  \item image\_of\_word() (in module stallings\_graphs.about\_automata), \hyperpage{30}
+  \item intersection() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{9}
+  \item inverse\_letter() (in module stallings\_graphs.about\_words), \hyperpage{18}
+  \item inverse\_partial\_injection() (stallings\_graphs.partial\_injections.PartialInjection method), 
+		\hyperpage{44}
+  \item is\_conjugated\_to() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{10}
+  \item is\_cyclically\_reduced() (in module stallings\_graphs.about\_words), \hyperpage{18}
+  \item is\_deterministic() (in module stallings\_graphs.about\_automata), \hyperpage{31}
+  \item is\_folded() (in module stallings\_graphs.about\_automata), \hyperpage{31}
+  \item is\_malnormal() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{11}
+  \item is\_permutation() (stallings\_graphs.partial\_injections.PartialInjection method), 
+		\hyperpage{44}
+  \item is\_reduced() (in module stallings\_graphs.about\_words), \hyperpage{19}
+  \item is\_valid() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{12}
+  \item is\_valid\_list\_of\_Words() (in module stallings\_graphs.about\_words), \hyperpage{20}
+  \item is\_valid\_partial\_injection() (in module stallings\_graphs.partial\_injections\_misc), 
+		\hyperpage{46}
+  \item is\_valid\_Word() (in module stallings\_graphs.about\_words), \hyperpage{19}
+
+  \indexspace
+  \bigletter N
+  \item negative\_letters() (in module stallings\_graphs.about\_words), \hyperpage{20}
+  \item normalize\_vertex\_names() (in module stallings\_graphs.about\_automata), \hyperpage{32}
+  \item NT\_data\_structures\_initialization() (in module stallings\_graphs.about\_folding), 
+		\hyperpage{36}
+  \item NT\_fold() (in module stallings\_graphs.about\_folding), \hyperpage{37}
+  \item NT\_fold\_edge() (in module stallings\_graphs.about\_folding), \hyperpage{38}
+  \item NT\_initially\_unfolded\_construction() (in module stallings\_graphs.about\_folding), 
+		\hyperpage{38}
+  \item NT\_is\_vertex\_unfolded() (in module stallings\_graphs.about\_folding), \hyperpage{39}
+  \item number\_of\_partial\_injections\_list() (in module stallings\_graphs.partial\_injections\_misc), 
+		\hyperpage{47}
+
+  \indexspace
+  \bigletter O
+  \item orbit\_decomposition() (stallings\_graphs.partial\_injections.PartialInjection method), 
+		\hyperpage{45}
+
+  \indexspace
+  \bigletter P
+  \item PartialInjection (class in stallings\_graphs.partial\_injections), \hyperpage{43}
+  \item positive\_letters() (in module stallings\_graphs.about\_words), \hyperpage{20}
+  \item positive\_value() (in module stallings\_graphs.about\_words), \hyperpage{21}
+  \item prepare4visualization\_graph() (in module stallings\_graphs.about\_automata), 
+		\hyperpage{32}
+  \item pruning() (in module stallings\_graphs.about\_automata), \hyperpage{33}
+
+  \indexspace
+  \bigletter R
+  \item random\_instance() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method), 
+		\hyperpage{12}
+  \item random\_instance() (stallings\_graphs.partial\_injections.PartialInjection static method), 
+		\hyperpage{45}
+  \item random\_letter() (in module stallings\_graphs.about\_words), \hyperpage{21}
+  \item random\_reduced\_word() (in module stallings\_graphs.about\_words), \hyperpage{21}
+  \item random\_word() (in module stallings\_graphs.about\_words), \hyperpage{22}
+  \item rank() (in module stallings\_graphs.about\_words), \hyperpage{22}
+  \item rank() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{13}
+  \item relabeling() (in module stallings\_graphs.about\_automata), \hyperpage{33}
+
+  \indexspace
+  \bigletter S
+  \item show\_rooted\_graph() (in module stallings\_graphs.about\_automata), \hyperpage{34}
+  \item show\_Stallings\_graph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{14}
+  \item size() (stallings\_graphs.partial\_injections.PartialInjection method), \hyperpage{46}
+  \item spanning\_tree\_and\_paths() (in module stallings\_graphs.about\_automata), \hyperpage{34}
+  \item stallings\_graph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{14}
+  \item stallings\_graph\_size() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method), 
+		\hyperpage{15}
+  \item stallings\_graphs.about\_automata (module), \hyperpage{24}
+  \item stallings\_graphs.about\_folding (module), \hyperpage{36}
+  \item stallings\_graphs.about\_TC\_morphisms (module), \hyperpage{39}
+  \item stallings\_graphs.about\_words (module), \hyperpage{15}
+  \item stallings\_graphs.finitely\_generated\_subgroup (module), \hyperpage{3}
+  \item stallings\_graphs.partial\_injections (module), \hyperpage{43}
+  \item stallings\_graphs.partial\_injections\_misc (module), \hyperpage{46}
+  \item symmetric\_alphabet() (in module stallings\_graphs.about\_words), \hyperpage{22}
+
+  \indexspace
+  \bigletter T
+  \item transition\_function() (in module stallings\_graphs.about\_automata), \hyperpage{35}
+  \item transitions() (in module stallings\_graphs.about\_automata), \hyperpage{35}
+  \item translate\_alphabetic\_Word\_to\_numeric() (in module stallings\_graphs.about\_words), 
+		\hyperpage{22}
+  \item translate\_character\_to\_numeric() (in module stallings\_graphs.about\_words), 
+		\hyperpage{23}
+  \item translate\_numeric\_to\_character() (in module stallings\_graphs.about\_words), 
+		\hyperpage{23}
+  \item translate\_numeric\_to\_x0\_character() (in module stallings\_graphs.about\_TC\_morphisms), 
+		\hyperpage{40}
+  \item translate\_numeric\_Word\_to\_alphabetic() (in module stallings\_graphs.about\_words), 
+		\hyperpage{23}
+  \item translate\_numeric\_Word\_to\_x0\_word() (in module stallings\_graphs.about\_TC\_morphisms), 
+		\hyperpage{40}
+  \item translate\_x0\_character\_to\_numeric() (in module stallings\_graphs.about\_TC\_morphisms), 
+		\hyperpage{40}
+  \item translate\_x0\_word\_to\_numeric\_Word() (in module stallings\_graphs.about\_TC\_morphisms), 
+		\hyperpage{41}
+
+\end{sphinxtheindex}

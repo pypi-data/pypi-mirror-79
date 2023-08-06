@@ -1,0 +1,83 @@
+\indexentry{stallings\_graphs.finitely\_generated\_subgroup (module)|hyperpage}{3}
+\indexentry{FinitelyGeneratedSubgroup (class in stallings\_graphs.finitely\_generated\_subgroup)|hyperpage}{4}
+\indexentry{ambient\_group\_rank() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{5}
+\indexentry{basis() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{5}
+\indexentry{conjugated\_by() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{5}
+\indexentry{contains\_element() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{6}
+\indexentry{contains\_subgroup() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{7}
+\indexentry{from\_digraph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method)|hyperpage}{7}
+\indexentry{from\_generators() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method)|hyperpage}{8}
+\indexentry{has\_index() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{9}
+\indexentry{intersection() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{9}
+\indexentry{is\_conjugated\_to() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{10}
+\indexentry{is\_malnormal() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{11}
+\indexentry{is\_valid() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{12}
+\indexentry{random\_instance() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup static method)|hyperpage}{12}
+\indexentry{rank() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{13}
+\indexentry{show\_Stallings\_graph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{14}
+\indexentry{stallings\_graph() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{14}
+\indexentry{stallings\_graph\_size() (stallings\_graphs.finitely\_generated\_subgroup.FinitelyGeneratedSubgroup method)|hyperpage}{15}
+\indexentry{stallings\_graphs.about\_words (module)|hyperpage}{15}
+\indexentry{alphabetic\_inverse() (in module stallings\_graphs.about\_words)|hyperpage}{16}
+\indexentry{cyclic\_reduction\_of\_a\_word() (in module stallings\_graphs.about\_words)|hyperpage}{16}
+\indexentry{free\_group\_reduction() (in module stallings\_graphs.about\_words)|hyperpage}{17}
+\indexentry{group\_inverse() (in module stallings\_graphs.about\_words)|hyperpage}{17}
+\indexentry{inverse\_letter() (in module stallings\_graphs.about\_words)|hyperpage}{18}
+\indexentry{is\_cyclically\_reduced() (in module stallings\_graphs.about\_words)|hyperpage}{18}
+\indexentry{is\_reduced() (in module stallings\_graphs.about\_words)|hyperpage}{19}
+\indexentry{is\_valid\_Word() (in module stallings\_graphs.about\_words)|hyperpage}{19}
+\indexentry{is\_valid\_list\_of\_Words() (in module stallings\_graphs.about\_words)|hyperpage}{20}
+\indexentry{negative\_letters() (in module stallings\_graphs.about\_words)|hyperpage}{20}
+\indexentry{positive\_letters() (in module stallings\_graphs.about\_words)|hyperpage}{20}
+\indexentry{positive\_value() (in module stallings\_graphs.about\_words)|hyperpage}{21}
+\indexentry{random\_letter() (in module stallings\_graphs.about\_words)|hyperpage}{21}
+\indexentry{random\_reduced\_word() (in module stallings\_graphs.about\_words)|hyperpage}{21}
+\indexentry{random\_word() (in module stallings\_graphs.about\_words)|hyperpage}{22}
+\indexentry{rank() (in module stallings\_graphs.about\_words)|hyperpage}{22}
+\indexentry{symmetric\_alphabet() (in module stallings\_graphs.about\_words)|hyperpage}{22}
+\indexentry{translate\_alphabetic\_Word\_to\_numeric() (in module stallings\_graphs.about\_words)|hyperpage}{22}
+\indexentry{translate\_character\_to\_numeric() (in module stallings\_graphs.about\_words)|hyperpage}{23}
+\indexentry{translate\_numeric\_Word\_to\_alphabetic() (in module stallings\_graphs.about\_words)|hyperpage}{23}
+\indexentry{translate\_numeric\_to\_character() (in module stallings\_graphs.about\_words)|hyperpage}{23}
+\indexentry{stallings\_graphs.about\_automata (module)|hyperpage}{24}
+\indexentry{DiGraph\_to\_list\_of\_PartialInjection() (in module stallings\_graphs.about\_automata)|hyperpage}{25}
+\indexentry{are\_equal\_as\_rooted\_unlabeled() (in module stallings\_graphs.about\_automata)|hyperpage}{25}
+\indexentry{basis\_from\_spanning\_tree() (in module stallings\_graphs.about\_automata)|hyperpage}{27}
+\indexentry{bouquet() (in module stallings\_graphs.about\_automata)|hyperpage}{27}
+\indexentry{cyclic\_reduction() (in module stallings\_graphs.about\_automata)|hyperpage}{28}
+\indexentry{exchange\_labels() (in module stallings\_graphs.about\_automata)|hyperpage}{28}
+\indexentry{express\_Word\_in\_basis\_from\_spanning\_tree() (in module stallings\_graphs.about\_automata)|hyperpage}{29}
+\indexentry{fibered\_product() (in module stallings\_graphs.about\_automata)|hyperpage}{29}
+\indexentry{image\_of\_word() (in module stallings\_graphs.about\_automata)|hyperpage}{30}
+\indexentry{is\_deterministic() (in module stallings\_graphs.about\_automata)|hyperpage}{31}
+\indexentry{is\_folded() (in module stallings\_graphs.about\_automata)|hyperpage}{31}
+\indexentry{normalize\_vertex\_names() (in module stallings\_graphs.about\_automata)|hyperpage}{32}
+\indexentry{prepare4visualization\_graph() (in module stallings\_graphs.about\_automata)|hyperpage}{32}
+\indexentry{pruning() (in module stallings\_graphs.about\_automata)|hyperpage}{33}
+\indexentry{relabeling() (in module stallings\_graphs.about\_automata)|hyperpage}{33}
+\indexentry{show\_rooted\_graph() (in module stallings\_graphs.about\_automata)|hyperpage}{34}
+\indexentry{spanning\_tree\_and\_paths() (in module stallings\_graphs.about\_automata)|hyperpage}{34}
+\indexentry{transition\_function() (in module stallings\_graphs.about\_automata)|hyperpage}{35}
+\indexentry{transitions() (in module stallings\_graphs.about\_automata)|hyperpage}{35}
+\indexentry{stallings\_graphs.about\_folding (module)|hyperpage}{36}
+\indexentry{NT\_data\_structures\_initialization() (in module stallings\_graphs.about\_folding)|hyperpage}{36}
+\indexentry{NT\_fold() (in module stallings\_graphs.about\_folding)|hyperpage}{37}
+\indexentry{NT\_fold\_edge() (in module stallings\_graphs.about\_folding)|hyperpage}{38}
+\indexentry{NT\_initially\_unfolded\_construction() (in module stallings\_graphs.about\_folding)|hyperpage}{38}
+\indexentry{NT\_is\_vertex\_unfolded() (in module stallings\_graphs.about\_folding)|hyperpage}{39}
+\indexentry{stallings\_graphs.about\_TC\_morphisms (module)|hyperpage}{39}
+\indexentry{translate\_numeric\_Word\_to\_x0\_word() (in module stallings\_graphs.about\_TC\_morphisms)|hyperpage}{40}
+\indexentry{translate\_numeric\_to\_x0\_character() (in module stallings\_graphs.about\_TC\_morphisms)|hyperpage}{40}
+\indexentry{translate\_x0\_character\_to\_numeric() (in module stallings\_graphs.about\_TC\_morphisms)|hyperpage}{40}
+\indexentry{translate\_x0\_word\_to\_numeric\_Word() (in module stallings\_graphs.about\_TC\_morphisms)|hyperpage}{41}
+\indexentry{stallings\_graphs.partial\_injections (module)|hyperpage}{43}
+\indexentry{PartialInjection (class in stallings\_graphs.partial\_injections)|hyperpage}{43}
+\indexentry{domain\_size() (stallings\_graphs.partial\_injections.PartialInjection method)|hyperpage}{44}
+\indexentry{inverse\_partial\_injection() (stallings\_graphs.partial\_injections.PartialInjection method)|hyperpage}{44}
+\indexentry{is\_permutation() (stallings\_graphs.partial\_injections.PartialInjection method)|hyperpage}{44}
+\indexentry{orbit\_decomposition() (stallings\_graphs.partial\_injections.PartialInjection method)|hyperpage}{45}
+\indexentry{random\_instance() (stallings\_graphs.partial\_injections.PartialInjection static method)|hyperpage}{45}
+\indexentry{size() (stallings\_graphs.partial\_injections.PartialInjection method)|hyperpage}{46}
+\indexentry{stallings\_graphs.partial\_injections\_misc (module)|hyperpage}{46}
+\indexentry{is\_valid\_partial\_injection() (in module stallings\_graphs.partial\_injections\_misc)|hyperpage}{46}
+\indexentry{number\_of\_partial\_injections\_list() (in module stallings\_graphs.partial\_injections\_misc)|hyperpage}{47}
