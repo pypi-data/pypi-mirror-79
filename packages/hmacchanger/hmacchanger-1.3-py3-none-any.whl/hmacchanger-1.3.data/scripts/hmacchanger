@@ -1,0 +1,95 @@
+#!python
+import subprocess
+import re
+import optparse
+import random
+import os
+
+def randmac(interface):
+    print("\nSelected Interface: "+interface)
+    print("\n1. Enter MAC Address\n2. Generate Random MAC Address\n")
+    c = input("Your Choice(1 ro 2): ")
+    if c == '1':
+        print('\033[4m'+"\nSelected 1:"+'\033[0m')
+        mac = input("Enter MAC Address: ")
+        return mac
+    elif c == '2':
+        print('\033[4m'+"\nSelected 2:"+'\033[0m'+"\nGenerating Random MAC Address")
+        return ("00:%02x:%02x:%02x:%02x:%02x" % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
+    else:
+        print('\033[4m'+"\nInvalid choice:"+'\033[0m'+"\nGenerating Random MAC Address")
+        return ("00:%02x:%02x:%02x:%02x:%02x" % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
+
+def interface():
+    print("\vAvailable interfaces: ")
+    print("---------------------")
+    subprocess.call(["sudo", "ls", "/sys/class/net"])
+    print("---------------------")
+    i = input("\vEnter the Interface: ")
+    return i
+
+def get_arguments():
+    parser = optparse.OptionParser()
+    parser.add_option("-i", "--interface", dest="interface", help="Interface to change the MAC")
+    parser.add_option("-m", "--mac", dest="new_MAC", help="MAC address to change")
+    (options, arguments) = parser.parse_args()
+    if not options.interface:
+        options.interface = interface()
+        if not options.new_MAC:
+            options.new_MAC = randmac(options.interface)
+    elif not options.new_MAC:
+        options.new_MAC = randmac(options.interface)
+    return options
+
+class MACLINUX:
+    def change_MAC(self, interface, new_MAC):
+        print("***Changing MAC Address for " + interface + "*** to " + new_MAC)
+        subprocess.call(["ifconfig", interface, "down"])
+        subprocess.call(["ifconfig", interface, "hw", "ether", new_MAC])
+        subprocess.call(["ifconfig", interface, "up"])
+
+    def get_current_MAC(self, interface):
+        ifconfig_result = subprocess.check_output(["ifconfig", interface])
+        MAC_address_search_result = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", str(ifconfig_result))
+        if MAC_address_search_result:
+            return MAC_address_search_result.group(0)
+        else:
+            print("Could not find MAC address.")
+
+def main():
+    os.system("clear")
+    print('\033[94m' + " _                              _                                 ")
+    print("| |                            | |                                ")
+    print("| |__  _ __ ___   __ _  ___ ___| |__   __ _ _ __   __ _  ___ _ __ ")
+    print("| '_ \| '_ ` _ \ / _` |/ __/ __| '_ \ / _` | '_ \ / _` |/ _ \ '__|")
+    print("| | | | | | | | | (_| | (_| (__| | | | (_| | | | | (_| |  __/ |   ")
+    print("|_| |_|_| |_| |_|\__,_|\___\___|_| |_|\__,_|_| |_|\__, |\___|_|")
+    print("                                                   __/ |")
+    print("                                                  |___/   ")
+    print("                                       " + '\033[4m' + "-Script By HariPrasath.S.S")
+    print('\033[0m')
+
+    try:
+        options = get_arguments()
+
+        m = MACLINUX()
+        current_MAC = m.get_current_MAC(options.interface)
+        print("\nCurrent MAC = " + str(current_MAC))
+        m.change_MAC(options.interface, options.new_MAC)
+        current_MAC = m.get_current_MAC(options.interface)
+        if current_MAC == options.new_MAC:
+            print("MAC address was successfully changed")
+            print("New MAC = " + current_MAC)
+        else:
+            print("MAC address did not get changed")
+        ch = input("\nDo you want to print 'ifconfig " + options.interface + "'(y/n): ")
+        if ch == "y":
+            print("\n")
+            print(subprocess.call(["ifconfig", options.interface]))
+            print("\n")
+        else:
+            print("\n\tGoooooooooooood Byeeeeeee\n")
+    except:
+        print('\033[4m' + "\nError: Wrong Interface\vPlease enter an Interface from available interfaces & run the program again.\n")
+
+main()
