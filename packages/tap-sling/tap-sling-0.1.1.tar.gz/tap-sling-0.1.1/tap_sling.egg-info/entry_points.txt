@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-sling=tap_sling:main
+    
