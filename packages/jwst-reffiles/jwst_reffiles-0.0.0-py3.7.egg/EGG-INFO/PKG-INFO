@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jwst-reffiles
+Version: 0.0.0
+Summary: Create JWST reference files
+Home-page: https://github.com/spacetelescope/jwst_reffiles
+Author: STScI (Rest, Hilbert, Canipe, et al.)
+Author-email: arest@stsci.edu
+License: UNKNOWN
+Description: A tool to create CRDS-formatted reference filesfor JWST from a set of input dark current filesand a set of flat field files.
+Keywords: astronomy
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
