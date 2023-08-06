@@ -1,0 +1,9 @@
+README.md
+setup.py
+microfilter/__init__.py
+microfilter.egg-info/PKG-INFO
+microfilter.egg-info/SOURCES.txt
+microfilter.egg-info/dependency_links.txt
+microfilter.egg-info/entry_points.txt
+microfilter.egg-info/requires.txt
+microfilter.egg-info/top_level.txt
