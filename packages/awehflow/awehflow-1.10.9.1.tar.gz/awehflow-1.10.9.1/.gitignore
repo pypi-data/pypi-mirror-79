@@ -1,0 +1,15 @@
+*.pyc
+.cache/
+.idea/
+*.egg-info/
+.eggs
+build/
+dist/
+tmp/
+.coverage
+coverage_html_report
+logs/
+venv**
+.DS_Store**
+airflow*
+unittests.cfg
