@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+admin_info/static/css/foldable_admin.css
+admin_info/static/js/foldable_admin.js
+admin_info/templates/admin/change_list.html
+admin_info/templates/admin/foldable_admin.html
+admin_info/templates/admin/index.html
+admin_info/templates/admin/summary.tpl
+admin_info/templatetags/custom_tags.py
+django_admin_info.egg-info/PKG-INFO
+django_admin_info.egg-info/SOURCES.txt
+django_admin_info.egg-info/dependency_links.txt
+django_admin_info.egg-info/requires.txt
+django_admin_info.egg-info/top_level.txt
+docs/blank.txt
