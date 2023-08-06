@@ -1,0 +1,36 @@
+{
+    "type": ["null", "object"],
+    "additionalProperties": true,
+    "properties": {
+        "date": {
+            "type": ["null", "integer"]
+        },
+        "transfer_out": {
+            "type": ["null", "integer"]
+        },
+        "item": {
+            "type": ["null", "string"]
+        },
+        "quantity": {
+            "type": ["null", "integer"]
+        },
+        "transferred_out_on": {
+            "type": ["null", "integer"]
+        },
+        "from_location": {
+            "type": ["null", "string"]
+        },
+        "transferred_out_by": {
+            "type": ["null", "string"]
+        },
+        "to_location": {
+            "type": ["null", "string"]
+        },
+        "stocktransfer": {
+            "type": ["null", "string"]
+        },
+        "status": {
+            "type": ["null", "string"]
+        }
+    }
+}
