@@ -1,0 +1,27 @@
+<neurondb>
+    <listing>
+        <morphology>
+            <name>0</name>
+            <mtype>L1_fake_type0</mtype>
+            <msubtype>A</msubtype>
+            <layer>1</layer>
+            <repair>
+                <axon_sources>
+                    <axoninput>single-axon-input</axoninput>
+                </axon_sources>
+                <axon_repair>true</axon_repair>
+                <basal_dendrite_repair>true</basal_dendrite_repair>
+                <tuft_dendrite_repair>true</tuft_dendrite_repair>
+                <oblique_dendrite_repair>true</oblique_dendrite_repair>
+                <dendrite_repair>true</dendrite_repair>
+                <unravel>true</unravel>
+                <use_for_stats>true</use_for_stats>
+                <use_axon>true</use_axon>
+                <use_dendrites>true</use_dendrites>
+            </repair>
+        </morphology>
+    </listing>
+    <overview>
+        <count>6</count>
+    </overview>
+</neurondb>
