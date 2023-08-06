@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rshelly
+Version: 0.5
+Summary: A reverse shell payload generator
+Home-page: https://github.com/xtonousou/rshelly
+Author: Sotirios Roussis a.k.a. xtonousou
+Author-email: sroussis@xtonousou.xyz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# rshelly
+
+> Generate reverse shell payloads
+
+## Installation
+
+```bash
+pip install rshelly
+```
+
+## License
+
+MIT
+
+
