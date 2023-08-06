@@ -1,0 +1,2 @@
+vmtconnect<4,>=3.4.1
+umsg>=1.0.2
