@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: servergrimoire
+Version: 1.0.3
+Summary: Package for record and store info about servers and their stuffs
+Author: Fundor333
+Author-email: fundor333@fundor333.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Click (>=7.1.2,<8.0.0)
+Requires-Dist: dnspython (>=2.0.0,<3.0.0)
+Requires-Dist: pyOpenssl (>=19.1.0,<20.0.0)
+Requires-Dist: python-whois (>=0.7.3,<0.8.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
