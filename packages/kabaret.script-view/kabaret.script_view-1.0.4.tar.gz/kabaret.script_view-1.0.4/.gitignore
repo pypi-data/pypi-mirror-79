@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+__pycache__/
+build/
+dist/
+docs/_build/
+python/*.egg-info
+*.sublime-workspace
+.idea
