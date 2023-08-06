@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: tess_infos
+Version: 0.1.0
+Summary: Extremely fast Pythonic access to the full TICv8, GAIA DR2 and Banyan Sigma parameters for all TESS short-cadence targets
+Home-page: https://github.com/MNGuenther/tess_infos
+Author: Maximilian N. Günther
+Author-email: maxgue@mit.edu
+License: MIT
+Download-URL: https://github.com/MNGuenther/tess_infos
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python

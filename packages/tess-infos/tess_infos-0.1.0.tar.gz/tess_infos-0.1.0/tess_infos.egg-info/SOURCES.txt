@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+tess_infos/__init__.py
+tess_infos/tess_infos.py
+tess_infos.egg-info/PKG-INFO
+tess_infos.egg-info/SOURCES.txt
+tess_infos.egg-info/dependency_links.txt
+tess_infos.egg-info/top_level.txt
