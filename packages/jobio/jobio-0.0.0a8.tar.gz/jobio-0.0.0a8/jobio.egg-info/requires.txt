@@ -1,0 +1,9 @@
+boto3
+
+[dev]
+black
+flake8
+
+[test]
+black
+flake8
