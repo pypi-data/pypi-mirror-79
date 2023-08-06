@@ -1,0 +1,3 @@
+[console_scripts]
+yk-comps = yk.comparison:main
+
