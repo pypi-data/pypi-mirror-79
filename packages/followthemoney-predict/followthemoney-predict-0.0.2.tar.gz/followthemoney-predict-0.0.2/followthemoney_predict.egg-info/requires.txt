@@ -1,0 +1,13 @@
+click
+alephclient
+followthemoney
+banal
+tqdm
+orjson
+gcsfs
+numpy
+xgboost
+sklearn
+dask[bag,dataframe,distributed]
+bokeh
+pyarrow
