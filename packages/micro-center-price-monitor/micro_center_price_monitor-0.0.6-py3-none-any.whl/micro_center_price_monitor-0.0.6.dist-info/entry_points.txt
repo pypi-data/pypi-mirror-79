@@ -1,0 +1,3 @@
+[console_scripts]
+micro_center_price_monitor = micro_center_price_monitor.__main__:main
+
