@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gamecord
+Version: 0.0.4
+Summary: A helper framework for making games in Discord with discord.py.
+Home-page: https://github.com/lanthony42/GameCord
+Author: Anthony Louie
+License: MIT
+Download-URL: https://pypi.org/project/gamecord/
+Keywords: Discord,discord.py
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: discord.py (>=1.4.1)
+Requires-Dist: python-dotenv
+
+# GameCord
+
+Making drawn out games in Discord...
+
+See examples for way to use module!
+
+
