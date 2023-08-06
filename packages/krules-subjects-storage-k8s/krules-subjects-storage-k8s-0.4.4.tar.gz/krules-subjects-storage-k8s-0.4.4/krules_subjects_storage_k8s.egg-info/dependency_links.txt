@@ -1,0 +1,1 @@
+-e git+git@gitlab.com:krules/krules-core@e19478c6f9e8a3ac7bcaa14c032d629804e058cb#egg=krules_core-0.4.3-KRUL-153
