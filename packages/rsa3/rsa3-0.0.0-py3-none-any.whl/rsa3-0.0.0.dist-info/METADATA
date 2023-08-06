@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: rsa3
+Version: 0.0.0
+Summary: Python Representational Similarity Analysis (RSA)
+Home-page: https://github.com/rsagroup/pyrsa
+Author: pyrsa authors
+Author-email: 
+License: UNKNOWN
+Keywords: neuroscience
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+Requires-Dist: coverage
+Requires-Dist: h5py
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+# Representational Similarity Analysis 3.0
+
+Conceived during the RSA retreat 2019 in Blue Mountains,
+this version replaces the 2013 version of pyrsa previously at ilogue/pyrsa.
+
+[Documentation](https://rsa3.readthedocs.io/)
+
