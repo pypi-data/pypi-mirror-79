@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: imgdata
+Version: 0.0.1
+Summary: Use Stock Images APIs to make image dataset
+Home-page: https://github.com/arohanajit/img-data
+Author: Arohan Ajit
+Author-email: arohanajit232@gmail.com
+License: UNKNOWN
+Description: # img-data
+        PyPi package to make image datasets
+        
+Keywords: data api images photos
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
