@@ -1,0 +1,10 @@
+include LICENSE
+recursive-include rbx *.md
+
+exclude VERSION
+exclude .bumpversion.cfg
+exclude .properties
+exclude tasks.py
+exclude tox.ini
+
+prune tests
