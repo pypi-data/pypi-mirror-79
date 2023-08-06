@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: koroviev
+Version: 0.1.2
+Summary: CLI Util for project code gen by jinja snippets
+License: MIT
+Keywords: packaging,dependency,koroviev,codegen,code,generator
+Author: Alexander Lavrov
+Author-email: internal@egnod.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fire (>=0.3.1,<0.4.0)
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: loguru (>=0.5.2,<0.6.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
