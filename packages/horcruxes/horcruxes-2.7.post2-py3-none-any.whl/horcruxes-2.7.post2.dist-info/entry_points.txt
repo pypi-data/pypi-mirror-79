@@ -1,0 +1,3 @@
+[console_scripts]
+horcruxes = horcruxes.crux:cli
+
