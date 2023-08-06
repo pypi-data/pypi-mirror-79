@@ -1,0 +1,3 @@
+[console_scripts]
+qwif = qwif.cli:main
+
