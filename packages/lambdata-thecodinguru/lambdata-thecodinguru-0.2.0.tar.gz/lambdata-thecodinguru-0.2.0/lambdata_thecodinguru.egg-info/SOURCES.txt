@@ -1,0 +1,10 @@
+README.md
+setup.py
+lambdata/__init__.py
+lambdata/example_lambdata_wrangle.py
+lambdata/example_oop_lambdata.py
+lambdata_thecodinguru.egg-info/PKG-INFO
+lambdata_thecodinguru.egg-info/SOURCES.txt
+lambdata_thecodinguru.egg-info/dependency_links.txt
+lambdata_thecodinguru.egg-info/requires.txt
+lambdata_thecodinguru.egg-info/top_level.txt
