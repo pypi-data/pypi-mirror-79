@@ -1,0 +1,5 @@
+click>=7
+rich>=6
+
+[tests]
+pytest>=6
