@@ -1,0 +1,11 @@
+PDFScraper/__init__.py,sha256=zBWZYEBYSI6tJFVDcbShKM7DCoauur67ByFAJe5EH8w,449
+PDFScraper/__main__.py,sha256=9EqHqRqVqZeek4DXZ4d9wil4RoSWPxM8062MjGgZ5F4,69
+PDFScraper/cli.py,sha256=Eh5-rE0HcI_UXjsa33wSrMb_PxpQNDpH9COOVH4L7yY,6379
+PDFScraper/core.py,sha256=lxwCA00_Bf9lejHWQnTxkHZg5FseRQmDgoA3sXRxH9Y,17612
+PDFScraper/dataStructure.py,sha256=UWcBV64wn632XDD9gUYVN41s0UEz5pv2KawcofkhGY4,1157
+PDFScraper/outputGenerator.py,sha256=Pzkg2T9y19YCY8U0uiVxX6HJa6tG_b111Di-ewLFe_0,7154
+PDFScraper-1.1.8.dist-info/LICENSE,sha256=rTJFCJc9TUAZmUrvMBYChiKkhxHbhffQIbLYf4jMcl8,1070
+PDFScraper-1.1.8.dist-info/METADATA,sha256=9qHF63lrg68739NRXiUh0FGIOfzEB_OGJt4ic4HTarI,4604
+PDFScraper-1.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+PDFScraper-1.1.8.dist-info/top_level.txt,sha256=PcuDlU-0-aURE9-Sd3yMUOTDbjpWZzBP9TNb_tAz5Rs,11
+PDFScraper-1.1.8.dist-info/RECORD,,
