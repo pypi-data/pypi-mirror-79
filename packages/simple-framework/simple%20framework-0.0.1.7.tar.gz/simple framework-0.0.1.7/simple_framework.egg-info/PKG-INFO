@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: simple-framework
+Version: 0.0.1.7
+Summary: Simple training framework for pytorch, with basic training loops and horovod support
+Home-page: https://github.com/mizzmir/Training_framework
+Author: Marcin Czelej
+License: MIT
+Description: # Training_framework
+        Training framework for pytorch models
+        
+        Simple training framework for pytorch  supporting two cases:
+        - Normal training
+        - Horovod Training
+        
+        Use example: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MB3dQMWWot8GsMThPe2I4k6jDgw-SqOx?usp=sharing)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
