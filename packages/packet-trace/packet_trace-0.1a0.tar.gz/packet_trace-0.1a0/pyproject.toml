@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "packet_trace"
+version = "0.1a0"
+description = "A simple tool to trace packets as they pass through Linux netfilter."
+authors = ["Mark Bools <mark@saltyvagrant.com>"]
+readme = "README.rst"
+homepage = "https://gitlab.com/python-utils2/packet_trace"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Developers",
+  "Topic :: System :: Networking :: Firewalls",
+  "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+python-iptables = "^1.0.0"
+libnetfilter = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+ptrace = "packet_trace.main:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
