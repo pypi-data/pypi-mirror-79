@@ -1,0 +1,11 @@
+README.md
+setup.py
+pystall/__init__.py
+pystall/cli.py
+pystall/core.py
+pystall/library.py
+pystall.egg-info/PKG-INFO
+pystall.egg-info/SOURCES.txt
+pystall.egg-info/dependency_links.txt
+pystall.egg-info/requires.txt
+pystall.egg-info/top_level.txt

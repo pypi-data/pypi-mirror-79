@@ -1,0 +1,12 @@
+requests
+docopt
+tqdm
+colored
+pyinstaller
+distro
+pyyaml
+
+[dev]
+nox
+pytest
+mkdocs
