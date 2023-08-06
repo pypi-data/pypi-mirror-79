@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+mypythonutils/__init__.py
+mypythonutils.egg-info/PKG-INFO
+mypythonutils.egg-info/SOURCES.txt
+mypythonutils.egg-info/dependency_links.txt
+mypythonutils.egg-info/top_level.txt

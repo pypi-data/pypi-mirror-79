@@ -1,0 +1,53 @@
+Change Log
+=================
+
+1.0 (26/08/2020)
+-----------------
+* First Release :
+
+    - Function showlist : takes a list and prints it into the console.
+
+    - Function squareroot : outputs the square root of the number you give.
+
+    - Function listprimes : lists every prime up to the number you give.
+
+
+1.0.1 (11/09/2020)
+------------------
+* Additions :
+    
+    - Class primes :
+        
+        Function isprime : outputs True if the number you gave it is prime.
+        
+    - Class math :
+        
+        Function absolute : an alternative to the "abs" function in python.
+        
+    - Class logic :
+        
+        Function logicand, logicnand, logicor, logicnor, logicxor, logicnot : these are logic gates. They take 2 booleans (1 for logicnot) and output a boolean. All these functions are branchless !
+        
+    - Class lists :
+        
+        More in the "Modifications" paragraph
+
+
+* Modifications :
+    
+    - Class primes :
+        
+        The "listprimes" function is here now. You can now also set a starting point for the listing but it is optional.
+    
+    - Class math :
+        
+        The "squareroot" function is here now and it's called "root" because you can now specify if you want the square root, the cubic root...
+        It is optional so by default it outputs the square root.
+        
+    - Class lists:
+        
+        The "showlist" function is now here and it's name is now "show" because it is already in a list class !
+    
+
+I will maybe change the way it is organized, but I don't think it will change the way everything behaves.
+
