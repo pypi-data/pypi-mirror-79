@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+getcohorts/__init__.py
+getcohorts/core.py
+getcohorts/web.py
+getcohorts.egg-info/PKG-INFO
+getcohorts.egg-info/SOURCES.txt
+getcohorts.egg-info/dependency_links.txt
+getcohorts.egg-info/requires.txt
+getcohorts.egg-info/top_level.txt
