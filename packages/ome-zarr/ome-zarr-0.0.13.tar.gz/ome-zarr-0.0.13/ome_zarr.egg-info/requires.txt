@@ -1,0 +1,15 @@
+numpy
+dask
+zarr
+s3fs
+aiohttp
+requests
+toolz
+vispy
+opencv-contrib-python-headless
+
+[:python_version < "3.7"]
+dataclasses
+
+[napari]
+napari
