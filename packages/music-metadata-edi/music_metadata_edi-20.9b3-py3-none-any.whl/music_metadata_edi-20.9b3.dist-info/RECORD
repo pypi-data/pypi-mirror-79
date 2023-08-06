@@ -1,0 +1,16 @@
+music_metadata_edi-20.9b3-py3.8-nspkg.pth,sha256=1xEajXvvoRdmNsmJotXLPALE8_CoFYBhBQYo1Sc26Ew,579
+music_metadata/edi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+music_metadata/edi/errors.py,sha256=7c1ObYNzAHjY9SdD0gUgclP1vFd7LFaahjDKPs57DeY,639
+music_metadata/edi/fields.py,sha256=2RwSIWjB5PeUa7escS6CK0Er6Q1TnJAngmvQ-pg__gk,7623
+music_metadata/edi/file.py,sha256=nftAZpug4GhNJkOs3uolFs-Ai5ye0pdq8eMyQ6LnvzE,12238
+music_metadata/edi/records.py,sha256=p2O9jaDWa4xwlEAHfowZ4vfbWFFV8sJJVPFvO6KDLAM,7490
+music_metadata/edi/transactions.py,sha256=b7FZ1rWjP-xuLTXfK8jq1-aG1Wpdii8RMgRcJETrPhM,2386
+music_metadata/edi/tests/CW190001MPC_000.V21,sha256=Rp_XJ722yNcqGrNcpREQDHgeY-5YYTdB_hqpGUFnlr4,229647
+music_metadata/edi/tests/CW190008MPC_0000_V3-0-0.ISR,sha256=elCO_kxrYUjfMAM6WK96tlfBQxoj911IMK25f4ypBP4,5459
+music_metadata/edi/tests/__init__.py,sha256=gmyNvF4r1tkSdYKzZP-mI8v4vuxSz6WdtGo_BI7yRCk,13153
+music_metadata_edi-20.9b3.dist-info/LICENSE,sha256=E3PHuzN8JrqkK41z8gb0GTQcSARzowMHAgzVp8iDnAU,1074
+music_metadata_edi-20.9b3.dist-info/METADATA,sha256=XfPGnFSCh78ajuUZ04Vr6ju05pmq4J_pbZ5F6WmWLC8,1389
+music_metadata_edi-20.9b3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+music_metadata_edi-20.9b3.dist-info/namespace_packages.txt,sha256=KLGUzjNnBQ37mWMeo9sSyZPyPwNNKgzNznax8EzjSc4,15
+music_metadata_edi-20.9b3.dist-info/top_level.txt,sha256=KLGUzjNnBQ37mWMeo9sSyZPyPwNNKgzNznax8EzjSc4,15
+music_metadata_edi-20.9b3.dist-info/RECORD,,
