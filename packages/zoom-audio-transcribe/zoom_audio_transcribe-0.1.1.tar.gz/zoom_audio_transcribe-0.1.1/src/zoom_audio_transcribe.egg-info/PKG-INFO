@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: zoom-audio-transcribe
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/jdvala/zoom_audio_transcribe
+Author: Jay Vala
+Author-email: jay.vala@msn.com
+License: UNKNOWN
+Description: # zoom_audio_transcribe
+        ![GH](https://github.com/jdvala/zoom-audio-transcribe/workflows/GH/badge.svg)
+        ![Licence](https://img.shields.io/github/license/jdvala/zoom_audio_transcribe)
+        [![pypi Version](https://img.shields.io/pypi/v/zoom-audio-transcribe.svg?logo=pypi&logoColor=white)](https://pypi.org/project/zoom-audio-transcribe/  )
+        [![python](https://img.shields.io/pypi/pyversions/zoom-audio-transcribe)](https://pypi.org/project/zoom-audio-transcribe/)
+        [![black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+        ![OS](https://img.shields.io/badge/OS-Linux-organe)
+        
+        
+        Transcribe zoom meetings audio locally.
+        
+        Transcribe zoom meetings audio locally, using ![vosk-api](https://github.com/alphacep/vosk-api).
+        
+        
+        ## Install
+        
+        Supported python version >=3.6. Supported OS, Linux. Support for Windows and OSX will come in second version.
+        
+        ```bash
+        pip install zoom_audio_transcribe
+        ```
+        
+        
+        ## Usage
+        
+        ```bash
+        $ zoom_audio_transcribe
+        ```
+        
+        ![init](https://github.com/jdvala/zoom-audio-transcribe/blob/master/screenshots/init.png)
+        
+        Once you are at the menu, select the appropiate meeting and let it run.
+        
+        ![Done](https://github.com/jdvala/zoom-audio-transcribe/blob/master/screenshots/done.png)
+        
+        
+        
+        Once the transcription is done the, file will be saved in the same folder as the zoom meetings recording. For linux users its `/home/$USER/Documents/Zoom/{meeting_which_was_selected}
+        
+Keywords: Zoom Online-Meetings,audio-transcription,speech-to-text
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

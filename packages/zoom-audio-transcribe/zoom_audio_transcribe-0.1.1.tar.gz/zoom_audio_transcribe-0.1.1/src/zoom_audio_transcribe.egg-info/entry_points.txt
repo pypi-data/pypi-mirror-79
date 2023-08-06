@@ -1,0 +1,3 @@
+[console_scripts]
+zoom_audio_transcribe = zoom_audio_transcribe.cli:main
+
