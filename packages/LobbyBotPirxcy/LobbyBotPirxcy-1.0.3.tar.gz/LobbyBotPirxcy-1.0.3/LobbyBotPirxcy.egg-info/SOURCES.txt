@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+LobbyBotPirxcy/__init__.py
+LobbyBotPirxcy.egg-info/PKG-INFO
+LobbyBotPirxcy.egg-info/SOURCES.txt
+LobbyBotPirxcy.egg-info/dependency_links.txt
+LobbyBotPirxcy.egg-info/requires.txt
+LobbyBotPirxcy.egg-info/top_level.txt
