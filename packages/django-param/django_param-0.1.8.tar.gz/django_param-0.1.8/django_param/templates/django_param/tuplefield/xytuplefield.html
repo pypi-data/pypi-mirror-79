@@ -1,0 +1,1 @@
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 10px"><label for name="{{ widget.name}}" style="padding-right: 2px">{{ widget.label }}:</label><input type="{{ widget.type }}" name="{{ widget.name }}"{% if widget.value != None %} value="{{ widget.value }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}></div>

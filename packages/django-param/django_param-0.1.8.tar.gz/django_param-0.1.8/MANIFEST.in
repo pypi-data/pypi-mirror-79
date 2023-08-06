@@ -1,0 +1,8 @@
+include *.txt
+include *.rst
+recursive-include django_param/templates *
+recursive-include django_param/static *
+prune .coverage
+prune .github
+prune .stickler.yml
+include LICENSE
