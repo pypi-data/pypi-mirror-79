@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: video-diet
+Version: 0.1.0
+Summary: 
+Author: hian
+Author-email: hiancdtrsnm@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: enlighten (>=1.6.2,<2.0.0)
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: ffprobe-python (>=1.0.3,<2.0.0)
+Requires-Dist: filetype (>=1.0.7,<2.0.0)
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Video diet
+
+This project aims to reduce the spaces of your videos enconding it on hevc.
+
+## For developers
+
+You must first install *poetry*:
+
+```bash
+pip install poetry
+```
+
+and inside the project make `poetry install` and after `poetry shell` for start the virtualenv.
+For testing the code run `video-diet`.
+Good luck 😉.
+
+Project Structure based on awesome tutorial by @tiangolo at https://typer.tiangolo.com/tutorial/package/
+
+https://ffmpeg.org/download.html
+
