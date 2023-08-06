@@ -1,0 +1,15 @@
+psutil
+pyzmq>=17.0
+tornado>=5.0.2
+
+[test]
+nose
+nose-cov
+coverage
+mock
+circus-web
+gevent
+papa
+PyYAML
+pyzmq>=17.0
+flake8==2.1.0
