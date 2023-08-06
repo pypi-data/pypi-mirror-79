@@ -1,0 +1,23 @@
+recursive-exclude src/jomiel/kore/examples/ *.yaml
+
+recursive-exclude src/ .pre-commit-config.yaml
+recursive-exclude src/ .flake8
+
+recursive-exclude src/ pyproject.toml
+recursive-exclude src/ README.md
+
+recursive-exclude src/ LICENSE
+recursive-exclude src/ NOTICE
+
+global-exclude __pycache__
+global-exclude .gitignore
+global-exclude *.py[cod]
+
+exclude jomiel.yaml
+
+recursive-include src/jomiel/data *.yaml
+recursive-include docs/ *.md *.svg
+
+include CHANGES.md
+
+prune build/
