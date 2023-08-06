@@ -1,0 +1,10 @@
+setup.py
+distributions-LamaTesting/Binomialdistribution.py
+distributions-LamaTesting/Gaussiandistribution.py
+distributions-LamaTesting/Generaldistribution.py
+distributions-LamaTesting/__init__.py
+distributions_LamaTesting.egg-info/PKG-INFO
+distributions_LamaTesting.egg-info/SOURCES.txt
+distributions_LamaTesting.egg-info/dependency_links.txt
+distributions_LamaTesting.egg-info/not-zip-safe
+distributions_LamaTesting.egg-info/top_level.txt
