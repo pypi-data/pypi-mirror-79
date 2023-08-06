@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: modulemap
+Version: 0.0.2
+Summary: A lightweight option for creating json description files of Python modules
+Home-page: https://github.com/singram12/ModuleMap
+Author: Sam Ingram
+Author-email: sp_ingram12@yahoo.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: jsondiff (>=1.2.0)
+
+# Module Map
+
+This is a lightweight package which allows module descriptions to be captured as json files. These can then be compared to capture changes in the module structure between versions.
+
+## Installation
+_modulemap_ can be installed by running `pip install modulemap`. It requires Python 3.5.0+ to run.
+
+## Dependencies
+- [jsondiff](https://github.com/fzumstein/jsondiff)
+
+## Features
+- Mapping modules at varying levels of depth
+- Quick evaluation of module changes
+
+## Code Example
+
+```python
+import modulemap
+
+modulemap.map_module('os')
+modulemap.map_module('shutil')
+
+differences = modulemap.compare_module_maps('os_modulemap.json', 'shutil_modulemap.json')
+
+print(differences)
+```
+
