@@ -1,0 +1,9 @@
+README.md
+setup.py
+lsm303/__init__.py
+lsm303_python.egg-info/PKG-INFO
+lsm303_python.egg-info/SOURCES.txt
+lsm303_python.egg-info/dependency_links.txt
+lsm303_python.egg-info/entry_points.txt
+lsm303_python.egg-info/not-zip-safe
+lsm303_python.egg-info/top_level.txt
