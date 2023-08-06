@@ -1,0 +1,49 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data/20180402_sheng_results.csv
+data/ISB_test.csv
+data/New Tab.html
+data/alldata_new.csv
+data/kl_control_vs_control.csv
+data/nih_facilities_and_resources_template.docx
+data/New Tab_files/08grocery15-facebookJumbo.jpg
+data/New Tab_files/Why_You_Should_Celebrate_Small_Wins_at_Work.jpg
+data/New Tab_files/favicon.ico
+data/New Tab_files/httpshbr.jpg
+data/New Tab_files/httpspocket-syndicated-images.jpg
+data/New Tab_files/httpspocket-syndicated-images_002.jpg
+data/New Tab_files/httpspocket-syndicated-images_003.jpg
+data/New Tab_files/httpspocket-syndicated-images_004.jpg
+data/New Tab_files/httpspocket-syndicated-images_005.jpg
+data/New Tab_files/httpspocket-syndicated-images_006.jpg
+data/New Tab_files/httpspocket-syndicated-images_007.jpg
+data/New Tab_files/httpspocket-syndicated-images_008.jpg
+data/New Tab_files/httpspocket-syndicated-images_009.jpg
+data/New Tab_files/httpspocket-syndicated-images_010.jpg
+data/New Tab_files/httpspocket-syndicated-images_011.jpg
+data/New Tab_files/httpspocket-syndicated-images_012.jpg
+data/New Tab_files/httpspocket-syndicated-images_013.jpg
+data/New Tab_files/httpspocket-syndicated-images_014.jpg
+data/New Tab_files/httpss3.jpg
+data/New Tab_files/img_6898_wide-e700091be064053c78df9e3f833f115b3b999596.jpg
+data/New Tab_files/minagar.jpg
+data/New Tab_files/shutterstock_243279538.webp
+pykulgap/__init__.py
+pykulgap/helpers.py
+pykulgap/io.py
+pykulgap/pipelines.py
+pykulgap/plotting.py
+pykulgap.egg-info/PKG-INFO
+pykulgap.egg-info/SOURCES.txt
+pykulgap.egg-info/dependency_links.txt
+pykulgap.egg-info/not-zip-safe
+pykulgap.egg-info/top_level.txt
+pykulgap/classes/CancerModel.py
+pykulgap/classes/ExperimentalCondition.py
+pykulgap/classes/TreatmentResponseExperiment.py
+pykulgap/classes/__init__.py
+scripts/experimentConditionProperties.py
+scripts/test.py
+scripts/testing.py
