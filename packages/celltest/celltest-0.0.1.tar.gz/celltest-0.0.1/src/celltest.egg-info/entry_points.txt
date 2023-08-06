@@ -1,0 +1,3 @@
+[console_scripts]
+celltest = celltest.cli:main
+
