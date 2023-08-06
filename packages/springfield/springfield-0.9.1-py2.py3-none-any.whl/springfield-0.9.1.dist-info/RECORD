@@ -1,0 +1,14 @@
+pytest_springfield/__init__.py,sha256=fYXwag9OWGcMIdSzjnHY5RbBeOJMU9v_IQcJvTbCu0o,96
+pytest_springfield/assertrepr_compare.py,sha256=zysljWmLOmXm9HEykG4ZpeYHXnMoysB-csy_iqbi-oQ,547
+springfield/__init__.py,sha256=e8bejfBCbQMt2jocOCJlTzesCfwMWc9S1FgaxENz6Fw,144
+springfield/alias.py,sha256=j3FM8b9LWnSC2Yap5Pz3TE_G5CzuzcDnAQERypb_h0g,3325
+springfield/entity.py,sha256=bnAq7JAJwwbAPZdT5cEPfIwcK1IxLRTfF5lS5Qivx_M,13566
+springfield/fields.py,sha256=1MNCOH6RSg2tIKECaXKjM7AlQCyoUWovx7OT-LtRhc0,19462
+springfield/timeutil.py,sha256=_xkXuX5qWZSJyGR20RI57cklZI3LC2WJ_0eV_1Tz0Co,1994
+springfield/types.py,sha256=TZ5gU1d3pxDqK1j8TzIdd92-CmwACFXbx45QJ5SGEsc,760
+springfield-0.9.1.dist-info/LICENSE,sha256=ZuQx1LROlvIaK-dZSO57UzPKVwl91ip0bAP_STqsyXI,1472
+springfield-0.9.1.dist-info/METADATA,sha256=E8LE-eSHyP3V6mr0NunbELvsc98yIl-emRBpnKOFlxI,6208
+springfield-0.9.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+springfield-0.9.1.dist-info/entry_points.txt,sha256=QodvCyHCReLjVdh_EwoItuVMoEBawaExsAEj7sAGZZ8,45
+springfield-0.9.1.dist-info/top_level.txt,sha256=UJHJvzrVZQopNfOkiHMqa8UWsgrBnRxjgjbSGfEI4Ms,31
+springfield-0.9.1.dist-info/RECORD,,
