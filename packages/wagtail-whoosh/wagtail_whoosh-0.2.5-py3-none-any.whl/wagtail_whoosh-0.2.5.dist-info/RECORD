@@ -1,0 +1,15 @@
+tests/project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/project/models.py,sha256=0d-KEPl-xKTH9DyIwhxps-_8MeJgRQ1jHeXS_JF5FIY,361
+tests/project/management/commands/benchmark.py,sha256=_rJb6vIBuqbS92AzAluHVXY8r5PWHElsJ-8AyUwlGlw,6046
+tests/project/migrations/0001_initial.py,sha256=b56hpnILwyzAZ9_pldEx4xL_Te8R3zLO1Yhw8wxGRwI,668
+tests/project/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_whoosh/__init__.py,sha256=ug6JLOjZu2401UgqFJkJ0WpPjh1KnPF5YwJ0rfVeXqc,62
+wagtail_whoosh/apps.py,sha256=j0wm2KUrMapT3PcS-fns_gNgPKRV4nzweratwKuW2c8,102
+wagtail_whoosh/backend.py,sha256=qDjMrUhzgMOYj0klMOHHGekJQllM0Xcq40sqZhjdM2c,20037
+wagtail_whoosh/utils.py,sha256=eHFmc_HZbHlh3HzQUZ20z9O_Fk1VdidKZtaL-BSEyiI,1119
+wagtail_whoosh-0.2.5.dist-info/DESCRIPTION.rst,sha256=yZcvd2M8CkLztFhGXgRrFXkbXAKWq6ehhFlc91mLO84,33
+wagtail_whoosh-0.2.5.dist-info/METADATA,sha256=Q-X-vMy6_HaaiswrczTQiCMCUWCp_p0SOrT0F--m0YI,1070
+wagtail_whoosh-0.2.5.dist-info/RECORD,,
+wagtail_whoosh-0.2.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+wagtail_whoosh-0.2.5.dist-info/metadata.json,sha256=UGYqMZ3B5YvF1MBBZ_pZ28HCi2LrjdPSqLcMwbApUcw,1117
+wagtail_whoosh-0.2.5.dist-info/top_level.txt,sha256=WLLy0Qry87bJ7eGGxYBQRHu2XsTHLCznOL3jH2xrCkw,21
