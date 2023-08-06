@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sym-lambda
+Version: 1.0.0b1
+Summary: Sym Lambda Integration Helpers
+Home-page: https://github.com/symopsio
+Author: Sym Inc
+Author-email: info@symops.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# sym-lambda-py
+
+
