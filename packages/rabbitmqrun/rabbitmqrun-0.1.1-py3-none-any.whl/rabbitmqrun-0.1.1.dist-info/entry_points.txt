@@ -1,0 +1,3 @@
+[console_scripts]
+rabbitmqrun=rabbitmqrun.cli:run
+

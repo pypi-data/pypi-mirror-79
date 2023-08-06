@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rabbitmqrun
+Version: 0.1.1
+Summary: A package rabbitmqrun
+Home-page: https://github.com/mayronceccon
+Keywords: rabbitmq
+Author: Mayron Ceccon
+Author-email: mayron.ceccon@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/mayronceccon
