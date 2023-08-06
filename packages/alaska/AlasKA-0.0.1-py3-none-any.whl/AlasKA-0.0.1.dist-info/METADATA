@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: AlasKA
+Version: 0.0.1
+Summary: Automated well log mnemonics parser
+Home-page: https://github.com/FRI-Energy-Analytics/AlasKA
+Author: The AlasKA Developers
+Author-email: destinydong@utexas.edu
+Maintainer: Destiny Dong
+Maintainer-email: destinydong@utexas.edu
+License: MIT License
+Keywords: geophysics,geology,reservoir engineering
+Platform: Any
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Requires-Dist: lasio
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: backports.functools-lru-cache
+
+this is the long description
+
+
