@@ -1,0 +1,3 @@
+[console_scripts]
+randmac = randmac.__main__:main
+
