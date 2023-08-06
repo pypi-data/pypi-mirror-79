@@ -1,0 +1,15 @@
+jupyterlab_hdf/__init__.py,sha256=U53Spi-qSC4tHC0CYpOasbaWc4OHd1X2XBAZ1fbr67M,1449
+jupyterlab_hdf/_version.py,sha256=S2ffTMu4e95v7Dlw4L6lALOKL8jQS4rP6_fn76SCgUk,149
+jupyterlab_hdf/baseHandler.py,sha256=ZhUissn5Uf0DdmNbAS0dAvwrdCIUSkaFrDe9GX5njsI,3955
+jupyterlab_hdf/config.py,sha256=7wAEsrH4WhIcBXg9pK2SSFyy_ILLwKCDGqdGtj7nwVk,1179
+jupyterlab_hdf/contents.py,sha256=53cctdGpxcOFhNmFlpzV-C0PVQ7C2q4BFnVJEacKIUY,1031
+jupyterlab_hdf/data.py,sha256=55uQeF9i6NzMHTHH9bcvTqXllHuTvw_f-9Pn2udfXyk,581
+jupyterlab_hdf/json.py,sha256=bqbOW9cYpA0fWjHbv3Ui7RVmjkDDM6lxXODq6cXBBWs,7878
+jupyterlab_hdf/snippet.py,sha256=Kv1CId-JX7M1RlnGRS9PD2WK0qNPmEfSWujlrdLWlBs,680
+jupyterlab_hdf/util.py,sha256=JCRaXaD4A7_vyy1uMXAkM-jm_YZX3o69ljirAZE2m-s,1713
+jupyterlab_hdf-0.4.1.data/data/etc/jupyter/jupyter_notebook_config.d/jupyterlab_hdf.json,sha256=oBDJkPsh3YQimQ8XfH1jA5f9uNIkVvpqbDi1TahsknM,91
+jupyterlab_hdf-0.4.1.dist-info/LICENSE,sha256=NAaNjORUQDInb2FfFWDk8Mw89UGfloe__thyxef4TN0,1535
+jupyterlab_hdf-0.4.1.dist-info/METADATA,sha256=6zIB23p7GYlrMxtI3ldViO76prvEa4ZpZjNnFmJrTsw,4625
+jupyterlab_hdf-0.4.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jupyterlab_hdf-0.4.1.dist-info/top_level.txt,sha256=JTvqBTxd4C8twZNl3NyrxgxbVphghMGl2omtQoj6WsQ,15
+jupyterlab_hdf-0.4.1.dist-info/RECORD,,
