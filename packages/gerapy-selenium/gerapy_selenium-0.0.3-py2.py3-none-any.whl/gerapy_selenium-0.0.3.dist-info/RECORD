@@ -1,0 +1,10 @@
+gerapy_selenium/__init__.py,sha256=g8oPeBhohFEhQi-mxCi-c-yQf-6ghWuF-33NZ1f8huE,91
+gerapy_selenium/__version__.py,sha256=5PWG6ISixGgL1Q5ptcgh1n5SgK_XJyNvkT5OCDltoPk,74
+gerapy_selenium/downloadermiddlewares.py,sha256=Z40BLZZIz-eQ5wAwp-D8yHUyN6TmqqlAA883VFnHf2I,11088
+gerapy_selenium/pretend.py,sha256=k1rBwkfKS3sCjinn6fZDTBUlziDxpmSQzyp0dI06Pro,2998
+gerapy_selenium/request.py,sha256=sDjaYjoIusn3vqBKp965meBuMHdqc_y5YD3zR57owjE,2526
+gerapy_selenium/settings.py,sha256=jESDoh_39Ycz7-T4wWUqw77E-pjKUaOz8Vw1G8MBB6E,723
+gerapy_selenium-0.0.3.dist-info/METADATA,sha256=hyYNQLUh6fSj5Suyc6M9RbTjzW76a4dsbmpEsVbNttM,11690
+gerapy_selenium-0.0.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gerapy_selenium-0.0.3.dist-info/top_level.txt,sha256=PG_UkhrlPfngOxOq16272T1785T58uFNuxQwwVu7UKs,16
+gerapy_selenium-0.0.3.dist-info/RECORD,,
