@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: shaurya
+Version: 1.12
+Summary: my package.
+Home-page: UNKNOWN
+Author: Shaurya Pratap Singh
+Author-email: shaurya.p.singh21@gmail.com
+License: GPL
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Shaurya package
+
+
