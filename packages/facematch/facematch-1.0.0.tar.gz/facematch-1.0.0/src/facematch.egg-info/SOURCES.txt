@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/facematch/__init__.py
+src/facematch/face.py
+src/facematch.egg-info/PKG-INFO
+src/facematch.egg-info/SOURCES.txt
+src/facematch.egg-info/dependency_links.txt
+src/facematch.egg-info/entry_points.txt
+src/facematch.egg-info/requires.txt
+src/facematch.egg-info/top_level.txt
+src/facematch/cmd/__init__.py
+src/facematch/cmd/cli.py
