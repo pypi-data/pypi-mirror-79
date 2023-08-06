@@ -1,0 +1,14 @@
+---
+- model: idc.assertedsubject
+  pk: 1
+  fields:
+    asid: 1@idc.testing.unimatrixone.io
+    external: false
+    is_superuser: false
+
+- model: idc.assertedsubject
+  pk: 2
+  fields:
+    asid: 2@idc.testing.unimatrixone.io
+    external: false
+    is_superuser: false
