@@ -1,0 +1,88 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+from gdon.common import Creating  # Generator
+from gdon.retrieve import Retrieve, BackupRetrieve
+from gdon.utils import CheckConfig
+from gdon.constants import DEFAULT_FOLDER, WALLETS_FOLDER, BACKUP_FOLDER
+from sys import argv
+
+
+def help():
+    print ("\nUtiliser Ğ1Dons\n===============")
+    print ("\nĞ1Dons permet de créer des portefeuilles papiers en Ğ1 destinés à des dons (pas des billets).")
+    print ("Les portefeuilles sont créés avec une date de péremption.\nVous pourrez récupérer la monnaie qui n'aurait pas été utilisée après la péremption.")
+    print ("\nCONFIGURATION\n-------------\n")
+    print ("Configurer le noeud Duniter : \"gdon noeud <noeud> <port>\"")
+    print ("Configurer le dossier d'enregistrement : \"gdon dossier <chemin_vers_dossier>\"")
+    print ("Connaître la configuration : \"gdon config\"")
+    print ("\nCREATION\n--------\n")
+    print ("Générer des dons : \"gdon generer <montant> <nombre_pages> <peremption_date_JJ/MM/AAAA>\"\nĞ1Dons génère 6 pourboires par page.\nATTENTION : pour récupérer les Ğ1dons, vous aurez besoin des identifiants du compte qui les a créé. Sauvegardes-les précieusement.")
+    print ("Ğ1Dons suppose que vous utilisez un trousseau généré par ID + MDP secrets avec les paramètres de Scrypt par défaut (4096,16,1).")
+    print ("Les Ğ1Dons sont enregistrés par défaut dans {0}.".format(DEFAULT_FOLDER))
+    print ("\nRECUPERATION\n------------\n")
+    print ("Récupérer des dons : \"gdon recuperer\"")
+    print ("...depuis un dossier : \"gdon recuperer <dossier>\"")
+    print ("...depuis un fichier : \"gdon recuperer fichier <fichier>\"")
+    print ("En cas de mauvaise récupération, tenter une récupération des backups : \"gdon recuperer backup <année>\"")
+    print ("La récupération des backups est possible à plusieurs reprises.")
+    print ("Les fichiers de récupération sont enregistrés par défaut dans {0}.".format(DEFAULT_FOLDER + WALLETS_FOLDER))
+    print ("Lors d'une récupération, les fichiers récupérés sont enregistrés par défaut dans {0}<année> en cas de transaction mal effectuée.".format(DEFAULT_FOLDER + BACKUP_FOLDER))
+    print ("Les fichiers de récupération portent l'extension json.signed, mais tout fichier texte correctement formaté sera accepté quelle que soit son extension.\n")
+
+# main
+if __name__ == "__main__":
+    if len(argv) > 1:
+        if argv[1] == "generer":
+            if len(argv) > 5 or len(argv) < 4:
+                print ("Erreur : information mal formatées.")
+                help()
+            else:
+                amount = float(argv[2])
+                pages = int(argv[3])
+                date = str(argv[4])
+                Creating (amount, date, pages).create()
+
+        elif argv[1] == "recuperer":
+            if len(argv) == 2:
+                Retrieve().retrieve()
+            elif len(argv) == 3:
+                Retrieve(folder=argv[2]).retrieve()
+            elif len(argv) == 4 and argv[2] == "fichier":
+                Retrieve(_file=argv[3]).retrieve()
+            elif len(argv) == 4 and argv[2] == "backup":
+                copy = BackupRetrieve(argv[3])
+                Retrieve(folder=copy.dest).retrieve()
+                copy.delete()
+            else:
+                print ("Erreur : information mal formatées.")
+                help()
+
+        elif argv[1] == "noeud":
+            if len(argv) != 4:
+                print ("Erreur : information mal formatées.")
+                help()
+            else:
+                CheckConfig().check_conf(node=argv[2], port=int(argv[3]), folder=None)
+
+        elif argv[1] == "dossier":
+            if len(argv) != 3:
+                print ("Erreur : information mal formatées.")
+                help()
+            else:
+                CheckConfig().check_conf(None, None, folder=argv[2])
+
+        elif argv[1] == "config":
+            if len(argv) != 2:
+                print ("Erreur : information mal formatées.")
+                help()
+            else:
+                CheckConfig().display_conf()
+
+
+        else:
+            help()
+
+    else :
+        help()
+
