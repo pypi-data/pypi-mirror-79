@@ -1,0 +1,424 @@
+Author: Jonas Malaco
+    Make deploy script compatible with setuptools_scm and add prompts
+
+Author: Jonas Malaco
+    tutorial: fix the description of the return of find(find_all=True)
+
+Author: Jonas Malaco
+    Fix broken link in tutorial to libusb caveats
+
+Author: Jonas Malaco
+    Link workaround to corresponding setuptools_scm bug fix
+
+Author: Jonas Malaco
+    Merge pull request #312 from ap--/version-indicate-editable
+    
+    Indicate editable installs in version string
+Author: ap--
+    Workaround setuptools_scm bug for Ubuntu 16.04
+    
+    "setuptools_scm >=1.8.0, <=1.10.1" had a bug where callables would
+    crash the installation when installing from an sdist.
+    
+    Ubuntu 16.04 ships with 1.10.1...
+    
+    This workaround just noops the pop call that is causing the issue.
+    
+    see: pypa/setuptools_scm@ff948dcd99
+
+Author: ap--
+    Append '-editable' to version for editable installs
+    
+    This will append '-editable' to the usb.__version__ string
+    when pyusb is installed via `python setup.py develop` or
+    `pip install -e .`
+
+Author: Jonas Malaco
+    Use setuptools_scm for versioning
+    
+    Merge pull request #307 from ap--/setuptools-scm-versioning.
+Author: ap--
+    support older setuptools versions
+    
+    see: https://github.com/pypa/setuptools_scm#interaction-with-enterprise-distributions
+    
+    (checking via LooseVersion, because of old setuptools 0.6cXX versions)
+
+Author: ap--
+    simplify version_info regex
+
+Author: ap--
+    keep usb.version_info tuple length at 3
+    
+    Provides usb.extended_version_info tuple: (major, minor, patch, suffix)
+    suffix is an empty string for releases.
+    
+    This allows to easily do custom suffix installs:
+    ```
+    $ SETUPTOOLS_SCM_PRETEND_VERSION='0.1.2-1build1' python setup.py install
+    $ python -c "import usb; print(usb.extended_version_info)"
+    (0, 1, 2, '1build1')
+    ```
+
+Author: Jonas Malaco
+    Install libusb-1.0 on the Windows jobs
+
+Author: Jonas Malaco
+    Make the tox run exit with 1 if any test fails
+
+Author: Jonas Malaco
+    Merge pull request #309 from ap--/libusb0-errno-enodata
+    
+    Fix errno.ENODATA not available on Windows/py27
+Author: Jonas Malaco
+    Increase the number of parallel jobs
+    
+    Match the number of jobs per OS.
+
+Author: Jonas Malaco
+    Run tox ghactions workflow on pull requests
+
+Author: Jonas Malaco
+    Merge pull request #308 from ap--/github-actions-tox
+    
+    run tests via tox and github actions
+Author: ap--
+    github-actions: dont depend on tox-gh-actions
+
+Author: ap--
+    run tests via tox and github actions
+    
+    ... for python 2.7, 3.5, 3.6, 3.7, 3.8 on windows, linux, macos.
+
+Author: ap--
+    fix errno.ENODATA not available on windows
+
+Author: ap--
+    Use setuptools_scm for versioning
+    
+    Automatically generates the `usb.__version__` string on installation.
+    
+    Closes pyusb/pyusb#298.
+
+Author: kuma35
+    Fix misspelled interrupt in docstring (#306)
+    
+
+Author: Jonas Malaco
+    Remove outdated website and contact information
+    
+    Reported-by: @kuma35
+
+Author: Jonas Malaco
+    Prevent AttributeErrors from non-portable libusb0 functions
+    
+    usb_get_driver_np and usb_detach_kernel_driver_np are marked as
+    non-portable and may be unavailable; for example, they are not exported
+    by libusb-win32.
+    
+    To make both libusb0 and libusb1 consistent accross all platforms
+    prevent the AttributeError and instead raise a NotImplementedError.
+    
+    P.S. Windows-only functions already were correctly handled.
+    
+    Reported-by: @eblot
+    Fixes: #299 ("Use of `usb_get_driver_np` may trigger unexpected exception")
+
+Author: root
+    Remove non-ASCII dashes from copyright notices (#297)
+    
+    In Python 2 source files are treated as encoded in ASCII.
+
+Author: Jonas Malaco
+    Normalize all copyright disclaimers
+    
+    PyUSB 1.0 was originally licensed in 2010 under the Tcl/Tk License
+    Terms.[1][2]
+    
+    Shortly after the original author changed the license to the 3-clause
+    BSD, but at the same time added copyright notices to each source file
+    that were still based on the previous Tcl/Tk terms.[3][4]
+    
+    The license was once again changed in 2018 by a (at the time) new
+    maintainer.  The Apache 2.0 license was chosen, and all copyright
+    notices where adjusted accordingly.[5]
+    
+    However, this was a more restrictive license than before that, in
+    particular, created compatibility issues with GPL 2.0-only projects.
+    The change was ultimately reverted after a brief discussion, but
+    copyright notices and metadata where again left out-of-sync with the
+    license.[6][7]
+    
+    Fix all copyright disclaimers and clarify that all code is currently
+    licensed under the BSD 3-clause license, as the original author had
+    intended back in 2010.
+    
+    [1] 270bd71559e9 ("[1.0] Added README, LICENSE, TODO and ACKNOWLEDGEMENTS files.")
+    [2] https://www.tcl.tk/software/tcltk/license.html
+    [3] 0f30969ec3ac ("[1.0] License update.")
+    [4] fa827adb61e1 ("Updated license information for test scripts.")
+    [5] 161086acdf9c ("Moving to the standard Apache 2.0 License.")
+    [6] 9d6d09460370 ("back to bsd 3 clause")
+    [7] #244 ("GitHub thinks this is Apache 2.0?")
+
+Author: Jonas Malaco
+    Remove out of place post scriptum
+
+Author: Jonas Malaco
+    Fix URL rendering
+
+Author: Jonas Malaco
+    Deprecate the OpenUSB backend
+    
+    Fixes: #284 ("Deprecation notice for the OpenUSB backend")
+
+Author: Jonas Malaco
+    Add missing error classes to the public names of usb.core
+
+Author: Querela
+    Add USBTimeoutError
+    
+    Timeout errors are generally handled differently from other USB errors; it makes sense to have a specific exception for them.
+    
+    For backwards compatibility, USBTimeoutError subclasses USBError.
+    
+    Fixes: #182 ("Only a single error class for different error categories")
+Author: Jonas Malaco
+    Raise a USBError for obviously invalid descriptors
+    
+    In certain scenarios some devices may return zero-length descriptors.
+    However, all descriptors must have at least two bytes (the descriptor
+    length in bytes and the descriptor type), and the USB 3.2 specification
+    states that:
+    
+    > If a descriptor returns with a value in its length field that is less
+    > than defined by this specification, the descriptor is invalid and should
+    > be rejected by the host.
+    
+    Instead of returning invalid descriptors, modify get_descriptor so it
+    raises a proper USBError as soon as/if the descriptor is found to be
+    invalid.
+    
+    This results in get_string (which depends on get_descriptor) no longer
+    failing with a generic IndexError; instead, the user will be able to
+    catch/handle the USBError from the underlying call.
+    
+    Fixes: #164 ('"IndexError: array index out of range" when reading
+    product property')
+    Reported-by: @c1728p9
+
+Author: Jonas Malaco
+    Catch all errors when accessing attributes from find()
+    
+    Depending on the device and platform, many different errors can result
+    from trying to access device attributes like string descriptors.  Threat
+    any of them in find() as failed matches.
+    
+    Related: #179
+
+Author: Jonas Malaco
+    Make find() robust against inaccessible attributes
+    
+    Device attributes that require reading from the device, such as string
+    descriptors, can be inaccessible for several reasons (e.g. insufficient
+    permissions).
+    
+    This is particularly relevant on Windows, where even with adequate
+    permissions it might not be possible to read from all devices, usually
+    due to driver limitations.
+    
+    This patch makes find() tolerant to such issues, treating them as failed
+    matches instead of aborting with exceptions.  Internally, an `object()`
+    sentinel is used in place of the expected value, to prevent accidental
+    matches.
+    
+    Fixes: #179 ("core.find() string filters require write access to all
+    connected devices")
+    Reported-by: @tormodvolden
+
+Author: Jonas Malaco
+    Add USBError to the list of public names from usb.core
+    
+    Reported-by: Mauro Condarelli (@mcondarelli)
+    Fixes: #228 ("`USBError` should be in `__all__`")
+
+Author: Jonas Malaco
+    Ignore last byte from string descriptors with odd number of bytes
+    
+    Some devices do not conform to the USB specification and return string
+    descriptors with odd number of bytes.
+    
+    Instead of processing the invalid string as is, which would result in a
+    UnicodeDecodeError, trim off the last byte and proceed.  This is similar
+    (though more explicit) to how lsusb processess string descriptors.
+    
+    Reported-by: Rich M (@RWAP)
+    Fixes: #154 ("UnicodeDecodeError")
+    Related: #204 ("Handle missing null terminator situation for device descriptors")
+    Related: https://github.com/gregkh/usbutils/blob/3c2dba40531da880a8c1bd0825e88f7866f051b4/usbmisc.c#L221-L222
+
+Author: Jonas Malaco
+    Add common causes to 'has no langid' ValueError message
+    
+    Related: #139 ("ValueError: The device has no langid")
+
+Author: Jonas Malaco
+    Don't check whether an explicitly passed langid is supported
+    
+    Commit 525d3b6be22b ("Expose device's LANGIDs; suppress missing
+    strings") implemented a fully spec-compliant get_string method.
+    
+    However, no all real-world devices are fully compliant, and this is
+    especially the case for userspace tools built of top of PyUSB.
+    
+    Allowing the callers to expclitly pass LANGIDs not advertised as
+    supported by the device provides a clean way to deal with non-compliant
+    products.
+    
+    Instead of raising a ValueError, PyUSB will now forward the request to
+    the device, which can still refuse it, just as if an unsupported
+    descriptor ID had been passed.
+    
+    Additionally, while the complementary [Language Identifiers (LANGIDs)
+    Version 1.0] document does state that
+    
+    > system software should never request a LANGID not defined in the
+    > LANGID code array (string index = 0) presented by a device.
+    
+    this is not in the current [USB 3.2 Specification].
+    
+    Related: #139 ("ValueError: The device has no langid")
+    Related: 525d3b6be22b ("Expose device's LANGIDs; suppress missing strings")
+    
+    [Language Identifiers (LANGIDs)]: http://www.baiheee.com/Documents/090518/090518112619/USB_LANGIDs.pdf
+    [USB 3.2 Specification]: https://www.usb.org/sites/default/files/usb_32_20191024.zip
+
+Author: Jonas Malaco
+    Skip redirect that fails due to lack of SSL cert
+
+Author: Jonas Malaco
+    Fix links to libusb and its documentation
+
+Author: Jonas Malaco
+    Fix outdated backend names in backend package __all__
+    
+    Fixes: c6a9a8ea9284 ("Renamed libusb10 backend to libusb1")
+    Fixes: 2082e70c32c6 ("Renamed libusb01 backend to libusb0")
+
+Author: Jonas Malaco
+    Implement is_kernel_driver_active on the libusb0 backend
+    
+    Fixes: #132 ("libusb0 backend does not implement usb.backend.IBackend
+    completely")
+    Reported-by: Robert Wlodarczyk (@SimplicityGuy)
+
+Author: Jonas Malaco
+    Fix incorrect return typing for openusb_intr_xfer
+    
+    Fixes: #187 ("typing error in file openusb.py")
+    Reported-by: @jfongattw
+
+Author: Jonas Malaco
+    Remove ReleaseNotes.txt from the manifest
+    
+    ReleaseNotes.rst had long been superseded by a git-log changelog, and
+    was finally removed in 1d54b1a4c58a ("Release notes not necessary
+    anymore").
+    
+    The changelog is generated by gencl.sh during packaging (see: deploy.sh).
+    
+    Fixes: #231 ("Out-of-date manifest")
+    Reported-by: @turboencabulator
+
+Author: Robert Wlodarczyk
+    back to bsd 3 clause (#281)
+    
+    * Updating ACKOWLEDGEMENTS
+    
+    * Moving back to BSD 3 Clause
+
+Author: mdxs
+    Updated description for PyPI in setup.py (#280)
+    
+    Some grammar and capitalization fixed.
+Author: Eric Wieser
+    Don't call libusb_exit on a null pointer (#279)
+    
+    If `libusb_init` throws an exception, then `ctx` is null here
+Author: Jonas Malaco
+    Fix project URL
+    
+    At the moment pyusb.github.io results in a 404, the correct URL is
+    pyusb.github.io/pyusb.  Also use https.
+
+Author: Jonas Malaco
+    Link to https website
+
+Author: Andy Clark
+    Fix #203: libusb sometimes cleaned up too early. (#227)
+    
+    Each call to libusb1's get_backend returns a new _LibUSB object.
+    When each  _LibUSB object falls out of scope, it calls ends up
+    calling libusb_exit() which deinitializes libusb, even if there are still
+    references in scope.
+    
+    Practically speaking, pyusb seems to assume there's only one
+    context active, so returning the same _LibUSB object on
+    subsequent calls to get_backend should prevent there from being
+    more than one call to libusb_exit() when backend objects go
+    out of scope.
+    
+    This should fix errors where the libusb library was being used after
+    libusb_exit() had been called.
+Author: Nico Elayda
+    Typo fix: libusb1.py LIBUSB_SUCESS -> LIBUSB_SUCCESS (#223)
+    
+
+Author: Ehsan Kia
+    Add missing comma in string list (#277)
+    
+    In Python, two adjacent strings get concatenated implicitely.
+    Missing commas in multi-line string lists is a common source of bugs
+    causing unwanted string concatenation. In this case, it is clear that this
+    comma is missing by mistake and there should not be a concatenation.
+Author: Jonas Malaco
+    Fix example for when there's no active configuration (#275)
+    
+    Unlike the example used to suggest, `get_active_configuration` raises `USBError('Configuration not set')` if there's no active configuration set yet.
+Author: jaredwelsh
+    miss me with that weeb shit (#205)
+    
+
+Author: Yawara ISHIDA
+    Expose libusb_get_parent of libusb1 (#202)
+    
+
+Author: Robert Wlodarczyk
+    Merge pull request #201 from pyusb/license-change
+    
+    Moving to the standard Apache 2.0 License.
+Author: Robert Wlodarczyk
+    Moving to the standard Apache 2.0 License.
+
+Author: Robert Wlodarczyk
+    Updating URLs to reflect move to pyusb organization.
+
+Author: Wander Lairson Costa
+    Update maintainer information.
+    
+    Robert Wlodarczyk is stepping in as the new PyUSB maintainer.
+
+Author: Wander Lairson Costa
+    Revert "Add message for new maintainer."
+    
+    This reverts commit c3d224a87b13a202345ea91000b58f9ddbecece0.
+    
+    A new maintainer is coming.
+
+Author: Wander Lairson Costa
+    [readme] Update installation information.
+    
+    pip is the "de facto" way to install Python packages.
+
+Author: Wander Lairson Costa
+    Small bustage on deploy.sh
