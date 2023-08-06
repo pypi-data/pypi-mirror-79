@@ -1,0 +1,11 @@
+README.md
+setup.py
+researchacademic/__init__.py
+researchacademic/fetcher.py
+researchacademic/test_fetcher.py
+researchacademic.egg-info/PKG-INFO
+researchacademic.egg-info/SOURCES.txt
+researchacademic.egg-info/dependency_links.txt
+researchacademic.egg-info/requires.txt
+researchacademic.egg-info/top_level.txt
+researchacademic.egg-info/zip-safe
