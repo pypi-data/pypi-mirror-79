@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ptolemaios/__init__.py
+ptolemaios.egg-info/PKG-INFO
+ptolemaios.egg-info/SOURCES.txt
+ptolemaios.egg-info/dependency_links.txt
+ptolemaios.egg-info/top_level.txt
