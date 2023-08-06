@@ -1,0 +1,10 @@
+digioAdapter/__init__.py,sha256=M8WVop1ZFQjmclP51PezDj7qj1j5y-KvQHQ2yh9nXos,161
+digioAdapter/__version__.py,sha256=fmZoAuIIu-cY5HWHk0xNkrYCWHSI7kYuunCxZbsddk8,381
+digioAdapter/digioclient.py,sha256=Z39S9hkuMnCARjHPdr2Cf0lL1N897JnBwtOLq9jQIhM,1851
+digioAdapter/entry_points.py,sha256=hHwFi_zM-I-x5956qFv1bNk6qsmQfSuMH4JuWRAoJjY,1418
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/LICENSE,sha256=hcMzkligKst6Vz9pXbSQ5vr80xLKp2IGO-ILcvAPwFY,551
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/METADATA,sha256=NfTgG8E-Usxqqv2RRiCbI14tYgE82zShp6rrqaWdnZM,13754
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/entry_points.txt,sha256=uo5gSv08zM03HbC8w5nHmK66Khdw773dA-znPoP7A00,66
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/top_level.txt,sha256=lOawN8_JHa55mvoQy_wVQRd7Bes-kylKPnpkNFeuz24,13
+villa_digioadapter_jirawutchayapong-0.0.9.dist-info/RECORD,,
