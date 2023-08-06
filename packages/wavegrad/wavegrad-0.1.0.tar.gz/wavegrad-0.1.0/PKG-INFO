@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: wavegrad
+Version: 0.1.0
+Summary: wavegrad
+Home-page: https://www.lmnt.com
+Author: LMNT, Inc.
+Author-email: github@lmnt.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: wavegrad machine learning neural vocoder tts speech
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
