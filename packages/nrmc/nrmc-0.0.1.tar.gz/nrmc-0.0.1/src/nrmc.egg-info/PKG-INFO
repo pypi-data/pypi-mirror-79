@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: nrmc
+Version: 0.0.1
+Summary: Non-reversible Monte Carlo Markov Chain sampling over districting graphs
+Home-page: https://github.com/
+Author: Evan Wyse
+Author-email: evan.wyse@duke.edu
+License: MIT
+Project-URL: Documentation, https://github.com/
+Project-URL: Code, https://github.com/
+Project-URL: Issue tracker, https://github.com/
+Description: Here is the readme. Please read it.
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
