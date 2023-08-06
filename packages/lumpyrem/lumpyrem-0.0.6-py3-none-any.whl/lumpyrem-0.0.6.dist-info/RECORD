@@ -1,0 +1,14 @@
+lumpyrem/__init__.py,sha256=mb1BhJ6S9CzmfvZa6f_FFGdnP9Sr_wO4wQ_qjYKtpgY,329
+lumpyrem/get.py,sha256=DMXAhaiqdVXP0GU2mYkVYlDYcz0nzeoEFOgR2hDBguY,423
+lumpyrem/lr2series.py,sha256=gMt84khUTTCK1fX4cRf_T7lTqxAQr9d2CiohXtLUUiU,4181
+lumpyrem/lumprem.py,sha256=jyQLue3-oxejCuczW5lJRqSGCvW146gpjYtU6NymYZk,12110
+lumpyrem/lumprep.py,sha256=-s2tY2Nu6dGb5cBjOhaE_7n-97ENvlnR5ltu7NLrQGk,4678
+lumpyrem/lumpyrem.py,sha256=CFCjpLXzH3QZwQBTxVzm4cpEPSuSgjhMzKv-ljulKzo,4230
+lumpyrem/post.py,sha256=oF3159535Wp-M55wb_SOEJdGHH3r_N91ZGMsCVInEts,1280
+lumpyrem/run.py,sha256=67_T7oVks55w7IQ-6Ctt-TnLiSYSqIBW5KwkGH20Z-E,1044
+lumpyrem/write.py,sha256=01ExxkL0H8hIIaDLUNYwnuJuE_aU1MPd3OTC6YzfpGY,2870
+lumpyrem-0.0.6.dist-info/LICENSE,sha256=QykornnHyc8CJDomHt_L83FUskL9nbyci-TZSOZpPXA,1092
+lumpyrem-0.0.6.dist-info/METADATA,sha256=RjUfgIUKTwjRTotNzOs-gwZYHPvoxT5rcU4-O-g9ISQ,2402
+lumpyrem-0.0.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+lumpyrem-0.0.6.dist-info/top_level.txt,sha256=Bl9hbIcHp3dX_grh3yEuRRGsQ6_oy27R_yp0zOjSJ0c,9
+lumpyrem-0.0.6.dist-info/RECORD,,
