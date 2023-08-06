@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: numdatasalva
+Version: 0.0.5
+Summary: A simple package calculating values for a simple number
+Home-page: UNKNOWN
+Author: Salvador Gimeno
+Author-email: Salvador.Gimeno@xyz.com
+License: UNKNOWN
+Keywords: numbers package calculations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown
+
+# NUmData Documentation
+***
+## Installation 
+numdata can be installed uing python pip. The package is hosted on [Pypi](https://pypi.org/) and [test.Pypi](https://test.pypi.org)
+***
+## Usage
+Initialization is not required for using methods in numdata
+
+```python
+from numdata import calculate
+
+# calculate square of a number
+print(calculate.calculateSquare(3))
+# 9
+
+# calculate cube of a number
+print(calculate.calculateSquare(3))
+# 27
+
+```
+
