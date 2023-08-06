@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zmipc
+Version: 0.1
+Summary: A zero-copy memory-sharing IPC on the top of mmap
+Home-page: http://github.com/mzy2240/zmipc
+Author: Zeyu Mao
+Author-email: mao.mzy@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
