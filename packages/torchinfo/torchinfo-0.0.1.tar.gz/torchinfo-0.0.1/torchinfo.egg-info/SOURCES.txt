@@ -1,0 +1,8 @@
+README.md
+setup.py
+torchinfo/__init__.py
+torchinfo/torchinfo.py
+torchinfo.egg-info/PKG-INFO
+torchinfo.egg-info/SOURCES.txt
+torchinfo.egg-info/dependency_links.txt
+torchinfo.egg-info/top_level.txt

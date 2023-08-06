@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: torchinfo
+Version: 0.0.1
+Summary: Pytorch Info
+Home-page: https://github.com/tyleryep/torchinfo
+Author: Tyler Yep @tyleryep
+Author-email: tyep@cs.stanford.edu
+License: UNKNOWN
+Description: # torchinfo
+        Coming Soon!
+Keywords: torch torchinfo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
