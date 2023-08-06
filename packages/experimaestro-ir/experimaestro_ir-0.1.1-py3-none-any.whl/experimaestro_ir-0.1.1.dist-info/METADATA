@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: experimaestro-ir
+Version: 0.1.1
+Summary: Experimaestro common module for IR experiments
+Home-page: https://github.com/bpiwowar/experimaestro-ir
+Author: Benjamin Piwowarski
+Author-email: benjamin@piwowarski.fr
+License: GPL 3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: experimaestro (>=0.7.2)
+Requires-Dist: datamaestro-text (>=2020.5.27)
+Requires-Dist: pyserini (>=0.9.0)
+Requires-Dist: pytrec-eval (>=0.5)
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Documentation Status](https://readthedocs.org/projects/experimaestro-ir/badge/?version=latest)](https://experimaestro-ir.readthedocs.io/en/latest/?badge=latest)
+
+# Information Retrieval for experimaestro
+
+Information Retrieval module for [experimaestro](https://experimaestro.github.io/experimaestro-python/)
+
+The full documentation can be read at [IR@experimaestro](https://experimaestro-ir.readthedocs.io/).
+
+## Install
+
+Install with
+
+```
+pip install experimaestro_ir
+```
+
+## Sub-projects
+
+- [OpenNIR adapted to experimaestro](https://github.com/bpiwowar/OpenNIR-xpm) for neural IR experiments
+
+
