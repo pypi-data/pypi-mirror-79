@@ -1,0 +1,47 @@
+**strictdf**
+*********************
+
+Libreria simple para realizar algunas funciones sobre un dataframe
+
+**Instalacion**
+======================
+
+pip install strictdf==0.0.13
+
+
+**Importar**
+=================
+
+from strictdfds import StrictDataFrame
+
+
+**Crear el objeto**
+====================
+
+df = pd.read_csv("credit-data.csv", low_memory=False)
+
+sdf = StrictDataFrame(df)
+
+**Metodos**
+============
+
+- sdf.report()
+- sdf.to_spark()
+
+**Atributos**
+==============
+
+- sdf.dtypes
+- sdf.old_df
+- sdf.new_df
+
+Librerias utilizadas:
+
+============  ============
+**Libreria**  **Version**
+------------  ------------
+pandas        1.0.5
+pyspark       3.0.1
+pytest        5.3.5
+strictdf      0.0.13
+============  ============
