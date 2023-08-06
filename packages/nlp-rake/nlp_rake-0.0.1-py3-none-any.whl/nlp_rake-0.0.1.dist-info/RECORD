@@ -1,0 +1,9 @@
+nlp_rake/__init__.py,sha256=LP3Aj3DQ5BS469qwpqVXcChIoI5tqmErcVbT1skQ3bE,44
+nlp_rake/algorithm.py,sha256=jUseNbXRp0mj7mPr0_BzMfkZvj1iSi-CXVsUPxietuk,6103
+nlp_rake/stopwords.py,sha256=gN43ffuDa1N9965nxXzGutCcjfSN-mQK7Z_UkzaSPOU,122951
+nlp_rake/utils.py,sha256=2CcQYAaHzONrRPX6_XT02WqyRSKUGZjl1mKQGpUwrAY,916
+nlp_rake-0.0.1.dist-info/LICENSE,sha256=x96b_HmOyr4LGjdT1xc6NkkC3hx9sV5W4sAmtzRSkTY,1067
+nlp_rake-0.0.1.dist-info/METADATA,sha256=DqV2j2BWvXcEF3rrL7OA098qHqLA-xz2rS79TCnSao4,12007
+nlp_rake-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nlp_rake-0.0.1.dist-info/top_level.txt,sha256=YSAl1tkAjPZ_eiGWiat9xG6X8KxjTMpTO4h3wX9b7c0,9
+nlp_rake-0.0.1.dist-info/RECORD,,
