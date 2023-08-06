@@ -1,0 +1,13 @@
+scikit-learn
+matplotlib
+decorator
+jinja2
+tabulate
+mistune
+pandas
+
+[all]
+sphinx
+ipython
+numpydoc
+sphinx-rtd-theme
