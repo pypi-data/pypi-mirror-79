@@ -1,0 +1,3 @@
+[console_scripts]
+pyqt-sql-demo=pyqt_sql_demo.app:launch
+

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyqt-sql-demo
+Version: 1.0.0
+Summary: PyQT SQL executor demo example using DB API (no QtSQL)
+License: MIT
+Author: vduseev
+Author-email: vagiz@duseev.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pygments (>=2.6.1,<3.0.0)
+Requires-Dist: pyqt5 (>=5.15.0,<6.0.0)
