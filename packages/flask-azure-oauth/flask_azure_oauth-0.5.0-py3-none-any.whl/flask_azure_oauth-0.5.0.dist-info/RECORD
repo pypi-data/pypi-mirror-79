@@ -1,0 +1,11 @@
+flask_azure_oauth/__init__.py,sha256=gtmOFf6a9hbzfhZbNUs_eurCajMuXv0EnQyMstIyYjg,3734
+flask_azure_oauth/errors.py,sha256=HwdgF0Io2KT7695xT4sPe1dhXwQ-tCTSGpHY0E8zkoY,14715
+flask_azure_oauth/mocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_azure_oauth/mocks/keys.py,sha256=70LfNdL6ccTElezMrh2HRgCGrVi5bSxHSWNiZqttCdY,3265
+flask_azure_oauth/mocks/tokens.py,sha256=si1omzK43E1CxWtRml75sw7Td8TLZyDVD5QOuhpJhNU,2022
+flask_azure_oauth/resource_protector.py,sha256=lTk1CCjhkiVkyRIhtabGC_VyqSBX3vNHgJAaJJEZy8M,3308
+flask_azure_oauth/tokens.py,sha256=DJb19_oyb7F0fIRrEDOGVrsX_ETnGeBd5mEAGx77FzQ,27154
+flask_azure_oauth-0.5.0.dist-info/LICENSE.md,sha256=EL2NAnJeNnLTUGm8ZV0Yha8UALyHTDAP38Sl8kTH_hQ,376
+flask_azure_oauth-0.5.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+flask_azure_oauth-0.5.0.dist-info/METADATA,sha256=ZigSNgqEr5b8iphEgG2S3EBMe43uLl3_DERhDX8UQho,24165
+flask_azure_oauth-0.5.0.dist-info/RECORD,,
