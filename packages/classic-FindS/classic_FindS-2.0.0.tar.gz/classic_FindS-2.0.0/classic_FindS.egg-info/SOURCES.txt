@@ -1,0 +1,7 @@
+README.md
+setup.py
+classic_FindS/__init__.py
+classic_FindS.egg-info/PKG-INFO
+classic_FindS.egg-info/SOURCES.txt
+classic_FindS.egg-info/dependency_links.txt
+classic_FindS.egg-info/top_level.txt
