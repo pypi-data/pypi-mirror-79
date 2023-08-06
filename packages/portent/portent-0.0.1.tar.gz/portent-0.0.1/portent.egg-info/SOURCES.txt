@@ -1,0 +1,10 @@
+README.md
+setup.py
+portent/__init__.py
+portent/data.py
+portent/quotes.py
+portent/welcomes.py
+portent.egg-info/PKG-INFO
+portent.egg-info/SOURCES.txt
+portent.egg-info/dependency_links.txt
+portent.egg-info/top_level.txt
