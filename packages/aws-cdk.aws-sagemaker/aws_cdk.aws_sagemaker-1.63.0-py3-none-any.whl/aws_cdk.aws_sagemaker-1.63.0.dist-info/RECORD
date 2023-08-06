@@ -1,0 +1,8 @@
+aws_cdk/aws_sagemaker/__init__.py,sha256=2WUAk2f__m5aoK3u4ly88Nfvuwu4ApejRGEbUR1Nn64,120253
+aws_cdk/aws_sagemaker/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_sagemaker/_jsii/__init__.py,sha256=i9KV6wQWuSFpH_-IB2X5SJQfP-pgfRJrZ5_NBRrZ_4Y,369
+aws_cdk/aws_sagemaker/_jsii/aws-sagemaker@1.63.0.jsii.tgz,sha256=UP3226y6AJw-FWg3gi0fEyXDWlphF6idfpfouF2mcSU,54366
+aws_cdk.aws_sagemaker-1.63.0.dist-info/METADATA,sha256=epQ76IqVxb-HKi1k6dyZ90YvuuQuRCnNW0BOZppQcq0,1491
+aws_cdk.aws_sagemaker-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_sagemaker-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_sagemaker-1.63.0.dist-info/RECORD,,
