@@ -1,0 +1,10 @@
+wmclient/__init__.py,sha256=Lr_0e9yZS6qtv4eX7D3b0Ht0ZwmXVydaeku_Rl2RFWo,24
+wmclient/test_data.py,sha256=pMtFcqW3KoX4P40JFnmLytis2-yFnN1KqsDajzbnVzw,12603
+wmclient/test_wmclient.py,sha256=vqLFxh5ldbLhIpnWbUWNohnxEEwbOVl_bKOsTc1yERA,24154
+wmclient/wmclient.py,sha256=En4PmTuMsNVgiP_xgOptnRLOPDwe3rDh6LteXAfeID8,19999
+wmclient-2.1.0.dist-info/DESCRIPTION.rst,sha256=c6gO4I2u9T0zehFiC01HX22n0hliQSe8tUTXxIwSRLg,4832
+wmclient-2.1.0.dist-info/METADATA,sha256=KsdUTNIs1VuHE_rbSB-avjrNIeek32d_kZVD5k8WIiQ,5643
+wmclient-2.1.0.dist-info/RECORD,,
+wmclient-2.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+wmclient-2.1.0.dist-info/metadata.json,sha256=5Zu08PYYsysxawfN-t8KN-OCBHOSrXbmr8_9I8axBao,988
+wmclient-2.1.0.dist-info/top_level.txt,sha256=StX9w969NhRtH9WtyRnaK3-GhWMiP7lxlPlRWIMwMfE,9
