@@ -1,0 +1,46 @@
+{% set version =  [GIT_DESCRIBE_TAG, GIT_DESCRIBE_NUMBER, GIT_DESCRIBE_HASH]|join('_') %}
+
+package:
+  name: docsteady
+  version: {{ version }}
+
+source:
+  git_url: ../
+
+build:
+  noarch: python
+  number: 0
+  script: $PYTHON setup.py install --single-version-externally-managed --record=record.txt
+  entry_points:
+    - docsteady = docsteady:cli
+
+requirements:
+  host:
+    - arrow
+    - BeautifulSoup4
+    - click
+    - jinja2
+    - marshmallow 2.20.5
+    - pillow
+    - pandoc 1.19.2
+    - pymysql
+    - pypandoc
+    - python 3.7
+    - requests
+    - setuptools_scm
+  run:
+    - arrow
+    - BeautifulSoup4
+    - click
+    - jinja2
+    - marshmallow 2.20.5
+    - pillow
+    - pandoc 1.19.2
+    - pymysql
+    - pypandoc
+    - python 3.7
+    - requests
+
+about:
+  home: https://github.com/lsst-dm/docsteady
+  license: GPL
