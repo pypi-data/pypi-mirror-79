@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: b4tf
+Version: 0.0.0
+Summary: Bayes for TensorFlow
+Home-page: UNKNOWN
+Author: Hiroyuki Yamada
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
