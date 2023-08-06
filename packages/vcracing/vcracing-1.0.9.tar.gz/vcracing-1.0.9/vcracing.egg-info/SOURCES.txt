@@ -1,0 +1,13 @@
+setup.py
+vcracing/__init__.py
+vcracing/main.py
+vcracing.egg-info/PKG-INFO
+vcracing.egg-info/SOURCES.txt
+vcracing.egg-info/dependency_links.txt
+vcracing.egg-info/requires.txt
+vcracing.egg-info/top_level.txt
+vcracing/data/top_BT46.png
+vcracing/data/top_P34.png
+vcracing/data/top_avro.png
+vcracing/data/top_novgorod.png
+vcracing/data/top_twinturbo.png
