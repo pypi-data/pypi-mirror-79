@@ -1,0 +1,9 @@
+rpn_calc/__init__.py,sha256=8655GBlZOff3YvupfRqj5M69iIQwZIwE3XP0j3ZRXHA,67
+rpn_calc/calculator.py,sha256=ehgu_lwOcD_8jSrEe7ArSFBs_bWvDPefZFEgpf4WZE0,17055
+rpn_calc/main.py,sha256=kdxQwctHmPeuZf-smjX0fBFoxjcX7sQmWdZ_UccqKAk,1952
+rpn_calc-0.2.0.dist-info/LICENSE,sha256=a0PbfWepp4lS-iOiTLv8VDMYK33ItVo7ItUtClE8oZ4,1065
+rpn_calc-0.2.0.dist-info/METADATA,sha256=GUGLc5IcqxMwUcq4Ge_ET0TkflSJ5aWs2mA_vnj0a2c,5897
+rpn_calc-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rpn_calc-0.2.0.dist-info/entry_points.txt,sha256=5T2kJ4JJHwDnU347MQK0dtdYwnVONeiHepXZq9Jm9o0,44
+rpn_calc-0.2.0.dist-info/top_level.txt,sha256=Sa8uSYRZIGnyKoiWNIiJHkY89FmafdxRTijeLDWNm_8,9
+rpn_calc-0.2.0.dist-info/RECORD,,
