@@ -1,0 +1,12 @@
+README.md
+setup.py
+dotpruner/__init__.py
+dotpruner/__main__.py
+dotpruner/dotpruner.py
+dotpruner/utils.py
+dotpruner.egg-info/PKG-INFO
+dotpruner.egg-info/SOURCES.txt
+dotpruner.egg-info/dependency_links.txt
+dotpruner.egg-info/not-zip-safe
+dotpruner.egg-info/requires.txt
+dotpruner.egg-info/top_level.txt
