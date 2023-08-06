@@ -1,0 +1,14 @@
+numpy
+pandas
+streamlit
+vulture
+cohesion
+radon
+mypy
+pydeps
+plotly
+nbformat>=4.2.0
+graphviz
+ipykernel
+traitlets==4.3.3
+flake8-polyfill

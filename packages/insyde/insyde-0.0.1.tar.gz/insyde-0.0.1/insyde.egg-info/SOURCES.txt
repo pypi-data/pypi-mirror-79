@@ -1,0 +1,11 @@
+README.md
+setup.py
+insyde/__init__.py
+insyde/main.py
+insyde/playground.py
+insyde/uber_example.py
+insyde.egg-info/PKG-INFO
+insyde.egg-info/SOURCES.txt
+insyde.egg-info/dependency_links.txt
+insyde.egg-info/requires.txt
+insyde.egg-info/top_level.txt
