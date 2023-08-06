@@ -1,0 +1,12 @@
+SATK/__init__.py,sha256=TesrAstSKAgjyy2Kz106RojywKn0yukEixVelkLnkRI,124
+SATK/module.py,sha256=GxuDc-KojMBRXX42ugQM0JpkoKR5pdQNPB2oIxfu-EI,36
+SATK/ABSA/__init__.py,sha256=_aitJolTbOvsAcoVNj0Ys4s7NJlXP18Hs5l2KIoKDu0,79
+SATK/ABSA/api.py,sha256=vf_tTgAg22nBr3lbbW44vF5dioIZog1jR1-KxqRXAAo,44
+SATK/classifier/__init__.py,sha256=Amv6oCm9jjfBOKBo2uKFKhkfVCRimh0ijXVolWExF00,105
+SATK/classifier/call_test.py,sha256=5WS9wdwBg_9DFGGaXy0S4_uKcGUFHYL6UMwXrLeOJ-U,127
+SATK/classifier/pipelines.py,sha256=JJgGBMoZYclY9E0EXOfczzrxpPWwIdMiEvrKSCO-TzA,3472
+satk-0.0.0.2.dist-info/LICENSE,sha256=53G2ZKXR3iKNy2G1JJ51I-cI42lo7TUHw30J8dvvTqU,1060
+satk-0.0.0.2.dist-info/METADATA,sha256=z4RzOcrsjFppe_t5XhbDzvuX8-__i6098XCsWC_jpJ8,894
+satk-0.0.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+satk-0.0.0.2.dist-info/top_level.txt,sha256=9HkFjAB-n8MEOzqEj7oRraajmh5yVDiwDVcxdNE_LQ8,5
+satk-0.0.0.2.dist-info/RECORD,,
