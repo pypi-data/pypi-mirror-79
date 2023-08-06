@@ -1,0 +1,8 @@
+# test requirements
+pytest
+mock
+tox
+
+humilis-vpc>=0.2.8
+
+-e .

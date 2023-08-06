@@ -1,0 +1,4 @@
+# dev utilities
+pypandoc
+
+-r requirements-test.txt
