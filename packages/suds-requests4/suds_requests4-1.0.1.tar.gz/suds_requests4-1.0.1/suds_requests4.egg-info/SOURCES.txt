@@ -1,0 +1,8 @@
+README.rst
+setup.py
+suds_requests.py
+suds_requests4.egg-info/PKG-INFO
+suds_requests4.egg-info/SOURCES.txt
+suds_requests4.egg-info/dependency_links.txt
+suds_requests4.egg-info/requires.txt
+suds_requests4.egg-info/top_level.txt
