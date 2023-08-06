@@ -1,0 +1,12 @@
+botocore
+click
+coverage
+google_api_python_client
+pytest-cov
+pytest-json
+pytest-metadata
+pytest
+python-dateutil
+pre-commit
+ruamel.yaml
+wheel
