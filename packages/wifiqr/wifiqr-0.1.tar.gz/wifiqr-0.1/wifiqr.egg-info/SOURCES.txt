@@ -1,0 +1,11 @@
+README.md
+setup.py
+wifiqr/wifi_qrcode_created.py
+wifiqr/wifi_qrcode_gener.py
+wifiqr/wifiqr.py
+wifiqr.egg-info/PKG-INFO
+wifiqr.egg-info/SOURCES.txt
+wifiqr.egg-info/dependency_links.txt
+wifiqr.egg-info/entry_points.txt
+wifiqr.egg-info/requires.txt
+wifiqr.egg-info/top_level.txt
