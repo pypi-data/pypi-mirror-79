@@ -1,0 +1,16 @@
+README.rst
+setup.py
+robocop/__init__.py
+robocop/__main__.py
+robocop/config.py
+robocop/exceptions.py
+robocop/reports.py
+robocop/rules.py
+robocop/run.py
+robocop/version.py
+robotframework_robocop.egg-info/PKG-INFO
+robotframework_robocop.egg-info/SOURCES.txt
+robotframework_robocop.egg-info/dependency_links.txt
+robotframework_robocop.egg-info/entry_points.txt
+robotframework_robocop.egg-info/requires.txt
+robotframework_robocop.egg-info/top_level.txt
