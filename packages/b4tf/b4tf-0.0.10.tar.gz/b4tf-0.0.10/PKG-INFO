@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: b4tf
+Version: 0.0.10
+Summary: Bayian Neural Network for TensorFlow
+Home-page: https://gitlab.com/ymd_h/b4tf
+Author: Hiroyuki Yamada
+License: UNKNOWN
+Description: Bayian Neural Network for TensorFlow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/plain
