@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+dfauditor/__init__.py
+dfauditor/about.py
+dfauditor/app_logger.py
+dfauditor/auditor.py
+dfauditor/extractor.py
+dfauditor/measures.py
+dfauditor/metrics.py
+dfauditor/response.py
+dfauditor.egg-info/PKG-INFO
+dfauditor.egg-info/SOURCES.txt
+dfauditor.egg-info/dependency_links.txt
+dfauditor.egg-info/requires.txt
+dfauditor.egg-info/top_level.txt
