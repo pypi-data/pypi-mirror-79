@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: portent
+Version: 0.0.2
+Summary: Python package providing horrifying welcome messages for your application
+Home-page: https://github.com/hypernormalisation/prologue
+Author: Stephen Ogilvy
+Author-email: sogilvy@tuta.io
+License: UNKNOWN
+Project-URL: Source, https://github.com/hypernormalisation/portent
+Project-URL: Bug Reports, https://github.com/hypernormalisation/timbermafia/portent
+Description: # portent
+        Python package providing horrifying welcome messages for your application.
+        
+        ##  Installation
+        
+        portent is available on the Python Package Index (PyPI).
+        
+        ```bash
+        pip install portent
+        ```
+        
+        It requires python version 3.6 or later.
+        
+        ## Usage
+        
+        Simply place something like the following in your top-level application
+        file, and portent will display a helpful, motivational welcome message
+        once per session.
+        
+        ```python
+        import portent
+        portent.welcome(name='My application', version='2.3.6')
+        ```
+        
+        ![](static/img1.png)
+        
+        Pass the theme argument to the `welcome` function to use a different
+        greeter:
+        - basic
+        - finance
+        
+        
+Keywords: welcome
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
