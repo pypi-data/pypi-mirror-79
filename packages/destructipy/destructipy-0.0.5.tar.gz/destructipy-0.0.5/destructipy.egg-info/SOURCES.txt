@@ -1,0 +1,8 @@
+README.md
+setup.py
+destructipy/__init__.py
+destructipy/__main__.py
+destructipy.egg-info/PKG-INFO
+destructipy.egg-info/SOURCES.txt
+destructipy.egg-info/dependency_links.txt
+destructipy.egg-info/top_level.txt
