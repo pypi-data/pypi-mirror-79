@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: dictttl
+Version: 0.1.1
+Summary: Dictionary with TTL attached to the keys
+Home-page: https://github.com/srivassid/DictTTL
+Author: Siddharth Srivastava
+Author-email: s.srivas@hotmail.com
+License: MIT
+Description: # DictTTL
+        
+        A Dictionary with expiring keys that are deleted after their time to live expires.
+        Available dictionaries are dict(), OrderedDict(), and defaultDict(list).
+        
+        github link -> https://www.github.com/srivassid/DictTTL
+        
+        
+Platform: UNKNOWN
