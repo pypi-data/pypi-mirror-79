@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: complete
+Version: 0.0.1
+Summary: A Python library to autocomplete questions using search engines
+Home-page: UNKNOWN
+Author: DankCoder
+Author-email: business.dankcoder@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: lxml
+
+# Complete
+
+Complete is a Python library to autocomplete questions using search engines
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install complete.
+
+```bash
+pip install complete
+```
+
+## Usage
+
+```python
+from complete import AutoComplete as AC
+
+results=AC.google_complete("how to")
+#returns ['how to lose weight', 'how to increase height',..]
+```
+
+For asynchronous usage
+```python
+from complete import AioAutoComplete as AC
+async def main():
+    results=await AC.google_complete("how to")
+    #returns ['how to lose weight', 'how to increase height',..]
+```
+
+## Supported Engines
+
+
+The library currently supports:
+ - Google [google_complete]
+ - YouTube [youtube_complete]
+ - DuckDuckGo [duckduckgo_complete]
+ - Bing [bing_complete]
+
+## License
+[MIT](https://pastebin.com/4KS5ERWr)
+
