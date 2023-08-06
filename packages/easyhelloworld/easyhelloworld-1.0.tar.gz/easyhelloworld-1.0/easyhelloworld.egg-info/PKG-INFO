@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: easyhelloworld
+Version: 1.0
+Summary: Hello World
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: easyhelloworld228@gmail.com
+License: UNKNOWN
+Description: Example
+        ===========
+        
+        .. code-block:: python
+        
+            import easyhelloworld
+        
+            easyhelloworld.print_helloworld()
+        
+        
+Platform: UNKNOWN

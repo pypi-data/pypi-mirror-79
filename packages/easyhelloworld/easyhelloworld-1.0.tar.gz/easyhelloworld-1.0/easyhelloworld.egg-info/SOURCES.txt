@@ -1,0 +1,9 @@
+README.txt
+setup.cfg
+setup.py
+easyhelloworld/__init__.py
+easyhelloworld.egg-info/PKG-INFO
+easyhelloworld.egg-info/SOURCES.txt
+easyhelloworld.egg-info/dependency_links.txt
+easyhelloworld.egg-info/not-zip-safe
+easyhelloworld.egg-info/top_level.txt
