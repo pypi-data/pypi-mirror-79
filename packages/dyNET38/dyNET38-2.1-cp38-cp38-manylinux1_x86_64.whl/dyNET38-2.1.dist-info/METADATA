@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dyNET38
+Version: 2.1
+Summary: Fork version of DyNet: DyNet38 shares wheels of DyNet for Python 3.8+
+Home-page: https://github.com/taishi-i/dynet
+Maintainer: Taishi Ikeda
+Maintainer-email: taishi.ikeda.0323@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: cython
+Requires-Dist: numpy
+
+UNKNOWN
+
+
