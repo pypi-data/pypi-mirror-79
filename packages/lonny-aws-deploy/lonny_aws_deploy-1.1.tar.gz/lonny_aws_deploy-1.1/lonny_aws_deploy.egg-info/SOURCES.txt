@@ -1,0 +1,13 @@
+MANIFEST.in
+requirements.in
+setup.py
+lonny_aws_deploy/__init__.py
+lonny_aws_deploy/action.py
+lonny_aws_deploy/cli.py
+lonny_aws_deploy/logger.py
+lonny_aws_deploy/type.py
+lonny_aws_deploy.egg-info/PKG-INFO
+lonny_aws_deploy.egg-info/SOURCES.txt
+lonny_aws_deploy.egg-info/dependency_links.txt
+lonny_aws_deploy.egg-info/requires.txt
+lonny_aws_deploy.egg-info/top_level.txt
