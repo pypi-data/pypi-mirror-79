@@ -1,0 +1,14 @@
+koroviev/__init__.py,sha256=puiCK4WJyQXmzNtV9RO2uLNdffDXoDL0U_ucRPFMQeU,100
+koroviev/__main__.py,sha256=j1oMf6WwKalM7utcviVZ1JJ8ojs73sX_D8zqlBBDJF8,73
+koroviev/cli.py,sha256=CLecekmlYUUa6vlPdMeMfUwgoGialoeAejSr_fH-hEw,3216
+koroviev/components/__init__.py,sha256=SrKEq4DbZ3dqUPebUNwcZjv1HLeR69scb_8b3gWYkY8,130
+koroviev/components/project.py,sha256=t97XnAaueIAGExsf4pIiiqB42dW-Znij9DXqNtOcP3s,1857
+koroviev/components/structure.py,sha256=cudCnvYC5q1ri4hjvHGsE8gy_vDJ1etKVEdZ7Uf_qfg,1380
+koroviev/components/templates.py,sha256=BwcVHHusuLuWWEZmvHm5o6_UXjGyIkMXvamEQMjI72c,1609
+koroviev/const.py,sha256=bUNnxVTZyo8TTR9WQBQ0aWME_xFx-4xDsXaA3QtEGlE,973
+koroviev/models.py,sha256=h2vIK2rnse0XGAEddJLVZniox_dqYBpjxEZGMVfzWow,753
+koroviev/utils.py,sha256=wC40H5X3rfZKtqa6SHEV-ldlS60OfevCcRxoqj6mfQA,471
+koroviev-0.1.3.dist-info/entry_points.txt,sha256=m-NvMVYfyDunw_sDAKPFXCbIxoYt6--fQKV4H66SD5Q,46
+koroviev-0.1.3.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+koroviev-0.1.3.dist-info/METADATA,sha256=7CSfuu-XwiZns1vBzRTeNOT7TcQUVgapB2l2XlStLn8,788
+koroviev-0.1.3.dist-info/RECORD,,
