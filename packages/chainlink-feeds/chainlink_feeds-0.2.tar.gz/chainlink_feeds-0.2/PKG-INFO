@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: chainlink_feeds
+Version: 0.2
+Summary: Python module to get price and other data from the decentralized chainlink community resources
+Home-page: https://github.com/alphachainio
+Author: Patrick Collins
+Author-email: patrick@alphachain.io
+License: MIT
+Description: UNKNOWN
+Keywords: decentralized,data,chainlink,cryptocurrency,blockchain
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
