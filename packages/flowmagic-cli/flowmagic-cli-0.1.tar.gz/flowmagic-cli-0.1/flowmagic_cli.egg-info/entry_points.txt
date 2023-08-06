@@ -1,0 +1,3 @@
+[console_scripts]
+flowmagic = cli.__init__:flowmagic
+

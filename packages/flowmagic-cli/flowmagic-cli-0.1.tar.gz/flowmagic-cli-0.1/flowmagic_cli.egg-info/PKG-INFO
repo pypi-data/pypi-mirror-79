@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: flowmagic-cli
+Version: 0.1
+Summary: FlowMagic Cli
+Home-page: https://flowmagic.io/
+Author: Arka Nayan
+Author-email: hello@flowmagic.io
+License: UNKNOWN
+Description: FlowMagic Cli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6

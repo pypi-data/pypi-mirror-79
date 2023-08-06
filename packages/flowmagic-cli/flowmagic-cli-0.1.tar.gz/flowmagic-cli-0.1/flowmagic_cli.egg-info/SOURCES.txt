@@ -1,0 +1,13 @@
+README.md
+setup.py
+cli/__init__.py
+cli/utils.py
+cli/data/.gitignore
+cli/data/Dockerfile
+cli/data/config.json
+flowmagic_cli.egg-info/PKG-INFO
+flowmagic_cli.egg-info/SOURCES.txt
+flowmagic_cli.egg-info/dependency_links.txt
+flowmagic_cli.egg-info/entry_points.txt
+flowmagic_cli.egg-info/requires.txt
+flowmagic_cli.egg-info/top_level.txt
