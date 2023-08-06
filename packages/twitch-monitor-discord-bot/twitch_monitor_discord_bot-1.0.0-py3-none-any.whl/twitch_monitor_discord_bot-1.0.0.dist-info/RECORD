@@ -1,0 +1,10 @@
+twitch_monitor_discord_bot/__init__.py,sha256=049sUnp22S2dhZBaJNXtpWZerzZwcOdbIcDdNi5wN0c,255
+twitch_monitor_discord_bot/__main__.py,sha256=JGWLDCk1h2iPNEcyg02pZiDE6mZrFmDMxVMNNI0cx30,3491
+twitch_monitor_discord_bot/config.py,sha256=NMvQfMy_fYxD7KY9OLurSTc__fasO7j7qvOev3_l9yU,4038
+twitch_monitor_discord_bot/discord_bot.py,sha256=SViwMuc77GIVgiRsF6sjR8wQX_RE5mJFTgmv2wrCn0k,2568
+twitch_monitor_discord_bot/twitch_monitor.py,sha256=pnF-ZPY52cpP-Fj2cCoc3b6Tt88KTZErDte8Z6IJqVs,1368
+twitch_monitor_discord_bot-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+twitch_monitor_discord_bot-1.0.0.dist-info/METADATA,sha256=0Q8aAHf2TfOOHBLCnmafDjrnYKc-tST4uUqNvDjg5og,2895
+twitch_monitor_discord_bot-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+twitch_monitor_discord_bot-1.0.0.dist-info/top_level.txt,sha256=uXucXr129c2c869bF7_2hwAAkvwMw5QXMwo3rTK9jXU,27
+twitch_monitor_discord_bot-1.0.0.dist-info/RECORD,,
