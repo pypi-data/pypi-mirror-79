@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: mechaSVG
+Version: 0.0.5.post1
+Summary: mechaSVG is a python & tk application for creating good-looking energy profile diagrams as Scalable Vector Graphics.
+Home-page: https://github.com/ricalmang/mechaSVG
+Author: Ricardo Almir Angnes
+Author-email: ricardo_almir@hotmail.com
+License: MIT
+Description: # mechaSVG
+        
+        mechaSVG is a python & tk application for creating good-looking energy profile diagrams as *Scalable Vector Graphics* or **'.svg'** files with various aesthetic options. The produced graphics can also be easily edited afterwards via an svg editor like Inkscape. Extra analysis for catalytic cycle diagrams include: Finding energy span, Turn Over Frequency (TOF) estimation from both energy span and *catalytic-flux law*, and estimating degree of TOF control of both intermediates and transition states.Â¹\
+        
+        
+Keywords: chemistry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
