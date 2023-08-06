@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: root-finding-pkg-thanjira
+Version: 0.0.4
+Summary: Root-Finding optimization
+Home-page: UNKNOWN
+Author: Thanjira Pornsasawat
+Author-email: tp1u19@soton.ac.uk
+License: MIT
+Description: This package is python module which implementation of root-finding method in one dimensional and multidimensional. The methods that included in this module are Golden section seacrh, Bisection method, Newton-Raphson method, Secant method , Brent method method, newton method in n-Dimensional, Broyden-Fletcher-Goldfarb-Shanno (BFGS), and trust-region Dogleg.
+Keywords: goldenSection,bisection,newton,secant,brent,quasi-newton,trust region
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

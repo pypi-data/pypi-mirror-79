@@ -1,0 +1,1 @@
+This package is python module which implementation of root-finding method in one dimensional and multidimensional. The methods that included in this module are Golden section seacrh, Bisection method, Newton-Raphson method, Secant method , Brent method method, newton method in n-Dimensional, Broyden-Fletcher-Goldfarb-Shanno (BFGS), and trust-region Dogleg.

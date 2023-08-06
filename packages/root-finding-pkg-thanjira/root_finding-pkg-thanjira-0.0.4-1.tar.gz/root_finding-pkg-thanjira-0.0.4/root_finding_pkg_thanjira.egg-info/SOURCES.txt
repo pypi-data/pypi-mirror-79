@@ -1,0 +1,7 @@
+README.txt
+setup.py
+root_finding/__init__.py
+root_finding_pkg_thanjira.egg-info/PKG-INFO
+root_finding_pkg_thanjira.egg-info/SOURCES.txt
+root_finding_pkg_thanjira.egg-info/dependency_links.txt
+root_finding_pkg_thanjira.egg-info/top_level.txt
