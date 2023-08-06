@@ -1,0 +1,11 @@
+README.md
+setup.py
+bcam/__init__.py
+bcam/bcam.py
+bcam/config.py
+bcam/stitcher.py
+bcam.egg-info/PKG-INFO
+bcam.egg-info/SOURCES.txt
+bcam.egg-info/dependency_links.txt
+bcam.egg-info/requires.txt
+bcam.egg-info/top_level.txt
