@@ -1,0 +1,11 @@
+README.md
+setup.py
+quaesit/__init__.py
+quaesit/agent.py
+quaesit/gui.py
+quaesit/world.py
+quaesit.egg-info/PKG-INFO
+quaesit.egg-info/SOURCES.txt
+quaesit.egg-info/dependency_links.txt
+quaesit.egg-info/requires.txt
+quaesit.egg-info/top_level.txt
