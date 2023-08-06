@@ -1,0 +1,7 @@
+local_simple_database
+char
+tqdm
+
+[testing]
+pytest
+pytest-cov
