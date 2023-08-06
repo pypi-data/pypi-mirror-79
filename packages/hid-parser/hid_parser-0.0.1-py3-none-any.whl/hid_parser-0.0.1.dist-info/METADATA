@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hid-parser
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/FFY00/python-hid-parser
+Author: Filipe Laíns
+Author-email: lains@archlinux.org
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: <4,>=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: typing-extensions ; python_version < "3.8"
+
+# python-hid-parser ![checks](https://github.com/FFY00/python-hid-parser/workflows/checks/badge.svg)
+
+Typed pure Python library to parse HID report descriptors
+
+
