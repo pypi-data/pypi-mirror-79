@@ -1,0 +1,17 @@
+certifi
+chardet
+cycler
+idna
+kiwisolver
+matplotlib
+numpy
+pip
+protobuf
+pycuber
+pyparsing
+python-dateutil
+requests
+setuptools
+six
+urllib3
+wheel
