@@ -1,0 +1,13 @@
+jupytab/__init__.py,sha256=bjxS-to7rnt_19FtF9bw9eZ3cMI9BjL5nKswtmky9hw,296
+jupytab/__version__.py,sha256=hCWvJmnndbpxCyOQ7z-g5qleaxwixXNqkmkxuORqf1I,23
+jupytab/dataframe_table.py,sha256=9gVRgie2Yh4abulM46TtFvsgp2D-vLL8PqxmuCHFMVw,5630
+jupytab/function.py,sha256=lH3HASchioiSNDtY4iMCm7M28iEijhNCTEgdOfY2eTA,1703
+jupytab/table.py,sha256=-2V2DEcgYRm3MHqDlX8hnugktbuEVsOQlW6Lb1UGsY0,4199
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dataframe.py,sha256=DdTFF4IQ7qD5gbihkt_RBY9JvtNAZtVCK7hCsB4RwYg,4112
+tests/test_function.py,sha256=2PJQ7ows09AyYNNm8fZ1Imuls572GHtnYdpayCqRF6o,1950
+tests/test_util.py,sha256=YcRPZ6gxJY_q7vzE2mN6HQNS-oeU_ztRc0kvURM4nR8,2304
+jupytab-0.9.11.dist-info/METADATA,sha256=nvvpMQXvNhDHlf7LhUVZ2stpOvgqqhEJewQEfPCsLvg,1199
+jupytab-0.9.11.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jupytab-0.9.11.dist-info/top_level.txt,sha256=-j86o0TSO0Vi8H4tMum-YwVGjxovwqkXhyGB7v5Qu2Q,8
+jupytab-0.9.11.dist-info/RECORD,,
