@@ -1,0 +1,11 @@
+setup.py
+emcli/__init__.py
+emcli/emcli.py
+emcli/logger.py
+emcli/storage.py
+emcli_tmp.egg-info/PKG-INFO
+emcli_tmp.egg-info/SOURCES.txt
+emcli_tmp.egg-info/dependency_links.txt
+emcli_tmp.egg-info/entry_points.txt
+emcli_tmp.egg-info/requires.txt
+emcli_tmp.egg-info/top_level.txt
