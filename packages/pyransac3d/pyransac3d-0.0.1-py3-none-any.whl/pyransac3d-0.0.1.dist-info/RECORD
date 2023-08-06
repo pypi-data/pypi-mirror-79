@@ -1,0 +1,10 @@
+pyransac3d/__init__.py,sha256=OHw7BdFx4kpcHVWyIihZfYCcCvaZN6sZ0IMdJi79_nA,151
+pyransac3d/aux.py,sha256=7V5Yuv4XwfVy86n3MOdLziH6Ov0pipWZrhJDcGAuSmU,2145
+pyransac3d/cuboid.py,sha256=Bfm0iNHa3v0oFshzEVSu6U_qpo2AvNo0VE8ODQe4rUU,4242
+pyransac3d/cylinder.py,sha256=9CAxcfoxHpACmj8rRCqI7vxYoHh1C7o_7sbF8J0i45A,3500
+pyransac3d/plane.py,sha256=ncyFfxnelJUGm6MTtNs8i9jafkwCKXhlu1nIE06Xg9s,2360
+pyransac3d-0.0.1.dist-info/LICENSE,sha256=9a-cj0eZmTbZLF5jfc5RhRuDa3gpm_DT4b3OYcl_cD4,11346
+pyransac3d-0.0.1.dist-info/METADATA,sha256=QTnaC5Fvt-dvLWrV1Ydyabti2gMo2edjbwu-tzqJep8,2570
+pyransac3d-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyransac3d-0.0.1.dist-info/top_level.txt,sha256=lK38glIEiFwPus-cS43C5jfXPRUkiA888CHMuATUgzU,11
+pyransac3d-0.0.1.dist-info/RECORD,,
