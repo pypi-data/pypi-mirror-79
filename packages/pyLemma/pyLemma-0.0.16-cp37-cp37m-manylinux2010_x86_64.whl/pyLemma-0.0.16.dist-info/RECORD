@@ -1,0 +1,13 @@
+pyLemma.libs/libgomp-f7e03b3e.so.1.0.0,sha256=zbIl_S4-7kPHDUQOH1n_ENyLfww1WJv0eKBvWVHOPkI,93080
+pyLemma.libs/libyaml-cpp-a96d14b5.so.0.6.3,sha256=AZHDSdbQ6bQDrgMilTFsBLXamsxOJ26jgFMSzi4MRus,699632
+pyLemma.libs/libmerlin-2e54fb88.so.0.1.0,sha256=CJxBVkYh3xbonhJlsNys2BU_SE8OMhub7akNzRb3odE,538664
+pyLemma.libs/liblemmacore-22b44e0c.so.0.3.3,sha256=mJtZY0nKApAoi3e39itT_YBonXY9ygrXN1hJP7Hzbt0,533312
+pyLemma.libs/libfdem1d-12fc94c2.so.0.3.3,sha256=ZyXHtn4iLnIeLDqPTRbiVQLLRrgE2j-L4X0nureDOWE,6129128
+pyLemma/__init__.py,sha256=gsnETZa00xyFkd5IK_M-A8dcNKiLzD-mHc74xedVGQ8,103
+pyLemma/FDEM1D.cpython-37m-x86_64-linux-gnu.so,sha256=NMSJyW6hbsoEnrlMUplrcnReWZYyeg4jr2P6ISLSM28,623248
+pyLemma/LemmaCore.cpython-37m-x86_64-linux-gnu.so,sha256=jkftOkQG9WTsNtxSJveWHL-rWbUbgGVJl76gNz3_DvY,555008
+pyLemma/Merlin.cpython-37m-x86_64-linux-gnu.so,sha256=e7Yder_67a7rUuZTykP8-kQdBOYiTmNmCySkpUbhvTI,310784
+pyLemma-0.0.16.dist-info/WHEEL,sha256=Qs6QNtdSkcAOpbp1HsiWMXMmEoke2l_SfE6ZKek5Jmk,112
+pyLemma-0.0.16.dist-info/top_level.txt,sha256=GmQch4GEmpZVRZQL2UP20Yv8FPxYDrpNoE2B3pBP1N0,8
+pyLemma-0.0.16.dist-info/METADATA,sha256=Mflb6j_33HCaBLlmin4NlPsHRRSD8zwFXJOqo0DadTk,496
+pyLemma-0.0.16.dist-info/RECORD,,
