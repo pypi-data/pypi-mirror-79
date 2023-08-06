@@ -1,0 +1,44 @@
+###
+# Development files
+###
+*.egg-info
+_skbuild
+pyflann/lib
+pip-wheel-metadata/
+
+*.save
+flann.kdev4
+
+.coverage
+test/*.h5
+test/*.pkl
+test/*.idx
+test/*.dat
+test/*.bz2
+test/flann_multithreaded_test
+test/flann_simple_test
+test/flann_uint_autotune.py
+
+htmlcov/
+index.dat
+test1.flann
+test2.flann
+
+###
+# Build files
+###
+src/python
+src/cpp/flann/config.h
+cmake-builds/*
+tmp
+*.pyc
+*.pyo
+
+.DS_Store
+
+# setuptools_scm version discovery writes the version to <pkg>/_version.py
+**/_version.py
+
+_docs/_build
+_docs/_template
+_docs/_static
