@@ -1,0 +1,6 @@
+nltk
+numpy
+micro_toolkit
+
+[tensorflow]
+tensorflow

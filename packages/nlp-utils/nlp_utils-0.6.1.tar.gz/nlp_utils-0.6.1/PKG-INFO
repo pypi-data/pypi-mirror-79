@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nlp_utils
+Version: 0.6.1
+Summary: Utils for NLP
+Home-page: UNKNOWN
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tensorflow
