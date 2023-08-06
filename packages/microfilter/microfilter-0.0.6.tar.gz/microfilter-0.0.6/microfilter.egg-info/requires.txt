@@ -1,0 +1,8 @@
+pandas
+numpy
+pytest
+statsmodels
+hyperopt
+scipy
+matplotlib
+microconventions<0.4
