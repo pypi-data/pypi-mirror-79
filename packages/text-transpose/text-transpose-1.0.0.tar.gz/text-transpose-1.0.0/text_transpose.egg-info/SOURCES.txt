@@ -1,0 +1,8 @@
+README.md
+setup.py
+transpose.py
+text_transpose.egg-info/PKG-INFO
+text_transpose.egg-info/SOURCES.txt
+text_transpose.egg-info/dependency_links.txt
+text_transpose.egg-info/entry_points.txt
+text_transpose.egg-info/top_level.txt
