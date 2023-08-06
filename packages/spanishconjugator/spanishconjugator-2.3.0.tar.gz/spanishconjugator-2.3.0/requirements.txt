@@ -1,0 +1,3 @@
+# requirements are located in setup.py.
+# This file is present as docker build
+# searches for requirements.txt file
