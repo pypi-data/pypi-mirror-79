@@ -1,0 +1,111 @@
+distroscraper
+=============
+
+Scrapes Linux distribution web pages for new torrent files and adds
+them to Transmission.  I want to give back to the Free Software
+community and one way I can do that is by seeding their torrents.
+
+For legitimate redistrbution of permitted content only.
+
+Included are scrapers for these distributions:
+* Arch Linux
+* Debian
+* Fedora
+* Linux Mint
+* Raspberry Pi
+
+Would love to include, if they would provide a _legitimate_ torrent:
+* OPNsense
+
+If your favorite distribution is not mentioned, you can open an
+issue, or contribute a pull request.  Take a look at the other
+files in /distroscraper/scrape and make it look like those in general.
+
+Installation
+------------
+
+Create and configura a Python Virtual Environment for distroscraper:
+
+```bash
+python -m venv /home/myser/.venv_distroscraper
+. /home/myuser/.venv_distroscraper/bin/activate
+pip install distroscraper
+```
+
+Create a shell script (I call mine "scrape-and-add.sh") to run
+the scrapers and pipe output through the transmission torrent adder.
+For the below script you will also need the 'jq' command line JSON
+processing tool.
+
+```bash
+#!/bin/bash
+          
+VENV_PATH=/path/to/venv
+DISTROS="distroscraper.scrape.archlinux
+         distroscraper.scrape.debian
+         distroscraper.scrape.fedora
+         distroscraper.scrape.linuxmint
+         distroscraper.scrape.raspberrypi"
+TM_ARGS="--host localhost
+         --port 9091
+         --user myuser
+         --password supersecret
+         --download-dir /path/to/linuxdownloads"
+
+for d in $DISTROS; do
+  $VENV_PATH/bin/python -m $d | \
+    jq .href | \
+    xargs $VENV_PATH/bin/python -m distroscraper.tm_add_torrent $TM_ARGS
+done
+```
+
+Create a systemd timer or cron job to run scrape-and-add.sh periodically.
+Transmission is smart enough not to add the same torrent multiple times.
+
+Here is an example systemd service file for use with a timer.  The file
+name is intended to be /etc/systemd/system/distroscraper.service.
+
+```ini
+[Unit]
+Description=scrape linux distributions
+
+[Service]
+User=service
+Group=service
+Type=oneshot
+Nice=19
+ExecStart=/home/service/scrape-and-add.sh
+```
+
+And here is the corresponding timer file.  Note the randomized delay
+ensures that these happen "more or less" daily, but that everyone
+isn't hitting the download pages simultaneously at midnight.
+Call this file /etc/systemd/system/distroscraper.timer.
+
+```ini
+[Unit]
+Description=scrape distributions daily
+
+[Timer]
+OnCalendar=00:00
+RandomizedDelaySec=86400
+Persistent=true
+Unit=distroscraper.service
+
+[Install]
+WantedBy=timers.target
+```
+
+Reporting
+---------
+
+If you want to ingest transmissions stats into some logging solution
+like ELK or Graylog, you can use this which will produce some JSON
+that can be massaged into these systems:
+
+```bash
+python -m distroscraper.tm_get_stats
+```
+
+For Graylog, you may be interested in my
+[GELF JSON Flattener|https://jefftickle.com/projects/gelf-flattener]
