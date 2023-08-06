@@ -1,0 +1,3 @@
+[console_scripts]
+bitcoin-notification = bitcoin_notifier_rajatbhatt500.bitcoin_price:main
+

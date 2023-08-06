@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bitcoin-notifier-rajatbhatt500
+Version: 0.0.1
+Summary: A Python package to get Bitcoin price on various platform.
+Home-page: UNKNOWN
+Author: Rajat Bhatt
+Author-email: rajatbhatt500@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
