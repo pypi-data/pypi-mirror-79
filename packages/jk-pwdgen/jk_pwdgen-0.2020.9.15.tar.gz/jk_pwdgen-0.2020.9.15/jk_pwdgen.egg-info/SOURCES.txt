@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+bin/pwdgen.py
+jk_pwdgen/PasswordGenerator.py
+jk_pwdgen/__init__.py
+jk_pwdgen.egg-info/PKG-INFO
+jk_pwdgen.egg-info/SOURCES.txt
+jk_pwdgen.egg-info/dependency_links.txt
+jk_pwdgen.egg-info/not-zip-safe
+jk_pwdgen.egg-info/top_level.txt
