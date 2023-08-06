@@ -1,0 +1,9 @@
+README.md
+setup.py
+sanic_fire/__init__.py
+sanic_fire/core.py
+sanic_fire.egg-info/PKG-INFO
+sanic_fire.egg-info/SOURCES.txt
+sanic_fire.egg-info/dependency_links.txt
+sanic_fire.egg-info/requires.txt
+sanic_fire.egg-info/top_level.txt
