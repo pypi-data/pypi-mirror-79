@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+aw11/__init__.py
+aw11/clean.py
+aw11/version.py
+aw11.egg-info/PKG-INFO
+aw11.egg-info/SOURCES.txt
+aw11.egg-info/dependency_links.txt
+aw11.egg-info/entry_points.txt
+aw11.egg-info/top_level.txt
+test/test_clean.py
