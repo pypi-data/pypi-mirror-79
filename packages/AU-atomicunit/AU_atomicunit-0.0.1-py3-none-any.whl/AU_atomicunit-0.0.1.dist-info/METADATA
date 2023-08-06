@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AU-atomicunit
+Version: 0.0.1
+Summary: Convert between Atomic unit and SI unit package
+Home-page: https://github.com/monkeythunder91/AU_atomicunit
+Author: D.H kim
+Author-email: monkeythunder91@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/monkeythunder91/AU_atomicunit/archive/master.zip
+Keywords: hatree,atomic unit,atomicunit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
