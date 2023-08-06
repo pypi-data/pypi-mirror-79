@@ -1,0 +1,11 @@
+urdf2webots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urdf2webots/gazebo_materials.py,sha256=SFHsoUUAvzg-wGWdyYX_8lUEawOmth_JRDdPdWVzsgU,2973
+urdf2webots/importer.py,sha256=OzCnxricU1nVfreoLr7o8hfMgC38xFX-fCqvu2dSGbs,10931
+urdf2webots/math_utils.py,sha256=NGuOLjpBBGxuBtqubytRE1aCf-T70w64lJSOa5XW19w,5544
+urdf2webots/parserURDF.py,sha256=DN4_U8nCBOJWiJXMHKYRHP2aulys9TQB_EOrfsCw8yo,45686
+urdf2webots/writeProto.py,sha256=bi8wAPFo3oG6_M3tKA-Fw12bQf4kHUgf6Hh_ANfmMu8,36840
+urdf2webots-1.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+urdf2webots-1.0.8.dist-info/METADATA,sha256=OTMK7wIpV51elLc3UVqBZXuweVGyH2UDqil9wy8yrOk,4549
+urdf2webots-1.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+urdf2webots-1.0.8.dist-info/top_level.txt,sha256=62aXZerEsX1AHgSllt9oeG2tXZgGx5qTNtj2kyME3kc,12
+urdf2webots-1.0.8.dist-info/RECORD,,
