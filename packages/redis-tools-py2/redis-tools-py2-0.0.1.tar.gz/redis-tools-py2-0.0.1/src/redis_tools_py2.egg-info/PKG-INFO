@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: redis-tools-py2
+Version: 0.0.1
+Summary: Library for inter-service event-based communication
+Home-page: https://github.com/radiocut/redis-tools/
+Author: Guillermo Narvaja
+Author-email: guillermo.narvaja@radiocut.fm
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/radiocutfm/redis-tools/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, https://saythanks.io/to/guillermo.narvaja%40radiocut.fm
+Project-URL: Source, https://github.com/radiocutfm/redis-tools/
+Description: # Redis Tools
+        
+        Useful helpers and tools when working with Redis or using redis for common problems like rate-limitting, locks and other...
+        
+        **THIS IS A PYTHON 2.7 COMPATIBLE PACKAGE, FOR PYTHON 3 USE https://pypi.org/project/redis-tools/**
+        
+        ## 12Factor configuration
+        
+        Standarized initialization of client using environment, supporting Sentinel. 
+        
+        ```python
+        
+        # export REDIS_URL=redis://localhost
+        # export REDIS_URL=sentinel://localhost?master=mymaster
+        # export REDIS_URL=sentinel://localhost:12343/0?master=mymaster
+        import redistools
+        redistools.get_redis()  # get redis client
+        redistools.get_redis(master=False)  # slave (read-only) client
+        ```
+        
+        ## Rate limitting
+        
+        
+        ## Rate limitting log filter
+        
+        
+        ## Lock decorator
+        
+        
+Keywords: redis rate-limit
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Python: >=2.7, <3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test

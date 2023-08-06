@@ -1,0 +1,10 @@
+environs<5
+redis
+
+[dev]
+check-manifest
+
+[test]
+coverage
+redislite
+mock
