@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: datainventory
+Version: 0.0.1
+Summary: Data Inventory
+Home-page: https://github.com/iot-spectator/datainventory
+Author: IoT Spectator
+License: MIT
+Description: ##############
+        Data Inventory
+        ##############
+        
+        Data Inventory is a database for storing images and videos.
+        
+        
+Keywords: image and video database
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
