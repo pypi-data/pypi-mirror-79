@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: WebXplore
+Version: 1.0.1
+Summary: Explore Web Pages - Scrapers and Crawlers
+Home-page: https://github.com/arnavn101/WebXplore
+Author: Arnav Nidumolu
+Author-email: arnav.nidumolu@gmail.com
+License: UNKNOWN
+Keywords: web crawling scraping nlp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: google
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: textblob
+Requires-Dist: sklearn
+Requires-Dist: newsapi-python
+Requires-Dist: praw
+Requires-Dist: tweepy
+Requires-Dist: readability-lxml
+
+
+## WebXplore (v1.0.1)
+
+[![Build Status](https://travis-ci.org/arnavn101/WebXplore.svg?branch=master)](https://travis-ci.org/arnavn101/WebXplore)
+![PyPI - License](https://img.shields.io/pypi/l/webxplore)
+[![codecov](https://codecov.io/gh/arnavn101/WebXplore/branch/master/graph/badge.svg)](https://codecov.io/gh/arnavn101/WebXplore) 
+
+## License
+
+MIT License Copyright (c) 2020, Arnav Nidumolu
+
+
+
