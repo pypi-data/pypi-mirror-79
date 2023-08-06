@@ -1,0 +1,12 @@
+quaternionic/__init__.py,sha256=Odbl5notv96DZgR7lPeHyVaUslMZTehAwmePq7BGsCw,874
+quaternionic/algebra.py,sha256=Dn7-uNvmDihU4Qal5DnNyLgu6H8LjdQDEDfCVTiXLNE,13453
+quaternionic/arrays.py,sha256=H8UrTlqaIbk3wRESRlMpCQ8BvehadLDcjtYlWyS7R40,11856
+quaternionic/converters.py,sha256=2TCQRD6uKiSbAYQ09LsAEy0sLHnqYtQO86mBxKbczfk,29067
+quaternionic/distance.py,sha256=f48t_Igo5Y1aeTtRzC1LISHPVfFxaYnVs0p0tV3ofTY,5594
+quaternionic/interpolation.py,sha256=9hVnNLkBBXHdJ-98nf88BJ_78l_AMeSiw8h0bYmAgkY,8240
+quaternionic/properties.py,sha256=-z9gN4YbK6aAWI7S3yqmqtYqVqZ4NNx5GABUN7mv45E,9237
+quaternionic/utilities.py,sha256=ctVWPw-qoJ9qq22CyIOcVH8gXqzVk-M01aEZMAVedHA,8011
+quaternionic-0.1.16.dist-info/LICENSE,sha256=ptVOd5m7LDM5ZF0x32cxb8c2Nd5NDmAhy6DX7xt_7VA,1080
+quaternionic-0.1.16.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+quaternionic-0.1.16.dist-info/METADATA,sha256=XJCCTo8DXCyeOU_uB7rzDMm0ej_wLQVHJH5NyBM_lQA,14789
+quaternionic-0.1.16.dist-info/RECORD,,
