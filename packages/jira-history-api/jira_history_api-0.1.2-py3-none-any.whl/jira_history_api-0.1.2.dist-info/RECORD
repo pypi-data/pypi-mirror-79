@@ -1,0 +1,12 @@
+jira_history/__init__.py,sha256=x4fml2_KrqikPr8ziwTUYE_HAz2u2mNv5Co_XfquKVY,57
+jira_history/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jira_history/cli.py,sha256=D9DMTb10-WaLOx1t1eFSTxbAiTp5oUh0dW2a0I7yFcw,1915
+jira_history/jira_history.py,sha256=3iDvnX9DocbvKfjc4Mmi9CsoAW7PApzaAAQzF908rkQ,8759
+jira_history/utils.py,sha256=C_Kr6XPfwCh57RiSqRJuKf5W9LJtt6WTh1Ic72Ba5ok,1477
+jira_history_api-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jira_history_api-0.1.2.dist-info/METADATA,sha256=69WBG0L8NIrw08e-QibQaOuLVGm9tz5WcmmwSAa7cn4,2540
+jira_history_api-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jira_history_api-0.1.2.dist-info/entry_points.txt,sha256=knJ84PGLvNxbBQYgqTf0tSB_ZsYGuik0EGfhOVaRHkE,56
+jira_history_api-0.1.2.dist-info/top_level.txt,sha256=jFKTofF6mpX8bAGy_hAxXOC-1v4Kg7Muj7ekUqPlFGk,13
+jira_history_api-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jira_history_api-0.1.2.dist-info/RECORD,,
