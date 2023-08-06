@@ -1,0 +1,6 @@
+regex
+
+[test]
+coverage
+pytest
+pytest-cov
