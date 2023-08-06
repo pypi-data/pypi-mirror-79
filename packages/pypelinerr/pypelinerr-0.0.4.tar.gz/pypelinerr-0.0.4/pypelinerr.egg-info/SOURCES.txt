@@ -1,0 +1,10 @@
+README.md
+setup.py
+pypelinerr/__init__.py
+pypelinerr/pypelinerr.py
+pypelinerr.egg-info/PKG-INFO
+pypelinerr.egg-info/SOURCES.txt
+pypelinerr.egg-info/dependency_links.txt
+pypelinerr.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pypelinerr.py
