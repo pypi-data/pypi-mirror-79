@@ -1,0 +1,6 @@
+detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+detect/middleware.py,sha256=_u6HGHjZnHiwm4Dap7AEunOlt4bfd9wj-A0yQQiemXI,5066
+django_detect-1.0.20.dist-info/METADATA,sha256=JAiXD1cx7ncPfKe5H103PxUVResDbtCFFTxwR9nEk0g,1553
+django_detect-1.0.20.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_detect-1.0.20.dist-info/top_level.txt,sha256=u5kwH6TpFFOVbt76bxGPkvoUo2olHwm5tvH-fTJ8pR0,7
+django_detect-1.0.20.dist-info/RECORD,,
