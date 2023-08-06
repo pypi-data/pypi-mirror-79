@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dndchar
+Version: 1.1.1
+Summary: A D&D random Charecter Generator
+Home-page: https://github.com/coderkearns/dndchar
+Author: Coder Kearns
+Author-email: coder.kearns@gmail.com
+License: MIT
+Description: A D&D random Charecter Generator
+        ---
+        Simply type `dndchar`.
+Keywords: dnd d&d random generators
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

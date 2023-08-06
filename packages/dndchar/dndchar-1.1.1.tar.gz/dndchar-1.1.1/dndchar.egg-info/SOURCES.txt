@@ -1,0 +1,16 @@
+setup.py
+dndchar/__init__.py
+dndchar/backgrounds.py
+dndchar/classes.py
+dndchar/command_line.py
+dndchar/data.py
+dndchar/player.py
+dndchar/races.py
+dndchar/scores.py
+dndchar/util.py
+dndchar.egg-info/PKG-INFO
+dndchar.egg-info/SOURCES.txt
+dndchar.egg-info/dependency_links.txt
+dndchar.egg-info/entry_points.txt
+dndchar.egg-info/not-zip-safe
+dndchar.egg-info/top_level.txt
