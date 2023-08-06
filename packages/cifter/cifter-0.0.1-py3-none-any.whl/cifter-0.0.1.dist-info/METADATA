@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: cifter
+Version: 0.0.1
+Summary: An Python3 ATOC file parser
+Home-page: https://github.com/simonrankine/cifter
+Author: Simon Rankine
+Author-email: cifter@rankine.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# cifter
+Python3 ATOC CIF file parser
+
+
+# Usage
+
+```python
+from cifter import parse_file
+
+document = parse_file('ttisf760.mca')
+
+for schedule_record in document.schedule_records:
+    print("Basic record\n")
+    print(schedule_record.basic_record)
+    print("Origin record\n")
+    print(schedule_record.origin_record)
+    print("Intermediate records\n")
+    for intermediate_record in schedule_record.intermediate_records:
+        print(intermediate_record)
+    print("Termination record\n")
+    print(schedule_record.termination_record)
+```
+
+Note that the `parse_file()` method is a blocking CPU bound operation
+
+

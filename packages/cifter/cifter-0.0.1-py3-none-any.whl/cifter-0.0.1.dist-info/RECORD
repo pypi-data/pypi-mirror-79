@@ -1,0 +1,14 @@
+cifter/__init__.py,sha256=wJHSup4iu4OXaL9W0tJhYt4GAAX0h5istaosfb4COak,61
+cifter/cifdocument.py,sha256=S5-OqcqmqmClTwxNjDytGtYHuuqec9DWSSOl7Z2lwy4,167
+cifter/cifter.py,sha256=jOyXS1dqyTe60ZlJgnWnx-V68mSX7uwhoqe4TWxbD00,279
+cifter/errors.py,sha256=eWXeWWzBTJrRjEZgjMbO7koS2wFvoCrkhTPX7OBaTK8,40
+cifter/parser.py,sha256=Y-OOzEkshnU_PcE4pQJzxKwzPpgIUQC8vcvckI0VLpo,4729
+cifter/train_schedule.py,sha256=SP7DN-sbU4M7aSRJffeuXQPsGdNT32Zkg5vBlaHweWc,701
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_integration.py,sha256=B11yvq3SNIVxYJLYvpDXBd97YDUa8ulhhO-8J_ueShc,183
+tests/test_parser.py,sha256=saEgfOLw9fUueseG8z6TJp_9n67IBhYP8BfO_Vv5pao,2362
+cifter-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cifter-0.0.1.dist-info/METADATA,sha256=EebEWUcW9tUCo3HCIq5LtwYj8zKmfOoPQW_GP3VOyzw,1062
+cifter-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cifter-0.0.1.dist-info/top_level.txt,sha256=SY7TLG0ax2vIivooUrCTSWoRZ-ZJex2nF6H3yhytaoU,13
+cifter-0.0.1.dist-info/RECORD,,
