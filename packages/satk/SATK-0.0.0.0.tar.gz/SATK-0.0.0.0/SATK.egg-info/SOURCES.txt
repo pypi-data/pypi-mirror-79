@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+SATK/__init__.py
+SATK/module.py
+SATK.egg-info/PKG-INFO
+SATK.egg-info/SOURCES.txt
+SATK.egg-info/dependency_links.txt
+SATK.egg-info/top_level.txt
+SATK/ABSA/__init__.py
+SATK/ABSA/api.py
+SATK/classifier/__init__.py
+SATK/classifier/call_test.py
+SATK/classifier/pipelines.py
