@@ -1,0 +1,11 @@
+bokeh
+datashader
+holoviews
+ipycytoscape>=1.0.3
+ipywidgets
+networkx>=2
+pandas
+qgrid
+rdflib
+rdflib-jsonld
+scikit-image
