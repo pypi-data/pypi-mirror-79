@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: BasicCalc
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Sachin Kumar B
+Author-email: skumar10031993@gmail.com
+License: UNKNOWN
+Description: This is a very simple calculator that takes two numbers and either adds, subtracts, multiplies and divides respectively.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (12/09/2020)
+        ----------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
