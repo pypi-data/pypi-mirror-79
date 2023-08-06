@@ -1,0 +1,10 @@
+README.md
+setup.py
+gamecord/__init__.py
+gamecord/bot.py
+gamecord/game.py
+gamecord.egg-info/PKG-INFO
+gamecord.egg-info/SOURCES.txt
+gamecord.egg-info/dependency_links.txt
+gamecord.egg-info/requires.txt
+gamecord.egg-info/top_level.txt
