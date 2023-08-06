@@ -1,0 +1,11 @@
+README.md
+cli.py
+disk.py
+setup.py
+pkg/__init__.py
+vizex.egg-info/PKG-INFO
+vizex.egg-info/SOURCES.txt
+vizex.egg-info/dependency_links.txt
+vizex.egg-info/entry_points.txt
+vizex.egg-info/requires.txt
+vizex.egg-info/top_level.txt
