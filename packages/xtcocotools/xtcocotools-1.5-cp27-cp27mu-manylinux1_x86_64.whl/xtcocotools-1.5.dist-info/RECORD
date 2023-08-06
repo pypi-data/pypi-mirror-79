@@ -1,0 +1,10 @@
+xtcocotools/mask.py,sha256=6RWK6E215ly3vsr5TSiIY6Y22DyfrsN_3C4phk8rJGA,4591
+xtcocotools/coco.py,sha256=9mA3JxNlLhmlr7giM86AGEYuDNDTKX8g5JOPeZh3-XY,19717
+xtcocotools/cocoeval.py,sha256=kdT_JVbyooEuCqDVKgx8F8RYzrYodFzJtULXmAoK4_0,30917
+xtcocotools/__init__.py,sha256=0C6R_hJbgubl8GQriX90OQlFBtBvMncbQNABcN646uE,21
+xtcocotools/_mask.so,sha256=uuwadO4Hxf1qPdawLl5X_B3qkhGxnUoEw9lfPAF3_iE,900572
+xtcocotools-1.5.dist-info/LICENSE,sha256=-Wrdw0s2Bze-JBdDWCVK4sNqufdX14EMtS71EUol8cw,2778
+xtcocotools-1.5.dist-info/WHEEL,sha256=v_WvMd9LcJo7UEU8YDntezoLIPEhS-iS69BF1ftVDNw,110
+xtcocotools-1.5.dist-info/top_level.txt,sha256=nFQh2tILFK9xZCR1V81yAVUD0gyop7Xay3NKASc0Nhs,12
+xtcocotools-1.5.dist-info/RECORD,,
+xtcocotools-1.5.dist-info/METADATA,sha256=ps7ipF1UnFP-kZ0kWKRzzY4zVKC4MnTCWFsNqc86HLA,316
