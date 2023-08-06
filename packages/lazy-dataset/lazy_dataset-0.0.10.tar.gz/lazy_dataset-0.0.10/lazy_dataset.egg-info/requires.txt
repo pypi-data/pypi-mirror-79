@@ -1,0 +1,15 @@
+numpy
+
+[all]
+diskcache
+psutil
+mock
+humanfriendly
+
+[cache]
+humanfriendly
+psutil
+diskcache
+
+[test]
+mock
