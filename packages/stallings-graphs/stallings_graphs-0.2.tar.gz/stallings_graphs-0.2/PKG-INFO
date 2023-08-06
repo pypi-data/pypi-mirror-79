@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: stallings_graphs
+Version: 0.2
+Summary: Stallings graph representation of finitely generated subgroups of free groups
+Home-page: https://plmlab.math.cnrs.fr/pascalweil/stallings_graphs
+Author: Pascal Weil
+Author-email: pascal.weil@cnrs.fr
+License: GPLv2+
+Description: About this package
+        ==================
+        
+        ``stallings_graphs`` Research Code implements tools to experiment with finitely generated subgroups of infinite groups in Sage, via a set of new Python classes. Many of the modules correspond to research code written for published articles (random generation, decision for various properties, etc). It is meant to be reused and reusable (full documentation including doctests).
+        
+        Comments are welcome.
+        
+        Install
+        -------
+        
+        To install this module, you do::
+        
+            sage -pip install stallings_graphs
+        
+        or::
+        
+            sage -pip install http://www.labri.fr/perso/weil/software/stallings_graphs-0.2.tar.gz
+            
+        To use this module, you need to import it:: 
+        
+            from stallings_graphs import *
+        
+        This reference manual contains many examples that illustrate the usage of
+        ``stallings_graphs``. The examples are all tested with each release of ``stallings_graphs``, and
+        should produce exactly the same output as in this manual, except for line
+        breaks.
+        
+        Licence
+        -------
+        
+        This work is licensed under a `Creative Commons Attribution-Share Alike
+        3.0 License`__.
+        
+        __ https://creativecommons.org/licenses/by-sa/3.0/
+        
+        
+        Prerequisites
+        -------------
+        
+        Installing ``stallings_graph`` requires a working SageMath installation. Depending on the usage (especially to produce LaTeX, pdf, png outputs), it might be necessary to install the optional package ``dot2tex``::
+        
+            sage -i dot2tex
+            
+        as well as the external packages ``ImageMagick``, ``Graphviz``.
+        
+        On OSX, after installing ``Homebrew``, one may do::
+        
+            sudo brew install graphviz imagemagick
+            
+        On Debian or Ubuntu, one may do::
+        
+            sudo apt install graphviz imagemagick
+            
+        Note that ``graphviz`` must be installed *before* ``dot2tex``.
+        
+        The package ``stallings_graph`` also uses Sébastien Labbé's ``slabbe`` package and Thierry Coulbois's ``train_track`` package. Both are automatically installed when ``stallings_graphs`` is installed.
+        
+        
+        Useful links
+        ------------
+        
+        - On PyPI: https://pypi.org/project/stallings-graphs/
+        - HTML Documentation: https://www.labri.fr/perso/weil/software/version-0-2/html/
+        - PDF Documentation: https://www.labri.fr/perso/weil/software/version-0-2/stallings_graphs.pdf
+        - Professional homepage link: https://www.labri.fr/perso/weil/software/
+        - The ``slabbe`` package: https://pypi.org/project/slabbe/
+        - The ``train_track`` package: https://pypi.org/project/train-track/
+        
+        Release history
+        ---------------
+        
+        Version 0.2, released September 2020 (Pascal Weil)
+        
+        - the package now works with Python 3
+        - some bug fixes
+        - addition of new methods on finitely generated subgroups, including the decision of free factors and the 
+          computation of the lattice of algebraic extensions of a subgroup
+        - definition and usage of morphisms between free groups, by means of a connection to Thierry Coulbois's 
+          ``train_track`` package
+        
+        Version 0.1, released March 2019 (Pascal Weil)
+        
+        
+Keywords: SageMath Stallings Graphs Finitely Generated Subgroups Free Groups
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/x-rst
