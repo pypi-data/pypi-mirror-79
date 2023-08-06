@@ -1,0 +1,3 @@
+[console_scripts]
+notion_scheduler = notion_scheduler.main:main
+
