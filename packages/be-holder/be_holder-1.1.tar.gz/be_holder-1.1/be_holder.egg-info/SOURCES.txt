@@ -1,0 +1,10 @@
+README.md
+setup.py
+be_holder/__init__.py
+be_holder/test_dec.py
+be_holder/watcher.py
+be_holder.egg-info/PKG-INFO
+be_holder.egg-info/SOURCES.txt
+be_holder.egg-info/dependency_links.txt
+be_holder.egg-info/not-zip-safe
+be_holder.egg-info/top_level.txt
