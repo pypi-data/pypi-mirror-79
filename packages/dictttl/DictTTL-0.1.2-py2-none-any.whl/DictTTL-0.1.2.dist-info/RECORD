@@ -1,0 +1,16 @@
+DictTTL/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DictTTL/files/DefaultDictTTL_class.py,sha256=52ar7lIiBodZLO4sI2Q8Ma8WvzGGuLPns1Hd6dix-SM,5887
+DictTTL/files/DictTTL_class.py,sha256=m_6fp0-_hvwNehr-71u0xSZT9sV1x2q0NIkyyCt_Wpo,5385
+DictTTL/files/OrderedDictTTL_class.py,sha256=CBE0BzYIAL3gwp7JkMx4PdgHknfuJTpUf_ZrHfPlDjQ,5423
+DictTTL/files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DictTTL/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DictTTL/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DictTTL/tests/unit/test_DefaultDictTTL.py,sha256=qV9rsPDCHvzE1sZTJojy5I3e66h-OUjkMCSerw9slxE,5786
+DictTTL/tests/unit/test_DictTTL.py,sha256=b0LPnTimrO6wAHELzknC37ALCCURRYZPcenqMuoy1jQ,5823
+DictTTL/tests/unit/test_OrderedDictTTL.py,sha256=p_Oh1ySvKPPISqfKDZyEQXBRpXpHuoE3U9izjBRUfyY,5900
+DictTTL-0.1.2.dist-info/DESCRIPTION.rst,sha256=jPyH2MRhnT1iFd1mkLyVcB1_MyFzRyQL8EcjPd1TW1w,227
+DictTTL-0.1.2.dist-info/METADATA,sha256=Li_B8f6djfXajHiRHMlff3Fm0xIf0K3DpSWkAJJ-NLg,472
+DictTTL-0.1.2.dist-info/RECORD,,
+DictTTL-0.1.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+DictTTL-0.1.2.dist-info/metadata.json,sha256=N9Om8qqh0pRFxH52LpK6YNb0gbUzEyJySlHYgPNFL3c,431
+DictTTL-0.1.2.dist-info/top_level.txt,sha256=0mp79Pz0UWrpulnV8lBxlcj-Hrp02LhIwDUc1eZBq4Q,8
