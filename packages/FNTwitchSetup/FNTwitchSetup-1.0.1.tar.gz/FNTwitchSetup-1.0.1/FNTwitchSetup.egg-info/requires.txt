@@ -1,0 +1,4 @@
+fortnitepy==1.7.1
+sanic
+requests
+aiofiles
