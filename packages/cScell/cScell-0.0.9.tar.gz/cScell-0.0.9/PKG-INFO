@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: cScell
+Version: 0.0.9
+Summary: A framework made with python for C cli projects
+Home-page: https://github.com/euberdeveloper/cScell
+Author: Eugenio Vinicio Berretta
+Author-email: euberdeveloper@gmail.com
+License: MIT
+Download-URL: https://github.com/euberdeveloper/cScell/archive/v0.0.9.tar.gz
+Description: UNKNOWN
+Keywords: cScell,shell,c,framework
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
