@@ -1,0 +1,4 @@
+include LICENSE Makefile *.md setup.* test.py .gitignore
+graft src
+prune __pycache__ .vscode dist build
+global-exclude *.py[cod] *.whl *.egg-info
