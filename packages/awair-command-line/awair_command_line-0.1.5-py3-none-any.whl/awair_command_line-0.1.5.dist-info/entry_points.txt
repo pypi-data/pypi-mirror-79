@@ -1,0 +1,3 @@
+[console_scripts]
+awair = awair_command_line.awair:main
+

@@ -1,0 +1,9 @@
+awair_command_line/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awair_command_line/awair.py,sha256=5dBQ-Qz2yUZD7hQvHIfUGEvv5pI7G_kKyq-gDUYiROY,7038
+awair_command_line/awair_tests.py,sha256=Z2viufy1DzZdYTMLBeA8-VuMAx8N5m6mn8cFtX-77mg,3709
+awair_command_line/statsd.py,sha256=A2REBEthJJSQmY_Ft0Zm39-rs0HOwhRl5NKuG_21Zo8,1404
+awair_command_line-0.1.5.dist-info/METADATA,sha256=9O0ZoadNv4Z52CVtQuaMjjEkb1_STqCeVGqPrWhhHf8,1323
+awair_command_line-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+awair_command_line-0.1.5.dist-info/entry_points.txt,sha256=yllLu8mOCSl7I95kGbvYoYc3m1WijOmXXx82J952Tz0,57
+awair_command_line-0.1.5.dist-info/top_level.txt,sha256=0QE3D9w_Q8MeLUFpcQrLXkW_s0S-UMGltl2ggYkevbA,19
+awair_command_line-0.1.5.dist-info/RECORD,,

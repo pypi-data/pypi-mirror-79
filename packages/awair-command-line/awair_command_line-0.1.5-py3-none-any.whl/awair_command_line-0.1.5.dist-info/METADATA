@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: awair-command-line
+Version: 0.1.5
+Summary: Awair command line. Displays data from all Awair devices on your network. Also shows corresponding Purple Air AQI
+Home-page: https://github.com/obradovic/awair-command-line
+Author: Zo Obradovic
+Author-email: ping@obradovic.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: delegator.py (>=0.1.1)
+Requires-Dist: datadog (>=0.25.0)
+Requires-Dist: python-aqi (>=0.6.1)
+Requires-Dist: requests (>=2.0.0)
+
+[![Coverage Status](https://coveralls.io/repos/github/obradovic/awair-command-line/badge.svg?branch=master)](https://coveralls.io/github/obradovic/awair-command-line?branch=master)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fobradovic%2Fawair-command-line%2Fbadge&style=flat)](https://actions-badge.atrox.dev/obradovic/awair-command-line/goto)
+
+Displays Awair data on the command line. Includes conversion to Purple Air AQI scale.
+
+Requires `arp-scan` to be installed: https://github.com/royhills/arp-scan
+  <br/>
+  * `brew install arp-scan` if you're on a Mac
+
+
+
+![](.install.gif)
+
+
