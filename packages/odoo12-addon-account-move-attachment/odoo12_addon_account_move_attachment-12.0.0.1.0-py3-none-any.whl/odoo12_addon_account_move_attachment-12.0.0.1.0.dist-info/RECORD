@@ -1,0 +1,8 @@
+odoo/addons/account_move_attachment/__init__.py,sha256=9829nnQdRNsJmZEDfsGtCQQqM2W0JuYarPptYP2zJzU,27
+odoo/addons/account_move_attachment/__manifest__.py,sha256=YP0bsJoHKf4ag0eQXV_LVbvmDDyTnuJy1mblmsUwIXY,488
+odoo/addons/account_move_attachment/account_move.py,sha256=w_hHD06mYMLtRr6mLTYxTkhwDzq-IpE_KvQutYzcGE0,142
+odoo/addons/account_move_attachment/account_move_view.xml,sha256=iByOpXJjk-egg5T2CIki9e-Z-DTHrI2g1lPmszOJxbw,560
+odoo12_addon_account_move_attachment-12.0.0.1.0.dist-info/METADATA,sha256=BwA_m08jlaEFq9i9zwrw8fRTG-vFNd5ZfNZxAXX2kag,458
+odoo12_addon_account_move_attachment-12.0.0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_account_move_attachment-12.0.0.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_account_move_attachment-12.0.0.1.0.dist-info/RECORD,,
