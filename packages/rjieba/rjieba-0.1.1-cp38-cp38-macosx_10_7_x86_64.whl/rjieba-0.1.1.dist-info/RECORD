@@ -1,0 +1,5 @@
+rjieba-0.1.1.dist-info/METADATA,sha256=1r6D6Jagp27LSXaEkdbFGv1yrgADKoB6kCOh9izfmhs,1593
+rjieba-0.1.1.dist-info/WHEEL,sha256=KX4TWQdNMAWUjt1sCTcUWbT90OMHLY24Y3GtlADphxI,103
+rjieba/__init__.py,sha256=md0bSbrAIbvJPbRldGgr4_ZRwqJahUUVsbU27saP5vE,347
+rjieba/rjieba.cpython-38-darwin.so,sha256=K4PU9jhXQyKP4lHehTaLS6WxGfPt8vKRQg3mHYROMNo,7622320
+rjieba-0.1.1.dist-info/RECORD,,
