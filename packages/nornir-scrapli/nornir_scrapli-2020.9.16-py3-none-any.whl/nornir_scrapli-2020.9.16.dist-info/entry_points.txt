@@ -1,0 +1,4 @@
+
+    [nornir.plugins.connections]
+    scrapli=nornir_scrapli.connection:Scrapli
+    
