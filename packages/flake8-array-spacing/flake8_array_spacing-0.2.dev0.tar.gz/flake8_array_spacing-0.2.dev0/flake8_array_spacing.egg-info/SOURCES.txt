@@ -1,0 +1,13 @@
+.travis.yml
+LICENSE
+README.rst
+setup.cfg
+setup.py
+flake8_array_spacing/__init__.py
+flake8_array_spacing.egg-info/PKG-INFO
+flake8_array_spacing.egg-info/SOURCES.txt
+flake8_array_spacing.egg-info/dependency_links.txt
+flake8_array_spacing.egg-info/entry_points.txt
+flake8_array_spacing.egg-info/requires.txt
+flake8_array_spacing.egg-info/top_level.txt
+flake8_array_spacing/tests/test_array_spacing.py

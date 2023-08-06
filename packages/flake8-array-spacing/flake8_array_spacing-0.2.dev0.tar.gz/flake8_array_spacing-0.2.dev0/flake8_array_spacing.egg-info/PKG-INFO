@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: flake8-array-spacing
+Version: 0.2.dev0
+Summary: flake8 plugin to make exceptions for array-like variables
+Home-page: https://github.com/larsoner/flake8-array-spacing
+Author: Eric Larson
+Author-email: larson.eric.d@gmail.com
+License: BSD (3-clause)
+Description: flake8-array-spacing
+        ====================
+        
+        Recast some E2XX errors as A2XX with exceptions for array-like variables
+        
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
