@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+Pirxcy.egg-info/PKG-INFO
+Pirxcy.egg-info/SOURCES.txt
+Pirxcy.egg-info/dependency_links.txt
+Pirxcy.egg-info/requires.txt
+Pirxcy.egg-info/top_level.txt
+PrivatePirxcy/__init__.py
