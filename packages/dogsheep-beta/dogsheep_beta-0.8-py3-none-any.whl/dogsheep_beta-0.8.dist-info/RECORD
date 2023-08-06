@@ -1,0 +1,9 @@
+dogsheep_beta/__init__.py,sha256=vbGuFPcdunPc6hp42lRQ5-2LA3zM8YS8RZrS4bGZBKI,8224
+dogsheep_beta/cli.py,sha256=C1AOFjYBkZkuj0ZpU6cHNDir7AaMe7mvPWbF4cpoMBE,947
+dogsheep_beta/utils.py,sha256=ivZFVISmYvM6V1trKjhgeIoshsvl0xAmtlyxffxtZWk,3315
+dogsheep_beta/templates/beta.html,sha256=6YjOiPdw8aXdx6FrzVfkfJ_2mGA472dBhnb5ReeRh1g,4768
+dogsheep_beta-0.8.dist-info/METADATA,sha256=3x9LEUVo-lL4mzC_XUiOQIUnMlOdNnZrOV8p4nCyKe0,8228
+dogsheep_beta-0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dogsheep_beta-0.8.dist-info/entry_points.txt,sha256=QqlUsLpzV1QXBjl9WEjSMXA6pF2Xqb7ieJGAlqMHkyY,91
+dogsheep_beta-0.8.dist-info/top_level.txt,sha256=ZWB8EW1KhULxCSflQyHPzGKV5g1QMJ1X4GhegwHLNhg,14
+dogsheep_beta-0.8.dist-info/RECORD,,
