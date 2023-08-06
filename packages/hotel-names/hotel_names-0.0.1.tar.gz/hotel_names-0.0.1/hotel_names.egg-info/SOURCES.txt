@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+hotel_names/__init__.py
+hotel_names/hotel_names.py
+hotel_names.egg-info/PKG-INFO
+hotel_names.egg-info/SOURCES.txt
+hotel_names.egg-info/dependency_links.txt
+hotel_names.egg-info/entry_points.txt
+hotel_names.egg-info/top_level.txt

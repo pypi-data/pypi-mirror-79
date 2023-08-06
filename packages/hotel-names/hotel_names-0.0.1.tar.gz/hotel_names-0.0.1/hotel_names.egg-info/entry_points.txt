@@ -1,0 +1,3 @@
+[console_scripts]
+hotel_names = hotel_names.hotel_names:main
+
