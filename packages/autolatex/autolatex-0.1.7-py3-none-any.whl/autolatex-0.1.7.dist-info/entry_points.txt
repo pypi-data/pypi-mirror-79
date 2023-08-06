@@ -1,0 +1,4 @@
+[console_scripts]
+alt = autolatex:excel2table
+autolatex = autolatex:excel2table
+
