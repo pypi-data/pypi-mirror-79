@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: pthogen
+Version: 0.2.0a0
+Summary: Load pthogen entry_points at pth time.
+Home-page: https://github.com/graingert/pthogen
+Author: Thomas Grainger
+Author-email: pthogen@graingert.co.uk
+License: UNKNOWN
+Description: create a setup.cfg like:
+        
+        ::
+        
+           [metadata]
+           name = a-cool-name-here
+           version = 0.0.0a0
+        
+           [options]
+           py_modules = a_cool_name_here
+           install_requires = pthogen
+        
+           [options.entry_points]
+           pthogen =
+               a_cool_name_here = a_cool_name_here:main
+        
+           [bdist_wheel]
+           universal = 1
+        
+        and a_cool_name_here.py like:
+        
+        ::
+        
+           def main():
+               # your cool interpreter startup hacks go here
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
