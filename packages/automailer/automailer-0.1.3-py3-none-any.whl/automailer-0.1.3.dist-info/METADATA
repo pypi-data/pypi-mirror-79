@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: automailer
+Version: 0.1.3
+Summary: A command line utility for sending customized mass emails.
+Home-page: https://github.com/j718/automailer
+Author: Jacob Clarke
+Author-email: jacobclarke718@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: markdown2 (>=2.3.9,<3.0.0)
+Requires-Dist: python-frontmatter (>=0.5.0,<0.6.0)
+Requires-Dist: yagmail (>=0.13.237,<0.14.0)
+Project-URL: Repository, https://github.com/j718/automailer
+Description-Content-Type: text/markdown
+
+# An Automated Email Sender
+
+``` bash
+pip install automailer
+```
+
+## Usage
+
+### file structure
+Create the following file structure.
+
+```
+/
+    /data
+       email_list.csv
+       message.md 
+```
+
+### message.md
+
+``` markdown
+
+---
+subject: Required Subject for Email
+sender: Required Gmail sender
+password: OTP for gmail sender
+---
+
+Hi {name},
+
+The cool thing about this file is that you can add any column included in your csv and it will populate. 
+Your favorite color is {favorite_color}.
+
+Best,
+
+Sender
+```
+
+### email_list.csv
+The only required column for this file is `email`.
+
+``` csv
+name, favorite_color, email
+Jacob, Green, jacob@gmail.com
+```
+
+### Run
+
+Change to root of project. 
+
+``` bash
+python -m automailer
+```
