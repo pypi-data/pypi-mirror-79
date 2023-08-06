@@ -1,0 +1,8 @@
+README.md
+setup.py
+aws_lambda_decorators.egg-info/PKG-INFO
+aws_lambda_decorators.egg-info/SOURCES.txt
+aws_lambda_decorators.egg-info/dependency_links.txt
+aws_lambda_decorators.egg-info/not-zip-safe
+aws_lambda_decorators.egg-info/requires.txt
+aws_lambda_decorators.egg-info/top_level.txt
