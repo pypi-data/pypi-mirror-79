@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: galileo-jupyter
+Version: 0.0.1.dev1
+Summary: Galileo Jupyter: Tools for analyzing galileo experiments
+Home-page: https://git.dsg.tuwien.ac.at/mc2/galileo-jupyter
+Author: Thomas Rausch
+Author-email: t.rausch@dsg.tuwien.ac.at
+License: UNKNOWN
+Description: galileo-jupyter
+        ===============
+        
+        Tools for analyzing galileo experiments.
+        
+        Configuration
+        -------------
+        
+        Create a `$HOME/.galileojp` and fill with environment variables that configure the database access to galileo-db.
+        For example:
+        
+        ```
+        galileo_expdb_driver=mysql
+        
+        galileo_expdb_mysql_host=localhost
+        galileo_expdb_mysql_port=3307
+        galileo_expdb_mysql_db=galileo
+        galileo_expdb_mysql_user=galileo
+        galileo_expdb_mysql_password=mypassword
+        ```
+        
+        Usage
+        -----
+        
+        Then you can run
+        
+        ```python
+        from galileojp.frames import ExperimentFrameGateway
+        
+        efg = ExperimentFrameGateway.from_env()
+        efg.telemetry('my-exp-id') # returns a dataframe containing the telemetry for the given experiment
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
