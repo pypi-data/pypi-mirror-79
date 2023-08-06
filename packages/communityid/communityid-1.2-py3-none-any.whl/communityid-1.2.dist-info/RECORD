@@ -1,0 +1,14 @@
+communityid/__init__.py,sha256=wpFOymp4Q8fSAn5NFNtBwIHa_kFfcBsDP2ncazfIKGs,1196
+communityid/algo.py,sha256=t3q9rKKJcMahIabWVpWRBS036jXTgOi7G47ZEh8yVmU,15463
+communityid/compat.py,sha256=XXIKfycP7OPTn22oJ_tkTLMBupdxaAPTN9ZSWRJyBkg,1064
+communityid/error.py,sha256=C_DHsdPFOnbZNY-QvD17h4srORXPXrzFTE62yVmti_4,219
+communityid/icmp.py,sha256=U277cp2IwOHsco_s3GTpBjhlZdNPXuYMWxHgnUsCzVI,1082
+communityid/icmp6.py,sha256=ayWjbNtMfJpy97F9WtA6EGywoUPyYiseRk_RFMxBJv0,1357
+communityid-1.2.data/scripts/community-id,sha256=MUgX14srLVj18d4ZPUMiklw_8pIE2PS075s466lVSWs,4616
+communityid-1.2.data/scripts/community-id-pcap,sha256=Gv6t09teVvoKuXeAUwYlEUZCDkW6f7RHAky4af_KFTo,6626
+communityid-1.2.data/scripts/community-id-tcpdump,sha256=d0Y7B7YltT4Nb5dReRAGh437oC6MKKdzkiQ1AC3jtUo,1569
+communityid-1.2.dist-info/LICENSE,sha256=Th8cre1Aa834e7_u_AKO_wu70SMHWlF3_nhY0PTbKSc,1489
+communityid-1.2.dist-info/METADATA,sha256=esP_lXThLacvKyqrci558x0UcGO5xWAfm1dOZxlHQ8c,2733
+communityid-1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+communityid-1.2.dist-info/top_level.txt,sha256=Yn1Wf6Ekvat-kQCxR_0fhOVT0IHEV44gPJK4gBW1cqo,12
+communityid-1.2.dist-info/RECORD,,
