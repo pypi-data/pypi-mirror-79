@@ -1,0 +1,10 @@
+README.rst
+setup.py
+src/sphinxcontrib/__init__.py
+src/sphinxcontrib.direct_copy.egg-info/PKG-INFO
+src/sphinxcontrib.direct_copy.egg-info/SOURCES.txt
+src/sphinxcontrib.direct_copy.egg-info/dependency_links.txt
+src/sphinxcontrib.direct_copy.egg-info/namespace_packages.txt
+src/sphinxcontrib.direct_copy.egg-info/top_level.txt
+src/sphinxcontrib/direct-copy/__init__.py
+src/sphinxcontrib/direct-copy/implementation.py
