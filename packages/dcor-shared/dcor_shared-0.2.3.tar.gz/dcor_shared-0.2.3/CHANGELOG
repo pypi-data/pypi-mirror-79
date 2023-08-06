@@ -1,0 +1,10 @@
+0.2.3
+ - maintenance release
+0.2.2
+ - allow import when ckan is not installed
+0.2.1
+ - automated releases
+0.2.0
+ - added get_resource_path
+0.1.0
+ - initial version
