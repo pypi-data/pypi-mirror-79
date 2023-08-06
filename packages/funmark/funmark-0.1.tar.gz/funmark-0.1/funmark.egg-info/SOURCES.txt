@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+funmark/Benchmark.py
+funmark/__init__.py
+funmark.egg-info/PKG-INFO
+funmark.egg-info/SOURCES.txt
+funmark.egg-info/dependency_links.txt
+funmark.egg-info/entry_points.txt
+funmark.egg-info/requires.txt
+funmark.egg-info/top_level.txt
