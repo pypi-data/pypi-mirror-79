@@ -1,0 +1,9 @@
+pytorch-ignite
+pyyaml
+tqdm
+
+[mlflow]
+mlflow
+
+[sagemaker]
+sagemaker
