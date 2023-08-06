@@ -1,0 +1,10 @@
+boto3
+botocore
+cffi
+cryptography
+dateutil
+docutils
+jmespath
+pycparser
+s3transfer
+urllib3
