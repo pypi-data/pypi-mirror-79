@@ -1,0 +1,4 @@
+ase
+pyparsing
+requests
+bs4
