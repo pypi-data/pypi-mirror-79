@@ -1,0 +1,12 @@
+pyproject.toml,sha256=yBO5YGU7OcNEUmMSvwDsHZ2e-u5hTJWxor2fOpxa4T4,662
+tfmake/Makefile.aws,sha256=caC1vzwSvl471EYx1n6Hu1A3F7ESzKOauF_J4H0eRNE,4298
+tfmake/Makefile.azure,sha256=TvP2Pp-bTC8BUtICE2N0hK1SPXZznU5Rs435827RUjA,4309
+tfmake/__init__.py,sha256=9mDxgYuFf5UT4uF3FXB0RY_W0oImm3EKSvsWwmv0rtQ,249
+tfmake/cli.py,sha256=tJLl6BLOSP9ZRxqV4W-fS1wfzU--1BDx029W3OqdHaU,2824
+tfmake/custom/__init__.py,sha256=oXtKK03MC4u2Ge-WvsCptuwMp8Krwih8f4QdCFQIfP8,14741
+tfmake/templates/tfmake.aws.j2,sha256=av2DqDJrXazFQpVRgKfHycnExVF3hffCqjRmPsVEC5w,814
+tfmake/templates/tfmake.azure.j2,sha256=uNnGXgfcnzsy-bgvh0mlgAMYgX4C7_a-gqzEF1eVLGw,971
+tfmake-1.0.32.dist-info/entry_points.txt,sha256=lpo-xkEDpxtTrTGvmkrGYH-rSrA6kiwAlYJizIklZwI,42
+tfmake-1.0.32.dist-info/WHEEL,sha256=FBKWNu1viS6GS7xtikL-oqqD3EK8beXX0M_2-Zs96BU,89
+tfmake-1.0.32.dist-info/METADATA,sha256=WXMfTqosG6YAiLy5NsbGDJM5n2a7xa4Ajq6Ccej-fsU,10728
+tfmake-1.0.32.dist-info/RECORD,,
