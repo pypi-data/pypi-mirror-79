@@ -1,0 +1,1792 @@
+id	time	event	target	params
+1	0.00	START	.	id=1,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+1	0.00	INFECTION	A2	r0=1.66,r=1,r_presym=1,r_sym=0,incu=2.14
+1	0.00	INFECTION	A7	r0=0.44,r=1,r_asym=1
+1	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+1	0.00	QUARANTINE	A2	till=7.00
+1	0.00	QUARANTINE	A7	till=7.00
+1	1.26	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+1	2.14	SHOW_SYMPTOM	A2	.
+1	2.14	REMOVAL	A2	popsize=299
+1	3.55	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+1	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+1	7.00	REINTEGRATION	A7	succ=True
+1	9.43	WARNING	A2	msg=RECOVER target no longer exists
+1	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+1	12.00	END	299	popsize=299,prop_asym=0.230,time=09/18/2020-12:07:13
+2	0.00	START	.	id=2,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+2	0.00	INFECTION	A2	r0=1.41,r=2,r_presym=2,r_sym=0,incu=5.34
+2	0.00	INFECTION	A7	r0=1.45,r=0,r_presym=0,r_sym=0,incu=3.86
+2	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+2	0.00	QUARANTINE	A2	till=7.00
+2	0.00	QUARANTINE	A7	till=7.00
+2	2.39	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+2	3.86	SHOW_SYMPTOM	A7	.
+2	3.86	REMOVAL	A7	popsize=299
+2	4.06	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+2	5.34	SHOW_SYMPTOM	A2	.
+2	5.34	REMOVAL	A2	popsize=298
+2	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+2	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+2	10.57	WARNING	A7	msg=RECOVER target no longer exists
+2	11.56	WARNING	A2	msg=RECOVER target no longer exists
+2	11.56	END	298	popsize=298,prop_asym=0.204,time=09/18/2020-12:07:13
+3	0.00	START	.	id=3,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+3	0.00	INFECTION	A2	r0=2.79,r=1,r_presym=1,r_sym=0,incu=4.30
+3	0.00	INFECTION	A7	r0=2.40,r=1,r_presym=1,r_sym=0,incu=5.15
+3	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+3	0.00	QUARANTINE	A2	till=7.00
+3	0.00	QUARANTINE	A7	till=7.00
+3	2.39	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+3	4.15	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+3	4.30	SHOW_SYMPTOM	A2	.
+3	4.30	REMOVAL	A2	popsize=299
+3	5.15	SHOW_SYMPTOM	A7	.
+3	5.15	REMOVAL	A7	popsize=298
+3	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+3	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+3	10.87	WARNING	A2	msg=RECOVER target no longer exists
+3	11.43	WARNING	A7	msg=RECOVER target no longer exists
+3	11.43	END	298	popsize=298,prop_asym=0.349,time=09/18/2020-12:07:13
+4	0.00	START	.	id=4,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+4	0.00	INFECTION	A2	r0=0.42,r=0,r_asym=0
+4	0.00	INFECTION	A7	r0=1.50,r=0,r_presym=0,r_sym=0,incu=3.42
+4	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+4	0.00	QUARANTINE	A2	till=7.00
+4	0.00	QUARANTINE	A7	till=7.00
+4	3.42	SHOW_SYMPTOM	A7	.
+4	3.42	REMOVAL	A7	popsize=299
+4	7.00	REINTEGRATION	A2	succ=True
+4	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+4	10.28	WARNING	A7	msg=RECOVER target no longer exists
+4	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+4	12.00	END	299	popsize=299,prop_asym=0.182,time=09/18/2020-12:07:13
+5	0.00	START	.	id=5,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+5	0.00	INFECTION	A2	r0=2.42,r=1,r_presym=1,r_sym=0,incu=3.28
+5	0.00	INFECTION	A7	r0=0.54,r=2,r_asym=2
+5	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+5	0.00	QUARANTINE	A2	till=7.00
+5	0.00	QUARANTINE	A7	till=7.00
+5	0.92	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+5	3.28	SHOW_SYMPTOM	A2	.
+5	3.28	REMOVAL	A2	popsize=299
+5	4.64	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+5	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+5	7.00	REINTEGRATION	A7	succ=True
+5	8.20	INFECTION	A44	by=A7,r0=0.41,r=1,r_asym=1
+5	10.18	WARNING	A2	msg=RECOVER target no longer exists
+5	12.00	RECOVER	A7	recovered=1,infected=1,popsize=299
+5	15.34	INFECTION	B29	by=A44,r0=1.67,r=1,r_presym=1,r_sym=0,incu=3.36
+5	18.03	INFECTION_IGNORED	A7	by=B29
+5	18.71	SHOW_SYMPTOM	B29	.
+5	18.71	REMOVAL	B29	popsize=298
+5	20.20	RECOVER	A44	recovered=2,infected=1,popsize=298
+5	25.59	WARNING	B29	msg=RECOVER target no longer exists
+5	25.59	END	298	popsize=298,prop_asym=0.290,time=09/18/2020-12:07:13
+6	0.00	START	.	id=6,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+6	0.00	INFECTION	A2	r0=2.30,r=0,r_presym=0,r_sym=0,incu=2.28
+6	0.00	INFECTION	A7	r0=0.28,r=0,r_asym=0
+6	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+6	0.00	QUARANTINE	A2	till=7.00
+6	0.00	QUARANTINE	A7	till=7.00
+6	2.28	SHOW_SYMPTOM	A2	.
+6	2.28	REMOVAL	A2	popsize=299
+6	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+6	7.00	REINTEGRATION	A7	succ=True
+6	9.52	WARNING	A2	msg=RECOVER target no longer exists
+6	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+6	12.00	END	299	popsize=299,prop_asym=0.245,time=09/18/2020-12:07:13
+7	0.00	START	.	id=7,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+7	0.00	INFECTION	A2	r0=2.19,r=3,r_presym=3,r_sym=0,incu=7.87
+7	0.00	INFECTION	A7	r0=2.08,r=2,r_presym=2,r_sym=0,incu=4.26
+7	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+7	0.00	QUARANTINE	A2	till=7.00
+7	0.00	QUARANTINE	A7	till=7.00
+7	1.92	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+7	2.30	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+7	4.26	SHOW_SYMPTOM	A7	.
+7	4.26	REMOVAL	A7	popsize=299
+7	5.07	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+7	5.79	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+7	7.00	REINTEGRATION	A2	succ=True
+7	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+7	7.25	INFECTION	A55	by=A2,r0=2.06,r=1,r_presym=1,r_sym=0,incu=3.10
+7	7.87	SHOW_SYMPTOM	A2	.
+7	7.87	REMOVAL	A2	popsize=298
+7	9.77	INFECTION	B162	by=A55,r0=2.64,r=0,r_presym=0,r_sym=0,incu=4.25
+7	10.35	SHOW_SYMPTOM	A55	.
+7	10.35	REMOVAL	A55	popsize=297
+7	10.84	WARNING	A7	msg=RECOVER target no longer exists
+7	13.25	WARNING	A2	msg=RECOVER target no longer exists
+7	14.02	SHOW_SYMPTOM	B162	.
+7	14.02	REMOVAL	B162	popsize=296
+7	17.32	WARNING	A55	msg=RECOVER target no longer exists
+7	20.60	WARNING	B162	msg=RECOVER target no longer exists
+7	20.60	END	296	popsize=296,prop_asym=0.255,time=09/18/2020-12:07:13
+8	0.00	START	.	id=8,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+8	0.00	INFECTION	A2	r0=2.69,r=2,r_presym=2,r_sym=0,incu=11.22
+8	0.00	INFECTION	A7	r0=2.51,r=0,r_presym=0,r_sym=0,incu=7.91
+8	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+8	0.00	QUARANTINE	A2	till=7.00
+8	0.00	QUARANTINE	A7	till=7.00
+8	4.10	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+8	7.00	REINTEGRATION	A2	succ=True
+8	7.00	REINTEGRATION	A7	succ=True
+8	7.91	SHOW_SYMPTOM	A7	.
+8	7.91	REMOVAL	A7	popsize=299
+8	8.78	INFECTION	B122	by=A2,r0=1.64,r=1,r_presym=1,r_sym=0,incu=5.34
+8	10.46	INFECTION	B104	by=B122,r0=1.61,r=2,r_presym=2,r_sym=0,incu=6.84
+8	11.22	SHOW_SYMPTOM	A2	.
+8	11.22	REMOVAL	A2	popsize=298
+8	13.27	WARNING	A7	msg=RECOVER target no longer exists
+8	14.12	SHOW_SYMPTOM	B122	.
+8	14.12	REMOVAL	B122	popsize=297
+8	14.23	INFECTION	A34	by=B104,r0=0.48,r=0,r_asym=0
+8	15.48	WARNING	A2	msg=RECOVER target no longer exists
+8	16.82	INFECTION	B157	by=B104,r0=2.00,r=2,r_presym=2,r_sym=0,incu=8.77
+8	17.30	SHOW_SYMPTOM	B104	.
+8	17.30	REMOVAL	B104	popsize=296
+8	20.34	WARNING	B122	msg=RECOVER target no longer exists
+8	21.68	INFECTION	B102	by=B157,r0=2.28,r=1,r_presym=1,r_sym=0,incu=1.86
+8	22.94	INFECTION	A48	by=B102,r0=0.42,r=0,r_asym=0
+8	23.02	INFECTION	B78	by=B157,r0=1.91,r=1,r_presym=1,r_sym=0,incu=4.08
+8	23.02	WARNING	B104	msg=RECOVER target no longer exists
+8	23.53	SHOW_SYMPTOM	B102	.
+8	23.53	REMOVAL	B102	popsize=295
+8	25.19	INFECTION	A8	by=B78,r0=1.94,r=0,r_presym=0,r_sym=0,incu=4.04
+8	25.60	SHOW_SYMPTOM	B157	.
+8	25.60	REMOVAL	B157	popsize=294
+8	26.23	RECOVER	A34	recovered=1,infected=4,popsize=294
+8	27.09	SHOW_SYMPTOM	B78	.
+8	27.09	REMOVAL	B78	popsize=293
+8	29.24	SHOW_SYMPTOM	A8	.
+8	29.24	REMOVAL	A8	popsize=292
+8	30.67	WARNING	B157	msg=RECOVER target no longer exists
+8	30.91	WARNING	B102	msg=RECOVER target no longer exists
+8	33.73	WARNING	B78	msg=RECOVER target no longer exists
+8	34.94	RECOVER	A48	recovered=2,infected=2,popsize=292
+8	35.89	WARNING	A8	msg=RECOVER target no longer exists
+8	35.89	END	292	popsize=292,prop_asym=0.303,time=09/18/2020-12:07:13
+9	0.00	START	.	id=9,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+9	0.00	INFECTION	A2	r0=2.52,r=0,r_presym=0,r_sym=0,incu=2.78
+9	0.00	INFECTION	A7	r0=1.77,r=0,r_presym=0,r_sym=0,incu=3.21
+9	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+9	0.00	QUARANTINE	A2	till=7.00
+9	0.00	QUARANTINE	A7	till=7.00
+9	2.78	SHOW_SYMPTOM	A2	.
+9	2.78	REMOVAL	A2	popsize=299
+9	3.21	SHOW_SYMPTOM	A7	.
+9	3.21	REMOVAL	A7	popsize=298
+9	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+9	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+9	9.85	WARNING	A2	msg=RECOVER target no longer exists
+9	10.14	WARNING	A7	msg=RECOVER target no longer exists
+9	10.14	END	298	popsize=298,prop_asym=0.231,time=09/18/2020-12:07:13
+10	0.00	START	.	id=10,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+10	0.00	INFECTION	A2	r0=1.80,r=2,r_presym=2,r_sym=0,incu=5.59
+10	0.00	INFECTION	A7	r0=1.89,r=2,r_presym=2,r_sym=0,incu=5.75
+10	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+10	0.00	QUARANTINE	A2	till=7.00
+10	0.00	QUARANTINE	A7	till=7.00
+10	2.14	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+10	3.51	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+10	4.35	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+10	4.57	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+10	5.59	SHOW_SYMPTOM	A2	.
+10	5.59	REMOVAL	A2	popsize=299
+10	5.75	SHOW_SYMPTOM	A7	.
+10	5.75	REMOVAL	A7	popsize=298
+10	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+10	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+10	11.73	WARNING	A2	msg=RECOVER target no longer exists
+10	11.83	WARNING	A7	msg=RECOVER target no longer exists
+10	11.83	END	298	popsize=298,prop_asym=0.092,time=09/18/2020-12:07:13
+11	0.00	START	.	id=11,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+11	0.00	INFECTION	A2	r0=2.29,r=1,r_presym=1,r_sym=0,incu=3.25
+11	0.00	INFECTION	A7	r0=1.54,r=0,r_presym=0,r_sym=0,incu=5.41
+11	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+11	0.00	QUARANTINE	A2	till=7.00
+11	0.00	QUARANTINE	A7	till=7.00
+11	3.02	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+11	3.25	SHOW_SYMPTOM	A2	.
+11	3.25	REMOVAL	A2	popsize=299
+11	5.41	SHOW_SYMPTOM	A7	.
+11	5.41	REMOVAL	A7	popsize=298
+11	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+11	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+11	10.17	WARNING	A2	msg=RECOVER target no longer exists
+11	11.61	WARNING	A7	msg=RECOVER target no longer exists
+11	11.61	END	298	popsize=298,prop_asym=0.272,time=09/18/2020-12:07:13
+12	0.00	START	.	id=12,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+12	0.00	INFECTION	A2	r0=1.82,r=0,r_presym=0,r_sym=0,incu=6.08
+12	0.00	INFECTION	A7	r0=1.64,r=1,r_presym=1,r_sym=0,incu=7.09
+12	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+12	0.00	QUARANTINE	A2	till=7.00
+12	0.00	QUARANTINE	A7	till=7.00
+12	6.08	SHOW_SYMPTOM	A2	.
+12	6.08	REMOVAL	A2	popsize=299
+12	6.36	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+12	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+12	7.00	REINTEGRATION	A7	succ=True
+12	7.09	SHOW_SYMPTOM	A7	.
+12	7.09	REMOVAL	A7	popsize=298
+12	12.05	WARNING	A2	msg=RECOVER target no longer exists
+12	12.73	WARNING	A7	msg=RECOVER target no longer exists
+12	12.73	END	298	popsize=298,prop_asym=0.304,time=09/18/2020-12:07:13
+13	0.00	START	.	id=13,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+13	0.00	INFECTION	A2	r0=2.57,r=1,r_presym=1,r_sym=0,incu=6.87
+13	0.00	INFECTION	A7	r0=0.36,r=0,r_asym=0
+13	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+13	0.00	QUARANTINE	A2	till=7.00
+13	0.00	QUARANTINE	A7	till=7.00
+13	4.45	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+13	6.87	SHOW_SYMPTOM	A2	.
+13	6.87	REMOVAL	A2	popsize=299
+13	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+13	7.00	REINTEGRATION	A7	succ=True
+13	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+13	12.58	WARNING	A2	msg=RECOVER target no longer exists
+13	12.58	END	299	popsize=299,prop_asym=0.257,time=09/18/2020-12:07:13
+14	0.00	START	.	id=14,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+14	0.00	INFECTION	A2	r0=2.69,r=2,r_presym=2,r_sym=0,incu=6.52
+14	0.00	INFECTION	A7	r0=1.76,r=1,r_presym=1,r_sym=0,incu=3.86
+14	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+14	0.00	QUARANTINE	A2	till=7.00
+14	0.00	QUARANTINE	A7	till=7.00
+14	3.10	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+14	3.15	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+14	3.86	SHOW_SYMPTOM	A7	.
+14	3.86	REMOVAL	A7	popsize=299
+14	5.31	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+14	6.52	SHOW_SYMPTOM	A2	.
+14	6.52	REMOVAL	A2	popsize=298
+14	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+14	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+14	10.58	WARNING	A7	msg=RECOVER target no longer exists
+14	12.35	WARNING	A2	msg=RECOVER target no longer exists
+14	12.35	END	298	popsize=298,prop_asym=0.210,time=09/18/2020-12:07:13
+15	0.00	START	.	id=15,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+15	0.00	INFECTION	A2	r0=2.08,r=2,r_presym=2,r_sym=0,incu=4.36
+15	0.00	INFECTION	A7	r0=2.62,r=1,r_presym=1,r_sym=0,incu=7.04
+15	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+15	0.00	QUARANTINE	A2	till=7.00
+15	0.00	QUARANTINE	A7	till=7.00
+15	0.08	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+15	2.93	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+15	3.82	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+15	4.36	SHOW_SYMPTOM	A2	.
+15	4.36	REMOVAL	A2	popsize=299
+15	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+15	7.00	REINTEGRATION	A7	succ=True
+15	7.04	SHOW_SYMPTOM	A7	.
+15	7.04	REMOVAL	A7	popsize=298
+15	10.91	WARNING	A2	msg=RECOVER target no longer exists
+15	12.69	WARNING	A7	msg=RECOVER target no longer exists
+15	12.69	END	298	popsize=298,prop_asym=0.132,time=09/18/2020-12:07:13
+16	0.00	START	.	id=16,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+16	0.00	INFECTION	A2	r0=2.80,r=1,r_presym=1,r_sym=0,incu=4.66
+16	0.00	INFECTION	A7	r0=1.53,r=0,r_presym=0,r_sym=0,incu=5.02
+16	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+16	0.00	QUARANTINE	A2	till=7.00
+16	0.00	QUARANTINE	A7	till=7.00
+16	1.89	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+16	4.66	SHOW_SYMPTOM	A2	.
+16	4.66	REMOVAL	A2	popsize=299
+16	5.02	SHOW_SYMPTOM	A7	.
+16	5.02	REMOVAL	A7	popsize=298
+16	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+16	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+16	11.11	WARNING	A2	msg=RECOVER target no longer exists
+16	11.35	WARNING	A7	msg=RECOVER target no longer exists
+16	11.35	END	298	popsize=298,prop_asym=0.324,time=09/18/2020-12:07:13
+17	0.00	START	.	id=17,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+17	0.00	INFECTION	A2	r0=0.49,r=0,r_asym=0
+17	0.00	INFECTION	A7	r0=0.53,r=0,r_asym=0
+17	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+17	0.00	QUARANTINE	A2	till=7.00
+17	0.00	QUARANTINE	A7	till=7.00
+17	7.00	REINTEGRATION	A2	succ=True
+17	7.00	REINTEGRATION	A7	succ=True
+17	12.00	RECOVER	A2	recovered=1,infected=0,popsize=300
+17	12.00	RECOVER	A7	recovered=2,infected=0,popsize=300
+17	12.00	END	300	popsize=300,prop_asym=0.114,time=09/18/2020-12:07:13
+18	0.00	START	.	id=18,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+18	0.00	INFECTION	A2	r0=1.84,r=1,r_presym=1,r_sym=0,incu=7.84
+18	0.00	INFECTION	A7	r0=1.72,r=1,r_presym=1,r_sym=0,incu=4.03
+18	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+18	0.00	QUARANTINE	A2	till=7.00
+18	0.00	QUARANTINE	A7	till=7.00
+18	1.63	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+18	3.18	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+18	4.03	SHOW_SYMPTOM	A7	.
+18	4.03	REMOVAL	A7	popsize=299
+18	7.00	REINTEGRATION	A2	succ=True
+18	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+18	7.84	SHOW_SYMPTOM	A2	.
+18	7.84	REMOVAL	A2	popsize=298
+18	10.69	WARNING	A7	msg=RECOVER target no longer exists
+18	13.23	WARNING	A2	msg=RECOVER target no longer exists
+18	13.23	END	298	popsize=298,prop_asym=0.292,time=09/18/2020-12:07:13
+19	0.00	START	.	id=19,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+19	0.00	INFECTION	A2	r0=2.25,r=0,r_presym=0,r_sym=0,incu=4.93
+19	0.00	INFECTION	A7	r0=2.67,r=3,r_presym=3,r_sym=0,incu=6.41
+19	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+19	0.00	QUARANTINE	A2	till=7.00
+19	0.00	QUARANTINE	A7	till=7.00
+19	3.85	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+19	3.94	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+19	4.19	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+19	4.93	SHOW_SYMPTOM	A2	.
+19	4.93	REMOVAL	A2	popsize=299
+19	6.41	SHOW_SYMPTOM	A7	.
+19	6.41	REMOVAL	A7	popsize=298
+19	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+19	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+19	11.28	WARNING	A2	msg=RECOVER target no longer exists
+19	12.27	WARNING	A7	msg=RECOVER target no longer exists
+19	12.27	END	298	popsize=298,prop_asym=0.292,time=09/18/2020-12:07:13
+20	0.00	START	.	id=20,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+20	0.00	INFECTION	A2	r0=0.52,r=1,r_asym=1
+20	0.00	INFECTION	A7	r0=0.43,r=0,r_asym=0
+20	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+20	0.00	QUARANTINE	A2	till=7.00
+20	0.00	QUARANTINE	A7	till=7.00
+20	2.89	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+20	7.00	REINTEGRATION	A2	succ=True
+20	7.00	REINTEGRATION	A7	succ=True
+20	12.00	RECOVER	A2	recovered=1,infected=0,popsize=300
+20	12.00	RECOVER	A7	recovered=2,infected=0,popsize=300
+20	12.00	END	300	popsize=300,prop_asym=0.419,time=09/18/2020-12:07:13
+21	0.00	START	.	id=21,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+21	0.00	INFECTION	A2	r0=2.15,r=0,r_presym=0,r_sym=0,incu=8.59
+21	0.00	INFECTION	A7	r0=0.36,r=0,r_asym=0
+21	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+21	0.00	QUARANTINE	A2	till=7.00
+21	0.00	QUARANTINE	A7	till=7.00
+21	7.00	REINTEGRATION	A2	succ=True
+21	7.00	REINTEGRATION	A7	succ=True
+21	8.59	SHOW_SYMPTOM	A2	.
+21	8.59	REMOVAL	A2	popsize=299
+21	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+21	13.73	WARNING	A2	msg=RECOVER target no longer exists
+21	13.73	END	299	popsize=299,prop_asym=0.248,time=09/18/2020-12:07:13
+22	0.00	START	.	id=22,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+22	0.00	INFECTION	A2	r0=2.73,r=0,r_presym=0,r_sym=0,incu=4.11
+22	0.00	INFECTION	A7	r0=1.84,r=0,r_presym=0,r_sym=0,incu=3.45
+22	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+22	0.00	QUARANTINE	A2	till=7.00
+22	0.00	QUARANTINE	A7	till=7.00
+22	3.45	SHOW_SYMPTOM	A7	.
+22	3.45	REMOVAL	A7	popsize=299
+22	4.11	SHOW_SYMPTOM	A2	.
+22	4.11	REMOVAL	A2	popsize=298
+22	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+22	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+22	10.30	WARNING	A7	msg=RECOVER target no longer exists
+22	10.74	WARNING	A2	msg=RECOVER target no longer exists
+22	10.74	END	298	popsize=298,prop_asym=0.108,time=09/18/2020-12:07:13
+23	0.00	START	.	id=23,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+23	0.00	INFECTION	A2	r0=0.42,r=1,r_asym=1
+23	0.00	INFECTION	A7	r0=2.55,r=0,r_presym=0,r_sym=0,incu=7.72
+23	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+23	0.00	QUARANTINE	A2	till=7.00
+23	0.00	QUARANTINE	A7	till=7.00
+23	5.94	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+23	7.00	REINTEGRATION	A2	succ=True
+23	7.00	REINTEGRATION	A7	succ=True
+23	7.72	SHOW_SYMPTOM	A7	.
+23	7.72	REMOVAL	A7	popsize=299
+23	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+23	13.15	WARNING	A7	msg=RECOVER target no longer exists
+23	13.15	END	299	popsize=299,prop_asym=0.246,time=09/18/2020-12:07:13
+24	0.00	START	.	id=24,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+24	0.00	INFECTION	A2	r0=2.50,r=1,r_presym=1,r_sym=0,incu=4.32
+24	0.00	INFECTION	A7	r0=1.62,r=0,r_presym=0,r_sym=0,incu=4.10
+24	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+24	0.00	QUARANTINE	A2	till=7.00
+24	0.00	QUARANTINE	A7	till=7.00
+24	3.64	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+24	4.10	SHOW_SYMPTOM	A7	.
+24	4.10	REMOVAL	A7	popsize=299
+24	4.32	SHOW_SYMPTOM	A2	.
+24	4.32	REMOVAL	A2	popsize=298
+24	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+24	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+24	10.74	WARNING	A7	msg=RECOVER target no longer exists
+24	10.88	WARNING	A2	msg=RECOVER target no longer exists
+24	10.88	END	298	popsize=298,prop_asym=0.159,time=09/18/2020-12:07:13
+25	0.00	START	.	id=25,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+25	0.00	INFECTION	A2	r0=0.40,r=0,r_asym=0
+25	0.00	INFECTION	A7	r0=2.45,r=1,r_presym=1,r_sym=0,incu=6.29
+25	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+25	0.00	QUARANTINE	A2	till=7.00
+25	0.00	QUARANTINE	A7	till=7.00
+25	3.06	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+25	6.29	SHOW_SYMPTOM	A7	.
+25	6.29	REMOVAL	A7	popsize=299
+25	7.00	REINTEGRATION	A2	succ=True
+25	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+25	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+25	12.19	WARNING	A7	msg=RECOVER target no longer exists
+25	12.19	END	299	popsize=299,prop_asym=0.264,time=09/18/2020-12:07:13
+26	0.00	START	.	id=26,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+26	0.00	INFECTION	A2	r0=2.68,r=3,r_presym=3,r_sym=0,incu=6.24
+26	0.00	INFECTION	A7	r0=1.52,r=0,r_presym=0,r_sym=0,incu=7.50
+26	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+26	0.00	QUARANTINE	A2	till=7.00
+26	0.00	QUARANTINE	A7	till=7.00
+26	3.27	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+26	4.61	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+26	5.03	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+26	6.24	SHOW_SYMPTOM	A2	.
+26	6.24	REMOVAL	A2	popsize=299
+26	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+26	7.00	REINTEGRATION	A7	succ=True
+26	7.50	SHOW_SYMPTOM	A7	.
+26	7.50	REMOVAL	A7	popsize=298
+26	12.16	WARNING	A2	msg=RECOVER target no longer exists
+26	13.00	WARNING	A7	msg=RECOVER target no longer exists
+26	13.00	END	298	popsize=298,prop_asym=0.256,time=09/18/2020-12:07:13
+27	0.00	START	.	id=27,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+27	0.00	INFECTION	A2	r0=1.53,r=2,r_presym=2,r_sym=0,incu=9.93
+27	0.00	INFECTION	A7	r0=1.50,r=1,r_presym=1,r_sym=0,incu=7.68
+27	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+27	0.00	QUARANTINE	A2	till=7.00
+27	0.00	QUARANTINE	A7	till=7.00
+27	2.26	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+27	5.07	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+27	6.03	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+27	7.00	REINTEGRATION	A2	succ=True
+27	7.00	REINTEGRATION	A7	succ=True
+27	7.68	SHOW_SYMPTOM	A7	.
+27	7.68	REMOVAL	A7	popsize=299
+27	9.93	SHOW_SYMPTOM	A2	.
+27	9.93	REMOVAL	A2	popsize=298
+27	13.12	WARNING	A7	msg=RECOVER target no longer exists
+27	14.62	WARNING	A2	msg=RECOVER target no longer exists
+27	14.62	END	298	popsize=298,prop_asym=0.154,time=09/18/2020-12:07:13
+28	0.00	START	.	id=28,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+28	0.00	INFECTION	A2	r0=1.44,r=0,r_presym=0,r_sym=0,incu=3.70
+28	0.00	INFECTION	A7	r0=2.21,r=1,r_presym=1,r_sym=0,incu=6.57
+28	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+28	0.00	QUARANTINE	A2	till=7.00
+28	0.00	QUARANTINE	A7	till=7.00
+28	3.70	SHOW_SYMPTOM	A2	.
+28	3.70	REMOVAL	A2	popsize=299
+28	5.35	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+28	6.57	SHOW_SYMPTOM	A7	.
+28	6.57	REMOVAL	A7	popsize=298
+28	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+28	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+28	10.47	WARNING	A2	msg=RECOVER target no longer exists
+28	12.38	WARNING	A7	msg=RECOVER target no longer exists
+28	12.38	END	298	popsize=298,prop_asym=0.180,time=09/18/2020-12:07:13
+29	0.00	START	.	id=29,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+29	0.00	INFECTION	A2	r0=2.61,r=1,r_presym=1,r_sym=0,incu=4.27
+29	0.00	INFECTION	A7	r0=1.94,r=0,r_presym=0,r_sym=0,incu=4.17
+29	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+29	0.00	QUARANTINE	A2	till=7.00
+29	0.00	QUARANTINE	A7	till=7.00
+29	2.93	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+29	4.17	SHOW_SYMPTOM	A7	.
+29	4.17	REMOVAL	A7	popsize=299
+29	4.27	SHOW_SYMPTOM	A2	.
+29	4.27	REMOVAL	A2	popsize=298
+29	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+29	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+29	10.78	WARNING	A7	msg=RECOVER target no longer exists
+29	10.84	WARNING	A2	msg=RECOVER target no longer exists
+29	10.84	END	298	popsize=298,prop_asym=0.080,time=09/18/2020-12:07:13
+30	0.00	START	.	id=30,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+30	0.00	INFECTION	A2	r0=1.60,r=0,r_presym=0,r_sym=0,incu=5.39
+30	0.00	INFECTION	A7	r0=0.40,r=0,r_asym=0
+30	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+30	0.00	QUARANTINE	A2	till=7.00
+30	0.00	QUARANTINE	A7	till=7.00
+30	5.39	SHOW_SYMPTOM	A2	.
+30	5.39	REMOVAL	A2	popsize=299
+30	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+30	7.00	REINTEGRATION	A7	succ=True
+30	11.59	WARNING	A2	msg=RECOVER target no longer exists
+30	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+30	12.00	END	299	popsize=299,prop_asym=0.434,time=09/18/2020-12:07:13
+31	0.00	START	.	id=31,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+31	0.00	INFECTION	A2	r0=2.60,r=3,r_presym=3,r_sym=0,incu=5.16
+31	0.00	INFECTION	A7	r0=0.38,r=0,r_asym=0
+31	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+31	0.00	QUARANTINE	A2	till=7.00
+31	0.00	QUARANTINE	A7	till=7.00
+31	3.77	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+31	4.02	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+31	4.86	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+31	5.16	SHOW_SYMPTOM	A2	.
+31	5.16	REMOVAL	A2	popsize=299
+31	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+31	7.00	REINTEGRATION	A7	succ=True
+31	11.44	WARNING	A2	msg=RECOVER target no longer exists
+31	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+31	12.00	END	299	popsize=299,prop_asym=0.299,time=09/18/2020-12:07:13
+32	0.00	START	.	id=32,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+32	0.00	INFECTION	A2	r0=1.59,r=0,r_presym=0,r_sym=0,incu=4.90
+32	0.00	INFECTION	A7	r0=2.67,r=2,r_presym=2,r_sym=0,incu=11.73
+32	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+32	0.00	QUARANTINE	A2	till=7.00
+32	0.00	QUARANTINE	A7	till=7.00
+32	4.90	SHOW_SYMPTOM	A2	.
+32	4.90	REMOVAL	A2	popsize=299
+32	4.98	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+32	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+32	7.00	REINTEGRATION	A7	succ=True
+32	8.12	INFECTION	A47	by=A7,r0=2.60,r=3,r_presym=3,r_sym=0,incu=7.79
+32	9.67	INFECTION	A69	by=A47,r0=0.39,r=1,r_asym=1
+32	10.09	INFECTION	A94	by=A47,r0=0.35,r=0,r_asym=0
+32	11.26	WARNING	A2	msg=RECOVER target no longer exists
+32	11.73	SHOW_SYMPTOM	A7	.
+32	11.73	REMOVAL	A7	popsize=298
+32	11.81	INFECTION	B149	by=A47,r0=0.42,r=0,r_asym=0
+32	13.81	INFECTION	A43	by=A69,r0=2.27,r=3,r_presym=3,r_sym=0,incu=7.20
+32	15.82	WARNING	A7	msg=RECOVER target no longer exists
+32	15.91	SHOW_SYMPTOM	A47	.
+32	15.91	REMOVAL	A47	popsize=297
+32	17.07	INFECTION	B111	by=A43,r0=0.39,r=0,r_asym=0
+32	17.28	INFECTION	A4	by=A43,r0=0.28,r=0,r_asym=0
+32	18.66	INFECTION	B38	by=A43,r0=2.42,r=0,r_presym=0,r_sym=0,incu=8.12
+32	21.01	SHOW_SYMPTOM	A43	.
+32	21.01	REMOVAL	A43	popsize=296
+32	21.32	WARNING	A47	msg=RECOVER target no longer exists
+32	21.67	RECOVER	A69	recovered=1,infected=6,popsize=296
+32	22.09	RECOVER	A94	recovered=2,infected=6,popsize=296
+32	23.81	RECOVER	B149	recovered=3,infected=6,popsize=296
+32	26.61	WARNING	A43	msg=RECOVER target no longer exists
+32	26.78	SHOW_SYMPTOM	B38	.
+32	26.78	REMOVAL	B38	popsize=295
+32	29.07	RECOVER	B111	recovered=4,infected=5,popsize=295
+32	29.28	RECOVER	A4	recovered=5,infected=5,popsize=295
+32	32.07	WARNING	B38	msg=RECOVER target no longer exists
+32	32.07	END	295	popsize=295,prop_asym=0.273,time=09/18/2020-12:07:13
+33	0.00	START	.	id=33,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+33	0.00	INFECTION	A2	r0=1.62,r=1,r_presym=1,r_sym=0,incu=5.24
+33	0.00	INFECTION	A7	r0=2.13,r=1,r_presym=1,r_sym=0,incu=5.17
+33	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+33	0.00	QUARANTINE	A2	till=7.00
+33	0.00	QUARANTINE	A7	till=7.00
+33	1.85	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+33	3.73	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+33	5.17	SHOW_SYMPTOM	A7	.
+33	5.17	REMOVAL	A7	popsize=299
+33	5.24	SHOW_SYMPTOM	A2	.
+33	5.24	REMOVAL	A2	popsize=298
+33	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+33	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+33	11.45	WARNING	A7	msg=RECOVER target no longer exists
+33	11.49	WARNING	A2	msg=RECOVER target no longer exists
+33	11.49	END	298	popsize=298,prop_asym=0.363,time=09/18/2020-12:07:13
+34	0.00	START	.	id=34,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+34	0.00	INFECTION	A2	r0=0.32,r=0,r_asym=0
+34	0.00	INFECTION	A7	r0=1.68,r=0,r_presym=0,r_sym=0,incu=4.45
+34	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+34	0.00	QUARANTINE	A2	till=7.00
+34	0.00	QUARANTINE	A7	till=7.00
+34	4.45	SHOW_SYMPTOM	A7	.
+34	4.45	REMOVAL	A7	popsize=299
+34	7.00	REINTEGRATION	A2	succ=True
+34	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+34	10.97	WARNING	A7	msg=RECOVER target no longer exists
+34	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+34	12.00	END	299	popsize=299,prop_asym=0.258,time=09/18/2020-12:07:13
+35	0.00	START	.	id=35,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+35	0.00	INFECTION	A2	r0=0.31,r=0,r_asym=0
+35	0.00	INFECTION	A7	r0=1.91,r=4,r_presym=4,r_sym=0,incu=5.85
+35	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+35	0.00	QUARANTINE	A2	till=7.00
+35	0.00	QUARANTINE	A7	till=7.00
+35	2.05	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+35	3.60	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+35	3.81	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+35	5.78	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+35	5.85	SHOW_SYMPTOM	A7	.
+35	5.85	REMOVAL	A7	popsize=299
+35	7.00	REINTEGRATION	A2	succ=True
+35	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+35	11.90	WARNING	A7	msg=RECOVER target no longer exists
+35	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+35	12.00	END	299	popsize=299,prop_asym=0.222,time=09/18/2020-12:07:13
+36	0.00	START	.	id=36,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+36	0.00	INFECTION	A2	r0=2.37,r=0,r_presym=0,r_sym=0,incu=5.59
+36	0.00	INFECTION	A7	r0=1.43,r=1,r_presym=1,r_sym=0,incu=7.50
+36	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+36	0.00	QUARANTINE	A2	till=7.00
+36	0.00	QUARANTINE	A7	till=7.00
+36	3.82	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+36	5.59	SHOW_SYMPTOM	A2	.
+36	5.59	REMOVAL	A2	popsize=299
+36	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+36	7.00	REINTEGRATION	A7	succ=True
+36	7.50	SHOW_SYMPTOM	A7	.
+36	7.50	REMOVAL	A7	popsize=298
+36	11.73	WARNING	A2	msg=RECOVER target no longer exists
+36	13.00	WARNING	A7	msg=RECOVER target no longer exists
+36	13.00	END	298	popsize=298,prop_asym=0.258,time=09/18/2020-12:07:13
+37	0.00	START	.	id=37,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+37	0.00	INFECTION	A2	r0=2.58,r=1,r_presym=1,r_sym=0,incu=5.99
+37	0.00	INFECTION	A7	r0=0.51,r=1,r_asym=1
+37	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+37	0.00	QUARANTINE	A2	till=7.00
+37	0.00	QUARANTINE	A7	till=7.00
+37	3.85	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+37	5.20	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+37	5.99	SHOW_SYMPTOM	A2	.
+37	5.99	REMOVAL	A2	popsize=299
+37	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+37	7.00	REINTEGRATION	A7	succ=True
+37	12.00	WARNING	A2	msg=RECOVER target no longer exists
+37	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+37	12.00	END	299	popsize=299,prop_asym=0.293,time=09/18/2020-12:07:13
+38	0.00	START	.	id=38,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+38	0.00	INFECTION	A2	r0=2.01,r=0,r_presym=0,r_sym=0,incu=1.85
+38	0.00	INFECTION	A7	r0=2.46,r=1,r_presym=1,r_sym=0,incu=3.47
+38	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+38	0.00	QUARANTINE	A2	till=7.00
+38	0.00	QUARANTINE	A7	till=7.00
+38	1.85	SHOW_SYMPTOM	A2	.
+38	1.85	REMOVAL	A2	popsize=299
+38	1.89	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+38	3.47	SHOW_SYMPTOM	A7	.
+38	3.47	REMOVAL	A7	popsize=298
+38	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+38	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+38	9.23	WARNING	A2	msg=RECOVER target no longer exists
+38	10.31	WARNING	A7	msg=RECOVER target no longer exists
+38	10.31	END	298	popsize=298,prop_asym=0.259,time=09/18/2020-12:07:13
+39	0.00	START	.	id=39,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+39	0.00	INFECTION	A2	r0=0.56,r=1,r_asym=1
+39	0.00	INFECTION	A7	r0=2.68,r=0,r_presym=0,r_sym=0,incu=3.82
+39	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+39	0.00	QUARANTINE	A2	till=7.00
+39	0.00	QUARANTINE	A7	till=7.00
+39	3.82	SHOW_SYMPTOM	A7	.
+39	3.82	REMOVAL	A7	popsize=299
+39	4.89	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+39	7.00	REINTEGRATION	A2	succ=True
+39	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+39	10.55	WARNING	A7	msg=RECOVER target no longer exists
+39	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+39	12.00	END	299	popsize=299,prop_asym=0.396,time=09/18/2020-12:07:13
+40	0.00	START	.	id=40,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+40	0.00	INFECTION	A2	r0=1.48,r=1,r_presym=1,r_sym=0,incu=3.02
+40	0.00	INFECTION	A7	r0=0.54,r=0,r_asym=0
+40	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+40	0.00	QUARANTINE	A2	till=7.00
+40	0.00	QUARANTINE	A7	till=7.00
+40	2.60	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+40	3.02	SHOW_SYMPTOM	A2	.
+40	3.02	REMOVAL	A2	popsize=299
+40	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+40	7.00	REINTEGRATION	A7	succ=True
+40	10.01	WARNING	A2	msg=RECOVER target no longer exists
+40	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+40	12.00	END	299	popsize=299,prop_asym=0.223,time=09/18/2020-12:07:13
+41	0.00	START	.	id=41,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+41	0.00	INFECTION	A2	r0=1.49,r=1,r_presym=1,r_sym=0,incu=7.74
+41	0.00	INFECTION	A7	r0=2.08,r=0,r_presym=0,r_sym=0,incu=6.44
+41	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+41	0.00	QUARANTINE	A2	till=7.00
+41	0.00	QUARANTINE	A7	till=7.00
+41	2.35	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+41	6.44	SHOW_SYMPTOM	A7	.
+41	6.44	REMOVAL	A7	popsize=299
+41	7.00	REINTEGRATION	A2	succ=True
+41	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+41	7.74	SHOW_SYMPTOM	A2	.
+41	7.74	REMOVAL	A2	popsize=298
+41	12.29	WARNING	A7	msg=RECOVER target no longer exists
+41	13.16	WARNING	A2	msg=RECOVER target no longer exists
+41	13.16	END	298	popsize=298,prop_asym=0.223,time=09/18/2020-12:07:13
+42	0.00	START	.	id=42,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+42	0.00	INFECTION	A2	r0=2.79,r=0,r_presym=0,r_sym=0,incu=5.39
+42	0.00	INFECTION	A7	r0=0.53,r=0,r_asym=0
+42	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+42	0.00	QUARANTINE	A2	till=7.00
+42	0.00	QUARANTINE	A7	till=7.00
+42	5.39	SHOW_SYMPTOM	A2	.
+42	5.39	REMOVAL	A2	popsize=299
+42	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+42	7.00	REINTEGRATION	A7	succ=True
+42	11.60	WARNING	A2	msg=RECOVER target no longer exists
+42	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+42	12.00	END	299	popsize=299,prop_asym=0.224,time=09/18/2020-12:07:13
+43	0.00	START	.	id=43,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+43	0.00	INFECTION	A2	r0=2.34,r=2,r_presym=2,r_sym=0,incu=6.74
+43	0.00	INFECTION	A7	r0=0.36,r=0,r_asym=0
+43	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+43	0.00	QUARANTINE	A2	till=7.00
+43	0.00	QUARANTINE	A7	till=7.00
+43	5.41	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+43	6.16	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+43	6.74	SHOW_SYMPTOM	A2	.
+43	6.74	REMOVAL	A2	popsize=299
+43	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+43	7.00	REINTEGRATION	A7	succ=True
+43	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+43	12.50	WARNING	A2	msg=RECOVER target no longer exists
+43	12.50	END	299	popsize=299,prop_asym=0.249,time=09/18/2020-12:07:13
+44	0.00	START	.	id=44,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+44	0.00	INFECTION	A2	r0=2.31,r=1,r_presym=1,r_sym=0,incu=4.92
+44	0.00	INFECTION	A7	r0=1.44,r=1,r_presym=1,r_sym=0,incu=5.22
+44	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+44	0.00	QUARANTINE	A2	till=7.00
+44	0.00	QUARANTINE	A7	till=7.00
+44	1.89	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+44	3.48	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+44	4.92	SHOW_SYMPTOM	A2	.
+44	4.92	REMOVAL	A2	popsize=299
+44	5.22	SHOW_SYMPTOM	A7	.
+44	5.22	REMOVAL	A7	popsize=298
+44	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+44	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+44	11.28	WARNING	A2	msg=RECOVER target no longer exists
+44	11.48	WARNING	A7	msg=RECOVER target no longer exists
+44	11.48	END	298	popsize=298,prop_asym=0.169,time=09/18/2020-12:07:13
+45	0.00	START	.	id=45,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+45	0.00	INFECTION	A2	r0=0.31,r=0,r_asym=0
+45	0.00	INFECTION	A7	r0=2.75,r=1,r_presym=1,r_sym=0,incu=6.59
+45	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+45	0.00	QUARANTINE	A2	till=7.00
+45	0.00	QUARANTINE	A7	till=7.00
+45	5.32	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+45	6.59	SHOW_SYMPTOM	A7	.
+45	6.59	REMOVAL	A7	popsize=299
+45	7.00	REINTEGRATION	A2	succ=True
+45	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+45	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+45	12.39	WARNING	A7	msg=RECOVER target no longer exists
+45	12.39	END	299	popsize=299,prop_asym=0.259,time=09/18/2020-12:07:13
+46	0.00	START	.	id=46,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+46	0.00	INFECTION	A2	r0=1.48,r=3,r_presym=3,r_sym=0,incu=7.67
+46	0.00	INFECTION	A7	r0=0.32,r=1,r_asym=1
+46	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+46	0.00	QUARANTINE	A2	till=7.00
+46	0.00	QUARANTINE	A7	till=7.00
+46	1.80	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+46	2.51	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+46	5.36	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+46	7.00	REINTEGRATION	A2	succ=True
+46	7.00	REINTEGRATION	A7	succ=True
+46	7.29	INFECTION	A4	by=A2,r0=1.78,r=3,r_presym=3,r_sym=0,incu=7.05
+46	7.67	SHOW_SYMPTOM	A2	.
+46	7.67	REMOVAL	A2	popsize=299
+46	11.06	INFECTION	B156	by=A4,r0=2.58,r=1,r_presym=1,r_sym=0,incu=4.64
+46	11.23	INFECTION	B71	by=A4,r0=0.50,r=1,r_asym=1
+46	12.00	RECOVER	A7	recovered=1,infected=3,popsize=299
+46	12.99	INFECTION	B33	by=B156,r0=2.17,r=0,r_presym=0,r_sym=0,incu=4.25
+46	13.12	WARNING	A2	msg=RECOVER target no longer exists
+46	14.21	INFECTION	B74	by=A4,r0=2.64,r=3,r_presym=3,r_sym=0,incu=4.13
+46	14.34	SHOW_SYMPTOM	A4	.
+46	14.34	REMOVAL	A4	popsize=298
+46	14.50	INFECTION	B14	by=B74,r0=2.11,r=0,r_presym=0,r_sym=0,incu=7.02
+46	15.62	INFECTION	B128	by=B71,r0=0.36,r=0,r_asym=0
+46	15.71	SHOW_SYMPTOM	B156	.
+46	15.71	REMOVAL	B156	popsize=297
+46	16.51	INFECTION	B2	by=B74,r0=0.49,r=0,r_asym=0
+46	17.24	SHOW_SYMPTOM	B33	.
+46	17.24	REMOVAL	B33	popsize=296
+46	17.64	INFECTION	B86	by=B74,r0=2.14,r=1,r_presym=1,r_sym=0,incu=3.63
+46	18.34	SHOW_SYMPTOM	B74	.
+46	18.34	REMOVAL	B74	popsize=295
+46	19.99	WARNING	A4	msg=RECOVER target no longer exists
+46	21.03	INFECTION	B19	by=B86,r0=2.42,r=0,r_presym=0,r_sym=0,incu=3.07
+46	21.27	SHOW_SYMPTOM	B86	.
+46	21.27	REMOVAL	B86	popsize=294
+46	21.51	SHOW_SYMPTOM	B14	.
+46	21.51	REMOVAL	B14	popsize=293
+46	22.16	WARNING	B156	msg=RECOVER target no longer exists
+46	23.23	RECOVER	B71	recovered=2,infected=4,popsize=293
+46	23.82	WARNING	B33	msg=RECOVER target no longer exists
+46	24.09	SHOW_SYMPTOM	B19	.
+46	24.09	REMOVAL	B19	popsize=292
+46	24.96	WARNING	B74	msg=RECOVER target no longer exists
+46	27.18	WARNING	B14	msg=RECOVER target no longer exists
+46	27.62	RECOVER	B128	recovered=3,infected=3,popsize=292
+46	28.06	WARNING	B86	msg=RECOVER target no longer exists
+46	28.51	RECOVER	B2	recovered=4,infected=3,popsize=292
+46	31.07	WARNING	B19	msg=RECOVER target no longer exists
+46	31.07	END	292	popsize=292,prop_asym=0.295,time=09/18/2020-12:07:13
+47	0.00	START	.	id=47,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+47	0.00	INFECTION	A2	r0=0.48,r=0,r_asym=0
+47	0.00	INFECTION	A7	r0=0.52,r=0,r_asym=0
+47	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+47	0.00	QUARANTINE	A2	till=7.00
+47	0.00	QUARANTINE	A7	till=7.00
+47	7.00	REINTEGRATION	A2	succ=True
+47	7.00	REINTEGRATION	A7	succ=True
+47	12.00	RECOVER	A2	recovered=1,infected=0,popsize=300
+47	12.00	RECOVER	A7	recovered=2,infected=0,popsize=300
+47	12.00	END	300	popsize=300,prop_asym=0.249,time=09/18/2020-12:07:13
+48	0.00	START	.	id=48,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+48	0.00	INFECTION	A2	r0=0.28,r=0,r_asym=0
+48	0.00	INFECTION	A7	r0=2.27,r=4,r_presym=4,r_sym=0,incu=8.37
+48	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+48	0.00	QUARANTINE	A2	till=7.00
+48	0.00	QUARANTINE	A7	till=7.00
+48	1.09	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+48	5.53	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+48	6.41	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+48	7.00	REINTEGRATION	A2	succ=True
+48	7.00	REINTEGRATION	A7	succ=True
+48	7.08	INFECTION	B62	by=A7,r0=2.04,r=1,r_presym=1,r_sym=0,incu=9.74
+48	8.37	SHOW_SYMPTOM	A7	.
+48	8.37	REMOVAL	A7	popsize=299
+48	11.11	INFECTION	B112	by=B62,r0=2.22,r=0,r_presym=0,r_sym=0,incu=2.20
+48	12.00	RECOVER	A2	recovered=1,infected=2,popsize=299
+48	13.30	SHOW_SYMPTOM	B112	.
+48	13.30	REMOVAL	B112	popsize=298
+48	13.58	WARNING	A7	msg=RECOVER target no longer exists
+48	16.83	SHOW_SYMPTOM	B62	.
+48	16.83	REMOVAL	B62	popsize=297
+48	20.57	WARNING	B112	msg=RECOVER target no longer exists
+48	21.58	WARNING	B62	msg=RECOVER target no longer exists
+48	21.58	END	297	popsize=297,prop_asym=0.273,time=09/18/2020-12:07:13
+49	0.00	START	.	id=49,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+49	0.00	INFECTION	A2	r0=2.75,r=1,r_presym=1,r_sym=0,incu=4.87
+49	0.00	INFECTION	A7	r0=0.35,r=0,r_asym=0
+49	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+49	0.00	QUARANTINE	A2	till=7.00
+49	0.00	QUARANTINE	A7	till=7.00
+49	3.74	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+49	4.87	SHOW_SYMPTOM	A2	.
+49	4.87	REMOVAL	A2	popsize=299
+49	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+49	7.00	REINTEGRATION	A7	succ=True
+49	11.25	WARNING	A2	msg=RECOVER target no longer exists
+49	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+49	12.00	END	299	popsize=299,prop_asym=0.230,time=09/18/2020-12:07:13
+50	0.00	START	.	id=50,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+50	0.00	INFECTION	A2	r0=2.32,r=1,r_presym=1,r_sym=0,incu=6.64
+50	0.00	INFECTION	A7	r0=2.36,r=0,r_presym=0,r_sym=0,incu=5.53
+50	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+50	0.00	QUARANTINE	A2	till=7.00
+50	0.00	QUARANTINE	A7	till=7.00
+50	4.31	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+50	5.53	SHOW_SYMPTOM	A7	.
+50	5.53	REMOVAL	A7	popsize=299
+50	6.64	SHOW_SYMPTOM	A2	.
+50	6.64	REMOVAL	A2	popsize=298
+50	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+50	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+50	11.69	WARNING	A7	msg=RECOVER target no longer exists
+50	12.43	WARNING	A2	msg=RECOVER target no longer exists
+50	12.43	END	298	popsize=298,prop_asym=0.242,time=09/18/2020-12:07:13
+51	0.00	START	.	id=51,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+51	0.00	INFECTION	A2	r0=1.78,r=0,r_presym=0,r_sym=0,incu=2.97
+51	0.00	INFECTION	A7	r0=2.77,r=2,r_presym=2,r_sym=0,incu=2.69
+51	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+51	0.00	QUARANTINE	A2	till=7.00
+51	0.00	QUARANTINE	A7	till=7.00
+51	0.80	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+51	1.88	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+51	2.69	SHOW_SYMPTOM	A7	.
+51	2.69	REMOVAL	A7	popsize=299
+51	2.97	SHOW_SYMPTOM	A2	.
+51	2.97	REMOVAL	A2	popsize=298
+51	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+51	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+51	9.79	WARNING	A7	msg=RECOVER target no longer exists
+51	9.98	WARNING	A2	msg=RECOVER target no longer exists
+51	9.98	END	298	popsize=298,prop_asym=0.130,time=09/18/2020-12:07:13
+52	0.00	START	.	id=52,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+52	0.00	INFECTION	A2	r0=2.21,r=1,r_presym=1,r_sym=0,incu=7.03
+52	0.00	INFECTION	A7	r0=1.60,r=0,r_presym=0,r_sym=0,incu=7.75
+52	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+52	0.00	QUARANTINE	A2	till=7.00
+52	0.00	QUARANTINE	A7	till=7.00
+52	6.91	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+52	7.00	REINTEGRATION	A2	succ=True
+52	7.00	REINTEGRATION	A7	succ=True
+52	7.03	SHOW_SYMPTOM	A2	.
+52	7.03	REMOVAL	A2	popsize=299
+52	7.75	SHOW_SYMPTOM	A7	.
+52	7.75	REMOVAL	A7	popsize=298
+52	12.68	WARNING	A2	msg=RECOVER target no longer exists
+52	13.17	WARNING	A7	msg=RECOVER target no longer exists
+52	13.17	END	298	popsize=298,prop_asym=0.070,time=09/18/2020-12:07:13
+53	0.00	START	.	id=53,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+53	0.00	INFECTION	A2	r0=0.40,r=0,r_asym=0
+53	0.00	INFECTION	A7	r0=1.81,r=2,r_presym=2,r_sym=0,incu=5.13
+53	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+53	0.00	QUARANTINE	A2	till=7.00
+53	0.00	QUARANTINE	A7	till=7.00
+53	1.63	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+53	4.60	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+53	5.13	SHOW_SYMPTOM	A7	.
+53	5.13	REMOVAL	A7	popsize=299
+53	7.00	REINTEGRATION	A2	succ=True
+53	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+53	11.42	WARNING	A7	msg=RECOVER target no longer exists
+53	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+53	12.00	END	299	popsize=299,prop_asym=0.382,time=09/18/2020-12:07:13
+54	0.00	START	.	id=54,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+54	0.00	INFECTION	A2	r0=2.75,r=1,r_presym=1,r_sym=0,incu=2.85
+54	0.00	INFECTION	A7	r0=2.57,r=1,r_presym=1,r_sym=0,incu=4.75
+54	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+54	0.00	QUARANTINE	A2	till=7.00
+54	0.00	QUARANTINE	A7	till=7.00
+54	2.18	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+54	2.85	SHOW_SYMPTOM	A2	.
+54	2.85	REMOVAL	A2	popsize=299
+54	4.45	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+54	4.75	SHOW_SYMPTOM	A7	.
+54	4.75	REMOVAL	A7	popsize=298
+54	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+54	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+54	9.90	WARNING	A2	msg=RECOVER target no longer exists
+54	11.17	WARNING	A7	msg=RECOVER target no longer exists
+54	11.17	END	298	popsize=298,prop_asym=0.251,time=09/18/2020-12:07:13
+55	0.00	START	.	id=55,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+55	0.00	INFECTION	A2	r0=1.92,r=0,r_presym=0,r_sym=0,incu=4.29
+55	0.00	INFECTION	A7	r0=2.75,r=1,r_presym=1,r_sym=0,incu=5.53
+55	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+55	0.00	QUARANTINE	A2	till=7.00
+55	0.00	QUARANTINE	A7	till=7.00
+55	4.29	SHOW_SYMPTOM	A2	.
+55	4.29	REMOVAL	A2	popsize=299
+55	5.15	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+55	5.53	SHOW_SYMPTOM	A7	.
+55	5.53	REMOVAL	A7	popsize=298
+55	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+55	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+55	10.86	WARNING	A2	msg=RECOVER target no longer exists
+55	11.69	WARNING	A7	msg=RECOVER target no longer exists
+55	11.69	END	298	popsize=298,prop_asym=0.321,time=09/18/2020-12:07:13
+56	0.00	START	.	id=56,time=09/18/2020-12:07:13,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+56	0.00	INFECTION	A2	r0=2.78,r=4,r_presym=4,r_sym=0,incu=10.23
+56	0.00	INFECTION	A7	r0=2.38,r=0,r_presym=0,r_sym=0,incu=3.66
+56	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+56	0.00	QUARANTINE	A2	till=7.00
+56	0.00	QUARANTINE	A7	till=7.00
+56	2.97	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+56	3.66	SHOW_SYMPTOM	A7	.
+56	3.66	REMOVAL	A7	popsize=299
+56	5.82	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+56	7.00	REINTEGRATION	A2	succ=True
+56	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+56	7.24	INFECTION	A39	by=A2,r0=0.44,r=1,r_asym=1
+56	7.70	INFECTION	A11	by=A2,r0=1.72,r=3,r_presym=3,r_sym=0,incu=4.63
+56	10.09	INFECTION	B5	by=A11,r0=2.51,r=1,r_presym=1,r_sym=0,incu=7.45
+56	10.23	SHOW_SYMPTOM	A2	.
+56	10.23	REMOVAL	A2	popsize=298
+56	10.44	WARNING	A7	msg=RECOVER target no longer exists
+56	10.80	INFECTION	B193	by=A11,r0=2.74,r=1,r_presym=1,r_sym=0,incu=4.58
+56	11.38	INFECTION	B125	by=B5,r0=2.03,r=1,r_presym=1,r_sym=0,incu=5.13
+56	11.47	INFECTION	B57	by=A11,r0=2.30,r=0,r_presym=0,r_sym=0,incu=4.66
+56	12.09	INFECTION	B144	by=A39,r0=1.82,r=0,r_presym=0,r_sym=0,incu=5.38
+56	12.26	INFECTION	B85	by=B125,r0=2.09,r=3,r_presym=3,r_sym=0,incu=7.31
+56	12.33	SHOW_SYMPTOM	A11	.
+56	12.33	REMOVAL	A11	popsize=297
+56	12.43	INFECTION	B155	by=B193,r0=2.50,r=1,r_presym=1,r_sym=0,incu=5.50
+56	14.32	INFECTION	A84	by=B155,r0=0.35,r=0,r_asym=0
+56	14.82	WARNING	A2	msg=RECOVER target no longer exists
+56	15.38	SHOW_SYMPTOM	B193	.
+56	15.38	REMOVAL	B193	popsize=296
+56	15.66	INFECTION	A59	by=B85,r0=2.13,r=1,r_presym=1,r_sym=0,incu=5.80
+56	16.08	INFECTION	B27	by=B85,r0=0.43,r=0,r_asym=0
+56	16.13	SHOW_SYMPTOM	B57	.
+56	16.13	REMOVAL	B57	popsize=295
+56	16.52	SHOW_SYMPTOM	B125	.
+56	16.52	REMOVAL	B125	popsize=294
+56	17.48	SHOW_SYMPTOM	B144	.
+56	17.48	REMOVAL	B144	popsize=293
+56	17.50	INFECTION	A21	by=A59,r0=1.49,r=1,r_presym=1,r_sym=0,incu=5.09
+56	17.53	SHOW_SYMPTOM	B5	.
+56	17.53	REMOVAL	B5	popsize=292
+56	17.93	SHOW_SYMPTOM	B155	.
+56	17.93	REMOVAL	B155	popsize=291
+56	18.79	WARNING	A11	msg=RECOVER target no longer exists
+56	19.24	RECOVER	A39	recovered=1,infected=6,popsize=291
+56	19.26	INFECTION	B135	by=B85,r0=0.28,r=0,r_asym=0
+56	19.57	SHOW_SYMPTOM	B85	.
+56	19.57	REMOVAL	B85	popsize=290
+56	21.31	INFECTION	B6	by=A21,r0=2.41,r=1,r_presym=1,r_sym=0,incu=3.31
+56	21.46	SHOW_SYMPTOM	A59	.
+56	21.46	REMOVAL	A59	popsize=289
+56	21.85	WARNING	B193	msg=RECOVER target no longer exists
+56	22.57	WARNING	B57	msg=RECOVER target no longer exists
+56	22.59	SHOW_SYMPTOM	A21	.
+56	22.59	REMOVAL	A21	popsize=288
+56	22.81	WARNING	B125	msg=RECOVER target no longer exists
+56	23.05	WARNING	B5	msg=RECOVER target no longer exists
+56	23.68	WARNING	B144	msg=RECOVER target no longer exists
+56	24.04	INFECTION	A32	by=B6,r0=0.53,r=1,r_asym=1
+56	24.09	WARNING	B155	msg=RECOVER target no longer exists
+56	24.62	SHOW_SYMPTOM	B6	.
+56	24.62	REMOVAL	B6	popsize=287
+56	25.13	WARNING	B85	msg=RECOVER target no longer exists
+56	26.32	RECOVER	A84	recovered=2,infected=5,popsize=287
+56	27.52	WARNING	A59	msg=RECOVER target no longer exists
+56	28.08	RECOVER	B27	recovered=3,infected=5,popsize=287
+56	28.89	WARNING	A21	msg=RECOVER target no longer exists
+56	31.24	INFECTION	B105	by=A32,r0=1.71,r=0,r_presym=0,r_sym=0,incu=4.46
+56	31.26	RECOVER	B135	recovered=4,infected=6,popsize=287
+56	31.52	WARNING	B6	msg=RECOVER target no longer exists
+56	35.69	SHOW_SYMPTOM	B105	.
+56	35.69	REMOVAL	B105	popsize=286
+56	36.04	RECOVER	A32	recovered=5,infected=5,popsize=286
+56	42.21	WARNING	B105	msg=RECOVER target no longer exists
+56	42.21	END	286	popsize=286,prop_asym=0.334,time=09/18/2020-12:07:14
+57	0.00	START	.	id=57,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+57	0.00	INFECTION	A2	r0=1.64,r=0,r_presym=0,r_sym=0,incu=9.92
+57	0.00	INFECTION	A7	r0=1.53,r=2,r_presym=2,r_sym=0,incu=5.67
+57	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+57	0.00	QUARANTINE	A2	till=7.00
+57	0.00	QUARANTINE	A7	till=7.00
+57	2.77	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+57	4.28	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+57	5.67	SHOW_SYMPTOM	A7	.
+57	5.67	REMOVAL	A7	popsize=299
+57	7.00	REINTEGRATION	A2	succ=True
+57	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+57	9.92	SHOW_SYMPTOM	A2	.
+57	9.92	REMOVAL	A2	popsize=298
+57	11.78	WARNING	A7	msg=RECOVER target no longer exists
+57	14.61	WARNING	A2	msg=RECOVER target no longer exists
+57	14.61	END	298	popsize=298,prop_asym=0.161,time=09/18/2020-12:07:14
+58	0.00	START	.	id=58,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+58	0.00	INFECTION	A2	r0=1.56,r=3,r_presym=3,r_sym=0,incu=5.53
+58	0.00	INFECTION	A7	r0=1.50,r=0,r_presym=0,r_sym=0,incu=1.46
+58	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+58	0.00	QUARANTINE	A2	till=7.00
+58	0.00	QUARANTINE	A7	till=7.00
+58	1.46	SHOW_SYMPTOM	A7	.
+58	1.46	REMOVAL	A7	popsize=299
+58	3.48	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+58	4.86	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+58	5.07	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+58	5.53	SHOW_SYMPTOM	A2	.
+58	5.53	REMOVAL	A2	popsize=298
+58	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+58	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+58	8.97	WARNING	A7	msg=RECOVER target no longer exists
+58	11.69	WARNING	A2	msg=RECOVER target no longer exists
+58	11.69	END	298	popsize=298,prop_asym=0.201,time=09/18/2020-12:07:14
+59	0.00	START	.	id=59,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+59	0.00	INFECTION	A2	r0=1.93,r=1,r_presym=1,r_sym=0,incu=7.23
+59	0.00	INFECTION	A7	r0=0.52,r=0,r_asym=0
+59	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+59	0.00	QUARANTINE	A2	till=7.00
+59	0.00	QUARANTINE	A7	till=7.00
+59	4.78	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+59	7.00	REINTEGRATION	A2	succ=True
+59	7.00	REINTEGRATION	A7	succ=True
+59	7.23	SHOW_SYMPTOM	A2	.
+59	7.23	REMOVAL	A2	popsize=299
+59	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+59	12.82	WARNING	A2	msg=RECOVER target no longer exists
+59	12.82	END	299	popsize=299,prop_asym=0.360,time=09/18/2020-12:07:14
+60	0.00	START	.	id=60,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+60	0.00	INFECTION	A2	r0=0.48,r=1,r_asym=1
+60	0.00	INFECTION	A7	r0=1.43,r=0,r_presym=0,r_sym=0,incu=2.38
+60	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+60	0.00	QUARANTINE	A2	till=7.00
+60	0.00	QUARANTINE	A7	till=7.00
+60	2.38	SHOW_SYMPTOM	A7	.
+60	2.38	REMOVAL	A7	popsize=299
+60	7.00	REINTEGRATION	A2	succ=True
+60	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+60	7.65	INFECTION	B170	by=A2,r0=2.09,r=2,r_presym=2,r_sym=0,incu=4.69
+60	8.49	INFECTION	B147	by=B170,r0=0.53,r=0,r_asym=0
+60	9.59	WARNING	A7	msg=RECOVER target no longer exists
+60	12.00	RECOVER	A2	recovered=1,infected=2,popsize=299
+60	12.21	INFECTION	B34	by=B170,r0=2.22,r=2,r_presym=2,r_sym=0,incu=8.16
+60	12.34	SHOW_SYMPTOM	B170	.
+60	12.34	REMOVAL	B170	popsize=298
+60	16.36	INFECTION	B123	by=B34,r0=0.31,r=0,r_asym=0
+60	18.78	WARNING	B170	msg=RECOVER target no longer exists
+60	19.08	INFECTION	B175	by=B34,r0=0.44,r=2,r_asym=2
+60	20.37	SHOW_SYMPTOM	B34	.
+60	20.37	REMOVAL	B34	popsize=297
+60	20.49	RECOVER	B147	recovered=2,infected=3,popsize=297
+60	23.38	INFECTION	B43	by=B175,r0=1.97,r=2,r_presym=2,r_sym=0,incu=8.13
+60	25.65	WARNING	B34	msg=RECOVER target no longer exists
+60	26.39	INFECTION	A75	by=B175,r0=2.06,r=1,r_presym=1,r_sym=0,incu=5.72
+60	26.52	INFECTION	B169	by=B43,r0=1.69,r=0,r_presym=0,r_sym=0,incu=2.57
+60	28.36	RECOVER	B123	recovered=3,infected=6,popsize=297
+60	29.03	INFECTION	B39	by=A75,r0=2.43,r=1,r_presym=1,r_sym=0,incu=8.19
+60	29.09	SHOW_SYMPTOM	B169	.
+60	29.09	REMOVAL	B169	popsize=296
+60	30.82	INFECTION	B144	by=B43,r0=0.29,r=0,r_asym=0
+60	31.08	RECOVER	B175	recovered=4,infected=7,popsize=296
+60	31.51	SHOW_SYMPTOM	B43	.
+60	31.51	REMOVAL	B43	popsize=295
+60	32.11	SHOW_SYMPTOM	A75	.
+60	32.11	REMOVAL	A75	popsize=294
+60	34.88	INFECTION	B58	by=B39,r0=0.40,r=0,r_asym=0
+60	36.23	WARNING	B169	msg=RECOVER target no longer exists
+60	36.80	WARNING	B43	msg=RECOVER target no longer exists
+60	37.22	SHOW_SYMPTOM	B39	.
+60	37.22	REMOVAL	B39	popsize=293
+60	38.21	WARNING	A75	msg=RECOVER target no longer exists
+60	42.49	WARNING	B39	msg=RECOVER target no longer exists
+60	42.82	RECOVER	B144	recovered=5,infected=5,popsize=293
+60	46.88	RECOVER	B58	recovered=6,infected=5,popsize=293
+60	46.88	END	293	popsize=293,prop_asym=0.294,time=09/18/2020-12:07:14
+61	0.00	START	.	id=61,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+61	0.00	INFECTION	A2	r0=1.58,r=4,r_presym=4,r_sym=0,incu=7.82
+61	0.00	INFECTION	A7	r0=0.45,r=0,r_asym=0
+61	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+61	0.00	QUARANTINE	A2	till=7.00
+61	0.00	QUARANTINE	A7	till=7.00
+61	1.59	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+61	2.30	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+61	5.85	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+61	6.86	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+61	7.00	REINTEGRATION	A2	succ=True
+61	7.00	REINTEGRATION	A7	succ=True
+61	7.82	SHOW_SYMPTOM	A2	.
+61	7.82	REMOVAL	A2	popsize=299
+61	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+61	13.21	WARNING	A2	msg=RECOVER target no longer exists
+61	13.21	END	299	popsize=299,prop_asym=0.255,time=09/18/2020-12:07:14
+62	0.00	START	.	id=62,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+62	0.00	INFECTION	A2	r0=0.54,r=2,r_asym=2
+62	0.00	INFECTION	A7	r0=2.14,r=2,r_presym=2,r_sym=0,incu=4.39
+62	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+62	0.00	QUARANTINE	A2	till=7.00
+62	0.00	QUARANTINE	A7	till=7.00
+62	2.85	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+62	4.27	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+62	4.39	SHOW_SYMPTOM	A7	.
+62	4.39	REMOVAL	A7	popsize=299
+62	5.23	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+62	7.00	REINTEGRATION	A2	succ=True
+62	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+62	7.44	INFECTION	B141	by=A2,r0=2.29,r=0,r_presym=0,r_sym=0,incu=4.49
+62	10.93	WARNING	A7	msg=RECOVER target no longer exists
+62	11.93	SHOW_SYMPTOM	B141	.
+62	11.93	REMOVAL	B141	popsize=298
+62	12.00	RECOVER	A2	recovered=1,infected=0,popsize=298
+62	18.43	WARNING	B141	msg=RECOVER target no longer exists
+62	18.43	END	298	popsize=298,prop_asym=0.305,time=09/18/2020-12:07:14
+63	0.00	START	.	id=63,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+63	0.00	INFECTION	A2	r0=0.45,r=1,r_asym=1
+63	0.00	INFECTION	A7	r0=1.54,r=0,r_presym=0,r_sym=0,incu=5.64
+63	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+63	0.00	QUARANTINE	A2	till=7.00
+63	0.00	QUARANTINE	A7	till=7.00
+63	5.31	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+63	5.64	SHOW_SYMPTOM	A7	.
+63	5.64	REMOVAL	A7	popsize=299
+63	7.00	REINTEGRATION	A2	succ=True
+63	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+63	11.76	WARNING	A7	msg=RECOVER target no longer exists
+63	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+63	12.00	END	299	popsize=299,prop_asym=0.308,time=09/18/2020-12:07:14
+64	0.00	START	.	id=64,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+64	0.00	INFECTION	A2	r0=0.40,r=0,r_asym=0
+64	0.00	INFECTION	A7	r0=2.28,r=1,r_presym=1,r_sym=0,incu=4.73
+64	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+64	0.00	QUARANTINE	A2	till=7.00
+64	0.00	QUARANTINE	A7	till=7.00
+64	2.77	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+64	4.73	SHOW_SYMPTOM	A7	.
+64	4.73	REMOVAL	A7	popsize=299
+64	7.00	REINTEGRATION	A2	succ=True
+64	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+64	11.15	WARNING	A7	msg=RECOVER target no longer exists
+64	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+64	12.00	END	299	popsize=299,prop_asym=0.300,time=09/18/2020-12:07:14
+65	0.00	START	.	id=65,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+65	0.00	INFECTION	A2	r0=2.24,r=1,r_presym=1,r_sym=0,incu=4.80
+65	0.00	INFECTION	A7	r0=2.04,r=1,r_presym=1,r_sym=0,incu=7.01
+65	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+65	0.00	QUARANTINE	A2	till=7.00
+65	0.00	QUARANTINE	A7	till=7.00
+65	2.18	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+65	4.60	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+65	4.80	SHOW_SYMPTOM	A2	.
+65	4.80	REMOVAL	A2	popsize=299
+65	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+65	7.00	REINTEGRATION	A7	succ=True
+65	7.01	SHOW_SYMPTOM	A7	.
+65	7.01	REMOVAL	A7	popsize=298
+65	11.20	WARNING	A2	msg=RECOVER target no longer exists
+65	12.67	WARNING	A7	msg=RECOVER target no longer exists
+65	12.67	END	298	popsize=298,prop_asym=0.202,time=09/18/2020-12:07:14
+66	0.00	START	.	id=66,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+66	0.00	INFECTION	A2	r0=0.43,r=0,r_asym=0
+66	0.00	INFECTION	A7	r0=0.32,r=0,r_asym=0
+66	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+66	0.00	QUARANTINE	A2	till=7.00
+66	0.00	QUARANTINE	A7	till=7.00
+66	7.00	REINTEGRATION	A2	succ=True
+66	7.00	REINTEGRATION	A7	succ=True
+66	12.00	RECOVER	A2	recovered=1,infected=0,popsize=300
+66	12.00	RECOVER	A7	recovered=2,infected=0,popsize=300
+66	12.00	END	300	popsize=300,prop_asym=0.275,time=09/18/2020-12:07:14
+67	0.00	START	.	id=67,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+67	0.00	INFECTION	A2	r0=1.85,r=2,r_presym=2,r_sym=0,incu=5.59
+67	0.00	INFECTION	A7	r0=1.99,r=2,r_presym=2,r_sym=0,incu=6.09
+67	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+67	0.00	QUARANTINE	A2	till=7.00
+67	0.00	QUARANTINE	A7	till=7.00
+67	0.17	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+67	3.35	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+67	3.94	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+67	4.65	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+67	5.59	SHOW_SYMPTOM	A2	.
+67	5.59	REMOVAL	A2	popsize=299
+67	6.09	SHOW_SYMPTOM	A7	.
+67	6.09	REMOVAL	A7	popsize=298
+67	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+67	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+67	11.73	WARNING	A2	msg=RECOVER target no longer exists
+67	12.06	WARNING	A7	msg=RECOVER target no longer exists
+67	12.06	END	298	popsize=298,prop_asym=0.380,time=09/18/2020-12:07:14
+68	0.00	START	.	id=68,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+68	0.00	INFECTION	A2	r0=2.67,r=0,r_presym=0,r_sym=0,incu=3.88
+68	0.00	INFECTION	A7	r0=2.34,r=0,r_presym=0,r_sym=0,incu=3.04
+68	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+68	0.00	QUARANTINE	A2	till=7.00
+68	0.00	QUARANTINE	A7	till=7.00
+68	3.04	SHOW_SYMPTOM	A7	.
+68	3.04	REMOVAL	A7	popsize=299
+68	3.88	SHOW_SYMPTOM	A2	.
+68	3.88	REMOVAL	A2	popsize=298
+68	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+68	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+68	10.03	WARNING	A7	msg=RECOVER target no longer exists
+68	10.59	WARNING	A2	msg=RECOVER target no longer exists
+68	10.59	END	298	popsize=298,prop_asym=0.243,time=09/18/2020-12:07:14
+69	0.00	START	.	id=69,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+69	0.00	INFECTION	A2	r0=2.26,r=1,r_presym=1,r_sym=0,incu=2.25
+69	0.00	INFECTION	A7	r0=1.94,r=2,r_presym=2,r_sym=0,incu=7.38
+69	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+69	0.00	QUARANTINE	A2	till=7.00
+69	0.00	QUARANTINE	A7	till=7.00
+69	0.29	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+69	2.25	SHOW_SYMPTOM	A2	.
+69	2.25	REMOVAL	A2	popsize=299
+69	2.93	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+69	5.56	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+69	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+69	7.00	REINTEGRATION	A7	succ=True
+69	7.38	SHOW_SYMPTOM	A7	.
+69	7.38	REMOVAL	A7	popsize=298
+69	9.50	WARNING	A2	msg=RECOVER target no longer exists
+69	12.92	WARNING	A7	msg=RECOVER target no longer exists
+69	12.92	END	298	popsize=298,prop_asym=0.254,time=09/18/2020-12:07:14
+70	0.00	START	.	id=70,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+70	0.00	INFECTION	A2	r0=0.30,r=0,r_asym=0
+70	0.00	INFECTION	A7	r0=2.36,r=2,r_presym=2,r_sym=0,incu=4.56
+70	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+70	0.00	QUARANTINE	A2	till=7.00
+70	0.00	QUARANTINE	A7	till=7.00
+70	0.17	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+70	4.56	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+70	4.56	SHOW_SYMPTOM	A7	.
+70	4.56	REMOVAL	A7	popsize=299
+70	7.00	REINTEGRATION	A2	succ=True
+70	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+70	11.04	WARNING	A7	msg=RECOVER target no longer exists
+70	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+70	12.00	END	299	popsize=299,prop_asym=0.271,time=09/18/2020-12:07:14
+71	0.00	START	.	id=71,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+71	0.00	INFECTION	A2	r0=2.38,r=1,r_presym=1,r_sym=0,incu=4.09
+71	0.00	INFECTION	A7	r0=0.48,r=0,r_asym=0
+71	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+71	0.00	QUARANTINE	A2	till=7.00
+71	0.00	QUARANTINE	A7	till=7.00
+71	2.89	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+71	4.09	SHOW_SYMPTOM	A2	.
+71	4.09	REMOVAL	A2	popsize=299
+71	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+71	7.00	REINTEGRATION	A7	succ=True
+71	10.73	WARNING	A2	msg=RECOVER target no longer exists
+71	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+71	12.00	END	299	popsize=299,prop_asym=0.223,time=09/18/2020-12:07:14
+72	0.00	START	.	id=72,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+72	0.00	INFECTION	A2	r0=1.92,r=1,r_presym=1,r_sym=0,incu=8.65
+72	0.00	INFECTION	A7	r0=0.33,r=1,r_asym=1
+72	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+72	0.00	QUARANTINE	A2	till=7.00
+72	0.00	QUARANTINE	A7	till=7.00
+72	4.90	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+72	7.00	REINTEGRATION	A2	succ=True
+72	7.00	REINTEGRATION	A7	succ=True
+72	7.15	INFECTION	B20	by=A7,r0=2.56,r=2,r_presym=2,r_sym=0,incu=4.46
+72	8.65	SHOW_SYMPTOM	A2	.
+72	8.65	REMOVAL	A2	popsize=299
+72	9.29	INFECTION	A6	by=B20,r0=0.43,r=1,r_asym=1
+72	10.25	INFECTION	B71	by=B20,r0=0.46,r=0,r_asym=0
+72	11.61	SHOW_SYMPTOM	B20	.
+72	11.61	REMOVAL	B20	popsize=298
+72	11.84	INFECTION	B50	by=A6,r0=1.90,r=0,r_presym=0,r_sym=0,incu=3.66
+72	12.00	RECOVER	A7	recovered=1,infected=3,popsize=298
+72	13.77	WARNING	A2	msg=RECOVER target no longer exists
+72	15.50	SHOW_SYMPTOM	B50	.
+72	15.50	REMOVAL	B50	popsize=297
+72	18.13	WARNING	B20	msg=RECOVER target no longer exists
+72	21.29	RECOVER	A6	recovered=2,infected=2,popsize=297
+72	22.25	RECOVER	B71	recovered=3,infected=2,popsize=297
+72	22.28	WARNING	B50	msg=RECOVER target no longer exists
+72	22.28	END	297	popsize=297,prop_asym=0.278,time=09/18/2020-12:07:14
+73	0.00	START	.	id=73,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+73	0.00	INFECTION	A2	r0=0.49,r=0,r_asym=0
+73	0.00	INFECTION	A7	r0=2.37,r=1,r_presym=1,r_sym=0,incu=3.62
+73	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+73	0.00	QUARANTINE	A2	till=7.00
+73	0.00	QUARANTINE	A7	till=7.00
+73	2.69	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+73	3.62	SHOW_SYMPTOM	A7	.
+73	3.62	REMOVAL	A7	popsize=299
+73	7.00	REINTEGRATION	A2	succ=True
+73	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+73	10.42	WARNING	A7	msg=RECOVER target no longer exists
+73	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+73	12.00	END	299	popsize=299,prop_asym=0.240,time=09/18/2020-12:07:14
+74	0.00	START	.	id=74,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+74	0.00	INFECTION	A2	r0=1.63,r=0,r_presym=0,r_sym=0,incu=4.48
+74	0.00	INFECTION	A7	r0=2.27,r=3,r_presym=3,r_sym=0,incu=6.71
+74	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+74	0.00	QUARANTINE	A2	till=7.00
+74	0.00	QUARANTINE	A7	till=7.00
+74	1.84	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+74	2.64	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+74	3.94	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+74	4.48	SHOW_SYMPTOM	A2	.
+74	4.48	REMOVAL	A2	popsize=299
+74	6.71	SHOW_SYMPTOM	A7	.
+74	6.71	REMOVAL	A7	popsize=298
+74	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+74	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+74	10.99	WARNING	A2	msg=RECOVER target no longer exists
+74	12.48	WARNING	A7	msg=RECOVER target no longer exists
+74	12.48	END	298	popsize=298,prop_asym=0.334,time=09/18/2020-12:07:14
+75	0.00	START	.	id=75,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+75	0.00	INFECTION	A2	r0=0.41,r=0,r_asym=0
+75	0.00	INFECTION	A7	r0=1.94,r=0,r_presym=0,r_sym=0,incu=8.19
+75	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+75	0.00	QUARANTINE	A2	till=7.00
+75	0.00	QUARANTINE	A7	till=7.00
+75	7.00	REINTEGRATION	A2	succ=True
+75	7.00	REINTEGRATION	A7	succ=True
+75	8.19	SHOW_SYMPTOM	A7	.
+75	8.19	REMOVAL	A7	popsize=299
+75	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+75	13.46	WARNING	A7	msg=RECOVER target no longer exists
+75	13.46	END	299	popsize=299,prop_asym=0.356,time=09/18/2020-12:07:14
+76	0.00	START	.	id=76,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+76	0.00	INFECTION	A2	r0=1.84,r=1,r_presym=1,r_sym=0,incu=5.57
+76	0.00	INFECTION	A7	r0=0.29,r=1,r_asym=1
+76	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+76	0.00	QUARANTINE	A2	till=7.00
+76	0.00	QUARANTINE	A7	till=7.00
+76	1.97	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+76	5.02	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+76	5.57	SHOW_SYMPTOM	A2	.
+76	5.57	REMOVAL	A2	popsize=299
+76	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+76	7.00	REINTEGRATION	A7	succ=True
+76	11.71	WARNING	A2	msg=RECOVER target no longer exists
+76	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+76	12.00	END	299	popsize=299,prop_asym=0.219,time=09/18/2020-12:07:14
+77	0.00	START	.	id=77,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+77	0.00	INFECTION	A2	r0=2.44,r=1,r_presym=1,r_sym=0,incu=5.02
+77	0.00	INFECTION	A7	r0=0.41,r=2,r_asym=2
+77	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+77	0.00	QUARANTINE	A2	till=7.00
+77	0.00	QUARANTINE	A7	till=7.00
+77	4.86	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+77	5.02	SHOW_SYMPTOM	A2	.
+77	5.02	REMOVAL	A2	popsize=299
+77	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+77	7.00	REINTEGRATION	A7	succ=True
+77	7.28	INFECTION	B45	by=A7,r0=2.61,r=2,r_presym=2,r_sym=0,incu=5.02
+77	8.36	INFECTION	B152	by=A7,r0=0.44,r=0,r_asym=0
+77	11.00	INFECTION	A11	by=B45,r0=0.37,r=0,r_asym=0
+77	11.08	INFECTION	B116	by=B45,r0=2.02,r=0,r_presym=0,r_sym=0,incu=3.88
+77	11.34	WARNING	A2	msg=RECOVER target no longer exists
+77	12.00	RECOVER	A7	recovered=1,infected=4,popsize=299
+77	12.29	SHOW_SYMPTOM	B45	.
+77	12.29	REMOVAL	B45	popsize=298
+77	14.96	SHOW_SYMPTOM	B116	.
+77	14.96	REMOVAL	B116	popsize=297
+77	18.62	WARNING	B45	msg=RECOVER target no longer exists
+77	20.36	RECOVER	B152	recovered=2,infected=2,popsize=297
+77	21.67	WARNING	B116	msg=RECOVER target no longer exists
+77	23.00	RECOVER	A11	recovered=3,infected=2,popsize=297
+77	23.00	END	297	popsize=297,prop_asym=0.359,time=09/18/2020-12:07:14
+78	0.00	START	.	id=78,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+78	0.00	INFECTION	A2	r0=1.69,r=0,r_presym=0,r_sym=0,incu=4.65
+78	0.00	INFECTION	A7	r0=2.06,r=2,r_presym=2,r_sym=0,incu=4.30
+78	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+78	0.00	QUARANTINE	A2	till=7.00
+78	0.00	QUARANTINE	A7	till=7.00
+78	0.88	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+78	3.02	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+78	4.30	SHOW_SYMPTOM	A7	.
+78	4.30	REMOVAL	A7	popsize=299
+78	4.65	SHOW_SYMPTOM	A2	.
+78	4.65	REMOVAL	A2	popsize=298
+78	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+78	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+78	10.86	WARNING	A7	msg=RECOVER target no longer exists
+78	11.10	WARNING	A2	msg=RECOVER target no longer exists
+78	11.10	END	298	popsize=298,prop_asym=0.299,time=09/18/2020-12:07:14
+79	0.00	START	.	id=79,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+79	0.00	INFECTION	A2	r0=2.69,r=0,r_presym=0,r_sym=0,incu=3.26
+79	0.00	INFECTION	A7	r0=1.89,r=1,r_presym=1,r_sym=0,incu=3.79
+79	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+79	0.00	QUARANTINE	A2	till=7.00
+79	0.00	QUARANTINE	A7	till=7.00
+79	3.26	SHOW_SYMPTOM	A2	.
+79	3.26	REMOVAL	A2	popsize=299
+79	3.35	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+79	3.79	SHOW_SYMPTOM	A7	.
+79	3.79	REMOVAL	A7	popsize=298
+79	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+79	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+79	10.17	WARNING	A2	msg=RECOVER target no longer exists
+79	10.53	WARNING	A7	msg=RECOVER target no longer exists
+79	10.53	END	298	popsize=298,prop_asym=0.158,time=09/18/2020-12:07:14
+80	0.00	START	.	id=80,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+80	0.00	INFECTION	A2	r0=1.96,r=0,r_presym=0,r_sym=0,incu=3.15
+80	0.00	INFECTION	A7	r0=2.73,r=0,r_presym=0,r_sym=0,incu=3.33
+80	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+80	0.00	QUARANTINE	A2	till=7.00
+80	0.00	QUARANTINE	A7	till=7.00
+80	3.15	SHOW_SYMPTOM	A2	.
+80	3.15	REMOVAL	A2	popsize=299
+80	3.33	SHOW_SYMPTOM	A7	.
+80	3.33	REMOVAL	A7	popsize=298
+80	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+80	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+80	10.10	WARNING	A2	msg=RECOVER target no longer exists
+80	10.22	WARNING	A7	msg=RECOVER target no longer exists
+80	10.22	END	298	popsize=298,prop_asym=0.218,time=09/18/2020-12:07:14
+81	0.00	START	.	id=81,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+81	0.00	INFECTION	A2	r0=2.04,r=3,r_presym=3,r_sym=0,incu=5.50
+81	0.00	INFECTION	A7	r0=0.31,r=0,r_asym=0
+81	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+81	0.00	QUARANTINE	A2	till=7.00
+81	0.00	QUARANTINE	A7	till=7.00
+81	3.43	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+81	3.72	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+81	4.10	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+81	5.50	SHOW_SYMPTOM	A2	.
+81	5.50	REMOVAL	A2	popsize=299
+81	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+81	7.00	REINTEGRATION	A7	succ=True
+81	11.67	WARNING	A2	msg=RECOVER target no longer exists
+81	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+81	12.00	END	299	popsize=299,prop_asym=0.319,time=09/18/2020-12:07:14
+82	0.00	START	.	id=82,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+82	0.00	INFECTION	A2	r0=2.59,r=2,r_presym=2,r_sym=0,incu=4.55
+82	0.00	INFECTION	A7	r0=0.47,r=0,r_asym=0
+82	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+82	0.00	QUARANTINE	A2	till=7.00
+82	0.00	QUARANTINE	A7	till=7.00
+82	2.14	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+82	2.85	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+82	4.55	SHOW_SYMPTOM	A2	.
+82	4.55	REMOVAL	A2	popsize=299
+82	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+82	7.00	REINTEGRATION	A7	succ=True
+82	11.04	WARNING	A2	msg=RECOVER target no longer exists
+82	12.00	RECOVER	A7	recovered=1,infected=0,popsize=299
+82	12.00	END	299	popsize=299,prop_asym=0.276,time=09/18/2020-12:07:14
+83	0.00	START	.	id=83,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+83	0.00	INFECTION	A2	r0=1.93,r=0,r_presym=0,r_sym=0,incu=2.93
+83	0.00	INFECTION	A7	r0=2.16,r=0,r_presym=0,r_sym=0,incu=5.51
+83	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+83	0.00	QUARANTINE	A2	till=7.00
+83	0.00	QUARANTINE	A7	till=7.00
+83	2.93	SHOW_SYMPTOM	A2	.
+83	2.93	REMOVAL	A2	popsize=299
+83	5.51	SHOW_SYMPTOM	A7	.
+83	5.51	REMOVAL	A7	popsize=298
+83	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+83	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+83	9.95	WARNING	A2	msg=RECOVER target no longer exists
+83	11.67	WARNING	A7	msg=RECOVER target no longer exists
+83	11.67	END	298	popsize=298,prop_asym=0.199,time=09/18/2020-12:07:14
+84	0.00	START	.	id=84,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+84	0.00	INFECTION	A2	r0=1.50,r=2,r_presym=2,r_sym=0,incu=2.68
+84	0.00	INFECTION	A7	r0=2.72,r=1,r_presym=1,r_sym=0,incu=7.86
+84	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+84	0.00	QUARANTINE	A2	till=7.00
+84	0.00	QUARANTINE	A7	till=7.00
+84	1.97	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+84	2.44	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+84	2.68	SHOW_SYMPTOM	A2	.
+84	2.68	REMOVAL	A2	popsize=299
+84	3.60	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+84	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+84	7.00	REINTEGRATION	A7	succ=True
+84	7.86	SHOW_SYMPTOM	A7	.
+84	7.86	REMOVAL	A7	popsize=298
+84	9.79	WARNING	A2	msg=RECOVER target no longer exists
+84	13.24	WARNING	A7	msg=RECOVER target no longer exists
+84	13.24	END	298	popsize=298,prop_asym=0.238,time=09/18/2020-12:07:14
+85	0.00	START	.	id=85,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+85	0.00	INFECTION	A2	r0=1.74,r=3,r_presym=3,r_sym=0,incu=5.70
+85	0.00	INFECTION	A7	r0=2.75,r=1,r_presym=1,r_sym=0,incu=3.01
+85	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+85	0.00	QUARANTINE	A2	till=7.00
+85	0.00	QUARANTINE	A7	till=7.00
+85	2.14	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+85	2.72	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+85	3.01	SHOW_SYMPTOM	A7	.
+85	3.01	REMOVAL	A7	popsize=299
+85	3.85	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+85	4.06	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+85	5.70	SHOW_SYMPTOM	A2	.
+85	5.70	REMOVAL	A2	popsize=298
+85	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+85	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+85	10.01	WARNING	A7	msg=RECOVER target no longer exists
+85	11.80	WARNING	A2	msg=RECOVER target no longer exists
+85	11.80	END	298	popsize=298,prop_asym=0.219,time=09/18/2020-12:07:14
+86	0.00	START	.	id=86,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+86	0.00	INFECTION	A2	r0=2.23,r=0,r_presym=0,r_sym=0,incu=2.08
+86	0.00	INFECTION	A7	r0=2.75,r=2,r_presym=2,r_sym=0,incu=7.10
+86	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+86	0.00	QUARANTINE	A2	till=7.00
+86	0.00	QUARANTINE	A7	till=7.00
+86	2.08	SHOW_SYMPTOM	A2	.
+86	2.08	REMOVAL	A2	popsize=299
+86	3.23	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+86	3.52	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+86	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+86	7.00	REINTEGRATION	A7	succ=True
+86	7.10	SHOW_SYMPTOM	A7	.
+86	7.10	REMOVAL	A7	popsize=298
+86	9.39	WARNING	A2	msg=RECOVER target no longer exists
+86	12.74	WARNING	A7	msg=RECOVER target no longer exists
+86	12.74	END	298	popsize=298,prop_asym=0.302,time=09/18/2020-12:07:14
+87	0.00	START	.	id=87,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+87	0.00	INFECTION	A2	r0=0.31,r=0,r_asym=0
+87	0.00	INFECTION	A7	r0=0.28,r=2,r_asym=2
+87	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+87	0.00	QUARANTINE	A2	till=7.00
+87	0.00	QUARANTINE	A7	till=7.00
+87	2.09	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+87	3.97	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+87	7.00	REINTEGRATION	A2	succ=True
+87	7.00	REINTEGRATION	A7	succ=True
+87	12.00	RECOVER	A2	recovered=1,infected=0,popsize=300
+87	12.00	RECOVER	A7	recovered=2,infected=0,popsize=300
+87	12.00	END	300	popsize=300,prop_asym=0.168,time=09/18/2020-12:07:14
+88	0.00	START	.	id=88,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+88	0.00	INFECTION	A2	r0=0.33,r=0,r_asym=0
+88	0.00	INFECTION	A7	r0=2.01,r=0,r_presym=0,r_sym=0,incu=4.19
+88	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+88	0.00	QUARANTINE	A2	till=7.00
+88	0.00	QUARANTINE	A7	till=7.00
+88	4.19	SHOW_SYMPTOM	A7	.
+88	4.19	REMOVAL	A7	popsize=299
+88	7.00	REINTEGRATION	A2	succ=True
+88	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+88	10.79	WARNING	A7	msg=RECOVER target no longer exists
+88	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+88	12.00	END	299	popsize=299,prop_asym=0.285,time=09/18/2020-12:07:14
+89	0.00	START	.	id=89,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+89	0.00	INFECTION	A2	r0=1.83,r=1,r_presym=1,r_sym=0,incu=2.81
+89	0.00	INFECTION	A7	r0=1.89,r=1,r_presym=1,r_sym=0,incu=3.65
+89	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+89	0.00	QUARANTINE	A2	till=7.00
+89	0.00	QUARANTINE	A7	till=7.00
+89	1.01	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+89	1.76	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+89	2.81	SHOW_SYMPTOM	A2	.
+89	2.81	REMOVAL	A2	popsize=299
+89	3.65	SHOW_SYMPTOM	A7	.
+89	3.65	REMOVAL	A7	popsize=298
+89	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+89	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+89	9.87	WARNING	A2	msg=RECOVER target no longer exists
+89	10.43	WARNING	A7	msg=RECOVER target no longer exists
+89	10.43	END	298	popsize=298,prop_asym=0.262,time=09/18/2020-12:07:14
+90	0.00	START	.	id=90,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+90	0.00	INFECTION	A2	r0=2.67,r=2,r_presym=2,r_sym=0,incu=7.20
+90	0.00	INFECTION	A7	r0=2.77,r=0,r_presym=0,r_sym=0,incu=4.77
+90	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+90	0.00	QUARANTINE	A2	till=7.00
+90	0.00	QUARANTINE	A7	till=7.00
+90	1.97	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+90	4.77	SHOW_SYMPTOM	A7	.
+90	4.77	REMOVAL	A7	popsize=299
+90	6.32	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+90	7.00	REINTEGRATION	A2	succ=True
+90	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+90	7.20	SHOW_SYMPTOM	A2	.
+90	7.20	REMOVAL	A2	popsize=298
+90	11.18	WARNING	A7	msg=RECOVER target no longer exists
+90	12.80	WARNING	A2	msg=RECOVER target no longer exists
+90	12.80	END	298	popsize=298,prop_asym=0.269,time=09/18/2020-12:07:14
+91	0.00	START	.	id=91,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+91	0.00	INFECTION	A2	r0=2.19,r=5,r_presym=5,r_sym=0,incu=5.92
+91	0.00	INFECTION	A7	r0=1.83,r=2,r_presym=2,r_sym=0,incu=4.40
+91	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+91	0.00	QUARANTINE	A2	till=7.00
+91	0.00	QUARANTINE	A7	till=7.00
+91	0.38	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+91	2.68	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+91	2.98	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+91	3.86	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+91	4.19	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+91	4.40	SHOW_SYMPTOM	A7	.
+91	4.40	REMOVAL	A7	popsize=299
+91	4.53	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+91	5.20	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+91	5.92	SHOW_SYMPTOM	A2	.
+91	5.92	REMOVAL	A2	popsize=298
+91	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+91	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+91	10.93	WARNING	A7	msg=RECOVER target no longer exists
+91	11.94	WARNING	A2	msg=RECOVER target no longer exists
+91	11.94	END	298	popsize=298,prop_asym=0.265,time=09/18/2020-12:07:14
+92	0.00	START	.	id=92,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+92	0.00	INFECTION	A2	r0=0.29,r=0,r_asym=0
+92	0.00	INFECTION	A7	r0=1.75,r=2,r_presym=2,r_sym=0,incu=3.77
+92	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+92	0.00	QUARANTINE	A2	till=7.00
+92	0.00	QUARANTINE	A7	till=7.00
+92	2.43	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+92	3.22	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+92	3.77	SHOW_SYMPTOM	A7	.
+92	3.77	REMOVAL	A7	popsize=299
+92	7.00	REINTEGRATION	A2	succ=True
+92	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+92	10.51	WARNING	A7	msg=RECOVER target no longer exists
+92	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+92	12.00	END	299	popsize=299,prop_asym=0.280,time=09/18/2020-12:07:14
+93	0.00	START	.	id=93,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+93	0.00	INFECTION	A2	r0=0.36,r=0,r_asym=0
+93	0.00	INFECTION	A7	r0=1.98,r=0,r_presym=0,r_sym=0,incu=6.68
+93	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+93	0.00	QUARANTINE	A2	till=7.00
+93	0.00	QUARANTINE	A7	till=7.00
+93	6.68	SHOW_SYMPTOM	A7	.
+93	6.68	REMOVAL	A7	popsize=299
+93	7.00	REINTEGRATION	A2	succ=True
+93	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+93	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+93	12.45	WARNING	A7	msg=RECOVER target no longer exists
+93	12.45	END	299	popsize=299,prop_asym=0.164,time=09/18/2020-12:07:14
+94	0.00	START	.	id=94,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+94	0.00	INFECTION	A2	r0=2.68,r=1,r_presym=1,r_sym=0,incu=8.50
+94	0.00	INFECTION	A7	r0=2.59,r=3,r_presym=3,r_sym=0,incu=5.29
+94	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+94	0.00	QUARANTINE	A2	till=7.00
+94	0.00	QUARANTINE	A7	till=7.00
+94	1.17	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+94	3.69	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+94	3.73	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+94	3.81	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+94	5.29	SHOW_SYMPTOM	A7	.
+94	5.29	REMOVAL	A7	popsize=299
+94	7.00	REINTEGRATION	A2	succ=True
+94	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+94	8.50	SHOW_SYMPTOM	A2	.
+94	8.50	REMOVAL	A2	popsize=298
+94	11.53	WARNING	A7	msg=RECOVER target no longer exists
+94	13.67	WARNING	A2	msg=RECOVER target no longer exists
+94	13.67	END	298	popsize=298,prop_asym=0.263,time=09/18/2020-12:07:14
+95	0.00	START	.	id=95,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+95	0.00	INFECTION	A2	r0=2.14,r=1,r_presym=1,r_sym=0,incu=4.97
+95	0.00	INFECTION	A7	r0=2.09,r=1,r_presym=1,r_sym=0,incu=5.38
+95	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+95	0.00	QUARANTINE	A2	till=7.00
+95	0.00	QUARANTINE	A7	till=7.00
+95	2.05	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+95	3.97	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+95	4.97	SHOW_SYMPTOM	A2	.
+95	4.97	REMOVAL	A2	popsize=299
+95	5.38	SHOW_SYMPTOM	A7	.
+95	5.38	REMOVAL	A7	popsize=298
+95	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+95	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+95	11.31	WARNING	A2	msg=RECOVER target no longer exists
+95	11.58	WARNING	A7	msg=RECOVER target no longer exists
+95	11.58	END	298	popsize=298,prop_asym=0.037,time=09/18/2020-12:07:14
+96	0.00	START	.	id=96,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+96	0.00	INFECTION	A2	r0=2.11,r=1,r_presym=1,r_sym=0,incu=6.04
+96	0.00	INFECTION	A7	r0=2.01,r=0,r_presym=0,r_sym=0,incu=5.97
+96	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+96	0.00	QUARANTINE	A2	till=7.00
+96	0.00	QUARANTINE	A7	till=7.00
+96	4.48	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+96	5.97	SHOW_SYMPTOM	A7	.
+96	5.97	REMOVAL	A7	popsize=299
+96	6.04	SHOW_SYMPTOM	A2	.
+96	6.04	REMOVAL	A2	popsize=298
+96	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+96	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+96	11.98	WARNING	A7	msg=RECOVER target no longer exists
+96	12.03	WARNING	A2	msg=RECOVER target no longer exists
+96	12.03	END	298	popsize=298,prop_asym=0.271,time=09/18/2020-12:07:14
+97	0.00	START	.	id=97,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+97	0.00	INFECTION	A2	r0=2.68,r=0,r_presym=0,r_sym=0,incu=3.15
+97	0.00	INFECTION	A7	r0=2.72,r=0,r_presym=0,r_sym=0,incu=3.96
+97	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+97	0.00	QUARANTINE	A2	till=7.00
+97	0.00	QUARANTINE	A7	till=7.00
+97	3.15	SHOW_SYMPTOM	A2	.
+97	3.15	REMOVAL	A2	popsize=299
+97	3.96	SHOW_SYMPTOM	A7	.
+97	3.96	REMOVAL	A7	popsize=298
+97	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+97	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+97	10.10	WARNING	A2	msg=RECOVER target no longer exists
+97	10.64	WARNING	A7	msg=RECOVER target no longer exists
+97	10.64	END	298	popsize=298,prop_asym=0.184,time=09/18/2020-12:07:14
+98	0.00	START	.	id=98,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+98	0.00	INFECTION	A2	r0=1.64,r=0,r_presym=0,r_sym=0,incu=2.72
+98	0.00	INFECTION	A7	r0=2.70,r=2,r_presym=2,r_sym=0,incu=7.33
+98	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+98	0.00	QUARANTINE	A2	till=7.00
+98	0.00	QUARANTINE	A7	till=7.00
+98	2.68	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+98	2.72	SHOW_SYMPTOM	A2	.
+98	2.72	REMOVAL	A2	popsize=299
+98	5.90	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+98	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+98	7.00	REINTEGRATION	A7	succ=True
+98	7.33	SHOW_SYMPTOM	A7	.
+98	7.33	REMOVAL	A7	popsize=298
+98	9.81	WARNING	A2	msg=RECOVER target no longer exists
+98	12.89	WARNING	A7	msg=RECOVER target no longer exists
+98	12.89	END	298	popsize=298,prop_asym=0.131,time=09/18/2020-12:07:14
+99	0.00	START	.	id=99,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+99	0.00	INFECTION	A2	r0=2.40,r=0,r_presym=0,r_sym=0,incu=6.29
+99	0.00	INFECTION	A7	r0=1.93,r=0,r_presym=0,r_sym=0,incu=2.27
+99	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+99	0.00	QUARANTINE	A2	till=7.00
+99	0.00	QUARANTINE	A7	till=7.00
+99	2.27	SHOW_SYMPTOM	A7	.
+99	2.27	REMOVAL	A7	popsize=299
+99	6.29	SHOW_SYMPTOM	A2	.
+99	6.29	REMOVAL	A2	popsize=298
+99	7.00	WARNING	A2	msg=REINTEGRATION target no longer exists
+99	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+99	9.51	WARNING	A7	msg=RECOVER target no longer exists
+99	12.20	WARNING	A2	msg=RECOVER target no longer exists
+99	12.20	END	298	popsize=298,prop_asym=0.232,time=09/18/2020-12:07:14
+100	0.00	START	.	id=100,time=09/18/2020-12:07:14,args=--jobs 1 --repeats 100 --popsize A=100 B=200 --infector A2 A7 --plugin pcrtest A2 A7 --handle-positive quarantine_7
+100	0.00	INFECTION	A2	r0=0.51,r=3,r_asym=3
+100	0.00	INFECTION	A7	r0=2.78,r=3,r_presym=3,r_sym=0,incu=5.18
+100	0.00	PLUGIN	.	name=pcrtest,n_detected=2
+100	0.00	QUARANTINE	A2	till=7.00
+100	0.00	QUARANTINE	A7	till=7.00
+100	1.76	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+100	2.09	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+100	2.85	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+100	3.52	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+100	3.64	INFECTION_AVOIDED	.	by=A2,reason=QUARANTINED
+100	3.65	INFECTION_AVOIDED	.	by=A7,reason=QUARANTINED
+100	5.18	SHOW_SYMPTOM	A7	.
+100	5.18	REMOVAL	A7	popsize=299
+100	7.00	REINTEGRATION	A2	succ=True
+100	7.00	WARNING	A7	msg=REINTEGRATION target no longer exists
+100	11.45	WARNING	A7	msg=RECOVER target no longer exists
+100	12.00	RECOVER	A2	recovered=1,infected=0,popsize=299
+100	12.00	END	299	popsize=299,prop_asym=0.247,time=09/18/2020-12:07:14
