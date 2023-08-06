@@ -1,0 +1,10 @@
+pip
+setuptools
+wheel
+django
+django_extensions
+jsonpickle
+nbformat
+jupytext[myst]
+aiohttp
+podman
