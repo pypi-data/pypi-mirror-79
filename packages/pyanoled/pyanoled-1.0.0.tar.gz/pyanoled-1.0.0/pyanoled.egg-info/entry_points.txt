@@ -1,0 +1,3 @@
+[console_scripts]
+pyanoled = pyanoled.__main__:main
+

@@ -1,0 +1,13 @@
+cython
+argparse
+mido
+numpy
+Pillow
+psutil
+pyhocon
+python-rtmidi
+RPi.GPIO
+rpi-ws281x
+spidev
+webcolors
+wheel
