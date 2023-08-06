@@ -1,0 +1,9 @@
+neal/__init__.py,sha256=B0z16WFt8YVRgQVfEx5v6v-Rqizx60Lz2nyqBVPqi1Y,867
+neal/package_info.py,sha256=U64OzbdEqpt0vHxRWkRt60QYROFzQx_eG80XC5XYp-Y,879
+neal/sampler.py,sha256=Ep_QXGGCvPIRna-zwXcW6z4wVmuSkKrtNKYlawsNOSM,12960
+neal/simulated_annealing.cp35-win32.pyd,sha256=UcN1Hq41dvdDF-l3m-2av2P16NPsprFszsk2ktbl1iU,131584
+dwave_neal-0.5.5.dist-info/LICENSE,sha256=9NMoGRxMSh1DcvHnyMwxDK1Eb97cUxaB7y1xSWVcryY,11387
+dwave_neal-0.5.5.dist-info/METADATA,sha256=cGiQh0Y2IsrnAQzbN4S3R4GZZHYYPKTN0hEyX0m58A4,2155
+dwave_neal-0.5.5.dist-info/WHEEL,sha256=-rTg6LWut4ntqX_CQuQ69jO8szxa_5x3QK4tByU6RZo,102
+dwave_neal-0.5.5.dist-info/top_level.txt,sha256=5f29A8iWDr1QCNTyVCNbaNzwvEQ67gPcLgMWDHKlqXA,5
+dwave_neal-0.5.5.dist-info/RECORD,,
