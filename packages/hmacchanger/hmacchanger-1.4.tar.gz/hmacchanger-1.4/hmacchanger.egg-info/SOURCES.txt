@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+hmacchanger/hmacchanger
+hmacchanger.egg-info/PKG-INFO
+hmacchanger.egg-info/SOURCES.txt
+hmacchanger.egg-info/dependency_links.txt
+hmacchanger.egg-info/top_level.txt
+pytransform/__init__.py
+pytransform/_pytransform.so
