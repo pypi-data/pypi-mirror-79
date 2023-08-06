@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <task name="asdas">(
+    <!-- Ankylosing Spondylitis Disease Activity Score -->
+
+    <string name="title_main">XXX</string>
+
+    <string name="q1">XXX</string>
+    <string name="q2">XXX</string>
+    <string name="q3">XXX</string>
+    <string name="q4">XXX</string>
+    <string name="q5">XXX</string>
+    <string name="q6">XXX</string>
+
+    <string name="q1_min">XXX</string>
+    <string name="q1_max">XXX</string>
+    <string name="q2_min">XXX</string>
+    <string name="q2_max">XXX</string>
+    <string name="q3_min">XXX</string>
+    <string name="q3_max">XXX</string>
+    <string name="q4_min">XXX</string>
+    <string name="q4_max">XXX</string>
+
+    <string name="crp_esr_instructions">XXX</string>
+    <string name="asdas_crp">XXX</string>
+    <string name="asdas_esr">XXX</string>
+
+    <string name="n_a">XXX</string>
+    <string name="inactive">XXX</string>
+    <string name="moderate">XXX</string>
+    <string name="high">XXX</string>
+    <string name="very_high">XXX</string>
+  </task>
+</resources>
+

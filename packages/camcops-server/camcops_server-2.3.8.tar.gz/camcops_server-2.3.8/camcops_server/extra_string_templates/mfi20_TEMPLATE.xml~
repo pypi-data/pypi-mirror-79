@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <task name="mfi20">(
+    <!-- Multidimensional Fatigue Inventory (MFI-20) -->
+
+    <string name="title_main">XXX</string>
+
+    <string name="instructions">By means of the following statements we would like to get an idea of how you have been feeling lately. There is, for example, the statement:
+    “I FEEL RELAXED”
+    If you think that this is entirely true, that indeed you have been feeling relaxed lately, please tick the extreme left box "yes, that is true".
+    The more you disagree with the statement, the more you can tick in the direction of "no, that is not true".</string>
+
+    <string name="q1">XXX</string>
+    <string name="q2">XXX</string>
+    <string name="q3">XXX</string>
+    <string name="q4">XXX</string>
+    <string name="q5">XXX</string>
+    <string name="q6">XXX</string>
+    <string name="q7">XXX</string>
+    <string name="q8">XXX</string>
+    <string name="q9">XXX</string>
+    <string name="q10">XXX</string>
+    <string name="q11">XXX</string>
+    <string name="q12">XXX</string>
+    <string name="q13">XXX</string>
+    <string name="q14">XXX</string>
+    <string name="q15">XXX</string>
+    <string name="q16">XXX</string>
+    <string name="q17">XXX</string>
+    <string name="q18">XXX</string>
+    <string name="q19">XXX</string>
+    <string name="q20">XXX</string>
+
+    <string name="a0">XXX</string>
+    <string name="a1">XXX</string>
+
+    <string name="general_fatigue">XXX</string>
+    <string name="physical_fatigue">XXX</string>
+    <string name="reduced_activity">XXX</string>
+    <string name="reduced_motivation">XXX</string>
+    <string name="mental_fatigue">XXX</string>
+  </task>
+</resources>
+

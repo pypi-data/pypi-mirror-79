@@ -1,0 +1,121 @@
+<!--
+
+camcops_server/templates/deform/group_ip_use.pt
+
+===============================================================================
+
+    Copyright (C) 2012-2020 Rudolf Cardinal (rudolf@pobox.com).
+
+    This file is part of CamCOPS.
+
+    CamCOPS is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    CamCOPS is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with CamCOPS. If not, see <http://www.gnu.org/licenses/>.
+
+===============================================================================
+
+-->
+<div i18n:domain="deform"
+      tal:omit-tag=""
+      tal:define="oid oid|field.oid;
+                  name name|field.name;
+                  css_class css_class|field.widget.css_class;
+                  style style|field.widget.style;">
+  ${field.start_mapping()}
+  <div class="row">
+    <div class="checkbox">
+      <label for="clinical">
+        <input tal:define="name name|field.name;
+                       true_val true_val|field.widget.true_val;
+                       css_class css_class|field.widget.css_class;
+                       style style|field.widget.style;
+                       oid oid|field.oid"
+           type="checkbox"
+           name="clinical" value="${clinical}"
+           id="${oid}-clinical"
+           tal:attributes="checked clinical == True;
+                           class css_class;
+                           style style;
+                           attributes|field.widget.attributes|{};" />
+
+        <span tal:condition="hasattr(field, 'schema') and hasattr(field.schema, 'label')"
+          tal:replace="field.schema.label" class="checkbox-label" >
+        </span>
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="commercial">
+          <input tal:define="name name|field.name;
+                       true_val true_val|field.widget.true_val;
+                       css_class css_class|field.widget.css_class;
+                       style style|field.widget.style;
+                       oid oid|field.oid"
+           type="checkbox"
+           name="commercial" value="${commercial}"
+           id="${oid}"
+           tal:attributes="checked cstruct == true_val;
+                           class css_class;
+                           style style;
+                           attributes|field.widget.attributes|{};" />
+
+          <span tal:condition="hasattr(field, 'schema') and hasattr(field.schema, 'label')"
+            tal:replace="field.schema.label" class="checkbox-label" >
+          </span>
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="${field.oid}">
+          <input tal:define="name name|field.name;
+                       true_val true_val|field.widget.true_val;
+                       css_class css_class|field.widget.css_class;
+                       style style|field.widget.style;
+                       oid oid|field.oid"
+           type="checkbox"
+           name="${name}" value="${true_val}"
+           id="${oid}"
+           tal:attributes="checked cstruct == true_val;
+                           class css_class;
+                           style style;
+                           attributes|field.widget.attributes|{};" />
+
+          <span tal:condition="hasattr(field, 'schema') and hasattr(field.schema, 'label')"
+            tal:replace="field.schema.label" class="checkbox-label" >
+          </span>
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label for="${field.oid}">
+          <input tal:define="name name|field.name;
+                       true_val true_val|field.widget.true_val;
+                       css_class css_class|field.widget.css_class;
+                       style style|field.widget.style;
+                       oid oid|field.oid"
+           type="checkbox"
+           name="${name}" value="${true_val}"
+           id="${oid}"
+           tal:attributes="checked cstruct == true_val;
+                           class css_class;
+                           style style;
+                           attributes|field.widget.attributes|{};" />
+
+          <span tal:condition="hasattr(field, 'schema') and hasattr(field.schema, 'label')"
+            tal:replace="field.schema.label" class="checkbox-label" >
+          </span>
+
+        </label>
+      </div>
+  </div>
+  ${field.end_mapping()}
+</div>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <task name="das28">(
+    <!-- Disease Activity Score-28 -->
+
+    <string name="title_main">Disease Activity Score-28 (DAS28)</string>
+
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
+    <string name="swollen">Swollen</string>
+    <string name="tender">Tender</string>
+
+    <string name="shoulder">Shoulder</string>
+    <string name="elbow">Elbow</string>
+    <string name="wrist">Wrist</string>
+
+    <string name="mcp_1">MCP 1</string>
+    <string name="mcp_2">MCP 2</string>
+    <string name="mcp_3">MCP 3</string>
+    <string name="mcp_4">MCP 4</string>
+    <string name="mcp_5">MCP 5</string>
+
+    <string name="pip_1">PIP 1</string>
+    <string name="pip_2">PIP 2</string>
+    <string name="pip_3">PIP 3</string>
+    <string name="pip_4">PIP 4</string>
+    <string name="pip_5">PIP 5</string>
+
+    <string name="knee">Knee</string>
+
+    <!-- Original text in paper version:
+
+    How active was your arthritis during the past week?
+    (Please mark the degree of activity on the scale below by placing a vertical line | )
+    -->
+
+    <string name="vas_instructions"><b>How active was your arthritis during the past week?</b>
+    Please mark the degree of activity on the scale.</string>
+    <string name="vas_min">Not active</string>
+    <string name="vas_max">Extremely</string>
+
+    <string name="vas">VAS disease activity (0-100mm)</string>
+
+    <string name="crp_esr_instructions">Fill in at least one of the following:</string>
+
+    <string name="crp">CRP</string>
+    <string name="esr">ESR</string>
+
+    <string name="das28_crp">DAS28-CRP</string>
+    <string name="das28_esr">DAS28-ESR</string>
+
+    <string name="swollen_count">Swollen Joint Count (0-28)</string>
+    <string name="tender_count">Tender Joint Count (0-28)</string>
+
+    <string name="n_a">N/A</string>
+    <string name="remission">Remission</string>
+    <string name="low">Low disease activity</string>
+    <string name="moderate">Moderate disease activity</string>
+    <string name="high">High disease activity</string>
+  </task>
+</resources>

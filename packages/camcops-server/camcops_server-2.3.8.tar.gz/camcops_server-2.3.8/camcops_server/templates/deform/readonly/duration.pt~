@@ -1,0 +1,3 @@
+<div>
+  <p class="form-control-static" id="${oid|field.oid}">${months} months, ${weeks} weeks, ${days} days</p>
+</div>

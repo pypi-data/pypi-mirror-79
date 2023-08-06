@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <task name="sfmpq2">(
+    <!-- Short-Form McGill Pain Questionnaire (SF-MPQ2) -->
+
+    <string name="title_main">Short-Form McGill Pain Questionnaire (SF-MPQ2)</string>
+
+    <!-- Original text for paper version:
+         This questionnaire provides you with a list of words that describe
+         some of the different qualities of pain and related symptoms. Please
+         put an X through the numbers that best describe the intensity of each
+         of the pain and related symptoms you felt during the past week. Use 0
+         if the word does not describe your pain or related symptoms.
+    -->
+
+    <string name="instructions">This questionnaire provides you with a list of words that describe some of the different qualities of pain and related symptoms. Please mark the numbers that best describe the intensity of each of the pain and related symptoms you felt during the past week. Use 0 if the word does not describe your pain or related symptoms.</string>
+
+    <string name="q1">Throbbing pain</string>
+    <string name="q2">Shooting pain</string>
+    <string name="q3">Stabbing pain</string>
+    <string name="q4">Sharp pain</string>
+    <string name="q5">Cramping pain</string>
+    <string name="q6">Gnawing pain</string>
+    <string name="q7">Hot-burning pain</string>
+    <string name="q8">Aching pain</string>
+    <string name="q9">Heavy pain</string>
+    <string name="q10">Tender</string>
+    <string name="q11">Splitting pain</string>
+    <string name="q12">Tiring–exhausting</string>
+    <string name="q13">Sickening</string>
+    <string name="q14">Fearful</string>
+    <string name="q15">Punishing–cruel</string>
+    <string name="q16">Electric-shock pain</string>
+    <string name="q17">Cold-freezing pain</string>
+    <string name="q18">Piercing</string>
+    <string name="q19">Pain caused by light touch</string>
+    <string name="q20">Itching</string>
+    <string name="q21">Tingling or “pins and needles”</string>
+    <string name="q22">Numbness</string>
+
+    <string name="a0">0 - none</string>
+    <string name="a1">1</string>
+    <string name="a2">2</string>
+    <string name="a3">3</string>
+    <string name="a4">4</string>
+    <string name="a5">5</string>
+    <string name="a6">6</string>
+    <string name="a7">7</string>
+    <string name="a8">8</string>
+    <string name="a9">9</string>
+    <string name="a10">10 - worst possible</string>
+
+    <string name="total_pain">Total pain</string>
+    <string name="continuous_pain">Continuous pain</string>
+    <string name="intermittent_pain">Intermittent pain</string>
+    <string name="neuropathic_pain">Neuropathic pain</string>
+    <string name="affective_pain">Affective pain</string>
+  </task>
+</resources>
