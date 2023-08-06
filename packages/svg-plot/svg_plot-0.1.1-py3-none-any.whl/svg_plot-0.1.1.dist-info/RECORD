@@ -1,0 +1,9 @@
+svg_plot/__init__.py,sha256=KxTVN-1kI3P1eQXbwVKJj6V5HnK0kJf-5mwPbjWfOoE,183
+svg_plot/svg_plot.py,sha256=jTh50OLZtIR0FqMpsWstWlYskXGR6hdKkPV2hbNQsXI,4244
+svg_plot/svg_renderer.py,sha256=vjWpIE6opSI6CaKV6fX21Y-isGxn3-FBTHJNLv9N5zE,3261
+svg_plot/ticker_extended.py,sha256=ylhQRZ3GCv88qbpwqPSs_zhrijiCIMqdMyQJ-iQTHbQ,6382
+svg_plot-0.1.1.dist-info/LICENSE,sha256=PFiL2wkEWXKVP3Dh-8IhodWIMtq9p8IdQZ7_IfQs0Tc,1072
+svg_plot-0.1.1.dist-info/METADATA,sha256=4dZ0Uw4OOBsCxbwAMB0rpznPPS1PPx2kfNjNST5dijM,577
+svg_plot-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+svg_plot-0.1.1.dist-info/top_level.txt,sha256=Ppm-FmUpERivpKMqxt8aQDz6AgRkU8_yTWPQaySxmMk,9
+svg_plot-0.1.1.dist-info/RECORD,,
