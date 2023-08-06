@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: carla-utils
+Version: 0.0.2
+Summary: carla
+Home-page: https://github.com/zhangdongkun98/carla-utils
+Author: Zhang Dongkun, Wang Yunkai
+Author-email: zhangdongkun98@gmail.com, wangyunkai.zju@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: pygame (==1.9.6)
+Requires-Dist: PyYAML
+Requires-Dist: python-intervals
+Requires-Dist: opencv-python
+Requires-Dist: open3d-python (==0.7.0.0)
+
+UNKNOWN
+
+
