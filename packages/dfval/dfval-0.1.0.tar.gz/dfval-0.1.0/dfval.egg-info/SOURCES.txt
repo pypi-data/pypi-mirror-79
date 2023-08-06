@@ -1,0 +1,15 @@
+README.md
+setup.py
+dfval/__init__.py
+dfval/dfval.py
+dfval.egg-info/PKG-INFO
+dfval.egg-info/SOURCES.txt
+dfval.egg-info/dependency_links.txt
+dfval.egg-info/requires.txt
+dfval.egg-info/top_level.txt
+dfval/dfcheck/__init__.py
+dfval/dfcheck/dfcheck.py
+dfval/dfclean/__init__.py
+dfval/dfclean/dfclean.py
+dfval/dfcompare/__init__.py
+dfval/dfcompare/dfcompare.py
