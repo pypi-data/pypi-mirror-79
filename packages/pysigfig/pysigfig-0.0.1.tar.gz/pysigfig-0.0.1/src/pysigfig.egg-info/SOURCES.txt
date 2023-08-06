@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/pysigfig/__init__.py
+src/pysigfig/functions.py
+src/pysigfig/number.py
+src/pysigfig.egg-info/PKG-INFO
+src/pysigfig.egg-info/SOURCES.txt
+src/pysigfig.egg-info/dependency_links.txt
+src/pysigfig.egg-info/not-zip-safe
+src/pysigfig.egg-info/requires.txt
+src/pysigfig.egg-info/top_level.txt
