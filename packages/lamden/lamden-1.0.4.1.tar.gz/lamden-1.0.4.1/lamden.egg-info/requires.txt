@@ -1,0 +1,9 @@
+sanic
+coloredlogs
+pymongo
+pyzmq
+requests
+contracting
+checksumdir
+pynacl
+stdlib_list
