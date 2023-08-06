@@ -1,0 +1,9 @@
+biopython
+coolname
+coveralls
+pandas
+prov
+pydot
+pytest
+pytest-cov
+tqdm
