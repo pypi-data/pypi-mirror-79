@@ -1,0 +1,3 @@
+[console_scripts]
+mysync = mysync.sync_data:main
+
