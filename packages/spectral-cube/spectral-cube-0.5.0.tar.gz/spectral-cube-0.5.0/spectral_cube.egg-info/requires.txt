@@ -1,0 +1,37 @@
+astropy
+numpy>=1.8.0
+radio_beam
+six
+dask[array]
+joblib
+
+[all]
+zarr
+fsspec
+aplpy
+glue-core[qt]
+matplotlib
+pvextractor
+reproject
+scipy
+
+[all:python_version < "3.8"]
+regions
+yt
+
+[docs]
+sphinx-astropy
+
+[novis]
+zarr
+fsspec
+pvextractor
+reproject
+scipy
+
+[novis:python_version < "3.8"]
+regions
+
+[test]
+pytest-astropy
+pytest-cov
