@@ -1,0 +1,11 @@
+README.md
+setup.py
+sopy/__init__.py
+sopy/run.py
+sopy/sopy.py
+sopy.egg-info/PKG-INFO
+sopy.egg-info/SOURCES.txt
+sopy.egg-info/dependency_links.txt
+sopy.egg-info/not-zip-safe
+sopy.egg-info/requires.txt
+sopy.egg-info/top_level.txt
