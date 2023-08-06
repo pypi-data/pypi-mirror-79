@@ -1,0 +1,10 @@
+APPNAME,sha256=P0Kyssgc55LpeY1lLZLfJgkBoFHdV7vAz75OxXD01F4,10
+VERSION,sha256=QXyWrQSCSgrM4h6iSDKuofObMwGkWhyUq__KJj3OVjU,5
+requirements.txt,sha256=MFX7c7hF8H9qTzG3GaxFlD6_Qz20NSjDGMWXdAZbK_M,24
+bikaclient/__init__.py,sha256=kV_YC3o1K86GVGv08tFXLUe6J3Q3pFixPUVehwjz-No,28027
+bikaclient/__version__.py,sha256=3K2D8MOB25byEV1ixlfThNeLIuNLCm_nbvQfc8Pak0A,239
+bikaclient-0.5.6.dist-info/METADATA,sha256=16VGcHus-gCB3lcEVomJ0rqWWRtgsFP2m23_mFbHgSM,1153
+bikaclient-0.5.6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+bikaclient-0.5.6.dist-info/top_level.txt,sha256=9ticGE0T8ShWzbgFRIL3fV7FBfKzd_HKnQhiuso7kN0,11
+bikaclient-0.5.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bikaclient-0.5.6.dist-info/RECORD,,
