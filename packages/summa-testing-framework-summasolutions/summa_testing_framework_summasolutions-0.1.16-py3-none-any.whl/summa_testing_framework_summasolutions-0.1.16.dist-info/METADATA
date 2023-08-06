@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: summa-testing-framework-summasolutions
+Version: 0.1.16
+Summary: Summa Solutions Testing Framework
+Home-page: https://bitbucket.org/summasolutions/summa-testing-framework
+Author: Summa Solutions
+Author-email: coreteam@summasoutions.net
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: click-help-colors
+Requires-Dist: colorama
+Requires-Dist: pyunitreport
+Requires-Dist: PyYAML
+Requires-Dist: selenium
+
+# Summa Solutions Testing Framework
+
+
+### Packaging
+
+```shell script
+python3 setup.py sdist bdist_wheel
+python3 -m twine upload --repository pypi dist/*
+```
+
