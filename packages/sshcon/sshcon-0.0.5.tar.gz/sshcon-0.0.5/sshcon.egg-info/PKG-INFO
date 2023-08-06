@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: sshcon
+Version: 0.0.5
+Summary: SSH connector for Linux systems
+Home-page: https://github.com/racoonx2p/sshcon
+Author: racoonx2p
+Author-email: racoonx2p@gmail.com
+License: MIT
+Download-URL: https://github.com/racoonx2p/sshcon/archive/0.0.5.tar.gz
+Description: UNKNOWN
+Keywords: ssh,ssh2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
