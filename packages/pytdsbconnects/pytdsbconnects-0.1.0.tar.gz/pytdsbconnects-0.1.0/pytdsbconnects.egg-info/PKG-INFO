@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pytdsbconnects
+Version: 0.1.0
+Summary: A basic Python TDSB Connects API using aiohttp.
+Home-page: https://github.com/tylertian123/pytdsbconnects
+Author: Tyler Tian
+Author-email: tylertian123@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/tylertian123/pytdsbconnects/issues
+Project-URL: Source Code, https://github.com/tylertian123/pytdsbconnects
+Description: # pytdsbconnects
+        A basic Python TDSB Connects API using aiohttp.
+        
+        Made with info and help from @mincrmatt12.
+        
+Keywords: tdsb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

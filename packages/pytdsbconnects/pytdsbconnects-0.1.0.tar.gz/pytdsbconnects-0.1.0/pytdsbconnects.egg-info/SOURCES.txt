@@ -1,0 +1,12 @@
+README.md
+setup.py
+pytdsbconnects.egg-info/PKG-INFO
+pytdsbconnects.egg-info/SOURCES.txt
+pytdsbconnects.egg-info/dependency_links.txt
+pytdsbconnects.egg-info/requires.txt
+pytdsbconnects.egg-info/top_level.txt
+tdsbconnects/__init__.py
+tdsbconnects/objects.py
+tdsbconnects/tdsbconnects.py
+tdsbconnects/util.py
+tdsbconnects/version.py
