@@ -1,0 +1,9 @@
+README.md
+setup.py
+redis_sentinel/RedisSentinel.py
+redis_sentinel/__init__.py
+redis_sentinel.egg-info/PKG-INFO
+redis_sentinel.egg-info/SOURCES.txt
+redis_sentinel.egg-info/dependency_links.txt
+redis_sentinel.egg-info/requires.txt
+redis_sentinel.egg-info/top_level.txt
