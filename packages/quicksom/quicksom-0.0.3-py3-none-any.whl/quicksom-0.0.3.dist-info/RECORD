@@ -1,0 +1,14 @@
+quicksom/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quicksom/dcd2npy.py,sha256=b6V6odvSdJfz2aTQGEtkxKd5KKW1PSgCW8k0eePYIl0,1132
+quicksom/main.py,sha256=gBRUwKgSFqLQx50Wx_GcekEUMPecTAB6Dzn7ccFh9T0,2390
+quicksom/som.py,sha256=1gTOsXgftVak4XnHtzygMtrGgEdxBVGXji2pvY9BTgw,21677
+quicksom/somgui.py,sha256=RHJH6SjpDuQIYimcZbqIyB8v2hnL79DF_BTOX2bvBc4,7968
+quicksom/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quicksom-0.0.3.data/scripts/quicksom_fit,sha256=Jg4cWTAzsFmtoN4tky_df5qo-w2_tY-GJY3IgYmS-mY,1770
+quicksom-0.0.3.data/scripts/quicksom_gui,sha256=FT_d9zT76XKp153bOouBqYgtrokmenixchuX6xZVdgc,523
+quicksom-0.0.3.data/scripts/quicksom_predict,sha256=gVbEl3Q52bjlSCnEmfIm18rZEvbB83mdTk6fCJ9xIdM,1272
+quicksom-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+quicksom-0.0.3.dist-info/METADATA,sha256=Ex7teTYTN3I6CDem4ZqlVdGcTc638PK1s_6ZF2WkTCM,3034
+quicksom-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+quicksom-0.0.3.dist-info/top_level.txt,sha256=MflcFjSAOy-JmW7EW0c_utWzwo5toaRdz7C65f59pLE,9
+quicksom-0.0.3.dist-info/RECORD,,
