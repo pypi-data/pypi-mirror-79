@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mahi-gui
+Version: 0.1.1
+Summary: Python bindings for mahi-gui imgui and implot.
+Home-page: https://github.com/JoelLinn/py-mahi-gui
+Author: Joel Linn
+Author-email: jl@conductive.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
