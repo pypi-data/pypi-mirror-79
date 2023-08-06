@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+amineparser/__init__.py
+amineparser.egg-info/PKG-INFO
+amineparser.egg-info/SOURCES.txt
+amineparser.egg-info/dependency_links.txt
+amineparser.egg-info/top_level.txt

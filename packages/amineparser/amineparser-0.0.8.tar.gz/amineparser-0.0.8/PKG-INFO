@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: amineparser
+Version: 0.0.8
+Summary: Resume parser for french and english resumes
+Home-page: UNKNOWN
+Author: Mohamed Amine Bouslimi
+Author-email: aminobouslimi@gmail.com
+License: MIT
+Description: This is package for extracting specific informations from resumes written in both french and english languages, this package extracts personel informations, technical skills, certifications and qualifications .
+        
+        Change Log
+        ==========
+        
+        0.0.8 (12/09/2020)
+        -------------------
+        - First Release
+Keywords: CVParser
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

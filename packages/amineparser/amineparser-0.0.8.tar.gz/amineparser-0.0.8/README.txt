@@ -1,0 +1,1 @@
+This is package for extracting specific informations from resumes written in both french and english languages, this package extracts personel informations, technical skills, certifications and qualifications .
