@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: bdownload
+Version: 0.0.1
+Summary: A multi-threaded aria2-like batch file downloading library for Python
+Home-page: https://github.com/Jesseatgao/bdownload
+Author: Jesse
+Author-email: changxigao@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
