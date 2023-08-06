@@ -1,0 +1,9 @@
+aporia/__init__.py,sha256=K42MuEHxW3X3ANE5V_FEdE_SGfY4NRITcDXq9gIgbCQ,3380
+aporia/consts.py,sha256=GI8j-_loyJDPuOSxgn-ob_AaHHZtIETJZ_dipFsYTt8,77
+aporia/errors.py,sha256=rjIVVkHpf-7nIKHyBcERehF17kPUk0vPdI2Qg1kufW8,1095
+aporia/event_loop.py,sha256=yS92hO2ZdJ9XgnhIZtbys7bVvwSYQB_QPB1euZUKfLU,2238
+aporia/graphql_client.py,sha256=7TL0EcTjs0K-Ba1unxX5XREQpdPhdwJZnX0yiQchr6E,2719
+aporia/model.py,sha256=xi4P-CWYMNJjPNvBCtpySI5Y3d-b_ykpV4MxVU8qBOg,20794
+aporia-1.0.3.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+aporia-1.0.3.dist-info/METADATA,sha256=ReP3NsXUMwANBKDL2drElsUzyj6DaVKmY3HdtI6YYlg,612
+aporia-1.0.3.dist-info/RECORD,,
