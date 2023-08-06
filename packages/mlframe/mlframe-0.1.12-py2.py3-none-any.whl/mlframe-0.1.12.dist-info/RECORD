@@ -1,0 +1,10 @@
+mlframe/__init__.py,sha256=1MfMp5FdsGhpnaKi2_b0FrG-Kr_kkJtmAdDcWYSDILg,242
+mlframe/load_then_test.py,sha256=rKom0HfoRGFlJKlEdO67vyuqRCKQXZ16KCqP9xoJSCY,655
+mlframe/mlframe.py,sha256=xfqkRxbr0EQ3yDE8FDQtA6yL4nIAzafSbJhL2bQfIU8,44091
+mlframe/test.py,sha256=Xglg3OBpqqFrsh6NqsQ7ztCcnKcqjFFapfFB60uwoAc,7976
+mlframe-0.1.12.dist-info/DESCRIPTION.rst,sha256=nfJM7K6cDzz4I0_k_FXtsYFl8qOCudcFqHV4pSRf8MI,610
+mlframe-0.1.12.dist-info/METADATA,sha256=F6cbugbJa8RApvy7_HP5NKHj07nx6RiyQjhLQP_etCA,2015
+mlframe-0.1.12.dist-info/RECORD,,
+mlframe-0.1.12.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+mlframe-0.1.12.dist-info/metadata.json,sha256=_a_e6vDeZYugcRxE4hZRDIDbRyy1Y2RltGtwE6tlaWw,1150
+mlframe-0.1.12.dist-info/top_level.txt,sha256=MM5izE6Jy1Tt2Go33i7wJ-kYkqhZdJJw2mn0XV_piqs,8
