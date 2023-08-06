@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: stringFun
+Version: 0.0.1
+Summary: It is a simple Strings related library,that simplifies some of the Strings operations and saves coding time specially while working on bigger projects.
+Home-page: UNKNOWN
+Author: Himanshu Kaushik
+Author-email: himanshukaushik1905@gmail.com
+License: MIT
+Description: 
+        
+        
+Keywords: Python,strings,python strings
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
