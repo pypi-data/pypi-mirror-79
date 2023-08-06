@@ -1,0 +1,13 @@
+PyYAML
+requests
+certifi
+chardet
+python-dateutil
+idna
+jmespath
+pybacklog
+pytz
+ruamel.appconfig
+ruamel.std.argparse
+urllib3
+zope.interface
