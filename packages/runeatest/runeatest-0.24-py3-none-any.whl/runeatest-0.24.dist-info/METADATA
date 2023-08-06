@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: runeatest
+Version: 0.24
+Summary: nunit test report generator to run in DataBricks
+Home-page: https://github.com/RichieBzzzt/runeatest
+Author: Sabin IO
+Author-email: hello@sabin.io
+License: UNKNOWN
+Keywords: azure,databricks,nunit
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+Add test case results to an object and at the end of testing convert results to a string that looks like a Nunit results file and exit notebook with string.
+
+
