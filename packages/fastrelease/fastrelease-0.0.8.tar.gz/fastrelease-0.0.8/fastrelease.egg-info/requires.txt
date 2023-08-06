@@ -1,0 +1,5 @@
+pip
+packaging
+fastcore>=1.0.10
+
+[dev]
