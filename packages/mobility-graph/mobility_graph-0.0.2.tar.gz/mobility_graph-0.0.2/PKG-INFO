@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mobility_graph
+Version: 0.0.2
+Summary: This package reads gtfs data and returns data of type dict
+Home-page: UNKNOWN
+Author: Ayman Mahmoud
+Author-email: aymanh.abdelhamid@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: gtfs,transit,mobility
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
