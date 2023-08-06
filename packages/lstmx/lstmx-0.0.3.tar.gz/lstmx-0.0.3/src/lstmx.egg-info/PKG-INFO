@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: lstmx
+Version: 0.0.3
+Summary: library 
+Home-page: https://github.com/ligaopan/lgp-library
+Author: ligaopan
+Author-email: ligaopan1984@163.com
+License: MIT Licence
+Description: library 
+Keywords: testing testautomation
+Platform: any
+Requires-Python: >=3.7.*
