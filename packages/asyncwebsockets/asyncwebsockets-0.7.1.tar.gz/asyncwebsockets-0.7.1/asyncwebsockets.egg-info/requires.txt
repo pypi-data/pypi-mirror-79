@@ -1,0 +1,4 @@
+anyio>=2.0
+async_generator
+wsproto>=0.13.0
+yarl
