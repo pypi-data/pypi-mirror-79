@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+easy_env_var/__init__.py
+easy_env_var.egg-info/PKG-INFO
+easy_env_var.egg-info/SOURCES.txt
+easy_env_var.egg-info/dependency_links.txt
+easy_env_var.egg-info/top_level.txt
+easy_env_var.egg-info/zip-safe
+tests/__init__.py
+tests/test_env.py
