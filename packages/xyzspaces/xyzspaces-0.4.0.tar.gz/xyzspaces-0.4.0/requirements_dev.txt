@@ -1,0 +1,17 @@
+# Development dependencies, use pip install -e .[dev]
+codecov
+coverage
+black==19.10b0
+mypy
+proclamation
+proxy.py
+pytest>=5.4.3
+pytest-cov
+pytest-mypy
+pytest-rerunfailures
+Sphinx>=2.4.0
+sphinx-rtd-theme
+twine
+pytest-flake8
+isort
+darglint
