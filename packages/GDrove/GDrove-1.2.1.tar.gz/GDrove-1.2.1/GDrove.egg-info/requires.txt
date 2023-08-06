@@ -1,0 +1,7 @@
+google-auth
+google-auth-oauthlib
+packaging
+google-api-python-client>=1.8.0
+progressbar2
+pytz
+aiohttp
