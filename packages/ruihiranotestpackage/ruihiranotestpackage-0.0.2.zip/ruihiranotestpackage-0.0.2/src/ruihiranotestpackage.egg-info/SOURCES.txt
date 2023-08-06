@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/ruihiranotestpackage.egg-info/PKG-INFO
+src/ruihiranotestpackage.egg-info/SOURCES.txt
+src/ruihiranotestpackage.egg-info/dependency_links.txt
+src/ruihiranotestpackage.egg-info/requires.txt
+src/ruihiranotestpackage.egg-info/top_level.txt
