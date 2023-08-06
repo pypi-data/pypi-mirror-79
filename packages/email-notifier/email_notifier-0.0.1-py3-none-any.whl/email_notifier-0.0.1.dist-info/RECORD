@@ -1,0 +1,8 @@
+email_notifier/__init__.py,sha256=B6AaLk-rZz3DWYR6MkJfPo6zjHidzA-ykTnS1Y023hc,155
+email_notifier/exception_notifier.py,sha256=N04owU1FyIAnPJs40QNcuiMN-7wU66ZVXjSiyy5AOvM,1329
+email_notifier/general_notifier.py,sha256=4P4bNV13SQnA3Xs9-RIg8SPxPCTufsqMr5Q3UXq-8bc,3537
+email_notifier-0.0.1.dist-info/LICENSE,sha256=j5xpuOdo-ZQUB_WweumZmGoFMvKBxi_28Ak9wNZ5SNU,1072
+email_notifier-0.0.1.dist-info/METADATA,sha256=EK3EzinvHTAe4xbP1QLYL6M3irFdDXR8uhFLx4EySa8,4647
+email_notifier-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+email_notifier-0.0.1.dist-info/top_level.txt,sha256=hbLkYQlFw4T8zP3UdfkPIsEi63j0-EgikN7N52WOgd8,15
+email_notifier-0.0.1.dist-info/RECORD,,
