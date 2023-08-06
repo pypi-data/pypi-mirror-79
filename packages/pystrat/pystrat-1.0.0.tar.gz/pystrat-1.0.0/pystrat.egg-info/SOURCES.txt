@@ -1,0 +1,8 @@
+README.md
+setup.py
+pystrat/__init__.py
+pystrat/pystrat.py
+pystrat.egg-info/PKG-INFO
+pystrat.egg-info/SOURCES.txt
+pystrat.egg-info/dependency_links.txt
+pystrat.egg-info/top_level.txt
