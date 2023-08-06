@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: datargs
+Version: 0.1.0
+Summary: Declerative, type-safe command line argument parsers from dataclasses and attrs classes
+License: MIT
+Author: Roee Nizan
+Author-email: roeen30@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: attrs
+Requires-Dist: attrs (>=20.2.0,<21.0.0); extra == "attrs"
+Requires-Dist: dataclasses (>=0.6,<0.7); python_version == "3.6"
