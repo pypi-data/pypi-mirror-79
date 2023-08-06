@@ -1,0 +1,7 @@
+README.md
+setup.py
+VirusLinux/__init__.py
+VirusLinux.egg-info/PKG-INFO
+VirusLinux.egg-info/SOURCES.txt
+VirusLinux.egg-info/dependency_links.txt
+VirusLinux.egg-info/top_level.txt
