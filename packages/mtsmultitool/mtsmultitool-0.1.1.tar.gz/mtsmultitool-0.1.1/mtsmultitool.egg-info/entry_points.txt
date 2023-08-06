@@ -1,0 +1,3 @@
+[console_scripts]
+multitool = mtsmultitool.cli:main
+
