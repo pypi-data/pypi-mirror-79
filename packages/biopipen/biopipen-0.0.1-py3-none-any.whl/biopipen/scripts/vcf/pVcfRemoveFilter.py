@@ -1,0 +1,28 @@
+from cyvcf2 import VCF, Writer
+from pyppl.utils import always_list
+
+infile   = {{ i.infile | quote}}
+outfile  = {{ o.outfile | quote}}
+filters = {{args.filters | repr}}
+reverse = {{args.reverse | bool}}
+filters = always_list(filters)
+
+reader = VCF(infile)
+writer = Writer(outfile, reader)
+
+for rec in reader:
+    filt = rec.FILTER or 'PASS'
+    filt = filt.split(';')
+    for rmfilt in filters:
+        if not reverse and rmfilt in filt:
+            filt.remove(rmfilt)
+        elif reverse and rmfile not in filt:
+            filt.remove(rmfilt)
+    if not filt:
+        rec.FILTER = 'PASS'
+    else:
+        rec.FILTER = ';'.join(filt)
+    writer.write_record(rec)
+
+reader.close()
+writer.close()
