@@ -1,0 +1,9 @@
+README.md
+setup.py
+discord_notifier.egg-info/PKG-INFO
+discord_notifier.egg-info/SOURCES.txt
+discord_notifier.egg-info/dependency_links.txt
+discord_notifier.egg-info/entry_points.txt
+discord_notifier.egg-info/requires.txt
+discord_notifier.egg-info/top_level.txt
+discordnotifier/__init__.py
