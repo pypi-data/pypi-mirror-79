@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lostdata
+Version: 0.0.4
+Summary: LOcalized STructured DAta TAbles
+Home-page: https://github.com/dicaso/lostdata
+Author: Christophe Van Neste
+Author-email: christophe.vanneste@ugent.be
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6
+Provides-Extra: netcdf
+Provides-Extra: documentation
