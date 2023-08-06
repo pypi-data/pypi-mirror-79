@@ -1,0 +1,199 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+    ppolona
+    -------
+    Copyright (c) 2020 Adam Twardoch <adam+github@twardoch.com>
+    MIT license. Python 3.8+
+
+    Search in and download from Polona.pl
+    Usage: 'ppolona' for GUI, 'ppolona -h' for CLI
+"""
+
+import pathlib
+
+try:
+    from .polona import *
+except ImportError:
+    from pypolona.polona import *
+try:
+    from . import *
+except ImportError:
+    from pypolona import *
+
+from ezgooey.ez import *
+
+logging.init(level=logging.INFO)
+log = logging.logger('pypolona')
+
+GUI_NAME='PyPolona'
+CLI_NAME='ppolona'
+DESCRIPTION = 'Search in and download from Polona.pl. GUI: Help › %s Help. CLI: %s -h' % (GUI_NAME, CLI_NAME)
+
+
+@ezgooey(
+    advanced=True,
+    auto_start=False,
+    default_size=(800, 600),
+    disable_progress_bar_animation=False,
+    disable_stop_button=False,
+    group_by_type=True,
+    header_height=80,
+    hide_progress_msg=False,
+    monospace_display=False,
+    navigation='Tabbed',
+    optional_cols=1,
+    program_description=None,
+    program_name=GUI_NAME,
+    progress_expr=None,
+    progress_regex=None,
+    required_cols=1,
+    richtext_controls=True,
+    suppress_gooey_flag=True,
+    tabbed_groups=True,
+    target=None,
+    use_legacy_titles=True,
+    menu=[{
+        'name' : 'Help',
+        'items': [{
+            'type'       : 'AboutDialog',
+            'menuTitle'  : 'About',
+            'name'       : GUI_NAME,
+            'description': 'Click the link for more info',
+            'website'    : 'https://twardoch.github.io/pypolona/',
+            'license'    : 'MIT'
+        }, {
+            'type'     : 'Link',
+            'menuTitle': '%s Help' % (GUI_NAME),
+            'url'      : 'https://twardoch.github.io/pypolona/'
+        }]
+    }]
+)
+def get_parser():
+    parser = ArgumentParser(
+        prog='ppolona',
+        description=DESCRIPTION
+    )
+
+    query_help = 'query is a Polona.pl URL unless you choose search, advanced or ids'
+
+    parser_q = parser.add_argument_group('Input')
+    parser_q.add_argument(
+        nargs='+',
+        dest='query',
+        type=str,
+        metavar='query',
+        help=query_help
+    )
+
+    parser_q.add_argument(
+        '-D',
+        '--download',
+        dest='download',
+        action='store_true',
+        help='Download images from results. See Download options'
+    )
+
+    command = parser_q.add_mutually_exclusive_group(required=False)
+    command.add_argument(
+        '-S',
+        '--search',
+        dest='search',
+        action='store_true',
+        help='Query is search query. See Search options'
+    )
+    command.add_argument(
+        '-A',
+        '--advanced',
+        dest='advanced',
+        action='store_true',
+        help='Query is advanced search query. field:value OR field:value AND (field:value OR field:value). Allowed '
+             'fields are: title, author, keywords, publication_place, publisher, frequency, sources, call_number, '
+             'entire_description, content '
+    )
+    command.add_argument(
+        '-I',
+        '--ids',
+        dest='ids',
+        action='store_true',
+        help='Query is space-separated IDs'
+    )
+
+    parser_s = parser.add_argument_group('Search options')
+    parser_s.add_argument(
+        '-l',
+        '--lang',
+        nargs='*',
+        dest='search_languages',
+        type=str,
+        metavar='language',
+        help='Space-separated languages: polski angielski niemiecki...'
+    )
+    parser_s.add_argument(
+        '-s',
+        '--sort',
+        dest='sort',
+        type=str,
+        choices=['score desc', 'date desc',
+                 'date asc', 'title asc', 'creator asc'],
+        default='score desc',
+        help='Sort search results by score, date, title or creator (descending or ascending)'
+    )
+    parser_s.add_argument(
+        '-f',
+        '--format',
+        dest='format',
+        type=str,
+        choices=['ids', 'urls', 'yaml', 'json'],
+        default='ids',
+        help='Output search results in format'
+    )
+    parser_s.add_argument(
+        '-o',
+        '--output',
+        dest='output',
+        type=str,
+        widget='FileSaver',
+        metavar='save results',
+        help='Save search results to this file'
+    )
+    parser_d = parser.add_argument_group('Download options')
+    parser_d.add_argument(
+        '-d',
+        '--download-dir',
+        dest='download_dir',
+        type=str,
+        default=str(pathlib.Path.home() / 'Desktop' / 'polona'),
+        widget='DirChooser',
+        metavar='download to folder',
+        help='Download images into subfolders in this folder'
+    )
+    parser_d.add_argument(
+        '-O',
+        '--overwrite',
+        dest='overwrite',
+        action='store_true',
+        help='Overwrite if folder exists'
+    )
+    parser_d.add_argument(
+        '-M',
+        '--max-pages',
+        dest='max_pages',
+        type=int,
+        default=0,
+        metavar='number of pages',
+        help='Maximum number of pages to download per doc (0: all)'
+    )
+    return parser
+
+
+def main():
+    parser = get_parser()
+    opts = parser.parse_args()
+    if opts:
+        opts = vars(opts)
+        polona = Polona(**opts)
+
+
+if __name__ == '__main__':
+    main()
