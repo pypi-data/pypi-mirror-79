@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tropic
+Version: 0.2.5
+Summary: 
+Author: skip
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: logzero (>=1.5.0,<2.0.0)
+Requires-Dist: tabulate (>=0.8.7,<0.9.0)
+Requires-Dist: tensorflow (>=2.3.0,<3.0.0)
