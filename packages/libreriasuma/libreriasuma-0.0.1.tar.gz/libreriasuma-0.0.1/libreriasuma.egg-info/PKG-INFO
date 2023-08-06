@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: libreriasuma
+Version: 0.0.1
+Summary: Una suma
+Home-page: UNKNOWN
+Author: Usuario Test
+Author-email: cuenta.medium@gmail.com
+License: MIT
+Description: libreriasuma
+        ************
+        
+        Una libreria con una funcion que suma... espectacular
+        =====================================================
+        
+        .. image:: https://img.shields.io/badge/Version-V%200.0.0.1-important?style=for-the-badge
+            :target: https://pypi.org/project/libreriasuma/
+        
+        .. image:: https://img.shields.io/badge/Nivel-Basico-green?style=for-the-badge
+            :target: https://pypi.org/project/libreriasuma/
+        
+        .. image:: https://img.shields.io/badge/Lenguaje-Python-yellow?style=for-the-badge
+            :target: https://pypi.org/project/libreriasuma/
+        
+        .. image:: https://img.shields.io/badge/Tipo-Ejercicio-sucess?style=for-the-badge
+            :target: https://pypi.org/project/libreriasuma/
+        
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (16/09/2020)
+        -------------------
+        - Primer cambio
+Keywords: suma
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

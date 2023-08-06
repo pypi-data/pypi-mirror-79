@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.rst
+setup.py
+libreriasuma/__init__.py
+libreriasuma.egg-info/PKG-INFO
+libreriasuma.egg-info/SOURCES.txt
+libreriasuma.egg-info/dependency_links.txt
+libreriasuma.egg-info/top_level.txt
