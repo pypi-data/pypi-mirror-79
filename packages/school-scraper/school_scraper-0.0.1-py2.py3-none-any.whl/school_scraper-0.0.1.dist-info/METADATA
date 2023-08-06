@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: school-scraper
+Version: 0.0.1
+Summary: Web scraper that parses school closure and late bus announcements from various school websites
+Home-page: https://github.com/TheFriendlyCoder/school_scraper
+Author: Kevin S. Phillips
+Author-email: thefriendlycoder@gmail.com
+License: Apache License 2.0
+Keywords: web scraper school closure late bus
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6.0, <4
+Requires-Dist: pandas
+Requires-Dist: lxml
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-json-report ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinxcontrib-apidoc ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: tox-factor ; extra == 'dev'
+Requires-Dist: tox-pyenv ; extra == 'dev'
+Requires-Dist: coverage (<5.0) ; extra == 'dev'
+Requires-Dist: requests ; extra == 'dev'
+
+.. image:: https://travis-ci.org/TheFriendlyCoder/school-scraper.svg?tag=0.0.1
+    :target: https://travis-ci.org/TheFriendlyCoder/school-scraper
+    :alt: Build Automation
+
+.. image:: https://coveralls.io/repos/github/TheFriendlyCoder/school-scraper/badge.svg?tag=0.0.1
+    :target: https://coveralls.io/github/TheFriendlyCoder/school-scraper?tag=0.0.1
+    :alt: Test Coverage
+
+.. image:: https://img.shields.io/pypi/pyversions/school_scraper.svg
+    :target: https://pypi.python.org/pypi/school_scraper
+    :alt: Python Versions
+
+.. image:: https://readthedocs.org/projects/school_scraper/badge/?version=0.0.1
+    :target: http://school_scraper.readthedocs.io/en/0.0.1
+    :alt: Documentation Status
+
+.. image:: https://requires.io/github/TheFriendlyCoder/school-scraper/requirements.svg?tag=0.0.1
+    :target: https://requires.io/github/TheFriendlyCoder/school-scraper/requirements/?tag=0.0.1
+    :alt: Requirements Status
+
+.. image:: https://img.shields.io/pypi/format/school_scraper.svg
+    :target: https://pypi.python.org/pypi/school_scraper/
+    :alt: Package Format
+
+.. image:: https://img.shields.io/pypi/dm/school_scraper.svg
+    :target: https://pypi.python.org/pypi/school_scraper/
+    :alt: Download Count
+
+.. image:: https://img.shields.io/pypi/l/school_scraper.svg
+    :target: https://www.apache.org/licenses/LICENSE-2.0.txt
+    :alt: Apache License 2.0
+
+Overview
+========
+
+This library parses HTML encoded data from various grade-school websites and extracts information about school closures and late bus announcements. Currently supported school websites are listed below:
+
+* `Francophone School Districts, New Brunswick, Canada <https://francophonesud.nbed.nb.ca/retards-et-fermetures>`_
+

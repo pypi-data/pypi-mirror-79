@@ -1,0 +1,11 @@
+school_scraper/__init__.py,sha256=_iJliBkJyx61PmqioydJg2dfJ_hj5EL0Ccs9ycrx-3Y,183
+school_scraper/fsddistrict.py,sha256=udnD6fVLfv7jXh_X9uls3qfsMBnS-P1HNh0MlxGF4ws,1761
+school_scraper/fsdschool.py,sha256=w71uJQ5CMfe0ztbi5N1WHaU5hgKit5sqhV8RfcRpYoM,1197
+school_scraper/fsdscraper.py,sha256=uTDte4m1WEeakMBI4d38F14O5BGjeWmNTUHtNAOGq9A,4458
+school_scraper/version.py,sha256=ogeq7Sfo9-bk6wrfy169c0YLM3tBu8kel92x7jV54o4,55
+school_scraper-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+school_scraper-0.0.1.dist-info/METADATA,sha256=QbPR0mF98ZrZxL2pTLnYsF2dZCUcjojXTCA9DKy3NoE,3101
+school_scraper-0.0.1.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+school_scraper-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+school_scraper-0.0.1.dist-info/top_level.txt,sha256=C_HXVNyvFagAKN45SKTc6ysMUM-PtP95XK23Z8LYUiQ,15
+school_scraper-0.0.1.dist-info/RECORD,,

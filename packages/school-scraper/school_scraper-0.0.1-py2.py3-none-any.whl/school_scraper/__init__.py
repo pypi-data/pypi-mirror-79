@@ -1,0 +1,5 @@
+"""Web scrapper for parsing school closure info from school websites"""
+import logging
+from .version import __version__
+
+logging.getLogger(__name__).addHandler(logging.NullHandler())
