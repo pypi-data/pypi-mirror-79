@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: meerschaum
+Version: 0.0.16
+Summary: Create and Manage Pipes with Meerschaum
+Home-page: https://github.com/bmeares/Meerschaum
+Author: Bennett Meares
+Author-email: bennett.meares@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: aiosqlite
+Requires-Dist: asyncpg
+Requires-Dist: cascadict
+Requires-Dist: databases
+Requires-Dist: fastapi
+Requires-Dist: graphene
+Requires-Dist: lazy-import
+Requires-Dist: pandas
+Requires-Dist: pprintpp
+Requires-Dist: psycopg2-binary
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: sqlalchemy
+Requires-Dist: uvicorn
+
+UNKNOWN
+
+
