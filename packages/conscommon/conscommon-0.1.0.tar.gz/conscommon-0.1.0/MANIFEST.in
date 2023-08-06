@@ -1,0 +1,1 @@
+recursive-include conscommon *.xlsx *.sh *.png *.jpg *.json *.txt
