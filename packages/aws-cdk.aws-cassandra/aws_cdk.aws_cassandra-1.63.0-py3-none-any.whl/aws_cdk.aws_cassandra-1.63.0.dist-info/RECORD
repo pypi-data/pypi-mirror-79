@@ -1,0 +1,8 @@
+aws_cdk/aws_cassandra/__init__.py,sha256=1os6cq1aeUdgCTf240buYsDVcTp45Ao7Ii5SFtbyGHI,26386
+aws_cdk/aws_cassandra/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_cassandra/_jsii/__init__.py,sha256=G8hCICZGWpI6lCR_bFkoq13Zb6uHiuiEAdtXjjJMF4E,345
+aws_cdk/aws_cassandra/_jsii/aws-cassandra@1.63.0.jsii.tgz,sha256=wfMGQ5fjsZHFB7wLbndANOC0SNnFngCMOgAtV6H-fcs,23416
+aws_cdk.aws_cassandra-1.63.0.dist-info/METADATA,sha256=klS0P9e44I1Ai-dV-uJM0KfEnvHi4mcN3A2HviUAow8,1543
+aws_cdk.aws_cassandra-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_cassandra-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_cassandra-1.63.0.dist-info/RECORD,,
