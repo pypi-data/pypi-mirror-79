@@ -1,0 +1,9 @@
+README.md
+setup.py
+code/__init__.py
+code/cookgame.py
+cookgame.egg-info/PKG-INFO
+cookgame.egg-info/SOURCES.txt
+cookgame.egg-info/dependency_links.txt
+cookgame.egg-info/requires.txt
+cookgame.egg-info/top_level.txt
