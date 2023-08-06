@@ -1,0 +1,4 @@
+[console_scripts]
+facematch = facematch.cmd.cli:main
+facematch-server = facematch.cmd.server:main
+
