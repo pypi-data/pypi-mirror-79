@@ -1,0 +1,17 @@
+airium/__init__.py,sha256=VZZjT9L-Zn4wUYF0rR0e8VSetl-KHkoPkzgCVTKWjSI,171
+airium/__main__.py,sha256=kToBbrTM4d2AKa64mEkGeqsYNeqWiMBr0-hhcJZdlCY,2501
+airium/forward.py,sha256=GcyXf7ypFemxUaX_xRYJIa8BXQ3BXaHeQYvdLIScfgg,5819
+airium/reverse.py,sha256=tYU08Mcbu-8dmvGjJvfYu7Irjiqvgj19vMz1xQ8TSKc,3060
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=-9bQL7491G-BXCdo8SBn2dMJbuUEVCuDv26W1tjPJFE,1119
+tests/test_airium.py,sha256=Q8yY3RddcWhe2jGcCwXEmIF3j9AnjgQ_ktc8K4VWT4Q,4639
+tests/test_boiler_hello.py,sha256=WXTx3rx-i4nBkdZdhWHY35smz_C4Y4JCIAWAoX-c5fE,5073
+tests/test_main_entry.py,sha256=XK8GLp0sxv5rG898HlB2eM9QXEZGM0BG_rGeM6L5uWw,1989
+tests/test_translation.py,sha256=AAnYUced0Mk4yh4NOIXuKJq8i-ycXQPWlXFK9MATLgs,3764
+tests/test_w3_template.py,sha256=d704DZzudrs1CNNkSESVfrt1QkWO_yRpJp2PIRyZ9Lo,7249
+airium-0.1.5.dist-info/LICENSE,sha256=Q18lkWuZjM2erIaNw-b0CxI_GB05ma7CdTidKqa6HYQ,1097
+airium-0.1.5.dist-info/METADATA,sha256=KyWptA0M3V2BocKUDN4WgmOUJxS7-cCWY7Pb3_qqQqQ,5940
+airium-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+airium-0.1.5.dist-info/entry_points.txt,sha256=rBxxQKEViKg0Pd9PbVw7Ky2zg5cNryZsNiUq0ibVUvA,55
+airium-0.1.5.dist-info/top_level.txt,sha256=ZTnDuFhNhimbYRBDqIU37i9Ib9kP9xOLwMVDxn5kq5o,13
+airium-0.1.5.dist-info/RECORD,,
