@@ -1,0 +1,12 @@
+numpy
+scipy
+lxml
+netCDF4
+pandas
+python-dateutil
+shapely
+simplekml
+
+[docs]
+sphinx
+nbsphinx
