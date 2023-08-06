@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: python-plausible
+Version: 0.1.3
+Summary: Python client for plausible serverless
+Home-page: https://github.com/beaucronin/plausible
+Author: Beau Cronin
+Author-email: beau.cronin@gmail.com
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+
+UNKNOWN
+
+
