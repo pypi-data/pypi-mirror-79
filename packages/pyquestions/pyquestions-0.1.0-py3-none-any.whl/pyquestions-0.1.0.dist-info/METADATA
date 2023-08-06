@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyquestions
+Version: 0.1.0
+Summary: Return a variety of Python problem/question to solve
+Home-page: https://github.com/onkarhanchate14/pyquestion/
+Author: Onkar Hanchate
+Author-email: onkarhanchate14@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: random
+
+
+# pyquestion
+
+ It's a very simple and easy to use module which calls a function named getQuestion and returns a python problem with hint to solve it.
+### Example: 
+ import pyquestion<br/>
+ print(pyquestion.getQuestion())
+### Output:
+ Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,<br/>
+ between 2000 and 3200 (both included).<br/>
+ The numbers obtained should be printed in a comma-separated sequence on a single line.
+
+#### Hints: 
+ Consider use range(#begin, #end) method
+
+
