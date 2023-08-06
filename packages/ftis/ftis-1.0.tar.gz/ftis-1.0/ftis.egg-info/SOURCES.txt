@@ -1,0 +1,11 @@
+setup.py
+ftis/__init__.py
+ftis/corpus.py
+ftis/filters.py
+ftis/process.py
+ftis/visualisation.py
+ftis.egg-info/PKG-INFO
+ftis.egg-info/SOURCES.txt
+ftis.egg-info/dependency_links.txt
+ftis.egg-info/requires.txt
+ftis.egg-info/top_level.txt
