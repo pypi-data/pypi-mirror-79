@@ -1,0 +1,12 @@
+gradescope/__init__.py,sha256=9jOrbKPZMk1X4CM488CCu_iUU-VPZoAsOaFCNGIXKU8,1923
+gradescope/api.py,sha256=JIjctXnj4cy5OB58wpi9PNAwpyz-min2TpOjo-7KzXk,5064
+gradescope/exceptions.py,sha256=S7E7ev7e4X4COkKO8GNL9aW421WTsYdumdC29tVyd8c,1725
+gradescope/macros.py,sha256=qWCHMbjQYKmn3ocQaKEqvkoDsPCv94bvJfhGuu8eGdM,7833
+gradescope/raw_util.py,sha256=3clU7UTLZVweFA-GA2iauKaXLvG4m1ZvY48pVG-GbHQ,2157
+gradescope/util.py,sha256=bcQf3i-6brmCdWljKysDwiqpoOANNgYDq6T-Y1Sl--k,2475
+gradescope/version.py,sha256=ENC38DpS567L8HPjwrBIcA_hLPEjNTUlyNka7EJs7Mk,38
+gradescope-0.1.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+gradescope-0.1.0.dist-info/METADATA,sha256=THmmrKUY8E9mu82jl4Rcq4C_Z71TMPeyQkNDsduneW8,999
+gradescope-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gradescope-0.1.0.dist-info/top_level.txt,sha256=axXpch8tm_TjR7D3QVlg4aQs6w_kclAewxd5TMmvEjU,11
+gradescope-0.1.0.dist-info/RECORD,,
