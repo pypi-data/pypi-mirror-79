@@ -1,0 +1,15 @@
+pydgraph/__init__.py,sha256=ajeJxA1fTWrzuyyqyaM_g0pjJHuPQJRMH5BxM6USdCI,849
+pydgraph/client.py,sha256=4mStirVFAe1ZL8V8Mk3c8QfeXXkyh_w3DZVvtIP-lH0,5988
+pydgraph/client_stub.py,sha256=ErEOGTNOEq5m4dyLOJ2FE5wrDkE87npTihkfudqKxSQ,4149
+pydgraph/errors.py,sha256=dn7VC2Tp3jUB-pcrhpGl2kC4U3YvFpFFItsKjJURrUk,1755
+pydgraph/meta.py,sha256=ICDgKEHoLb4wJn3It3B-AM-cVDY2OUFZ2hmKHN39ak0,637
+pydgraph/txn.py,sha256=w-ht53wzocCv5uTePo7c1bZeF9qKTffp_6uab8Zu6TU,12132
+pydgraph/util.py,sha256=fQ5RfBd72qoSdrySDVGeMKo9NN3D_dVJ7zFAU4fs63E,1952
+pydgraph/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydgraph/proto/api_pb2.py,sha256=cVQdSzw93mGimDOzP3OqzGRDfRMhpbD1pyOqifR8g6o,51012
+pydgraph/proto/api_pb2_grpc.py,sha256=lvfY25v_tYfIdtB9JsrLzL6TLLW8agVk4AL9IwxfOBM,4076
+pydgraph-20.7.0.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+pydgraph-20.7.0.dist-info/METADATA,sha256=0Y09E5y_KmTewe0lggB9pLy8iiaFjIY1SlPWw_Xn7pE,16066
+pydgraph-20.7.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pydgraph-20.7.0.dist-info/top_level.txt,sha256=Ips9LCSAX39qgXwDIiB5OCwAsofZjhUimfiW0hcIgzw,9
+pydgraph-20.7.0.dist-info/RECORD,,
