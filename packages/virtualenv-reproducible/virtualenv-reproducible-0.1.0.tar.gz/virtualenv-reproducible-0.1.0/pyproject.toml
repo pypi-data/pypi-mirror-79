@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "virtualenv_reproducible"
+dist-name = "virtualenv-reproducible"
+author = "Thomas Grainger"
+author-email = "virtualenv-reproducible@graingert.co.uk"
+home-page = "https://github.com/graingert/virtualenv_reproducible"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "virtualenv>=20.0.31",
+    "pthogen",
+]
+
+[tool.flit.entrypoints.pthogen]
+virtualenv_reproducible = "virtualenv_reproducible:pth"
