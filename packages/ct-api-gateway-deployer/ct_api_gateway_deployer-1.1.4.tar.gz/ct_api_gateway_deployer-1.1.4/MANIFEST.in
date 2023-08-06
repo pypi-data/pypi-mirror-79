@@ -1,0 +1,4 @@
+include *.md
+include LICENSE
+include requirements.txt
+recursive-include ct_api_gateway_deployer *.py *.json *.ipynb *.html

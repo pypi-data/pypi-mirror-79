@@ -1,0 +1,5 @@
+boto3>=1.9
+Flask>=1.0
+Flask-RESTful>=0.3
+jsonschema>=2.6
+ruamel.yaml>=0.15
