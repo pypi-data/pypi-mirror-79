@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: scenic
+Version: 2.0.0b1
+Summary: The Scenic scenario description language.
+Home-page: https://github.com/BerkeleyLearnVerify/Scenic
+License: BSD-3-Clause
+Author: Daniel Fremont
+Author-email: dfremont@ucsc.edu
+Maintainer: Daniel Fremont
+Maintainer-email: dfremont@ucsc.edu
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: dev
+Provides-Extra: guideways
+Requires-Dist: antlr4-python3-runtime (>=4.8,<4.9)
+Requires-Dist: astor (>=0.8.1,<0.9.0); extra == "dev"
+Requires-Dist: attrs (>=19.3.0,<20.0.0)
+Requires-Dist: dotmap (>=1.3.13,<2.0.0)
+Requires-Dist: mapbox_earcut (>=0.12.10,<0.13.0)
+Requires-Dist: matplotlib (>=3.2.1,<4.0.0)
+Requires-Dist: numpy (>=1.18.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.2.0.34,<4.3.0.0)
+Requires-Dist: pillow (>=7.1.1,<8.0.0)
+Requires-Dist: pygame (>=2.0.0.dev6,<3.0.0)
+Requires-Dist: pynverse (>=0.1.4,<0.2.0)
+Requires-Dist: pyproj (>=2.6.0,<3.0.0); extra == "guideways" or extra == "dev"
+Requires-Dist: pytest (>=6.0.0,<7.0.0); extra == "dev"
+Requires-Dist: pytest-randomly (>=3.2.1,<4.0.0); extra == "dev"
+Requires-Dist: scipy (>=1.4.1,<2.0.0)
+Requires-Dist: shapely (>=1.7.0,<2.0.0)
+Requires-Dist: sphinx (>=3.1.0,<4.0.0); extra == "dev"
+Requires-Dist: sphinx_rtd_theme (>=0.4.3,<0.5.0); extra == "dev"
+Requires-Dist: tox (>=3.14.0,<4.0.0); extra == "dev"
+Requires-Dist: wrapt (>=1.12.1,<2.0.0)
+Project-URL: Documentation, https://scenic-lang.readthedocs.io
+Project-URL: Repository, https://github.com/BerkeleyLearnVerify/Scenic
+Description-Content-Type: text/markdown
+
+# Scenic
+
+[![Documentation Status](https://readthedocs.org/projects/scenic-lang/badge/?version=latest)](https://scenic-lang.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+A compiler and scene generator for the Scenic scenario description language.
+Please see the [documentation](https://scenic-lang.readthedocs.io/) for installation instructions, as well as tutorials and other information about the Scenic language, its implementation, and its interfaces to various simulators.
+
+For a description of the language and some of its applications, see [our PLDI 2019 paper](https://arxiv.org/abs/1809.09310) (*note:* the syntax of Scenic has changed slightly since then).
+Scenic was designed and implemented by Daniel J. Fremont, Tommaso Dreossi, Shromona Ghosh, Edward Kim, Xiangyu Yue, Alberto L. Sangiovanni-Vincentelli, and Sanjit A. Seshia.
+
+If you have any problems using Scenic, please submit an issue to [our GitHub repository](https://github.com/BerkeleyLearnVerify/Scenic) or contact Daniel at <dfremont@ucsc.edu>.
+
+The repository is organized as follows:
+
+* the _src/scenic_ directory contains the package proper;
+* the _examples_ directory has many examples of Scenic programs;
+* the _docs_ directory contains the sources for the documentation;
+* the _tests_ directory contains tests for the Scenic compiler.
+

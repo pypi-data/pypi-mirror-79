@@ -1,0 +1,6 @@
+[console_scripts]
+scenic=scenic.__main__:dummy
+
+[pygments.lexers]
+scenic=scenic.syntax.pygment:ScenicLexer
+
