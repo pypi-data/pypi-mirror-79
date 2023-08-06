@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "rdptools"
+version = "0.1.2"
+description = ""
+authors = ["Baiyue Cao <caobaiyue@live.com>"]
+
+[tool.poetry.dependencies]
+python = "3.*"
+Office365-REST-Python-Client = "2.2.0"
+pandas = "*"
