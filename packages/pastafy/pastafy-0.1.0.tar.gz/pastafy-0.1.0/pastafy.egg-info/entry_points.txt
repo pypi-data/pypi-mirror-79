@@ -1,0 +1,3 @@
+[console_scripts]
+pastafy = pastafy.cli:main
+
