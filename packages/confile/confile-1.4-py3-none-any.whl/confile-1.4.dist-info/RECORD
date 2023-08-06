@@ -1,0 +1,9 @@
+confile/__init__.py,sha256=Le8gQBwW2nmV0s2Ib9woGuvc8sCAt0X3tLHq2DRnR7Y,94
+confile/confile.py,sha256=5tWfqmQi4BMFRDgm-ge-wg01EPHQzR8mtBqMtFuaixo,6018
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_confile.py,sha256=1ZB4Jied5vbGYxVp_gCB3jnakJGmfsbJkg1EESiyu2Q,6738
+confile-1.4.dist-info/LICENSE,sha256=EyuKOo7kwBokZD2I2w3yKTT3WkS_vM2gLCv8tYkrJOE,1064
+confile-1.4.dist-info/METADATA,sha256=0Icw-iDrwozderFH51ZKOTBlU7DjQXIRNejT8WA7WK0,539
+confile-1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+confile-1.4.dist-info/top_level.txt,sha256=zxvdslMBLCbZLzZzBOohmi3nJ8ItuI8NaKqLgN-uTGM,14
+confile-1.4.dist-info/RECORD,,
