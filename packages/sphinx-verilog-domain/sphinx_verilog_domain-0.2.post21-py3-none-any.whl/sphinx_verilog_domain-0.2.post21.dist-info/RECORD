@@ -1,0 +1,9 @@
+sphinx_verilog_domain/__init__.py,sha256=dZOHAhj7zp8qGDad1lS5h9yvLBY7qYrBqP9K2qtjPlk,316
+sphinx_verilog_domain/verilog.lark,sha256=4RABB50jFiQ8iDZI5oKngT1cmgwJcL9zsMZqBfDGwjs,8015
+sphinx_verilog_domain/verilogdomain.py,sha256=Yy0Se0CGA3NeSG18khLDHbQtGaoHN9jKSzuuRP-g2qQ,28436
+sphinx_verilog_domain/version.py,sha256=v8ZBNnScyyVAvWFEQk1v8631EdB9VWBQ_7DV2O8MvRA,27
+sphinx_verilog_domain-0.2.post21.dist-info/LICENSE,sha256=hV0_DrkfpfgdFVV7RujePum9qgJumUWusaV2GXO8oGY,739
+sphinx_verilog_domain-0.2.post21.dist-info/METADATA,sha256=Gw7qkOzpu7JPQDmPM4h8Nbx9cHn-jb53KabRBgXpsSQ,3155
+sphinx_verilog_domain-0.2.post21.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sphinx_verilog_domain-0.2.post21.dist-info/top_level.txt,sha256=p-sd_agHhAD-6MCWO4tgk0ySj2BGsHER54Mnc1vM-yc,22
+sphinx_verilog_domain-0.2.post21.dist-info/RECORD,,
