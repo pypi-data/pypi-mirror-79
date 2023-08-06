@@ -1,0 +1,13 @@
+coupang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coupang/category.py,sha256=_u22bgcqr1HnD_7Oo-6SlVcE4CEeUXtFvIvR4qkx9PQ,1918
+coupang/common.py,sha256=JcM2d6Q8xLXb6s-Ufuyl2-nm38GuJ_zJXH-K-9asRt8,6463
+coupang/exchange.py,sha256=9cmU8uNhZoKmRWNyZblmcr4Xsr3nnnAB6XE__KKG70k,2476
+coupang/ordersheet.py,sha256=GKVwc_GK-CN-Q9_B3ZMqThvn2Cch-SdtGYBBX-Hfr-o,6275
+coupang/product.py,sha256=bLqaO-ptYzvQa_R59HQAYhMydoD6W0UZT74VqYSqj4o,4529
+coupang/return.py,sha256=ly3RVDRhrnYGydJv8ni37CLxafRm7snuIYbo9wZwJOY,4488
+coupang/search.py,sha256=sJXUEbl3NgXdjrlZd6PCUSbbzhzsrw6H_c8acljbKjE,2824
+coupang/shipping.py,sha256=rGM9wFDFRlqCtMsZKvrmNhuSSHnSrAWATbC3yPa2W4g,5032
+coupang-1.2.2.dist-info/METADATA,sha256=ctplxKYUlkAvsrmz-3n6fY_zVof-aZwkpJFK5MXh1I0,3665
+coupang-1.2.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+coupang-1.2.2.dist-info/top_level.txt,sha256=CD9QI-5jCRE4u8WW57IBO7pXlUCR7wFTvEwerJQmVp4,8
+coupang-1.2.2.dist-info/RECORD,,
