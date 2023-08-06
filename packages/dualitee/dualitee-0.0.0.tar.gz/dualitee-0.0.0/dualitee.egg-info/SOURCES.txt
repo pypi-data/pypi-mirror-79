@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+dualitee/__init__.py
+dualitee.egg-info/PKG-INFO
+dualitee.egg-info/SOURCES.txt
+dualitee.egg-info/dependency_links.txt
+dualitee.egg-info/requires.txt
+dualitee.egg-info/top_level.txt
+tests/__init__.py
+tests/test_popen.py
+tests/test_run.py
