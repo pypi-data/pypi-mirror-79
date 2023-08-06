@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PrivatePirxcy/__init__.py
+PublicPartyBotFinal.egg-info/PKG-INFO
+PublicPartyBotFinal.egg-info/SOURCES.txt
+PublicPartyBotFinal.egg-info/dependency_links.txt
+PublicPartyBotFinal.egg-info/requires.txt
+PublicPartyBotFinal.egg-info/top_level.txt
