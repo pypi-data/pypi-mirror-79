@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+api.py
+setup.py
+TwitterScraperAPI.egg-info/PKG-INFO
+TwitterScraperAPI.egg-info/SOURCES.txt
+TwitterScraperAPI.egg-info/dependency_links.txt
+TwitterScraperAPI.egg-info/requires.txt
+TwitterScraperAPI.egg-info/top_level.txt
+packages/__init__.py
+packages/default_data.py
+packages/extractor.py
