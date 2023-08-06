@@ -1,0 +1,7 @@
+README.md
+setup.py
+openweather_api/__init__.py
+openweather_api_client.egg-info/PKG-INFO
+openweather_api_client.egg-info/SOURCES.txt
+openweather_api_client.egg-info/dependency_links.txt
+openweather_api_client.egg-info/top_level.txt
