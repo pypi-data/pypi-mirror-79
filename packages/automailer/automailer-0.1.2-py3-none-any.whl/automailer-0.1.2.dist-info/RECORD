@@ -1,0 +1,8 @@
+automailer/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+automailer/__main__.py,sha256=8N600BBz4ofp-DWya4czujCZOMU4bNSNs_PPtQiDSBM,76
+automailer/app.py,sha256=EJdt9v-m1fSOHcCd0mhkmdxm6DLLLb5C3cMquuzI7uo,758
+automailer/client.py,sha256=Nf3B-yLiqHn6UnkImBkG_15-hgbjrHaAkoZOFsXUAe4,651
+automailer-0.1.2.dist-info/entry_points.txt,sha256=8fLcwwkxowz2pwTnRdmrsv0Q1j2qhHwfqX082SE_1MY,53
+automailer-0.1.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+automailer-0.1.2.dist-info/METADATA,sha256=xRUj_CgHYKfhSPGzbFk8m67GIUm4Pik8tf25uOIsyZI,425
+automailer-0.1.2.dist-info/RECORD,,

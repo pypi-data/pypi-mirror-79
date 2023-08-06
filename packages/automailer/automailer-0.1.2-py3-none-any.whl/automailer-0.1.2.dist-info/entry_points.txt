@@ -1,0 +1,3 @@
+[console_scripts]
+automailer=automailer.client:mail
+
