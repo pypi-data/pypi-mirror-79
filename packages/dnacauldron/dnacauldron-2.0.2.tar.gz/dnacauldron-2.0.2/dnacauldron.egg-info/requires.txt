@@ -1,0 +1,15 @@
+Biopython
+numpy
+matplotlib
+fuzzywuzzy
+pandas
+scipy
+networkx
+dna_features_viewer
+flametree
+snapgene_reader
+proglog
+xlwt
+openpyxl
+python-Levenshtein
+xlrd
