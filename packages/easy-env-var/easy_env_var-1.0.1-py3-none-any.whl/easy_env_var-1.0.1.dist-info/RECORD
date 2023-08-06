@@ -1,0 +1,9 @@
+easy_env_var/__init__.py,sha256=ixfLUHy0Z-9TWL2420Euw4TdQqjnkcd-mzyBWiVYWF4,1394
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_env.py,sha256=CPjcPejN3vecjvXX1uKJAOPeuAWgiJRep34d_hL35OQ,1696
+easy_env_var-1.0.1.dist-info/LICENSE,sha256=GXpW4nbhDgrZp7-nRhjqDdjDQU1a0QwPtgxemYd3M0Q,1064
+easy_env_var-1.0.1.dist-info/METADATA,sha256=QPrgkGONQq0xXkBAVRCqSyfTvqHmLh59wyKovuP19AM,3664
+easy_env_var-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easy_env_var-1.0.1.dist-info/top_level.txt,sha256=63fF9PP2Bt6o2sxXYTxtohzhxijIoKksEH8FQMLWnzY,19
+easy_env_var-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+easy_env_var-1.0.1.dist-info/RECORD,,
