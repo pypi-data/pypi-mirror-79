@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: thesaurus-test
+Version: 0.0.4
+Summary: A package to help analysts extract key terms
+Home-page: https://github.com/gniu25/package
+Author: RCDC
+Author-email: guiran.niu@nih.gov
+License: MIT
+Description: thesaurus_test
+        ==============
+        
+        .. image:: https://img.shields.io/pypi/v/thesaurus_test.svg
+            :target: https://pypi.python.org/pypi/thesaurus_test/
+            :alt: Latest PyPI version
+         
+        
+        .. image:: https://travis-ci.com/github/gniu25/package.png
+           :target: https://travis-ci.com/github/gniu25/package
+           :alt: Latest Travis CI build status
+        
+        A package to help analysts extract key terms
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `thesaurus_test` was written by `RCDC <guiran.niu@nih.gov>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
