@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Artists
+Version: 0.0.2
+Summary: Crawling Package
+Home-page: https://github.com/jhk0530/artists
+Author: Jinhwan Kim
+Author-email: jinhwan.kim@codestates.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Artists
+
+This is a Long description for Artists package.
+
