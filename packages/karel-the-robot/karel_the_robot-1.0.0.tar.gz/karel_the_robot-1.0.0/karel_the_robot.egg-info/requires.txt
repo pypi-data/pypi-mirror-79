@@ -1,0 +1,8 @@
+numpy
+threading
+time
+traceback
+os
+functools
+itertools
+pygame
