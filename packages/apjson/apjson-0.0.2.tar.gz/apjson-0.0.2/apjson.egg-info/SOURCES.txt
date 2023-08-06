@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test.py
+apjson/__init__.py
+apjson/pretty.py
+apjson/utils.py
+apjson.egg-info/PKG-INFO
+apjson.egg-info/SOURCES.txt
+apjson.egg-info/dependency_links.txt
+apjson.egg-info/requires.txt
+apjson.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+__pycache__/
+.vs*/
+*.py[cod]
+build/
+dist/
+*.py[cod]
+*.egg-info
