@@ -1,0 +1,13 @@
+channels_demultiplexer/__init__.py,sha256=ok2jxQn-sXNzffZkGSpge0mg4f0C71esREwhJaoVhtc,79
+channels_demultiplexer/apps.py,sha256=1f7aAxT4_Y1xvBxGJAIhxKIoxoBoKBbcKiikuaSC-zw,240
+channels_demultiplexer/conf.py,sha256=P-4qeo-W8BgkJMFvWt70S9rLgIt2AEum6-H7Mvo-eKA,520
+channels_demultiplexer/demultiplexer.py,sha256=N5cpANRhIG4aeddfkUJdksdTWK4n2GYv2A_SBO7aiOg,5309
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=Rx164gI1bmcxw-bhyH5g62Pkul8L4p4WL7BweLfX6Bc,1924
+tests/tests.py,sha256=VBWGRjUlcDt-Xq1VIVmrUnS_r5L0xblzOZwg1T4Bcag,4103
+tests/urls.py,sha256=wzujcE4O5ABizUszgbRk6SoIk2QxG5oOAljBHH2eiTk,117
+channels_demultiplexer-1.0.0.dist-info/LICENSE,sha256=uauXjtzdsU27vxEzjGb4CZY6a8dwPwbcDcRMWTeVyIw,1074
+channels_demultiplexer-1.0.0.dist-info/METADATA,sha256=ODylhudULPUone5yhMaqyiKhSvciZDSqSY6DEH8CwZ0,3649
+channels_demultiplexer-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+channels_demultiplexer-1.0.0.dist-info/top_level.txt,sha256=TIURSokt5XV9tCLIuaUdcn98isOZYC2J1dS9xyemTxI,29
+channels_demultiplexer-1.0.0.dist-info/RECORD,,
