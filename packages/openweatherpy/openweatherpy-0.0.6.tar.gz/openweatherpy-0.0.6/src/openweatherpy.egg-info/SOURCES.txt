@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dist/openweatherpy-0.0.6-py3-none-any.whl
+dist/openweatherpy-0.0.6.tar.gz
+src/OpenweatherPy.py
+src/openweatherpy.egg-info/PKG-INFO
+src/openweatherpy.egg-info/SOURCES.txt
+src/openweatherpy.egg-info/dependency_links.txt
+src/openweatherpy.egg-info/requires.txt
+src/openweatherpy.egg-info/top_level.txt
