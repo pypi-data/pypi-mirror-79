@@ -1,0 +1,16 @@
+telegram_upload/__init__.py,sha256=IBsWBQ8XNiFAUYVYpg66oIf_0THA_jUPoCq-AF7ZO6s,151
+telegram_upload/_compat.py,sha256=Y18-REBcBbKEz47QGI3rkV__OWOVRTG5NfCLdLO3mvY,86
+telegram_upload/client.py,sha256=AMmtkNX09YyaNBoLCH6J-Ij3zg8E4-SGiZfFk9e7SgU,5450
+telegram_upload/config.py,sha256=9tKYdwh16IW7-vq4GalNTHTWH0sivPbXOPJbsM-O6F8,555
+telegram_upload/exceptions.py,sha256=cPQNfAO6YQWkYwSHpQx-0XSaIF_hVgvPQwZY4098hOM,1045
+telegram_upload/files.py,sha256=wlq-gmc7gJFOMawuHzxRIT7tzJWDsfHAkZC_vevsUxM,2220
+telegram_upload/management.py,sha256=RuYXX924jvPdBEnL4H5myth74NANu7onNBHMZpPQbLc,3808
+telegram_upload/utils.py,sha256=8Prjfui501leUaxJvi9V7xgTMrM-wESNxY4UggjkG0Y,707
+telegram_upload/video.py,sha256=NUHXmhFl7oeMkD7B_fByI4zPHSSLuESA0_lsvjxllmw,2215
+telegram_upload-0.3.3.dist-info/AUTHORS.rst,sha256=4tX575bFMlYBFihEfbb7Xd4cQutegpV1LwrtAsor010,152
+telegram_upload-0.3.3.dist-info/LICENSE,sha256=g_aUsXELJm7xr5ajI78NwVBpzWN9KT4OMzLHuY_MMRk,1065
+telegram_upload-0.3.3.dist-info/METADATA,sha256=VZbFZwSt3isbU2ZarYZXusghXdZEC-D-4UbQfhlVZ4A,4440
+telegram_upload-0.3.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+telegram_upload-0.3.3.dist-info/entry_points.txt,sha256=88t4mSViiO0qLDLGzMDeKxBCFAtAKKsUfiLcTVlOIlo,135
+telegram_upload-0.3.3.dist-info/top_level.txt,sha256=Zz3m0I2yrTru7fuxEzMCoXZrqoC5UWZYyG7yIDZg2xA,16
+telegram_upload-0.3.3.dist-info/RECORD,,
