@@ -1,0 +1,4 @@
+gym>=0.13.1
+gym_ignition_models
+lxml
+numpy
