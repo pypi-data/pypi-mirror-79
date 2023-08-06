@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rankedpairs
+Version: 1.0.0
+Summary: A lightweight ranked pairs python package
+Home-page: https://github.com/sjlequar/PyRP
+Author: Simon Lequar
+Author-email: simon.lequar@gmail.com
+License: MIT
+Keywords: voting vote election ranked pairs choice
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyRP (rankedpairs)
+A Ranked Pairs Python Module
+
+This module will eventually contain implementations of all popular ranked choice voting methods in a single lightweight python package. At present, only Ranked Pairs has been implemented.
+
+```console
+pip install rankedpairs
+```
+
+
+
+
