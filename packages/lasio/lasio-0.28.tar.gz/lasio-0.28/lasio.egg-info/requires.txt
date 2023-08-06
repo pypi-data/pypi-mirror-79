@@ -1,0 +1,15 @@
+numpy
+
+[all]
+pandas
+cchardet
+openpyxl
+
+[test]
+pandas
+cchardet
+openpyxl
+pytest>=3.6
+pytest-cov
+coverage
+codecov
