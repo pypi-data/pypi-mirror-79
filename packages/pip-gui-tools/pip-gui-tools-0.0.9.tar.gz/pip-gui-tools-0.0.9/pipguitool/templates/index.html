@@ -1,0 +1,368 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PIP UI Management Tool</title>
+  <meta name="description" content="PIP UI Management Tool">
+  <meta name="author" content="Sam Sultan">
+
+  <!-- JQuery -->
+  <script src="{{ url_for('static', filename='jquery-3.5.1.min.js') }}"></script>
+  <!-- End of JQuery -->
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}" />
+  <script src="{{ url_for('static', filename='bootstrap.js') }}"></script>
+  <!-- End of Bootstrap -->
+
+  <style type="text/css">
+  	
+  	body{
+  		margin: 4em;
+  	}
+
+  </style>
+
+</head>
+
+<body>
+  
+	<div class="container-fluid text-center"> 
+
+		<div class="row content">
+
+			<div class="col-sm-2 sidenav">
+
+			</div>
+
+			<div class="col-sm-8 text-left"> 
+
+				<div class="row">
+					
+					<div class="col-6">
+						
+						<button id="install-package" class="btn btn-info">Install a Package</button>
+						<button id="install-package-file" class="btn btn-info">Install File Package (.whl)</button>
+
+					</div>
+
+				</div>
+
+				<br/>
+				
+				<table class="table table-striped">
+					<thead>
+					  <tr>
+					    <th>Package Name</th>
+					    <th>Version</th>
+					    <th></th>
+					  </tr>
+					</thead>
+					<tbody id="package-list">
+					  
+					  {% for package in packages %}
+						  <tr id="package-id-{{ package.name }}" class="package-row">
+						    <td>{{ package.name }}</td>
+						    <td>{{ package.version }}</td>
+						    <td>
+						    	<button class="btn btn-danger float-right remove" data-package="{{ package.name }}" data-id="package-id-{{ package.name }}">remove</button>
+						    </td>
+						  </tr>
+					  {% endfor %}
+
+					</tbody>
+				</table>
+
+			</div>
+
+			<div class="col-sm-2 sidenav">
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- Remove of a Package Modal -->
+	<div class="modal fade" id="removeModal" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Remove Package</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        Are you sure you want to remove?
+	        <div id="remove-package-alert" class="alert alert-danger d-none">Hello</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button id="remove-package-cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+	        <button id="remove-package" type="button" class="btn btn-primary">Remove</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End of Remove of a Package Modal -->
+
+
+	<!-- Install a Package Modal -->
+	<div class="modal fade" id="installModal" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Install Packages</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <!--<input id="install-package-input" type="text" placeholder="numpy, scipy, requests, etc..." />-->
+	        <div class="form-group">
+		        <textarea id="install-package-input" 
+		        			rows="6"
+		        			placeholder="numpy==1.18.0&#10;scipy&#10;requests&#10;..."></textarea>
+	    	</div>
+	        <div id="install-package-alert" class="alert alert-danger d-none"></div>
+	      </div>
+	      <div class="modal-footer">
+	        <button id="install-package-cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+	        <button id="install-package-btn" type="button" class="btn btn-primary">Install</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End of Install of a Package Modal -->
+
+
+	<!-- Install a file Package Modal -->
+	<div class="modal fade" id="installFileModal" tabindex="-1" role="dialog" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Install File Packages</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <input id="install-package-file-input" type="file" name="file" />
+	        <div id="install-package-file-alert" class="alert alert-danger d-none"></div>
+	      </div>
+	      <div class="modal-footer">
+	        <button id="install-package-file-cancel" type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+	        <button id="install-package-file-btn" type="button" class="btn btn-primary">Install</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- End of Install of a file Package Modal -->
+
+
+
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+
+
+			// Install a Package
+			$("#install-package").on('click', function(){ $("#installModal").modal("toggle"); });
+			$("#install-package-cancel").on('click', function(){ $("#install-package-input").val(""); $("#install-package-alert").addClass("d-none"); });
+			$("#install-package-btn").on('click', function(){
+				var pkgs = $("#install-package-input").val().split(/\r?\n/).map( p => p.trim() ),
+					install_btn = $(this),
+					package_alert = $("#install-package-alert"),
+					installModel = $("#installModal");
+
+					install_btn.prop("disabled", true);
+					$.ajax({
+						method: "POST",
+						url: "/install",
+						contentType: "application/json",
+						data: JSON.stringify({ packages: pkgs }),
+						complete: function(jqXHR, status){
+							var msg = JSON.parse(jqXHR.responseText);
+
+							var valid = true;
+
+							for(var key in msg){
+								if(!msg[key]['installed']){
+									package_alert.html(package_alert.html()+"\n<strong>"+key+": </strong>"+msg[key]['message']);
+									valid = false;
+								}
+							}
+
+							if(valid){
+								installModel.modal('hide');
+								$("#install-package-input").val("");
+								package_alert.addClass("d-none");
+							}else
+								package_alert.removeClass("d-none");
+							
+							refreshTable();
+
+							install_btn.prop("disabled",false);
+						}
+					});
+			});
+			// End Install of a Package
+
+
+
+			// Remove Package
+			$('.remove').on('click', function () {
+			  	var modal = $('#removeModal');
+			  	modal.modal('toggle');
+			  	var removeButton = modal.find("#remove-package");
+			  	removeButton.attr("data-package", $(this).attr("data-package"));
+				removeButton.attr("data-id", $(this).attr("data-id"));
+			});
+
+			$('#remove-package').on('click', function(){
+				var package = $(this).attr("data-package"), 
+					button = $(this),
+					package_alert= $("#remove-package-alert");
+				button.prop("disabled",true);
+				$.ajax({
+					method: "POST",
+					url: "/remove",
+					contentType: "application/json",
+					data: JSON.stringify({ packages: [package] }),
+					complete: function(jqXHR, status){
+						console.log(JSON.parse(jqXHR.responseText));
+						if(status == "error")
+							package_alert.text("Error").removeClass("d-none");
+						else if(status == "success"){
+							package_alert.text("").addClass("d-none");
+							var row =  $("#"+button.attr("data-id"));
+							row.off('click');
+							row.remove();
+							$('#removeModal').modal("hide");
+						}
+						button.prop("disabled",false);
+					}
+				});
+			});
+
+			$("#remove-package-cancel").on('click', function(){
+				$("#remove-package-alert").text("").addClass("d-none");
+				$("#remove-package").prop("disabled", false);
+			});
+			// End of Remove Package
+
+
+
+			// Install Wheel through file upload
+			$("#install-package-file").on('click', function(){ $("#installFileModal").modal("toggle"); });
+			$("#install-package-file-cancel").on('click', function(){ $("#install-package-file-alert").addClass("d-none"); });
+			$("#install-package-file-btn").on('click', function(){
+				var fd = new FormData(),
+					install_btn = $(this),
+					package_alert = $("#install-package-file-alert"),
+					installModel = $("#installFileModal");
+
+					fd.append('file', $("#install-package-file-input").prop('files')[0]);
+
+					install_btn.prop("disabled", true);
+					$.ajax({
+						method: "POST",
+						url: "/file",
+						data: fd,
+			            contentType: false,
+			            cache: false,
+			            processData: false,
+						complete: function(jqXHR, status){
+							var msg = JSON.parse(jqXHR.responseText);
+
+							var valid = true;
+
+							for(var key in msg){
+								if(!msg[key]['installed']){
+									package_alert.html(package_alert.html()+"\n<strong>"+key+": </strong>"+msg[key]['message']);
+									valid = false;
+								}
+							}
+
+							if(valid){
+								installModel.modal('hide');
+								$("#install-package-file-input").val("");
+								package_alert.addClass("d-none");
+							}else
+								package_alert.removeClass("d-none");
+							
+							refreshTable();
+
+							install_btn.prop("disabled",false);
+						}
+					});
+			});
+			// End of Wheel install through file file upload
+
+
+
+		});
+
+		
+		/*
+		* Refresh Table
+		*/
+		function refreshTable(){
+
+			$.ajax({
+				method: "GET",
+				url: "/list",
+				contentType: "application/json",
+				complete: function(jqXHR, status){
+					var msg = JSON.parse(jqXHR.responseText);
+
+					$(".remove").off("click");
+					$("#package-list").empty();
+
+					for(var key in msg)
+						addPackage(msg[key]);
+					
+				}
+			});
+
+		}
+
+
+		/*
+		* Add Package to the UI table
+		*/
+		function addPackage(pkg){
+
+			if(!pkg['message'].includes("Collecting "+pkg['name']) && pkg['message'] != "available"){
+				return;
+			}
+
+			$("#package-list").append(
+				'<tr id="package-id-'+pkg['name']+'" class="package-row">'
+					+'<td>'+pkg['name']+'</td>'
+					+'<td>'+pkg['version']+'</td>'
+					+'<td>'
+						+'<button id="remove-btn-'+pkg['name']+'" class="btn btn-danger float-right remove" data-package="'+pkg['name']+'" data-id="package-id-'+pkg['name']+'">remove</button>'
+					+'</td>'
+				+'</tr>'
+				);
+			$('#remove-btn-'+pkg['name']).on('click', function () {
+			  	var modal = $('#removeModal');
+			  	modal.modal('toggle');
+			  	var removeButton = modal.find("#remove-package");
+			  	removeButton.attr("data-package", $(this).attr("data-package"));
+				removeButton.attr("data-id", $(this).attr("data-id"));
+			});
+
+		}
+
+	</script>
+
+</body>
+
+</html>
