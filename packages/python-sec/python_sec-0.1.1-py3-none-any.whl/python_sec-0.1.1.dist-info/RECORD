@@ -1,0 +1,13 @@
+pysec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysec/edgar.py,sha256=3B535rXNBLAdESYeWdGU4-d7TMujEEl9hTPSjADelEI,57282
+pysec/filing_types.py,sha256=SML67hE67WhsfDD_3AmiPf3QgQtGb3ln7ZWoWT6d0XU,16389
+pysec/parser.py,sha256=IQQpUT46FWUyB541PCw2zmzDRO8gLGsNUu2LIegADwg,19156
+pysec/xbrl.py,sha256=ztvIM5z4kDyK0KdVqW0tSBoDDX1pFl6o-DDDNEHJ7gI,16397
+pysec/parsing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysec/parsing/country_code.html,sha256=GzUY16aWTM6SjHbazksEcNhZHGY5O2J0M5m35lV2eXY,10749
+pysec/parsing/dropdown_html.html,sha256=0NX4fy9Br26v9vH46E-KMLFKSWbb_5rVqgs28p9sug8,10533
+python_sec-0.1.1.dist-info/LICENSE,sha256=9lITtutg01JkQWhjw6wZRYid-ZjvCFxqJYW_nb-vS0E,1087
+python_sec-0.1.1.dist-info/METADATA,sha256=NwZEKcrW8Vp-3pLY36UAinKPBbR_8Ioz6aA-Dxu-58A,4548
+python_sec-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+python_sec-0.1.1.dist-info/top_level.txt,sha256=OnyXY4mZ9c_4V5r5ERWNDVSXBLFiNcklnRLEPKJpOXo,6
+python_sec-0.1.1.dist-info/RECORD,,
