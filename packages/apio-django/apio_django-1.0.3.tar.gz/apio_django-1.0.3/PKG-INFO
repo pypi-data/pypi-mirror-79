@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apio_django
+Version: 1.0.3
+Summary: Application error & performance monitoring
+Home-page: https://github.com/
+Author: Apio Team
+Author-email: apio.monitor@gmail.com
+License: MIT
+Description: #Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
