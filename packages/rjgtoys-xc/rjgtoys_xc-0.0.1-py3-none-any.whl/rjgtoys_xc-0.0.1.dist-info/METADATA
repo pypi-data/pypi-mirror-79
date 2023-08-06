@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rjgtoys-xc
+Version: 0.0.1
+Summary: Structured exceptions for Python
+Home-page: https://github.com/bobgautier/rjgtoys-xc
+Author: Robert J Gautier
+Author-email: bob.gautier@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Provides-Extra: autodoc
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'autodoc'
+Provides-Extra: fastapi
+Requires-Dist: fastapi (>=0.61.1) ; extra == 'fastapi'
+
+# XC: Structured exceptions for Python
+
+XC encourages a structured, disciplined approach to use of exceptions: it reduces the
+overhead of declaring exceptions that are specific to a cause,
+and that contain information of use to the handler.   That in turn makes it easier
+to write concise handlers.
+
+A Sphinx extension makes it easy to produce good documentation from properly declared exceptions.
+
+XC exceptions can be serialised into standard-compliant, language-independent JSON,
+which makes them easy to use in web APIs, even when the consumer is not written in Python.
+
+Read the documentation at http://rjgtoys.readthedocs.org/projects/xc/
+
+
