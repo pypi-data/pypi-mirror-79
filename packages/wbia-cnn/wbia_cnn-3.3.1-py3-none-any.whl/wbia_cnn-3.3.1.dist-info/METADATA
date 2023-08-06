@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: wbia-cnn
+Version: 3.3.1
+Summary: WBIA CNN - Convolutional Neural Network (CNN) plug-in for WBIA
+Home-page: https://github.com/WildbookOrg/wbia-plugin-cnn
+Author: Jon Crall, Jason Parham, WildMe Developers
+Author-email: dev@wildme.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: scikit-learn (>=0.16.1)
+Requires-Dist: theano
+Requires-Dist: wildbook-ia
+Requires-Dist: wbia-utool
+Requires-Dist: wbia-vtool
+Provides-Extra: all
+Requires-Dist: cmake ; extra == 'all'
+Requires-Dist: ninja ; extra == 'all'
+Requires-Dist: scikit-build ; extra == 'all'
+Requires-Dist: setuptools (>=42) ; extra == 'all'
+Requires-Dist: setuptools-scm[toml] (>=3.4) ; extra == 'all'
+Requires-Dist: wheel ; extra == 'all'
+Requires-Dist: scikit-learn (>=0.16.1) ; extra == 'all'
+Requires-Dist: theano ; extra == 'all'
+Requires-Dist: wildbook-ia ; extra == 'all'
+Requires-Dist: wbia-utool ; extra == 'all'
+Requires-Dist: wbia-vtool ; extra == 'all'
+Requires-Dist: brunette ; extra == 'all'
+Requires-Dist: codecov (>=2.0.15) ; extra == 'all'
+Requires-Dist: coverage (>=4.3.4) ; extra == 'all'
+Requires-Dist: pytest (>=3.3.1) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: xdoctest (>=0.3.0) ; extra == 'all'
+Provides-Extra: build
+Requires-Dist: cmake ; extra == 'build'
+Requires-Dist: ninja ; extra == 'build'
+Requires-Dist: scikit-build ; extra == 'build'
+Requires-Dist: setuptools (>=42) ; extra == 'build'
+Requires-Dist: setuptools-scm[toml] (>=3.4) ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: runtime
+Requires-Dist: scikit-learn (>=0.16.1) ; extra == 'runtime'
+Requires-Dist: theano ; extra == 'runtime'
+Requires-Dist: wildbook-ia ; extra == 'runtime'
+Requires-Dist: wbia-utool ; extra == 'runtime'
+Requires-Dist: wbia-vtool ; extra == 'runtime'
+Provides-Extra: tests
+Requires-Dist: brunette ; extra == 'tests'
+Requires-Dist: codecov (>=2.0.15) ; extra == 'tests'
+Requires-Dist: coverage (>=4.3.4) ; extra == 'tests'
+Requires-Dist: pytest (>=3.3.1) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: xdoctest (>=0.3.0) ; extra == 'tests'
+
+=========================
+Wildbook IA Plug-in - CNN
+=========================
+
+|Build| |Pypi| |ReadTheDocs|
+
+Convolutional Neural Network (CNN) plug-in for WBIA - Part of the WildMe / Wildbook IA Project.
+
+# Prerequisites
+* CUDA toolkit
+* CUDA =>3.0 compatible NVIDIA graphics card
+* Python 2.7.x
+* numpy
+* pandas
+* matplotlib
+* scikit-learn
+* Remaining: pip install -r https://raw.githubusercontent.com/dnouri/kfkd-tutorial/master/requirements.txt
+
+.. |Build| image:: https://img.shields.io/github/workflow/status/WildbookOrg/wbia-plugin-cnn/Build%20and%20upload%20to%20PyPI/master
+    :target: https://github.com/WildbookOrg/wbia-plugin-cnn/actions?query=branch%3Amaster+workflow%3A%22Build+and+upload+to+PyPI%22
+    :alt: Build and upload to PyPI (master)
+
+.. |Pypi| image:: https://img.shields.io/pypi/v/wbia-wbia-cnn.svg
+   :target: https://pypi.python.org/pypi/wbia-wbia-cnn
+   :alt: Latest PyPI version
+
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/wbia-wbia-cnn/badge/?version=latest
+    :target: http://wbia-wbia-cnn.readthedocs.io/en/latest/
+    :alt: Documentation on ReadTheDocs
+
+
