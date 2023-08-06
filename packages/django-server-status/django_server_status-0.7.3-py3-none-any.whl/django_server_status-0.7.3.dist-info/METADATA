@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-server-status
+Version: 0.7.3
+Summary: Monitor server status with a healthcheck.
+Requires-Dist: django
+
+Home-page: https://github.com/mitodl/django-server-status
+Author: MIT Office of Digital Learning
+Author-email: mitx-devops@mit.edu
+License: The AGPL License
+Description: UNKNOWN
+Keywords: django,monitoring,health check
+Platform: OS Independent
