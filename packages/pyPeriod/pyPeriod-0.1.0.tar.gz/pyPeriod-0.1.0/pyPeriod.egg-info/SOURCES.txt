@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyPeriod/__init__.py
+pyPeriod/extra.py
+pyPeriod/periods.py
+pyPeriod.egg-info/PKG-INFO
+pyPeriod.egg-info/SOURCES.txt
+pyPeriod.egg-info/dependency_links.txt
+pyPeriod.egg-info/requires.txt
+pyPeriod.egg-info/top_level.txt
