@@ -1,0 +1,12 @@
+gensty/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gensty/__main__.py,sha256=0uaEMLXmIHiKpTowTOM4_YhPYViQdyb_gIj7F6ZgM1w,65
+gensty/cli.py,sha256=KUKLeHR21A9xeGRmKs_Ss6AgXWIow1yuN_7A6pMAoN8,7236
+gensty/config.py,sha256=FCWrX6YTCJ40lXqih0clYMKhyztJ2kNRsYUASSlBWrY,361
+gensty/font.py,sha256=Doe7hMtSdNXgRs-MLyoQHmGLWjid7oPdZVwbe4E-odE,11486
+gensty/helpers.py,sha256=udQprgjx0YXmc-D3mpXp_2jlD6S2XYNdIpSP3LSkSf4,3854
+gensty-0.2.9.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+gensty-0.2.9.dist-info/METADATA,sha256=gbJNwujdQtYinbLhRjq-LCbWCw2CdvLEgSM2V4sWmOE,4138
+gensty-0.2.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gensty-0.2.9.dist-info/entry_points.txt,sha256=ZXhkp25cJiu0Ry3OSQ3yZ6TaSAhfQgymCKml0DK5Bl4,39
+gensty-0.2.9.dist-info/top_level.txt,sha256=tv1mZe4-awu6CmZsUE7xxQTZLafgyeNq1OutgdfOwfA,7
+gensty-0.2.9.dist-info/RECORD,,
