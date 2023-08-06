@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: badgrclient
+Version: 0.1
+Summary: A python library for Badgr APIs
+Home-page: https://github.com/snehalbaghel/badgrclient
+Author: Snehal Baghel
+Author-email: snehalbaghel@gmail.com
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: badgr,openbadges,api,library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
