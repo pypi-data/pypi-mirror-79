@@ -1,0 +1,7 @@
+fastapi
+aiosmtplib
+python-multipart
+email-validator
+
+[fastapi]
+fastapi
