@@ -1,0 +1,8 @@
+README.md
+setup.py
+courtbot.egg-info/PKG-INFO
+courtbot.egg-info/SOURCES.txt
+courtbot.egg-info/dependency_links.txt
+courtbot.egg-info/not-zip-safe
+courtbot.egg-info/requires.txt
+courtbot.egg-info/top_level.txt

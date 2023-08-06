@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: courtbot
+Version: 0.0.0.0
+Summary: Generic Court Scraper for Courbot system use
+Home-page: https://github.com/codefortulsa/courtbot-library
+Author: Code for Tulsa
+Author-email: code-for-tulsa@googlegroups.com
+License: MIT
+Description: # Court Scraping utilities
+        
+        A python library for scraping case information from court systems.
+        
+        
+        
+        ## Development Install
+        
+        1. Create and activate a Python 3.7.3 virtual env
+        1. `git clone git@github.com:codefortulsa/courtbot-library.git`
+        1. `cd courtbot-library`
+        1. `pip install -e .`
+        
+        ## Usage
+        
+        Install with `pip install courtbot`
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
