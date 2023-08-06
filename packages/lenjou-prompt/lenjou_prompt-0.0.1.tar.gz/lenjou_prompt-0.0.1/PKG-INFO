@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lenjou_prompt
+Version: 0.0.1
+Summary: Window prompt and voice prompt for crawler
+Home-page: https://gitee.com/lenjou/lenjou_prompt.git
+Author: lenjou
+Author-email: helijie9966@163.com
+License: UNKNOWN
+Description: lenjou-helijie
+        Window prompt and voice prompt for crawler
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
