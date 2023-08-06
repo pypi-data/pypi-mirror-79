@@ -1,0 +1,16 @@
+matrix-nio[e2e]>=0.10.0
+Markdown>=3.1.1
+PyYAML>=5.1.2
+dateparser>=0.7.4
+readabledelta>=0.0.2
+apscheduler>=3.6.3
+pytz>=2020.1
+
+[dev]
+isort==5.0.4
+flake8==3.8.3
+flake8-comprehensions==3.2.3
+black==19.10b0
+
+[postgres]
+psycopg2>=2.8.5
