@@ -1,0 +1,16 @@
+SQLAlchemy<1.3
+invoke
+psycopg2
+rattail[auth,bouncer,db]
+Tailbone
+
+[catapult]
+onager
+rattail-onager
+tailbone-onager
+
+[corepos]
+mysql-connector-python==8.0.17
+pyCOREPOS
+rattail-corepos
+tailbone-corepos
