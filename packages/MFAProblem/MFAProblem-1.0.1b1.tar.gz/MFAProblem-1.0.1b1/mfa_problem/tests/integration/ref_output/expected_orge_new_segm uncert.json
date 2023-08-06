@@ -1,0 +1,10 @@
+{
+  "Log": [
+    "INFO  ---- Main Problem : orge_new_segm uncert ----",
+    "ERROR table u, product CP orig. anim., sector Alimentation animale rente (EA) : no children,                 at least one is expected.",
+    "ERROR table u, product Levures, sector Alimentation animale rente (EA) : no children,                 at least one is expected.",
+    "ERROR Inconsistencies found in ter",
+    "ERROR Could not load input supply use tables. Please check input.",
+    ""
+  ]
+}
