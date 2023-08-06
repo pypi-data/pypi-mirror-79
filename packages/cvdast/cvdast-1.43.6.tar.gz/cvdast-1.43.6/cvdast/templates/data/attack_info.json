@@ -1,0 +1,66 @@
+{
+    "info": {
+        "sql-injection": {
+            "blind-sql-injection": {
+                "description": "Blind SQL Injection occurs when data input by a user is interpreted as an SQL command rather than as normal data by the backend database",
+                "impact": "May possible to run CRUD operations on arbitrary data or tables from the database. In certain cases it is possible to execute commands on the underlying operating system",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.1, PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": ["payloads-sql-blind-MSSQL-INSERT.txt", "MySQL.txt", "oracle.txt", "MSSQL_blind.txt"]
+            },
+            "err0r-based-sql-injection": {
+                "description": "Error-based SQLi is a technique that relies on error messages thrown by the database server to obtain information about the structure of the database",
+                "impact": " May possible for an attacker to enumerate an entire database",
+                "severity": "High",
+                "remedy": "Error messages should be disabled on a live site, or logged to a file with restricted access instead.",
+                "ease of exploitation": "",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            },
+            "union-based-sql-injection": {
+                "description": "Union based in injection technique leverages the UNION SQL operator to combine the results of two or more SELECT statements into a single result which is then returned as part of the HTTP response.",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database. In certain cases it is possible to execute commands on the underlying operating system",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            },
+            "out-of-band-sql-injection": {
+                "description": "Out-of-band SQL Injection occurs when an attacker is unable to use the same channel to launch the attack and gather results. In these requests, the target makes a DNS request to the attacker-owned domain, with the query result inside the sub domain. This means that an attacker does not need to see the result of the injection, but can wait until the database server sends a request instead.",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database.",
+                "severity": "Critical",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": []
+            }
+        },
+        "all-s": {
+                "description": "sample description",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database.",
+                "severity": "Medium",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": ["all-attacks-win.txt", "rfi.txt"]
+        },
+        "xss": {
+                "description": "sample description",
+                "impact": " May possible to run CRUD operations on arbitrary data or tables from the database.",
+                "severity": "Medium",
+                "remedy": "A robust method for mitigating the threat of SQL injection-based vulnerabilities is to use parameterized queries",
+                "ease of exploitation": "Several tools available to exploit this kind of issue",
+                "classification": "PCI 3.2, CAPEC-66, CWE-89, HIPAA-89, ISO27001-A.14.2.5, WASC-19, OWASP 2013-A1, OWASP 2017-A1",
+                "references": [],
+                "file_set": ["JHADDIX_XSS_WITH_CONTEXT.doc.txt"]
+        }
+    }
+}
