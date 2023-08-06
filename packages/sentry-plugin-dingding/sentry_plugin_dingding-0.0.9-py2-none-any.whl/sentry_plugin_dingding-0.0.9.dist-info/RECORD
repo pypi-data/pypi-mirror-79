@@ -1,0 +1,10 @@
+sentry_plugin_dingding/__init__.py,sha256=Q9S4OaaWBJcEmkndHCGCy6IRQ5_SnKQtwK6wF5LOWCQ,35
+sentry_plugin_dingding/forms.py,sha256=dLsPmzUJDJTjsOkPgXOwAF5TeaM99OSb703mRofEsOk,541
+sentry_plugin_dingding/plugin.py,sha256=q9BjvMZ5UCfxcFkFg3wHUJvoQ6uH8-K4uJ7YPpe6QMo,2678
+sentry_plugin_dingding/valueDict.py,sha256=GiVcCUKT3uMZcHNxcwu66U3It2hwSgNz8kca3jtCmtM,623
+sentry_plugin_dingding-0.0.9.dist-info/LICENSE,sha256=2OOfunP2ruLLen0bU1UNjIuIlX2go69kEW-x5kraJ0I,1063
+sentry_plugin_dingding-0.0.9.dist-info/METADATA,sha256=m1ILFKlM457svOrPNmJ6_MeNZPD5z3w02nHiYPZCGVU,797
+sentry_plugin_dingding-0.0.9.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+sentry_plugin_dingding-0.0.9.dist-info/entry_points.txt,sha256=5j16t5u_CFPqCada_TJRgAELcZfvMt-6ZL8u7gvIwN0,88
+sentry_plugin_dingding-0.0.9.dist-info/top_level.txt,sha256=IAteMQwluzFiRVihklnBYsFhvXNgG8ZWLdkcbEvhIT4,23
+sentry_plugin_dingding-0.0.9.dist-info/RECORD,,
