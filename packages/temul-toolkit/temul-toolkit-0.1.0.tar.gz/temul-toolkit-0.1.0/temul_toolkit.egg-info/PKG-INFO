@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: temul-toolkit
+Version: 0.1.0
+Summary: Functions for analysis of high resolution electron microscopy and spectroscopy data.
+Home-page: https://temul-toolkit.readthedocs.io/
+Author: Eoghan N O'Connell
+Author-email: eoclives@hotmail.com
+License: GPL v3
+Description: # TEMUL
+        Functions for image and signal processing, based on the packages Scikit-image, Hyperspy, Atomap, PyPrismatic, ASE, periodictable etc. Written by members of the TEMUL group from the University of Limerick, Ireland (though we welcome all help, hints and contributions!)
+        
+        ## Documentation & Installation
+        
+        For steps on how to install the TEMUL Toolkit, go to [temul-toolkit.readthedocs.io](https://temul-toolkit.readthedocs.io/en/latest/). There you will also find full searchable documentation of the functions within the TEMUL Toolkit.
+        
+        ## Cite
+        
+        To cite the TEMUL toolkit, use the following DOI:
+        
+        [![DOI](https://www.zenodo.org/badge/203785298.svg)](https://www.zenodo.org/badge/latestdoi/203785298)
+        
+Keywords: STEM,data analysis,microscopy,data science,image simulation,atomic models
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
