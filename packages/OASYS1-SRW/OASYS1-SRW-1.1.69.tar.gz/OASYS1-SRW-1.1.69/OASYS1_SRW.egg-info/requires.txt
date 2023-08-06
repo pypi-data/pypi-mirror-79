@@ -1,0 +1,5 @@
+oasys1>=1.2.46
+syned>=1.0.18
+wofry>=1.0.25
+wofrysrw>=1.1.12
+scikit-image
