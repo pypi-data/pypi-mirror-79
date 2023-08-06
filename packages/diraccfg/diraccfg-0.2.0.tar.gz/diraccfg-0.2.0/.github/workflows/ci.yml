@@ -1,0 +1,60 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: False
+      matrix:
+        python_version:
+          - 2.7.13
+          - 3.5
+          - 3.6.8
+          - 3.7
+          - 3.8
+    steps:
+    - uses: actions/checkout@v2
+    - name: Prepare environment
+      run: .github/workflows/prepare_environment.sh ${{ matrix.python_version }}
+    - name: Run pytest
+      run: |
+        . "${CONDA}/bin/activate" test-env
+        pytest
+    - name: Run pylint
+      run: |
+        . "${CONDA}/bin/activate" test-env
+        pylint -E src/diraccfg/ tests/
+
+  pycodestyle:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Prepare environment
+      run: .github/workflows/prepare_environment.sh 3
+    - name: Run pycodestyle
+      run: |
+        . "${CONDA}/bin/activate" test-env
+        pycodestyle src/diraccfg/ tests/
+
+  publish-pypi:
+    runs-on: ubuntu-latest
+    name: Publish package to PyPI
+    needs: [pytest, pycodestyle]
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git fetch --prune --unshallow
+      - name: Prepare environment
+        run: .github/workflows/prepare_environment.sh 3
+      - name: Build distributions
+        run: |
+          . "${CONDA}/bin/activate" test-env
+          python setup.py sdist bdist_wheel --universal
+      - name: Publish package
+        if: github.event_name == 'push' && startsWith(github.event.ref, 'refs/tags')
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          password: ${{ secrets.pypi_password }}
