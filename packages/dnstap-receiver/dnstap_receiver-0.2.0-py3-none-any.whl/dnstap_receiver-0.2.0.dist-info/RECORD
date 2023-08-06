@@ -1,0 +1,10 @@
+dnstap_receiver/__init__.py,sha256=HF5bZCiT2pq7ze8TxxwqE-_1p0Ze5vwL-Enl5tqt5x4,74
+dnstap_receiver/dnstap_pb2.py,sha256=fKZ-TxYRK3g07tPDB1_2q1jCfZLcFUms0td4dmF3NFY,2342
+dnstap_receiver/fstrm.py,sha256=FpRS6RhPyC1yM6WfPRUzOnvUGixf1oWKSlLfWUDF7g0,5176
+dnstap_receiver/receiver.py,sha256=72Vbxmn1Sd_EkZ9Hi1hcMYldoiBb4ffiRgsl1yC54Jg,6343
+dnstap_receiver-0.2.0.dist-info/LICENSE,sha256=XBHyIx1N2_ffyQwo_AjEalytAHWSGQpMkUxnvlJ20AM,1070
+dnstap_receiver-0.2.0.dist-info/METADATA,sha256=lIGobMP1Ko2DGAPhvbYwY8fjVdCBWWS4k6jjdRHxmxU,4964
+dnstap_receiver-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dnstap_receiver-0.2.0.dist-info/entry_points.txt,sha256=bzPt7OoA-VPMJyB-V46kkqM7mDAZnH1KyCNfWBxMjKc,77
+dnstap_receiver-0.2.0.dist-info/top_level.txt,sha256=K003aukVsNJ-FPjDLNtL1eAbNscTdkWepuWlXIlO_GI,16
+dnstap_receiver-0.2.0.dist-info/RECORD,,
