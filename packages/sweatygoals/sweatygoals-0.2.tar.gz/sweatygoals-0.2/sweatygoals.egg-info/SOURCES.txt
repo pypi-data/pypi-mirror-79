@@ -1,0 +1,7 @@
+README.md
+setup.py
+app_pkg/__init__.py
+sweatygoals.egg-info/PKG-INFO
+sweatygoals.egg-info/SOURCES.txt
+sweatygoals.egg-info/dependency_links.txt
+sweatygoals.egg-info/top_level.txt
