@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hubitatmaker
+Version: 0.3.11
+Summary: A library for interfacing with Hubitat via its Maker API
+Author: Jason Cheatham
+Author-email: jason@jasoncheatham.com
+Requires-Python: >=3.7.7,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: getmac (>=0.8.2,<0.9.0)
