@@ -1,0 +1,16 @@
+cascadict
+pprintpp
+pyyaml
+requests
+
+[full]
+aiosqlite
+asyncpg
+databases
+fastapi
+graphene
+pandas
+psycopg2-binary
+sqlalchemy
+starlette
+uvicorn

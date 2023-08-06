@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: meerschaum
+Version: 0.0.17
+Summary: Create and Manage Pipes with Meerschaum
+Home-page: https://github.com/bmeares/Meerschaum
+Author: Bennett Meares
+Author-email: bennett.meares@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Provides-Extra: full
