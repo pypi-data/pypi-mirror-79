@@ -1,0 +1,8 @@
+mcserverapi/__init__.py,sha256=i74xQQsY80NgdIcF9u5N3tLP885M7xGMcVTWj_vR_nk,57
+mcserverapi/parser.py,sha256=4YrxfhXW7xbzvXaPbsNWaLzPI1CR4bYywyafBPH5ygM,3913
+mcserverapi/player.py,sha256=08AvPLGygz2PppQMQuuw24Gh0DyDI1_bOrZaU831_iM,1911
+mcserverapi/si.py,sha256=SWT0p4KSUBRDGGNPV5osgU0IXFH6YYqxj5e0TsGzfX0,2987
+mcserverapi-0.0.1.dist-info/METADATA,sha256=WwyJlkct8Pcv70RmOuBmA0EvxBIj0JUkBGMOF5GLQfs,300
+mcserverapi-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mcserverapi-0.0.1.dist-info/top_level.txt,sha256=6OEAkoiJV98Nz6Ch_WZMzHn7iRD_T3JG5pQDElaAFZQ,12
+mcserverapi-0.0.1.dist-info/RECORD,,
