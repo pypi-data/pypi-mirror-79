@@ -1,0 +1,10 @@
+pytest
+pytest-html
+pytest-ordering
+selenium
+jmespath
+requests
+pyyaml
+opencv-python
+pytesseract
+Appium-Python-Client
