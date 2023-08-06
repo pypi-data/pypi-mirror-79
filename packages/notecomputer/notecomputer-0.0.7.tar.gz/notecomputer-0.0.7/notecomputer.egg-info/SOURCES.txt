@@ -1,0 +1,15 @@
+README.md
+setup.py
+examples/install.py
+notecomputer/core.py
+notecomputer.egg-info/PKG-INFO
+notecomputer.egg-info/SOURCES.txt
+notecomputer.egg-info/dependency_links.txt
+notecomputer.egg-info/requires.txt
+notecomputer.egg-info/top_level.txt
+notecomputer/install/base.py
+notecomputer/install/config.py
+notecomputer/install/core_server.py
+notecomputer/install/configs/code-server.yaml
+script/__version__.md
+script/build.sh
