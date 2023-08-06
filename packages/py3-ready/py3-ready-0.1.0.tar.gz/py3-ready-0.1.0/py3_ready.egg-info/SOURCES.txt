@@ -1,0 +1,14 @@
+README.rst
+setup.py
+py3_ready/__init__.py
+py3_ready/apt_tracer.py
+py3_ready/cli.py
+py3_ready/dependency_tracer.py
+py3_ready/dot.py
+py3_ready/package_xml.py
+py3_ready/rosdep.py
+py3_ready.egg-info/PKG-INFO
+py3_ready.egg-info/SOURCES.txt
+py3_ready.egg-info/dependency_links.txt
+py3_ready.egg-info/entry_points.txt
+py3_ready.egg-info/top_level.txt
