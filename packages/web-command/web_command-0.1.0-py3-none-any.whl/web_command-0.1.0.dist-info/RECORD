@@ -1,0 +1,11 @@
+web_command/__init__.py,sha256=Gx0VJH942sKwugvIO9onW6XuMvDYDfmYx9zE16CsHxo,77
+web_command/console.py,sha256=5hx8T0iE_b4FIgL-TBu08XrWgPPidfGf1pJYctEXSn0,1973
+web_command/server.py,sha256=SJGTj1yjYsnwXw1HmZccjqOdY9pa2bzxfd_3JL3__1Q,7079
+web_command/static/default.html,sha256=Q6BKg_d2ChiIK0yhw-8URmPaYav5qXUghH40uwoMdgU,924
+web_command/static/web-command.css,sha256=M5O7Z6-gELIWbcodL1LMOxrk6-IKzQozpRvC7KND-oU,1371
+web_command/static/web-command.js,sha256=2ey4Llj8fXXLUOGEl3OhkBmJZIGylLgoM9zqFBCJiQM,304067
+web_command-0.1.0.dist-info/entry_points.txt,sha256=C4YhC3JkdcJ1HpkGPaV_qJHRWFc4aX_zGzXGxVXcD88,56
+web_command-0.1.0.dist-info/LICENSE,sha256=rnxrGUd8KdH8S98a6N61eCzZMN-Gz3ItkeFuklCu6n4,739
+web_command-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+web_command-0.1.0.dist-info/METADATA,sha256=wrJ3DIF034LbcHRbMxxuxQi1_SMAcLUDgA1BS6N-QnU,2173
+web_command-0.1.0.dist-info/RECORD,,
