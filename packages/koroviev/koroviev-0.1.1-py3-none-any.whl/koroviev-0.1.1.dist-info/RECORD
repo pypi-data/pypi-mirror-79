@@ -1,0 +1,10 @@
+koroviev/__init__.py,sha256=pWPZW7NMPjs-aYDYY7sUSDb5byyBVWqBgzVG3UeIAqg,100
+koroviev/__main__.py,sha256=iYJOekNLKbdgbT6n7A3TmiBdH-SOA8hHLnkqSfZQFzc,72
+koroviev/cli.py,sha256=neU9h3jWMu7hXmc9nqdaIwSy5JLerkAxWBIHbZLwFlA,3526
+koroviev/const.py,sha256=t9LA9npeJeFeCzoGfkGIPiz0mdWAdiVANIehyfAiniw,954
+koroviev/models.py,sha256=h2vIK2rnse0XGAEddJLVZniox_dqYBpjxEZGMVfzWow,753
+koroviev/utils.py,sha256=2ikm-_OeM_GhoeHc4jViV5Go_5d7gBwsgWXe_QeAiQY,3008
+koroviev-0.1.1.dist-info/entry_points.txt,sha256=m-NvMVYfyDunw_sDAKPFXCbIxoYt6--fQKV4H66SD5Q,46
+koroviev-0.1.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+koroviev-0.1.1.dist-info/METADATA,sha256=UgMUQhOCflKTWGAnClGaEzfbYriMhB561qa4BINK5Zc,788
+koroviev-0.1.1.dist-info/RECORD,,
