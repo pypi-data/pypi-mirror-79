@@ -1,0 +1,10 @@
+gedcomx/__init__.py,sha256=mMkHnQioUbZwFzKe-Rez2dVq2D_BzWoYkQ6d_TCris0,233
+gedcomx/date.py,sha256=YqkLXSpsICdcXkQ5CKlhn3J_hjM_Hfabc88NyXvJVrM,2563
+gedcomx/enums.py,sha256=G5qNLjO36lyZHByjeiLUstnGIVZxTJ-KBY4ehzKtzhE,10140
+gedcomx/fileformat.py,sha256=3Y9Yf9GUpOsiafw32UMPQMMWKXossYbg7ReLtNr0Crs,644
+gedcomx/models.py,sha256=faguZYbn_N_OgGPjtNCghwREA7mFllTH3KL7JKPVwt0,8469
+gedcomx/utils.py,sha256=BlEtDmYAb1qW_f5FhmOtUHWPGnDG7ZZ8AW-sAfLrPGg,9652
+pygedcomx-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pygedcomx-0.0.1.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+pygedcomx-0.0.1.dist-info/METADATA,sha256=ehzTZGRd57i3eABs3tf3mS1i1FA9HigWcgge7j-RVck,1576
+pygedcomx-0.0.1.dist-info/RECORD,,
