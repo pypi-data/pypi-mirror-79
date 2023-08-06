@@ -1,0 +1,3 @@
+[console_scripts]
+pyd-tpl = pyd_tpl.pyd_tpl:main
+
