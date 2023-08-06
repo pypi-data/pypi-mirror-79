@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: storybook
+Version: 0.0.0
+Summary: A mage's story. A collaboration in Python.
+Home-page: https://github.com/blakeNaccarato/storybook
+Author: Blake Naccarato
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# storybook
+A mage's story. A collaboration in Python.
+
+
