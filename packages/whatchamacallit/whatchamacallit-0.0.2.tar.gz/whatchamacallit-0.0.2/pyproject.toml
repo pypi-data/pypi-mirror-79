@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "whatchamacallit"
+version = "0.0.2"
+description = "Helper for In Place web servers."
+authors = ["Wolfgang Kühn"]
+homepage = "https://github.com/decatur/whatchamacallit"
+repository = "https://github.com/decatur/whatchamacallit"
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "whatchamacallit" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.0"
