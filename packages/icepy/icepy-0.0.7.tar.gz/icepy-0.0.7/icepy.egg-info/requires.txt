@@ -1,0 +1,5 @@
+pandas
+plotly
+pymysql
+beautifulsoup4
+numpy
