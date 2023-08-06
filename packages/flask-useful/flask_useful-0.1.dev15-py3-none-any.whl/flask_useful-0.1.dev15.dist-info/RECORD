@@ -1,0 +1,16 @@
+flask_useful/__init__.py,sha256=45hTnqSElpUzk0VlgE8UUSjq4ziq3eOtp9K7yrXObbc,2323
+flask_useful/decorators.py,sha256=VcC-o55jLH1OlqAk6Um8WJe_vYp_warxkuzKKroFmC0,382
+flask_useful/flask_access.py,sha256=dd-BR2DGFWC_Kb2JMLfPmapejhEzvsJz64-0sbsppEc,1582
+flask_useful/sqla.py,sha256=ydMuyi2wlXWBN5HKlq-LW6kSof61-WW86cJcDaL0lDk,1329
+flask_useful/utils.py,sha256=ZUe0QsgkIqt_vk_fDOf-r2jtN0W9rjyzvK2ituGaGSw,1981
+flask_useful/views.py,sha256=NgZQiDvPkmU_SsrghQu47ZZXFz8_uQxM0xAcSRsSCXw,1323
+flask_useful/wtforms/__init__.py,sha256=p6AP3jTmUPNphPYEA2F1f6_8RlElXDO1gAsG2sedL-8,26
+flask_useful/wtforms/fields.py,sha256=Odrd109POjN33FJgmgqSlm-wcR6cve4LK6uMCeNqiVE,2865
+flask_useful/wtforms/filters.py,sha256=6yQSUWBDXddN_gY71gva2cQgxEyBizS2jHA5ku_oc74,311
+flask_useful/wtforms/validators.py,sha256=f3YfeoYw_Sh4zzJUE8d_J073_nHPckRufTxP71cBAkM,2320
+flask_useful/wtforms/widgets.py,sha256=YUTHlqRktS72xoN77WGeTpa3ARvika6tdrx8RS7JsOQ,745
+flask_useful-0.1.dev15.dist-info/LICENSE,sha256=4XJHwzUy9XW_uyekVGFnB99kfj9TX2_lbPC5UhRDau8,1082
+flask_useful-0.1.dev15.dist-info/METADATA,sha256=3FqhBiWJaofpX9TfTuQlANL-5JUsVEL9PB6s598uiBg,661
+flask_useful-0.1.dev15.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flask_useful-0.1.dev15.dist-info/top_level.txt,sha256=TRL8ZtZRDQaf9wNqcB55fSTzb_bf2f3a2-pCf8tXF_U,13
+flask_useful-0.1.dev15.dist-info/RECORD,,
