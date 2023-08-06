@@ -1,0 +1,7 @@
+vconnector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vconnector/vertica_connector.py,sha256=Si9FnTZ78EZLdKdWbZiY3ekqG-eo6z6Yi6xVaWXO_pQ,5728
+vertica_connector_talenttech-1.0.9.dist-info/LICENSE.txt,sha256=ToYGxa-ZF8-Srx-fp2OkSJUHwqRG8PR7AJXHkXM_xFg,1071
+vertica_connector_talenttech-1.0.9.dist-info/METADATA,sha256=olLKAawVXqce7XnUxEdaxouxi1deYV-hpK5IoiNRFMQ,1401
+vertica_connector_talenttech-1.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vertica_connector_talenttech-1.0.9.dist-info/top_level.txt,sha256=xuJbsxpkV42FiTVLGWj9K0FiHV_ukWU-4sskGIQu24M,11
+vertica_connector_talenttech-1.0.9.dist-info/RECORD,,
