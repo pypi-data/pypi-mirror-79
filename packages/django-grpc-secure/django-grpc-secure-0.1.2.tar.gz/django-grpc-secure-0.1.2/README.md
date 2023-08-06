@@ -1,0 +1,109 @@
+# django-grpc-secure
+
+Add secure part for django-grpc
+
+
+Easy way to launch gRPC server with access to Django ORM and other handy stuff.
+gRPC calls are much faster that traditional HTTP requests because communicate over
+persistent connection and are compressed. Underlying gRPC library is written in C which
+makes it work faster than any RESTful framework where a lot of time is spent on serialization/deserialization.
+
+Note that you need this project only if you want to use Django functionality in gRPC service. 
+For pure python implementation [read this](https://grpc.io/docs/languages/python/quickstart/)
+
+* Supported Python: 3.4+
+* Supported Django: 2.X and 3.X
+
+## Installation
+
+```bash
+pip install django-grpc-secure
+``` 
+
+Update settings.py
+```python
+INSTALLED_APPS = [
+    # ...
+    'django_grpc_secure',
+]
+
+GRPCSERVER = {
+    'servicers': ['dotted.path.to.callback.eg.grpc_hook'],  # see `grpc_hook()` below
+    'interceptors': ['dotted.path.to.interceptor_class',],  # optional, interceprots are similar to middleware in Django
+    'maximum_concurrent_rpcs': None,
+}
+```
+
+The callback that initializes "servicer" must look like following:
+```python
+import my_pb2
+import my_pb2_grpc
+
+def grpc_hook(server):
+    my_pb2_grpc.add_MYServicer_to_server(MYServicer(), server)
+
+...
+class MYServicer(my_pb2_grpc.MYServicer):
+
+    def GetPage(self, request, context):
+        response = my_pb2.PageResponse(title="Demo object")
+        return response
+```
+
+## Usage
+```bash
+python manage.py grpcserversecure
+```
+* you can specify host by using `--host localhost` option
+
+* use `--secure` for using ssl mode 
+* And add below settings to your django project settings.py file
+```python
+GRPC_PRIVATE_KEY = "" # absolute path for private key *.pem
+GRPC_CERTIFICATE_CHAIN = "" # absolute path for certificate_chain *.crt
+``` 
+
+For developer's convenience add `--autoreload` flag during development.
+
+
+## Signals
+The package uses Django signals to allow decoupled applications get notified when some actions occur:
+* `django_grpc.signals.grpc_request_started` - sent before gRPC server begins processing a request
+* `django_grpc.signals.grpc_request_finished` - sent when gRPC server finishes delivering response to the client
+* `django_grpc.signals.grpc_got_request_exception` - this signal is sent whenever RPC encounters an exception while
+processing an incoming request.
+
+Note that signal names are similar to Django's built-in signals, but have "grpc_" prefix.
+
+
+## Serializers
+There is an easy way to serialize django model to gRPC message using `django_grpc.serializers.serialize_model`.
+
+
+## Testing
+Test your RPCs just like regular python methods which return some 
+structure or generator. You need to provide them with only 2 parameters:
+request (protobuf structure or generator) and context (use `FakeServicerContext` from the example below).
+
+## client example
+```python
+import grpc
+import my_pb2
+import my_pb2_grpc
+
+
+with open('xxx.crt', 'rb') as f:
+    certificate_chain = f.read()
+creds = grpc.ssl_channel_credentials(root_certificates=certificate_chain)
+
+with grpc.secure_channel('localhost:50051', creds) as channel:
+    stub = my_pb2_grpc.GreeterStub(channel)
+    response = stub.Who(my_pb2.HelloRequest())
+    print(response)
+```
+
+
+In addition to standard gRPC context methods, FakeServicerContext provides:
+ * `.set_invocation_metadata()` allows to simulate metadata from client to server.
+ * `.get_trailing_metadata()` to get metadata set by your server
+ * `.abort_status` and `.abort_message` to check if `.abort()` was called 
