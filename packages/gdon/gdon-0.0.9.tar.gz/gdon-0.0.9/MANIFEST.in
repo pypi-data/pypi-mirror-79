@@ -1,0 +1,5 @@
+include gdon/objects/recto.png
+include gdon/objects/Roboto-Medium.ttf
+include gdon/objects/verso.png
+include gdon/objects/wordlist.txt
+
