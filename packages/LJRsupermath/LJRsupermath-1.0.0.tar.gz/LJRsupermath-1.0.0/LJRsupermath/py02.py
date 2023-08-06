@@ -1,0 +1,2 @@
+def ins():
+    print(ins)
