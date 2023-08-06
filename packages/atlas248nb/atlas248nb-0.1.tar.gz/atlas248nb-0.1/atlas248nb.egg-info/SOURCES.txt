@@ -1,0 +1,8 @@
+README.md
+atlas248nb
+setup.py
+atlas248nb/__init__.py
+atlas248nb.egg-info/PKG-INFO
+atlas248nb.egg-info/SOURCES.txt
+atlas248nb.egg-info/dependency_links.txt
+atlas248nb.egg-info/top_level.txt
