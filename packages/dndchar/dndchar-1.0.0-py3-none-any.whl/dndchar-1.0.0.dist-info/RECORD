@@ -1,0 +1,14 @@
+dndchar/__init__.py,sha256=1b-2ARyBMv4qLxNIoywPlStzmo5q_BWVoJbCtdkVE9I,47
+dndchar/backgrounds.py,sha256=gG2RyArw6cIf9ImhONOjUZ-uwynyz-T0b4DkaQ5qXXY,7614
+dndchar/classes.py,sha256=TP1eRkrNZSaRZqejDD4tzALPDIE4Ai2sVKq3kVs0kzE,31535
+dndchar/command_line.py,sha256=p8FU7Z_5Zvxl5brdNCucKSObJFvpxO1BxcHpguKY33Y,78
+dndchar/data.py,sha256=tHx3tR8O8qGo58alyS-oe_2Wm3gtmJi0sLuqnIpJHuo,2246
+dndchar/player.py,sha256=6Jgej1d01L9hLle1H6DVOBNfOvge2StD2XK4ATHSh9k,4001
+dndchar/races.py,sha256=x-FGv_J3oIJjYAfiTlbA0zvNBLjr1rkfNVXaviihpGY,26869
+dndchar/scores.py,sha256=XR3iruwURtYy2Lizadxf7c13NWKayWdTttYgpoQm7x4,983
+dndchar/util.py,sha256=bGTtsgWYv3MGViIiqX4sVSLRkVzuBPNcXU0GiVQ94hg,1485
+dndchar-1.0.0.dist-info/METADATA,sha256=FDit4qKxVqzd6CKo-9aTjShLgBPeJJKyQkOti8GU6DE,482
+dndchar-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dndchar-1.0.0.dist-info/entry_points.txt,sha256=p0mqYIGRDHfgQxC6Qp1c6_dNy8BBXWtmwI0Mg7qz8MU,55
+dndchar-1.0.0.dist-info/top_level.txt,sha256=Fz1j1ZcwsDqT8R9-2Yts0KemC80wipuNxmr2sRI473s,8
+dndchar-1.0.0.dist-info/RECORD,,
