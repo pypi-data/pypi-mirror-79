@@ -1,0 +1,17 @@
+SUGGESTED_AMOUNT = 10
+MAX_AMOUNT = 1000000000
+SUGGESTED_DEV_PERCENT = 5
+DATE_FORMAT = "[0-9]{2}/[0-9]{2}/[0-9]{4}"
+PUBKEY_FORMAT = "[1-9A-HJ-NP-Za-km-z]{43,44}"
+DEFAULT_FOLDER = "~/Documents/G1dons/"
+WALLETS_FOLDER = "Recuperation_ne_pas_supprimer/"
+BACKUP_FOLDER = ".backup/"
+PDF_BACKUP_FOLDER = "pdf/"
+PDF_EXTENSION = ".pdf"
+SIGNED_EXTENSION = ".json.signed"
+CONF_FILE = "~/.config/gdon.conf"
+MAX_PAGES = 10
+MAX_ISSUERS = 18
+COMMENT = "G1Don"
+NAME = "Ğ1Dons"
+HTTP_PORT = 80
