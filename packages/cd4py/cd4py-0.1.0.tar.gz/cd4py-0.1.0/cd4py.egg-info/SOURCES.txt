@@ -1,0 +1,12 @@
+README.md
+setup.py
+cd4py/__init__.py
+cd4py/__main__.py
+cd4py/lib.py
+cd4py/pytokenizer.py
+cd4py.egg-info/PKG-INFO
+cd4py.egg-info/SOURCES.txt
+cd4py.egg-info/dependency_links.txt
+cd4py.egg-info/entry_points.txt
+cd4py.egg-info/requires.txt
+cd4py.egg-info/top_level.txt

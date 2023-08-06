@@ -1,0 +1,3 @@
+[console_scripts]
+cd4py = cd4py.__main__:main
+
