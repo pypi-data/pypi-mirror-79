@@ -1,0 +1,4 @@
+[console_scripts]
+mysql2s3=mysql2s3.mysql2s3:main
+verify-dump=mysql2s3.verify_dump:main
+
