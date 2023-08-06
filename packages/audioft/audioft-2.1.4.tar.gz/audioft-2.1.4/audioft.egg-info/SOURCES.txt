@@ -1,0 +1,8 @@
+README.md
+setup.py
+audioft/__init__.py
+audioft.egg-info/PKG-INFO
+audioft.egg-info/SOURCES.txt
+audioft.egg-info/dependency_links.txt
+audioft.egg-info/requires.txt
+audioft.egg-info/top_level.txt
