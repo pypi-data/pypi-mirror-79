@@ -1,0 +1,2 @@
+pyngrok>=4
+GitPython>=3
