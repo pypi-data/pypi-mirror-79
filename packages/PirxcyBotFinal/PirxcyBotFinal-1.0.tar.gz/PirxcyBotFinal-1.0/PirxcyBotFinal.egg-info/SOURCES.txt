@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PirxcyBotFinal.egg-info/PKG-INFO
+PirxcyBotFinal.egg-info/SOURCES.txt
+PirxcyBotFinal.egg-info/dependency_links.txt
+PirxcyBotFinal.egg-info/requires.txt
+PirxcyBotFinal.egg-info/top_level.txt
+PrivatePirxcy/__init__.py
