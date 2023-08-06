@@ -1,0 +1,7 @@
+README.md
+setup.py
+hihellobye.egg-info/PKG-INFO
+hihellobye.egg-info/SOURCES.txt
+hihellobye.egg-info/dependency_links.txt
+hihellobye.egg-info/entry_points.txt
+hihellobye.egg-info/top_level.txt
