@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pdf34
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+# pdf34 provides you convert from pdf to text and image
+
+> Subtitle or Short Description Goes Here
+
+> ideally one sentence
+
+> include terms/tags that can be searched
+
+**Badges will go here**
+
+- build status
+- issues (waffle.io maybe)
+- devDependencies
+- npm package
+- coverage
+- slack
+- downloads
+- gitter chat
+- license
+- etc.
+
+
