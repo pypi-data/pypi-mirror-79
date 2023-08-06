@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pyspeedx
+Version: 0.1.1.4.2.6
+Summary: python extension library for accelerating the making of prototypes
+Home-page: https://github.com/AbdullahAlfaraj/pyspeedx
+Author: Abdullah Alfaraj
+Author-email: abdullah.a.f2014@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
