@@ -1,0 +1,10 @@
+dessia-common
+scipy
+volmdlr>=0.1.7
+numpy
+pandas
+dectree>=0.0.4
+networkx
+matplotlib
+genmechanics>=0.0.7
+dessia_common>=0.0.3
