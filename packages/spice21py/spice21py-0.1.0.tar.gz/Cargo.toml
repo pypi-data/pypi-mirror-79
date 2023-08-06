@@ -1,0 +1,18 @@
+[package]
+name = "spice21py"
+version = "0.1.0"
+authors = [
+    "Dan Fritchman <dan@fritch.mn>",
+    "HW21 <hw21@hw21.io>"
+]
+edition = "2018"
+license = "BSD-3-Clause"
+description = "SPICE for the 21st Century"
+
+[lib]
+name = "spice21py"
+crate-type = ["cdylib"]
+
+[dependencies]
+spice21 = { path = "../spice21" }
+pyo3 = {version = "0.11.1", features = ["extension-module"]}
