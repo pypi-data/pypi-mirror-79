@@ -1,0 +1,4 @@
+dbnd==0.28.17
+tensorflow
+
+[tests]
