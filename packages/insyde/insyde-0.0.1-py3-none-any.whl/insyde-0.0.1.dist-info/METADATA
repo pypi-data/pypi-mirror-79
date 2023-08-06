@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: insyde
+Version: 0.0.1
+Summary: GUI wrapper for static code analysis and visualization tools.
+Home-page: UNKNOWN
+Author: roschly
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: streamlit
+Requires-Dist: vulture
+Requires-Dist: cohesion
+Requires-Dist: radon
+Requires-Dist: mypy
+Requires-Dist: pydeps
+Requires-Dist: plotly
+Requires-Dist: nbformat (>=4.2.0)
+Requires-Dist: graphviz
+Requires-Dist: ipykernel
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: flake8-polyfill
+
+# static-code-app
+GUI wrapper for static code analysis and visualization tools.
+
