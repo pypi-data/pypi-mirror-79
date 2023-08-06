@@ -1,0 +1,16 @@
+pugh_torch/__init__.py,sha256=x-NmX79s4BhLIUD7ngM3FuLlp6saihlBZGAEhSAhLVE,329
+pugh_torch/example.py,sha256=Gnus8uzpvWRXkrtkfTq9qpdkl4pIPs5w34zAkn6ETOk,4044
+pugh_torch/losses/__init__.py,sha256=H_Mmf5U6ZHJ874ExqEmsHaMze60AUT6KDms4KF6BiyA,55
+pugh_torch/losses/hetero_cross_entropy.py,sha256=ZoVQDAWxgpBG7zeZ9uoETkU-f1Es7yvO_iqkMwCeAuE,4237
+pugh_torch/mappings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pugh_torch/mappings/color.py,sha256=Pj7iedITdmIOjPxX_5AI4bWXRBWVaY0CCucfKd3rcmY,5750
+pugh_torch/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pugh_torch/transforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pugh_torch/transforms/imagenet.py,sha256=9pJLyfcTDnG3Y7v06Zz_WPc5e0nVfA-VgyJO8_-w-jA,2072
+pugh_torch/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pugh_torch/utils/tensorboard.py,sha256=5lkzQXyTgBlKZwUeRcxjAx25ui0zAhFxqgo_gnishJY,6465
+pugh_torch-0.2.0.dist-info/LICENSE,sha256=iKtjfIqP__KTfUYL3Vqjrt3vWud_SKr8oClIix37aeo,1069
+pugh_torch-0.2.0.dist-info/METADATA,sha256=UpMB6zOUp4iINRHYb1rNLu8QBmHHlD4KAlWg6vxuFYs,5989
+pugh_torch-0.2.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pugh_torch-0.2.0.dist-info/top_level.txt,sha256=HYfreIu9Y9xttfq1zpTP2Q-xz6hhJ-opjx5JpeXWeb4,11
+pugh_torch-0.2.0.dist-info/RECORD,,
