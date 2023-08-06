@@ -1,0 +1,7 @@
+README.md
+setup.py
+discordpy_replit_heroku.egg-info/PKG-INFO
+discordpy_replit_heroku.egg-info/SOURCES.txt
+discordpy_replit_heroku.egg-info/dependency_links.txt
+discordpy_replit_heroku.egg-info/requires.txt
+discordpy_replit_heroku.egg-info/top_level.txt
