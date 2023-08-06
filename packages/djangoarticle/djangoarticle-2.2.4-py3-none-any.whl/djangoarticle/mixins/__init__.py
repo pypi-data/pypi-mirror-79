@@ -1,0 +1,2 @@
+from djangoarticle.mixins.OnlyAdministratorAccess import OnlyAdministratorAccess
+from djangoarticle.mixins.AdministratorAndOnlyAuthorAccess import AdministratorAndOnlyAuthorAccess
