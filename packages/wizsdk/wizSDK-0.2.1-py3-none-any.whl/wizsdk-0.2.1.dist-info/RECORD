@@ -1,0 +1,13 @@
+wizsdk/__init__.py,sha256=3GFItcSZB0g7ARLjyOsDZriMP2r5vEAWnrI8Un-Gcjs,130
+wizsdk/battle.py,sha256=xMYbktDJ48HMvcsadAoQSSzOrFgsVC0fJX46Z-j3GL0,2713
+wizsdk/card.py,sha256=tsPWLKAAyoE8l6G7oEToMMqK6iG3Zi-2q3PB-OXpnAQ,2193
+wizsdk/client.py,sha256=5y4KFagWLxpOzCed-qwp1WaWDdG8N_YBmB36XzIh8hg,8871
+wizsdk/images/x.png,sha256=o_YYgQVluE3YDlvOdAoBMfyBPLRJRteVHkonpST7xt8,1749
+wizsdk/keyboard.py,sha256=BicJkD3W6oTCbqllngi-akSyoaLt8LvQSKuCBsFDvLQ,1330
+wizsdk/mouse.py,sha256=auaSQnZcw5ewDv4jLIc3NdPL3pAoZclUlPKJsgKT70A,7253
+wizsdk/pixels.py,sha256=0MXRelutFXiTTrKaUlu_WCEgA9OADV4fUsLsXr3IYOk,6321
+wizsdk/utils.py,sha256=jy6LG2k2i2438n37MlwmygOHDCSIWYAI3awVhVdDr6M,1632
+wizsdk/window.py,sha256=8dmxp-JFRMT3fxdNtFbyA_gouJyWwbGB_uF4AK5Z1CE,1449
+wizsdk-0.2.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+wizsdk-0.2.1.dist-info/METADATA,sha256=HZ97MN8IEZJMWzpNvU7GHOKEPDRSX2HHUKl8OIC7txA,722
+wizsdk-0.2.1.dist-info/RECORD,,
