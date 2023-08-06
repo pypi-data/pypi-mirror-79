@@ -1,0 +1,3 @@
+[console_scripts]
+xcoscmd = xcoscmd.cos_cmd:_main
+
