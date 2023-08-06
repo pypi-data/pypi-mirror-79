@@ -1,0 +1,14 @@
+marshmallow
+flask
+
+[tests]
+oarepo-mapping-includes
+oarepo-validate
+oarepo-invenio-model
+oarepo[tests]~=3.3.0
+
+[tests-es7]
+oarepo-mapping-includes
+oarepo-validate
+oarepo-invenio-model
+oarepo[tests-es7]~=3.3.0
