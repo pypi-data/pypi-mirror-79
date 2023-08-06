@@ -1,0 +1,8 @@
+README.rst
+setup.py
+thesaurus_test/__init__.py
+thesaurus_test/core.py
+thesaurus_test.egg-info/PKG-INFO
+thesaurus_test.egg-info/SOURCES.txt
+thesaurus_test.egg-info/dependency_links.txt
+thesaurus_test.egg-info/top_level.txt
