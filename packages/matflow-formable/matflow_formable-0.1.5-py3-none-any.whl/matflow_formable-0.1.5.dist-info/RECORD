@@ -1,0 +1,10 @@
+matflow_formable/__init__.py,sha256=q8h2F8nysHMUOAiRkvSqMxhLlGq1awBx-7QteI1neG4,838
+matflow_formable/_version.py,sha256=H1mR80ZdrBpghZx7t2XDxYEYVyICn_3XTPetP716o3s,23
+matflow_formable/load.py,sha256=_JdGml_vjQ-ljr3p_BmsEs-eWZIn_req8CR39YyZaI0,6284
+matflow_formable/main.py,sha256=tO1Rkzo--a_ocSbX7hJneBY3S5Kkdbj1T4yxB0ZahV4,1445
+matflow_formable-0.1.5.dist-info/LICENSE,sha256=I86zaKNtBOoJgXSXYpeuTr9PfW-29BTlb_j6Tnn6-KA,1096
+matflow_formable-0.1.5.dist-info/METADATA,sha256=X7n3cAWinnxy2VANp6cPMGob-xgP4OiqiKeGs_RzjUY,2227
+matflow_formable-0.1.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+matflow_formable-0.1.5.dist-info/entry_points.txt,sha256=YEx_vaJbxd1rgRxNXoeVApo7eDCN_1gqbl4Xzt89PG4,67
+matflow_formable-0.1.5.dist-info/top_level.txt,sha256=i5w7fiantur6DYX-d6mE4j87sSvoI5lpLHeZm334BLc,17
+matflow_formable-0.1.5.dist-info/RECORD,,
