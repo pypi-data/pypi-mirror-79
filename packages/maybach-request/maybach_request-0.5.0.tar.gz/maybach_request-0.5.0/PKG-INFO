@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: maybach_request
+Version: 0.5.0
+Summary: UNKNOWN
+Home-page: https://gitlab.xiguacity.cn/fee/python/maybach_request
+Author: cuvee
+Author-email: cuizaiyong@xigua.club
+License: MIT
+Description: # maybach_request
+        
+        用户实现 Python 自动批改的库
+        
+        ## 下载
+        
+        ```python
+        pip install maybach_request
+        ```
+        
+        ## 使用
+        
+        举一个例子，现在要断言一下代码的正确性：
+        
+        ```python
+        # main.py
+        # student_code_starts
+        name = input('请输入姓名：')
+        print(name)
+        # student_code_ends
+        ```
+        
+        要求：用户输入 `xigua`，控制台能正确打印出来 `xigua` 并且能检查到 `name` 变量为 `xigua`
+        
+        ```python
+        # test.py
+        from maybach-request import get_print, send_print, pass_test, no_pass_test
+        
+        # 获取用户的输入
+        # 模拟一个用户的输入
+        send_print('xigua')
+        # 获取用户的输入
+        text = get_print()
+        passed = False
+        msg = '请打印name变量'
+        if name == 'xigua':
+          for i in text:
+            if i.find('xigua'):
+              passed = True
+              msg = 'success'
+              break
+        else:
+          msg = '请声明name变量'
+        
+        if passed:
+          # 通过测试
+          pass_test(msg)
+        else:
+          # 测试不通过
+          no_pass_test(msg)
+        ```
+        
+        运行 `python test.py --port 3004 --host 127.0.0.1`，当不传 `--host` 默认使用 `127.0.0.1`
+        
+        ## 依赖
+        
+        `maybach_request` 依赖服务提供接口获取用户的输入，以及通知服务测试的结果。
+        [@xigua/maybach-server](https://gitlab.xiguacity.cn/fee/python/maybach-server) 提供了整套服务。
+        
+        ## 动态端口号
+        
+        `maybach_request` 依赖的服务端口号是动态产生的，因此在执行相应的 `python` 代码的时候，需要通过 `argv`的形式传递给 `python` 进程
+        
+        ```
+        python xxx.py --port port
+        ```
+        
+        这样 `maybach_request` 能够拿到相应的端口号，跟对应的进程通信。如果使用了
+        [@xigua/maybach-vm](https://gitlab.xiguacity.cn/fee/python/maybach-vm)
+        
+        ```js
+        import { run } from '@xigua/maybach-vm';
+        
+        run(0, xxx.py, cwd, ['--port', port]).then((res) => {
+          console.log(res);
+        });
+        
+        run(1, 'print(123)', cwd, ['--port', port], (res) => {
+          console.log(res);
+        });
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
