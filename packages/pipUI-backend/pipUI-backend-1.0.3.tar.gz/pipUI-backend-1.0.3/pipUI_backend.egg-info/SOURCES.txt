@@ -1,0 +1,11 @@
+setup.py
+pipUI_backend/__init__.py
+pipUI_backend/autocomplete.py
+pipUI_backend/pypiscraper.py
+pipUI_backend/server.py
+pipUI_backend/startup.py
+pipUI_backend.egg-info/PKG-INFO
+pipUI_backend.egg-info/SOURCES.txt
+pipUI_backend.egg-info/dependency_links.txt
+pipUI_backend.egg-info/requires.txt
+pipUI_backend.egg-info/top_level.txt
