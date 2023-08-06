@@ -1,0 +1,3 @@
+[console_scripts]
+logue = logue.logue:main
+
