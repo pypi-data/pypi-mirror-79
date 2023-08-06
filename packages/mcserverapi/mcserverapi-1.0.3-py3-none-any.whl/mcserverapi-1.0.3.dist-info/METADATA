@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mcserverapi
+Version: 1.0.3
+Summary: Integratable API for Local Minecraft Servers
+Home-page: https://github.com/TeamNightSky/MCServerWrapper
+Author: Pixymon
+Author-email: nlarsen23.student@gmail.com
+License: GNU License
+Platform: UNKNOWN
+Requires-Dist: psutil
+Requires-Dist: requests
+
+UNKNOWN
+
+
