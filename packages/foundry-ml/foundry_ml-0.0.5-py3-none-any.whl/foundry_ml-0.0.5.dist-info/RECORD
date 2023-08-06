@@ -1,0 +1,11 @@
+foundry/__init__.py,sha256=fTIh7k7a-5G0HFwjd7sl-Y1s9Rp60v3RrSWSltTFrns,43
+foundry/datacite.py,sha256=nhHhYG-RS9ZDD3y0kYmMm-xBHrYyRL1SliEaTkOLPRc,5222
+foundry/foundry.py,sha256=GksYsZKWYjtHmTtMm_TyGNYYlcJjqY0xFP5QGWHOaug,17852
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_foundry.py,sha256=tBgNFZLlAb_q_DVTrcKZhsaANId5fCHtPanFR1z0f20,25112
+tests/test_toolbox.py,sha256=uHhqp7kBteyi4-SjYdPvp7ADEuxVNqcaSDNhB2C6d2k,291
+foundry_ml-0.0.5.dist-info/LICENSE,sha256=9F-AK4aUNlS1yfryus3we1NKXlqJW24WZVuCih2k0Gg,1064
+foundry_ml-0.0.5.dist-info/METADATA,sha256=1efgU-Syqe0to9o3tNhJXqGWwj6aH9v-JvRPTpI15cM,3925
+foundry_ml-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+foundry_ml-0.0.5.dist-info/top_level.txt,sha256=j6Rw-XNQV_68H9rYbixAJHK4XRCF2SWMCrDTUrwaYag,14
+foundry_ml-0.0.5.dist-info/RECORD,,
