@@ -1,0 +1,15 @@
+magicdict/__init__.py,sha256=P_m0i-wIaB4BEDtTXTv7lFu8_VwY7qBvLWbonQ7sGTs,1519
+magicdict/_dict.py,sha256=A7Q1wZ3V1XgbkFEjsM_t8RqxrECZ6IVzYowxkK-pCwA,6348
+magicdict/_frozen_dict.py,sha256=Iuz82fjfnj8dH7HRtKm-yAcADmFuFdSc7PlaQqvNS9k,7965
+magicdict/_frozen_tolerant_dict.py,sha256=H9P4E2RcCF6puyupc8QpkXMEMwCsNG5P50drTjkRLv4,2191
+magicdict/_items_view.py,sha256=cCVWLEzek-1JnKX1_ABRO9x8GxgIxIFn5sLk7k5yUBE,4462
+magicdict/_keys_view.py,sha256=Mnh0yhS87ZcVo8UTlDB3TAzmnTAL5BfAh0Cfe-xxKIs,3798
+magicdict/_tolerant_dict.py,sha256=j2oq2qsT0l1Waf6BELh3XaVrDWiSnIyXFCcmkL_L2M8,1970
+magicdict/_values_view.py,sha256=SIZutv_UwY7-tuFx9ptUuq_WD4ixxrQztaP5vWdgyqc,1459
+magicdict/_version.py,sha256=YtaQSrJStDWoCSmByRJM_S-aWJGJ2T9FiHNloLSrYb0,968
+magicdict/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magicdict-1.0.6.dist-info/LICENSE,sha256=y3Un37T6jZx7P7bDy0bHdI0ko7cfar_uXka3WNhz3Jc,11345
+magicdict-1.0.6.dist-info/METADATA,sha256=Fdq4JG6eHeUj87ENYtaRaVYVQ2MPCw74Wry6yLJuRis,3371
+magicdict-1.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+magicdict-1.0.6.dist-info/top_level.txt,sha256=E7XkB-oN99EXaKjtbXU_EUQpR_mrAv5QjbTfTlwWEqk,10
+magicdict-1.0.6.dist-info/RECORD,,
