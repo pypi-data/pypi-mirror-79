@@ -1,0 +1,16 @@
+fastapi
+aiosmtplib
+python-multipart
+email-validator
+
+[aiosmtplib]
+aiosmtplib
+
+[email-validator]
+email-validator
+
+[fastapi]
+fastapi
+
+[python-multipart]
+python-multipart
