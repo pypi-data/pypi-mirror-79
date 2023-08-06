@@ -1,0 +1,10 @@
+*.pyc
+*~
+color_emoji/waveflag
+packages
+build
+dist
+*.egg-info/
+venv/
+.eggs/
+nototools/_version.py
