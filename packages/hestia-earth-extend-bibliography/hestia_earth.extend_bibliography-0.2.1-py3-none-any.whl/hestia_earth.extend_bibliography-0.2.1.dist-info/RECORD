@@ -1,0 +1,17 @@
+hestia_earth/__init__.py,sha256=8lTc827CONZ9w_ab38JWhRQP2264wr3BOs8uWhceSrY,77
+hestia_earth/extend_bibliography.py,sha256=SRHw4-0SoLRZieLvR53vOaxfWraOI2oRqLfzUpek32E,3633
+hestia_earth/bibliography_apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hestia_earth/bibliography_apis/crossref.py,sha256=7wHnNs1bM1n2JHhi2bJ8zFrQcjGxkpg91xC-aS_4gcg,2510
+hestia_earth/bibliography_apis/mendeley.py,sha256=oVlhiEV3KQ7PlRrt0CafxcddnVU2Sphhl6YwoXmGV2w,2604
+hestia_earth/bibliography_apis/utils.py,sha256=Ci9hMmTapLLo0JIW-Me8Jz1JV5bzvh2FE-CTIytnsRs,2561
+hestia_earth/bibliography_apis/wos.py,sha256=AxS_oTXrewHlC7kXY5QQzfROrhm0wMRN5ylOPXdr1hM,1073
+hestia_earth/bibliography_apis/wos_rest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hestia_earth/bibliography_apis/wos_rest/client.py,sha256=m4EOX0WNzbyU72Kv2VNax3TgVNvA_qWDAd4ZlvfynwA,1841
+hestia_earth/bibliography_apis/wos_soap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hestia_earth/bibliography_apis/wos_soap/client.py,sha256=oKiU2YH2X5YBPXdS-5IROnS8dBxVMs3c4ktJVPIY3yU,2141
+hestia_earth.extend_bibliography-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hestia_earth.extend_bibliography-0.2.1.dist-info/METADATA,sha256=HKfsTI1UvWJpZ2weDE81qdKq86h1xcOxL4uHinhgG7M,1233
+hestia_earth.extend_bibliography-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hestia_earth.extend_bibliography-0.2.1.dist-info/dependency_links.txt,sha256=Jcov85NYkvuu6EPuDPfupaL90dksVPTGd2qEzxe3H4w,66
+hestia_earth.extend_bibliography-0.2.1.dist-info/top_level.txt,sha256=q0QxKEYx9uLpAD5ZtC7Ypq29smEPfOzEAn7Xv8XHGOQ,13
+hestia_earth.extend_bibliography-0.2.1.dist-info/RECORD,,
