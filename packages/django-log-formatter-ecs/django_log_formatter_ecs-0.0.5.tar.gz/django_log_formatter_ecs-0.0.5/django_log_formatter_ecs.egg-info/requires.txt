@@ -1,0 +1,2 @@
+django-ipware~=3.0
+kubi-ecs-logger~=0.1.0
