@@ -1,0 +1,47 @@
+Changelog
+============
+
+2.0.1 (2020-09-18)
+------------------
+
+- Update README.
+  [erral]
+
+- Remove debugging prints.
+  [erral]
+
+
+2.0 (2020-09-18)
+----------------
+
+- Python3 support.
+  [erral]
+
+
+1.3 (2019-12-11)
+----------------
+
+- Update to work with the new 'EITB Euskal Kantak' radio.
+  [erral]
+
+
+1.2 (2015-08-07)
+----------------
+
+- Add `from ruper_detector import detektorea` shortcut
+  [erral]
+
+- Change to www.eitb.eus
+  [erral]
+
+1.1 (2013-11-08)
+--------------------
+
+- Dokumentazio apur bat
+  [erral]
+
+1.0 (2013-11-07)
+--------------------
+
+- First version
+  [erral]
