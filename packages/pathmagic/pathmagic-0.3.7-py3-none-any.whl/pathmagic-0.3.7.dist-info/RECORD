@@ -1,0 +1,11 @@
+pathmagic/__init__.py,sha256=kew2D5lSOUVQmzAfJjo3LQmA83t2AylWvQYFhYN9AEY,176
+pathmagic/accessor.py,sha256=IkozH4RR2efxLJmuP_T1CeQx3nvMlsCrqTAJGv-B-B0,4998
+pathmagic/dir.py,sha256=2DnNLfrrUZZT4Ao9hGNGY4HWPQBlFnDtqctvGnsOWEM,23889
+pathmagic/file.py,sha256=eUOgY5yOSXiIGg8gPJ0uy7Z5K-X0WsKu48ZR0X_ZE3I,11559
+pathmagic/formats.py,sha256=Tm93xLhAkJFwJxaVtCeOjFs8Y7KEY_kf456XdRwg9bE,13212
+pathmagic/path.py,sha256=s2OyHhOcif92EtpjeiQ-7qtZtUeGGVo0LDCoaW57WO0,5238
+pathmagic-0.3.7.dist-info/LICENSE,sha256=-v8A2FBFunkpOSp4uVCRtIbpv7ljrTSz-wx24Kn2AcY,1066
+pathmagic-0.3.7.dist-info/METADATA,sha256=dlP2Ao5KoXtFoA7vIH2kiegJNnRQROaSuP0Xrg-aTog,7671
+pathmagic-0.3.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pathmagic-0.3.7.dist-info/top_level.txt,sha256=LW1M0gWQfctckcFSgTr4-DHKiAa2lV0IYns0dkCtKoQ,10
+pathmagic-0.3.7.dist-info/RECORD,,
