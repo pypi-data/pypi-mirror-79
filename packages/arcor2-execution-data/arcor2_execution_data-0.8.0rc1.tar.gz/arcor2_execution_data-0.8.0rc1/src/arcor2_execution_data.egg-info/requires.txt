@@ -1,0 +1,3 @@
+arcor2==0.8.0rc1
+dataclasses-jsonschema[fast-validation]@ git+https://github.com/zdenekm/dataclasses-jsonschema.git@issue-126
+dataclasses==0.6
