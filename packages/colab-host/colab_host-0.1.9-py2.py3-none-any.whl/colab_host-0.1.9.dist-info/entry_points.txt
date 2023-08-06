@@ -1,0 +1,3 @@
+[console_scripts]
+colab_host = colab_host.cli:main
+
