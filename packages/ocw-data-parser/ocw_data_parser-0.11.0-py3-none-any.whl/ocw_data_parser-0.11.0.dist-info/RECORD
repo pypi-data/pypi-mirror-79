@@ -1,0 +1,14 @@
+ocw_data_parser/__init__.py,sha256=WRK4Z_Atcgcn3hEe0EpYPr4KbQWlop7l8NQbSbW__Iw,396
+ocw_data_parser/conftest.py,sha256=2qID6gpxC6cTQd650XXbVvLWoBofqTQlAecG3150jSM,2478
+ocw_data_parser/course_downloader.py,sha256=WzSQIUkNzWLbdS53W6fZ-rV_en6gs7SLTaC2TpA6TdM,2694
+ocw_data_parser/course_downloader_test.py,sha256=mOv9vD4hgoNXzUmX1kPbSJ4BZ--Kzk0R2zQUg7bFAA8,2670
+ocw_data_parser/ocw_data_parser.py,sha256=-oac3jx3SijdRLjuHlJZFZ3IMwei-cTXvWRmTgtXY3A,25925
+ocw_data_parser/ocw_data_parser_test.py,sha256=mGjzTqiRPYNx--QSe7y2mjiHyIHV3-DaHJ92iVAaocg,9238
+ocw_data_parser/static_html_generator.py,sha256=zMYzapaNOZuG-23VLK4SHommjlXWKUp9Bi41fDaJwao,16111
+ocw_data_parser/test_constants.py,sha256=J8jAV7YSbXaagJI21xZil9AceXxywB8684XlJobquZg,193
+ocw_data_parser/utils.py,sha256=Ha0RXSxjx9WqmiNdgoQfB50Ne04bXrkwhwc6SQmKtwM,3787
+ocw_data_parser/utils_test.py,sha256=JNVQJz0z7st6DKX0LCJNiZd_4q5lfOuWVo_iELFlz1w,4242
+ocw_data_parser-0.11.0.dist-info/METADATA,sha256=YIvcPegSvg5rlzDBxX0rweF2FHzBqximBmK5r-n4Ou0,375
+ocw_data_parser-0.11.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ocw_data_parser-0.11.0.dist-info/top_level.txt,sha256=cYFlo37zhy0g3wHHwkdIJ3GiiKg1ZuQ_gup5jftWamE,16
+ocw_data_parser-0.11.0.dist-info/RECORD,,
