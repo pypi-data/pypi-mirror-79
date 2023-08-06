@@ -1,0 +1,7 @@
+# Installation dependencies.
+
+chardet >= 2.3.0
+executor >= 18.0
+humanfriendly >= 8.0
+property-manager >= 3.0
+verboselogs >= 1.5

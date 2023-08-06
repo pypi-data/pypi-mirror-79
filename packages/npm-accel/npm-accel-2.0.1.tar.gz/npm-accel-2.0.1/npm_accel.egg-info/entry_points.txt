@@ -1,0 +1,3 @@
+[console_scripts]
+npm-accel = npm_accel.cli:main
+
