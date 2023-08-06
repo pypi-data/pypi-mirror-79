@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PartyBotPackage/__init__.py
+PublicBot.egg-info/PKG-INFO
+PublicBot.egg-info/SOURCES.txt
+PublicBot.egg-info/dependency_links.txt
+PublicBot.egg-info/requires.txt
+PublicBot.egg-info/top_level.txt
