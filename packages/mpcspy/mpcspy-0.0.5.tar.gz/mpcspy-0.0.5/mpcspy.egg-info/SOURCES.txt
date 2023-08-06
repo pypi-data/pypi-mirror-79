@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mpcspy/__init__.py
+mpcspy/mpcspy.py
+mpcspy.egg-info/PKG-INFO
+mpcspy.egg-info/SOURCES.txt
+mpcspy.egg-info/dependency_links.txt
+mpcspy.egg-info/top_level.txt
