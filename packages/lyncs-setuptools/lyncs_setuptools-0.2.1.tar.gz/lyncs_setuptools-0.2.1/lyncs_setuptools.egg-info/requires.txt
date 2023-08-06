@@ -1,0 +1,16 @@
+gitpython
+cmake
+
+[all]
+pylint
+pyenchant
+pytest-cov
+pytest
+
+[pylint]
+pylint
+pyenchant
+
+[test]
+pytest
+pytest-cov
