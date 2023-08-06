@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: answerer
+Version: 1.0.2
+Summary: A system that uses containers and scripts to answer issues at *high* speeds.
+Home-page: https://github.com/abrow425/gotIssues
+Author: Andrew Brown (aka SherpDaWerp)
+Author-email: abrow425@gmail.com
+License: Apache
+Download-URL: https://github.com/abrow425/gotIssues/archive/v1.0.2.tar.gz
+Description: See here for more information: https://github.com/abrow425/gotIssues
+Keywords: NATIONSTATES,NS,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
