@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+trivval/__init__.py
+trivval.egg-info/PKG-INFO
+trivval.egg-info/SOURCES.txt
+trivval.egg-info/dependency_links.txt
+trivval.egg-info/top_level.txt
+trivval.egg-info/zip-safe
