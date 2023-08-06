@@ -1,0 +1,13 @@
+TG_AutoPoster/TG_AutoPoster.py,sha256=zWLo9HBxKbMt8RFESnUHVCn_O7C00zs6_nfS75FKdqE,10033
+TG_AutoPoster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TG_AutoPoster/__main__.py,sha256=4RJOq5J1b2PkChI_mVgn0-Sh8BjnBgwtTFx6coPCSys,900
+TG_AutoPoster/group.py,sha256=_pwluqA6mO_ho1PcelcuTgIpYtSAYTpiaO1xo0gBH08,4979
+TG_AutoPoster/handlers.py,sha256=JEL6HXPTgonfmTD4WGrhUI3Q1YgHKiApS3biTy06tPM,1480
+TG_AutoPoster/parser.py,sha256=xSd_obWjVmZ4iYIxdtU6cS2VtydofFeThKgn5bpZc8I,13447
+TG_AutoPoster/sender.py,sha256=XUjFGsPCt1iip7o9l96YN65XglZl0B_bocJjmpCsDGM,7836
+TG_AutoPoster/tools.py,sha256=U0LoejtgBtMGFTHEarxeMQoP0ANWW2PZcHdGPBYkrb4,2475
+TG_AutoPoster-2.1.0.dist-info/LICENCE.md,sha256=ox58-Oav8OGsVcVJ9dBF66C0QI_tLLyHoIp82qdqeHc,1077
+TG_AutoPoster-2.1.0.dist-info/METADATA,sha256=7RFepDIR1fqKvw0VF4PJwiv6b0y0fAwrfuE-4KcJmig,9778
+TG_AutoPoster-2.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+TG_AutoPoster-2.1.0.dist-info/top_level.txt,sha256=JOpMQDXoLh5Sqmtl9nFzElWbfFBMX2AXveQSg5cnYfI,14
+TG_AutoPoster-2.1.0.dist-info/RECORD,,
