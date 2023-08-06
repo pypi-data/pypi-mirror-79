@@ -1,0 +1,8 @@
+bapy/__init__.py,sha256=bpiLbsFWsHPgrZ3F9LiWS7CBIYutdrozZSvNfjVryoY,136432
+bapy/meta.py,sha256=-zlMbpV3IQR9ESC-CR7U5XtaNdXBo4xOgRyliBrrD-U,8779
+bapy-0.1.21.data/scripts/bootstrap.sh,sha256=n7plGzdL7sgyPTRViU_XWY_uq-JpYWFTV3LdLZv5BtI,986
+bapy-0.1.21.dist-info/METADATA,sha256=JB_EEGeosbkgytl9wzIORCmnmxaKwshhzMl6USvGtP8,879
+bapy-0.1.21.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+bapy-0.1.21.dist-info/entry_points.txt,sha256=2RLliZClsCV2zuWAhi1w6VRBEdfTHzIPkpuq9jLGQ58,35
+bapy-0.1.21.dist-info/top_level.txt,sha256=v4m4BjiIUcPtkQKk05hXjUjjDolbvvC6GExTYgoKYMU,5
+bapy-0.1.21.dist-info/RECORD,,
