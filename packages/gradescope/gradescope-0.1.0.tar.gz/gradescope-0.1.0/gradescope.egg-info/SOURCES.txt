@@ -1,0 +1,14 @@
+README.md
+setup.py
+gradescope/__init__.py
+gradescope/api.py
+gradescope/exceptions.py
+gradescope/macros.py
+gradescope/raw_util.py
+gradescope/util.py
+gradescope/version.py
+gradescope.egg-info/PKG-INFO
+gradescope.egg-info/SOURCES.txt
+gradescope.egg-info/dependency_links.txt
+gradescope.egg-info/requires.txt
+gradescope.egg-info/top_level.txt
