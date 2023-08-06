@@ -1,0 +1,6 @@
+CHANGE LOG
+==========
+
+0.0.1 (16 SEPT, 2020)
+---------------------
+First release. No exception handling.

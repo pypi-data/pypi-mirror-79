@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: calc-by-xlabd
+Version: 0.0.1
+Summary: A simple calculator
+Home-page: https://www.github.com/xlabd/
+Author: Labhesh Valechha
+Author-email: labheshvalechha@gmail.com
+License: MIT
+Description: This is a very basic calculator.
+        It can add, subtract, multiply, and divide.
+        
+        
+        CHANGE LOG
+        ==========
+        
+        0.0.1 (16 SEPT, 2020)
+        ---------------------
+        First release. No exception handling.
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
