@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+AkshayFirstModule.egg-info/PKG-INFO
+AkshayFirstModule.egg-info/SOURCES.txt
+AkshayFirstModule.egg-info/dependency_links.txt
+AkshayFirstModule.egg-info/entry_points.txt
+AkshayFirstModule.egg-info/top_level.txt
+cube/__init__.py
+cube/__main__.py
