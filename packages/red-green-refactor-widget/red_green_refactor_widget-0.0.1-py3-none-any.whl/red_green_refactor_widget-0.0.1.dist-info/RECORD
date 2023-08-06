@@ -1,0 +1,14 @@
+red_green_refactor_widget/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+red_green_refactor_widget/app.py,sha256=9rOMuGmlb_NTuR2RcSbnvNt-jt7PEugGh1eXTi2Cvqg,1148
+red_green_refactor_widget/cli.py,sha256=xFTnspv_B_SqBV4-78N3NZvGTDt4Yik_eCP5dy8D2fo,64
+red_green_refactor_widget/debug.py,sha256=3ttZbL8XNY4lGtfo7WkfSySxs8yM1KfsEjbAMb_R4ZY,242
+red_green_refactor_widget/ui.py,sha256=fz8qjDnI6w6ma4Ejmm9eJYxP-k2HO-gXmtsbccMOCnk,2408
+red_green_refactor_widget/window.ui,sha256=oJULaSo2AUuxNhujqiKfg-XG-hleBPk8RDj-eP_FEsg,1426
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=eJx7wYgbe7XINwUOr5SUkgPUzYO4Ycxe5uLZSzF3pn0,5019
+red_green_refactor_widget-0.0.1.dist-info/LICENSE,sha256=hnIFrgNGbx4kOp_XwNroYD6IIk-PU8WUSqZX5k2rfWo,1072
+red_green_refactor_widget-0.0.1.dist-info/METADATA,sha256=ZQanj_JYTZ30RU2zy_-WUOc5rIlXySj8H0Uz5MH68R0,1980
+red_green_refactor_widget-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+red_green_refactor_widget-0.0.1.dist-info/entry_points.txt,sha256=VveIjAnurP_0E11NqOFoGScvW34f-5L5EE9k9zR9mII,82
+red_green_refactor_widget-0.0.1.dist-info/top_level.txt,sha256=bc6efImDWUbyz54iF3yrzzGabsONr9Xj9nhgjkeelU4,32
+red_green_refactor_widget-0.0.1.dist-info/RECORD,,
