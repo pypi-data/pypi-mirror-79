@@ -1,0 +1,12 @@
+simple_background_task/__init__.py,sha256=P_End44r7rbDb0ZAKovHfBrPukwmPlOB1NKCvV3jOrE,1870
+simple_background_task/task.py,sha256=J_5MPcT04AF6QRsQH8rRnVp6DAyJTSE8_uM-yF_Jn0k,474
+simple_background_task/integrate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_background_task/integrate/django/__init__.py,sha256=u0THX4ArjhwQxLWmPbLE6Lr30Z_iBvf_rlvnzkiN9gw,134
+simple_background_task/integrate/django/apps.py,sha256=-dCaOeg78LlW9WTaJ8NdTjr6FfyI7qaYS8QpWeJNx9s,386
+simple_background_task/queue/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_background_task/queue/interface.py,sha256=CVqu2G4y-TxXLcymPj_mtTdo6zp-mXdaFUA1aD_fYmM,474
+simple_background_task/queue/memory.py,sha256=2jEjLubM40BqDj4BTZBt8mMeRPEYamRe6sf1wy-k0Z4,494
+simple_background_task-0.1.1.dist-info/METADATA,sha256=xjvLg42kjdWZNGJOYEJVgPMLktMVV-jpOyW-ajWwXPU,1391
+simple_background_task-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+simple_background_task-0.1.1.dist-info/top_level.txt,sha256=uKNwz25n7z1P3ZxkBbDINjPYdLDmsFY3oVyrBBrUYrQ,23
+simple_background_task-0.1.1.dist-info/RECORD,,
