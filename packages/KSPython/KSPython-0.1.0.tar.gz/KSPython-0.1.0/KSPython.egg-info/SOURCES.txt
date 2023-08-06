@@ -1,0 +1,11 @@
+README.md
+setup.py
+KSPython/BoosterParts.py
+KSPython/KSPython.py
+KSPython/LiquidEngineParts.py
+KSPython/RocketFuelTankParts.py
+KSPython/__init__.py
+KSPython.egg-info/PKG-INFO
+KSPython.egg-info/SOURCES.txt
+KSPython.egg-info/dependency_links.txt
+KSPython.egg-info/top_level.txt
