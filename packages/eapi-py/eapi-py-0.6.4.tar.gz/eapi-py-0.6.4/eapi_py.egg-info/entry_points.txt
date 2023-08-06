@@ -1,0 +1,3 @@
+[console_scripts]
+eapi = eapi.cli:main
+
