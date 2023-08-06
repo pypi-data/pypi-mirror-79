@@ -1,0 +1,8 @@
+README.md
+getsize.py
+setup.py
+getsize.egg-info/PKG-INFO
+getsize.egg-info/SOURCES.txt
+getsize.egg-info/dependency_links.txt
+getsize.egg-info/entry_points.txt
+getsize.egg-info/top_level.txt
