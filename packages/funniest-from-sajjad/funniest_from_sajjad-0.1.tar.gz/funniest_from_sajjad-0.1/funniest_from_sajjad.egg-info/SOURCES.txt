@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+bin/funniest-joke
+funniest/__init__.py
+funniest/text.py
+funniest_from_sajjad.egg-info/PKG-INFO
+funniest_from_sajjad.egg-info/SOURCES.txt
+funniest_from_sajjad.egg-info/dependency_links.txt
+funniest_from_sajjad.egg-info/not-zip-safe
+funniest_from_sajjad.egg-info/requires.txt
+funniest_from_sajjad.egg-info/top_level.txt
