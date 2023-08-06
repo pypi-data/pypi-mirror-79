@@ -1,0 +1,2 @@
+include pipguitool/templates/*
+include pipguitool/static/*
