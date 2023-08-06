@@ -1,0 +1,11 @@
+pymodorino/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymodorino/oi.wav,sha256=aSipasqZhrovDeqnPOkXs2AITLLJAVV8yRUKsEhufjA,1597074
+pymodorino/pomodorino.png,sha256=dIzk2Qj8YmoVD8DYCplxkVqyWEvMmTP_y1e_Hxq06aU,47090
+pymodorino/pymodoro.py,sha256=H3aHsztRe9taeWpxG_XtgoLVjZXm8btF34pTm5Mk5Mo,3919
+pymodorino/utils.py,sha256=zxM6KvSkXZ61YmSE1GLhuGMzZZeaRccrLh-QZFTYv0g,1710
+pymodorino-0.0.18.dist-info/LICENSE,sha256=hDcTVTi9cSoFnxLyVbi0vHr8pPOWfCQLNIyoEMgU-ss,481
+pymodorino-0.0.18.dist-info/METADATA,sha256=MZupi03nc2SQ2Wcg3z-GC8ftOiq4tmZeusbrkY-o5go,1156
+pymodorino-0.0.18.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pymodorino-0.0.18.dist-info/entry_points.txt,sha256=CQX95VYz96oVhHJwe496qWZ4RoKYTeC9hZRTXOK9kIA,57
+pymodorino-0.0.18.dist-info/top_level.txt,sha256=hJ2VR21EsNgNdtY2aBQcGqF9gMYJhxexBCKwFcaEmcw,11
+pymodorino-0.0.18.dist-info/RECORD,,
