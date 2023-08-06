@@ -1,0 +1,16 @@
+rpdk/python/__init__.py,sha256=BHvcFalQdbVk0Wpl_Hu-Qw-MSqdGE82wA76M0IrH4BY,101
+rpdk/python/codegen.py,sha256=CerNUrwlMcMMhPbkGIsCa04Z9h9gVa-Ayre-ueU3xRg,9899
+rpdk/python/resolver.py,sha256=970n7ODGx-eVchbce9_0455EGYaJu4s_7AKkLHfWzJI,1601
+rpdk/python/data/Python.gitignore,sha256=cILWXgov31IN3nvZLDwlaIqa63MURABGrB2wVP_Ejlo,1759
+rpdk/python/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rpdk/python/templates/README.md,sha256=ENQQvE23b5dlNnTOL7uPXv_dUxTYr8_sGP3naNJKdlo,1806
+rpdk/python/templates/handlers.py,sha256=wTcoXSttkHDfQDxrTZj2lvOQckaP3C5aG3CAfKakhmY,3009
+rpdk/python/templates/models.py,sha256=CsZxJa7opW_xKKwDqqpLJP2bm0LI3PtI1pLUPUaPhR0,2485
+rpdk/python/templates/requirements.txt,sha256=jXjL1vEKlzqzGZf_kr_maS8tqpxhSmGmUMLbi82GCmc,30
+cloudformation_cli_python_plugin-2.1.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+cloudformation_cli_python_plugin-2.1.1.dist-info/METADATA,sha256=Z5_Z6Zqa6QE0AiVMJ_lZl90qV_TQLc5bTtXFguTYDOk,3854
+cloudformation_cli_python_plugin-2.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cloudformation_cli_python_plugin-2.1.1.dist-info/entry_points.txt,sha256=5LEhCDisqMq1hCCbs3CsZ5FmNnHmfqKL60vjcJlfqZc,129
+cloudformation_cli_python_plugin-2.1.1.dist-info/top_level.txt,sha256=P2OzcD2OSfk_yH1BkMS1CKIGGp5G7wuPasdZB3jNZ74,5
+cloudformation_cli_python_plugin-2.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudformation_cli_python_plugin-2.1.1.dist-info/RECORD,,
