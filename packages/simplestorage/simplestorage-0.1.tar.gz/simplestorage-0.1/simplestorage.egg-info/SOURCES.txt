@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+simplestorage/__init__.py
+simplestorage/interface.py
+simplestorage.egg-info/PKG-INFO
+simplestorage.egg-info/SOURCES.txt
+simplestorage.egg-info/dependency_links.txt
+simplestorage.egg-info/not-zip-safe
+simplestorage.egg-info/requires.txt
+simplestorage.egg-info/top_level.txt
