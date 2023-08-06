@@ -1,0 +1,9 @@
+dualitee/__init__.py,sha256=Y1bApjPQrmkXpXyAggz1wURnuq3ojwdlGBo-ZL0Lzsk,2990
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_popen.py,sha256=4Kd6UBzxGes7CbxSnm17W-0GYgD8OSmFGnvtJ4LcJy8,3954
+tests/test_run.py,sha256=0JSLcp3FGzGezo6mBmls6Zois08rdhJozCNicbuBoVk,1900
+dualitee-0.0.0.dist-info/LICENSE,sha256=SdXW0fBXOktONgy6f-W8OyUSuUPQDGPWy2lojG3Elac,1514
+dualitee-0.0.0.dist-info/METADATA,sha256=FJC6e6M1VBxJTZxt01CyIgmn-yhl0MXMydqJbi6eOmo,491
+dualitee-0.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+dualitee-0.0.0.dist-info/top_level.txt,sha256=CP1umMFshyWZQoaqz1IEpQsn_98xcZTQd54sKzjqr_M,15
+dualitee-0.0.0.dist-info/RECORD,,
