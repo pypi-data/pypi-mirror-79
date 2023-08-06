@@ -1,0 +1,8 @@
+distrib_sample/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+distrib_sample/randomfunc.py,sha256=5efML0lftKD8wS5kjSefTvYBl27ImBI3PCCtQNOKcew,1128
+distrib_sample/randomobj.py,sha256=Am1uEhik8LTQP15JOLlr4sOAA8dozYsMNU1-qNDAIXc,1987
+distrib_sample-0.0.1.dist-info/LICENSE,sha256=eaET_AIKqSUoQ8Y2_WM53D-xkU6VBwWSHHAXcz9Tx4s,1074
+distrib_sample-0.0.1.dist-info/METADATA,sha256=HqFlsffiToTxuWrNokYNi0KDiePIYjOkztZVA-EddtI,533
+distrib_sample-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+distrib_sample-0.0.1.dist-info/top_level.txt,sha256=7H7X6WbIINAxYa78QhGw7QIEFvqsu77PwfxsYePkKgw,15
+distrib_sample-0.0.1.dist-info/RECORD,,
