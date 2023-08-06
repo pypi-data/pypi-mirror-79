@@ -1,0 +1,5 @@
+[console_scripts]
+get_inventory_asf=dinosar.cli.get_inventory_asf:main
+plot_inventory_asf=dinosar.cli.plot_inventory_asf:main
+prep_topsApp_local=dinosar.cli.prep_topsApp_local:main
+
