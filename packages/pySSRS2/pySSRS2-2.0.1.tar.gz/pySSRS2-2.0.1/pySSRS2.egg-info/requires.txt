@@ -1,0 +1,4 @@
+suds-community
+requests
+requests_ntlm
+suds_requests4

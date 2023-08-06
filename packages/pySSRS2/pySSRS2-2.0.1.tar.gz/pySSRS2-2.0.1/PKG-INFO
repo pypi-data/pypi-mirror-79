@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: pySSRS2
+Version: 2.0.1
+Summary: Python SSRS integrationusing SOAP RPCs
+Home-page: https://github.com/genusistimelord/PySSRS/
+Author: Fabricio Roberto reinert and Andrew Wheeler
+Author-email: genusistimelord@gmail.com
+License: MIT license
+Description: Fixed version of pySSRS please see git for documentation
+Keywords: SSRS,Microsoft,Python,SOAP,RPC,Reporting,Services
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
