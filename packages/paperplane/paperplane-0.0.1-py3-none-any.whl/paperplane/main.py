@@ -1,0 +1,2 @@
+def fly():
+    return 'Flying'
