@@ -1,0 +1,12 @@
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+jdvc/__init__.py
+jdvc/main.py
+jdvc.egg-info/PKG-INFO
+jdvc.egg-info/SOURCES.txt
+jdvc.egg-info/dependency_links.txt
+jdvc.egg-info/entry_points.txt
+jdvc.egg-info/requires.txt
+jdvc.egg-info/top_level.txt
