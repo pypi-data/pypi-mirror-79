@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+MohamedAmineBouslimiCVParser.egg-info/PKG-INFO
+MohamedAmineBouslimiCVParser.egg-info/SOURCES.txt
+MohamedAmineBouslimiCVParser.egg-info/dependency_links.txt
+MohamedAmineBouslimiCVParser.egg-info/top_level.txt
