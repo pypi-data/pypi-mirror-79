@@ -1,0 +1,8 @@
+qdarkstyle
+praat-parselmouth
+crepe
+openpyxl
+PyQt5==5.9.2
+pandas
+seaborn
+tensorflow==2.0.0
