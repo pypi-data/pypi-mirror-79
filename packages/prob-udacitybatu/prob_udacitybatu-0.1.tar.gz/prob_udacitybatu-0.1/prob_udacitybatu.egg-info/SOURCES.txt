@@ -1,0 +1,10 @@
+setup.py
+prob_udacitybatu/Binomialdistribution.py
+prob_udacitybatu/Gaussiandistribution.py
+prob_udacitybatu/Generaldistribution.py
+prob_udacitybatu/__init__.py
+prob_udacitybatu.egg-info/PKG-INFO
+prob_udacitybatu.egg-info/SOURCES.txt
+prob_udacitybatu.egg-info/dependency_links.txt
+prob_udacitybatu.egg-info/not-zip-safe
+prob_udacitybatu.egg-info/top_level.txt
