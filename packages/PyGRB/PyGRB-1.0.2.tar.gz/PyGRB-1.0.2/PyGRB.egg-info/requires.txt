@@ -1,0 +1,10 @@
+numpy>=1.18.1
+scipy>=1.1.0
+matplotlib>=2.2.3
+astropy>=3.2.3
+xlrd>=1.1.0
+prettytable>=0.7.2
+pandas>=1.0.1
+beautifulsoup4>=4.9.0
+bilby==0.5.9
+nestle>=0.2.0
