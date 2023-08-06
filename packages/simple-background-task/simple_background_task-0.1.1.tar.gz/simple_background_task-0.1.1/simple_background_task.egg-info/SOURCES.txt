@@ -1,0 +1,15 @@
+README.md
+setup.py
+simple_background_task/__init__.py
+simple_background_task/task.py
+simple_background_task.egg-info/PKG-INFO
+simple_background_task.egg-info/SOURCES.txt
+simple_background_task.egg-info/dependency_links.txt
+simple_background_task.egg-info/requires.txt
+simple_background_task.egg-info/top_level.txt
+simple_background_task/integrate/__init__.py
+simple_background_task/integrate/django/__init__.py
+simple_background_task/integrate/django/apps.py
+simple_background_task/queue/__init__.py
+simple_background_task/queue/interface.py
+simple_background_task/queue/memory.py
