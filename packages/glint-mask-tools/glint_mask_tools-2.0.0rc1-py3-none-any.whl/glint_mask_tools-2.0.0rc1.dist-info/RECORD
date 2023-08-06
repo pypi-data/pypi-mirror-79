@@ -1,0 +1,10 @@
+glint_mask_tools/__init__.py,sha256=beMs67G0e9_TDmIHXYwd7tzUavS1fNbyCwGDPtLbVLQ,512
+glint_mask_tools/abstract_masker.py,sha256=C7Eybr1AowGpuyX24Qzb3AiOAl8DwofmJwuYgeJR9JA,8829
+glint_mask_tools/bin_maskers.py,sha256=a2YQ4ALcEcWUurJ3lBHbi-oytNe8WvkkIEWVIgGDX90,7067
+glint_mask_tools/specular_maskers.py,sha256=AkO4OMklJwlrghph98-M03g6Mfa0LNPNqjAsEpnAGCA,5155
+glint_mask_tools/threshold_maskers.py,sha256=C2zEZ6jX7q2REHrkSPlLFlSKFTmCrmjCMqG8-D8brBM,7213
+glint_mask_tools-2.0.0rc1.dist-info/LICENSE,sha256=doYSD5l3IoN9W7kN0ipdk_WwvV_iZ83VySPMbIaA_UQ,1072
+glint_mask_tools-2.0.0rc1.dist-info/METADATA,sha256=ipjnlAflKqtNgQNy7guQVKwtGOv4v5eZzB6HY5rl6tc,368
+glint_mask_tools-2.0.0rc1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+glint_mask_tools-2.0.0rc1.dist-info/top_level.txt,sha256=1uDSicXlDgXlnOAmNC7RYRIcXie1TUadW6Z-jAWp1cg,17
+glint_mask_tools-2.0.0rc1.dist-info/RECORD,,
