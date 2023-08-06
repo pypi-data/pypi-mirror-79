@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bakabakabaka
+Version: 0.0.1
+Summary: Baka Admin Kludge Assistant
+Home-page: https://github.com/elesiuta/baka
+License: UNKNOWN
+Description: # baka
+        experimental home server admin tool using git
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/markdown
