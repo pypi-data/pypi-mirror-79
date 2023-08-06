@@ -1,0 +1,36 @@
+[tool.black]
+line-length = 110
+target-version = ["py38"]
+
+[tool.poetry]
+name = "rabbitmqrun"
+version = "0.1.1"
+description = "A package rabbitmqrun"
+authors = ["Mayron Ceccon <mayron.ceccon@gmail.com>"]
+repository = "https://github.com/mayronceccon"
+keywords = [ "rabbitmq" ]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include="rabbitmqrun", from="." },
+]
+
+[tool.poetry.scripts]
+rabbitmqrun = "rabbitmqrun.cli:run"
+
+[[tool.poetry.source]]
+name = "mayronceccon"
+url = "https://packagecloud.io/mayronceccon/v2/pypi/simple"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+wheel = "^0.35.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
