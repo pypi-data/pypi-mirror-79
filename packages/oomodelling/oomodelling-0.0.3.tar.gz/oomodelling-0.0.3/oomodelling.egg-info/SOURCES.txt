@@ -1,0 +1,6 @@
+README.md
+setup.py
+oomodelling.egg-info/PKG-INFO
+oomodelling.egg-info/SOURCES.txt
+oomodelling.egg-info/dependency_links.txt
+oomodelling.egg-info/top_level.txt
