@@ -1,0 +1,8 @@
+Jinja2
+SQLAlchemy
+keyring
+pika
+pykka
+requests
+requests_toolbelt
+tabulate
