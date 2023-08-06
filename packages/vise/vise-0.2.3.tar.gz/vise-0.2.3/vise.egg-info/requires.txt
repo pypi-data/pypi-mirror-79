@@ -1,0 +1,15 @@
+spglib
+matplotlib
+scipy
+tabulate
+pymatgen
+monty
+palettable
+seekpath
+numpy
+PyYAML
+pytest-mock
+num2words
+pytest
+fire
+setuptools
