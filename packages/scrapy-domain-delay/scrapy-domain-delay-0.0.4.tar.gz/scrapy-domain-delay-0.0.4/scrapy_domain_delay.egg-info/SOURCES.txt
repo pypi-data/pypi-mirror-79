@@ -1,0 +1,9 @@
+README.md
+setup.py
+scrapy_domain_delay/__init__.py
+scrapy_domain_delay/extensions.py
+scrapy_domain_delay.egg-info/PKG-INFO
+scrapy_domain_delay.egg-info/SOURCES.txt
+scrapy_domain_delay.egg-info/dependency_links.txt
+scrapy_domain_delay.egg-info/requires.txt
+scrapy_domain_delay.egg-info/top_level.txt
