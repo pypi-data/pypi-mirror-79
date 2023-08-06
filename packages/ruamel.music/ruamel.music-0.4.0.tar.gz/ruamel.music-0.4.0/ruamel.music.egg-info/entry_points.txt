@@ -1,0 +1,3 @@
+[console_scripts]
+['music = ruamel.music.__main__:main'] = ruamel.music.__main__:main
+

@@ -1,0 +1,9 @@
+ruamel.appconfig
+ruamel.std.argparse>=0.8
+mutagen
+musicbrainzngs
+ruamel.yaml
+ruamel.doc.html
+
+[:python_version < "3.0"]
+ruamel.std.pathlib
