@@ -1,0 +1,10 @@
+bin/
+build/
+dist/
+.eggs/
+__pycache__
+*.pyc
+*.egg-info
+*.log
+deprecated/
+*.png

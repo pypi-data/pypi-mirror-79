@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nbmessages
+Version: 0.0.24
+Summary: Post messages in a jupyter notebook to other users
+Home-page: https://github.com/ucsd-ets/nbmessages
+Author: Wesley Uykimpang
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education

@@ -1,0 +1,4 @@
+pyyaml
+beautifulsoup4
+oo-tools==0.2.0
+markdown

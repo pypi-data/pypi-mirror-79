@@ -1,0 +1,125 @@
+.nbmessage-border {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+}
+
+.user-fmt {
+    padding-left: .5em;
+    color: #838D95;
+}
+
+.nbmessage-background {
+    padding: .5em;
+    border-radius: 3px;
+    margin-top: .5em;
+}
+
+.nbmessage-thumbnail {
+    padding-left: .5em;
+    padding-top: .5em;
+}
+
+.nbmessage-h2 {
+    margin-top: 0px;
+}
+
+.nbmessages {
+    padding-top: 2em;
+}
+
+#nbmessages-admin-content {
+    padding-left: 1em;
+}
+
+.nbmessage-render {
+    padding-left: 1em;
+}
+
+#nbmessage-envelope {
+    height: 20px;
+}
+
+.nbmessage-navy {
+    background-color: #001f3f;
+    color: hsla(210, 100%, 75%, 1.0);
+}
+
+.nbmessage-blue {
+    background-color: #0074d9;
+    color: hsla(208, 100%, 85%, 1.0);
+}
+
+.nbmessage-aqua {
+    background-color: #7FDBFF;
+    color: hsla(197, 100%, 20%, 1.0);
+}
+
+.nbmessage-teal {
+    background-color: #39CCCC;
+    color: black;
+}
+
+.nbmessage-olive {
+    background-color: #3D9970;
+    color: hsla(153, 43%, 15%, 1.0)
+}
+
+.nbmessage-green {
+    background-color: #2ECC40;
+    color: hsla(127, 63%, 15%, 1.0);
+}
+
+.nbmessage-lime {
+    background-color: #01FF70;
+    color: hsla(146, 100%, 20%, 1.0);
+}
+
+.nbmessage-yellow {
+    background-color: #FFDC00;
+    color: hsla(52, 100%, 20%, 1.0)
+}
+
+.nbmessage-orange {
+    background-color: #FF851B;
+    color: hsla(28, 100%, 20%, 1.0);
+}
+
+.nbmessage-red {
+    background-color: #ff4136;
+    color: hsla(3, 100%, 25%, 1.0);
+}
+
+.nbmessage-maroon {
+    background-color: #85144b;
+    color: hsla(331, 74%, 70%, 1.0);
+}
+
+.nbmessage-fuchsia {
+    background-color: #F012BE;
+    color: hsla(314, 88%, 21%, 1.0);
+}
+
+.nbmessage-purple {
+    background-color: #B10DC9;
+    color: hsla(292, 88%, 82%, 1.0);
+}
+
+.nbmessage-black {
+    background-color: #111111;
+    color: #DCDCDC;
+}
+
+.nbmessage-gray {
+    background-color: #AAAAAA;
+    color: #000000;
+}
+
+.nbmessage-silver {
+    background-color: #DDDDDD;
+    color: #070707;
+}
+
+.nbmessage-default {
+    background-color: #E1ECF4;
+}
