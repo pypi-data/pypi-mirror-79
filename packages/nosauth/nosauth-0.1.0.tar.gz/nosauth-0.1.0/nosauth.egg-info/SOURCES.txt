@@ -1,0 +1,9 @@
+README.md
+setup.py
+nosauth/__init__.py
+nosauth/api.py
+nosauth.egg-info/PKG-INFO
+nosauth.egg-info/SOURCES.txt
+nosauth.egg-info/dependency_links.txt
+nosauth.egg-info/requires.txt
+nosauth.egg-info/top_level.txt
