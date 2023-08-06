@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/pa_whois.egg-info/PKG-INFO
+src/pa_whois.egg-info/SOURCES.txt
+src/pa_whois.egg-info/dependency_links.txt
+src/pa_whois.egg-info/requires.txt
+src/pa_whois.egg-info/top_level.txt
+src/whois/__init__.py
+src/whois/whois.py
