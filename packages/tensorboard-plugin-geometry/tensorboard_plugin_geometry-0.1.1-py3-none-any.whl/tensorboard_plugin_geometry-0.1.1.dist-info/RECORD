@@ -1,0 +1,17 @@
+tensorboard_plugin_geometry/__init__.py,sha256=K_TjM2rDn2vhs8YdLuyDYmpkkJXanMUFG-s2YRzCV0k,56
+tensorboard_plugin_geometry/data_server.py,sha256=CQKAcQXiqjlRJeXqfwVnGwtkGRAqcvkY83f5eLpv840,2907
+tensorboard_plugin_geometry/metadata.py,sha256=Q8DsRPl3ILnwvNuSXOkBsy4qDSrkwO7KcbENf3pdeyE,3247
+tensorboard_plugin_geometry/plugin.py,sha256=nJwzuYZSwYdxbo39o_Fs2BgiGm99pXFne6E0U2k7Ifs,5379
+tensorboard_plugin_geometry/plugin_data_pb2.py,sha256=Ws8TtW1wXAw2o3zqenZCx0UlllRoYveQQ6mumiukyFk,6643
+tensorboard_plugin_geometry/summary.py,sha256=G9NOaLZOUqaG98a2wfI82WV-NHxZY6T0Q263U29eaCc,10079
+tensorboard_plugin_geometry/summary_test.py,sha256=ZHlWnMvn44gL0ethbF0tFvWsfWjEgchHQgDueil7EiY,1004
+tensorboard_plugin_geometry/tag_server.py,sha256=n08U8-Qp44EfmOR2xvyU3moqgDqS0DGSkcnbUO67QLk,3005
+tensorboard_plugin_geometry/update_test.py,sha256=cIMQ3ytJNe_3Y15wL-00HV-Pqc2X3Ix0qXLmXVZ8-yQ,601
+tensorboard_plugin_geometry/static/bundle/index.js,sha256=28iNshGOkJgEWjRiS_C6uA8EBms06ULwYIHlw5joJEI,1431304
+tensorboard_plugin_geometry/static/bundle/render.js,sha256=9Dkjzd2RHlKn1Y-b20IzZStaslBN22aA6MfJ8TZhoV0,89
+tensorboard_plugin_geometry-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tensorboard_plugin_geometry-0.1.1.dist-info/METADATA,sha256=NSFuTi2IA6YwcG2Z9IRnc_sY9TPV-k2SWe9PJMzU3r8,4340
+tensorboard_plugin_geometry-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tensorboard_plugin_geometry-0.1.1.dist-info/entry_points.txt,sha256=FsXoayctFgxL8faCV-Bp2qu9IqAALoHfHdRY4xSIhoQ,79
+tensorboard_plugin_geometry-0.1.1.dist-info/top_level.txt,sha256=8h1mt5oYI32ACAgqkKnJlCwQA90O92QA_N_QTS8dqHo,28
+tensorboard_plugin_geometry-0.1.1.dist-info/RECORD,,
