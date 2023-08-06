@@ -1,0 +1,7 @@
+README.md
+Swapout.py
+setup.py
+Swapout.egg-info/PKG-INFO
+Swapout.egg-info/SOURCES.txt
+Swapout.egg-info/dependency_links.txt
+Swapout.egg-info/top_level.txt
