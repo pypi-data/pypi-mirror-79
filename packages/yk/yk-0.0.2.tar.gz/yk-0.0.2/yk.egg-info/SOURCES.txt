@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data/data_file.json
+yk/__init__.py
+yk/comparison.py
+yk/main.py
+yk/yk.py
+yk.egg-info/PKG-INFO
+yk.egg-info/SOURCES.txt
+yk.egg-info/dependency_links.txt
+yk.egg-info/entry_points.txt
+yk.egg-info/requires.txt
+yk.egg-info/top_level.txt
