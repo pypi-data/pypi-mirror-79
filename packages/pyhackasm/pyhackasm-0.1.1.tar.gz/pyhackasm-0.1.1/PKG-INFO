@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyhackasm
+Version: 0.1.1
+Summary: Assembler for Hack ASM written in Python 3
+License: GPL-3.0+
+Author: Arslan
+Author-email: rslnkrmt2552@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: typer[all] (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Assembler - Hack ASM
+
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/volf52/nand2tetris-assembler-python/?ref=repository-badge)
+
+[Project 6](https://www.nand2tetris.org/project06) for the [Nand2Tetris](https://www.nand2tetris.org/) course(?)
+
