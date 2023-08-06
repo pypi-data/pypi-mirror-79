@@ -1,0 +1,6 @@
+kubernetes
+ruamel.yaml
+click
+PyInquirer
+requests
+kfp

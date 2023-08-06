@@ -1,0 +1,15 @@
+README.md
+setup.py
+kubextract.egg-info/PKG-INFO
+kubextract.egg-info/SOURCES.txt
+kubextract.egg-info/dependency_links.txt
+kubextract.egg-info/entry_points.txt
+kubextract.egg-info/requires.txt
+kubextract.egg-info/top_level.txt
+utils/__init__.py
+utils/gen_kfserv_conf.py
+utils/kubextract.py
+utils/pipeline.py
+utils/watcher.py
+utils-test/__init__.py
+utils-test/kubextract_test.py
