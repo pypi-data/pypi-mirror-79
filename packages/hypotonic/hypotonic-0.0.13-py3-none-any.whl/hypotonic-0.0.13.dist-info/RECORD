@@ -1,0 +1,8 @@
+hypotonic/__init__.py,sha256=mI8SOgo3sG7eakDt8E15mK5KTnV7FmF6n4K2lfFJOGo,2282
+hypotonic/command.py,sha256=l-XH2WKmayKzW5KPWgv8S0h_30iNQik8SYIp3vwbiSc,2599
+hypotonic/context.py,sha256=aqFRhOOXlgXNL_8QCrB6yFJDCTESbJ6GE8NM-kgnxYs,3031
+hypotonic/request.py,sha256=-OFjrKWULl3AN99WYGXzJbQzUkdb6hS8TismriLDC0g,414
+hypotonic-0.0.13.dist-info/LICENSE,sha256=4R9u9bZPJCmrL03nRm3rMxuqcvvVDWYnE7IBwjAPUoA,1085
+hypotonic-0.0.13.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+hypotonic-0.0.13.dist-info/METADATA,sha256=w3yaZtS_wZHLiURXUdF5dQ2VnNzYiFN5iYSk7OEEr4U,1904
+hypotonic-0.0.13.dist-info/RECORD,,
