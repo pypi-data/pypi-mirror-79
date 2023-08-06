@@ -1,0 +1,6 @@
+[console_scripts]
+db_ingest = seqdataloader.dbingest.__init__:main
+db_ingest_single_threaded = seqdataloader.dbingest_single_threaded.__init__:main
+genomewide_labels = seqdataloader.labelgen.__init__:main
+seqdataloader_get_outliers = seqdataloader.helpers.get_outliers:main
+
