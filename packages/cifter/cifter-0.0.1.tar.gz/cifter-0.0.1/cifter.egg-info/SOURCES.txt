@@ -1,0 +1,15 @@
+README.md
+setup.py
+cifter/__init__.py
+cifter/cifdocument.py
+cifter/cifter.py
+cifter/errors.py
+cifter/parser.py
+cifter/train_schedule.py
+cifter.egg-info/PKG-INFO
+cifter.egg-info/SOURCES.txt
+cifter.egg-info/dependency_links.txt
+cifter.egg-info/top_level.txt
+tests/__init__.py
+tests/test_integration.py
+tests/test_parser.py
