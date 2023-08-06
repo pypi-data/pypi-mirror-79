@@ -1,0 +1,5 @@
+click
+pillow
+pyyaml
+requests
+rich
