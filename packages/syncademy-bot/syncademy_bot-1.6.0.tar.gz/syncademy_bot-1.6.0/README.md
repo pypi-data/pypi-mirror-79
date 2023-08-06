@@ -1,0 +1,2 @@
+# syncademybot
+SyncademyBot development

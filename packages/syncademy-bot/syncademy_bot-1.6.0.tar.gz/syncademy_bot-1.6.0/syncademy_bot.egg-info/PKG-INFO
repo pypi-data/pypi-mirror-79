@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: syncademy-bot
+Version: 1.6.0
+Summary: Syncademy Bot
+Home-page: https://github.com/nunobeato/syncademybot
+Author: Turael Dreamwalker
+License: UNKNOWN
+Description: # syncademybot
+        SyncademyBot development
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
