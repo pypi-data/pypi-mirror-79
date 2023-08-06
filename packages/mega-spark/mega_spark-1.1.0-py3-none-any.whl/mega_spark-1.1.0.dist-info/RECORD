@@ -1,0 +1,13 @@
+megaspark/__init__.py,sha256=1hdQp7dcmOiPIrGhIb-LlaRo_CaHU9Ckah5W262bCOk,41
+megaspark/tomega.py,sha256=3jw7DoOFxZEhhNSlDJXA1j5UdfRhMlFJERPYJGOL03Q,6808
+megaspark/case/__init__.py,sha256=KVTBnDECpvHlfZDBhD2VN9ODz99AT24EdRkKbIMzcJ8,19
+megaspark/case/test.py,sha256=TAMzNtvvVw2WgcgxkcG0Eg-PoV7-7tY7_in6jJVaVaY,4971
+megaspark/ml/__init__.py,sha256=nnRWlxDAGUUxLXus0Yi3NG7i2WvYyUEq7gGaU8JI1Fg,30
+megaspark/ml/mega_xgboost.py,sha256=ApuvPwto1xpWyiqt3FzrTBQmjtgvILdsPmURP6qtpug,1728
+megaspark/sql/__init__.py,sha256=476sMXn2KtdkCiBjBY3tU8lbOPw2QvQ1WvmP2dbbuAU,24
+megaspark/sql/megaframe.py,sha256=dDPzI4rYzdvFmpQtWUBeayafcb-BWhxDzony47PDoQk,5044
+mega_spark-1.1.0.dist-info/LICENSE,sha256=8Xzz3L0eUXY6_0wAY3qtJdTI00JcJ-_AazuHFgErNpk,11954
+mega_spark-1.1.0.dist-info/METADATA,sha256=Q-ZDMGWPKJAXeyLFNyHuTkHAvnjJW6TpAYJKM2g94RU,1412
+mega_spark-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mega_spark-1.1.0.dist-info/top_level.txt,sha256=A_AQu-IqQFY3406MzCXZgSo00uH0vPB_qUma4XNbPNc,10
+mega_spark-1.1.0.dist-info/RECORD,,
