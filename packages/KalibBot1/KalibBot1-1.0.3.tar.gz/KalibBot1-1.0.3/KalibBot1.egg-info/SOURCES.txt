@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+KalibBot/__init__.py
+KalibBot1.egg-info/PKG-INFO
+KalibBot1.egg-info/SOURCES.txt
+KalibBot1.egg-info/dependency_links.txt
+KalibBot1.egg-info/requires.txt
+KalibBot1.egg-info/top_level.txt
