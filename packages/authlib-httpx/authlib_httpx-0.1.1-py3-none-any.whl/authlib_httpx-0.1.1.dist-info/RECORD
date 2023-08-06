@@ -1,0 +1,10 @@
+authlib_httpx/__init__.py,sha256=NZ9lwCOT99DvRncxBoCD-9b8ui8TxSLKo8JVduh7HA4,788
+authlib_httpx/assertion_client.py,sha256=7ZatshQXN9dbXVCoLHb31SsxCTJJueicNwMfMK09crA,3283
+authlib_httpx/oauth1_client.py,sha256=v__N-jcfCtKUzx0fwrmigxNOpAhOjPFvFJ6OcPVL4mI,4063
+authlib_httpx/oauth2_client.py,sha256=IPDDdR9qMJwFtEY08i1fHX5fnkrCtzbz6fqZ-mxE6_E,8222
+authlib_httpx/utils.py,sha256=R1ZUGKhTeMSdB08Sz7p7D6CxmxDTmUJqMaWv44lW-1g,404
+authlib_httpx-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+authlib_httpx-0.1.1.dist-info/METADATA,sha256=FsH50Q3WVgWxmyhaQH-x_157lCWeQFVD6KudbU_2f4A,1631
+authlib_httpx-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+authlib_httpx-0.1.1.dist-info/top_level.txt,sha256=D1Y-oJGiH46QMgktsP-ROfXYUwWaccep0iRFYmt8pE8,14
+authlib_httpx-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: authlib-httpx
+Version: 0.1.1
+Summary: Temporary location of full httpx support until authlib merges this upstream
+Home-page: http://authlib.org
+Author: Ber Zoidberg
+Author-email: ber.zoidberg@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://docs.authlib.org/
+Project-URL: Commercial License, https://authlib.org/plans
+Project-URL: Bug Tracker, https://github.com/lepture/authlib/issues
+Project-URL: Source Code, https://github.com/lepture/authlib
+Project-URL: Blog, https://blog.authlib.org/
+Project-URL: Donate, https://lepture.com/donate
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx
+
+# authlib-httpx
+Temporary location of full httpx support until authlib merges this upstream
+
+
