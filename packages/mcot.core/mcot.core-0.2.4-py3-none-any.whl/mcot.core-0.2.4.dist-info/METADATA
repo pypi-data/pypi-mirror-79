@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: mcot.core
+Version: 0.2.4
+Summary: core utilities to work with my code
+Home-page: https://git.fmrib.ox.ac.uk/ndcn0236/mcutils
+Author: Michiel Cottaar
+Author-email: MichielCottaar@pm.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: nibabel
+Requires-Dist: numba
+Requires-Dist: six
+Requires-Dist: loguru
+Requires-Dist: fslpy
+Requires-Dist: zarr
+Requires-Dist: h5py
+Requires-Dist: colorcet
+Requires-Dist: dask[array]
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: scikit-image
+
+=========
+mcot.core
+=========
+
+
+.. image:: https://img.shields.io/pypi/v/mcot.core.svg
+        :target: https://pypi.python.org/pypi/mcot.core
+
+.. image:: https://readthedocs.org/projects/mcotcore/badge/?version=latest
+        :target: https://mcotcore.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+core utilities to run most of my code
+
+
+* Free software: MIT license
+* Documentation: https://mcotcore.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with `Cookiecutter
+<https://github.com/audreyr/cookiecutter>`_ and the `cookiecutter-namespace-template
+<https://github.com/veit/cookiecutter-namespace-template>`_ project template.
+
+
+
