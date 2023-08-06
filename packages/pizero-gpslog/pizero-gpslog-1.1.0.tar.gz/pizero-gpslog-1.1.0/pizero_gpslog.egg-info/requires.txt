@@ -1,0 +1,4 @@
+gpiozero
+gpxpy
+pint
+pillow
