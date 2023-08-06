@@ -1,0 +1,3 @@
+[console_scripts]
+kad2gp = kad2gp.main_converter:main
+
