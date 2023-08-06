@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+Devmiko/__init__.py
+Devmiko.egg-info/PKG-INFO
+Devmiko.egg-info/SOURCES.txt
+Devmiko.egg-info/dependency_links.txt
+Devmiko.egg-info/requires.txt
+Devmiko.egg-info/top_level.txt
