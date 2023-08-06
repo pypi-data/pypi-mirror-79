@@ -1,0 +1,14 @@
+make_colors/__init__.py,sha256=Vywsj-ATdo_AYSnhKFX9R8-uNnhpyT0vU-6SbtLRaXM,177
+make_colors/__version__.py,sha256=9YIQi-GFWEUMkS1kPLO68h350_hmEcsj0SC_ptC0iJg,14
+make_colors/make_colors.py,sha256=ePb7xRf38EkpDYBivVbKB2gsTG1JyM7OT_qX94IzWgo,7556
+make_colors/make_colors_click.py,sha256=wUjHAS7W4RHIuwiBgzYt7lrzjeOytv-UrSsmWLDt12c,1394
+make_colors/make_colors_tc.py,sha256=O0OCmsBjzEHGBjMRyOJPW9KWWBaIGuGxuxi8oUtnXCI,11884
+make_colors/test.py,sha256=cDaeQyX-Y2Zu6HQNHvGOuBmoWMteFp7y50C_X6YC1T8,158
+make_colors-3.26.data/data/LICENSE.rst,sha256=kPZfWszahcaMSzR67anOUdsqRyF8q-TzXy7u2sWJkPI,1893
+make_colors-3.26.data/data/README.rst,sha256=Lsc5lyncE0pv0WM1BFdOfUEPS8gT0vVji0KB8BhdEOk,1229
+make_colors-3.26.data/data/__version__.py,sha256=9YIQi-GFWEUMkS1kPLO68h350_hmEcsj0SC_ptC0iJg,14
+make_colors-3.26.dist-info/LICENSE.rst,sha256=kPZfWszahcaMSzR67anOUdsqRyF8q-TzXy7u2sWJkPI,1893
+make_colors-3.26.dist-info/METADATA,sha256=bqDVGjscJEOAn5RwU869KP-oo6PAD4P0xGAUZgFS3F4,1154
+make_colors-3.26.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+make_colors-3.26.dist-info/top_level.txt,sha256=4Og1F_N_uZ4Y8v0NCsetHzF_YSsMeXXQGVLaWqR8YlI,12
+make_colors-3.26.dist-info/RECORD,,
