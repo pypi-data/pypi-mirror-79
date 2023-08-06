@@ -1,0 +1,7 @@
+README.md
+setup.py
+mechaniz/__init__.py
+mechaniz.egg-info/PKG-INFO
+mechaniz.egg-info/SOURCES.txt
+mechaniz.egg-info/dependency_links.txt
+mechaniz.egg-info/top_level.txt
