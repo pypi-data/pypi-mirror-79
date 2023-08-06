@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nitrogen
+Version: 0.0.1
+Summary: A scientific computing package for rovibronic molecular spectroscopy.
+Home-page: https://www.colorado.edu/nitrogen
+Author: Bryan Changala
+Author-email: bryan.changala@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Nitrogen
+
+NITROGEN is a scientific computing package for problems in 
+rovibronic spectroscopy of small-to-medium molecules.
+
+This Python development is currently in the planning and design
+stages. The original C version of NITROGEN is available at
+www.colorado.edu/nitrogen
+
