@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyesbulk/__init__.py
+pyesbulk.egg-info/PKG-INFO
+pyesbulk.egg-info/SOURCES.txt
+pyesbulk.egg-info/dependency_links.txt
+pyesbulk.egg-info/top_level.txt
+tests/__init__.py
+tests/functests.py
+tests/put_template_test.py
+tests/streaming_bulk_test.py
+tests/utils_test.py
