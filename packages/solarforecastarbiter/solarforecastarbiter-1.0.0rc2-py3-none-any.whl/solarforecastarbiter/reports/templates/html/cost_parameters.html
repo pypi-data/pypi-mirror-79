@@ -1,0 +1,15 @@
+{% include 'cost_params_text' %}
+{% for cost in report.report_parameters.costs %}
+<div class="container" style="padding: 1em; border: 1px solid rgb(206, 212, 218);" id="cost-params-{{ cost.name
+}}">
+  <h4>{{ cost.name }}</h4>
+  <ul class="col-md-8 col-xs-12" style="list-style: none;">
+    <li><b>Type:</b> {{ cost.type }}</li>
+    {% if cost.type == 'constant' %}
+    <li><b>Cost:</b> {{ cost.parameters.cost }}</li>
+    <li><b>Aggregation:</b> {{ cost.parameters.aggregation }}</li>
+    <li><b>Net:</b> {{ cost.parameters.net }}</li>
+    {% endif %}
+  </ul>
+</div>
+{% endfor %}
