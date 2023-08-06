@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DriveDownloader
+Version: 1.1.2b0
+Summary: Net Drive Downloader with python
+Home-page: http://hwfan.io
+Author: hwfan
+Author-email: hwnorm@outlook.com
+License: MIT Licence
+Keywords: pip,ddl,drivedownloader,hwfan
+Platform: any
+Requires-Dist: argparse
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: fake-useragent
+
+A useful tool for downloading files on net drives.
+
+
