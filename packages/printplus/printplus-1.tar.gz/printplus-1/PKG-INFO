@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: printplus
+Version: 1
+Summary: Simple package to print text to terminal with colors and alignment
+Home-page: UNKNOWN
+Author: noidea
+Author-email: noidea1238@gmail.com
+License: UNKNOWN
+Description: # printplus
+        
+        **Simple package to print text to terminal with colors and alignment**
+        
+        **Classes Available:**<br>
+        
+        -       PrintPlus
+        
+            *Methods in the class:*
+            
+            - >*text( message : str)*<br> Add text to print, can be called multiple times to add text to previous message
+        
+            - >*red()*<br> Adds red color to text added before the call which does not already have color
+        
+            - >*green()*<br> Adds green color to text added before the call which does not already have color
+        
+            - >*blue()*<br> Adds blue color to text added before the call which does not already have color
+        
+            - >*yellow()*<br> Adds yellow color to text added before the call which does not already have color
+        
+            - >*violet()*<br> Adds violet color to text added before the call which does not already have color
+        
+            - >*bold()*<br> Makes all the text added before the call bold
+        
+            - >*highlight()*<br> Highlights all the texts, even those added after the call
+        
+            - >*underline()*<br> Underkines all the texts, even those added after the call
+        
+            - >*blanks( char : chr)*<br> Specify with what char to spill the blanks. By default it will be filled by spaces
+        
+            - >*show()*<br> Prints the constructed text and clears all the values stored
+        
+            - >*center() and right()*<br> Aligns the text as specified, the one thats called latest will be applied
+        
+            - >*end()*<br>Sepcify the end char of text, by default it will be \n , the one thats called latest will be applied
+        
+            - >*getColored(message:str,color:str)*<br> Returns colored string to use in other methods, the argument color can be one of:<br>
+                    - PrintPlus().colors['RED']<br>
+                    - PrintPlus().colors['GREEN']<br>
+                    - PrintPlus().colors['VIOLET']<br>
+                    - PrintPlus().colors['BLUE']<br>
+                    - PrintPlus().colors['YELLOW']<br>
+                    - PrintPlus().colors['BOLD']<br>
+                    - PrintPlus().colors['UNDERLINE']<br>
+                    - PrintPlus().colors['HIGHLIGHT']<br>
+        
+        **Usage:**
+        
+            from printplus import PrintPlus
+        
+            printer = PrintPlus()
+        
+            printer.text('Hello').green().text('World!!').red().underline().text(' by printplus').yellow().center().bold().show()
+        
+        **Try:**
+        >pip3 install printplus
+               
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+printplus/__init__.py
+printplus/printer.py
+printplus.egg-info/PKG-INFO
+printplus.egg-info/SOURCES.txt
+printplus.egg-info/dependency_links.txt
+printplus.egg-info/top_level.txt
