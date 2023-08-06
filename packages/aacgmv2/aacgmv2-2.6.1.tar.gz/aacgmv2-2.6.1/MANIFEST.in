@@ -1,0 +1,24 @@
+graft docs
+graft ci
+graft aacgmv2/tests
+graft c_aacgmv2
+
+recursive-include aacgmv2 *.asc
+recursive-include aacgmv2 *.txt
+recursive-include c_aacgmv2 *.txt
+
+include setup.cfg
+
+include AUTHORS.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include LICENSE
+include LICENSE-AstAlg.txt
+include README.rst
+include CODE_OF_CONDUCT.md
+
+include tox.ini
+include *.yml
+include .*.yml
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.dSYM .pytest_cache
