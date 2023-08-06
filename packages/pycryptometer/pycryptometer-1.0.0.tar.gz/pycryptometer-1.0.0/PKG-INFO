@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pycryptometer
+Version: 1.0.0
+Summary: API Wrapper for cryptometer.io
+Home-page: https://github.com/ToasterUwU/pycryptometer
+Author: ToasterUwU
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: API,Cryptometer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
