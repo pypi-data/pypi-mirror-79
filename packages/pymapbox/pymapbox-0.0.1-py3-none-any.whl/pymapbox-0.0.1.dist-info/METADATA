@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pymapbox
+Version: 0.0.1
+Summary: This is a thin python wrapper for mapbox. It generates javscript to execute mapboxgl and create mapbox maps.
+Home-page: https://github.com/simonm3/pymapbox.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: yatl
+Requires-Dist: shapely
+Requires-Dist: geopandas
+Requires-Dist: pyyaml
+Requires-Dist: tqdm
+Requires-Dist: folium
+Requires-Dist: fuzzywuzzy
+Requires-Dist: plotly
+Requires-Dist: geopy
+Requires-Dist: ipyleaflet
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: colour
+Requires-Dist: ipython
+
+UNKNOWN
+
+
