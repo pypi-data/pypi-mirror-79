@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DiscordMC
+Version: 0.0.6
+Summary: Access to your Minecraft Server through discord.
+Home-page: UNKNOWN
+Author: Pixymon
+Author-email: nlarsen23.student@gmail.com
+License: GNU LIcense
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: discord
+Requires-Dist: mcserverapi
+
+UNKNOWN
+
+
