@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: lambdata-thecodinguru
+Version: 0.2.1
+Summary: A collection of Data Science helper functions
+Home-page: https://github.com/thecodinguru/lambdata
+Author: thecodinguru
+License: UNKNOWN
+Description: # lambdata
+        
+        A data science toolkit needed for data scientists looking to clean the GlobalTemperature CSV found on Kaggle.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
