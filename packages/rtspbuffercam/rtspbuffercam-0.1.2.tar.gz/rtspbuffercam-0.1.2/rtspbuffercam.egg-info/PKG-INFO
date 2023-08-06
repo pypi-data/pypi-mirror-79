@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rtspbuffercam
+Version: 0.1.2
+Summary: RTSP rtspcam grabber with buffer exhaustion
+Home-page: https://github.com/lewis-morris/rtspbuffercam
+Author: Lewis Morris
+Author-email: lewis.morris@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
