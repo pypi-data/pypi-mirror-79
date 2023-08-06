@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+email_notifier/__init__.py
+email_notifier/exception_notifier.py
+email_notifier/general_notifier.py
+email_notifier.egg-info/PKG-INFO
+email_notifier.egg-info/SOURCES.txt
+email_notifier.egg-info/dependency_links.txt
+email_notifier.egg-info/requires.txt
+email_notifier.egg-info/top_level.txt
+test/test_notifier.py
