@@ -1,0 +1,12 @@
+hmni/__init__.py,sha256=eS4a25WUaIjigsLe5MlNOiUVtXY95XH-ggJv99EHMas,679
+hmni/input_helpers.py,sha256=nR4DmnSb2CcohW-9DfwW9HSzaE_9kRCRG9-E37bBVOo,4943
+hmni/matcher.py,sha256=vtzTFyCCOD731iVY8T_kHBnebkzXrhtRNQGpA2HAIZU,18825
+hmni/preprocess.py,sha256=7bKrSL5Zua_JdpE0bCUZeXsDC76fmohKHbaBwH-Fc1A,9821
+hmni/siamese_network.py,sha256=8Z7qD8qT04pww3A-VGG4E-jeQpJdX1HYJxHxxIaDhXY,5967
+hmni/syllable_tokenizer.py,sha256=b_ZKdGFut2xqCtYVfGRVTboQyA7Cd47klFAfEZRdHLc,1647
+hmni/models/latin.tar.gz,sha256=Gc6XyMqpmNBb2QqC3UyjmGXfFGytC-f5qhn1DObKwr4,22303910
+hmni-0.1.8.dist-info/LICENSE,sha256=60311bzF04Ew7lL4hW3UvMQ9F5D-K2q-thjFtCk1HJY,1077
+hmni-0.1.8.dist-info/METADATA,sha256=_9u6shdkFrke8syy0DOFV2eDKJ42kUm3EQpmCWft9eY,7609
+hmni-0.1.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+hmni-0.1.8.dist-info/top_level.txt,sha256=mXnRWTcW2lzpB4ee0n_PNHvIpJnnFfzKdtwzPlPhd5I,5
+hmni-0.1.8.dist-info/RECORD,,
