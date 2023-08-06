@@ -1,0 +1,8 @@
+clipt
+skyfield
+matplotlib
+clasp
+numpy
+scipy
+pywavelets
+pybind11
