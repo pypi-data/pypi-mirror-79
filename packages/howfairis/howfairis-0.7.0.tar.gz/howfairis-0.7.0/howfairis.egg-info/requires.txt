@@ -1,0 +1,16 @@
+click>=7
+colorama>=0
+PyYAML>=5
+requests>=2
+
+[dev]
+prospector[with_pyroma]
+yapf
+bumpversion
+pytest
+pytest-cov
+pycodestyle
+pytest-runner
+
+[publishing]
+twine
