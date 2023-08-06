@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+         "flit_core >=2,<4",
+         "h5py>=2.10",
+         "matplotlib>=3.3",
+         "numpy>=1.18",
+         "openslide-python>=1.1"
+         ]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "tfreader"
+author = "Lee Newberg"
+author-email = "lee.newberg@kitware.com"
+home-page = "https://github.com/DigitalSlideArchive/tensorflow_reader"
+classifiers = ["License :: OSI Approved :: Apache Software License"]
