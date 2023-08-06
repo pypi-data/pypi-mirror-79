@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: simfile
+Version: 2.0.0a1
+Summary: Modern simfile library for Python
+Home-page: https://github.com/garcia/simfile
+Author: Ash Garcia
+Author-email: python-simfile@garcia.sh
+License: MIT
+Description: # simfile
+        
+        A modern simfile library for Python 3 that supports .sm and .ssc files.
+        
+        ## Installing
+        
+            pip install simfile
+        
+        ## Documentation
+        
+        https://simfile.readthedocs.io/en/latest/
+Keywords: stepmania simfile sm ssc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
