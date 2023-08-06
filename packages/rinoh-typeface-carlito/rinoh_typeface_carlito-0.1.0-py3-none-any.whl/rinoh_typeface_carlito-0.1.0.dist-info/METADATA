@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rinoh-typeface-carlito
+Version: 0.1.0
+Summary: Carlito typeface
+Home-page: https://github.com/brechtm/rinoh-typeface-carlito
+Author: Brecht Machiels
+Author-email: brecht@mos6581.org
+License: SIL Open Font License (OFL), Version 1.1
+Keywords: opentype font
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Fonts
+Requires-Dist: rinohtype
+
+======================
+rinoh-typeface-carlito
+======================
+
+This package provides the Carlito_ typeface for use with rinohtype_. Carlito is
+based on Lato_ and can be used as a replacement for Calibri_.
+
+.. _Carlito: https://en.wikipedia.org/wiki/Croscore_fonts
+.. _rinohtype: https://github.com/brechtm/rinohtype#readme
+.. _Lato: https://www.latofonts.com/lato-free-fonts/
+.. _Calibri: https://en.wikipedia.org/wiki/Calibri
+
+
