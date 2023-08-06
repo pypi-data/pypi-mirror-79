@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: odat
+Version: 0.0.6
+Summary: Getting sound/vibration data simply
+Home-page: https://github.com/otosense/odat
+Author: Otosense
+Author-email: thor@otosense.com
+License: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description: # odat
+        
+        Tools to access raw and prepared sound/vibration data.
+        
+        Modules for prepping data, on a per data/project basis, 
+        keeping modules self-contained as much as possible.
+Keywords: data,data access,data preperation,machine learning,artificial intelligence
+Platform: any
+Description-Content-Type: text/markdown
