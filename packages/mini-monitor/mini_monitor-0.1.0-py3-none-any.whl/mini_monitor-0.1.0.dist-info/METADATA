@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mini-monitor
+Version: 0.1.0
+Summary: Mini Monitor, support custom GUI and Indicators
+Home-page: UNKNOWN
+Author: Carl.Zhang
+Author-email: tasse_00@163.com
+Maintainer: Carl.Zhang
+Maintainer-email: tasse_00@163.com
+License: UNKNOWN
+Platform: all
+Requires-Dist: dacite (==1.5.1)
+Requires-Dist: psutil (==5.7.2)
+Requires-Dist: PyQt5 (==5.15.0)
+Requires-Dist: PyQt5-sip (==12.8.1)
+Requires-Dist: PyYAML (==5.3.1)
+
+UNKNOWN
+
+
