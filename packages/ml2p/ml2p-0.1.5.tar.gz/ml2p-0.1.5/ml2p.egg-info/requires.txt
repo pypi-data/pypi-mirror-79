@@ -1,0 +1,17 @@
+PyYAML
+boto3
+click
+flask
+flask-API
+
+[dev]
+black
+bumpversion
+coverage
+flake8
+isort
+moto
+pytest
+pytest-cov
+radon
+tox
