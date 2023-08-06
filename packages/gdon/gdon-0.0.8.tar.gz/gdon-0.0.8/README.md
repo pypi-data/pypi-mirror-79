@@ -1,0 +1,82 @@
+# Présentation
+
+G1pourboire est un outil permettant de générer des pourboires en Ğ1.
+En développement, ceci est une version Alpha.
+
+Il est fonctionnel en ligne de commande, mais pas (encore ?) en interface graphique. Cette contribution est bienvenue !
+
+# Installation
+
+Le logiciel est empaqueté et référencé avec Pypi-test pour le moment.
+
+## Installation des dépendances DEBIAN
+
+- `python3`
+- `pip3`
+
+### Debian :
+
+```
+$ sudo apt-get install python3 python3-pip
+$ python3 -m pip install --index-url https://test.pypi.org/simple/ gdon  # à tester
+# ajouter .local/bin à votre PATH
+$ echo 'export PATH="/home/$USER/.local/bin:$PATH"' >> .bash_aliases
+```
+
+
+## Installation pour les devs :
+
+Désolé, le dépôt est encore nommé "Ğ1pourboire", ancien nom du projet
+
+```
+# apt install pipenv
+$ git clone https://git.duniter.org/matograine/g1pourboire.git
+$ cd g1pourboire
+$ pipenv install '-e .'
+$ pipenv run gdon
+```
+
+# Utilisation
+
+* Générer et remplir des Ğ1Dons :
+
+Les Ğ1Dons seront bloqués jusqu'à la péremption.
+Le compte depuis lequel vous crééez les Ğ1Dons vous sera nécessaire pour les récupérer.
+
+```
+$ gdon generer <montant> <nombre_pages> <peremption_date_JJ/MM/AAAA> 
+```
+* Récupérer le contenu de Ğ1Dons :
+```
+$ gdon recuperer
+```
+
+* Récupérer des Ğ1Dons depuis un dossier de sauvegarde:
+```
+gdon recuperer<dossier>
+```
+
+* Récupérer des Ğ1Dons depuis un fichier:
+```
+recuperer fichier <fichier>
+```
+
+* Si la récupération s'est mal passée :
+```
+recuperer backup <année>
+```
+
+* Configurer le noeud Duniter :
+```
+gdon noeud <noeud> <port>
+```
+
+Les dons générés sont stockés dans `~/Documents/G1dons/` en pdf. 
+Les fichiers de récupération sont dans ~/Documents/G1dons/Récupération. Ne pas le supprimer !
+
+
+# TODO
+
+- Interface graphique
+- Suivi des pourboires générés
+- Paquet stand-alone pour Windows
