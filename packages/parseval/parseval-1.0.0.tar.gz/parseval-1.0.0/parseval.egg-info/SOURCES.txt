@@ -1,0 +1,9 @@
+README.md
+setup.py
+parseval/__init__.py
+parseval/exceptions.py
+parseval/parser.py
+parseval.egg-info/PKG-INFO
+parseval.egg-info/SOURCES.txt
+parseval.egg-info/dependency_links.txt
+parseval.egg-info/top_level.txt
