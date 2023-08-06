@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+unimi_common_tools.egg-info/PKG-INFO
+unimi_common_tools.egg-info/SOURCES.txt
+unimi_common_tools.egg-info/dependency_links.txt
+unimi_common_tools.egg-info/requires.txt
+unimi_common_tools.egg-info/top_level.txt
