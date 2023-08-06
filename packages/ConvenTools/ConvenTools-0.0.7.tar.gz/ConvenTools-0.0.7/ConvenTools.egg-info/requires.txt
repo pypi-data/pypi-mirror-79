@@ -1,0 +1,7 @@
+jdcal
+et-xmlfile
+openpyxl
+PyMySQL
+xlrd
+xlutils
+xlwt
