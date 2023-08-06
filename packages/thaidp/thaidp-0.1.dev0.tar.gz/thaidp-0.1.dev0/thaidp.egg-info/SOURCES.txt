@@ -1,0 +1,15 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_filter.py
+thaidp/__init__.py
+thaidp/clean.py
+thaidp/filter.py
+thaidp/gen.py
+thaidp/rules.py
+thaidp.egg-info/PKG-INFO
+thaidp.egg-info/SOURCES.txt
+thaidp.egg-info/dependency_links.txt
+thaidp.egg-info/not-zip-safe
+thaidp.egg-info/requires.txt
+thaidp.egg-info/top_level.txt
