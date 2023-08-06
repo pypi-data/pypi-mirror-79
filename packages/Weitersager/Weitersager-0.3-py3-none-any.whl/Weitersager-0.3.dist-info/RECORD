@@ -1,0 +1,14 @@
+weitersager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weitersager/cli.py,sha256=eMPoqPBUF3xONT-VCJJTU4AGCpKwn2JhrQhlBRyWI8M,727
+weitersager/config.py,sha256=uAj7RolR3baFECt6McKesX7H_Jn2F0-QL1jHXYp5Ci8,1878
+weitersager/httpreceiver.py,sha256=4lDS5WxSLdkcI7y6IcujbKsjJzzojTVuCh-LiL12vvU,3344
+weitersager/irc.py,sha256=2JKz381_4GYgB2OhsTjd-BT1Xee1edvasI-XOqyFDhE,4452
+weitersager/processor.py,sha256=JVquhRmQ8jhz-6y5N8ftE1ZVUWAWu79x91vumr2t23c,2244
+weitersager/signals.py,sha256=GHwnoGSidJrBGDLePEeCujkQ4IL0t6a8bLEVf6Ntu6M,355
+weitersager/util.py,sha256=v6kLDDj15KBoOnjyjwmV826e0ywjnGSkYJa3KK4kL30,504
+Weitersager-0.3.dist-info/LICENSE,sha256=zFV7QDsV3-EUgDMnHEnX3LEKdB7P9AtIZHD5KOw6urI,1069
+Weitersager-0.3.dist-info/METADATA,sha256=eaR-UuwZQbeyCsnw5senP7QTlMdboathSqzxSZr21og,6696
+Weitersager-0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Weitersager-0.3.dist-info/entry_points.txt,sha256=ARSmZYgO_KJ7ifDVW0Qr47z5HzLpn7dtieRAxqa_XjY,54
+Weitersager-0.3.dist-info/top_level.txt,sha256=JEh0Npc5IxXnWGkPvoTB-0zM77VMVVrDe1Y7lZoxY_o,12
+Weitersager-0.3.dist-info/RECORD,,
