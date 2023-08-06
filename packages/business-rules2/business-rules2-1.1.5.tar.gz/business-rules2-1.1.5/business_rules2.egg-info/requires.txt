@@ -1,0 +1,6 @@
+pyparsing
+parsimonious
+
+[dev]
+pytest
+mock
