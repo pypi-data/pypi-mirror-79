@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: django-anonymoususer-permissions
+Version: 0.2.1
+Summary: Small backend to grant permission to Anonymous using django admin interface
+Home-page: https://github.com/saxix/django-anonymoususer-permissions
+Author: Stefano Apostolico
+Author-email: s.apostolico@gmail.com
+License: MIT
+Description: ================================
+        Django AnonymousUser Permissions
+        ================================
+        
+        .. image:: https://badge.fury.io/py/django-anonymoususer-permissions.png
+            :target: http://badge.fury.io/py/django-anonymoususer-permissions
+        
+        .. image:: https://travis-ci.org/saxix/django-anonymoususer-permissions.png?branch=master
+                :target: https://travis-ci.org/saxix/django-anonymoususer-permissions
+        
+        .. image:: https://pypip.in/d/django-anonymoususer-permissions/badge.png
+                :target: https://pypi.python.org/pypi/django-anonymoususer-permissions
+        
+        
+        Small backend to grant permission to Anonymous users using django admin interface
+        
+        
+        Links
+        ~~~~~
+        
+        +--------------------+----------------+--------------+--------------------------------------+
+        | Stable             | |master-build| | |master-cov| |                                      |
+        +--------------------+----------------+--------------+--------------------------------------+
+        | Development        | |dev-build|    | |dev-cov|    |                                      |
+        +--------------------+----------------+--------------+--------------------------------------+
+        | Project home page: |https://github.com/saxix/django-anonymoususer-permissions             |
+        +--------------------+---------------+------------------------------------------------------+
+        | Issue tracker:     |https://github.com/saxix/django-anonymoususer-permissions/issues?sort |
+        +--------------------+---------------+------------------------------------------------------+
+        | Download:          |http://pypi.python.org/pypi/django-anonymoususer-permissions/         |
+        +--------------------+---------------+------------------------------------------------------+
+        | Documentation:     |https://django-anonymoususer-permissions.readthedocs.org/en/latest/   |
+        +--------------------+---------------+--------------+---------------------------------------+
+        
+        .. |master-build| image:: https://secure.travis-ci.org/saxix/django-anonymoususer-permissions.png?branch=master
+                            :target: http://travis-ci.org/saxix/django-anonymoususer-permissions/
+        
+        .. |master-cov| image:: https://codecov.io/gh/saxix/django-anonymoususer-permissions/branch/master/graph/badge.svg
+                            :target: https://codecov.io/gh/saxix/django-anonymoususer-permissions
+        
+        .. |dev-build| image:: https://secure.travis-ci.org/saxix/django-anonymoususer-permissions.png?branch=develop
+                          :target: http://travis-ci.org/saxix/django-anonymoususer-permissions/
+        
+        .. |dev-cov| image:: https://codecov.io/gh/saxix/django-anonymoususer-permissions/branch/develop/graph/badge.svg
+                            :target: https://codecov.io/gh/saxix/django-anonymoususer-permissions
+        
+        
+        
+        
+Platform: linux
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Intended Audience :: Developers
+Provides-Extra: tests
+Provides-Extra: dev
