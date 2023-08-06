@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: jutlautil
+Version: 0.0.3
+Summary: Package for personal utilities
+Home-page: https://github.com/amandeepjutla/jutlautil
+Author: Amandeep Jutla
+Author-email: ajutla@amandeepjutla.com
+License: UNKNOWN
+Description: # jutlautil
+        
+        Package for simple utilities that I find myself using in multiple projects.
+        
+        ## Installing
+        `pip install jutlautil` to install from PyPI. No dependencies.
+        
+        ## Utilities
+        
+        ### anchor.set_anchor()
+        Sets the working directory for a project by following a simple heuristic: it looks in the current directory for a file called `.anchor`, and if it doesn't find it, it goes to the parent directory and looks again. It keeps doing this until it either finds the file or runs out of directories to search. If it finds the file, it sets the working directory to that file's location. This is analogous to (and inspired by) R's `here` package.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
