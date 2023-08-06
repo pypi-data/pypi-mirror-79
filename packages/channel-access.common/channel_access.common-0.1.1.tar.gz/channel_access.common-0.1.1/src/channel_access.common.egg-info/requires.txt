@@ -1,0 +1,11 @@
+
+[dev]
+tox
+sphinx
+pytest
+
+[doc]
+sphinx
+
+[test]
+pytest
