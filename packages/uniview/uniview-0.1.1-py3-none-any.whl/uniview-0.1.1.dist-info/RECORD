@@ -1,0 +1,12 @@
+uniview/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+uniview/im2d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uniview/im2d/image_data.py,sha256=6l0YMlhnS68_GR7JF9LkbJYDnq7JOqJ0dVf82ONuUUk,1310
+uniview/vmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uniview/vmo/bbox.py,sha256=oHIITzwrU_7s7-2GFlLxu5FRuoJp1P9kcRdos2lk-gY,6758
+uniview/vmo/constants.py,sha256=jaoLHjF5jinHtAcsoWWg3Lf5h9AlgSt-ZMi2Y1zVOpk,4952
+uniview/vmo/keypoints.py,sha256=UtGKpZeG3WfFymls38o_cjdPnQ-hJa_masCkTm-xw4A,6613
+uniview/vmo/person_profile.py,sha256=RNOwUXqPdaf6KOF_DMr3iLThrHL4rO4uvsJy80v04mQ,14175
+uniview-0.1.1.dist-info/entry_points.txt,sha256=nhniDRhsUF13lp0UIecezMeefYUnV73NyEpNSHXgfNo,36
+uniview-0.1.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+uniview-0.1.1.dist-info/METADATA,sha256=LD9xY4933QhTO5WXS84MSddjO7rACwbDJzAcKC2TF4M,725
+uniview-0.1.1.dist-info/RECORD,,
