@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pip-gui-tools
+Version: 0.0.6
+Summary: A tool for python pip package management
+Home-page: UNKNOWN
+Author: Sam Sultan
+Author-email: sam.ibrahim.sultan@gmail.com
+License: MIT
+Keywords: PIP,UI,pipuitool
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pip
+Requires-Dist: flask
+Requires-Dist: pytest
+Requires-Dist: wheel-inspect
+
+
+## Compile
+
+python3 setup.py sdist bdist_wheel
+
+## Upload
+
+twin upload dist/*
+
