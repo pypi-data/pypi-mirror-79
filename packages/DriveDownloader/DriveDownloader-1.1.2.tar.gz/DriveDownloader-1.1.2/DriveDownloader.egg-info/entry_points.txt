@@ -1,0 +1,3 @@
+[console_scripts]
+ddl = src.main:main
+
