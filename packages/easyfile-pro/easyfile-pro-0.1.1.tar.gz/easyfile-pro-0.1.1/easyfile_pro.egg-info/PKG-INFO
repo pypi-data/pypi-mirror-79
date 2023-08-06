@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: easyfile-pro
+Version: 0.1.1
+Summary: =======easyfile=======
+Home-page: UNKNOWN
+Author: yangqi
+Author-email: geekpaul@outlook.com
+License: MIT Licence
+Description: ======easy file=======
+        
+        examples
+        
+        ef = EasyFile(path=your_path)
+        
+        open a json file
+        ef.open_json
+        
+        
+        
+Keywords: os,tool,file
+Platform: any
