@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: DiscordStatus
+Version: 0.0.2
+Summary: A wrapper for talking to the Discord Status page's API
+Home-page: https://github.com/SomewhatDamaged/discordstatus
+Author: Byron Mulvogue
+Author-email: not.2.me.damaged@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# PyPi
+
+[Download Here](https://pypi.org/project/DiscordStatus/)
+
+# DiscordStatus
+Wrapper for the Discord Status page's API.
+
+https://discordstatus.com/
+
+For output, see https://discordstatus.com/api
+
+Ex:
+```python
+    from discordstatus import DiscordStatus
+
+    status_obj = DiscordStatus()
+
+    print(str(status_obj.status))
+```
+
+Properties:
+- summary
+- status
+- components
+- unresolved_incidents
+- all_incidents
+- upcoming_maintenances
+- active_maintenances
+- all_maintenances
+
+
