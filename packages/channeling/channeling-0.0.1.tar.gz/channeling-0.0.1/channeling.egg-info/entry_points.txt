@@ -1,0 +1,3 @@
+[console_scripts]
+channeling = channeling.__main__:cli
+
