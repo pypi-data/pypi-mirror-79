@@ -1,0 +1,3 @@
+[console_scripts]
+run_classifier3d = image_classifier_3d.bin.run_classifier:main
+

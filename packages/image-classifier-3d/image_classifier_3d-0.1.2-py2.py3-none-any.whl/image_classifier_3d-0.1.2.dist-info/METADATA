@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: image-classifier-3d
+Version: 0.1.2
+Summary: Python package for building 3d image classifier                  using deep neural networks
+Home-page: https://github.com/aics-int/image_classifier_3d
+Author: Jianxu Chen
+Author-email: jianxuc@alleninstitute.org
+License: Allen Institute Software License
+Keywords: image_classifier_3d
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: pytorch-lightning (>=0.8.5)
+Requires-Dist: aicsimageio (>=3.2.3)
+Provides-Extra: all
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: scipy ; extra == 'all'
+Requires-Dist: scikit-image ; extra == 'all'
+Requires-Dist: pytorch-lightning (>=0.8.5) ; extra == 'all'
+Requires-Dist: aicsimageio (>=3.2.3) ; extra == 'all'
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'all'
+Requires-Dist: black (>=19.10b0) ; extra == 'all'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'all'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'all'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'all'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'all'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'all'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'all'
+Requires-Dist: bumpversion (>=0.6.0) ; extra == 'all'
+Requires-Dist: coverage (>=5.1) ; extra == 'all'
+Requires-Dist: ipython (>=7.15.0) ; extra == 'all'
+Requires-Dist: m2r (>=0.2.1) ; extra == 'all'
+Requires-Dist: Sphinx (<3,>=2.0.0b1) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3) ; extra == 'all'
+Requires-Dist: tox (>=3.15.2) ; extra == 'all'
+Requires-Dist: twine (>=3.1.1) ; extra == 'all'
+Requires-Dist: wheel (>=0.34.2) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'dev'
+Requires-Dist: black (>=19.10b0) ; extra == 'dev'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'dev'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'dev'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'dev'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'dev'
+Requires-Dist: bumpversion (>=0.6.0) ; extra == 'dev'
+Requires-Dist: coverage (>=5.1) ; extra == 'dev'
+Requires-Dist: ipython (>=7.15.0) ; extra == 'dev'
+Requires-Dist: m2r (>=0.2.1) ; extra == 'dev'
+Requires-Dist: Sphinx (<3,>=2.0.0b1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3) ; extra == 'dev'
+Requires-Dist: tox (>=3.15.2) ; extra == 'dev'
+Requires-Dist: twine (>=3.1.1) ; extra == 'dev'
+Requires-Dist: wheel (>=0.34.2) ; extra == 'dev'
+Provides-Extra: setup
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'setup'
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0) ; extra == 'test'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'test'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'test'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'test'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'test'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'test'
+
+# Image Classifier 3D
+
+[![Build Status](https://github.com/aics-int/image_classifier_3d/workflows/Build%20Master/badge.svg)](https://github.com/aics-int/image_classifier_3d/actions)
+
+Python package for building 3d image classifier using deep neural networks
+
+---
+
+## Installation
+**Stable Release:** `pip install image_classifier_3d`<br>
+**Development Head:** `pip install git+https://github.com/aics-int/image_classifier_3d.git`
+
+## Development
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+***Free software: Allen Institute Software License***
+
+
