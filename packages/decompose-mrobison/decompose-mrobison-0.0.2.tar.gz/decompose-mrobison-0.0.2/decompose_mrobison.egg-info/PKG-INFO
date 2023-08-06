@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: decompose-mrobison
+Version: 0.0.2
+Summary: A module for decomposing strings in the latin alphabet to the ascii subset.
+Home-page: https://github.com/wts-dev/decompose
+Author: Mike Robison
+Author-email: mrobison@wts.edu
+License: UNKNOWN
+Description: # Decompose
+        This module provides a method for decomposing strings containing latin diacretics, ligatures, 
+        and other unusual latin letters into their appropriate ascii counterparts generally for the purpose
+        of data for submission into systems requiring the usage of the ascii subset.
+        
+        ## Example
+        ```python
+        from decompose import decompose
+        
+        decompose('Málaga') # returns 'Malaga'
+        ```
+        
+        ## Comments
+        decompose.decompose() depends upon unicodedata.normalize() for most of its heavy lifting. 
+        However, it also contains a lookup table (decompose.charmap) for those unicode characters that are
+        not necessarily handled by normalize(). Any letter not handled by either normalize or charmap will
+        be silently dropped.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
