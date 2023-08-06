@@ -1,0 +1,11 @@
+README.md
+setup.py
+DiscordStatus.egg-info/PKG-INFO
+DiscordStatus.egg-info/SOURCES.txt
+DiscordStatus.egg-info/dependency_links.txt
+DiscordStatus.egg-info/requires.txt
+DiscordStatus.egg-info/top_level.txt
+discordstatus/__init__.py
+discordstatus/discordstatus.py
+tests/__init__.py
+tests/test_discordstatus.py
