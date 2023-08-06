@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: printtable-demo
+Version: 0.0.1
+Summary: A package for generating tables
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Olav Vahtras
+Author-email: vahtras@kth.se
+Classifier: License :: OSI Approved :: MIT License
