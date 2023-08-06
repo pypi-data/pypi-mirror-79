@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+dev-requirements.txt
+requirements.txt
+setup.cfg
+setup.py
+.github/dependabot.yml
+.github/workflows/main.yaml
+carbonplan/__init__.py
+carbonplan.egg-info/PKG-INFO
+carbonplan.egg-info/SOURCES.txt
+carbonplan.egg-info/dependency_links.txt
+carbonplan.egg-info/requires.txt
+carbonplan.egg-info/top_level.txt
+carbonplan/tests/test_metapackage.py

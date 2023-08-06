@@ -1,0 +1,7 @@
+entrypoints
+
+[data]
+carbonplan-data
+
+[styles]
+carbonplan-styles
