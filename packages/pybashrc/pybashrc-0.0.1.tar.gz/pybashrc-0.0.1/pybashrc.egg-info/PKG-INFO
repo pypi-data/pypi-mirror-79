@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybashrc
+Version: 0.0.1
+Summary: Register python functions as bash commands
+Home-page: https://github.com/jneeven/pybashrc
+Author: Jelmer Neeven
+Author-email: author@example.com
+License: UNKNOWN
+Description: # pybashrc
+        Automatically register python functions as bash commands
+        
+        TODO:
+        - [ ] Write a proper readme
+        - [ ] Print function info if we get a TypeError when calling it
+        - [ ] Support click commands
+        - [ ] Support running from a virtual environment?
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix 
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
