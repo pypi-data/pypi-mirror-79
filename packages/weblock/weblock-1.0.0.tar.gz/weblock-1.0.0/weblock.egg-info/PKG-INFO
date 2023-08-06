@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: weblock
+Version: 1.0.0
+Summary: WebLock is a simple tool for hiding an HTML file behind a password on a static server 
+Home-page: https://github.com/Ewpratten/weblock
+Author: Evan Pratten
+Author-email: ewpratten@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN

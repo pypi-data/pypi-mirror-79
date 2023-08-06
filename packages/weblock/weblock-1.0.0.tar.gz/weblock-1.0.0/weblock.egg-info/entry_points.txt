@@ -1,0 +1,3 @@
+[console_scripts]
+weblock = weblock.__main__
+

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+weblock/__init__.py
+weblock/__main__.py
+weblock/encoder.py
+weblock/template.html
+weblock/wrapper.py
+weblock.egg-info/PKG-INFO
+weblock.egg-info/SOURCES.txt
+weblock.egg-info/dependency_links.txt
+weblock.egg-info/entry_points.txt
+weblock.egg-info/not-zip-safe
+weblock.egg-info/top_level.txt
