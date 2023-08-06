@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ml-commons
+Version: 2.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Yigit Ozen
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pytorch-lightning (>=0.9)
+Requires-Dist: pyyaml
+Requires-Dist: yacs
+Requires-Dist: wrapt
+
+UNKNOWN
+
+
