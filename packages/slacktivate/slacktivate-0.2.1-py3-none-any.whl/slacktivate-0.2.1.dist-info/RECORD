@@ -1,0 +1,15 @@
+README.md,sha256=MeUopjeJgkKhEE8YokMQfV6o0HYZWoz8Slursf_J_08,82
+slacktivate/__init__.py,sha256=71QtngIR1nUjqFe4QbZQVbHNxSewgbEnyC5sn1oqi6w,191
+slacktivate/helpers/photo.py,sha256=rxWGKWcJ_7KoPPkXbN5E20aqpL5tRnfLsurNKimHoOg,7566
+slacktivate/input/config.py,sha256=K6m9wkqGhan5d6R80Vua-szn-4sW66lmi36nX3ryL4o,2700
+slacktivate/input/helpers.py,sha256=bbHAU_xf46tXN9h2tC3-TDt9Gf5p0h5UhkHEZeUf54Q,6197
+slacktivate/input/parsing.py,sha256=vyL2JRhNQ3hNAj9ncAvFdqJFOWv2124ALDW-iLEgn-0,11568
+slacktivate/slack/classes.py,sha256=kUp-3t-4TLWwJLh5pcU5A6reH8cnInT8-WIgkJcuFPs,10274
+slacktivate/slack/clients.py,sha256=gOzjnvhOe1eyuH8h0Hp0WOHh04bGB5NrZnFR9o3eX8s,2581
+slacktivate/slack/exceptions.py,sha256=ehRSLWteWETC4erBzwyHmj4AEpFJfitcaNqyqXhgRGo,1635
+slacktivate/slack/methods.py,sha256=ba49L7wMubMSa12yw2bTwe377IM8y0SdR-SCS5_CEOQ,2577
+slacktivate/slack/retry.py,sha256=WoHSsu00upchBE416A7MxjPMegmRCOSsPUJnrxCrti8,2683
+slacktivate-0.2.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+slacktivate-0.2.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+slacktivate-0.2.1.dist-info/METADATA,sha256=VzJoqgW_jjV-e8vXFDRarBtwbhmgdRZrpEEYjCTLp9s,1463
+slacktivate-0.2.1.dist-info/RECORD,,
