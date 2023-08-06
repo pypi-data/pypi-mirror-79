@@ -1,0 +1,15 @@
+pyqt_sql_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_sql_demo/app.py,sha256=d4d9AOWiVpAL3dckTrUYMW9fflV7g-AjzQ2BaTiVBEU,367
+pyqt_sql_demo/connection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_sql_demo/connection/error_handler.py,sha256=ldyVjy1ySI7_vOVjwnjC1PU22b30QOKB8Xd3zp3OuKU,622
+pyqt_sql_demo/connection/exceptions.py,sha256=GnnGxkokoG0xOJukOLagABHRifA9wR_Cia0e-PrEW48,521
+pyqt_sql_demo/connection/model.py,sha256=IRmCnJdnu2fIl6xRuScLZvGZyDmt47IwH0Wp-KDNgQY,5217
+pyqt_sql_demo/syntax_highlighter/sql.py,sha256=W7drfmdLO3fPDCigsztQFQIneR-m_89dw6xvOYDVnjg,940
+pyqt_sql_demo/widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyqt_sql_demo/widgets/connection.py,sha256=RzcIYn5nqMV56_fTwDWWW3cOG2uhR7p8uTA-ctuND_c,9456
+pyqt_sql_demo/widgets/main.py,sha256=Ooe0a7ZxPyzJjP6m3pdy8ZPEa9v0ybjfkeCSc9PT4qk,1863
+pyqt_sql_demo/widgets/text.py,sha256=Fdv69ysba8PsBSlddPWZN_qC-oZxzooJBu_H4bGbB4g,557
+pyqt_sql_demo-1.0.1.dist-info/entry_points.txt,sha256=8ZMJ3DE0nEPQqxECcHUHxs12yhujO_-ZRHORNYooXmk,58
+pyqt_sql_demo-1.0.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pyqt_sql_demo-1.0.1.dist-info/METADATA,sha256=pK2N67oGQQfgD3wqIOKNUtSQVH7pBE4hfJEVhmnRuh8,5690
+pyqt_sql_demo-1.0.1.dist-info/RECORD,,
