@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ai1wm/__init__.py
+ai1wm/__main__.py
+ai1wm/exception.py
+ai1wm/header.py
+ai1wm/package.py
+ai1wm/packer.py
+ai1wm/str_.py
+ai1wm/unpacker.py
+ai1wm.egg-info/PKG-INFO
+ai1wm.egg-info/SOURCES.txt
+ai1wm.egg-info/dependency_links.txt
+ai1wm.egg-info/top_level.txt
