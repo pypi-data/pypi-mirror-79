@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fpack
+Version: 1.0.3
+Summary: fpack is a simple message (de)seriealizer in pure python
+Home-page: https://github.com/frankurcrazy/fpack
+License: BSD-3-Clause
+Keywords: serializer,unserializer,packer,unpacker
+Author: Frank Chang
+Author-email: frank@csie.io
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/frankurcrazy/fpack
