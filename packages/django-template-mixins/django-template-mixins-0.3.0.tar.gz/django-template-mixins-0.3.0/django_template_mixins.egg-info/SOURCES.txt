@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_template_mixins.egg-info/PKG-INFO
+django_template_mixins.egg-info/SOURCES.txt
+django_template_mixins.egg-info/dependency_links.txt
+django_template_mixins.egg-info/not-zip-safe
+django_template_mixins.egg-info/requires.txt
+django_template_mixins.egg-info/top_level.txt
+mixin_templatetag/__init__.py
+mixin_templatetag/componentnodes.py
+mixin_templatetag/mixinnodes.py
+mixin_templatetag/templatetags/__init__.py
+mixin_templatetag/templatetags/mixins.py
