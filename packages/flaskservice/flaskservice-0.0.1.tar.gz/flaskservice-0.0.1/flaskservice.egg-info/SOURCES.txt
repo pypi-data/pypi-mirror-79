@@ -1,0 +1,10 @@
+README.md
+setup.py
+flaskservice/__init__.py
+flaskservice/_base.py
+flaskservice.egg-info/PKG-INFO
+flaskservice.egg-info/SOURCES.txt
+flaskservice.egg-info/dependency_links.txt
+flaskservice.egg-info/top_level.txt
+tests/__init__.py
+tests/test_app.py
