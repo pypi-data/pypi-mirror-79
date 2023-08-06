@@ -1,0 +1,15 @@
+webdataset/__init__.py,sha256=oH6Kq_pCwkK72IgZH77ENdcAwL-pQMxwvNmyEbZ0acI,664
+webdataset/autodecode.py,sha256=0ERFzPAVYUF005AZSjZNza8dbsug68DNlXgTLgjVqlc,8487
+webdataset/bench.py,sha256=f9BIr58jgXWWKnZMVGbaHGsksfDTB1ovWau3kntZvgs,1615
+webdataset/checks.py,sha256=uXsv2XWkuPuhxTgF-JwWCyDVIKq9OIEANnLdJq1Aqdw,1388
+webdataset/dataset.py,sha256=bJ-rU5Q_qklZnJxKOU91kjK_CptmGpDvjPXOXUgnEW8,15015
+webdataset/filters.py,sha256=TdxVSc2-q9lFlLOTQAchd3ZlIYVqMdMATVP9b3RX6oE,10833
+webdataset/gopen.py,sha256=QwVDDdtJnH0lmK6B2gieoMifNEXSbYjNNiLUISjLu8Y,6025
+webdataset/multi.py,sha256=ZEKFJ6FDnnMerNjlkHBcBL2Eu7VG3cd8miIs9FIeVMY,4353
+webdataset/tenbin.py,sha256=gXMkXNem_kZIoV_e4PioWMJ-_uVJ3Cl3MbEs2HrW5Gk,9786
+webdataset/writer.py,sha256=wYEX6rTHFltHYWviLI7kMU7OEFvo0jdnYRrERYblddA,10478
+webdataset-0.1.40.dist-info/LICENSE,sha256=q15UoQRENJPkNeduYNy7a5UEXhpCvMDYpmL6ABrQpRg,1485
+webdataset-0.1.40.dist-info/METADATA,sha256=Gmvu6kGjMxX62Iv8jSHa3arZB9-p11zl-0sipG7rHWM,21985
+webdataset-0.1.40.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+webdataset-0.1.40.dist-info/top_level.txt,sha256=XXo5bhdYuSlXM4vz1J208ndLLNGJB6SirkrvD9Us5fI,11
+webdataset-0.1.40.dist-info/RECORD,,
