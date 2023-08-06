@@ -1,0 +1,220 @@
+Metadata-Version: 2.1
+Name: pymodi
+Version: 1.0.0
+Summary: Easy😆 and fast💨 MODI Python API package.
+Home-page: https://github.com/LUXROBO/pymodi
+Author: LUXROBO
+Author-email: tech@luxrobo.com
+License: MIT
+Keywords: python,modi
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Requires-Dist: python-can
+Requires-Dist: bleak
+Requires-Dist: adafruit-ampy
+
+<p align="center">
+	<img src="https://github.com/LUXROBO/pymodi/blob/master/docs/_static/img/logo.png?raw=true" width="500" height="150">
+</p>
+
+--------
+
+[![image](https://img.shields.io/pypi/pyversions/pymodi.svg)](https://pypi.python.org/pypi/pymodi)
+[![image](https://img.shields.io/pypi/v/pymodi.svg)](https://pypi.python.org/pypi/pymodi)
+[![Documentation Status](https://readthedocs.org/projects/pymodi/badge/?version=master)](https://pymodi.readthedocs.io/en/master/?badge=master)
+[![Build Status](https://github.com/LUXROBO/pymodi/workflows/Build%20Status/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions)
+[![Coverage Status](https://coveralls.io/repos/github/LUXROBO/pymodi/badge.svg)](https://coveralls.io/github/LUXROBO/pymodi)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/LUXROBO/pymodi.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LUXROBO/pymodi/context:python)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5a62f1585d723099e337/maintainability)](https://codeclimate.com/github/LUXROBO/pymodi/maintainability)
+[![License](https://img.shields.io/pypi/l/pymodi.svg?color=blue)](https://github.com/LUXROBO/pymodi/blob/master/LICENSE)
+
+Description
+=========
+Easy😆 and fast💨 MODI Python API package.
+
+-   Free software: MIT license
+-   Documentation: <https://pymodi.readthedocs.io>.
+
+Features
+--------
+PyMODI supports a control of modular electronics based on MODI modules developed by LUXROBO
+* Easy control of modules through serial connection on Windows, Linux, and MacOS
+* Direct CAN communication on raspberry pi and other platforms
+* Support on Python version >= 3.6
+* Utilities of firmware update and low-level debugging of the modules
+
+UML Diagram
+--------
+<p align="center">
+    <img src="https://github.com/LUXROBO/pymodi/blob/master/docs/_static/img/umldiagram.svg?raw=true">
+</p>
+
+Build Status
+--------
+
+|master|develop|
+|:---:|:---:|
+| [![Build Status](https://github.com/LUXROBO/pymodi/workflows/Build%20Status/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Build Status](https://github.com/LUXROBO/pymodi/workflows/Build%20Status/badge.svg?branch=develop)](https://github.com/LUXROBO/pymodi/actions) |
+
+System Support
+---------
+| System | 3.6 | 3.7 | 3.8 |
+| :---: | :---: | :---: | :--: |
+| Linux | [![Unit Test (Ubuntu)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Ubuntu)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (Ubuntu)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Ubuntu)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (Ubuntu)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Ubuntu)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) |
+| Mac OS | [![Unit Test (macOS)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(macOS)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (macOS)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(macOS)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (macOS)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(macOS)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) |
+| Windows | [![Unit Test (Windows)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Windows)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (Windows)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Windows)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) | [![Unit Test (Windows)](https://github.com/LUXROBO/pymodi/workflows/Unit%20Test%20(Windows)/badge.svg?branch=master)](https://github.com/LUXROBO/pymodi/actions) |
+
+Contribution Guidelines
+--------
+We appreciate all contributions. If you are planning to report bugs, please do so at <https://github.com/LUXROBO/pymodi/issues>. Feel free to fork our repository to your local environment, and please send us feedback by filing an issue.
+
+If you want to contribute to pymodi, be sure to review the contribution guidelines. This project adheres to pymodi's code of conduct. By participating, you are expected to uphold this code.
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
+Quickstart
+--------
+
+Install the latest PyMODI if you haven\'t installed it yet:
+```commandline
+pip install -U pymodi --user
+```
+
+You can also install PyMODI at develop branch with:
+```commandline
+pip install git+https://github.com/LUXROBO/pymodi.git@develop --user --upgrade
+```
+Import **modi** package and create **MODI** instance:
+```python
+import modi
+bundle = modi.MODI()
+```
+List connected modules:
+```python
+bundle.modules
+```
+List connected LED modules and pick the first one:
+```python
+bundle.leds # List.
+bundle.leds[0] # Pick.
+```
+Let\'s blink the LED\'s light 5 times:
+```python
+import time
+
+led = bundle.leds[0]
+
+for _ in range(5):
+    led.turn_on()
+    time.sleep(1)
+    led.turn_off()
+    time.sleep(1)
+```
+If you are still not sure how to use PyMODI, you can play an interactive PyMODI tutorial by running a command of
+```commandline
+$ python -m modi --tutorial
+```
+Moreover, we provide some [usage and creation examples.](examples)
+
+History
+=======
+
+0.1.0 (2018-06-28)
+------------------
+-   First release on in-house GitLab
+
+0.1.1 (2018-07-20)
+------------------
+-   Requirements fix
+-   Packages\' include path fix
+
+0.1.2 (2018-07-23)
+------------------
+-   Python 3.4 support
+
+0.2.0 (2018-07-25)
+------------------
+-   Speaker module support
+-   Display module support
+
+0.2.1 (2018-07-27)
+------------------
+-   Add speaker module\'s tune() and off() methods
+-   Remove duplicated codes
+
+0.3.0 (2018-07-28)
+------------------
+-   Support python 2.7
+-   Speed up the performance
+
+0.3.1 (2018-07-28)
+------------------
+-   Requirements fix
+
+0.4.0 (2018-08-20)
+------------------
+-   Performance improvement
+-   The first documentation complete
+
+0.5.0 (2018-08-22)
+------------------
+-   Change the project name to pyMODI
+
+0.5.1 (2018-11-07)
+------------------
+-   Fix \#26 (No MODI network module connected) issue
+
+0.5.2 (2019-10-11)
+------------------
+-   Can control a pair of motors of the motor module by torque(),
+    speed(), angle()
+
+0.6.0 (2019-10-18)
+------------------
+-   Performance improvement
+-   Bug fixes
+
+0.7.0 (2020-01-23)
+------------------
+-   Implement individual motor control
+-   Implement set variable method in display
+-   Implement test cases for each modi modules
+-   Implement multiprocessing version of pymodi
+-   Bug fixes
+
+0.7.1 (2020-02-07)
+------------------
+-   Refactor file structures
+-   Bug fixes
+
+0.8.0 (2020-05-07)
+------------------
+-   Implement Can Message Handler
+-   Implement Topology Manager
+-   Improve connection reliability by separating communication functions
+-   Bug fixes
+
+0.9.0 (2020-07-07)
+------------------
+-   Implement Module Firmware Updater
+-   Implement wireless connection via SPP
+-   Implement MODI Priority Queue to increase response speed
+-   Implement PyMODI tutor for teaching new-comers
+-   Support multi MODI network modules given appropriate COM ports
+-   Refactor getter/setter for each MODI module
+-   Refactor motor module to use set_motor_channel internally
+-   Update property values when setting properties
+-   Add usage/creation example to the repository
+
+
