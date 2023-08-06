@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: release-helper
+Version: 0.1.0a0
+Summary: Command line helpers for preparing releases for Python packages.
+Home-page: https://github.com/pradyunsg/release-helper
+Author: Pradyun Gedam
+Author-email: mail@pradyunsg.me
