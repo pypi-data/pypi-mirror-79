@@ -1,0 +1,5 @@
+pandas
+vertica-python
+numpy
+scipy
+statsmodels
