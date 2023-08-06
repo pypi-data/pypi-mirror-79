@@ -1,0 +1,10 @@
+sru/__init__.py,sha256=5EgCibeNlZJcKTA13rc0tKO2qmCw9NqbVhq_MOO9V_U,296
+sru/cuda_functional.py,sha256=G_enhEF1OQeVa1AF1ddcPS6MRgYVQn1ba9CNl4329e8,5004
+sru/modules.py,sha256=g0bvMEOGiSjdPX1JFfZox8Pvi43NNug5bebcarPKBY8,27771
+sru/ops.py,sha256=2oWCXysd4QxTbRMGTTcp_sRYgIR0DaIejjB1idjnubs,7703
+sru/version.py,sha256=I1qJysfWW1Hf-R20wdbITNEESdCUgamBTo92IugxIOo,22
+sru-2.4.0.dist-info/LICENSE,sha256=r7EUJuCdpAoa5Pj6F93Ma2pS0U3wTCm8W80G64cwYk0,1057
+sru-2.4.0.dist-info/METADATA,sha256=RDB4e9PBdMkGAlTYN-6q6Zt_0Gv_gcYORcGrJePaFWE,3491
+sru-2.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sru-2.4.0.dist-info/top_level.txt,sha256=oM-2iW_tMrb64x8s_AQkDbsafhSIdgxztosh-VxhSYo,4
+sru-2.4.0.dist-info/RECORD,,
