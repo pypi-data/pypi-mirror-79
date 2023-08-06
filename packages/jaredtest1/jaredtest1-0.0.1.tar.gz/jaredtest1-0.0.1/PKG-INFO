@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jaredtest1
+Version: 0.0.1
+Summary: Say hello!
+Home-page: https://github.com/danielwilczak101/EasyGA
+Author: Jared Curtis
+Author-email: curtij18@my.erau.edu
+License: UNKNOWN
+Description: # Hello World
+        
+        An exmaple project yadadaadada
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        python pip -m install helloworld
+        
+        ## Usage
+        
+        '''python
+        from helloworld import say_hello
+        
+        # Generate "Hello, World!"
+        say_hello()
+        
+        # Generate "Hello, {name}!"
+        say_hello("yeet")
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
