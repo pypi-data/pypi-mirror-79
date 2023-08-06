@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: virtualenv-reproducible
+Version: 0.1.0.post0
+Summary: ensure virtualenv doesn't download new copies of pip/setuptools/wheel.
+Home-page: https://github.com/graingert/virtualenv-reproducible
+Author: Thomas Grainger
+Author-email: virtualenv-reproducible@graingert.co.uk
