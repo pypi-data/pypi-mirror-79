@@ -1,0 +1,13 @@
+eyekit/__init__.py,sha256=gB6qbj2NrEuW0zNUvI-JhXNWDSV-ABLt9T8Y11Rcmco,1510
+eyekit/_drift.py,sha256=SS2vKG-L1WrSlUoQ6YmpmIM3YajyubKuTtMkwjy9JNo,9240
+eyekit/analysis.py,sha256=qr-JIhpFuLT38sRh2gPszL7ePct0vnxNZZfy8znqguI,5172
+eyekit/fixation.py,sha256=-KBTZazkXIUJNjIxq8S-fyC0c8qscdRMuuUYEuexMCw,5516
+eyekit/image.py,sha256=nCuORfx5vgJRrFZLS4ywpb9iIi5M_PBIhpqpadxXdNs,14760
+eyekit/io.py,sha256=syE07FjhbvFBKtxzFr9H9Ml1PnSO-Y_JeM7XwItm3c0,4425
+eyekit/text.py,sha256=_SvGZ3v7lT5lIXCNl-NVodvCKbLz5E6THfm7eId0-TI,17234
+eyekit/tools.py,sha256=ogORwyocEcf7DxJZFfIgxAZGn1B5gEguAeUDhrpSO5E,4205
+eyekit-0.1.10.dist-info/LICENSE,sha256=jVkJJlz26HiGHIkfNZ4IWjar4gLgSss1oFLOTsIDor0,1065
+eyekit-0.1.10.dist-info/METADATA,sha256=CIw8CpiRpZZU2NnRESRLcSHS5POvo1_mZF6mfrzEEJ0,15200
+eyekit-0.1.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+eyekit-0.1.10.dist-info/top_level.txt,sha256=iKD1CIEmQ_QLPNcdOy1T9bv05euDcPXbxJyRl3TOwME,7
+eyekit-0.1.10.dist-info/RECORD,,
