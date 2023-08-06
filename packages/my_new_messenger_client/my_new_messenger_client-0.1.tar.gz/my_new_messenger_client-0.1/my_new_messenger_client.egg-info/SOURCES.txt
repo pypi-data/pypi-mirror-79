@@ -1,0 +1,6 @@
+setup.py
+my_new_messenger_client.egg-info/PKG-INFO
+my_new_messenger_client.egg-info/SOURCES.txt
+my_new_messenger_client.egg-info/dependency_links.txt
+my_new_messenger_client.egg-info/requires.txt
+my_new_messenger_client.egg-info/top_level.txt
