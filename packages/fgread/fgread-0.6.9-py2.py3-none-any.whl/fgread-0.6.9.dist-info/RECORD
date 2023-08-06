@@ -1,0 +1,7 @@
+fgread/__init__.py,sha256=6ZdEOPzJKD24mEuMJ8sKFbmUW1y39HRvuA8MBee35Ok,461
+fgread/read.py,sha256=LLVcUwdrbXEkv_IUuI0JnQ_gTOWwPG8y0vErW6-xuk8,14288
+fgread/readers.py,sha256=3siSJ3IPNZcY6MRhJOL-27_k9ekZWZJQTVQ0ZiessP8,2373
+fgread-0.6.9.dist-info/LICENSE,sha256=_0B4fu4kue3DsyFiNIDPzbUWvDFFiKze747YW2wdxEs,1069
+fgread-0.6.9.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+fgread-0.6.9.dist-info/METADATA,sha256=tHGFHeDQA2H6fFSV5escawIqKMpZVyT9XkdSGEZCOIw,2514
+fgread-0.6.9.dist-info/RECORD,,
