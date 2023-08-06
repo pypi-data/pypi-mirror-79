@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: NEMSpy
+Version: 0.1.6
+Summary: Python wrapper for the NOAA Environmental Modeling System
+Home-page: https://github.com/noaa-ocs-modeling/NEMSpy.git
+Author: Zach Burnett, Jaime R Calzada
+Author-email: zachary.burnett@noaa.gov, jreniel@gmail.com
+License: MIT
+Description: # NEMSpy
+        ### Python wrapper for the NOAA Environmental Modeling System
+        
+        [![tests](https://github.com/noaa-ocs-modeling/NEMSpy/workflows/tests/badge.svg)](https://github.com/noaa-ocs-modeling/NEMSpy/actions)
+        
+        This repository implements the [National Unified Operational Prediction Capability (NUOPC)](https://www.earthsystemcog.org/projects/nuopc/).
+        
+        #### Related Repositories:
+        - https://github.com/NOAA-EMC/NEMS
+        - https://github.com/esmf-org/esmf
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
