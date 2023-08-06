@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hdfio
+Version: 0.2.0
+Summary: All the useful python I/O utility functions for HDF5 files
+Home-page: https://github.com/RealPolitiX/hdfio
+Author: ['R. Patrick Xian', 'others']
+Author-email: 
+License: MIT
+Download-URL: https://github.com/RealPolitiX/hdfio/tarball/0.2.0
+Requires-Dist: h5py
+Requires-Dist: silx
+Requires-Dist: deepdish
+Requires-Dist: h5io
+
+# hdfio
+
+
