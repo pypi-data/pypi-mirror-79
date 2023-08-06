@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: image-dataset-creator
+Version: 1.0.0
+Summary: Small package to help download images from searching Bing API.
+Home-page: https://github.com/keyofdeath/dataset_creator
+Author: BLANC Swan
+Author-email: swan.blanc.pro@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: computer vision,Dataset creation,opencv,Deep learning
+Platform: UNKNOWN

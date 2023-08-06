@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dataset_creator/__init__.py
+dataset_creator/__main__.py
+image_dataset_creator.egg-info/PKG-INFO
+image_dataset_creator.egg-info/SOURCES.txt
+image_dataset_creator.egg-info/dependency_links.txt
+image_dataset_creator.egg-info/entry_points.txt
+image_dataset_creator.egg-info/requires.txt
+image_dataset_creator.egg-info/top_level.txt
