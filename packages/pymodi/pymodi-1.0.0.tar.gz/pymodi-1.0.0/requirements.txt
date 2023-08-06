@@ -1,0 +1,4 @@
+pyserial
+python-can
+bleak
+adafruit-ampy
