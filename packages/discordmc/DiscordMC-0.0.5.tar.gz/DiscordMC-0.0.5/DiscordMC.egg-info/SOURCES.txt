@@ -1,0 +1,10 @@
+setup.py
+DiscordMC.egg-info/PKG-INFO
+DiscordMC.egg-info/SOURCES.txt
+DiscordMC.egg-info/dependency_links.txt
+DiscordMC.egg-info/requires.txt
+DiscordMC.egg-info/top_level.txt
+discordmc/__init__.py
+discordmc/__main__.py
+discordmc/bot.py
+discordmc/cli.py
