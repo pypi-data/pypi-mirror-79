@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+imgdata/__init__.py
+imgdata/api.py
+imgdata.egg-info/PKG-INFO
+imgdata.egg-info/SOURCES.txt
+imgdata.egg-info/dependency_links.txt
+imgdata.egg-info/requires.txt
+imgdata.egg-info/top_level.txt
