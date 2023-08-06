@@ -1,0 +1,8 @@
+__pycache__/
+legacy/
+.vs*/
+*.py[cod]
+build/
+dist/
+*.py[cod]
+*.egg-info
