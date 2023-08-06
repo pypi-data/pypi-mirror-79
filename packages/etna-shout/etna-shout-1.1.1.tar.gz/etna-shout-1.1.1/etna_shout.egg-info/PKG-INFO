@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: etna-shout
+Version: 1.1.1
+Summary: Command line tool to interact with ETNA's APIs
+Home-page: https://github.com/tbobm/shout
+Author: Theo "Bob" Massard
+Author-email: massar_t@etna-alternance.net
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
