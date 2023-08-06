@@ -1,0 +1,6 @@
+setup.py
+sjohar.egg-info/PKG-INFO
+sjohar.egg-info/SOURCES.txt
+sjohar.egg-info/dependency_links.txt
+sjohar.egg-info/not-zip-safe
+sjohar.egg-info/top_level.txt
