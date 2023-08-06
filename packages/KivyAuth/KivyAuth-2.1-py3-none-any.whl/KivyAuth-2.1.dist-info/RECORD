@@ -1,0 +1,10 @@
+kivyauth/__init__.py,sha256=_QXBFQT_K07gSCFeyGe9DjELBGJP4NVC5k9rhoCs8as,201
+kivyauth/facebook_auth.py,sha256=Ma27YGA7WGNS4iqBSOwACgM33e36SQCDawtZnzfKveQ,4011
+kivyauth/firebase_auth.py,sha256=aOrMazBrPP9j89tclAb3Snx6pmVm-z3BKbUoHqFiXZ4,3290
+kivyauth/google_auth.py,sha256=thYpvb9dK6AJnJpxnlUWKX_vLOAD0vsZ8UUotHx7yZ0,2454
+kivyauth/providers.py,sha256=zIbjG_wUhcDlvUW0Y6OW_7j3xYlJ3eerENbMChc66iU,153
+KivyAuth-2.1.dist-info/LICENSE,sha256=oYK9yjulSCjAXGN75fFFNQX6hWDgZryRU9WZjVGVP1M,1070
+KivyAuth-2.1.dist-info/METADATA,sha256=vF7oz6axPUV7iwx21vKUXwWbOjDbuufkxw0i5c-lKI0,3337
+KivyAuth-2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+KivyAuth-2.1.dist-info/top_level.txt,sha256=_yRz0eQRTfDFj0t1etvzf5MZJDy6OwWOSEyxsCuiKoc,9
+KivyAuth-2.1.dist-info/RECORD,,
