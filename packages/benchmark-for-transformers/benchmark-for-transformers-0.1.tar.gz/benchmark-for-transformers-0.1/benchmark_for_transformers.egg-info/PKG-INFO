@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: benchmark-for-transformers
+Version: 0.1
+Summary: Tool for easily comparing and evaluating the performance of transformers under different scenarios.
+Home-page: https://github.com/airKlizz/benchmark-for-transformers
+Author: Remi Calizzano
+Author-email: remi.calizzano@gmail.com
+License: MIT
+Download-URL: https://github.com/airKlizz/benchmark-for-transformers/archive/v_0.1.tar.gz
+Description: # Benchmark for Transformers
+        
+        Evaluate performance of Transformers in different scenarios.
+        
+        ## Documentation
+        
+        You can find a description of the repository, guide and examples in the [documentation](https://remi-calizzano.gitbook.io/benchmark-for-transformers/).
+Keywords: NLP Benchmark Transformers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+benchmark-for-transformers-run = benchmark_for_transformers.run_cli:main
+
