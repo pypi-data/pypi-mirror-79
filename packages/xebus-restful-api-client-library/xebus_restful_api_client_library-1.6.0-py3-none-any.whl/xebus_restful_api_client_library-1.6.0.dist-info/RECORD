@@ -1,0 +1,16 @@
+majormode/__init__.py,sha256=RcLLXA2QSm8F8fnco7-uTLNj31o507_kBsfUlN8Dqw4,854
+majormode/xebus/__init__.py,sha256=RcLLXA2QSm8F8fnco7-uTLNj31o507_kBsfUlN8Dqw4,854
+majormode/xebus/client/__init__.py,sha256=hQMe9IQZJz-QpDqv0w-_PUlHH4DeLc4TfZ5po5NfS9w,778
+majormode/xebus/client/service/__init__.py,sha256=hQMe9IQZJz-QpDqv0w-_PUlHH4DeLc4TfZ5po5NfS9w,778
+majormode/xebus/client/service/attendant_service.py,sha256=wjlQSHCFtnV0IDTGsPQsSczvda83DiCDPUuNC8KIIoo,6724
+majormode/xebus/client/service/bus_route_service.py,sha256=82d_0xF4kRROZPuIQzy80NmXD-5FEnOpxITh3zTm3z0,8978
+majormode/xebus/client/service/child_service.py,sha256=KXB6OOxCltYmi8WdHKth6ruMD_KXGE-S-27PD5nk_fU,2745
+majormode/xebus/client/service/education_service.py,sha256=PC16YK8yik8g0i2JIOOZW5yImIVO1Mueo_pJCV3jip8,2158
+majormode/xebus/client/service/guardian_service.py,sha256=9EWaHXhd6RoxJMF_kymrwCN2nYlutRXnQF3xOYZX-qA,16975
+majormode/xebus/client/service/school_service.py,sha256=c8Dgu0WPb1om42jiMRfi-A9NNfU2-RvkbnFekrt_10Y,3671
+majormode/xebus/client/service/upmd_service.py,sha256=9rz8tZ1h3s78aUsdR0rOHwz6Sc7OEr5WhRFQJQAa7GQ,1296
+majormode/xebus/client/service/xebus_service.py,sha256=PCHWohZQvvGf8TgrbU0UsOgkLCpN-EsIy7a4o82I5n4,7444
+xebus_restful_api_client_library-1.6.0.dist-info/METADATA,sha256=yuwQeXdWC_ckpg_UuuufGO-U5jY-nvdr-_xIm4y6v3w,936
+xebus_restful_api_client_library-1.6.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xebus_restful_api_client_library-1.6.0.dist-info/top_level.txt,sha256=qLr6h4oeLqaugRahQG2kHWqnLf2QDgu8LP6VtCUDw7M,10
+xebus_restful_api_client_library-1.6.0.dist-info/RECORD,,
