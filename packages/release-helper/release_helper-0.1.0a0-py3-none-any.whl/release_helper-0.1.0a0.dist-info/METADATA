@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: release-helper
+Version: 0.1.0a0
+Summary: Command line helpers for preparing releases for Python packages.
+Home-page: https://github.com/pradyunsg/release-helper
+License: UNKNOWN
+Author: Pradyun Gedam
+Author-email: mail@pradyunsg.me
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: packaging
+Requires-Dist: sphinx ; extra == "docs"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-xdist ; extra == "test"
+Provides-Extra: docs
+Provides-Extra: test
+
+# release-helper
+
+Command line helpers for preparing releases for Python packages.
+
