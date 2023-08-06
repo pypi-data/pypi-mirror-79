@@ -1,0 +1,9 @@
+pconvert_rust/__init__.py,sha256=2MtnLyi0QRLQTZMUWGOmZdkNMw22QC7nvTjOtGGevy4,76
+pconvert_rust/pconvert_rust.cpython-38-darwin.so,sha256=cbT6vTu5hYXoTk3p4jVWyHyBLav-Zqab2Aw3Z3nXsTw,1547764
+pconvert_rust/test/__init__.py,sha256=yMaDcfooNNba5QHQkjQcBHnx0Bo2Z333eLg9XD1x8MI,44
+pconvert_rust/test/global.py,sha256=Qnhb8jY5GwGjyHOBN63GZSxI_rvRUESxQ2haE-hcM3c,274
+pconvert_rust-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pconvert_rust-0.1.0.dist-info/METADATA,sha256=uBBvAsMdscGdI4l9UAtz5FQ2LfjxfLo-1mcp59UHbfc,677
+pconvert_rust-0.1.0.dist-info/WHEEL,sha256=NqgkTkAaRJaCuArPZklUp2tBwn6obHN9aMIfdfLfNkU,110
+pconvert_rust-0.1.0.dist-info/top_level.txt,sha256=c8GsZkbCwMF_RwWj0sI_Q2nlh4pejcn0_R7kElpvLLY,14
+pconvert_rust-0.1.0.dist-info/RECORD,,
