@@ -1,0 +1,9 @@
+README.md
+setup.py
+protobuf_distutils/__init__.py
+protobuf_distutils/generate_py_protobufs.py
+protobuf_distutils.egg-info/PKG-INFO
+protobuf_distutils.egg-info/SOURCES.txt
+protobuf_distutils.egg-info/dependency_links.txt
+protobuf_distutils.egg-info/entry_points.txt
+protobuf_distutils.egg-info/top_level.txt
