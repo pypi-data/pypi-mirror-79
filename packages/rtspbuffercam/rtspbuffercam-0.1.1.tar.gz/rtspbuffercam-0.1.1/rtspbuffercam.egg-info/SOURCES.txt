@@ -1,0 +1,8 @@
+README.md
+setup.py
+camera/__init__.py
+camera/main.py
+rtspbuffercam.egg-info/PKG-INFO
+rtspbuffercam.egg-info/SOURCES.txt
+rtspbuffercam.egg-info/dependency_links.txt
+rtspbuffercam.egg-info/top_level.txt
