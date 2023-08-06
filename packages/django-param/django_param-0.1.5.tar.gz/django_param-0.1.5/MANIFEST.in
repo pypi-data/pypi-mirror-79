@@ -1,0 +1,6 @@
+recursive-include django_param/*
+include *.txt
+include *.rst
+prune .coverage
+prune .github
+prune .stickler.yml
