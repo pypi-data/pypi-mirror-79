@@ -1,0 +1,11 @@
+bincrafters_remove_outdated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bincrafters_remove_outdated/bincrafters_remove_outdated.py,sha256=O6Ips3FTmoTKtcE-HN3e2Nv7J6y-GENed7ebXk7JeH8,6578
+bincrafters_remove_outdated/main.py,sha256=DwZw-WUwezE7oYHn-igoYjlReGfiQ5iJvpwocY5JLl0,310
+bincrafters_remove_outdated/requirements.txt,sha256=mlEIYDO-2U2Q7AV4svbbENvBro8Zn-hbmOTWEOnhum4,46
+bincrafters_remove_outdated/requirements_test.txt,sha256=XDYGfQZv4j5QrZBtePL90lW-2q7ncpZ-Ll_XuqaM120,129
+bincrafters_remove_outdated-0.5.0.dist-info/LICENSE,sha256=5q1nqRWyJyGqwrg-luZK32hkjVVsJRSsOju-Wl7nc7E,1068
+bincrafters_remove_outdated-0.5.0.dist-info/METADATA,sha256=ikhlZJKFLjpBKmBriIxRswz-nVL19Dba7FKxACE9xpg,5278
+bincrafters_remove_outdated-0.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bincrafters_remove_outdated-0.5.0.dist-info/entry_points.txt,sha256=24WFs8OJZ7cNdxVpt7a3ZfJW6JVUm1GyJK0O3-YGRVg,86
+bincrafters_remove_outdated-0.5.0.dist-info/top_level.txt,sha256=qjYiib-VD_6urviYzXkMq5Wf3x4QHrlEReL2rp57-UI,28
+bincrafters_remove_outdated-0.5.0.dist-info/RECORD,,
