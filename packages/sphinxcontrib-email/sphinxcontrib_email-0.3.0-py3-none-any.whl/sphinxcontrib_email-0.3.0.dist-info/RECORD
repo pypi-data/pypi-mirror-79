@@ -1,0 +1,9 @@
+sphinxcontrib/email/__init__.py,sha256=NolLVyXE392pFZepCx0jTeHUpA6PvDxCrIkjk05ncQU,372
+sphinxcontrib/email/handlers.py,sha256=F5RhPIIzQcl13vAObLG_hSmRNVPr1ddkgJMP39x8-2M,1008
+sphinxcontrib/email/roles.py,sha256=cOVIRdwaAzogepY_ZXgDBRXMtX82JbO4uavwvcizPIk,959
+sphinxcontrib/email/utils.py,sha256=zTjfc9_O6vQUr4e5R2jJ0G-9YPC3Yve4NA2ukW6iNE8,2236
+sphinxcontrib_email-0.3.0.dist-info/LICENSE,sha256=NDet5KL_briNy6JAO3WP1NuQ5TTrkN7ZYov-SWaJnCE,1517
+sphinxcontrib_email-0.3.0.dist-info/METADATA,sha256=Z4p2ODDm2qsld1BHRVVi1oxTAbxoczlz0HzKoPNjwSY,3041
+sphinxcontrib_email-0.3.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sphinxcontrib_email-0.3.0.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
+sphinxcontrib_email-0.3.0.dist-info/RECORD,,
