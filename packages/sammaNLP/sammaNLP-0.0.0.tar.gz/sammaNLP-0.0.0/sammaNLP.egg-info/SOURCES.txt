@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+sammaNLP/__init__.py
+sammaNLP/hj.py
+sammaNLP.egg-info/PKG-INFO
+sammaNLP.egg-info/SOURCES.txt
+sammaNLP.egg-info/dependency_links.txt
+sammaNLP.egg-info/top_level.txt
