@@ -1,0 +1,12 @@
+micsv/__init__.py,sha256=FEuxnoVVIiToX19jh1-gWthDf9yR-ErlGAtQglTva9w,35
+micsv/__main__.py,sha256=nz0tuCn0Gf6lG1yxUPFj-7vsmoJ3R_bFTdlsls8ZQvo,844
+micsv/download.py,sha256=zSjqgVDPC8jcUKOCOpTp5j4DZdXf7eBw2TZ1ighdFXc,2653
+micsv/get_dowload_links.py,sha256=XadsCM4RPblz46LZzuzVFw2A1M62KN6DA9k5uv4z-cQ,1991
+micsv/meta.py,sha256=OOUjFBX6TDXv_miYiPj4APhD_f1lfxUj1nlRh_8Y-30,145
+micsv/run.py,sha256=nz0tuCn0Gf6lG1yxUPFj-7vsmoJ3R_bFTdlsls8ZQvo,844
+micsv/run_mics.py,sha256=VBg9jTSqn35n5c8LmprMQZEr1kz6pJa80BEfgGBI5Hk,681
+micsv-0.0.2.dist-info/LICENSE,sha256=q9rqx9VCCBsw3cd1b3ahaBZftFKgD6MfK17p3rA8KIk,1055
+micsv-0.0.2.dist-info/METADATA,sha256=5bg-_yjvtjNrv6wmmQ3vWXeMpkI8xbx2PlvotWX4Ew4,1911
+micsv-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+micsv-0.0.2.dist-info/top_level.txt,sha256=8icAD0mI7TzYuMoHBIFXE4UQC1XVaXLTYz_pR7exqu4,6
+micsv-0.0.2.dist-info/RECORD,,
