@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: easyfile-pro
+Version: 0.1.5
+Summary: =======easyfile_pro，you can easy to operate files now=======
+Home-page: UNKNOWN
+Author: yangqi
+Author-email: geekpaul@outlook.com
+License: MIT Licence
+Description: ======easy file pro=======
+        
+        examples：
+        
+        
+        from easyfile_pro import File
+        
+        
+        
+        
+        open a json file
+        
+        File(your_path).open_json()
+        
+        
+        
+        save json file 
+        
+        File(your_path).save_json()
+        
+        
+Keywords: os,tool,file
+Platform: any
