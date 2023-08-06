@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mango-coding-test-pl-sept20
+Version: 1.0.0
+Summary: Solutions to Mango's Python Coding Test
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+# mango_test
+
+Package containing Peter Ling's solutions to the Mango Python coding test, September 2020.
+
+## Installation
+
+Install via the command line as follows:
+
+`pip install mango_coding_test_pl_sept20`
+
+## Usage
+
+The 'Functions' part of the exercise is called with the `random_draw(nsamples, dist, **params)` function.
+The 'Object-oriented Programming' part of the exercise is called with the `Sample` class.
+
+
