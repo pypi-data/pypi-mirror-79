@@ -1,0 +1,12 @@
+oslo.upgradecheck-1.1.1.dist-info/DESCRIPTION.rst,sha256=BCaWARIgE9C2PI-lewCdVD0mTmFEFIVOc7Ki2HblGrg,586
+oslo.upgradecheck-1.1.1.dist-info/METADATA,sha256=rJA8Oe0zKJcgevdQCJEtwcQhgBXe5DtNhyCFg7_x8_U,1613
+oslo.upgradecheck-1.1.1.dist-info/RECORD,,
+oslo.upgradecheck-1.1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+oslo.upgradecheck-1.1.1.dist-info/metadata.json,sha256=mAe5ogBfHKPUCtXHpQUmOJOOS6d4nopgvhL1R8vAD9Q,1220
+oslo.upgradecheck-1.1.1.dist-info/pbr.json,sha256=eFoEyzUiIW5CwU-XDcxyUoBgvC1pfxvYDltxxtnHdEY,46
+oslo.upgradecheck-1.1.1.dist-info/top_level.txt,sha256=65BzdgYK12XEUHzxGx5_0aL4Kqbe8Mw6NbpyC_gKWZE,18
+oslo_upgradecheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oslo_upgradecheck/_i18n.py,sha256=O0n7n87cEsHVrMeoMHxSr9dTWusYd2TWvezE_fKYvG8,1097
+oslo_upgradecheck/upgradecheck.py,sha256=TuxuzufSAlTReBSqT-00uuYphCQT9vm3mtI0tj-gVN8,8640
+oslo_upgradecheck/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oslo_upgradecheck/tests/test_upgradecheck.py,sha256=pQxsyeStM758amuVpoBKVxiuAUMH4Jso5gu0kxuORqI,3435
