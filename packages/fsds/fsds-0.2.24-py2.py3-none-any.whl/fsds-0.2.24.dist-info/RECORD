@@ -1,0 +1,16 @@
+fsds/__init__.py,sha256=au8j2MZtszGozTjiC4aqDnFzioz-cDiSAFQu0u22q2c,299
+fsds/datasets.py,sha256=MkZGuskVG3EH5XdTPG7kOwgtnwL1pQl_QzqFgMcZhSU,12715
+fsds/default.py,sha256=iSD3_KI2xuV7e1SJ4-dUxJfv2Z14rzdBwQpMHbxbJiI,56859
+fsds/fsds.py,sha256=_iOMQLFvRflJ6N-G0HyC8ZV7EgloyphgkGCXQeWyPFI,9646
+fsds/imports.py,sha256=0jzFg6fQLvlTQpI0sIhCjtbXvR6HfXOLBOmce1yb2Hs,4085
+fsds/quick_refs.py,sha256=UGTSp98IPd9oVmHY_YB9io0yvmrWeFPhhilpTw-i8ws,19001
+fsds/070620FT/__init__.py,sha256=rU9np5O_mC2suOCabFFppvRa8h6Gd6OOVhdFNreg2DY,3618
+fsds/jmi/__init__.py,sha256=8wcIwtL625EYqGbf0ntCke5pppxBJNzdPEfiL-dpj7k,3672
+fsds/jmi/jmi.py,sha256=sR9XY3WJphOOv-mj2ed2IkFDwMhK0wN_No5Df9_Ia50,114443
+fsds/jmi/jmi_WIP.py,sha256=dF60d4UQpafxweJhcX2GculCZxWMTQ73fsE4WfP4PVs,1582
+fsds-0.2.24.dist-info/AUTHORS.rst,sha256=1HgixR08_4u05G6NFAenvKBQ9fTwVvp39TiqJNQ4u_I,164
+fsds-0.2.24.dist-info/LICENSE,sha256=-2a5ZQRcZ6ePkidOQwsSX94ZLE7EYz6pEKnihETFf7o,1561
+fsds-0.2.24.dist-info/METADATA,sha256=7OUTjbVkoHDSXz5mRB8JX2iGf5VQ2nKcp1gz37rA9VI,2012
+fsds-0.2.24.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+fsds-0.2.24.dist-info/top_level.txt,sha256=QWQexpDaUVIID7vX7drS9QmvUSxcCLve3ZWLYN08CMs,5
+fsds-0.2.24.dist-info/RECORD,,
