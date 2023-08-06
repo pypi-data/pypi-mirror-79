@@ -1,0 +1,57 @@
+dist: xenial
+
+language: python
+
+services:
+  - docker
+
+addons:
+  sonarcloud:
+    organization: madworx
+
+python:
+  - "3.7"
+
+sudo: required
+
+before_install:
+  - pip install setuptools_scm
+
+script:
+  - PYTHON_VERSION="${TRAVIS_PYTHON_VERSION}" make docker
+  - PYTHON_VERSION="${TRAVIS_PYTHON_VERSION}" make docker-extract-artifacts
+  - mkdir dist && cp build/*.tar.gz build/*.whl ./dist/
+  - export TAGGED_VERSION=$(git describe --exact-match HEAD 2>/dev/null)
+  - sonar-scanner $([[ ! -z "${TAGGED_VERSION}" ]] && echo "-Dsonar.projectVersion=${TAGGED_VERSION}")
+
+deploy:
+  - provider: releases
+    api_key:
+      secure: C1kLaMxE7K7yx4biiZednKLA5TQNUG6Rt+oqQZLCuaXuzYJi2jMYH1XENoB73cpi321NNGMEo8WqmiZDVQsN96ulv3OYDGK2VAZ6nJcM5HDDCnj04l1hUydXh3JinchY0Z4Tqn6XeOoWsg0iDrMVCxp3O/NbhHEUtmmUjzXRaBJHorEZ7vtadmik3YzZgyqSeOLlDEs9xBFbTPK2gNPYFdYK0z+va0WDPAx3H5oXGUa5Puz3v+T0ZFzqWWg6Nc55K6eBI96pzhEw1xdVO7shM0f38QaUUTI+tDw49XV4O/Q7S1u9T4Y/lZP3QqjwqdG6oG61n8gPb8b1uhP1739xnRHhKs8p9iugiYMva/+AQFr2QYp6D5GwCfCr0LB1lxzq1Xxf3vU+E4jEkvljCb64Unn0AGt9TQOINHIolT7GssYlXyFmKW5u6FnPUsROFQPsjA8z5CpDNAkJT7pakikyHKtrdpCjDk51RptQPt6qN60z//ry2MOHv0VQS7qznOl21RNCL3EGeulpN38Sb9hGUcAerbnfo1DhFTf4lUy/E9hIqLcEzDzGh7ojlanbBG3fIaVeHSr8FDFlgZYTExfb4awx+JXkjeN7y6FaKik2HUyxVt81wGXDHml734f8P/reSNVwV/FfS2JSf96crm4dMrr8MkfHL3jPsUKWfxbN+58=
+    file_glob: true
+    file:
+      - build/KiCadLibrary*.html
+      - build/robotframework*
+    skip_cleanup: true
+    overwrite: true
+    on:
+      tags: true
+      all_branches: true
+
+  - provider: pypi
+    user: "madworx"
+    password:
+      secure: itEiOPtesxPyjG9kYxJ3OCMplmX3pxnNWBXBDNxN2AfmH/NwhTC++eK4WK5UPPoogeFIKZJPXMDsMNI19Edv8Rbp+tDyzP+Wb/IJVoRxUq/gE4gKknoxWhpfGnEOkHkuKI2kyaFOuCtk4FNvPb9BgMtWZKjsLDnPcjYrg69VihzXtVeoHVRSxVe3snDsTRAVgJKRj09d9uhuiEUt9a0MvumY7HIsGKUkvHYn6pnmw/sU3WzXPniEMYNQDE4GetXOP2zUcCa/27QuTKK42UVgw+8N8u8J0F5lxTfj0N9YdsUHha1TB7fmUvADcHaDg2KHGG/tkg84UaU0HSo+Hp+pHbk4rcgWH3bwHxOG9jd1mFZEEywgQ1hkjaqOzhdYhdGvVISP9V5EDFDXYS5BHn6y8Wor8EnYOMyFVlY0UeVwedaGjjduabFrpBu59cki8Z1FjNkFlYJsH0KJJrqPWztVS3ZV0k1a3xtspdtrkEZKg/vMZLJ7wH9Sm1FB3GO6raK8+yuYQ5+XD7lDLo9QHLDmtxdC18og0r4MWoo9tTGjKIxq+x8z5tRMr473H4CnTo78AqSo8x/kOHcCVrP3tTWogR6nWTcsIvbrUzDLHSubA7CBQpU3DGyJW+oUcyO04wUxsJepLFJ1byD6Rak+E7Mz+ptGH59s92UyxTZGpXme0pg=
+    skip_cleanup: true
+    skip_existing: true
+    overwrite: true
+    on:
+      tags: true
+      all_branches: true
+
+  - provider: script
+    script: bash ./bin/custom-deployments.sh "${DOCKER_USERNAME}" "${DOCKER_PASSWORD}" "${GH_TOKEN}"
+    skip_cleanup: true
+    on:
+      tags: true
+      all_branches: true
