@@ -1,0 +1,9 @@
+dcutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcutils/bigquery.py,sha256=P1l_7jB5nOKif4Y0damj9mFXZGFxdQDnDgrTJKa1I08,1313
+dcutils/copy_batch.py,sha256=RB__fTQbiySK76veWAng0hTdRwDR0Xwzqv_XQ88-Hdc,3782
+dcutils/triggers.py,sha256=7rPbeqaaSY7LItICzBegyXzAARkJCAfiQKmqeO8n5p0,1287
+dcutils-0.26.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+dcutils-0.26.dist-info/METADATA,sha256=13RzH_cb3zUgOPRf0fxj_e79KjRXtGGwo6LvFAZzloo,554
+dcutils-0.26.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dcutils-0.26.dist-info/top_level.txt,sha256=3Rs4PbLxH3X4FQId8pmhRxHMZHCwP84GHQQptoECZIo,8
+dcutils-0.26.dist-info/RECORD,,
