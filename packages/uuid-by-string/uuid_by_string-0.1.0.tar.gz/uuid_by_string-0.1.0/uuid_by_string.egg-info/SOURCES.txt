@@ -1,0 +1,8 @@
+README.md
+setup.py
+uuid_by_string/__init__.py
+uuid_by_string/uuid_by_string.py
+uuid_by_string.egg-info/PKG-INFO
+uuid_by_string.egg-info/SOURCES.txt
+uuid_by_string.egg-info/dependency_links.txt
+uuid_by_string.egg-info/top_level.txt
