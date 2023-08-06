@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyesbulk
+Version: 1.0.0
+Summary: An opinionated Elasticsearch bulk indexer for Python.
+Home-page: https://github.com/distributed-system-analysis/py-es-bulk
+Author: Peter A. Portante
+Author-email: peter.a.portante@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# py-es-bulk
+A simple wrapper around elasticsearch-py client streaming_bulk() API with robust error handling
+
+
