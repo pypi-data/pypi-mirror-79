@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+vermanager/__init__.py
+vermanager/vermanager.py
+vermanager.egg-info/PKG-INFO
+vermanager.egg-info/SOURCES.txt
+vermanager.egg-info/dependency_links.txt
+vermanager.egg-info/top_level.txt
