@@ -1,0 +1,9 @@
+README.md
+setup.py
+markwise/__init__.py
+markwise/obj.py
+markwise/widgets.py
+markwise.egg-info/PKG-INFO
+markwise.egg-info/SOURCES.txt
+markwise.egg-info/dependency_links.txt
+markwise.egg-info/top_level.txt

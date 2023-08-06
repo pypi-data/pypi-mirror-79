@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: markwise
+Version: 0.1.2
+Summary: A Python wrapper for Markdown
+Home-page: https://github.com/angelCarias/markwise
+Author: SnowballSH, Tekgar
+License: UNKNOWN
+Download-URL: https://github.com/angelCarias/markwise/archive/v0.1.2.tar.gz
+Description: # markwise
+        A Python wrapper for Markdown that makes it easier to maintain and build Markdown files.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
