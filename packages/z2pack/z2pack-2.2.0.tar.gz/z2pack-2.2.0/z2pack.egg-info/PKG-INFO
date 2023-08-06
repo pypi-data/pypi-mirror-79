@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: z2pack
+Version: 2.2.0
+Summary: Automating the computation of topological numbers of band-structures
+Home-page: https://z2pack.greschd.ch
+Author: Dominik Gresch
+Author-email: greschd@gmx.ch
+License: GPL
+Description: Z2Pack is a tool that computes topological invariants and illustrates non-trivial features of Berry curvature. It works as a post-processing tool with all major first-principles codes (z2pack.fp), as well as with tight-binding models (z2pack.tb) and explicit Hamiltonian matrices -- such as the ones obtained from a k.p model (z2pack.hm).
+        
+        It tracks the charge centers of hybrid Wannier functions - as described `here <http://journals.aps.org/prb/abstract/10.1103/PhysRevB.83.235401>`_ - to calculate these topological invariants.
+        
+        The Wannier charge centers are computed from overlap matrices that are obtained either directly (for tb) or via the Wannier90 code package (fp).
+        
+        `Documentation: <https://z2pack.greschd.ch>`_
+        
+Keywords: topology,topological,invariant,bandstructure,chern,z2,solid-state,tight-binding
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Provides-Extra: plot
+Provides-Extra: tb
+Provides-Extra: doc
+Provides-Extra: dev
