@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: text-transpose
+Version: 1.0.0
+Summary: Transpose, flip, rotate textual data.
+Home-page: https://github.com/nlitsme/transpose/
+Author: Willem Hengeveld
+Author-email: itsme@xs4all.nl
+License: MIT
+Keywords: transpose,row-column-data,rotate,filter
+Platform: UNKNOWN
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+
+Commandline tool which can transpose, flip, rotate data formatted in rows and columns.
+With many ways to define how the columns are defined. Rotations can be multiples of 45 degrees.
+
+simple transpose: `transpose`
+
+    a b c
+    d e f
+
+to
+
+    a   d   
+    b   e   
+    c   f   
+
+
+rotate by 45 degrees: `transpose -45`
+
+    a b c
+    d e f
+    g h i
+
+to
+
+            a       
+        d       b   
+    g       e       c
+        h       f   
+            i       
+
+or reverse a line:
+
+    transpose -y -p .
+
+
+
