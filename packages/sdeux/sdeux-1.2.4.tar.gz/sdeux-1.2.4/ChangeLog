@@ -1,0 +1,115 @@
+CHANGES
+=======
+
+1.2.4
+-----
+
+* update readme
+
+1.2.3
+-----
+
+* add license information
+
+1.2.2
+-----
+
+* introduce advanced mode flat
+* introduce advanced mode flat
+
+1.2.1
+-----
+
+* improve updater
+* explicitly set configuration for modeAB
+* configurable mode Auto duty cycles
+
+1.2
+---
+
+* fixes
+* fixes
+
+1.1
+---
+
+* clean up, only code that can be distributed to clients
+
+1.0
+---
+
+* renaming to sdeux
+* release 0.2.3
+
+0.2.8
+-----
+
+* release 0.2.3
+
+0.2.3
+-----
+
+* updater testing
+* updater ready for test
+* implementing updater
+* qualification tests fw 3832.a1
+* results
+* results
+* qualification tests fw 3832.a1
+* qualification tests fw 3832.a1
+* qualification tests fw 3832.a1
+* input analysis mode AB
+* input analysis mode AB
+* input analysis mode AB
+* input analysis mode AB
+* input analysis mode AB
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* results
+* modification1 au firmware: communiation protocol changed
+* results
+* modification1 au firmware: communiation protocol changed
+* results
+* results
+* results
+* modification1 au firmware: communiation protocol changed
+* results
+* results
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* results
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* results
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* results
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* modification1 au firmware: communiation protocol changed
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* results
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+* started implementing qualification and calibration scripts
+
+0.0.2
+-----
+
+* imports fixed
+* imports fixed
+* imported drivers from pirata
+* initialized
+* init\_project

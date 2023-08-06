@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: sdeux
+Version: 1.2.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: chiesa
+Author-email: UNKNOWN
+License: Proprietary
+Description: ===============================
+        sdeux
+        ===============================
+        
+        By: chiesa 
+        Date: March 31, 2020
+        Copyright Alpes Lasers SA, Neuchatel, Switzerland
+        
+        Driver for the Alpes Lasers S-2 pulser. Visit https://www.alpeslasers.ch/ for more informations.
+        
+        
+Keywords: sdeux
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
