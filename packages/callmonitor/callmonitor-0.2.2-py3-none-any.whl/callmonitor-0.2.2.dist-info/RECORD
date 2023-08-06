@@ -1,0 +1,10 @@
+callmonitor/__init__.py,sha256=182ZjwQGHJyILkIR3ggkLkx-5cHuOD2biIDBN11wlWI,130
+callmonitor/counter.py,sha256=JYp1s7OUjlrQpBlzaWPEBpJ4YWVuHqqmIx3YMMjnUBU,556
+callmonitor/files.py,sha256=QnO2AseJH-Ha51c51LvdvhtNNUYvHcUkRYLnmjlKACw,4533
+callmonitor/monitor.py,sha256=ZwNNS3gcQ54Z9HXsgjUySzSy4yTfpKCXScN6AAuqiP8,414
+callmonitor/singleton.py,sha256=y5u8SDxjeckKAv3XlpnD68MBFkblxCHKANFwbLFf-Bs,291
+callmonitor-0.2.2.dist-info/LICENSE,sha256=bxF3xXc8xy2ztHptca4kQaxk_6Q7-xefwA8ajRs9YKI,1881
+callmonitor-0.2.2.dist-info/METADATA,sha256=fgmSTCS4dCVQzh68F464-MkdUlhT6xcNCKHSiFIn8ZI,1165
+callmonitor-0.2.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+callmonitor-0.2.2.dist-info/top_level.txt,sha256=W7Gi5fZrNSHB4FB4Luj2k3TOZRLMbRvPWruc2J_EC0k,12
+callmonitor-0.2.2.dist-info/RECORD,,
