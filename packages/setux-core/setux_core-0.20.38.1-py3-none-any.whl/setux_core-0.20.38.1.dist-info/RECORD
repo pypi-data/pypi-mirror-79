@@ -1,0 +1,14 @@
+setux/core/__init__.py,sha256=GzHReJEMBD0nVabI4jp5ZuCu2khWJ_2KNPOBETHZ02M,82
+setux/core/distro.py,sha256=VuNrecT-ltbJKEUwIU0XopjEHL1aqSUTZ8SL1fddgN0,3127
+setux/core/errors.py,sha256=UQBd2_qsTty0twXwn0UfJwnfstGxZk6Rd4Gg2mYf1aw,1032
+setux/core/manage.py,sha256=hCHCiuJGPx12gxGwbPB626qwWdbtEViNtqJhsawxM10,2244
+setux/core/module.py,sha256=TehEzgVbNtBTGc0zYUwFTz6MP6xglYn7bpUBEvKa4hE,2235
+setux/core/package.py,sha256=EmXwz_xnULRz1PmQbp_M2UdqiFUJz1YVkQV8PM1I0yY,2361
+setux/core/plugins.py,sha256=CpPO5LI1nrJp7SUsNFFz7eX2j2Bji8fSgX0AkVCZjbk,3238
+setux/core/service.py,sha256=islEyD-s7t-DOVpUS5-KMY_kHlPUsWNVLK04gJza0FU,2101
+setux/core/target.py,sha256=9vA-xAtXwoN_w91pVquTK-om04YHB3bsqRywzzrNy2U,7575
+setux_core-0.20.38.1.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+setux_core-0.20.38.1.dist-info/METADATA,sha256=ePbElnIIyofZvLyOJnu7Z7kqHks0RNrA6qoGC8vUQ6w,937
+setux_core-0.20.38.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+setux_core-0.20.38.1.dist-info/top_level.txt,sha256=kmCnG8Rj9-DTuv9TjsPUPItgUhXEAxy9VU24QddH_X4,6
+setux_core-0.20.38.1.dist-info/RECORD,,
