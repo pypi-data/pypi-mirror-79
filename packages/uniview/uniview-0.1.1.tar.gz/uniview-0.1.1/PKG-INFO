@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: uniview
+Version: 0.1.1
+Summary: Datapoint Visualization and Illustration Toolkit
+License: Apache-2.0
+Keywords: IICO,Data,Visualization,Augmentation
+Author: H-AI
+Author-email: dongjian413@gmail.com
+Maintainer: H-AI
+Maintainer-email: dongjian413@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pillow (>=7.2.0,<8.0.0)
+Requires-Dist: absl-py (>=0.10.0,<0.11.0)
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Requires-Dist: opencv-python (==4.2.0.34)
+Description-Content-Type: text/markdown
+
+

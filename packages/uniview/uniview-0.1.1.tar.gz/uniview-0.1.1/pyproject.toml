@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "uniview"
+version = "0.1.1"
+description = "Datapoint Visualization and Illustration Toolkit"
+authors = ["H-AI <dongjian413@gmail.com>"]
+maintainers = ["H-AI <dongjian413@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = ""
+repository = ""
+documentation = ""
+keywords = ["IICO",
+            "Data",
+            "Visualization",
+            "Augmentation"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+absl-py = "^0.10.0"
+Pillow = "^7.2.0"
+opencv-python = "4.2.0.34"
+numpy = "^1.19.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+black = "^19.10b0"
+pre-commit = "^2.7.1"
+pytest-cov = "^2.10.1"
+mypy = "^0.782"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.poetry.scripts]
+run = "uniview:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
