@@ -1,0 +1,3 @@
+[console_scripts]
+seselab = seselab.bench:main
+
