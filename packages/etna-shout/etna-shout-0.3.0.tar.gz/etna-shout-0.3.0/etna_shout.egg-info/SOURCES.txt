@@ -1,0 +1,11 @@
+README.md
+setup.py
+etna_shout.egg-info/PKG-INFO
+etna_shout.egg-info/SOURCES.txt
+etna_shout.egg-info/dependency_links.txt
+etna_shout.egg-info/entry_points.txt
+etna_shout.egg-info/requires.txt
+etna_shout.egg-info/top_level.txt
+shout/__init__.py
+shout/_config.py
+shout/shout.py
