@@ -1,0 +1,5 @@
+tensorflow
+tensorflow-addons
+matplotlib
+seqeval
+tf2crf
