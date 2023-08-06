@@ -1,0 +1,15 @@
+pybashrc/.pybashrc_aliases,sha256=-4NKAnk1sq5dfW-cLHELo5rZ3K7lOub8al12aCT_buY,66
+pybashrc/.pybashrc_execute.py,sha256=Qvt02Nm5SQ3us9BN7vZbYHtDKnlzzLCXGDT5c--20R8,2139
+pybashrc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybashrc/alias_template,sha256=-4NKAnk1sq5dfW-cLHELo5rZ3K7lOub8al12aCT_buY,66
+pybashrc/bashrc_template,sha256=gMeLLIQF4vDdmMNqhgu3jTBz0avm5JpX7IgktmnnQVg,512
+pybashrc/execute_template.py,sha256=MjvzTJtw-T2owLNWAaFF960fLwdY_poCif4P2Q1Dqz8,1463
+pybashrc/generate_executable.py,sha256=2IFnFYWG78n3A6faLx-ccIWoDYuNOKOSd0cYrLcoZ6E,697
+pybashrc/post_setup.py,sha256=GH4NVuwIpQyN2r_CVGBuXRyvLS1Ut0cpMBOSq9hTNNg,1103
+pybashrc/pybashrc_template.py,sha256=C5scguWFV2uZCUr3AruHjnK5i-1x7qgZYxbKDl4Za10,827
+pybashrc-0.0.1.dist-info/LICENSE,sha256=Swk3_-deJzBJHfFu5f7O4R8mzbr29uED4i_hJtOu5-Y,1070
+pybashrc-0.0.1.dist-info/METADATA,sha256=clanWcnoUvPfwXjGk4_NgoYWRuh3KAC37f6jRBDtPtY,690
+pybashrc-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pybashrc-0.0.1.dist-info/entry_points.txt,sha256=uRuzMnHuK3kYjjs4MRd-57K6lxsSW0N6FlBFDakMNuQ,59
+pybashrc-0.0.1.dist-info/top_level.txt,sha256=XzvyXGiVYFb4NwdyosaogZrWc1_KACIMplwJAcLphtM,9
+pybashrc-0.0.1.dist-info/RECORD,,
