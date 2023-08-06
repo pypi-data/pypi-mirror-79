@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "total",
+    "year",
+    "month",
+    "hour",
+    "date"
+  ],
+  "costs": [
+    {
+      "name": "datetemsld",
+      "parameters": {
+        "aggregation": "sum",
+        "cost": 99.99,
+        "net": true
+      },
+      "type": "constant"
+    }
+  ],
+  "end": "2020-06-30T00:00:00+00:00",
+  "filters": [],
+  "forecast_fill_method": "drop",
+  "metrics": [
+    "mae",
+    "mbe",
+    "rmse",
+    "cost",
+    "cost"
+  ],
+  "name": "Test cost constant",
+  "object_pairs": [
+    {
+      "cost": "datetemsld",
+      "forecast": "3d2ced99-b19a-11ea-9dcf-0a580a820070",
+      "forecast_type": "forecast",
+      "observation": "3d37373b-b19a-11ea-9dcf-0a580a820070",
+      "reference_forecast": null,
+      "uncertainty": null
+    },
+    {
+      "cost": "datetemsld",
+      "forecast": "3d378d4c-b19a-11ea-9dcf-0a580a820070",
+      "forecast_type": "forecast",
+      "observation": "3d37373b-b19a-11ea-9dcf-0a580a820070",
+      "reference_forecast": null,
+      "uncertainty": null
+    },
+    {
+      "cost": "datetemsld",
+      "forecast": "0b45cd1e-ba61-11ea-9291-0a580a820122",
+      "forecast_type": "forecast",
+      "observation": "3d37373b-b19a-11ea-9dcf-0a580a820070",
+      "reference_forecast": null,
+      "uncertainty": null
+    }
+  ],
+  "start": "2020-06-01T00:00:00+00:00"
+}
