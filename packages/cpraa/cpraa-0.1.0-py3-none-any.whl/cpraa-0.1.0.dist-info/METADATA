@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cpraa
+Version: 0.1.0
+Summary: A checker for probabilistic abstract argumentation
+Author: Nikolai Käfer
+Author-email: nikolai.kaefer@tu-dresden.de
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: z3-solver (>=4.8.8,<5.0.0)
