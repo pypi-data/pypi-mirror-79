@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jdvc
+Version: 1.0.1
+Summary: 
+Home-page: https://github.com/miro-balaz/jdvc
+Author: Miroslav Balaz
+Author-email: gpslayer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: click
+
+See https://github.com/miro-balaz/jdvc
+
+
