@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: datamechanics-airflow-plugin
+Version: 1.0.6
+Summary: An Airflow plugin to launch and monitor Spark applications on the Data Mechanics platform
+Home-page: https://github.com/datamechanics/datamechanics_airflow_plugin
+Author: Data Mechanics Engineering Team
+Author-email: engineering@datamechanics.co
+License: Apache Software License 2.0
+Description: # Data Mechanics Airflow Plugin
+        
+        An Airflow plugin to launch and monitor Spark applications on the Data Mechanics platform.
+        
+        ## Environment
+        
+        * Python >= 3.5
+        * apache-airflow >= 1.10.x
+        
+        ## Installation and usage
+        
+        A tutorial to configure and use this plugin is available in the [Data Mechanics docs](https://docs.datamechanics.co/docs/airflow-plugin).
+        
+        ## Example DAGs
+        
+        You can see example DAGs for the plugins in [here](example_dags).
+        
+        
+        # Changelog
+        
+        ## [1.0.5] 2020-09-11
+        
+        ### Fixed
+        
+        - Dependency management
+        
+        ## [1.0.0] 2020-09-11
+        
+        ### Changed
+        
+        - Converted the existing plugin into a Python package
+        
+        [unreleased]: https://github.com/datamechanics/datamechanics_airflow_plugin/compare/v1.0.6...master
+        [1.0.6]: https://github.com/datamechanics/datamechanics_airflow_plugin/compare/v1.0.5...v1.0.6
+        [1.0.5]: https://github.com/datamechanics/datamechanics_airflow_plugin/compare/v1.0.0...v1.0.5
+        [1.0.0]: https://github.com/datamechanics/datamechanics_airflow_plugin/compare/...v1.0.0
+        
+Keywords: datamechanics_airflow_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
