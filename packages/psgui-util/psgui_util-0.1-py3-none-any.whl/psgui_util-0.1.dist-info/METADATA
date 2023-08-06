@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: psgui-util
+Version: 0.1
+Summary: PySimpleGUI Utility Library
+Home-page: https://github.com/javacommons/psgui_util
+Author: javacommons
+Author-email: javacommons@gmail.com
+License: MIT
+Keywords: development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PySimpleGUI (>=4.29.0)
+
+# psgui_util
+
+
