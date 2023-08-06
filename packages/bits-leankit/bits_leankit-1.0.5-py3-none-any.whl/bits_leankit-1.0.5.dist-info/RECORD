@@ -1,0 +1,9 @@
+bits/__init__.py,sha256=R0I6NVTxC897de38Q8tBt3yPsGf55Jdm5BeBURzjhnA,123
+bits/leankit/__init__.py,sha256=4ZtVrqQ3xnU_4BkCPvLvigjuZ8BI4G7G80O9Dba94po,4320
+bits/leankit/client.py,sha256=I-U9oE_yF8etEIKnkQxIBybvH4pjlqm2rdli6hP3nF0,7771
+tests/__init__.py,sha256=eBgfp06Ksh9Aju9v2KPWJyTfhuTBhNrCT10CccG0rwA,53
+bits_leankit-1.0.5.dist-info/LICENSE,sha256=ZOD9EsK7ui85mHHJsDms3J8VyjDCVVrd_xjsmSQkWC4,1496
+bits_leankit-1.0.5.dist-info/METADATA,sha256=2wvQU64aYmdubanOy6iwZttbYfSG7dRhhGYtY_6Zhy8,2812
+bits_leankit-1.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bits_leankit-1.0.5.dist-info/top_level.txt,sha256=pbtzfLaQ1Q1UI38wwRfw4_kx8uP5LNa-BkCsBC5fAEA,11
+bits_leankit-1.0.5.dist-info/RECORD,,
