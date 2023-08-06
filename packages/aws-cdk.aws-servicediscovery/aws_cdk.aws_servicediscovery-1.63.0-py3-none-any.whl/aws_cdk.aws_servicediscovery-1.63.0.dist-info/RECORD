@@ -1,0 +1,8 @@
+aws_cdk/aws_servicediscovery/__init__.py,sha256=qRWmb_Aigk9F-f2jobT5gTCJGSVVT8ZmUQ5DODi-lFE,163169
+aws_cdk/aws_servicediscovery/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_servicediscovery/_jsii/__init__.py,sha256=34aE47p54x0R067GkQy3LtzYfAzkbnqr0PmMHj-beA8,506
+aws_cdk/aws_servicediscovery/_jsii/aws-servicediscovery@1.63.0.jsii.tgz,sha256=_mi-1KuJXhojfmCYmlu5dmD61Al_0jYqVbrwyqBJNE8,85421
+aws_cdk.aws_servicediscovery-1.63.0.dist-info/METADATA,sha256=WjcKf6qTVkTEYZH4fnKcRPT2NnbVLkc7sQZ9XWGItkc,5587
+aws_cdk.aws_servicediscovery-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_servicediscovery-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_servicediscovery-1.63.0.dist-info/RECORD,,
