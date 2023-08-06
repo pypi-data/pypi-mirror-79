@@ -1,0 +1,10 @@
+cuimage/__init__.py,sha256=7Mp8iqklf3_AKmDXbtfWFufmP2NUURhE5CXW4A0vn-c,22
+cuimage/__main__.py,sha256=kEbssfJtt8ooMeJYDsoUF48y5UsJlcF5rXyLgEEIn6E,361
+cuimage/cli.py,sha256=3ESNo4rxUB-1Q_fmSMwkCjInaBCU7BdDmaq0bcpx8fE,732
+cuimage-0.0.0.dist-info/AUTHORS.rst,sha256=UrZGbMsG2GnQwH3w7GAcNcUnMUZXq0K-spGWDkW8l7w,51
+cuimage-0.0.0.dist-info/LICENSE,sha256=UZ8uH4E_b4w0rtlqpsvu99UmsodTTE4Fwaw-pLbluTQ,581
+cuimage-0.0.0.dist-info/METADATA,sha256=VQlRLiYETkefuGBPjqkq37IaD5xcIHYmr9S8KE3Rrv0,2143
+cuimage-0.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+cuimage-0.0.0.dist-info/entry_points.txt,sha256=Lc4ogwJCvdXH-okGGsEvIM4kJLq8hVGa0uQmAhqcqFA,46
+cuimage-0.0.0.dist-info/top_level.txt,sha256=juFRuwNW4Di6alULdxMAr1w_3YZm_2n9hAz98BP7YqU,8
+cuimage-0.0.0.dist-info/RECORD,,
