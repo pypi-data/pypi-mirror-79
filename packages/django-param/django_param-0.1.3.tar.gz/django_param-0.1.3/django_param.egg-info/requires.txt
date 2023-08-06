@@ -1,0 +1,8 @@
+pyyaml<5.2,>=5.1
+django-gravatar2<1.5,>=1.4
+psycopg2<2.9,>=2.8
+param<2.0,>=1.9
+django<2.3,>=2.2
+django-select2<7.2,>=7.1
+django-colorfield<0.4,>=0.3
+pandas<0.26,>=0.25

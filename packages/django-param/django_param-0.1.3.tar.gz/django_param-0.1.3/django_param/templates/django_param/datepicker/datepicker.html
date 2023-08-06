@@ -1,0 +1,24 @@
+{% include "django/forms/widgets/input.html" %}
+{% load static %}
+
+<script>
+  $(function () {
+    jQuery('#{{ widget.attrs.id }}').datetimepicker({
+      {% if widget.attrs.format %}
+        format: '{{ widget.attrs.format }}',
+      {% endif %}
+      {% if widget.attrs.formatDate %}
+        formatDate: '{{ widget.attrs.formatDate }}',
+      {% endif %}
+      {% if widget.attrs.minDate %}
+        minDate: '{{ widget.attrs.minDate }}',
+      {% endif %}
+      {% if widget.attrs.maxDate %}
+        maxDate: '{{ widget.attrs.maxDate }}',
+      {% endif %}
+      {% if widget.attrs.timepicker %}
+        timepicker: {{ widget.attrs.timepicker }},
+      {% endif %}
+    });
+  });
+</script>

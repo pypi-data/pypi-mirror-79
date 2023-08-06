@@ -1,0 +1,50 @@
+<!--<button onclick="">Load Dataframe</button>-->
+{% load static %}
+
+<!--<input name="feature-id" value="{{ widget.feature_id }}" hidden>-->
+<!--<h6 class="title">{{ widget.name }}</h6>-->
+<div class="row" >
+    <div class="col-sm-6 pop-up-col table-col">
+        <a id="spatial-dataset-add-row-btn" class="btn btn-xs btn-default table-btn pull-right" title="Add row">
+            <span class="glyphicon glyphicon-plus"></span>
+        </a>
+        <a id="spatial-dataset-remove-row-btn" class="btn btn-xs btn-default table-btn pull-right" title="Remove row">
+            <span class="glyphicon glyphicon-minus"></span>
+        </a>
+        <a id="spatial-dataset-clear-table-btn" class="btn btn-xs btn-default table-btn pull-right" title="Clear table">
+            <span class="glyphicon glyphicon-trash"></span>
+        </a>
+        <a id="spatial-dataset-copy-table-btn" class="btn btn-xs btn-default table-btn pull-right" title="Copy">
+            <span class="glyphicon glyphicon-copy"></span>
+        </a>
+        <table id="spatial-dataset-table"
+               class="table table-bordered table-striped table-hover spatial-data-table"
+               data-max-rows="{{ widget.max_rows }}">
+            <thead>
+                <tr>
+                    {% for column in widget.columns %}
+                    <th>{{ column }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in widget.rows %}
+                <tr>
+                    {% for column, val in row.items %}
+                    <td>
+                        <input {% if is_numeric %}type="number"{% else %}type="text"{% endif %}
+                               class="form-field"
+                               name="{{ column|add:widget.dataframe_prefix }}"
+                               value="{{ val }}"
+                               {% if column in read_only_columns %}disabled{% endif %}>
+                    </td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-6 pop-up-col">
+        <div id="spatial-dataset-plot"></div>
+    </div>
+</div>
