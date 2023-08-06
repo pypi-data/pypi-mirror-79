@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+postq.egg-info/PKG-INFO
+postq.egg-info/SOURCES.txt
+postq.egg-info/dependency_links.txt
+postq.egg-info/requires.txt
+postq.egg-info/top_level.txt
