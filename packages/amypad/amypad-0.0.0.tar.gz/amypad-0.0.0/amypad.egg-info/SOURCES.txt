@@ -1,0 +1,12 @@
+.gitignore
+LICENCE.md
+README.rst
+setup.cfg
+setup.py
+amypad/__init__.py
+amypad.egg-info/PKG-INFO
+amypad.egg-info/SOURCES.txt
+amypad.egg-info/dependency_links.txt
+amypad.egg-info/not-zip-safe
+amypad.egg-info/requires.txt
+amypad.egg-info/top_level.txt

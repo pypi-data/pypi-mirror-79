@@ -1,0 +1,9 @@
+
+[:python_version == "2.6"]
+argparse
+
+[dev]
+docutils>=0.3
+
+[niftypet]
+niftypet>=0.0.1
