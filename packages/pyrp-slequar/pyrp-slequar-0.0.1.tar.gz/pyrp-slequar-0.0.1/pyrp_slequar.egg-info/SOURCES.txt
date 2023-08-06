@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyrp_slequar.egg-info/PKG-INFO
+pyrp_slequar.egg-info/SOURCES.txt
+pyrp_slequar.egg-info/dependency_links.txt
+pyrp_slequar.egg-info/top_level.txt
