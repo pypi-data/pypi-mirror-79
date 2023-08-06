@@ -1,0 +1,4 @@
+fastai>=2.0.10
+scikit-image
+imageio
+simpleITK
