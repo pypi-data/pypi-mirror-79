@@ -1,0 +1,70 @@
+{
+  "use": [
+    [
+      null,
+      "Production de fruits",
+      "Production de pommes",
+      "Production de poires",
+      "Consommation",
+      "International"
+    ],
+    [
+      "Fruits",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Pommes",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Poires",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "supply": [
+    [
+      null,
+      "Production de fruits",
+      "Production de pommes",
+      "Production de poires",
+      "Consommation",
+      "International"
+    ],
+    [
+      "Fruits",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Pommes",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Poires",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ]
+}
