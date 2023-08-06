@@ -1,0 +1,15 @@
+ipyfetch/__init__.py,sha256=dR3z7SDcdnf8HWBzXruDhcH7lXoxnJpC0A4OD-fRf6w,1029
+ipyfetch/_version.py,sha256=TVa3UIotAX5V487fOBK6uLG5wUBPYSNwT8zKZQJWbZI,387
+ipyfetch/fetch.py,sha256=z9HXWLK7RNcTUFGhg8MC0V4JYfhJlxaKVGIEWvRIbD8,837
+ipyfetch/static/extension.js,sha256=vcx6HNtl2QAcAJDvEjiODpAP77JVym6X4_j0MWsq1dc,3330
+ipyfetch/static/index.js,sha256=QoWaZAxD1EUa6sbt2vwyRH-K-BeikOuQRe59VJQeDLk,548982
+ipyfetch/static/index.js.map,sha256=lIBuH4jRzLYlOnZSp9QGOz4TufzinXt4a9QIZqDZe4o,676166
+ipyfetch-0.1.1.data/data/etc/jupyter/nbconfig/notebook.d/ipyfetch.json,sha256=nv1__BkYekGzirwS1Jh5z4vPrZWZMVFNnd94B81jKU8,62
+ipyfetch-0.1.1.data/data/share/jupyter/nbextensions/ipyfetch/extension.js,sha256=vcx6HNtl2QAcAJDvEjiODpAP77JVym6X4_j0MWsq1dc,3330
+ipyfetch-0.1.1.data/data/share/jupyter/nbextensions/ipyfetch/index.js,sha256=QoWaZAxD1EUa6sbt2vwyRH-K-BeikOuQRe59VJQeDLk,548982
+ipyfetch-0.1.1.data/data/share/jupyter/nbextensions/ipyfetch/index.js.map,sha256=lIBuH4jRzLYlOnZSp9QGOz4TufzinXt4a9QIZqDZe4o,676166
+ipyfetch-0.1.1.dist-info/LICENSE,sha256=0_KHr1KlNgUm1Sm8i63UG4hJ1B7PA9GRdYUkL1jQ5u4,18040
+ipyfetch-0.1.1.dist-info/METADATA,sha256=VBQ778z3Ioeq9q8gUNoOtWCx2WDl_RvQeeMxNFG5MSo,927
+ipyfetch-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+ipyfetch-0.1.1.dist-info/top_level.txt,sha256=UIGiglS4Wn5NSvl7VZ3fDVlY62oayDhZMF4t8s4lDdg,9
+ipyfetch-0.1.1.dist-info/RECORD,,
