@@ -1,0 +1,60 @@
+# VerManager
+
+## Introduction
+
+A manager for versions. Modules with version requirements can be written as `ModuleName(==|>=|<=)1.2.3`. The VerManager is aimed at version control. 
+
+## Functions
+
+### Construct modules with version info
+
+A class `Module` can be constructed with a string like `'ModuleName==1.2.3'`, where `1.2.3` is the version, which can optionally followed by an alphabetical postfix and that will be ignored when comparing, as described later.
+
+### Check if versions meet requirements
+
+An requirements would have four possible semantics. If no version requirement is stated, the requirement should contains the module name only. Otherwise the module name should be followed by an relation operator, which can be `==`, `>=` and `<=`. The operator indicates the current version should satisfy some relation with the stated version. 
+
+If the operator is `==`, two versions should be exactly the same. In other cases, alphabetical parts will be ingore, i.e. module `aaa==1.2.3.abc` meets the requirement `aaa>=1.2.3.cde`. 
+
+If the current version fails to meet the requirement, the manager will try to find a suitable version and log 'should update to ...'. If no version can be found that satisfies all requirements, there must be conflict requirements. Note that all requirements will be recorded for later conflict analysis. 
+
+## Examples
+
+~~~py
+vm = VersionsManager()
+vm.set_current_modules([
+    'aaa==1.1.2',
+    'bbb==0.8.23',
+    'ccc=1.1.1',
+    'ddd==a.b.c',
+    'eee==1.2.4.abc'
+])
+print(vm.check_requirements([
+    'aaa>=1.0.9',
+    'aaa<=2.0',
+    'bbb==0.8.27',
+    'ccc==1.1.1',
+    'ddd>=a.b.a',
+    'eee>=1.2.4.cde',
+    'fff==1.2',
+    'eee=1',
+    'eee==1.2.3'
+]))
+~~~
+
+The print-out is
+
+~~~
+bbb should be updated to 0.8.27
+No version ccc was found
+No version ddd was found
+No version fff was found
+No version eee=1 was found
+Unsolved conflict in version eee
+{'fff', 'ccc', 'eee=1', 'ddd', 'bbb', 'eee'}
+~~~
+
+## Update
+
+- Categorise the unmet set into solvable and conflict two sets.
+- Replace module name check method to support `-` and `_`
