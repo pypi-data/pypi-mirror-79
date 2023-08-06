@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: steganossaurus
+Version: 0.1.0
+Summary: 
+Author: Joao Vitor Maia
+Author-email: maia.tostring@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=20.8b1,<21.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: imageio (>=2.9.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.3.1,<4.0.0)
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
