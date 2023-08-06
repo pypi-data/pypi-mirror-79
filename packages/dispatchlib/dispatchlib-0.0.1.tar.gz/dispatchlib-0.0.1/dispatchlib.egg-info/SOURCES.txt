@@ -1,0 +1,7 @@
+README.md
+setup.py
+dispatchlib.egg-info/PKG-INFO
+dispatchlib.egg-info/SOURCES.txt
+dispatchlib.egg-info/dependency_links.txt
+dispatchlib.egg-info/requires.txt
+dispatchlib.egg-info/top_level.txt
