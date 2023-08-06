@@ -1,0 +1,5 @@
+tab_title: Announcements
+application_data_dir:
+  location: /var/lib/nbmessages
+  data_dirs_to_ignore:
+  - static
