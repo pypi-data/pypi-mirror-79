@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: llog
+Version: 0.0.1
+Summary: local log (a logging tool that doesn't pollute the global scope)
+Home-page: https://github.co.jp/
+Author: bib_inf
+Author-email: contact.bibinf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: relpath
+Requires-Dist: sout
+
+under construction
+
+
+
