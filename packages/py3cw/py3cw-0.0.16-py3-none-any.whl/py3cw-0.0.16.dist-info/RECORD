@@ -1,0 +1,10 @@
+py3cw/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py3cw/config.py,sha256=lA4anq1M8W4daah21kbiDXVIap_6BEBTspMOoS8JIi4,4538
+py3cw/request.py,sha256=aJeEzG4PYaTSLLqKK_Q7s1YHNptJ0RLlwGdLPR-C3Qw,4297
+py3cw/test_request.py,sha256=6FxZLloz3TlbloRg1ERrdB5cj4HBeUzfk8ybLsj3nBM,1503
+py3cw/utils.py,sha256=LwNGqufLTJSsvJ2hV8K8QwmpUK2rdhxfCal9Xm5arOA,899
+py3cw-0.0.16.dist-info/LICENSE,sha256=pogSMt3dAQ1tg_OdGDm_TX52yqIH0xMHQsOcv1nfaoU,1071
+py3cw-0.0.16.dist-info/METADATA,sha256=CSyXfQ5YILzoRzuE0_NN13pvORHCJ0XObKYYvCwG-F4,365
+py3cw-0.0.16.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+py3cw-0.0.16.dist-info/top_level.txt,sha256=vXo_Kp592CcDEMtjw9zag_-Khq7zmGrSYV90BJvwJuM,6
+py3cw-0.0.16.dist-info/RECORD,,
