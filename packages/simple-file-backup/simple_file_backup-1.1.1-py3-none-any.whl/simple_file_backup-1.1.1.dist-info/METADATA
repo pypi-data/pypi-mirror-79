@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: simple-file-backup
+Version: 1.1.1
+Summary: Console application for periodically backing up a single file.
+Home-page: UNKNOWN
+Author: Zsolt Nagy
+Author-email: nazsolti@outlook.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Simple File Backup
+
+## Overview
+
+This module lets you back up a single file periodically. It is possible to configure
+more than one backup period, and limit the maximum number of backup files to keep (per
+backup period).
+
+## Installation
+
+Install this module with:
+
+```txt
+pip install simple_file_backup
+```
+
+The module exposes the ```simple-file-backup``` command-line application.
+
+## Command Line Usage
+
+Access the command line help with ```simple-file-backup -h```:
+
+```txt
+simple-file-backup -h
+usage: simple-file-backup FILE_PATH BACKUP_DIR_PATH [-ext EXT] [-conf CONF]
+
+Console application for periodically backing up a single file.
+
+positional arguments:
+  file_path        path of file to back up
+  backup_dir_path  path of the directory for the backups
+
+optional arguments:
+  -h, --help       show this help message and exit
+  -ext EXT         file extension of the backups; default is '.bak'
+  -prefix PREFIX   backup file name prefix; default is 'backup'
+  -conf FILE       path to an optional config file that defines the backup intervals,
+                   subdirectories and file limits; by default hourly, daily, weekly and
+                   30-day interval backups are created with 48, 14, 12 and unlimited
+                   number of files respectively
+  -method METHOD   backup method; the default is 'copy' (simple file copy), for sqlite3
+                   database files, use 'sqlite3' to avoid corrupting the backups
+```
+
+A separate subdirectory for every backup period will be created within the passed
+backup directory.
+
+### Configuration File
+
+The configuration file is JSON. Backup subdirectory name, backup period (in hours) and
+file limit per backup period must be configured. For no file limit, pass "inf" as
+string.
+
+```json
+[
+    {
+        "dirname": "every_minute",
+        "period": 0.166667,
+        "limit": 10
+    },
+    {
+        "dirname": "every_hour",
+        "period": 1,
+        "limit": 24
+    },
+    {
+        "dirname": "every_day",
+        "period": 24,
+        "limit": 30
+    },
+    {
+        "dirname": "every_30days",
+        "period": 720,
+        "limit": "inf"
+    }
+]
+```
+
+## Python Example
+
+The module can be imported. It exposes the ```SimpleFileBackup``` class.
+In this use case the configuration must be passed as a list of dicts (with the same
+scheme as the config JSON file).
+
+```python
+from simple_file_backup import SimpleFileBackup
+
+backup_inst = SimpleFileBackup(
+    file_path="file_to_back_up.txt",
+    backup_dir_path="backup_dir",
+    prefix="file_backed_up",  # optional, defaults to "backup"
+    extension=".txt"  # optional, defaults to ".bak"
+    backup_config=[
+        {
+            "dirname": "hourly",
+            "period": 1,
+            "limit": 24
+        },
+        {
+            "dirname": "daily",
+            "period": 24,
+            "limit": "inf"
+        }
+    ],  # optional, defaults to the same backup periods as the command line version
+    backup_method="copy"  # optional, defaults to "copy" (alternative: "sqlite3")
+)
+
+# this gets an asyncio loop, creates the backup tasks and runs the loop forever:
+backup_inst.run()
+```
+
+Optionally, if integrating into another asyncio application, the tasks can be created
+on the existing loop without creating and running the loop with the
+```create_tasks(loop)``` method.
+
+
