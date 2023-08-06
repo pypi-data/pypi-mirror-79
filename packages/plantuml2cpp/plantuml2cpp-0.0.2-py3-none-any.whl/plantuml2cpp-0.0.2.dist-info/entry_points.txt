@@ -1,0 +1,3 @@
+[console_scripts]
+plantuml2cpp = plantuml2cpp.__main__:main
+
