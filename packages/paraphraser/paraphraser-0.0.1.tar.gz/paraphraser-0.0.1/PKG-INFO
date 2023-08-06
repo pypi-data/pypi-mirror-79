@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: paraphraser
+Version: 0.0.1
+Summary: A python module which returns list of sentences with same contextual meaning as given sentence
+Home-page: https://github.com/17shashank17/Paraphraser
+Author: Shashank Jaiswal
+Author-email: 17shashank17@gmail.com
+License: UNKNOWN
+Description: # Paraphraser
+        
+        This is a python library which generates list of sentences with similar contextual meaning as given input sentence. 
+        
+        ## Installation
+        
+        Run the following snippet to install the library in your system
+        
+        ```python
+        $ pip install paraphraser
+        ```
+        
+        ## Usage 
+        
+        ```python
+        from paraphraser import paraphrase
+        # Generate list of sentences with similar contextual meaning
+        sentences = paraphrase(input_sentence)
+        ```
+        
+        # Developing Paraphraser
+        
+        To install paraphraser along with the tools you need to develop and run tests, run the following in command in your system:
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev

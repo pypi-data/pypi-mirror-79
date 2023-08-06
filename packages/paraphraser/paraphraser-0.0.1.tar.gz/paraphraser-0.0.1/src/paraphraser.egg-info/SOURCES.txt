@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/paraphraser.py
+src/paraphraser.egg-info/PKG-INFO
+src/paraphraser.egg-info/SOURCES.txt
+src/paraphraser.egg-info/dependency_links.txt
+src/paraphraser.egg-info/requires.txt
+src/paraphraser.egg-info/top_level.txt
