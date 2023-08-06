@@ -1,0 +1,15 @@
+microfilter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microfilter/univariate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microfilter/univariate/digestdist.py,sha256=U1egjbPYKE2VAUKveOHstcTEKwQKQFEoVNQudzi2AFk,556
+microfilter/univariate/distmachine.py,sha256=97xm17J3d_lDXheVqlxiU5DnT_2Qfk9kGPg4lBsqYRE,1896
+microfilter/univariate/expnormdist.py,sha256=Il8MWuufRCNaPDH9-JlEfdCn9r91ZWyhZKdLxLQGhYM,3998
+microfilter/univariate/fitdist.py,sha256=fsSk-dJtRx3j9joJyAg4MgrfVicmrbwp7Eh-1L-GhDA,3323
+microfilter/univariate/noisysim.py,sha256=ujnA7B2PEQ3WPEbTHemnEj-8Y0GlJIm0bT7QTXSNOQQ,659
+microfilter/univariate/normaldist.py,sha256=fwAsrxnp7_wqWJml-rx5XlkQogSlebEL9q-XfQ8FkK0,481
+microfilter/univariate/runningmoments.py,sha256=vydImLSzuX40d-kM4FNrMGLUNhUgu9XQbiVUQNlAP9Q,2044
+microfilter/univariate/skewdist.py,sha256=U9SIq_PYSwv7HMNnjHu0B5d70Z3uD9ClWgV627SCQpI,2926
+microfilter-0.0.6.dist-info/METADATA,sha256=yOSokI8GbqMtb6GNvhjX68ysJzcclHCG1BL476z897U,1351
+microfilter-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+microfilter-0.0.6.dist-info/entry_points.txt,sha256=j8fnlnhU68jSgOQ88-ZJnl27EAY7ioxubzBKsOZtP_M,59
+microfilter-0.0.6.dist-info/top_level.txt,sha256=IKzjE2cUwLnhEOKorFYdssBDnRs5XlZIO7JuPjodZiE,12
+microfilter-0.0.6.dist-info/RECORD,,
