@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: printvarcolor
+Version: 1.0.0
+Summary: Print Colorful variables.
+Home-page: https://siyanew.ir
+Author: Siyanew
+Author-email: printvarcolor@Siyanew.ir
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: termcolor
+
+Print Colorful variables In Terminal.
+
+
