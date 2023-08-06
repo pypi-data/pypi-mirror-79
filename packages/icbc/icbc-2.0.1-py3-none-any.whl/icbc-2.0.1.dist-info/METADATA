@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: icbc
+Version: 2.0.1
+Summary: personal utilities code
+Home-page: UNKNOWN
+Author: lhyweb
+Author-email: lhyweb@gmail.com
+License: UNKNOWN
+Keywords: icbc,tool,gui,ie,mouse
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: xlrd
+Requires-Dist: xlwt
+Requires-Dist: tornado
+Requires-Dist: chardet
+
+UNKNOWN
+
+
