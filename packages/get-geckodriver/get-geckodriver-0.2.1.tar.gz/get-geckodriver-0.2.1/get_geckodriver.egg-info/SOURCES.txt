@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+get_geckodriver/__init__.py
+get_geckodriver/cli.py
+get_geckodriver/compile_utils.py
+get_geckodriver/core.py
+get_geckodriver/errors.py
+get_geckodriver/reactos_shim.py
+get_geckodriver.egg-info/PKG-INFO
+get_geckodriver.egg-info/SOURCES.txt
+get_geckodriver.egg-info/dependency_links.txt
+get_geckodriver.egg-info/entry_points.txt
+get_geckodriver.egg-info/top_level.txt
