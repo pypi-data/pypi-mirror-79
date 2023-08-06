@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+fakelogs/__init__.py
+fakelogs/cli.py
+fakelogs/log.py
+fakelogs.egg-info/PKG-INFO
+fakelogs.egg-info/SOURCES.txt
+fakelogs.egg-info/dependency_links.txt
+fakelogs.egg-info/entry_points.txt
+fakelogs.egg-info/requires.txt
+fakelogs.egg-info/top_level.txt
