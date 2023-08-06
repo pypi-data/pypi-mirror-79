@@ -1,0 +1,13 @@
+bixby_core
+cli
+databases
+img
+inoft_vocal_markup
+platforms_handlers
+plugins
+skill_builder
+skill_settings
+speechs
+templates
+tests
+utils
