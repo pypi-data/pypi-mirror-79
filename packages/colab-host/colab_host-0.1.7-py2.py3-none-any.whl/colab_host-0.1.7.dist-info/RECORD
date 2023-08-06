@@ -1,0 +1,10 @@
+colab_host/__init__.py,sha256=iNUA7PJgRlIF2BHZBl2MuFkaz-Y5Eg5xfi4KZp1ieP0,209
+colab_host/cli.py,sha256=PO8V6kw2Wo8d-qRTYhRuZc5fGpYMO0Ar8zsN2FAld_E,435
+colab_host/colab_host.py,sha256=2xiFPJGCOV4I3wAr4bzp5jQUseBKk3FbDds-ohlEsIA,3424
+colab_host-0.1.7.dist-info/AUTHORS.rst,sha256=yfBVBAct1v_wBEftoxNU4IlrHTcWVnJelThF9sKph3M,161
+colab_host-0.1.7.dist-info/LICENSE,sha256=S4qC6Q6_YDdSJtqmzAYJmcGlCn1LtTgve7tYyd-XdJ0,1071
+colab_host-0.1.7.dist-info/METADATA,sha256=F3EZB1-R5dqRJNWU5fyFRaZkF-PxCTbK9yG1bnb8LsI,1855
+colab_host-0.1.7.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+colab_host-0.1.7.dist-info/entry_points.txt,sha256=qTPoY1Dhp_rniZMnQDuzYISd5i40LCSwLD6BS0hToeM,52
+colab_host-0.1.7.dist-info/top_level.txt,sha256=IkQECaUEDOl0xFR0uYzKTg41xEGdaF5BkvGB4obmGO0,11
+colab_host-0.1.7.dist-info/RECORD,,
