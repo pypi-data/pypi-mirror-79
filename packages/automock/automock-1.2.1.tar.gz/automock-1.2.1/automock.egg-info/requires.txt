@@ -1,0 +1,8 @@
+flexisettings<1.1,>=1.0.1
+six
+
+[:python_version < "3"]
+mock
+
+[:python_version < "3.6"]
+typing<4.0,>=3.6.2
