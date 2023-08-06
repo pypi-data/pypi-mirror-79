@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: packetraven
+Version: 1.0.0
+Summary: Balloon payload telemetry over APRS
+Home-page: https://github.com/UMDBPP/PacketRaven.git
+Author: Zach Burnett, Quinn Kupec
+Author-email: zrb@umd.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: dunamai
+Requires-Dist: aprslib
+Requires-Dist: haversine
+Requires-Dist: numpy
+Requires-Dist: pyserial
+Requires-Dist: geojson
+Requires-Dist: fastkml
+Requires-Dist: requests
+Requires-Dist: pyproj
+Requires-Dist: psycopg2
+Requires-Dist: shapely
+Requires-Dist: sshtunnel
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: dunamai ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: nose ; extra == 'dev'
+
+# PacketRaven 
+
+[![tests](https://github.com/UMDBPP/packetraven/workflows/tests/badge.svg)](https://github.com/UMDBPP/packetraven/actions?query=workflow%3Atests)
+[![build](https://github.com/UMDBPP/packetraven/workflows/build/badge.svg)](https://github.com/UMDBPP/packetraven/actions?query=workflow%3Abuild)
+
+### Balloon payload telemetry over APRS
+PacketRaven is a new version of Link-TLM written in Python
+
+#### Features:
+- APRS packet parsing over serial
+- log to file
+- plotting
+
+#### Installation:
+```bash
+pip install packetraven
+```
+
+###### starting CLI:
+```bash
+packetraven
+```
+
+###### starting GUI:
+```bash
+packetraven_gui
+```
+
+#### In-progress Features
+- altitude plot with `matplotlib`
+- flight track plot with `cartopy`
+- live track prediction
+- Iridium telemetry and commands
+- live chase navigation
+
+

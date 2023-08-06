@@ -1,0 +1,6 @@
+[console_scripts]
+packetraven = packetraven:main
+
+[gui_scripts]
+packetraven_gui = packetraven_gui:main
+
