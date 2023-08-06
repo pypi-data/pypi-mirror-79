@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lightweaver
+Version: 0.2.1
+Summary: Non-LTE Radiative Transfer Framework in Python
+Home-page: http://github.com/Goobley/Lightweaver
+Author: Chris Osborne
+Author-email: c.osborne.1@research.gla.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: parse
+Requires-Dist: jupyterlab
+Requires-Dist: specutils
+Requires-Dist: tqdm
+Requires-Dist: weno4
+
+UNKNOWN
+
+
