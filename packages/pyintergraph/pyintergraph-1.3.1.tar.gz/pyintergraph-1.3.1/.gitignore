@@ -1,0 +1,10 @@
+**/__pycache__/**
+**/.ipynb_checkpoints/**
+pyintergraph.egg-info/**
+build/**
+dist/**
+.coverage
+.vscode/**
+**/.mypy_cache/**
+coverage.xml
+.coverage.xml

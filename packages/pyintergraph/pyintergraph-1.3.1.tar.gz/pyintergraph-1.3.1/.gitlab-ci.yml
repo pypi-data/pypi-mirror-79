@@ -1,0 +1,5 @@
+image: registry.gitlab.com/luerhard/pyintergraph
+
+job1:
+  script: "python setup.py install; pytest"
+  coverage: /TOTAL\s+\d+\s+\d+\s+(\d+)%/
