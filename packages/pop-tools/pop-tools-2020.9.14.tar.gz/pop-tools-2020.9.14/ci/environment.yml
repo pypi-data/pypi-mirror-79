@@ -1,0 +1,20 @@
+name: pop-tools-dev
+channels:
+  - conda-forge
+  - numba
+dependencies:
+  - bottleneck
+  - codecov
+  - dask
+  - docrep=0.2.7
+  - nbsphinx
+  - netcdf4
+  - numba
+  - pip
+  - pooch
+  - pytest-cov
+  - pyyaml
+  - scipy
+  - xarray
+  - xgcm
+  - watermark
