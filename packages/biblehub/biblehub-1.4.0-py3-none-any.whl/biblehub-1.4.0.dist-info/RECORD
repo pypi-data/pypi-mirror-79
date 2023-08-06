@@ -1,0 +1,12 @@
+BibleHubScrapper/BibleHubScrapper.py,sha256=eKlI-taK7aID5SMe6BpavdccZfGv3Cp3neOnpEgMvJo,7068
+BibleHubScrapper/__init__.py,sha256=STrzcq0nYilvS-nQ6DCRTpEFYE7oXgcu21ujT0ou6hY,41
+BibleHubScrapper/config.py,sha256=JcMn-o-3oVQkTVD88pMWcd41cHiCMYnhOFMb9XyOjrU,459
+biblehub/__init__.py,sha256=NiaE1G87IoQnH2xc-f7th_ttczhRhidPBY74nUrlXkY,55
+biblehub/config.py,sha256=OqMSVIjFEmsfpbkxeS6fVNahGESKN98af4bBVOAcTfI,654
+biblehub/scrape_verses.py,sha256=MG4X8oczMYp9hOqooyNNozNIczsIz6BqZVWX2D06GtM,7542
+biblehub-1.4.0.data/scripts/biblehub,sha256=-fhf-4Fo7F8fUAe4UncSFjQOz_T5a06cUoRYkbnBKIs,2228
+biblehub-1.4.0.dist-info/LICENSE,sha256=R0-M9VQ1kY39pBEX6CtP--jsB4ns03k9drn_FdeQmCI,1071
+biblehub-1.4.0.dist-info/METADATA,sha256=wrMZ-II2aF8nyzTOTAIw1WCPuRIE3mzdX2jBqJhUh28,2388
+biblehub-1.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+biblehub-1.4.0.dist-info/top_level.txt,sha256=rxznkScyvkG5H2idekJXBCyJQ0DNleOAbYhUAAlPruM,9
+biblehub-1.4.0.dist-info/RECORD,,
