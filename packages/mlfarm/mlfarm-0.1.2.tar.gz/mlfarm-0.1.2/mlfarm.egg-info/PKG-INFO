@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mlfarm
+Version: 0.1.2
+Summary: Tools for fast development of Machine Learning projects.
+Home-page: https://github.com/Oodapow/mlfarm/tree/release
+Author: Alexandru Petre
+Author-email: petre.v.alexandru@gmail.com
+License: UNKNOWN
+Description: [![PyPI version](https://badge.fury.io/py/mlfarm.svg)](https://badge.fury.io/py/mlfarm) [![Documentation Status](https://readthedocs.org/projects/mlfarm/badge/?version=stable)](https://mlfarm.readthedocs.io/en/latest/?badge=stable) [![Build Status](https://dev.azure.com/mlfarm/mlfarm/_apis/build/status/MLFarm.CI.Test?branchName=release)](https://dev.azure.com/mlfarm/mlfarm/_build/latest?definitionId=1&branchName=release)
+        
+        # MLFarm
+        
+        This package contains a suite of tools to be used for fast development of new Machine Learning projects.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
