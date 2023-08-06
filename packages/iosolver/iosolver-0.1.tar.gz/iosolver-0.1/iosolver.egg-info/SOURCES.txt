@@ -1,0 +1,9 @@
+README.md
+setup.py
+iosolver/__init__.py
+iosolver/wout.py
+iosolver.egg-info/PKG-INFO
+iosolver.egg-info/SOURCES.txt
+iosolver.egg-info/dependency_links.txt
+iosolver.egg-info/requires.txt
+iosolver.egg-info/top_level.txt

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: iosolver
+Version: 0.1
+Summary: A package used for io operations
+Home-page: https://github.com/jackl001/iosolver
+Author: jackl001
+Author-email: caozhankui@outlook.com
+License: MIT
+Description: iotools is a fuction tool used for io operations.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
