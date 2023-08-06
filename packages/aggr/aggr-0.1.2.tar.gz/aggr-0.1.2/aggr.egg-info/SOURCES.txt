@@ -1,0 +1,15 @@
+README.md
+setup.py
+aggr.egg-info/PKG-INFO
+aggr.egg-info/SOURCES.txt
+aggr.egg-info/dependency_links.txt
+aggr.egg-info/top_level.txt
+aggregator/Aggregator.py
+aggregator/__init__.py
+aggregator/functions.py
+aggregator/graph_iterator.py
+aggregator/GCN/Aggregation_Module.py
+aggregator/GCN/GCN.py
+aggregator/GCN/Message_Module.py
+aggregator/GCN/Prediction_Module.py
+aggregator/GCN/__init__.py

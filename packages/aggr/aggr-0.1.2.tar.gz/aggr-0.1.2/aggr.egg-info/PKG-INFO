@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aggr
+Version: 0.1.2
+Summary: Automate feature aggregation
+Home-page: https://github.com/Daahorst/Aggregator
+Author: François-Xavier Devailly, Xinyue Tan
+Author-email: francois-xavier.devailly@hec.ca, xinyue.tan@hec.ca
+License: MIT
+Description: # Aggregator
+        Python package for aggregation learning (automating feature aggregation)
+        
+        The included example requires files which are available at : {link}
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
