@@ -1,0 +1,11 @@
+*.py[co]
+*~
+html/
+.figleaf
+*.sw[a-z]
+*.bak
+*.orig
+*.egg-info
+build
+dist
+.venv

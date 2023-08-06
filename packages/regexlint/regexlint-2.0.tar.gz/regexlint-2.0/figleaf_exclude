@@ -1,0 +1,7 @@
+/usr/lib/python.*/.*.py
+/System/.*.py
+/Library/Python.*/.*.py
+.*/tests/.*.py
+.*/pil/.*
+lib/python2.*
+python-support
