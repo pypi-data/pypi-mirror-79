@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+Query_string_parser.egg-info/PKG-INFO
+Query_string_parser.egg-info/SOURCES.txt
+Query_string_parser.egg-info/dependency_links.txt
+Query_string_parser.egg-info/requires.txt
+Query_string_parser.egg-info/top_level.txt
+queryStringParser/__init__.py
+queryStringParser/src/__init__.py
+queryStringParser/src/parser.py
+tests/__init__.py
+tests/main.py
