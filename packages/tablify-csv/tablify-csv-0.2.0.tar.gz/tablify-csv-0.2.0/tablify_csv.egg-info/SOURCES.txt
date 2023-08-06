@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+tablify/__init__.py
+tablify/cli.py
+tablify/reader.py
+tablify/renderer.py
+tablify/runner.py
+tablify/ui.py
+tablify/utils.py
+tablify_csv.egg-info/PKG-INFO
+tablify_csv.egg-info/SOURCES.txt
+tablify_csv.egg-info/dependency_links.txt
+tablify_csv.egg-info/entry_points.txt
+tablify_csv.egg-info/requires.txt
+tablify_csv.egg-info/top_level.txt
