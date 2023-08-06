@@ -1,0 +1,10 @@
+inotify_lite/__init__.py,sha256=uu5B5isrpJKszCDoHwjNXS-e4cYLpqRXw_RIoRpri_Q,182
+inotify_lite/inotify.py,sha256=nQMfo64UdWBM5fCNlg_6sveiqFZncpgqr_t_kcFkQjg,13973
+inotify_lite/inotify_lite.py,sha256=u-iQdMNgw9lzLT7ZjMEOezWLluaZ_JZvyd3s9NGjSms,5468
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_inotify.py,sha256=s2bX1orIp8waBetxmVj4bFA8tjgzmacYiW3bF9SAgzs,1569
+inotify_lite-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+inotify_lite-0.0.5.dist-info/METADATA,sha256=U32Wk3GWTfseeEnGHodslWFQI7wPNt-sDbt8K62opjk,2861
+inotify_lite-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+inotify_lite-0.0.5.dist-info/top_level.txt,sha256=f0fUHqsemFwJsiFOIIV7m6BflU2buayFHqkxkAGRsjo,19
+inotify_lite-0.0.5.dist-info/RECORD,,
