@@ -1,0 +1,5 @@
+setup.py
+motional_isn.egg-info/PKG-INFO
+motional_isn.egg-info/SOURCES.txt
+motional_isn.egg-info/dependency_links.txt
+motional_isn.egg-info/top_level.txt
