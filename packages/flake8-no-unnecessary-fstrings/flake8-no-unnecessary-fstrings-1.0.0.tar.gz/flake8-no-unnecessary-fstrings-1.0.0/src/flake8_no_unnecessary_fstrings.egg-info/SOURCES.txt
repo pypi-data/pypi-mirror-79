@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/flake8_no_unnecessary_fstrings.py
+src/flake8_no_unnecessary_fstrings.egg-info/PKG-INFO
+src/flake8_no_unnecessary_fstrings.egg-info/SOURCES.txt
+src/flake8_no_unnecessary_fstrings.egg-info/dependency_links.txt
+src/flake8_no_unnecessary_fstrings.egg-info/entry_points.txt
+src/flake8_no_unnecessary_fstrings.egg-info/not-zip-safe
+src/flake8_no_unnecessary_fstrings.egg-info/requires.txt
+src/flake8_no_unnecessary_fstrings.egg-info/top_level.txt
+tests/test_flake8_no_unnecessary_fstrings.py
+tests/__pycache__/test_flake8_no_unnecessary_fstrings.cpython-38-pytest-5.4.1.pyc
