@@ -1,0 +1,10 @@
+cd4py/__init__.py,sha256=3KdOumJOQfpOeJaViEgsSXQpSShls99XXDBAH-AyTiA,367
+cd4py/__main__.py,sha256=syb2x1jA0YtD36-vKqNqcPF5qQ-JUAjal_-y3kHCeuw,1291
+cd4py/lib.py,sha256=kuuKrpUcW3Zv3S6lSZQpzVRIussKr0ukNQw3D3S891Y,10525
+cd4py/pytokenizer.py,sha256=X0J2bgJBOO9yOmE4MUlqkVaV7NbleY275QN58-7aJiA,1954
+cd4py-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+cd4py-0.1.0.dist-info/METADATA,sha256=WmImix0LQyA-yuMCRnoDhwgnnegXHxcGCE59z1xWIFM,4087
+cd4py-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+cd4py-0.1.0.dist-info/entry_points.txt,sha256=HF2OMcu7F63iUeNsnw6hWISq1iFimrwJXHgjKYwFwgw,47
+cd4py-0.1.0.dist-info/top_level.txt,sha256=TYtwnV2k8y5sB2Eff3RksaRo7Cmtq_-EnFyfTjUO0tw,6
+cd4py-0.1.0.dist-info/RECORD,,
