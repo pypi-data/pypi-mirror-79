@@ -1,0 +1,2 @@
+include pydm-opi.desktop.template
+recursive-include siriushlacon *.xlsx *.sh *.ui *.png *.jpg *.xcf *.qrc *.json *.qss *.pdf
