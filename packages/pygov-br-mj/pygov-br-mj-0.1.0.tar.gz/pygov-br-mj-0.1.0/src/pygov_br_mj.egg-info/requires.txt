@@ -1,0 +1,13 @@
+requests>=2.11.1
+beautifulsoup4
+click
+pytz
+
+[dev]
+mock
+responses
+pytest
+pytest-cov
+coveralls
+flake8
+manuel
