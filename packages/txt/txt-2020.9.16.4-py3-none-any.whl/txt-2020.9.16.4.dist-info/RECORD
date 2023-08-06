@@ -1,0 +1,9 @@
+txt/__init__.py,sha256=MQEA8T4YftVx6B-_sIpmP_lXCkc1rEnY8VAWzp6oLfU,172
+txt/align.py,sha256=mPxNNF1coUbwd9DP69AfBodX-7KquaHBhC5jwj8Vit4,191
+txt/convert_camel_to_snake.py,sha256=UfFwz9FqNN_kMKhKVpNosrosR5ks5Cm7L_trpof0bqo,395
+txt/remove_non_alphanumeric.py,sha256=r8ALL8ogebVrDjpcL1A6Fgaq2hoXX0bEE9D6e0uquKQ,256
+txt/wrap.py,sha256=oyIt9FdUqUDZtD25ON09HGr2axckGVml4utUfY8_XGI,611
+txt-2020.9.16.4.dist-info/METADATA,sha256=BGivqf-5wHrlVYwDh6YhY1Vleuye4GBTAzM3CHPxzgo,641
+txt-2020.9.16.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+txt-2020.9.16.4.dist-info/top_level.txt,sha256=fEwjEYfNS3VnfDEvqneH2odL27fXHhydwGGfPielOUA,4
+txt-2020.9.16.4.dist-info/RECORD,,
