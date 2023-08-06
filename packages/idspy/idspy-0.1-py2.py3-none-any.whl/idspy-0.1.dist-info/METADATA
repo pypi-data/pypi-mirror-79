@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: idspy
+Version: 0.1
+Summary: Python library providing shared code for IDS datasets
+Home-page: https://github.com/intercontinental-dictionary-series/idspy
+Author: Robert Forkel
+Author-email: forkel@shh.mpg.de
+License: Apache 2.0
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: pylexibank
+Provides-Extra: dev
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=5); extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: coverage (>=4.2); extra == 'test'
+
+# idspy
+
+
