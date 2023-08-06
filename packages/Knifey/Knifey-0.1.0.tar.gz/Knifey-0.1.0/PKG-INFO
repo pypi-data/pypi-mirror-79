@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: Knifey
+Version: 0.1.0
+Summary: A module to make writing day-to-day scripts easier
+Home-page: http://pypi.python.org/pypi/knifey/
+Author: gabefgonc
+Author-email: gabefgonc@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/gabefgonc/knifey/releases/download/v0.1.0/knifey_v01.tar.gz
+Description: Knifey
+Platform: UNKNOWN

@@ -1,0 +1,8 @@
+README.txt
+setup.cfg
+setup.py
+Knifey.egg-info/PKG-INFO
+Knifey.egg-info/SOURCES.txt
+Knifey.egg-info/dependency_links.txt
+Knifey.egg-info/top_level.txt
+knifey/__init__.py
