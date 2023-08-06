@@ -1,0 +1,9 @@
+aiofiles
+aiohttp
+aiostream
+argparse
+asynctest
+beautifulsoup4
+brotlipy
+lxml
+mutagen
