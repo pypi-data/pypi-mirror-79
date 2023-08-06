@@ -1,0 +1,10 @@
+README.md
+setup.py
+opendatasets/__init__.py
+opendatasets/_version.py
+opendatasets.egg-info/PKG-INFO
+opendatasets.egg-info/SOURCES.txt
+opendatasets.egg-info/dependency_links.txt
+opendatasets.egg-info/requires.txt
+opendatasets.egg-info/top_level.txt
+opendatasets/utils/__init__.py
