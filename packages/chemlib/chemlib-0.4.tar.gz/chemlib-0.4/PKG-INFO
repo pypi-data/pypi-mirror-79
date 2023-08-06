@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chemlib
+Version: 0.4
+Summary: Easy-to-use library to perform chemistry calculations.
+Home-page: https://github.com/harirakul/chemlib
+Author: Hari Ambethkar
+Author-email: harirakul.a@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/chemlib/
+Description: # chemlib
+        
+        An easy-to-use library to perform chemistry calculations.
+Keywords: Chemistry,Chemlib
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
