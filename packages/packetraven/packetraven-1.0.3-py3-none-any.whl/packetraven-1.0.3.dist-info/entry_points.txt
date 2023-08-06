@@ -1,0 +1,6 @@
+[console_scripts]
+packetraven = client.packetraven_cli:main
+
+[gui_scripts]
+packetraven_gui = client.packetraven_gui:main
+
