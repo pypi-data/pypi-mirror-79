@@ -1,0 +1,3 @@
+[console_scripts]
+webscraperz = web_scraperz.scraper:scraper
+

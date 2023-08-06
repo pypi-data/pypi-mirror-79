@@ -1,0 +1,10 @@
+README.md
+setup.py
+web_scraperz/__init__.py
+web_scraperz/scraper.py
+web_scraperz/webpagedownload.py
+webscraperz.egg-info/PKG-INFO
+webscraperz.egg-info/SOURCES.txt
+webscraperz.egg-info/dependency_links.txt
+webscraperz.egg-info/entry_points.txt
+webscraperz.egg-info/top_level.txt
