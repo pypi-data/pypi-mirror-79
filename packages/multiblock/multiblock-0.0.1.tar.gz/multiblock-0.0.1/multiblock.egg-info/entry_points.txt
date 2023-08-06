@@ -1,0 +1,3 @@
+[console_scripts]
+multiblock = multiblock.command:multiblock
+
