@@ -1,0 +1,1 @@
+auto_removable_pathlib
