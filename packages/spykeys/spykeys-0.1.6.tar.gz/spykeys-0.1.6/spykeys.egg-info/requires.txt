@@ -1,0 +1,2 @@
+GitPython>=3.1.7
+python-gnupg>=0.4.6
