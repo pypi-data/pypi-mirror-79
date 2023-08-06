@@ -1,0 +1,4 @@
+pytest>=6.0.1,<7
+pytest-benchmark>=3.2.3,<4
+flake8>=3.8.2,<4
+mypy>=0.782,<1

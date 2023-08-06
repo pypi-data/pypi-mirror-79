@@ -1,0 +1,10 @@
+include README.rst
+include CHANGELOG.rst
+include LICENSE
+include setup.cfg
+recursive-include . *.py
+recursive-include tests *
+global-exclude *.pyo
+global-exclude *.pyc
+include *requirements.txt
+recursive-include . py.typed
