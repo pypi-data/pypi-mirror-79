@@ -1,0 +1,15 @@
+onfire/__init__.py,sha256=R5TtpJu7Qu6sOarfDpp-5Oyy8Pi2Ir3VewCvsCQiAgo,21
+onfire/data.py,sha256=KiZncSq_3cxqGdb3YBGqudySUL3ylJTl1bzJ42jpCqo,1942
+onfire/embedders.py,sha256=dPfePFAHR1k_GjvmwGat0A7TJuBF5csL83wo3jdiIBA,1019
+onfire/fields.py,sha256=THVofNWMOtcdw0w5JIdFRfOAllhrN4BLuTXJj_Clsv8,7775
+onfire/pipeline.py,sha256=KebaeT_WwvDnNMcuRyY3JmaEBFEoEQXnVxt8tHo9AMg,846
+onfire/transformers.py,sha256=lrk555KvUDLZOqQ8Ls_pTOvbzdyG6EU3LTv0GwjPQe8,5459
+onfire/transformers_bak.py,sha256=lrk555KvUDLZOqQ8Ls_pTOvbzdyG6EU3LTv0GwjPQe8,5459
+onfire/utils.py,sha256=akd8uPamVWY4EFht7lwyxmVJyfan6DwwbvsS6majJhE,600
+onfire/colab/__init__.py,sha256=VanId1jaNtWiDh8_G6BlSB1_wFcqLbw44Ym4-UUzPIg,37
+onfire/colab/runners.py,sha256=KI3zEnKb33U1YaqJiIDzqMfy8Lpt4sr6b9h57D7WKUo,6172
+pytorch_onfire-0.1.3.dist-info/LICENSE,sha256=BaxdWrlELAKlfpAlHe_zFvjruo75aTtFt4bgzE7XMXI,1063
+pytorch_onfire-0.1.3.dist-info/METADATA,sha256=Rd2Ou_hd5zepIrGdbDNS4WeMnR2ctuQiIqb-FDq95Mg,922
+pytorch_onfire-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytorch_onfire-0.1.3.dist-info/top_level.txt,sha256=4-R9ZU7j5Y1hOyDxlbnJ-3a_oS2I4PyzDBhy9LzmSIM,7
+pytorch_onfire-0.1.3.dist-info/RECORD,,
