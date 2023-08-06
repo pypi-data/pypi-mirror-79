@@ -1,0 +1,9 @@
+freeway/__init__.py,sha256=GTtmIbA7B-LEmgtW1Cj9l0cUkEqiogGIiXitvNUlkWY,207
+freeway/errors.py,sha256=dQHQd2BVhQjw5bvBvvmB1dP-eNvGuZ7TuNBcS--5JXU,223
+freeway/freeway.py,sha256=bFFrLXPWrHkPKCdIFa68lmeTCsqLx6xbKm8uBr4ePJA,9924
+freeway/versioner.py,sha256=vyW1C6KkXy2lA2wOyB29WuDgjzuPhETJ_IoMJi5Km70,6182
+freeway-0.0.4.dist-info/LICENSE,sha256=5ixURSo8tGaiATliRBySJ0cWKaG47dmk-OVegDJ90GA,1072
+freeway-0.0.4.dist-info/METADATA,sha256=hYe8TKKgBR4VghK4nSz5UNR9PVQyoIed73Cv6OvJkSU,888
+freeway-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+freeway-0.0.4.dist-info/top_level.txt,sha256=eErbEHs3C85uNbrt3puKR6w8nz8fb5IFd9cwINwdQNI,8
+freeway-0.0.4.dist-info/RECORD,,
