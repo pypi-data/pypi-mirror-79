@@ -1,0 +1,10 @@
+README.md
+setup.py
+pylammps/__init__.py
+pylammps/constant.py
+pylammps.egg-info/PKG-INFO
+pylammps.egg-info/SOURCES.txt
+pylammps.egg-info/dependency_links.txt
+pylammps.egg-info/not-zip-safe
+pylammps.egg-info/requires.txt
+pylammps.egg-info/top_level.txt
