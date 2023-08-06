@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: efb-caiyun-weather-slave
+Version: 0.0.1.dev4
+Summary: EFB CaiYun Weather Slave Channel
+Home-page: https://github.com/sunziping2016/efb-caiyun-weather-slave
+Author: Sun Ziping
+Author-email: sunziping2016@gmail.com
+License: GPLv3
+Description: # EFB CaiYun Weather Slave Channel
+        
+        [![Build Status](https://travis-ci.org/sunziping2016/efb-caiyun-weather-slave.svg?branch=master)](https://travis-ci.org/sunziping2016/efb-caiyun-weather-slave)
+        [![codecov](https://codecov.io/gh/sunziping2016/efb-caiyun-weather-slave/branch/master/graph/badge.svg)](https://codecov.io/gh/sunziping2016/efb-caiyun-weather-slave)
+        [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+        
+        This project provides a slave channel for [ehForwarderBot](https://github.com/blueset/ehForwarderBot). It sends weather data crawled from [CaiYun Weather API](https://open.caiyunapp.com/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94_API) to the master channel. Each chat represents one location.
+        
+        
+Keywords: ehforwarderbot,EH Forwarder Bot,EH Forwarder Bot Slave Channel,weather,CaiYun
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
