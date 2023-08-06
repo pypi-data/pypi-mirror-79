@@ -1,0 +1,12 @@
+astro_meshless_surfaces/__init__.py,sha256=IeziBm1hmKG6OhnzF72M6bsZvM2wnCknVOhfx2JIEw8,637
+astro_meshless_surfaces/deprecated.py,sha256=SWf1TSP7PoUIuPnFc3TbgQ1ylg1xY-8BpJgy3fdh99g,29625
+astro_meshless_surfaces/kernels.py,sha256=PYBo30cCxArj6kikBWJfjTDGPm5vwuvdD8PR6sx-XhE,9231
+astro_meshless_surfaces/meshless.py,sha256=2h8DRaUMjwxSbfvs6vlo-C8dPGLk-egA2jT0ubpM6pQ,25880
+astro_meshless_surfaces/meshlessio.py,sha256=QeY2qgfB-JnjB_yUtZZeONJehfjIFj2IK5kx2jb7Fso,5623
+astro_meshless_surfaces/optional_packages.py,sha256=W8gWgF3P_kJj7pWC2hdKYzH15H5x2f2EPBh3YY9e7Yo,595
+astro_meshless_surfaces/particles.py,sha256=oiA-L-7PN4ueijXib9eU3VguITd1Qa9th3PZsHJnTVI,10425
+astro_meshless_surfaces-0.1.16.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+astro_meshless_surfaces-0.1.16.dist-info/METADATA,sha256=mwVyqbXS0TJomyjF-pkP5cq5cwsibPMoS0LZKUHyOU0,1331
+astro_meshless_surfaces-0.1.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+astro_meshless_surfaces-0.1.16.dist-info/top_level.txt,sha256=40hvvdTMm_vMeJQPZNS41NDMM8m7SFFFRGXyPH_3UvE,24
+astro_meshless_surfaces-0.1.16.dist-info/RECORD,,
