@@ -1,0 +1,5 @@
+setup.py
+sqlmorph_api.egg-info/PKG-INFO
+sqlmorph_api.egg-info/SOURCES.txt
+sqlmorph_api.egg-info/dependency_links.txt
+sqlmorph_api.egg-info/top_level.txt
