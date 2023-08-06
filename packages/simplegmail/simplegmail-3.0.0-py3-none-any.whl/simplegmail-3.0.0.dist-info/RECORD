@@ -1,0 +1,11 @@
+simplegmail/__init__.py,sha256=_DQop2iv8VEtTz1_1008A6rrwNAI6FG6S-VXnUXMTUI,135
+simplegmail/attachment.py,sha256=O4Qkks6ammlQzT9FcUcnzvVmMsJ8i1jAs0TGubtIAHQ,3286
+simplegmail/gmail.py,sha256=KlLs14IAQa4VILXhbCHDjfyQomvJuIRORVVvSW7fxHU,31708
+simplegmail/label.py,sha256=plNhvbsWvJVsfrlZYQISHtzaog32Jxg5pjEdRurPJRE,1642
+simplegmail/message.py,sha256=5MiwSMsIvbAa-rF1hd3NTzmoAzojRlrFe1YdqSKMjpE,11382
+simplegmail/query.py,sha256=7OoIxxBebSgee6Zn6JRAqIgnIoo0edWYXhBsGrvNme0,12238
+simplegmail-3.0.0.dist-info/LICENSE,sha256=G9HFPjwv8MvlLna3HFq80Pw38_AIufSfsLLByu1hWYM,1080
+simplegmail-3.0.0.dist-info/METADATA,sha256=YxOxE8o_qBjwYvJY1MC3Mjg2AXjHAV1p-kgC4oGAnEo,8931
+simplegmail-3.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplegmail-3.0.0.dist-info/top_level.txt,sha256=1tqM3yPWPwhbEUTtkMjYDfgdF3qexgqc2RP6tMjLwSk,12
+simplegmail-3.0.0.dist-info/RECORD,,
