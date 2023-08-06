@@ -1,0 +1,10 @@
+dnstap_receiver/__init__.py,sha256=3vHKIr01_5E0OAL5Sg-8L8YEUZyEehZLxowRTU5FNiM,74
+dnstap_receiver/dnstap.py,sha256=jMEl2o1fif14VroH5DKGfl8mgivcUmksim6bTi3_yKA,2341
+dnstap_receiver/fstrm.py,sha256=g0U8UlOXoSKueFkN2Lftq0io09CivAhc1mv-uD0pM5s,5347
+dnstap_receiver/receiver.py,sha256=sBaCci4943daeunKnamTBaz-CiJvwVHUAQa-AD_oNW4,10569
+dnstap_receiver-1.0.3.dist-info/LICENSE,sha256=XBHyIx1N2_ffyQwo_AjEalytAHWSGQpMkUxnvlJ20AM,1070
+dnstap_receiver-1.0.3.dist-info/METADATA,sha256=1rL3mYqBh2-OBoVBnkNPnEtFW-NdRVz0PSV2w_QOCYA,14382
+dnstap_receiver-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dnstap_receiver-1.0.3.dist-info/entry_points.txt,sha256=bzPt7OoA-VPMJyB-V46kkqM7mDAZnH1KyCNfWBxMjKc,77
+dnstap_receiver-1.0.3.dist-info/top_level.txt,sha256=K003aukVsNJ-FPjDLNtL1eAbNscTdkWepuWlXIlO_GI,16
+dnstap_receiver-1.0.3.dist-info/RECORD,,
