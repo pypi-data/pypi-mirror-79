@@ -1,0 +1,14 @@
+README.md
+main.cpp
+setup.py
+Aes/aes.cpp
+Aes/aes.h
+Base64/base64.h
+NcmCrypt/ncmcrypt.cpp
+NcmCrypt/ncmcrypt.h
+NetEaseMusicDecrypt.egg-info/PKG-INFO
+NetEaseMusicDecrypt.egg-info/SOURCES.txt
+NetEaseMusicDecrypt.egg-info/dependency_links.txt
+NetEaseMusicDecrypt.egg-info/top_level.txt
+cJSON/cJSON.cpp
+cJSON/cJSON.h
