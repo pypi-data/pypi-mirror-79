@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: followthemoney-predict
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/alephdata/followthemoney-predict/
+Author: Organized Crime and Corruption Reporting Project
+Author-email: data@occrp.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: alephclient
+Requires-Dist: followthemoney
+Requires-Dist: banal
+Requires-Dist: tqdm
+Requires-Dist: orjson
+Requires-Dist: gcsfs
+Requires-Dist: numpy
+Requires-Dist: xgboost
+Requires-Dist: sklearn
+Requires-Dist: dask[bag,dataframe,distributed]
+Requires-Dist: bokeh
+Requires-Dist: pyarrow
+
+# followthemoney-predict
+Experiments with FtM record linkage
+
+
+## TODO
+
+- [ ] Clean up CLI entrypoints
+
+
