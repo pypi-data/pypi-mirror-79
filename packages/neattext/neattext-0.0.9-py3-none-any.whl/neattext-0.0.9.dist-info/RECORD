@@ -1,0 +1,15 @@
+neattext/__init__.py,sha256=acrGCgT7xOlFxNdsEbz1UAgbhK8DiDCLN6WjC52Tz4I,301
+neattext/explainer/__init__.py,sha256=zcRb_uoFavD_2OHsVNQPY3HOgYw3GL-_GSKLZhc_iMw,25
+neattext/explainer/explainer.py,sha256=rrYcIgCT-xrIuPVGWmZ_FgmmiyC-eBRYq7so1YTHbZM,87941
+neattext/functions/__init__.py,sha256=xj6d0EGBslRMqwegomzD_egs_JIiUAgqULcq3ZW7t1I,25
+neattext/functions/emoji.json,sha256=LSD7TnaHcuCv8cWof8-6kCfpRvikvV5_0qoiU9AYQHo,36476
+neattext/functions/functions.py,sha256=2HC7bermKFhGtCZ8hu2Ts0lFmvDLFFqrMYP8WFhK1M0,30250
+neattext/neattext.py,sha256=GuQ6O99HoKReEIOz5LVuwL1aA3CzRulhbJniJ3VfbBg,44774
+neattext/pattern_data/__init__.py,sha256=dODTwmqIQHSN2l6amQTLVtpfUxuoGT0p6acjwPzARWE,27
+neattext/pattern_data/pattern_data.py,sha256=4Fe5k1g2FgQL0qf70cxO-WR3WD8McxhbELJIjan8zGk,34064
+neattext/pattern_data/stopwords_list.py,sha256=kJOlEC43GU_BjvNc4V2EOo1JbUYSnaZJWWIiYfUCkTM,23565
+neattext/summarize.py,sha256=_3rWa1by3TwoiRfjbka-zsmkxOXYH3FJ5lGDz5MKbYE,1452
+neattext-0.0.9.dist-info/LICENSE,sha256=6m73zv-ATqZTBOJhT_eC0yUyUoBe0qzpmCIm_YPkLb0,1060
+neattext-0.0.9.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+neattext-0.0.9.dist-info/METADATA,sha256=rmFs_vDe26_aTtU4BotG107-KCnNMYqDXp2kQyxYsj0,10346
+neattext-0.0.9.dist-info/RECORD,,
