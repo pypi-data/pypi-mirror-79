@@ -1,0 +1,7 @@
+matplotlib
+numpy
+numpy-stl
+scipy
+
+[tests]
+pytest
