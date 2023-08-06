@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: efpodsanalyzer
+Version: 0.2.4
+Summary: CocoaPods dependency analysis tool
+Home-page: https://github.com/EyreFree/EFPodsAnalyzer
+Author: EyreFree
+Author-email: eyrefree@eyrefree.org
+License: GPLv3 Licence
+Keywords: pip,eyrefree,cocoapods,analyzer,efpodsanalyzer
+Platform: any
+
+CocoaPods dependency analysis tool
+
+

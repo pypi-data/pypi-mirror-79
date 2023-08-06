@@ -1,0 +1,6 @@
+{
+    "config": {
+        "categories": ["M-prefixed Libraries", "Library ending with Kit", "Other"],
+        "categoryRegexes": ["^M.*", ".*(Kit)$", ".*"]
+    }
+}
