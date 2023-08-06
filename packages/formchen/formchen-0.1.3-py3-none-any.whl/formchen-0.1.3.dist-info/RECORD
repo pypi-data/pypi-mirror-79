@@ -1,0 +1,11 @@
+formchen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formchen/formchen-internal.d.ts,sha256=fJ8kVRsuvyzgpm8d84Z5JLcMcExTeDpUbryoFnK8Lgo,1422
+formchen/formchen.d.ts,sha256=Zxko1bVE4xhhmep5nrfVDUVJJcFb5A6W25asaqz5zz4,326
+formchen/tests/test_empty_object.js,sha256=yZToaJamXhYbXMvS4ZxPRxBwQ2SEn6Z_2I3Pnfpq7t0,7399
+formchen/tests/test_Formchen.js,sha256=Jc5Aeu0RnbwzPDKrB5_hMXXQyiElXpbfLo47HWSi3DY,4882
+formchen/tests/test_master_detail.js,sha256=O6TXwicosFP7nIpdynH3keU0cvElO9XFY1YO_I3Ou3Q,4594
+formchen/tests/test_proxynode.js,sha256=JoWf234FHlhZjezdsvZiYpVrc_1czPry8pbF76qYVZs,1607
+formchen/webcomponent.js,sha256=8SeqMYshcDtJIJt5TC79_j-ofJHpZ5ImSIurC-el9K4,23342
+formchen-0.1.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+formchen-0.1.3.dist-info/METADATA,sha256=zb43JQg_j0GDbuv2GORH0ZXZE0vI9WE4m_77JNHR7SE,5535
+formchen-0.1.3.dist-info/RECORD,,
