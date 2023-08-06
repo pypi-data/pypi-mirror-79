@@ -1,0 +1,12 @@
+codingame/__init__.py,sha256=wt3nR9UsQqVG0JEtIN4EcqPnto5cpQ71edPR77Js4Uo,724
+codingame/clash_of_code.py,sha256=QSXI5_Upd_2Uu72H4J7t8yCTZoTMyQvRlGLMPxGp5o4,7208
+codingame/client.py,sha256=zby8b3fdisr1r0nEX6YkifuwB9JE579UMSSEAkogJH0,2831
+codingame/codingamer.py,sha256=IS_dicUfVKyt3axekKnjuCacvxmsWRc6xz3k8HaxCgQ,3399
+codingame/endpoints.py,sha256=IeFC5TSeov8JzyN4M94vBZihVin1srsGvFfdqZF6epo,239
+codingame/exceptions.py,sha256=5J7Mift3am3YeKZ3szRvpU80b_4gqDmKt1OdSUYPgYM,363
+codingame/utils.py,sha256=KyYexoReFynG6PIqGz6lHBkS4C6mA0JCPHT5gWS_NBk,898
+codingame-0.2.1.dist-info/LICENSE,sha256=Q4DbkjnojW2GqqjjXUqkOXdybV7f0xIwmbNVoAP5oXs,1062
+codingame-0.2.1.dist-info/METADATA,sha256=sV_h7DPGtWGd33xicR4-Eg7Dcyw_SDXzl1-cvINBcMA,1916
+codingame-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+codingame-0.2.1.dist-info/top_level.txt,sha256=4olRCHmozWxYYVxgZ7qxq5Nfocf9xdgkcf9INVzHgVk,10
+codingame-0.2.1.dist-info/RECORD,,
