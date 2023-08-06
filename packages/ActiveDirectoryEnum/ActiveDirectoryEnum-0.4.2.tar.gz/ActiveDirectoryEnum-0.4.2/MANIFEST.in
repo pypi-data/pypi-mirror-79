@@ -1,0 +1,3 @@
+include ade/external/*
+exclude .github/*
+exclude .gitignore
