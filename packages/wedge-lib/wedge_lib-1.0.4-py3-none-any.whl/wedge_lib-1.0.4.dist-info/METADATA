@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: wedge-lib
+Version: 1.0.4
+Summary: A Django app to conduct and test REST API based projects.
+Home-page: http://www.wedge-digital.com/
+Author: Wedge
+Author-email: bertrand.begouin@wedge-digital.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: var-dump
+Requires-Dist: arrow
+Requires-Dist: django-extensions
+Requires-Dist: serpy
+Requires-Dist: validators
+Requires-Dist: pyyaml
+Requires-Dist: openpyxl
+Requires-Dist: weasyprint
+Requires-Dist: djangorestframework-simplejwt
+
+Django Wedge lib
+====================
+
+Django Wedge lib is a Django app to conduct and test REST API based projects.
+
+Quick start
+-----------
+
+1. Add "polls" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'w',
+    ]
+
+2. Include pytest settings in the pytest config file like this::
+
+    from w.settings.pytest import *
+
+
+
