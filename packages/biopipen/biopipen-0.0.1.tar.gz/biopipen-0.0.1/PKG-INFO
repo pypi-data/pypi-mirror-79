@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: biopipen
+Version: 0.0.1
+Summary: A set of PyPPL processes for bioinformatics.
+License: MIT
+Author: pwwang
+Author-email: pwwang@pwwang.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: PyPPL (>=3.0.0,<4.0.0)
+Requires-Dist: diot
+Requires-Dist: pyparam
+Requires-Dist: pyppl_annotate
+Requires-Dist: pyppl_export
+Requires-Dist: pyppl_report
+Requires-Dist: rich (>=6.0.0,<7.0.0)
+Requires-Dist: toml (<1.0.0)
