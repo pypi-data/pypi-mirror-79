@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: Dock2
+Version: 0.1.0
+Summary: Simple wrapper for interacting with h2cs drivers (HTTP2 ClearText)
+Home-page: https://github.com/Mwimwii/Dock2
+Author: goooby
+Author-email: qdyd65@gmail.com
+License: UNKNOWN
+Description: # Dock2
+        
+        This is a simple wrapper for interacting with h2cs drivers (HTTP2 ClearText)
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```python
+        pip install Dock2
+        ```
+        
+        You need to download the h2cs driver in order for this to work.
+        
+        Supported Drivers
+        
+        | Driver | Download                                                                                  |
+        | ------ | ----------------------------------------------------------------------------------------- |
+        | H2CS   | [Download](https://raw.githubusercontent.com/BishopFox/h2csmuggler/master/h2csmuggler.py) |
+        
+        ## Usage
+        
+        ```python
+        import Dock2
+        
+        #  Upgrade function
+        result = Dock2.upgrade('www.example.com', 'driver.py')
+        print(result)
+        
+        # Do anything else, pass arguments h2cs returns byte string
+         result =  Dock2.cmd('-x https://edgeserver -i dirs.txt http://localhost/', 'driver')
+         print(result)
+        ```
+        
+        # Developing Dock2
+        
+        To install Dock2, along with all the tools you need to develop and run tests,
+        run the following in your virtualenv:
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Security
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev

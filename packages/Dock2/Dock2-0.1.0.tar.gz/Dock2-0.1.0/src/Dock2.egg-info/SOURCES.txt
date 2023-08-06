@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/Dock2.py
+src/Dock2.egg-info/PKG-INFO
+src/Dock2.egg-info/SOURCES.txt
+src/Dock2.egg-info/dependency_links.txt
+src/Dock2.egg-info/requires.txt
+src/Dock2.egg-info/top_level.txt
+test/test.py
