@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: heartpole
+Version: 1.1
+Summary: A simple Healthcare-themed OpenAI gym for benchmarking Reinforcement Learning algorithms
+Home-page: https://github.com/vadim0x60/heartpole
+Author: Vadim Liventsev
+Author-email: v.liventsev@tue.nl
+License: MIT
+Download-URL: https://github.com/vadim0x60/heartpole/archive/v_11.tar.gz
+Description: UNKNOWN
+Keywords: Machine Learning,Reinforcement Learning,Healthcare
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
