@@ -1,0 +1,37 @@
+# General Info:
+- Check out https://chipdelmal.github.io/MoNeT/SSBSTP for general project details!
+
+# Current Structure:
+- ssb
+	- outputs
+	- data
+		- some_locations.csv
+		- kernels
+			- kernel_1.csv
+			- kernel_2.csv
+			- ...
+			- kernel_n.csv
+	- `__init__.py`
+	- `ssbplots.py`
+	- `clusters.py`
+	- `mpc_defs.py`
+	- `detector.py`
+	- `simulator.py`
+
+# Package Overview:
+- This package provides a more convenient way to perform sink/source/bridge detection and network analysis for the MoNet project. Given a list of clusters, a list of kernels, and a network of locations, the `clusters.py` script will iterate over all clusters, and, for each one, run sink/source/bridge detection for each kernel using the specified locations. The script uses multiprocessing to compute the results for large inputs more efficiently. The results are placed in a nested dictionary such that `dictionary[c][k]` is the detector object used with `c` clusters for kernel `k` where `k` is the file name of the kernel. The package also comes with a plotting library for examining the results of the script in a more appealing way.
+
+# Overview of Major Files:
+- `detector.py` : contains the class definition of the `Detector` class. The `Detector` class takes in a stochastic matrix (or kernel) and a pandas DataFrame with the columns 'pop', 'lat', and 'lon'. It can then be used to perform sink/source/bridge detection on the data. There are various settings that may be used with the detector all of which are documented in the file.
+- `simulator.py` : contains the class definition of the `Simulator` class. The `Simulator` class inherits from `Detector`. It is meant to contain parallelized methods that compute time-consuming quantities or perform simulations. The default starter code comes with a method that computes populations over a specified number of time steps.
+- `clusters.py` : the script for running multi-process clustering detection. This provides some default methods and is meant to be modified as necessary depending on the type of experiment to run. The starter script takes the following flags:
+	- `-l` : the path to the locations CSV file (e.g. 'data/some_locations.csv')
+	- `-k` : a path to a directory of kernels to use for detection. Kernels are expected to be CSV files (e.g. 'data/kernels').
+	- `-o` : the name of the output folder. If unspecified, a folder named 'outputs' will be created (if it doesn't already exist) and the results will be placed in it.
+	- `-c` : a comma separated string of integers representing the number of clusters to use for detection.
+	- `-t` : the time step to run SSB at
+	- `-p` : the number of processes to use. If unspecified, the number returned by `cpu_count()` is used.
+	- `-s` : the value for the `random_state` argument for K-means
+	- `-e` : the experiment id, which is used for naming the resulting output file.
+- `mpc_defs.py` : contains helper functions for `clusters.py`. This is needed for multiprocessing.
+- `ssbplots.py` : a module for plotting the results of the `clusters.py` script. More details about each plot are given within the file.
