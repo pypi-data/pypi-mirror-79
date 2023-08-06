@@ -1,0 +1,16 @@
+SoccerNet/DataLoader.py,sha256=N6CZYuK-J1twMtHlG4FAlGM3ok6EOOasgiqSy3Q8NzM,3522
+SoccerNet/DataLoaderTensorFlow.py,sha256=3c5AI97-dfMFvi2qTZa6rMzV1JglzC4zbDPeGh6vFlo,1763
+SoccerNet/DataLoaderTorch.py,sha256=Di-7AB0RUcmy62YKeH64P9PBgPoI25f0CS7_cU6e8AE,6985
+SoccerNet/__init__.py,sha256=0nj3FGYWdpsZfH33Ky-iWtr-qJHHvh4vqfQ63GTKz94,903
+SoccerNet/downloader.py,sha256=rzWOlJWidg7Gcp_jxsXpygM2bqOceB-6dsU6WexOyNE,10389
+SoccerNet/featureextractor.py,sha256=-ircAlGyesprulFf8iEpHmotVh2ISSy-BzQA6QLaWbU,6918
+SoccerNet/utils.py,sha256=us3zULY5V7iTuhxbKny6rxPmFjd6z67LrxCyLaGC7XA,1378
+SoccerNet/data/SoccerNetGamesChallenge.json,sha256=fIc0LyRwC5o-Mu1ABTp3rri3EuF0-hl3EI_NVEQUFMo,3339
+SoccerNet/data/SoccerNetGamesTest.json,sha256=uIGjzAsXMqhuTVYj4TPN_-kxylzucOwnlbwi3UsVv_Y,6762
+SoccerNet/data/SoccerNetGamesTrain.json,sha256=JNVA0E70JC-eYlIFBpyyFbIkMX8c6QGRUS4SlFJNuco,18769
+SoccerNet/data/SoccerNetGamesValid.json,sha256=2jLv-BQIt47Fo39Ji7gwns4zwWqYPVyolIz80JGnik0,6808
+SoccerNet-0.0.45.dist-info/LICENSE.txt,sha256=phX4gk2Yr4MUfIlQk0U-MUIt1ur2ab-LkX4rR7LnOvY,1068
+SoccerNet-0.0.45.dist-info/METADATA,sha256=5JjXz9RjtKOWB3dljoAoFiHo_SSSN6rWc2g9TWsY52k,3720
+SoccerNet-0.0.45.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+SoccerNet-0.0.45.dist-info/top_level.txt,sha256=I2YF0MEBeVYlBF10y10TWWPkQXFxoHzlUGVs9bxwXdg,10
+SoccerNet-0.0.45.dist-info/RECORD,,
