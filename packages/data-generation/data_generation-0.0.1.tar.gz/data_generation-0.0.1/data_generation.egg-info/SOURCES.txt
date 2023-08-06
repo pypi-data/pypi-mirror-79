@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+data_generation/__init__.py
+data_generation/dgen.py
+data_generation/papers_dataset.py
+data_generation.egg-info/PKG-INFO
+data_generation.egg-info/SOURCES.txt
+data_generation.egg-info/dependency_links.txt
+data_generation.egg-info/not-zip-safe
+data_generation.egg-info/requires.txt
+data_generation.egg-info/top_level.txt
