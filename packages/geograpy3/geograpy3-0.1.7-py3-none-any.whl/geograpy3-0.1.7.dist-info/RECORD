@@ -1,0 +1,13 @@
+geograpy/__init__.py,sha256=-sY9WA8_6PNGLKoRiVYvcJY9L8aI2qm8JEp05lsV8pw,1412
+geograpy/extraction.py,sha256=OIdry87QcbajnapNsDDNuK9amrv4XmBVZyB2jXCN6Wo,1844
+geograpy/labels.py,sha256=0ouW5aiEcaivLVeQ6hedAEzQSQxezk6bVRw_MwtZUj8,157
+geograpy/places.py,sha256=qYeMdAChp0wwoOmnHc4lb7KGBkJnqyvNLb1fkXbUyRE,7579
+geograpy/utils.py,sha256=8GS27JtjvgJfeenAw-bIlY3SXDhIOG-_UcjcJP3E1O4,881
+geograpy/data/GeoLite2-City-Locations.csv,sha256=P5mmpqIr66fbu1hWyRU8GReoyqbIA4-afYYA_nRkzrg,6131213
+geograpy/data/ISO3166ErrorDictionary.csv,sha256=HeZr0MY97m1P61QQfe8P8L9k_Sf1gtNb87mc1PUjrTI,10325
+geograpy3-0.1.7.data/scripts/geograpy-nltk,sha256=MQlwr4hzQBF9diVX5v_c_BzuWuE9qt7dKVRNGtpPdJY,300
+geograpy3-0.1.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+geograpy3-0.1.7.dist-info/METADATA,sha256=Ov-1ol3bjRDIkXiIx9snGkFDkjYmCjT_gA3ZreUY2Es,6417
+geograpy3-0.1.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+geograpy3-0.1.7.dist-info/top_level.txt,sha256=xhNnZXa-S_OAmUM65pW6v0XbziDEEeOyZy5UqdKFEmA,9
+geograpy3-0.1.7.dist-info/RECORD,,
