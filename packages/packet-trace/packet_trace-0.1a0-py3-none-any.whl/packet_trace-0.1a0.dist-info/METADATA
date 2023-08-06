@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: packet-trace
+Version: 0.1a0
+Summary: A simple tool to trace packets as they pass through Linux netfilter.
+Home-page: https://gitlab.com/python-utils2/packet_trace
+Author: Mark Bools
+Author-email: mark@saltyvagrant.com
+Requires-Python: >=3.5,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Networking :: Firewalls
+Classifier: Topic :: Utilities
+Requires-Dist: libnetfilter (>=0.1.0,<0.2.0)
+Requires-Dist: python-iptables (>=1.0.0,<2.0.0)
+Description-Content-Type: text/x-rst
+
+This code pilfered from `commonism/iptables-trace`_ with some reformatting and modification to form suitable to `poetry`_.
+
+.. _commonism/iptables-trace: https://github.com/commonism/iptables-trace
+.. _poetry: https://python-poetry.org
+
+--------
+
+Installation
+------------
+
+Before using this script install the libnetfilter_ package (if you use ``poetry install`` this willl be done automatically using the latest ``gitlab.com`` code).
+
+.. _libnetfilter: https://gitlab.com/python-utils2/libnetfilter
+
+Usage
+-----
+
+This script adds ``TRACE`` rules into ``nftables`` and then analyses the resulting log output to present its results, consequently it must be run as a privileged user (one permitted to modify the ``nftables``).
+
