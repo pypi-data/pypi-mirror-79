@@ -1,0 +1,10 @@
+README.md
+setup.py
+sym/__init__.py
+sym/awslambda/__init__.py
+sym/awslambda/util.py
+sym_awslambda.egg-info/PKG-INFO
+sym_awslambda.egg-info/SOURCES.txt
+sym_awslambda.egg-info/dependency_links.txt
+sym_awslambda.egg-info/namespace_packages.txt
+sym_awslambda.egg-info/top_level.txt
