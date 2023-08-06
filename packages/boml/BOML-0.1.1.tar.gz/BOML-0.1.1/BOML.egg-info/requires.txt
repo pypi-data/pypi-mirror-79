@@ -1,0 +1,9 @@
+imageio
+h5py
+numpy
+scipy
+intervaltree
+matplotlib
+Pillow
+scikit_learn
+tensorflow<=1.15.*,>=1.13.*

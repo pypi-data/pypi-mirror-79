@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: BOML
+Version: 0.1.1
+Summary: A Bilevel Optimizer Library in Python for Meta Learning
+Home-page: https://github.com/dut-media-lab/BOML
+Author: Yaohua Liu, Risheng Liu
+Author-email: liuyaohua@mail.dlut.edu.cn
+License: MIT
+Description: UNKNOWN
+Keywords: meta-learning,bilevel-optimization,few-shot-lerning,python,Deep learning
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5,<3.8
