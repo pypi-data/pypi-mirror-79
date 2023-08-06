@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyfs-mina
+Version: 1.0.5
+Summary: Feishu Module for Python for MiniApp.
+Home-page: https://github.com/feishu-sdk-python/pyfs-mina.git
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+License: UNKNOWN
+Keywords: Feishu Mini App
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pyfs-auth
+Requires-Dist: pyfs-decrypt
+
+=========
+pyfs-mina
+=========
+
+Feishu Module for Python for MiniApp.
+
+Installation
+============
+
+::
+
+    pip install pyfs-mina
+
+
+
