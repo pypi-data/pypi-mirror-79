@@ -1,0 +1,7 @@
+arcane/bing/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+arcane/bing/client.py,sha256=hmyBNG8mnPYhtXEthZFpiiXXIL6qQfdN1oOUIskciXI,8268
+arcane/bing/helpers.py,sha256=0OJn0pfTFWD7yIt6PJaaCVCMB3l11cBM8bLahfpr6kM,3102
+arcane/bing/types.py,sha256=s1lyUfwM9xtZcD_JARFxO0uJb9_o4BW_CNXKJIVhAwc,334
+arcane_bing-0.2.0.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+arcane_bing-0.2.0.dist-info/METADATA,sha256=IqQ84_vvPEI95d5hyHYr9Ev8Pc5EIaB5C3PPHlFR_H0,2015
+arcane_bing-0.2.0.dist-info/RECORD,,
