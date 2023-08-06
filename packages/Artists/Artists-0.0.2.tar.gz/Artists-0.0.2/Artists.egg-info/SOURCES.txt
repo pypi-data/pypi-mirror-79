@@ -1,0 +1,9 @@
+README.md
+setup.py
+Artists.egg-info/PKG-INFO
+Artists.egg-info/SOURCES.txt
+Artists.egg-info/dependency_links.txt
+Artists.egg-info/top_level.txt
+myArtists/__init__.py
+myArtists/billboard.py
+myArtists/melon.py
