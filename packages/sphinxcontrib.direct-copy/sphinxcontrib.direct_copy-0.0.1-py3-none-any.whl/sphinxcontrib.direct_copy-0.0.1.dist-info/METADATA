@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib.direct-copy
+Version: 0.0.1
+Summary: Corrects relative links when generating documents  from .md to .html with commonmark
+Home-page: https://github.com/cntt-n/sphinxcontrib-direct-copy
+Author: Gergely Csatari
+Author-email: gergely.csatari@nokia.com
+License: Apache License 2.0
+Keywords: helpers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Documentation
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/x-rst
+
+=========================
+sphinxcontrib-direct-copy
+=========================
+
+A sphinx extension to copy files directly from the source directory to the target
+directory. 
+
+Overview
+--------
+
+In some cases files are referred from raw html sections in .md documents. These files
+need to be copied from the source directory to the target directory. 
+Most common examples are images which are scaled in some way. As this is a nonexistent
+feature in Markdown most of the document use raw html img tags.
+
+Links
+-----
+
+- Source: https://github.com/cntt-n/sphinxcontrib-direct-copy
+- Bugs: https://github.com/cntt-n/sphinxcontrib-direct-copy/issues
+
+
+Contributing
+------------
+
+Please feel free to create a pr for code contributions or an issue for issues.
+
+License
+-------
+
+Licensed with Apache License 2.0 License, see the `LICENSE <LICENSE>`_ file.  
+
+
