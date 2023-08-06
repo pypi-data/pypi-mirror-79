@@ -1,0 +1,9 @@
+numpy
+h5py
+tqdm
+torch
+torchvision
+pytorch-lightning>=0.9
+pyyaml
+yacs
+wrapt
