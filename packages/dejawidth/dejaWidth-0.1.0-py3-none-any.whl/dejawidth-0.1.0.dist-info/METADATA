@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dejawidth
+Version: 0.1.0
+Summary: measure the width, in pixels, of a string rendered using dejavu sans 110pt
+Author: Rahul Jha
+Author-email: rj722@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
