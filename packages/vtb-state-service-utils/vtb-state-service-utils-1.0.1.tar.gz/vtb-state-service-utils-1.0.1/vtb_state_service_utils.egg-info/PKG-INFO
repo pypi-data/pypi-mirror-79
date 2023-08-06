@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vtb-state-service-utils
+Version: 1.0.1
+Summary: 
+State service tools
+
+Need STATE_SERVICE_URL & STATE_SERVICE_TOKEN (opt) in env.
+Home-page: https://bitbucket.org/Michail_Shutov/state_service_utils
+Author:  Mikhail Shutov
+Author-email: michael-russ@yandex.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
