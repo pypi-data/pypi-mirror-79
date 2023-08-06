@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sonotools
+Version: 0.1.8
+Summary: Utility functions to aid with machine learning of cardiac ultrasound.
+Home-page: https://github.com/davycro/sonotools
+Author: David Crockett, MD
+Author-email: davycro1@gmail.com
+License: Apache Software License 2.0
+Description: # SONOTOOLS [![PyPI](https://img.shields.io/pypi/pyversions/sonotools.svg?style=plastic)](https://github.com/davycro/sonotools)
+        
+        Unorganized library of utility functions to aid with machine learning of cardiac ultrasound.
+        
+        
+        ## Installation
+        
+        Requires python 3.7 or higher
+        
+        Install with pip: ```pip3 install sonotools --upgrade```
+        
+        
+        ## Available utilities
+        
+        "I will fill this in later"
+        
+Keywords: ultrasound bedside ultrasound pocus ffmpeg opencv echo cardiac artificial intelligence ai machine learning ml
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
