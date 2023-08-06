@@ -1,0 +1,4 @@
+[console_scripts]
+git-meta=metarepo.cli:cli
+metarepo=metarepo.cli:cli
+
