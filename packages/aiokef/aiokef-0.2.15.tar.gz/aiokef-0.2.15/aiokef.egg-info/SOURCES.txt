@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+aiokef/__init__.py
+aiokef/_static_version.py
+aiokef/_version.py
+aiokef/aiokef.py
+aiokef.egg-info/PKG-INFO
+aiokef.egg-info/SOURCES.txt
+aiokef.egg-info/dependency_links.txt
+aiokef.egg-info/requires.txt
+aiokef.egg-info/top_level.txt
+tests/__init__.py
+tests/test_aiokef.py
