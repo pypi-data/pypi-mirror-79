@@ -1,0 +1,13 @@
+wolkstack.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wolkstack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wolkstack/cli_tools.py,sha256=P95ID3G3Dy9MBTR7I-S1HT1mXHQBbrIBT-Lmfc1lcXw,494
+wolkstack/main.py,sha256=OVVDynGqpt01vyo3_3UnmZ6nv6AVvrzJOE2pQN6EiyI,367
+wolkstack/wolk.py,sha256=xbqJAZYqa5f3vnorAljXTk0ILW8oQJ47h6ZVnQ-Q52o,632
+wolkstack/groups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wolkstack/groups/cli_tools.py,sha256=P95ID3G3Dy9MBTR7I-S1HT1mXHQBbrIBT-Lmfc1lcXw,494
+Wolkstack-0.1.dist-info/METADATA,sha256=79UBenzaohQfNLx9mAamAcEdtKWbgvIEbk2qAnUAeKc,491
+Wolkstack-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Wolkstack-0.1.dist-info/dependency_links.txt,sha256=2-B_aYP6YjEm4DbNQIyFy-2axQ-avndW19qo9UA9BLE,14
+Wolkstack-0.1.dist-info/entry_points.txt,sha256=CNKWeh3TnutFl5OLFzk7HLym3lpeYOSuAnxKRqMOvbk,64
+Wolkstack-0.1.dist-info/top_level.txt,sha256=SasXMY9Z2YQnRy5ZW5Z7IGEYFeQtUawTu03v1mac7s4,10
+Wolkstack-0.1.dist-info/RECORD,,
