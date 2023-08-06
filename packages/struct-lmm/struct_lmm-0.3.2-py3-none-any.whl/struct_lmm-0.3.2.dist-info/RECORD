@@ -1,0 +1,11 @@
+struct_lmm/__init__.py,sha256=aU6Fdk5CJ1rLPa_yKu49DdLjk_gSf6At4GsfJZbaU0s,1403
+struct_lmm/_lmm.py,sha256=24rTCsJFZbLbenh134xNojHvVTUXmOzJeMNUQ2U7ODE,13067
+struct_lmm/_testit.py,sha256=GebQ34qlEQW1HP71EneFeFLoRXUY_rXlCSTDOpLtHaU,560
+struct_lmm/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+struct_lmm/test/test_structlmm.py,sha256=Xww4GfISIe_n_PMesiAv9DLIUWJrCt9o46I8D6bZJn4,1009
+struct_lmm-0.3.2.dist-info/LICENSE.md,sha256=ZheNPHAIIVJ9YnKgpITEsMnlzKOl15Y5asyF_7TdxLY,10502
+struct_lmm-0.3.2.dist-info/METADATA,sha256=A88XgiRYalicz3QtcEvXAYkASNRCK9I906daUKAzPAY,3053
+struct_lmm-0.3.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+struct_lmm-0.3.2.dist-info/top_level.txt,sha256=_tGslcuVErJQId9mJFA4QH0jAkKIITnkkP8A5Pxe8-w,11
+struct_lmm-0.3.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+struct_lmm-0.3.2.dist-info/RECORD,,
