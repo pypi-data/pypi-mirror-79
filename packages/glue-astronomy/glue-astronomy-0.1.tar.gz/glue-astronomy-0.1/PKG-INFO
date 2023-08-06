@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: glue-astronomy
+Version: 0.1
+Summary: Astronomy-specific plugins for glue
+Home-page: https://github.com/glue-viz/glue-astronomy
+Author: Thomas Robitaille
+Author-email: glue.viz@gmail.com
+License: BSD 3-Clause License
+Description: Experimental astronomy plugins for glue
+        ---------------------------------------
+        
+        .. image:: https://dev.azure.com/glue-viz/glue-astronomy/_apis/build/status/glue-viz.glue-astronomy?branchName=master
+           :target: https://dev.azure.com/glue-viz/glue-astronomy/_build/latest?definitionId=9&branchName=master
+        
+        The glue-astronomy plugin for glue provides a collection of astronomy-specific
+        functionality. It is currently under heavy development and is not ready for
+        general use at this point. The documentation for this plugin can be found at
+        https://glue-astronomy.readthedocs.io.
+        
+Platform: UNKNOWN
+Provides: glue_astronomy
+Requires-Python: >=3.6
+Provides-Extra: docs
+Provides-Extra: qt
+Provides-Extra: test
