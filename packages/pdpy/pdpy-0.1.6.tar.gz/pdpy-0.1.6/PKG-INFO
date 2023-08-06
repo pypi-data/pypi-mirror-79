@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pdpy
+Version: 0.1.6
+Summary: A package for downloading data from the Parliamentary Data Platform
+Home-page: https://github.com/houseofcommonslibrary/pdpy
+Author: Oliver Hawkins
+Author-email: oli@olihawkins.com
+License: BSD
+Description: UNKNOWN
+Keywords: Parliament,MP,House of Commons,House of Lords
+Platform: UNKNOWN
