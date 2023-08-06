@@ -1,0 +1,17 @@
+myquery/__init__.py,sha256=ZnmF0UqnG0e2JR3JoQIQWGbBndMum8lUAl1x1kHiNUs,137
+myquery/database.py,sha256=aYkrob25JuuDzuHFjUP1Id_hl7H4-wFVWtHAu8iRnpU,3457
+myquery/logger.py,sha256=IU5zYZKyCKjPLz6XVOfOJAQklxLG_BsDw1DMLCBhQTQ,274
+myquery/sql_builder.py,sha256=JSJpMiTasqE-GiqRyKd_HyyrEtXBra6Cvv1uq-twGeo,883
+myquery/table.py,sha256=j4eje3PiGvBqRaTzj3dLbAv-JD2jDQZCvcrbLWjAhSk,3667
+myquery/version.py,sha256=PblNX8DqQOP9Of1Dy5B3t5qYXeJ0wGrY2Yl0Kh5g_L4,43
+myquery/util/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+myquery/util/database_util.py,sha256=yrl_opsPV-5NpF1Bm5MxFixIjXm9Bh74OOerFjM6URE,2289
+myquery/util/sql_builder_util.py,sha256=Gb4HSYFxwjMWNmUPpqLl8Xw3q8Ry9QtYDriKvt1iAtI,2359
+test/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+test/test_db.py,sha256=GBAB4V632eKTGBxDdX61CsxbUQVPbq4BNyCtH3LR7sU,2683
+test/test_table.py,sha256=YiUCcanYkiB7k9gnVf-DeTeY9XdtPeNeNQ8V8Foy6cI,1843
+MyQuery-0.0.4.dist-info/METADATA,sha256=_Kj5YNOz4I03AZpMOV3ytXOchZfeZ97wgWjMbwJN9OI,4347
+MyQuery-0.0.4.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+MyQuery-0.0.4.dist-info/top_level.txt,sha256=eRL5JxfboeVDG3DLLJEvmgz_uitmbrNOaEPOtq77WI4,13
+MyQuery-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+MyQuery-0.0.4.dist-info/RECORD,,
