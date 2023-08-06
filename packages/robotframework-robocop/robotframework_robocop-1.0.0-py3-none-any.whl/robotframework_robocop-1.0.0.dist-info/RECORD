@@ -1,0 +1,14 @@
+robocop/__init__.py,sha256=-S1IjWZZLth0nz1urD_oyjzWHet5wsypr67FuUBjMmo,166
+robocop/__main__.py,sha256=I75q3KZuy2UZpb2zwmkkxffRqua4f4bBQxjEKqcdpbg,43
+robocop/config.py,sha256=htVeIAo-dTpdN1L91RgFk_7XLSr_LRHtUFHTb0jCAzc,10920
+robocop/exceptions.py,sha256=Y0iHqHlBKoAqnQ8--Ozxj06ke3hdhJRNIiSU83klXvM,2072
+robocop/reports.py,sha256=vgWbGAk3xZ7x_-o2_XdQ3cr3BAsATkCx3fyfX00-ylQ,4533
+robocop/rules.py,sha256=z9SEp9UpnSJB95AFGW3XUd-a9fgHSBk4ZhN81zDMU0k,4197
+robocop/run.py,sha256=gMrteU89fCO9tavlgmBbSLYV2uHgOykCL2Oh_R4s1Rk,8775
+robocop/version.py,sha256=dHuoY6voK7np1A7oRzw1xyBy7CK9_KBAc4FCKW29uRQ,21
+robotframework_robocop-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+robotframework_robocop-1.0.0.dist-info/METADATA,sha256=9QKUUpRThGDRZMRPKOsbGasmi8rqKXf_me8AXqVcaes,4613
+robotframework_robocop-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+robotframework_robocop-1.0.0.dist-info/entry_points.txt,sha256=S2knr_JmYGdOXNOgpuuDvYEw1VNTG6x6Z4PvJd1NwS8,49
+robotframework_robocop-1.0.0.dist-info/top_level.txt,sha256=R07cACfIHwmVvtd2CcdQq0t1IRCdLPnuFI0lJTfVKrE,8
+robotframework_robocop-1.0.0.dist-info/RECORD,,
