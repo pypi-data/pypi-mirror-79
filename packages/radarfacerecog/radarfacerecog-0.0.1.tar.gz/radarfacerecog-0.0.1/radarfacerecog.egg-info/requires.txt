@@ -1,0 +1,6 @@
+pandas
+beautifulsoup4
+lxml
+face_recognition
+numpy
+opencv-python

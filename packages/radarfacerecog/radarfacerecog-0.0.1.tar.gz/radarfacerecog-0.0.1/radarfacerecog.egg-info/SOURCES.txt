@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+radarfacerecog/__init__.py
+radarfacerecog/scrapper.py
+radarfacerecog.egg-info/PKG-INFO
+radarfacerecog.egg-info/SOURCES.txt
+radarfacerecog.egg-info/dependency_links.txt
+radarfacerecog.egg-info/requires.txt
+radarfacerecog.egg-info/top_level.txt
