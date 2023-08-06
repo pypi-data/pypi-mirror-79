@@ -1,0 +1,16 @@
+aiohttp
+aiohttp_apispec
+cryptography
+libnacl
+marshmallow
+pyOpenSSL
+pyasn1
+
+[asynctest]
+asynctest
+
+[coverage]
+coverage
+
+[netifaces]
+netifaces
