@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        dc_log_view=ckanext.dc_log_view.plugin:DCLogViewPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
