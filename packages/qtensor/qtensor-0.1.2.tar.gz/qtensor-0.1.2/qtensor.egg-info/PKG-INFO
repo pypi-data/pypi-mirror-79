@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: qtensor
+Version: 0.1.2
+Summary: Framework for efficient quantum circuit simulations
+Home-page: https://github.com/danlkv/qtensor
+Author: D. Lykov, et al.
+Author-email: dan@qtensor.org
+License: Apache
+Description: UNKNOWN
+Keywords: quantum_circuit quantum_algorithms
+Platform: UNKNOWN
+Provides-Extra: tensorflow
