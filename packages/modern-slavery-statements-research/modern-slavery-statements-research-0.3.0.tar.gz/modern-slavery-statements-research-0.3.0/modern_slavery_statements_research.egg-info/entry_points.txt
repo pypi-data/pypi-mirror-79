@@ -1,0 +1,3 @@
+[console_scripts]
+download-corpus = modern_slavery_statements_research.download_corpus:download_from_s3
+
