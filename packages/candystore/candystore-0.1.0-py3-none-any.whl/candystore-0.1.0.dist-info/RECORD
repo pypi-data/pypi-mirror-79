@@ -1,0 +1,9 @@
+candystore/__init__.py,sha256=ixKNhCK-zc1Hk1w-8d1pa-RpSP6_PKpYUhHBgxbR2iQ,108
+candystore/fixtures.py,sha256=aOGBLNCbSXJMVqvGXcznBvXu9mCeg9xONybwrDGVn-E,7714
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_fixtures.py,sha256=vLSNkxdO2KVIJA7IbfIgi61Fe6SZ-VqOWVShKMttsjM,4321
+candystore-0.1.0.dist-info/LICENSE,sha256=ofjzmyFHdfR35WO4NQp7-cEoW0bB8Xuzg_c5AMIPhCY,1071
+candystore-0.1.0.dist-info/METADATA,sha256=nVG7-t2bE2Nm9Ty0kP6CvHKWdRy8D3N350spsaGqkfw,2469
+candystore-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+candystore-0.1.0.dist-info/top_level.txt,sha256=i99JQI4AbHPVAvXSSvpmKqJSBlw8QUXI-9joAZn_Nrw,17
+candystore-0.1.0.dist-info/RECORD,,
