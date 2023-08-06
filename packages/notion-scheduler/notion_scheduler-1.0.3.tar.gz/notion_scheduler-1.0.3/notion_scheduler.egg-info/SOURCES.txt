@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+notion_scheduler/__init__.py
+notion_scheduler/main.py
+notion_scheduler.egg-info/PKG-INFO
+notion_scheduler.egg-info/SOURCES.txt
+notion_scheduler.egg-info/dependency_links.txt
+notion_scheduler.egg-info/entry_points.txt
+notion_scheduler.egg-info/requires.txt
+notion_scheduler.egg-info/top_level.txt
