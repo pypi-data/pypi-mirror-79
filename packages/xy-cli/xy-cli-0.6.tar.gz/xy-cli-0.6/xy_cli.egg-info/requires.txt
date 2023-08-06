@@ -1,0 +1,13 @@
+xlrd
+Faker
+
+[tests]
+mock
+nose
+coverage
+yanc
+preggy
+tox
+ipdb
+coveralls
+sphinx
