@@ -1,0 +1,9 @@
+setup.py
+MCServerInterface.egg-info/PKG-INFO
+MCServerInterface.egg-info/SOURCES.txt
+MCServerInterface.egg-info/dependency_links.txt
+MCServerInterface.egg-info/requires.txt
+MCServerInterface.egg-info/top_level.txt
+mcserver/__init__.py
+mcserver/parser.py
+mcserver/si.py
