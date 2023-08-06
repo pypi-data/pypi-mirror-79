@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: genotype
+Version: 2.5.0
+Summary: genotype provides an automated pipipeline for comparinggenotypes from different assays.
+Home-page: https://github.com/Clinical-Genomics/genotype
+Author: Robin Andeer
+Author-email: mans.magnusson@scilifelab.se
+License: MIT
+Keywords: genotype development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+Requires-Dist: cython
+Requires-Dist: Alchy
+Requires-Dist: SQLAlchemy
+Requires-Dist: pymysql
+Requires-Dist: cyvcf2 (<0.10.0)
+Requires-Dist: xlrd
+Requires-Dist: pysam (==0.15.2)
+Requires-Dist: pyyaml
+Requires-Dist: Flask (>=1.1.1)
+Requires-Dist: Flask-Bootstrap
+Requires-Dist: Flask-Reverse-Proxy
+Requires-Dist: Flask-SQLAlchemy (==2.1)
+Requires-Dist: Flask-Alchy
+Requires-Dist: Flask-Security
+Requires-Dist: werkzeug (<1.0.0)
+Requires-Dist: Flask-Login
+Requires-Dist: Flask-Dance
+Requires-Dist: ruamel.yaml
+
+
+<p align="center">
+  <a href="https://github.com/Clinical-Genomics/genotype">
+    <img width="240px" height="180px" src="artwork/icon.png"/>
+  </a>
+</p>
+
+# Genotype [![Documentation Status][readthedocs-img]][readthedocs-url] [![Build Status][travis-img]][travis-url]
+Manage SNP calling comparisons at Clinical Genomics. The package exposes a CLI and a bare bones web interface to visualize results stored in a SQLite database.
+
+## Install
+
+```bash
+$ conda install -c bioconda pysam pyyaml sqlalchemy flask
+$ pip install genotype==2.0.0-beta3
+```
+
+## License
+MIT. See the [LICENSE](LICENSE) file for more details.
+
+
+
+[readthedocs-url]: https://readthedocs.org/projects/genotype/?badge=latest
+[readthedocs-img]: https://readthedocs.org/projects/genotype/badge/?version=latest
+
+[travis-url]: https://travis-ci.org/Clinical-Genomics/genotype
+[travis-img]: https://img.shields.io/travis/Clinical-Genomics/genotype.svg?style=flat
+
+
