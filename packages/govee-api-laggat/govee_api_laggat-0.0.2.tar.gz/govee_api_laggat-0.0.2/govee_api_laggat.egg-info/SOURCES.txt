@@ -1,0 +1,9 @@
+README.md
+setup.py
+govee_api_laggat/__init__.py
+govee_api_laggat/govee_api_laggat.py
+govee_api_laggat.egg-info/PKG-INFO
+govee_api_laggat.egg-info/SOURCES.txt
+govee_api_laggat.egg-info/dependency_links.txt
+govee_api_laggat.egg-info/requires.txt
+govee_api_laggat.egg-info/top_level.txt
