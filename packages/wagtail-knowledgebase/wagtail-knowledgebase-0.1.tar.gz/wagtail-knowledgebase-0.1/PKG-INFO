@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: wagtail-knowledgebase
+Version: 0.1
+Summary: Knowledgebase pages with bootstrap compatible StreamFields configured
+Home-page: https://github.com/skruger/wagtail-knowledgebase
+Author: Shaun Kruger
+Author-email: shaun.kruger@gmail.com
+License: The MIT License: http://www.opensource.org/licenses/mit-license.php
+Description: # wagtail-knowledgebase
+        Knowledgebase Site Pages for Wagtail
+        
+Platform: all
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
