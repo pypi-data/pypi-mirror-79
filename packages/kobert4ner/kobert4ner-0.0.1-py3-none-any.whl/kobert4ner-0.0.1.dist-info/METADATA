@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kobert4ner
+Version: 0.0.1
+Summary: KoBERT for NER(Named Entity Recognition)
+Home-page: https://github.com/2020swchallenge-moai/kobert4ner
+Author: Jiyeon Baek
+Author-email: whitedelay@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torch (==1.4.0)
+Requires-Dist: transformers (==2.10.0)
+Requires-Dist: seqeval (>=0.0.1)
+
+UNKNOWN
+
+

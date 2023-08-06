@@ -1,0 +1,10 @@
+kobert4ner/__init__.py,sha256=dwPk5ImEBnhCrl-TrBGO_-cO9Jcp3N8q3_a5mM_wECc,103
+kobert4ner/_model.py,sha256=Bmn307xjuEM8DzwJcH4O8UCXm0Y-bJLSnjDJ5HDSwlo,6954
+kobert4ner/_preprocess.py,sha256=W6fisonFkxL9vE1l_-JiALi89MukPOX5B0ONtlU4J8s,395
+kobert4ner/_tokenization_kobert.py,sha256=o3ktmAxvvg9u9tedO3Zf00bfQgTgchberDftUPotvPY,10994
+kobert4ner/_utils.py,sha256=oRzcJjflyEsCEj9VAqOO-4KXSNgAtboPNakErOOP5fY,527
+kobert4ner-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kobert4ner-0.0.1.dist-info/METADATA,sha256=1mKJVb6GZDlS4BcXzcIVMGWtFYQQ9QwOyasrscSiOwc,370
+kobert4ner-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kobert4ner-0.0.1.dist-info/top_level.txt,sha256=4KB4cE8tvdZPMHQDHvnU-L3kiTR7GrQ9EI02r44OAxM,11
+kobert4ner-0.0.1.dist-info/RECORD,,
