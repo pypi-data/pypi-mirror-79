@@ -1,0 +1,8 @@
+aws_cdk/aws_secretsmanager/__init__.py,sha256=QyEHT3RLvQEf8mYS_VOqWSr8QqnVvkJFn4NzQRZAvCU,123590
+aws_cdk/aws_secretsmanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_secretsmanager/_jsii/__init__.py,sha256=va8_7I2VhNjxu3GUF_Xf9o129bgGeMfHYRLKz5XUjgM,540
+aws_cdk/aws_secretsmanager/_jsii/aws-secretsmanager@1.63.0.jsii.tgz,sha256=fBh1qJlRsyNlFcck0B4UXKgSdytsQVWPRqXTYL9WP7M,86172
+aws_cdk.aws_secretsmanager-1.63.0.dist-info/METADATA,sha256=bEjtiDjUQz-KJh80Upwd0cXWz_muyjzox5C4VE_YVHA,7076
+aws_cdk.aws_secretsmanager-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_secretsmanager-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_secretsmanager-1.63.0.dist-info/RECORD,,
