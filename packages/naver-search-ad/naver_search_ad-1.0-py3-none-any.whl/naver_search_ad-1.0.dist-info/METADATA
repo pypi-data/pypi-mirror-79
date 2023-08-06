@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: naver-search-ad
+Version: 1.0
+Summary: Python wrapper for related_keyword of naver_search_ad
+Home-page: https://github.com/kyungdongseo/naver_search_ad
+Author: kyungdong seo
+Author-email: kyungdongseo@gmail.com
+License: MIT
+Keywords: naver,naver_search_ad,related_keyword
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: openpyxl
+
+UNKNOWN
+
+
