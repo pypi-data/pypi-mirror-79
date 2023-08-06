@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sqlalchemy_uuidstr
+Version: 0.0.2
+Summary: Library to autoconvert string <> uuid to/from DB
+Home-page: https://github.com/shuttl-tech/sqlalchemy_uuidstr
+Author: Sherub Thakur
+Author-email: sherub.thakur@shuttl.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
