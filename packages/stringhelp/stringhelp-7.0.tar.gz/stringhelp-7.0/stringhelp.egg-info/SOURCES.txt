@@ -1,0 +1,7 @@
+setup.py
+stringhelp/__init__.py
+stringhelp/stringhelp.py
+stringhelp.egg-info/PKG-INFO
+stringhelp.egg-info/SOURCES.txt
+stringhelp.egg-info/dependency_links.txt
+stringhelp.egg-info/top_level.txt
