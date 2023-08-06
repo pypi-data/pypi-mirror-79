@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/chatworkpy/__init__.py
+src/chatworkpy/config.py
+src/chatworkpy.egg-info/PKG-INFO
+src/chatworkpy.egg-info/SOURCES.txt
+src/chatworkpy.egg-info/dependency_links.txt
+src/chatworkpy.egg-info/requires.txt
+src/chatworkpy.egg-info/top_level.txt
+src/chatworkpy/chatwork/__init__.py
+src/chatworkpy/chatwork/chatwork.py
+src/chatworkpy/chatwork/contacts.py
+src/chatworkpy/chatwork/rooms.py
