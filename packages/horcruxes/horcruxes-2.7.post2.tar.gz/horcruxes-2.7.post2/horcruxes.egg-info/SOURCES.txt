@@ -1,0 +1,14 @@
+README.md
+setup.py
+horcruxes/__init__.py
+horcruxes/crux.py
+horcruxes/cruxcreator.py
+horcruxes/cruxio.py
+horcruxes/cruxreverser.py
+horcruxes/shamir.py
+horcruxes.egg-info/PKG-INFO
+horcruxes.egg-info/SOURCES.txt
+horcruxes.egg-info/dependency_links.txt
+horcruxes.egg-info/entry_points.txt
+horcruxes.egg-info/requires.txt
+horcruxes.egg-info/top_level.txt
