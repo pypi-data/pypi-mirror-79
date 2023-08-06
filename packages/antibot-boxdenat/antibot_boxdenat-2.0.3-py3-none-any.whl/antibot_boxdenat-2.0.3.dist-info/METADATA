@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: antibot-boxdenat
+Version: 2.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Jean Giard
+Author-email: UNKNOWN
+License: LGPL
+Platform: UNKNOWN
+Requires-Dist: antibot
+Requires-Dist: pymongo
+Requires-Dist: pyckson
+Requires-Dist: arrow
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: injector
+
+UNKNOWN
+
+
