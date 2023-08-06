@@ -1,0 +1,9 @@
+serialization_spec/__init__.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+serialization_spec/plugins.py,sha256=t-aqXWB6qv8poDcXM8uJaJLTZcRIlF3BNZhA-MunNwI,2170
+serialization_spec/serialization.py,sha256=4l_TidgLZ8QUXoMMbtPV7MNy_vXTahNjM4KqgH0mxP8,12525
+serialization_spec/utils.py,sha256=-QXuKHgF-tco6R5K4ViVggdkzK68ytln5o5qv-8vCgA,296
+django_rest_framework_serialization_spec-0.0.6.dist-info/LICENSE.txt,sha256=y7uhUMyW0WN0VdHvVsfNhgNOxY5G9Pt_ciit1fXy0cA,1050
+django_rest_framework_serialization_spec-0.0.6.dist-info/METADATA,sha256=mlUAleWr6phCghCy8pIDh4voOK1dLJvkC6Y6RtT-qO0,563
+django_rest_framework_serialization_spec-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_rest_framework_serialization_spec-0.0.6.dist-info/top_level.txt,sha256=ru4gJWXF_Gw5dXxskDHWStIS0tR2QNV_Us7sVCXXUug,19
+django_rest_framework_serialization_spec-0.0.6.dist-info/RECORD,,
