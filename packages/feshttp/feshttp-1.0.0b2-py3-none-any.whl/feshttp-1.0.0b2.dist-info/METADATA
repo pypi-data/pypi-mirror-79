@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: feshttp
+Version: 1.0.0b2
+Summary: 同步异步请求,RPC请求基础封装库
+Home-page: https://github.com/tinybees/feshttp
+Author: TinyBees
+Author-email: a598824322@qq.com
+License: MIT
+Keywords: http,asyncio,crud,session
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: aelog (>=1.0.3)
+Requires-Dist: aiodns
+Requires-Dist: aiohttp (>=3.3.2)
+Requires-Dist: cchardet
+Requires-Dist: requests (>=2.21.0)
+Requires-Dist: simplejson
+
+# feshttp
+http异步crud，Faster, easier, simpler coding，同步支持flask、异步支持sanic
+
+
