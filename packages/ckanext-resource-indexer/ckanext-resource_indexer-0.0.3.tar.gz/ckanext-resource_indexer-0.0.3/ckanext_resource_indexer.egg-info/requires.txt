@@ -1,0 +1,8 @@
+ckantoolkit
+six
+
+[all]
+textract~=1.6.3
+
+[pdf]
+textract~=1.6.3
