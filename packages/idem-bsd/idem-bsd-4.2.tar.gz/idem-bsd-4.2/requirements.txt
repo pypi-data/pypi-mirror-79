@@ -1,0 +1,3 @@
+grains-virt>=3
+idem-posix>=2.1
+ifcfg >= 0.16
