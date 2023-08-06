@@ -1,0 +1,10 @@
+grampyx/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+grampyx/_base_functions.py,sha256=FDU1bU03zG02GGWHO-e4UkMxkyQSlXwIJQ4bZcHBTgs,4238
+grampyx/error_handling.py,sha256=sQ34YCFIdg8Gx08oXIJOyHVEWYmIyUk9h-xwCW_t4Kw,134
+grampyx/grampyx.py,sha256=-lnck--pn_nMA-HTW_q-Su6Yab6STqQcw4tMwmq-9cM,3870
+grampyx/mappings.py,sha256=TKpVfifx1WIRwdZy_q5dyS45w9BigIlDpTzlVTXYuu4,2848
+grampyx-0.2.2.dist-info/LICENSE,sha256=Rs2Z3hIbjA-TgmAGhd8Z-XZnqjCAnO7aYGx7Hh659uA,1087
+grampyx-0.2.2.dist-info/METADATA,sha256=0HyvjiWrC3g-EgjUIoYSwjKCGbUsGlLzTzS5ll_3ppI,6151
+grampyx-0.2.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+grampyx-0.2.2.dist-info/top_level.txt,sha256=vBHbaQ2owbC8dQyGQ4XuLlQsgvCgP0hbA6dQcVN283o,8
+grampyx-0.2.2.dist-info/RECORD,,
