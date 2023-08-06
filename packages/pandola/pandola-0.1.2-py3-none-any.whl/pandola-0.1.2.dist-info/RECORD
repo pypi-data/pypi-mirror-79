@@ -1,0 +1,14 @@
+pandola/__init__.py,sha256=nOkN4LyQvPiH0s_1VxaVvyCwlhswMP4kbKm-zoeCySc,38
+pandola/core/DataFrame.py,sha256=t27HLT_LVFO3gv9qAJNS4rE1jk8SdBPDFwQCdh8wuDI,2531
+pandola/core/Index.py,sha256=qQKkD9v9NY8RpH6s32fJP6kcIIbZQeH9CmEaGSVW0O0,656
+pandola/core/Location.py,sha256=hzf553K5q9vMS-QD329po-8shWbHca0jDZjShwiR7I4,979
+pandola/core/Series.py,sha256=2BMB5kmhLLVSPUyxvVkbNQqL76oAN5v4XjVYwVpM954,1318
+pandola/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandola/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandola/util/message.py,sha256=Xk6yLtdUa7_auC4k5QjuprzAYPNastlV6_5_MXC50Cs,45
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=H0I8adNGpgJlOsSzdF3Q6hemzZVFOoRRJ_QrydoX_vI,456
+pandola-0.1.2.dist-info/METADATA,sha256=GBhlVwo2OE7CNdB6xCpt_52OBqslQtBLxMXhd8ECbkA,366
+pandola-0.1.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pandola-0.1.2.dist-info/top_level.txt,sha256=ixEaWWu8uLAemEpJ6GpW7pdL0iO6SYPC1Myuy7BH_Ww,14
+pandola-0.1.2.dist-info/RECORD,,
