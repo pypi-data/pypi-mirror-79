@@ -1,0 +1,6 @@
+configloader[attrdict,yaml]<1.1,>=1.0.1
+wrapt<2.0,>=1.10
+six
+
+[:python_version < "3.6"]
+typing<4.0,>=3.6.2
