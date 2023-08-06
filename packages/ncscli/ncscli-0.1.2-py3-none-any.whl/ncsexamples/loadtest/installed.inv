@@ -1,0 +1,5 @@
+phone_8e2d128c-e5be-484b-814f-98ef22bb8556 ansible_python_interpreter=/usr/bin/python3 ansible_user=root ansible_ssh_host=android-l4rtqeddqvjtaize.p.cloud.neocortix.com ansible_port=39661
+phone_e6aec83f-2edf-41ee-84a9-fbdac21912f6 ansible_python_interpreter=/usr/bin/python3 ansible_user=root ansible_ssh_host=android-cnkhrahzsdrgectz.p.cloud.neocortix.com ansible_port=38613
+phone_ab18ab95-7af9-4f66-ba89-bd7f9fabc438 ansible_python_interpreter=/usr/bin/python3 ansible_user=root ansible_ssh_host=android-pq9bbkazfu9vbndd.p.cloud.neocortix.com ansible_port=46435
+phone_29a33ac9-44b0-4658-9bd3-50710939c51f ansible_python_interpreter=/usr/bin/python3 ansible_user=root ansible_ssh_host=android-wrxvaeccvlexwdrt.p.cloud.neocortix.com ansible_port=40641
+phone_80ff10b6-2d49-4642-9abc-dbfcb67cd113 ansible_python_interpreter=/usr/bin/python3 ansible_user=root ansible_ssh_host=android-56cqrexeebegvsyb.p.cloud.neocortix.com ansible_port=36255
