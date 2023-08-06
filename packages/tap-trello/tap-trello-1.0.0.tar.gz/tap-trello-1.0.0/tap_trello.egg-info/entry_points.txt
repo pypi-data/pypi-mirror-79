@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-trello=tap_trello:main
+    
