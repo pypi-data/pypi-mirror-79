@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: HBVigor
+Version: 0.1.4
+Summary: HBV.
+Home-page: UNKNOWN
+Author: fengzhizi
+Author-email: fengzhizi32@live.com
+License: Mulan PSL v2
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: astropy
+
+# 概述
+可穿戴设备为获取人体连续动态的高频长时程数据提供了条件，这也能为研究人体功能性疾病奠定了物质性基础。当然，另一方面也对数据分析方法提出新的需求。在基于统计学的传统分析方法，往往是通过所测得人体瞬时数据的大小、多少进行简单的比较分析，然后，再根据大样本测试数据建立统计学的范围进行指标评价。比如：血压不能高也不能低，高于统计学的高限，称之为高血压，低于统计学的低限称为低血压。如此类推，心率不能高也不能低，血糖也不能高不能低。然而，可穿戴设备所采集的数据很难也不可能稳定在一个所谓的准确值上。相反，这种不稳定性恰恰可以反映人体生命的本质。
+
+对于这种不稳定性的分析方法是基于复杂性科学提出的新的方向。这种分析方法可以追溯到20世纪60年代所提出来的心率变异性（HRV）分析技术，近年来，这种技术被广泛应用到临床和运动训练中。HRV是基于心率RR间期的差异发展起来的分析方法，其实质是分析通过人体心率连续动态信号的信息。由于人体生命是所有系统时时刻刻联动形成整体，任何系统连续动态高频信号其实已经隐含了所有其他系统的信息，这就是人体生命的整体性。HRV是分析每一次心跳的差异性，与此类岁，每个血压周期、每个高频血糖变化序列同样隐含着丰富的信息。这些信息的含量同样可以表达人体的整体状态。基于此，我们提出了HBV的分析方法，试图通过建立不同指标连续动态数据信息量的测量标准及分析方法来测度人体机能状态。由此，HRV是HBV的一个特例。
+
+为了推动这HBV方法的应用，希望更多的研究人员加入进来共同努力。同时，我们开发了HBVigor开源Python工具箱，将逐步把具体的计算方法开源出来供不同领域的科研人员研究。当然，还有众多的研究者不会使用python等语言编程，我们还将提供一个开放平台供研究者使用，感兴趣者可以关注（http://www.hbvigor.org.cn/system.html?id=45）。
+
+
+
+# 引用
+
+HRV算法是根据[心率变异性测量标准、生理解释和临床使用指南](https://www.ahajournals.org/doi/full/10.1161/01.CIR.93.5.1043)算法开发和实现的。
+
+
+
+
+# 入门指南
+### 安装
+这个工具箱可以使用pip工具安装(适用于python3):
+```python
+pip install HBVigor
+```
+依赖工具包: [astropy](https://https://www.astropy.org/) | [numpy](http://www.numpy.org) | [scipy](http://scipy.org) | [matplotlib](https://matplotlib.org) |
+### 导入
+```python
+from HBVigor import HBVigor
+```
+### API参考
+* HBVigor.GetHRV(RRI, Domain = None)
+
+    通过RR间期的时间序列数据来计算心率变异性（HRV）的各领域分析。
+
+    参数：
+
+    - RRI：心动间期，单位为毫秒(ms)， 建议采集时长为5分钟或24小时。
+    - Domain：分析领域，可选：TimeDomain，FreqDomain， Poincare， Nonlinear。
+
+    返回：
+
+    - 字典类型，包括各领域的HRV分析结果。
+
+
+
+
+# HRV计算
+
+
+### 时域参数
+* MAX：最大值
+* MIN：最小值
+* MEAN：平均值
+* SDNN：所有正常相邻RR间期的标准差
+* RMSSD：正常相邻RR间期差值的均方根
+* SDSD：正常相邻RR间期差值的标准差
+* NN50：相邻RR间期差值大于50ms的个数
+* PNN50：相邻RR间期差值大于50ms的个数除以总的RR间期个数，再乘以100
+### 频域参数
+- Welch
+- Lomb-Scargle
+### Poincare散点分析
+* SD1：散点图短半轴的长度
+* SD2：散点图长半轴的长度
+# 信息熵计算
+
+- IE：信息熵
+- BE：基本尺度熵
+- SE：样本熵
+# 免责说明
+本程序限于研究使用，不适用于医学诊断。我们明确否认任何带来任何直接、间接、间接、附带的或特殊的损害责任,包括但不限于收入损失、利润损失、业务中断或数据丢失带来的损失。
+
+
