@@ -1,0 +1,13 @@
+CMText/Channels.py,sha256=D6kqwm5D3DU76CE5IcphOn7K4IHN8MgQmngFXiFrkC4,610
+CMText/Gateways.py,sha256=kwXBKh8ejMip2FzZW57DtIxLp3yhGaSUlXMZ9-3QpEo,447
+CMText/Message.py,sha256=JFwkLBlEGM4Q1pNwiwOGh5NwCtENaVJwTyjZr6NIurA,1946
+CMText/MessageBodyTypes.py,sha256=dKsWv1JEPKX5cJ6bGMN0cCyaV5w4QIQUh1R-cRPYV-I,124
+CMText/TextClient.py,sha256=Rqk-PPLLeqGwb0AJ8TZa34h6fNh2tT17plWv8CcbMUg,3567
+CMText/TextClientStatusCodes.py,sha256=VbusvZgqnFUcp13c7N48Cl-MBwSY4nbTw2qRI5LhLgk,472
+CMText/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CMText/version.py,sha256=af0NSTcvR_nOUzf2HtkiX1VWbh3qcXLOD5n6Hd01NCg,41
+CM_text_sdk_python-1.0.4.dist-info/LICENSE,sha256=TAE5eICZOVikrV4lKxMj3eZ5N0ZQM2dtXkpl-JFjzU8,1082
+CM_text_sdk_python-1.0.4.dist-info/METADATA,sha256=YbAg2e_lCrKOMFVnWpnp1TE1YRkhyVHx8Swv2njVa64,2685
+CM_text_sdk_python-1.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+CM_text_sdk_python-1.0.4.dist-info/top_level.txt,sha256=0N34uG4AxA2c7FdrvF2kt3TnMfQzfhqmPwqXWG5pwkw,7
+CM_text_sdk_python-1.0.4.dist-info/RECORD,,
