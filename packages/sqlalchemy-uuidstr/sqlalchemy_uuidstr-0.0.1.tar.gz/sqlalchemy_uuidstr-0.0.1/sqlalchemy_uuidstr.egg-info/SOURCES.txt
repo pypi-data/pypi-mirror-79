@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sqlalchemy_uuidstr.egg-info/PKG-INFO
+sqlalchemy_uuidstr.egg-info/SOURCES.txt
+sqlalchemy_uuidstr.egg-info/dependency_links.txt
+sqlalchemy_uuidstr.egg-info/requires.txt
+sqlalchemy_uuidstr.egg-info/top_level.txt
