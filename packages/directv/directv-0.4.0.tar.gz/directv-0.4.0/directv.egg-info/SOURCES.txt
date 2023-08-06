@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+directv/__init__.py
+directv/__version__.py
+directv/const.py
+directv/directv.py
+directv/exceptions.py
+directv/models.py
+directv/utils.py
+directv.egg-info/PKG-INFO
+directv.egg-info/SOURCES.txt
+directv.egg-info/dependency_links.txt
+directv.egg-info/not-zip-safe
+directv.egg-info/requires.txt
+directv.egg-info/top_level.txt
