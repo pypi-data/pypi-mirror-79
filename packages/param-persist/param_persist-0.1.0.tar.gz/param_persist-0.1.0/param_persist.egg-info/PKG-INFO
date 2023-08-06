@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: param-persist
+Version: 0.1.0
+Summary: The param_persist provides functionality to persist param classes.
+Home-page: https://github.com/Aquaveo/param_persist
+Author: gagelarsen
+Author-email: glarsen@aquaveo.com
+License: BSD 2-Clause License
+Description: WIP: param_persist
+        ==================
+        
+        ![Main-CI Workflow](https://github.com/Aquaveo/param_persist/workflows/Main-CI/badge.svg)
+        
+        This library will be used to persist param instance to databases, files or other persistent stores.
+Platform: UNKNOWN
