@@ -1,0 +1,16 @@
+README.md
+setup.py
+university_scraper/__init__.py
+university_scraper/__version__.py
+university_scraper/_abstract.py
+university_scraper.egg-info/PKG-INFO
+university_scraper.egg-info/SOURCES.txt
+university_scraper.egg-info/dependency_links.txt
+university_scraper.egg-info/requires.txt
+university_scraper.egg-info/top_level.txt
+university_scraper/universities/__init__.py
+university_scraper/universities/usyd.py
+university_scraper/utils/__init__.py
+university_scraper/utils/crawler.py
+university_scraper/utils/formatters.py
+university_scraper/utils/scraper.py
