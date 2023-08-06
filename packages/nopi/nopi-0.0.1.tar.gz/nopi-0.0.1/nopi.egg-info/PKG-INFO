@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: nopi
+Version: 0.0.1
+Summary: New Orleans Programming Interface
+Home-page: https://github.com/M-Watson/nopi
+Author: Michael Watson
+Author-email: 
+License: UNKNOWN
+Description: # nopi
+        New Orleans Programming Interface (NOPI)
+        
+        
+        ## Currently adding
+        * https://library.municode.com/la/new_orleans
+        
+        
+        ## Future additions
+        * https://datadriven.nola.gov/home/
+        
+        
+        ### Reference Material
+        I have referenced https://github.com/openstates/openstates-scrapers/tree/master/scrapers/la
+        as a starting point.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

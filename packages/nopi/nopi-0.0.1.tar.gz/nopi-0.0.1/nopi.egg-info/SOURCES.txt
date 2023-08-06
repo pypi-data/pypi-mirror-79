@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+nopi/__init__.py
+nopi/nopi.py
+nopi/whereyat.py
+nopi.egg-info/PKG-INFO
+nopi.egg-info/SOURCES.txt
+nopi.egg-info/dependency_links.txt
+nopi.egg-info/top_level.txt
