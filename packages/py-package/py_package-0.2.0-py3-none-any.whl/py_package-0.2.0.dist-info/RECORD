@@ -1,0 +1,10 @@
+py_package/__init__.py,sha256=1KhrBItVjTCR-Sumh0o09b_aKrjTTcJrpTBh5GBw6Lk,21
+py_package/command_line.py,sha256=pcykSZYxFDUA7yvi-j4EJvbfzftCumjPUpmU3CIK-TA,206
+py_package/resources/info.txt,sha256=WEpelJWljEob0fc2ZXE79OW0P2fsEotD4C6DFncpqgE,1772
+py_package/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_package-0.2.0.dist-info/LICENSE,sha256=GpsSQnpgiF-NkahDuT5nd228eZKU_kC6gyk9QXbY6KQ,1067
+py_package-0.2.0.dist-info/METADATA,sha256=Q4TYn_qZIIV4GKE4esVx8KUfnhJspLcN6Afd9RZoPok,2094
+py_package-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+py_package-0.2.0.dist-info/entry_points.txt,sha256=1oMXzwetjhJi4qxUMIbusTzZxatgPmxb7ZGQnyHMalU,61
+py_package-0.2.0.dist-info/top_level.txt,sha256=bvifR9U48E86RDuxgRTwncE338kdxsXHtgsXG2rkoRU,11
+py_package-0.2.0.dist-info/RECORD,,
