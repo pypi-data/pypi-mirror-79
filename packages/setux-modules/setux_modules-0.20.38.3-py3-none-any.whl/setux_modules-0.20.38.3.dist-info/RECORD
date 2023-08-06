@@ -1,0 +1,15 @@
+setux/modules/admin.py,sha256=GebT17zp747S-Fq8YxI-KrSxjPo8VgWAtsz3h4_2Yv4,598
+setux/modules/autotest.py,sha256=IfiMlVAy20tTo1SX1lc5iBWhtAuITQrnyBLBLI3m4uc,295
+setux/modules/copy_id.py,sha256=rXXYEbbGIbg3iUzHf9yGFswP045O4Fkn1brRsGfHQ5o,723
+setux/modules/download.py,sha256=Xpqpb2aRhxUk1vaYfGAVMFwq64qdgwJiAV_voDGcPDc,1185
+setux/modules/infos.py,sha256=bWAcBdiiENfoYxeC4zxpyT3DCj5cNtLz0BPgqJxbZvk,827
+setux/modules/ping.py,sha256=_5qQN_Ux1rii1_56-b-_wqOF0W_krYo4uB3TzXrdzto,881
+setux/modules/ssh_init.py,sha256=-xZK001M12ZAtpsiu3Y5WGxL-ODMjYFPpUOUbjcj-dA,525
+setux/modules/ssh_prod.py,sha256=CiHz98HBLQ5YcrhIPbM1_SzcsOS3ImNmYYKZoiJO30k,520
+setux/modules/sudoers.py,sha256=uBrCQ6ZTARNbodS3G99G7sy99QMeSEUv1_r5gE7M4lA,644
+setux/modules/upd_cfg.py,sha256=kzMjNYVW9DtBilAPt2jxX1l0HpyLDw98ppfrihMzy1k,903
+setux_modules-0.20.38.3.dist-info/LICENSE,sha256=0tNHXfCacj_eX-GwlIVtBc7i881BDBotZvM9QeCIUPY,1090
+setux_modules-0.20.38.3.dist-info/METADATA,sha256=U9cqk_bsqN4nrl47JHlQzYpgOslwa79RFZ-T-fkV26I,941
+setux_modules-0.20.38.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+setux_modules-0.20.38.3.dist-info/top_level.txt,sha256=kmCnG8Rj9-DTuv9TjsPUPItgUhXEAxy9VU24QddH_X4,6
+setux_modules-0.20.38.3.dist-info/RECORD,,
