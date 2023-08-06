@@ -1,0 +1,3 @@
+[console_scripts]
+ps3udl = ps3_update_dl:main
+
