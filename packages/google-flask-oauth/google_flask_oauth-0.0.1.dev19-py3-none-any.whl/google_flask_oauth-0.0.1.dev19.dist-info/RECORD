@@ -1,0 +1,14 @@
+google-flask-oauth/__init__.py,sha256=ytwRSn0IN60_JvUniL_WggHnFC5KslQQkfuKvLgZn84,24
+google-flask-oauth/_auth.py,sha256=pe4WGb2Lcsc1w-VVj5RuVMN_OymensNen4_hdsZgHV0,608
+google-flask-oauth/_aws_bootstrap.py,sha256=JjGc9_MqOAhyBvE3qv71DUPPvguERtiB8T8IdQd_AUM,359
+google-flask-oauth/_defaults.py,sha256=wwuh_DYfu5AobjMSg_nUo6-_LltaZMtfBnYlIOmiRLE,22
+google-flask-oauth/oauth.py,sha256=nP-pVkiOWv6KlDW3pKYSUxlyGLEEFuWS1dlxuxk0zSY,673
+google_flask_oauth/__init__.py,sha256=A3ciiJhwlT_PNK06dgvoXhDP45z6AQZ4DKllxKZjiPI,34
+google_flask_oauth/_auth.py,sha256=ugVq8FuqABedngI5wQ7t75FcFfKEWRLCde7fUFyGEtw,613
+google_flask_oauth/_aws_bootstrap.py,sha256=SsSCzq3CzC2RrbfduGWUoUbOg4Gf3mbGSD9T6HVLNac,368
+google_flask_oauth/_defaults.py,sha256=wwuh_DYfu5AobjMSg_nUo6-_LltaZMtfBnYlIOmiRLE,22
+google_flask_oauth/oauth.py,sha256=nxeMqNFC2kVsSJatpPyJthwAn-qdxWbDrNBySZvLJAk,1566
+google_flask_oauth-0.0.1.dev19.dist-info/METADATA,sha256=w84NdXSxaJYayEKZbUFDqLDTAHUhRyO5GbRT3QEmXyU,756
+google_flask_oauth-0.0.1.dev19.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+google_flask_oauth-0.0.1.dev19.dist-info/top_level.txt,sha256=Ung-X8K54w7WyE3r-hz4WT2deMnblgZwWMTu658P5qo,19
+google_flask_oauth-0.0.1.dev19.dist-info/RECORD,,
