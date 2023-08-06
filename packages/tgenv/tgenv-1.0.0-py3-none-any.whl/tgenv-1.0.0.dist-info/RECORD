@@ -1,0 +1,17 @@
+tgenv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tgenv/asset_downloader.py,sha256=mj2yJu1PGtMLBUCclgnguegZf0ijxF1W2cr6OUP0-QU,1270
+tgenv/console_logger_format.py,sha256=87IuDaR2dc-D1OZLHWyVuVIwWdAYnlkzvLYcZLZ2wPI,1096
+tgenv/file_handler.py,sha256=dRu9Eamc3QcB8OMQBdG42z9sOw81aSHFdNu4kFpSYds,1949
+tgenv/git_wrapper.py,sha256=du5MtUllf3fGJwnL4y1NmWTkNVAPbVVFMksiEpfKcNo,1058
+tgenv/main.py,sha256=V5XngS3m43nHIMZIZPrsBE7e3geS_GxFDwAwAhrQ_p8,4923
+tgenv/version_handler.py,sha256=3dB53ioo6lurJrKrepXgCmWiaWICRujHxk15Ypq5srk,1172
+tgenv/res/default.conf,sha256=URqRQXqCBOPowvvX6XVMMD30_ApdkfuzMUWXyO6j2e4,1015
+tgenv/res/quotes,sha256=Gd_hqbdAfafIRF_ykb52-qjmAfe9M3igQXw865doAvY,1000
+tgenv-1.0.0.data/data/config/default.conf,sha256=URqRQXqCBOPowvvX6XVMMD30_ApdkfuzMUWXyO6j2e4,1015
+tgenv-1.0.0.data/data/config/quotes,sha256=Gd_hqbdAfafIRF_ykb52-qjmAfe9M3igQXw865doAvY,1000
+tgenv-1.0.0.dist-info/LICENSE,sha256=iwdjvLAKc_BaE1eCkXwUUeqKGHUTLHps7uraceWUaO4,35073
+tgenv-1.0.0.dist-info/METADATA,sha256=kqcep91EvdNk_1YBJb47ZCq0iSy9qv9RiJv9SkrROm4,418
+tgenv-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tgenv-1.0.0.dist-info/entry_points.txt,sha256=ui822puGiUV5SblmQCBhxVo_fcaN9Kd_sB5a-b6ke1k,42
+tgenv-1.0.0.dist-info/top_level.txt,sha256=xfdQ8tF_2zvsoSywEGZ-eXjYkjV1WPPfwuHGIDtkPew,6
+tgenv-1.0.0.dist-info/RECORD,,
