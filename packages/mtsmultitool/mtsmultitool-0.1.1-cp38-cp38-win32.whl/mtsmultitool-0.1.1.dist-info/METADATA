@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mtsmultitool
+Version: 0.1.1
+Summary: Library and command line tool for working with Multitech products.
+Home-page: UNKNOWN
+Author: MultiTech Systems, Inc.
+Author-email: 
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Environment :: Console
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ecdsa (>=0.15)
+Requires-Dist: cbor (>=1.0.0)
+
+# MultiTech Multitool Utility
+
+Library and command line tool for working with Multitech products.
+
+# Usage
+
+Command line tool `multitool` has functionality split into subcommands.  To get a list of valid subcommands use `--help`
+or `-h`.  Each subcommand can also be queried for details using `--help`.
+
+## Examples
+
+Get help:
+```
+multitool --help
+multitool device --help
+multitool device patch --help
+```
+
+### Device Subcommand
+
+The `device` command has tools for packaging device firmware upgrades.
+
+Create a patch for an MDot when the images contain bootloaders:
+```
+multitool device patch -m -v 3.3.6 -d MTDOT -b 0x10000 mdot_image_3.3.6.bin mdot_image_3.3.7.bin
+```
+
+Compress an XDot image which does not contain a bootloader and append a CRC32:
+```
+multitool device compress -m -c -d XDOT xdot_image_3.3.7_application.bin
+```
+
+# Installation 
+Use PIP to install, the `multitool` executable will be added to the Python scripts directory.
+
+```
+pip install mtsmultitool
+```
+
+
