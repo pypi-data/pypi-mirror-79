@@ -1,0 +1,3 @@
+dnspython>=1.14.0
+grains-universal>=2.1
+idem>=7.4
