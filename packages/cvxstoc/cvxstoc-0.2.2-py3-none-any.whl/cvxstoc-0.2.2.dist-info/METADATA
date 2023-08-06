@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cvxstoc
+Version: 0.2.2
+Summary: A domain-specific language for modeling stochastic convex optimization problems in Python.
+Home-page: UNKNOWN
+Author: Alnur Ali
+Author-email: UNKNOWN
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: cvxpy (>=0.3.5)
+Requires-Dist: pymc (>=2.3.4)
+Requires-Dist: numpy (>=1.10)
+Requires-Dist: scipy (>=0.16)
+
+UNKNOWN
+
+
