@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: pyfs-pay
+Version: 1.0.1
+Summary: Feishu Pay Module for Python.
+Home-page: https://github.com/feishu-sdk-python/pyfs-pay.git
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+License: UNKNOWN
+Description: ========
+        pyfs-pay
+        ========
+        
+        Feishu Pay Module for Python.
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install pyfs-pay
+        
+        
+        Usage
+        =====
+        
+        ::
+        
+            from pyfs_pay import Pay, check_user_paid_scope
+        
+        
+        Method
+        ======
+        
+        ::
+        
+            class Pay(TenantAccessToken):
+                def __init__(self, appid=None, secret=None, ticket=None, tenant_key=None, token=None, storage=None):
+                    super(Pay, self).__init__(appid=appid, secret=secret, ticket=ticket, tenant_key=tenant_key, token=token, storage=storage)
+        
+                def check_user_paid_scope(self, open_id=None, user_id=None, appid=None, secret=None, ticket=None, tenant_key=None, token=None, storage=None):
+        
+        
+Keywords: Feishu Pay
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
