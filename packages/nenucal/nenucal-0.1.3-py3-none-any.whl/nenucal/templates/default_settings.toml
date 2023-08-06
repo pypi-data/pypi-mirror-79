@@ -1,0 +1,78 @@
+[worker]
+nodes = 'localhost'
+max_concurrent = 4
+env_file = ''
+debug = true
+dry_run = false
+
+[build_sky_model]
+int_sky_model = 'lcs165'
+app_sky_model_name = 'app_sky_model'
+catalog_radius = 20
+min_flux = 0.5
+min_flux_path = 15
+add_ateam = true
+ateam_always_keep = ['CasA', 'CygA']
+ateam_remove = []
+ateam_min_elevation = 10
+
+[smooth_sol]
+parmdb_in = 'instrument_init.h5'
+parmdb_out = 'instrument_smooth.h5'
+plot_dir = 'smooth_sol'
+
+[init_cal]
+parmdb = 'instrument_init.h5'
+sol_int = 120
+cal_mode = 'diagonal'
+uv_min.50 = 10
+uv_min.70 = 15
+uv_min.75 = 25
+uv_min.90 = 30
+max_sub_time = 0
+extra_params = {}
+
+[post_cal_flag]
+do_aoflagger = true
+aoflagger_strategy = 'nenufar_1s1c'
+do_ssins = true
+do_scans_flagging = true
+ssins_seetings = 'default'
+do_badbaselines = true
+nsigma_stations = 5
+nsigma_baselines = 8
+nsigma_scans = 5
+
+[peel]
+init_parmdb = 'instrument_smooth.h5'
+init_cal_mode = 'diagonal'
+ms_postfix = 'PEEL'
+sol_int_flux_per_slot_per_sec = 75000
+sol_int_min = 2
+sol_int_max = 120
+cal_mode = 'diagonal'
+uv_min.50 = 10
+uv_min.70 = 15
+uv_min.75 = 25
+uv_min.90 = 30
+extra_params = {}
+phase_shift = true
+max_sub_time = 0
+phase_shift_time_avg = 4
+phase_shift_freq_avg = 1
+
+[dical]
+parmdb = 'instrument_di.h5'
+sol_int = 120
+time_avg = 1
+freq_avg = 1
+cal_mode = 'diagonal'
+uv_min.50 = 10
+uv_min.70 = 15
+uv_min.75 = 25
+uv_min.90 = 30
+extra_params = {}
+
+[apply_sol]
+parmdb = 'instrument_smooth.h5'
+cal_mode = 'diagonal'
