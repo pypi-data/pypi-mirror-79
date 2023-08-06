@@ -1,0 +1,3 @@
+[flake8.extension]
+A2 = flake8_array_spacing:ArraySpacing
+
