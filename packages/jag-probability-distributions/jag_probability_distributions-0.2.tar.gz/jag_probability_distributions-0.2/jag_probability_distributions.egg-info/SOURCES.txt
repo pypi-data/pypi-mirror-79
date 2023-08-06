@@ -1,0 +1,9 @@
+setup.py
+jag_probability_distributions/Gaussiandistribution.py
+jag_probability_distributions/Generaldistribution.py
+jag_probability_distributions/__init__.py
+jag_probability_distributions.egg-info/PKG-INFO
+jag_probability_distributions.egg-info/SOURCES.txt
+jag_probability_distributions.egg-info/dependency_links.txt
+jag_probability_distributions.egg-info/not-zip-safe
+jag_probability_distributions.egg-info/top_level.txt
