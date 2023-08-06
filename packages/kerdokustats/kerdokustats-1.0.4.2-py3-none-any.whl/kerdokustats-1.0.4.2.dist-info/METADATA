@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: kerdokustats
+Version: 1.0.4.2
+Summary: KerdokuBot Stats
+Home-page: https://kerdokuds.ml
+Keywords: packaging,stas,ds,discord,kerdoku,kerdokustats,kerdokuds,kerdokubot,Grey Cat
+Author: Grey Cat
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+**KerdokuBot Stats Package.**
+
+**Installation** \
+To install KerdokuStats:\
+```$ pip install kerdokustats```
+
+
+**Example code:**
+
+```py
+from kerdokustats import kerdoku
+
+guilds = kerdoku().guilds #Show bot guilds count
+users = kerdoku().users #Show bot users count
+time = kerdoku().time #Show bot LSRT
+
+print(guilds)
+print(users)
+print(time)
+```
+
+If you have a question or idea, go to KerdokuBot technical support server. https://kerdokuds.ml
+
+
