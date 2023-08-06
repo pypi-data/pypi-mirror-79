@@ -1,0 +1,16 @@
+encoders/__init__.py,sha256=sFtK3iCoQV1b5qyvE2yIWPkDYRHy8fR31lvqRvSxuww,788
+encoders/bert_encoder.py,sha256=3WLN6ycDl5NaKG10wrzKDbZ4f32aJpr-IU8TdHCoh7s,9113
+encoders/bert_encoder_test.py,sha256=lDIkPBAidLfs3l-KGIjFRtySQuPvMHJ0afc-J_jsltY,9818
+layers/__init__.py,sha256=C9mS-rzIrjcwtq2E5c1ylHkYrpyPGWPHXQcXUo2bAw0,1059
+layers/masked_lm.py,sha256=dBJzMFeliHgQfAJ8ffjAbP-hxoP7JEfNGXDk79l6cRk,4889
+layers/on_device_embedding.py,sha256=P4wN0bGRF9VnEfufr_nEOxttzzlHKgmCFMQzfV3Df9E,3629
+layers/on_device_embedding_test.py,sha256=sENs4iYuoGW96wxAe1ZHbmiuOeeWNx95yv7LQEtvVwM,9196
+layers/position_embedding.py,sha256=ib-djtkNWAuHfVdWrn6nOGifAS0JSFdAcHfCBF3OvDU,3105
+layers/position_embedding_test.py,sha256=Uo0SQszBkGYq8kG_3TUVlI1CLEIILtkpeuAm27Hh2Z4,4454
+layers/self_attention_mask.py,sha256=6cA_7ROPqXhV0tHu1q979Rco0bf05yDz6KtY6lEgiQQ,2006
+layers/transformer_encoder_block.py,sha256=EDChpNx3PIejIqE-p2jcA9KY0lMzyawNQvAKFW2MCUQ,12103
+layers/transformer_encoder_block_test.py,sha256=oIjMBM4uZOOYHqcJ5i4RnqD5HqEDvHKbG5ptTF_xJO4,10418
+keras_nlp-0.0.1.dist-info/METADATA,sha256=mUDlN0BqTztgv5p-BAo2oqPb0BIfbpmCMd8ND1knCog,712
+keras_nlp-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+keras_nlp-0.0.1.dist-info/top_level.txt,sha256=hvJfpmw10TZ3Brfxng7JICzife2Qegt193pvt3CmDwI,16
+keras_nlp-0.0.1.dist-info/RECORD,,
