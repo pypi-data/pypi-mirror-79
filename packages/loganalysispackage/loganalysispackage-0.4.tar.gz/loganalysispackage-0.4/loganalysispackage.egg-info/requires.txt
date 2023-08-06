@@ -1,0 +1,7 @@
+pymongo
+dnspython
+elasticsearch
+numpy==1.18.5
+sklearn
+tensorflow
+matplotlib
