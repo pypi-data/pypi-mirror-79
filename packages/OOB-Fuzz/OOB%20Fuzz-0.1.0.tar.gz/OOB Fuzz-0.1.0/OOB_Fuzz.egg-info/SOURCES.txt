@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+OOB_Fuzz.egg-info/PKG-INFO
+OOB_Fuzz.egg-info/SOURCES.txt
+OOB_Fuzz.egg-info/dependency_links.txt
+OOB_Fuzz.egg-info/requires.txt
+OOB_Fuzz.egg-info/top_level.txt
+oobfuzz/__init__.py
+oobfuzz/__main__.py
+oobfuzz/data/user-agents.txt
+oobfuzz/data/payloads/openredir.txt
+oobfuzz/data/payloads/rce.txt
+oobfuzz/data/payloads/sqli.txt
+oobfuzz/data/payloads/ssrf.txt
+oobfuzz/data/payloads/xxs.txt
