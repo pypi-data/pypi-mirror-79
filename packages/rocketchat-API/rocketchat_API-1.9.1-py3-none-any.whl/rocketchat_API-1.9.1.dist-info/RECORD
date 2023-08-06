@@ -1,0 +1,9 @@
+rocketchat_API/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocketchat_API/rocketchat.py,sha256=q80P8e2_YHajoglTQzvoKQJHYYP7Gt-GPB5SfILwyRc,37709
+rocketchat_API/APIExceptions/RocketExceptions.py,sha256=Sj-O-hTfrr21FX04_bQ4sbctO2vBYbMl6AsDgHFvKmc,215
+rocketchat_API/APIExceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocketchat_API-1.9.1.dist-info/LICENSE.txt,sha256=It2iMOT8kcE5TrdOZMCH2M1o9x1ui5lD4UAPVmMz4i0,1115
+rocketchat_API-1.9.1.dist-info/METADATA,sha256=o_53Np2aIjqj_-ffrYr02fu4JXPfrLGu6uFaep-vswY,3818
+rocketchat_API-1.9.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rocketchat_API-1.9.1.dist-info/top_level.txt,sha256=kRdkTCbPhRevLqpclcJL4nghBGoTSObwPLHADn7oPns,15
+rocketchat_API-1.9.1.dist-info/RECORD,,
