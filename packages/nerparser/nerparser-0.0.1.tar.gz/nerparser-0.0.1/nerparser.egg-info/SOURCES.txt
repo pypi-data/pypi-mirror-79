@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+nerparser/__init__.py
+nerparser.egg-info/PKG-INFO
+nerparser.egg-info/SOURCES.txt
+nerparser.egg-info/dependency_links.txt
+nerparser.egg-info/top_level.txt

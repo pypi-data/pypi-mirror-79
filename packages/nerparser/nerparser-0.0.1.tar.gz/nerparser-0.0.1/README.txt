@@ -1,0 +1,1 @@
+This is package for extracting specific informations from resumes using spacy named entity recognition.
