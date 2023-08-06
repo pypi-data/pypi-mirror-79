@@ -1,0 +1,11 @@
+[gui_scripts]
+shibumi = shibumi.shibumi:main
+
+[zero_play.game]
+spargo = shibumi.spargo.game:SpargoGame
+spline = shibumi.spline.game:SplineGame
+
+[zero_play.game_display]
+spargo = shibumi.spargo.display:SpargoDisplay
+spline = shibumi.spline.display:SplineDisplay
+
