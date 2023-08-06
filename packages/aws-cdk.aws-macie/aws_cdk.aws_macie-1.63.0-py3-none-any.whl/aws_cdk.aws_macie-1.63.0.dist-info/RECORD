@@ -1,0 +1,8 @@
+aws_cdk/aws_macie/__init__.py,sha256=aOpdmTtX4J7D--pPaZK2aAEcWt5eDKrvq341m5XIdAo,31006
+aws_cdk/aws_macie/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_macie/_jsii/__init__.py,sha256=cXdPwnU2lJkxpOKaogpJdlfv45a6KGYf8FGYaT9dwvo,337
+aws_cdk/aws_macie/_jsii/aws-macie@1.63.0.jsii.tgz,sha256=ffm6rFiLAAb7eyaVKi12tu8Ca7gxn6yAQ7VB9NWaON8,24716
+aws_cdk.aws_macie-1.63.0.dist-info/METADATA,sha256=2ZUvR75PN06XexL045ezhoj_-mu8mEdDvwbIfk_FQag,1523
+aws_cdk.aws_macie-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_macie-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_macie-1.63.0.dist-info/RECORD,,
