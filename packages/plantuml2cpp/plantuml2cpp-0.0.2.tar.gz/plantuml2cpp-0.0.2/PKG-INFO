@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: plantuml2cpp
+Version: 0.0.2
+Summary: C++ code generator for finite state machines from PlantUML state diagrams
+Home-page: https://github.com/yohummus/plantuml2cpp
+Author: Johannes Bergmann
+Author-email: j-bergmann@outlook.com
+License: UNKNOWN
+Description: ![Test status](https://github.com/yohummus/plantuml2cpp/workflows/Python%20package/badge.svg)
+        
+        # plantuml2cpp
+        C++ code generator for finite state machines from PlantUML state diagrams
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
