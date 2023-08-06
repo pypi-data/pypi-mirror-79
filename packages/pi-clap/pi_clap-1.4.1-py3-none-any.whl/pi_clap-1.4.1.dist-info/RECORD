@@ -1,0 +1,9 @@
+piclap/__init__.py,sha256=fkS22t4tPahjwFvvfyF1Ffj3-NDMkIrwH-80om5siOY,430
+piclap/_listener.py,sha256=NTuCheqz2xldtLp1bYsSNgUFQtPT0fNwnLK2Ys2z8kI,8603
+piclap/_processor.py,sha256=KSwPWD9fFCyhXOC2UdEzQqc6ikEkpSacB-99Tq--tFM,2881
+piclap/_settings.py,sha256=9s0aGjJWlOoKYH9Fj3gUmmxrwN0ysLsjO2vYNycgvjY,2614
+pi_clap-1.4.1.dist-info/LICENSE,sha256=918bYE4PYXKOyLHA7WdlhMtyKPaE1bif4WZSU0J2ceY,1069
+pi_clap-1.4.1.dist-info/METADATA,sha256=jTOPW2__AkcwkqwVXxO65bVScitwVR3882ql17Z-xbI,3373
+pi_clap-1.4.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pi_clap-1.4.1.dist-info/top_level.txt,sha256=O2_fGueuS4LzKgIQvHteJaMOeP1wJk2ZWn1RDMJ7yKw,7
+pi_clap-1.4.1.dist-info/RECORD,,
