@@ -1,0 +1,9 @@
+numpy
+pyyaml
+tensorflow
+tensorflow-probability
+
+[docs]
+sphinx_rtd_theme
+recommonmark
+sphinxcontrib-bibtex
