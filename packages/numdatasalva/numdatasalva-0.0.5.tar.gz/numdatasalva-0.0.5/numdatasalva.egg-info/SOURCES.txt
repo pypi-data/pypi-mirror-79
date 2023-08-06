@@ -1,0 +1,8 @@
+README.md
+setup.py
+numdatasalva/__init__.py
+numdatasalva/calculate.py
+numdatasalva.egg-info/PKG-INFO
+numdatasalva.egg-info/SOURCES.txt
+numdatasalva.egg-info/dependency_links.txt
+numdatasalva.egg-info/top_level.txt
