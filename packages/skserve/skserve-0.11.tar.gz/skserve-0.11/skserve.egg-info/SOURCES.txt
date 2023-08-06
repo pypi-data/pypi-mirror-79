@@ -1,0 +1,10 @@
+README.md
+setup.py
+skserve/ModelServer.py
+skserve/__init__.py
+skserve.egg-info/PKG-INFO
+skserve.egg-info/SOURCES.txt
+skserve.egg-info/dependency_links.txt
+skserve.egg-info/not-zip-safe
+skserve.egg-info/requires.txt
+skserve.egg-info/top_level.txt
