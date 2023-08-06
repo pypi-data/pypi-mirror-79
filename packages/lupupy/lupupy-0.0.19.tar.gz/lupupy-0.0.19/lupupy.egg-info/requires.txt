@@ -1,0 +1,6 @@
+colorlog
+demjson
+requests>=2.12.4
+
+[:python_version < "3.5"]
+pathlib
