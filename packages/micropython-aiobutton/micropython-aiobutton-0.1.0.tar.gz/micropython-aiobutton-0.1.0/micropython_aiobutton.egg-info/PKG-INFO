@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: micropython-aiobutton
+Version: 0.1.0
+Summary: A MicroPython module for asyncio button.
+Home-page: https://github.com/jacklinquan/micropython-aiobutton
+Author: Quan Lin
+Author-email: jacklinquan@gmail.com
+License: MIT
+Description: https://github.com/jacklinquan/micropython-aiobutton
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Description-Content-Type: text/markdown
