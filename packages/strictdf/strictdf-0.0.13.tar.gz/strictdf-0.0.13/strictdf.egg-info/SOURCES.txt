@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.rst
+setup.py
+strictdf/__init__.py
+strictdf.egg-info/PKG-INFO
+strictdf.egg-info/SOURCES.txt
+strictdf.egg-info/dependency_links.txt
+strictdf.egg-info/requires.txt
+strictdf.egg-info/top_level.txt
