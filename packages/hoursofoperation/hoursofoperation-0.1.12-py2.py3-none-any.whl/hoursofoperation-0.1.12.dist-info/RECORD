@@ -1,0 +1,10 @@
+hoursofoperation/__init__.py,sha256=Elxjtvv1WLSAFWidIn7YjX_iDOeLAMcJ-PliTlhf4kM,326
+hoursofoperation/_version.py,sha256=JaHKG1JvlUhAEMi1dXLpIgAGuacWTJT6CPpkIk9PQJo,125
+hoursofoperation/lib.py,sha256=NFx5J0r65IZDTOoIkHPubdHPj8x3gcqyqCK0tBo_y-8,5818
+hoursofoperation/test/__init__.py,sha256=aX8ofDGjZGaaxial8fC5ZnzOXxbEgsz8FsVlMJT57eQ,46
+hoursofoperation/test/test_lib.py,sha256=qvogFn1YRYyj4hzQwaAtKRrYX9tTlqms7N4ecz3dKoM,8512
+hoursofoperation-0.1.12.dist-info/LICENSE,sha256=n-U1ozWC6jlD1liBkJGny0SyFbIhubk3qQqETjIQTyQ,1066
+hoursofoperation-0.1.12.dist-info/METADATA,sha256=5s5sD9bBTINucFbzik4eY2waYzdQw92sbzk36qdgRKU,639
+hoursofoperation-0.1.12.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hoursofoperation-0.1.12.dist-info/top_level.txt,sha256=YxgnbCgBnu58HeCDxRrqp76QYCYifQF7gKdpoV9ECmE,17
+hoursofoperation-0.1.12.dist-info/RECORD,,
