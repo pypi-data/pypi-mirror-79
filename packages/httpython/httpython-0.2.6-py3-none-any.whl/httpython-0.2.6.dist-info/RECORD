@@ -1,0 +1,9 @@
+httpython/__init__.py,sha256=S9xjqhew-SE_4GxomRa3adcGuNLbMJeXKH-_MHqnmGg,4491
+httpython/document.py,sha256=Uiwlb85clDi_xMiOY1MLLE6OM6Sr9Pr-I0Icf4PO4Q4,2084
+httpython/requests.py,sha256=jQQgJcMREC2UHYRKz-vUtNnKSfyejZweY9yFOdOjD4A,2099
+httpython/servers.py,sha256=wg5TG-HZQRZLuJRvzPWy9Y5rnndZT-0ok5TTBPbY0NE,5679
+httpython-0.2.6.dist-info/LICENSE,sha256=8yRvV2yxbkET75_8SJbIhhzuombpQUXHZ8Cwn7hEl78,1092
+httpython-0.2.6.dist-info/METADATA,sha256=Rd0UysLGmJGUQrXhxxm2RxDisVizke2kn4s-hhHTB0Q,1816
+httpython-0.2.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+httpython-0.2.6.dist-info/top_level.txt,sha256=IrM07Us-cFnOAQUoqqmcSWij3qvgZuVH_N0QY4sp9Go,10
+httpython-0.2.6.dist-info/RECORD,,
