@@ -1,0 +1,15 @@
+PyMySQL
+boto3
+furl
+numpy
+pandas
+pyhopshive[thrift]
+pyhumps
+pyjks
+requests
+sqlalchemy
+
+[dev]
+black
+flake8
+pytest
