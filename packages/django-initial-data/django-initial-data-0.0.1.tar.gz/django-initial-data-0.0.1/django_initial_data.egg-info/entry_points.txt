@@ -1,0 +1,3 @@
+[console_scripts]
+django-init = django_init.management:execute_from_command_line
+
