@@ -1,0 +1,10 @@
+setup.py
+jag_distributions/Binomialdistribution.py
+jag_distributions/Gaussiandistribution.py
+jag_distributions/Generaldistribution.py
+jag_distributions/__init__.py
+jag_distributions.egg-info/PKG-INFO
+jag_distributions.egg-info/SOURCES.txt
+jag_distributions.egg-info/dependency_links.txt
+jag_distributions.egg-info/not-zip-safe
+jag_distributions.egg-info/top_level.txt
