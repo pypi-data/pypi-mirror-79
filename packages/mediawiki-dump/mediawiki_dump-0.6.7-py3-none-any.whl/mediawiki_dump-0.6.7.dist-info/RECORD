@@ -1,0 +1,17 @@
+mediawiki_dump/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mediawiki_dump/dumps.py,sha256=diSfqS-fhMxXQkeckkzK1E0Knd7LPzD8HibiPmf5tS8,7904
+mediawiki_dump/entry.py,sha256=YOnGYrAVMgp57ZtP5RsN2ORETOmHNHmy7A8yv6TS0Tw,1299
+mediawiki_dump/reader.py,sha256=-elOuJe8cUgDnUcbQvhHo9er1-DDVAyQiccn06ydZsA,9152
+mediawiki_dump/tokenizer.py,sha256=RQh90KHK0Md-9q9C-77PnFnj57rTUkvL4uiyGUG8s9g,3106
+mediawiki_dump/utils.py,sha256=AJ1dDazznXlo68OirkEWpy7wdhCQrc-bL0z0RIw1rgg,482
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_dumps.py,sha256=nyZE9AUryaNacTkw4CI2EXa5EsTjc_nnMclbNnZhwOI,2205
+test/test_entry.py,sha256=acL-Egk8wEI_J0zctB5tOLyZqP7TxczywVRMK3wiviI,858
+test/test_reader.py,sha256=Afk6WFbHKvqYkNiZ7tE260ImtOSjOqaiV5D_bYeeXKo,4210
+test/test_tokenizer.py,sha256=2AAf0x2047_nii-jnqr82RIMQi_Z2o4WXS02A94o-BQ,7972
+test/test_utils.py,sha256=wU-Fbo0dd2D9rMuuHWtlrI2HDUnPTU2le2wgbMoTRhQ,393
+mediawiki_dump-0.6.7.dist-info/LICENSE,sha256=vwpR_qhmzPXanU-axFI-OMOxk2n1fBHKxBK2_dlSJKE,1070
+mediawiki_dump-0.6.7.dist-info/METADATA,sha256=aVftvtExvdui5nWLl-ffQRfvEVmy8yN8J1zlZsLOLAE,7463
+mediawiki_dump-0.6.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mediawiki_dump-0.6.7.dist-info/top_level.txt,sha256=_P-q5e-QMbJjy5e3iklzf6xYtCm5sNmG6hj_YENeeGc,20
+mediawiki_dump-0.6.7.dist-info/RECORD,,
