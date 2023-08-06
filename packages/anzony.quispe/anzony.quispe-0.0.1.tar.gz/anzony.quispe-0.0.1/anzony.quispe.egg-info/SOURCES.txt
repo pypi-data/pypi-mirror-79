@@ -1,0 +1,7 @@
+README.md
+setup.py
+anzony.quispe.egg-info/PKG-INFO
+anzony.quispe.egg-info/SOURCES.txt
+anzony.quispe.egg-info/dependency_links.txt
+anzony.quispe.egg-info/top_level.txt
+example_pkg/__init__.py
