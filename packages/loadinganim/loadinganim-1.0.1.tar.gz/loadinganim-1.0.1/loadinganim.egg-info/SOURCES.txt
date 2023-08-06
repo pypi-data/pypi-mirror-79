@@ -1,0 +1,8 @@
+README.md
+setup.py
+loadinganim/__init__.py
+loadinganim/loading.py
+loadinganim.egg-info/PKG-INFO
+loadinganim.egg-info/SOURCES.txt
+loadinganim.egg-info/dependency_links.txt
+loadinganim.egg-info/top_level.txt

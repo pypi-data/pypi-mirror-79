@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: loadinganim
+Version: 1.0.1
+Summary: A simple terminal loading message
+Home-page: UNKNOWN
+Author: noidea
+Author-email: noidea1238@gmail.com
+License: UNKNOWN
+Description: # loadinganim <br>
+        
+        **A simple terminal loading message** 
+        
+            from loadinganim import LoadingAnim
+            import time
+        
+            #Animation1
+            loader = LoadingAnim(message='Please Wait',animType=0)
+            loader.start()
+            time.sleep(5)
+            loader.stop()
+        
+            #Animation2
+            loader = LoadingAnim(message='Please Wait',animType=1)
+            loader.start()
+            time.sleep(5)
+            loader.stop()
+        
+        **Install:**
+        >pip install loadinganim
+        
+        For pip3:
+        >pip3 install loadinganim
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
