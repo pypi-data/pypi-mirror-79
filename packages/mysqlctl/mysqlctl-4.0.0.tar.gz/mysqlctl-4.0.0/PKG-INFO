@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: mysqlctl
+Version: 4.0.0
+Summary: 用于操作mysql
+Home-page: UNKNOWN
+Author: 王哈哈
+Author-email: mail65656@163.com
+License: UNKNOWN
+Description: 用于操作mysql
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
