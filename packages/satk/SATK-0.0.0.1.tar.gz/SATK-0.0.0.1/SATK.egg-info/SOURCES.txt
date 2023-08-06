@@ -1,0 +1,6 @@
+README.md
+setup.py
+SATK.egg-info/PKG-INFO
+SATK.egg-info/SOURCES.txt
+SATK.egg-info/dependency_links.txt
+SATK.egg-info/top_level.txt
