@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+BrainML/__init__.py
+BrainML/activation.py
+BrainML/layers.py
+BrainML/optimizer.py
+BrainML.egg-info/PKG-INFO
+BrainML.egg-info/SOURCES.txt
+BrainML.egg-info/dependency_links.txt
+BrainML.egg-info/requires.txt
+BrainML.egg-info/top_level.txt
