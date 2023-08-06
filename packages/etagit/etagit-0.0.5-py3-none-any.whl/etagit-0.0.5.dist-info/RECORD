@@ -1,0 +1,11 @@
+tagit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tagit/configs.py,sha256=Jz5uOe36slSYD5Mxw2HYQ4EQYFOPP65e32VMh8A5AcA,358
+tagit/main.py,sha256=6MposPGsEN4PsoX4nfuAoK7vBs_LgrhQ8pkiwJ9-LkQ,27152
+tagit/query.py,sha256=cs2gW52kuof4mq__3Em4s1dtBgZBWn_LT0nPcFXhXUg,10539
+tagit/utils.py,sha256=NpazHGGcDU7u-RrIFymF2JnAAZ7kn1ki3QuPtQK7s7Y,2513
+etagit-0.0.5.dist-info/LICENSE,sha256=cFP2ygiCfjcaBcT6oDt4cFtNKD4wj7McNIZJE3hb58A,1067
+etagit-0.0.5.dist-info/METADATA,sha256=_ZQH9C-04lZEbgO2tURlHi4eWbcn3-MO2XH1XzgukyI,9629
+etagit-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+etagit-0.0.5.dist-info/entry_points.txt,sha256=g2kgmbTI8A2dHAe61rnckQQ29WLP16Z_ck6k8Px1esI,43
+etagit-0.0.5.dist-info/top_level.txt,sha256=yBTjNjMg3gn5grsIgfbGVMXnHakiwys4_lrB1vWFbLs,6
+etagit-0.0.5.dist-info/RECORD,,
