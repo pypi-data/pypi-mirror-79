@@ -1,0 +1,6 @@
+README.txt
+setup.py
+Marymodule.egg-info/PKG-INFO
+Marymodule.egg-info/SOURCES.txt
+Marymodule.egg-info/dependency_links.txt
+Marymodule.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: Marymodule
+Version: 0.0.1
+Summary: A very basic package
+Home-page: UNKNOWN
+Author: Maryam Rahbar
+Author-email: sona.rahbar27@gmail.com
+License: MIT
+Description: This is my first package.
+        
+        
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
