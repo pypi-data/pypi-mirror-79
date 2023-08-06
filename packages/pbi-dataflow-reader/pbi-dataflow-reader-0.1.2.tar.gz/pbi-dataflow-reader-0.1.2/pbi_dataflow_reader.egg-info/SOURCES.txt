@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+dataflow/__init__.py
+dataflow/reader.py
+pbi_dataflow_reader.egg-info/PKG-INFO
+pbi_dataflow_reader.egg-info/SOURCES.txt
+pbi_dataflow_reader.egg-info/dependency_links.txt
+pbi_dataflow_reader.egg-info/requires.txt
+pbi_dataflow_reader.egg-info/top_level.txt
