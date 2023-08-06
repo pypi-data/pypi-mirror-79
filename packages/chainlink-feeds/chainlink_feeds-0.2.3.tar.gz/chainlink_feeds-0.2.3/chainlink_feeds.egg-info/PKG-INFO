@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: chainlink-feeds
+Version: 0.2.3
+Summary: Python module to get price and other data from the decentralized chainlink community resources
+Home-page: https://github.com/alphachainio
+Author: Patrick Collins
+Author-email: patrick@alphachain.io
+License: MIT
+Description: # chainlink_feeds
+        
+        [![PyPI version](https://badge.fury.io/py/chainlink-feeds.svg)](https://badge.fury.io/py/chainlink-feeds.svg)
+        [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/AlphaChainio/chainlink_feeds.svg)](http://isitmaintained.com/project/AlphaChainio/chainlink_feeds "Average time to resolve an issue")
+        [![Percentage of issues still open](http://isitmaintained.com/badge/open/AlphaChainio/chainlink_feeds.svg)](http://isitmaintained.com/project/AlphaChainio/chainlink_feeds "Percentage of issues still open")
+        
+        A way to pull data from the Chainlink Price Feeds for analytics, algorithmic trading models, or else
+        
+        # Quickstart
+        
+        Install:
+        
+        ```
+        pip install chainlink_feeds
+        ```
+        
+        You'll need an `RPC_URL` environment variable.
+        
+        ```
+        from chainlink_feeds import ChainlinkFeeds
+        
+        cf = ChainlinkFeeds()
+        print(cf.get_latest_round_data(network='KOVAN', pair='ETH_USD'))
+        ```
+        
+Keywords: decentralized,data,chainlink,cryptocurrency,blockchain
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
