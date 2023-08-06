@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/main.cpp
+src/voronoi.cpp
+voronoi/__init__.py
+voronoi.egg-info/PKG-INFO
+voronoi.egg-info/SOURCES.txt
+voronoi.egg-info/dependency_links.txt
+voronoi.egg-info/not-zip-safe
+voronoi.egg-info/requires.txt
+voronoi.egg-info/top_level.txt
