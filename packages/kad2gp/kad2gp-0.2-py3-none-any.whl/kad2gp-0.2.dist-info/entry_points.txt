@@ -1,0 +1,4 @@
+[console_scripts]
+kad2gp = kad2gp.main_converter:main
+kad2gp-gui = kad2gp.main_gui:main
+
