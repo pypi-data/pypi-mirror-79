@@ -1,0 +1,17 @@
+#!python
+
+import sys
+import json
+
+paths = sys.argv[1:]
+json_paths = [x.replace(".jpeg", ".json").replace(".jpg", ".json") for x in paths]
+
+def calculate_x(path):
+    with open(path) as f:
+        dct = json.loads(f.read())
+    x_coords = [x for x, y in dct['shapes'][0]['points']]
+    x = (min(x_coords) + max(x_coords))/2
+
+
+for path in json_paths:
+    print(calculate_x(path))
