@@ -1,0 +1,3 @@
+[console_scripts]
+cx16-conv=cx16_conv.cli:common
+
