@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pyawscp
+Version: 0.5.20
+Summary: Interact with AWS using shell pre-built commands
+Home-page: https://github.com/ualter/pyaws-cockpit
+Author: Ualter Otoni Pereira
+Author-email: ualter.junior@gmail.com
+License: MIT
+Keywords: aws,cloud,drawio,boto3,ec2,vpc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: botocore
+Requires-Dist: boto3
+Requires-Dist: tinydb
+Requires-Dist: Pygments
+Requires-Dist: arnparse
+Requires-Dist: clipboard
+Requires-Dist: pyreadline
+Requires-Dist: websockets
+Requires-Dist: svglib
+
+### Python AWS Shell Cockpit
+---
+### What is this about?
+This tool is a simple result, a "collateral-effect", born from the need of boring and repetitive tasks during interaction with AWS, while I was working on my duties.
+
+It's a Shell that has collection of pre-built commands that basically extracts informations: ASCII Views and also Visual Graphics from the AWS resources and their relationships.
+
+In a ordinary working day with Cloud, questions like below always poppup (frequently and recurrently):
+- Which ELB is pointing to this EC2 Instance? Is there one?
+- Which ELB or EC2 Instance it is the target of the DNS myproject.lof.middle.earth.org ?
+- Is this Subnet is Public or Private after all?
+- How many IP's still left from all of my VPCs?
+- Is there any S3 Multipart Uploads unfinished?
+- Give me a List of all my VPC's Subnet
+
+### So What?
+So, we could just use AWS Console, AWS CLI + Bash Script, Boto3, right?  Well, pretty much it is what I was doing all the day around. But, I realized that:
+- Interact with AWS Console it's counterproductive (and veeery slow)
+- Manage to get the answers with AWS CLI (although much better than AWS Console), very often you have to run two, three commands to reach to the final answer. 
+- Besides, using AWS CLI, you have to mantain the used commands saved in some place (well commented) and available, like a library.
+
+As Python Boto3 is far most powerful than AWS CLI, can give you  tons of features to interact with AWS *(it's not by chance that tools like Ansible, after all, use it)* I came up with the idea of build this "Shell" AWS utility to me, to help me and easier my job tasks. That's where was born this idea *(well, actually I was also boring, needed to do something on my spare time)* :-)
+
+All the commands (that were/are useful to me) are pre-packaged inside this Python Shell, I only need to install the Python package with everything available and use it. 
+
+```bash
+some commands?
+```
+
+During the time some other ideas were popping up, like:
+- Generate some graphs (exportable to DrawIO) as vision of the AWS resources and their relationships.
+- An online navigator, where you can view (graphically and export also) your AWS Networking resources.
+
+I am always trying to add new features, when new needs or ideas are raising (of course when I have some off-time to dedicate to it). 
+
+I am sharing the result of this, perhaps can be useful to you also. Feel free to reach out to me with new ideas/suggestions.
+
+
