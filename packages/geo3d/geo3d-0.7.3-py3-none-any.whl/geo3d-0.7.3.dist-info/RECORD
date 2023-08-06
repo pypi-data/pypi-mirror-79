@@ -1,0 +1,11 @@
+geo3d/__init__.py,sha256=rF8rG9BmVrU1hL-0r3qVDU675LPUkG-DWeRTydiicxM,149
+geo3d/auxiliary.py,sha256=jGE8GCn6L3d2_-OSwK6zxJlSLxEfPhgfHxV2WJx4OHE,668
+geo3d/geometry.py,sha256=6RuUe-K1EtpKubTT96hX9sGOw_3Q0lMqV6vAfzgfq-8,37493
+geo3d/linalg.py,sha256=RsYWhJhh8W5BT4kYywbV3ZKyHpAf03fnk_4ItT7d3U8,824
+geo3d/query.py,sha256=2Vh2RFE-qzuxCVoLAoGRCGqMl1OHdsPd0NI6ic8RijM,2054
+geo3d/units.py,sha256=2Hc_5DT2PHrq7OldVD1BswOv42ZmVKjkKtmnegr9j3A,203
+geo3d-0.7.3.dist-info/LICENSE.txt,sha256=ZcFZC6FLCtHHWe5G9FSDrVrc04TRGi2bW2_m_JJU2q4,1069
+geo3d-0.7.3.dist-info/METADATA,sha256=v8OhK0BV-P5PlqUHRVYq1aB4xI90S7RHTQN5nCnWmgw,1920
+geo3d-0.7.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+geo3d-0.7.3.dist-info/top_level.txt,sha256=DVbDcOwB80JVZdI8vp_U5QtefgX-v6dx2VLQwyrr3Ik,6
+geo3d-0.7.3.dist-info/RECORD,,
