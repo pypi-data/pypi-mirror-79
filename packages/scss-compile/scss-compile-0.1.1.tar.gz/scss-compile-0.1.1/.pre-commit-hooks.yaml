@@ -1,0 +1,6 @@
+-   id: scss-compile
+    name: Compile SCSS
+    description: This hook compiles SCSS to CSS.
+    entry: scss-compile
+    language: python
+    types: [scss]
