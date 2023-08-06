@@ -1,0 +1,13 @@
+macprefs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+macprefs/command.py,sha256=UbbkrTGHFfAHYB2k8crTagALZXrNRa0FR34Ibp8vrro,7298
+macprefs/constants.py,sha256=_1q0CAsoay5j1ZEWZMjNOMIDWjSBTwTwKykQEemNR5k,203
+macprefs/mp_typing.py,sha256=BZoPor6b01vCDVAezXqD1i40KMgAffgWYQmAsQq6fTw,428
+macprefs/plist2defaults.py,sha256=pIIF_fxtuyk6qChEWKasMVzcnE4Cf6zxDMx_FVOCavY,3666
+macprefs/processing.py,sha256=Nb2OcdBnrbowRzz2N66OyJGY2Mro6nnf8OXfMP2FVTQ,1458
+macprefs/shell.py,sha256=ALFq9ORdrUAmGc6YENYBhO1T8sjvUhUfQ2EkVIxF4uk,1308
+macprefs/utils.py,sha256=FptZNioKiVISaFLGJNGwBsDVVyv6h1__7H5Jr2RKkeA,1797
+macprefs-0.0.1.dist-info/METADATA,sha256=FyvMsTHlL8YQzSYxKLIJz37kVzk31NvttQMsito3h1Y,283
+macprefs-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+macprefs-0.0.1.dist-info/entry_points.txt,sha256=N_arIJ_n-NlfDiMB2NlAKTx1OUqMqDjROt2fRcJDXzs,56
+macprefs-0.0.1.dist-info/top_level.txt,sha256=bEXN3-zN5T2J_IlNlJG0ihDbNVKIOrzA4ww0QRQIqWQ,9
+macprefs-0.0.1.dist-info/RECORD,,
