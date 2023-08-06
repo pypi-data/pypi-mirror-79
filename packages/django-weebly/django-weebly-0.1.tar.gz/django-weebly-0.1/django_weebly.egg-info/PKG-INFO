@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-weebly
+Version: 0.1
+Summary: Django app for creating a Weebly app
+Home-page: http://github.com/multilanguagexyz/django-weebly
+Author: Martin Massera
+Author-email: martinmassera@gmail.com
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
