@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-anonymoususer-permissions
+Version: 0.2.0
+Summary: Small backend to grant permission to Anonymous using django admin interface
+Home-page: https://github.com/saxix/django-anonymoususer-permissions
+Author: Stefano Apostolico
+Author-email: s.apostolico@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: linux
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Intended Audience :: Developers
+Provides-Extra: dev
+Provides-Extra: tests
