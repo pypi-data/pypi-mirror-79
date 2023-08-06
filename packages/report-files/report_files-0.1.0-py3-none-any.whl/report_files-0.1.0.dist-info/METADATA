@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: report-files
+Version: 0.1.0
+Summary: It creates one files with some data about every files insidea directory (and sub), and a report abotu duplicated files
+Home-page: https://github.com/alepuzio/listfiles
+Author: Alessandro Puzielli
+Author-email: alessandro.puzielli@alepuzio.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# listfiles
+
+Python program what list files insid a direcotry and print a report file
+
+## WARNING
+
+This project has the same functionality of my project [reportFile](https://github.com/alepuzio/reportFile).
+So, any other updated of this project is postponed until either the project will be joined.
+
+
+
+
+
+
