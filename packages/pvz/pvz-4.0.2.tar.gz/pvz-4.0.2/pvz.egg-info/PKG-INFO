@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pvz
+Version: 4.0.2
+Summary: Python vs. Zombies
+Home-page: https://github.com/lmintlcx/pvzscripts
+Author: lmintlcx
+Author-email: lmintlcx@gmail.com
+License: GPL
+Description: Plants vs. Zombies TAS Framework
+Platform: Windows
+Requires-Python: >=3.4.0
