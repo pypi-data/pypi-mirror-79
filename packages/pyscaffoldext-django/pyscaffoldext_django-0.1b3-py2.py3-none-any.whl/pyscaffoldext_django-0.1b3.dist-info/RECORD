@@ -1,0 +1,11 @@
+pyscaffoldext/django/__init__.py,sha256=xuKn3mZT3I32d71Pe5vWIxkHzNyuX124ET0giU1J94Q,531
+pyscaffoldext/django/extension.py,sha256=8-8IEp3rmV8ce1h1LjRW6C47G_v4ePq5QaxPeKfVwPw,6032
+pyscaffoldext/django/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscaffoldext/django/templates/manage.template,sha256=V158aDz-Xr_SQq5z6Z5Vi7tSlADiF9lKN796dfgddUk,1059
+pyscaffoldext_django-0.1b3.dist-info/AUTHORS.rst,sha256=__r9TBZmlMCFqQru3YW0fQS1aJmsvYb4d_qMPV2tq60,93
+pyscaffoldext_django-0.1b3.dist-info/LICENSE.txt,sha256=Zz8Bz5_MPO3y4zd_hHmJJ8sENmo_sPQZHICjy0NwrtU,1086
+pyscaffoldext_django-0.1b3.dist-info/METADATA,sha256=Rq0rV03W0jlnTpz8mYcnN6LrXKKgNbVStpQBhmxqtyk,13380
+pyscaffoldext_django-0.1b3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pyscaffoldext_django-0.1b3.dist-info/entry_points.txt,sha256=roF3OzHmv5TEbqOIWSuNo2GoNzakz-UEJHdBUr9UIDw,65
+pyscaffoldext_django-0.1b3.dist-info/top_level.txt,sha256=zac9JJq83qBJe5oCWbtXhQVr8mJ5TZFW2jCFlSQ6n0Y,14
+pyscaffoldext_django-0.1b3.dist-info/RECORD,,
