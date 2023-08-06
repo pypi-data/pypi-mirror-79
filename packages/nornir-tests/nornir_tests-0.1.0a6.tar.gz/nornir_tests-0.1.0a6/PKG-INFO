@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nornir-tests
+Version: 0.1.0a6
+Summary: 
+Author: Patrick Avery
+Author-email: patrickdaj@gmail.com
+Requires-Python: >=3.6,<3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: assertpy (>=1.1,<2.0)
+Requires-Dist: dataclasses (>=0.7,<0.8); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: jsonpath-ng (>=1.5.2,<2.0.0)
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Requires-Dist: nornir
