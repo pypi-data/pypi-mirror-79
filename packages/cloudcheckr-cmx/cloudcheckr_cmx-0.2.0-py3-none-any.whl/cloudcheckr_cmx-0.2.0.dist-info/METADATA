@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cloudcheckr-cmx
+Version: 0.2.0
+Summary: CloudCheckr API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: support@cloudcheckr.com
+License: UNKNOWN
+Keywords: Swagger,CloudCheckr API
+Platform: UNKNOWN
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+CloudCheckr API  # noqa: E501
+
+
