@@ -1,0 +1,15 @@
+google_domains/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_domains/api.py,sha256=OrjpUec9PCmmtnvE_JyJCbGGnFuFpIcoKwbEoFyIjm4,8595
+google_domains/command_line.py,sha256=zTfmhaViCyDtJoxPKSueOXcYJna05eMcNfEO3iU2rac,1468
+google_domains/command_line_tests.py,sha256=QqT3LiHRIGY9jJcdp5WjvMPyd0zEEij8v_iGTbUfK4w,3068
+google_domains/config.py,sha256=BAwErz6INirWBtNH0d9vzSudG8NnEasRpKLMZyi4_zw,5211
+google_domains/config_tests.py,sha256=hereJ9duspmPi85D22iHOTJWbLYIYN9NoHgcotANt7U,2835
+google_domains/log.py,sha256=zzatHlKyMQ4p7ArDpPwWd7mDZ5F-ObKRwzsBbMGoEHs,583
+google_domains/log_tests.py,sha256=QOMRBNd-oSbTIiX5iN1tHMmyaTEramhD1-VYKN2EROc,808
+google_domains/utils.py,sha256=XMtGVR-Mfmiui-dB-A_UCN2ss3UTGE87fCEnPccHbdk,1644
+google_domains/utils_tests.py,sha256=b9tzATYJzHbiv32f-yVHvQiUgpD9rvMe14qOCyFfOcw,1358
+google_domains-0.1.6.dist-info/METADATA,sha256=xejGPawv3mnCbReCeX8wIkXdZ4x4SEFpMeHrve5R61U,1247
+google_domains-0.1.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+google_domains-0.1.6.dist-info/entry_points.txt,sha256=HxXHzQYic6CCziOI2NpkrZ4WsvYCDz48BRZX6X29mJU,69
+google_domains-0.1.6.dist-info/top_level.txt,sha256=geoefJlupxJOT9f7XENc_lxh660l2JHra6P7Fqx_rHE,15
+google_domains-0.1.6.dist-info/RECORD,,
