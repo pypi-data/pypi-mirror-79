@@ -1,0 +1,4 @@
+#!/bin/sh
+# chkconfig: 35 20 80               分别代表运行级别，启动优先权，关闭优先权，此行代码必须
+# description: netrec-server          自己随便发挥，此行代码必须！！！
+~/miniconda/bin/netrec-server
