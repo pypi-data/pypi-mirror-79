@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+natural_selection/__init__.py
+natural_selection.egg-info/PKG-INFO
+natural_selection.egg-info/SOURCES.txt
+natural_selection.egg-info/dependency_links.txt
+natural_selection.egg-info/not-zip-safe
+natural_selection.egg-info/requires.txt
+natural_selection.egg-info/top_level.txt
+natural_selection/ga/__init__.py
