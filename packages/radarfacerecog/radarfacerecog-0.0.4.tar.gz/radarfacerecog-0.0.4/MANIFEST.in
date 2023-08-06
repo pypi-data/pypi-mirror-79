@@ -1,0 +1,3 @@
+include MANIFEST.in
+include radarfacerecog/data/*.jpg
+include radarfacerecog/politicos.csv

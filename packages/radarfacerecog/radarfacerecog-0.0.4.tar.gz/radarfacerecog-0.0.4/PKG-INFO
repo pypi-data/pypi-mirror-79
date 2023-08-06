@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: radarfacerecog
+Version: 0.0.4
+Summary: Radar Face recogniton, is library to recognize Brazilian politians face's
+Home-page: UNKNOWN
+Author: Heitor Sampaio
+Author-email: horlando.heitor@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
