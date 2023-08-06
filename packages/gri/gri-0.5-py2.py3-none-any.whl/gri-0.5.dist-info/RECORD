@@ -1,0 +1,11 @@
+gri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gri/__main__.py,sha256=XY9rCn31_Tt-0pIRPKE4INKfWlgFq0jBSNQLneUzaRc,6171
+gri/console.py,sha256=KmRcLexrLmMYGfjHpKioUgFwqC2iv-1cogWD-VkhZjA,762
+gri/gerrit.py,sha256=wKKMdJTgrNbKSsnOP9S2dHwuMqs0R35KUoq9OzOYExg,2426
+gri/review.py,sha256=vfItXD8-D3ZwZeLSCB92NuVyKaCs8oTPKl7imXygXSU,6326
+gri-0.5.dist-info/LICENSE,sha256=dOVYRlVEF1M1gPTeeJ3MBJMzjokbbMQLjw8rLuZ2FBs,1024
+gri-0.5.dist-info/METADATA,sha256=_VRa8oCcWOeVU1tI6v84sR367cEiX3vW91FR6LorakA,4415
+gri-0.5.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+gri-0.5.dist-info/entry_points.txt,sha256=a58spCFdoQDQZ_o6456ydSWsJKtJ4IAqgdT7Py6iRac,43
+gri-0.5.dist-info/top_level.txt,sha256=5dVaiVFk7P03H7eaqF5iMOln3cUQdfIYv3YZl5vkkbU,4
+gri-0.5.dist-info/RECORD,,
