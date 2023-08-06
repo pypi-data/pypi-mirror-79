@@ -1,0 +1,17 @@
+dynamo3/__init__.py,sha256=oHaBSoLHvU34uM5lby7Yb6nJvUQPVCKqRpkkhfiBADM,937
+dynamo3/batch.py,sha256=5_BBXxl1ot0-vDfLjFO15auNDenWgxyHUPlxGif1mhE,12084
+dynamo3/connection.py,sha256=HtrVW4y7-8FkmScpnJeuPCrL1jlXy3pbhOfO0qnuOBA,50434
+dynamo3/constants.py,sha256=LW_aVMcA-yo_8gW0wUWYwiEpSWQAv2H0xQSUOnAPy08,13802
+dynamo3/exception.py,sha256=B3KU3VWIiuVLvJ3o5VSuxXknfl5p0KuOZjCt90CKukM,1948
+dynamo3/fields.py,sha256=FvezZNfVYclZBArwAlGkxkyDR-S8s5T07WjudRoU5_Q,22829
+dynamo3/rate.py,sha256=uANiPEdQuOcthHzZSH8NI-T-SmmEodAqGEH7FqekTZo,6951
+dynamo3/result.py,sha256=DUAZhEwZ6OGbiJKH9ezDBxpmI3RT2vbKRSPU-gsiSfA,24736
+dynamo3/testing.py,sha256=najROgZopQgg35M7UmhMI1tZTeHwuBm6nw3QsqRLLSE,5506
+dynamo3/types.py,sha256=oXS7QBfHRS_rHInz0RMOHPj8nx0A_LQlC2L1uxLMUqk,10459
+dynamo3/util.py,sha256=TOMvhdspBTDjH_-Y9MFv5TpkWSjXMKFQq5XG58g9Qqo,166
+dynamo3-1.0.0.dev0.dist-info/LICENSE,sha256=Z6vGwQ8WuIKoZLwSxhmhrlwIJDI2aA8Ojl3WV4BLgUA,1083
+dynamo3-1.0.0.dev0.dist-info/METADATA,sha256=-ecVLglw8D9tEu_8NEHwh1K0r5_8qs9r_AEPQ0FsDPk,5202
+dynamo3-1.0.0.dev0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dynamo3-1.0.0.dev0.dist-info/entry_points.txt,sha256=h_qPnIjcFcxj-E5JkLPS-zP-Pzp1eBJLf4CxtxA16O4,64
+dynamo3-1.0.0.dev0.dist-info/top_level.txt,sha256=JiIKZqW67CrWEKcwDMcMRDkY-yelBwjyqyGUV45k_Ok,8
+dynamo3-1.0.0.dev0.dist-info/RECORD,,
