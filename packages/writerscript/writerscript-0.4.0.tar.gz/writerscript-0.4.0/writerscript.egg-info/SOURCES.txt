@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+writerscript/__init__.py
+writerscript/cli.py
+writerscript/generator.py
+writerscript/interpreter.py
+writerscript/translator.py
+writerscript.egg-info/PKG-INFO
+writerscript.egg-info/SOURCES.txt
+writerscript.egg-info/dependency_links.txt
+writerscript.egg-info/entry_points.txt
+writerscript.egg-info/requires.txt
+writerscript.egg-info/top_level.txt
