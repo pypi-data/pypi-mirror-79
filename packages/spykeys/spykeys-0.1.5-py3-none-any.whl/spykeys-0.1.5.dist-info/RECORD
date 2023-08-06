@@ -1,0 +1,17 @@
+spykes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spykes/parsing.py,sha256=c9_FOyU7RSO5XH8SyB5dGHpLVc8xOKCtqKFjtHvae08,1052
+spykes/secret.py,sha256=CaR4bQx25UsMomhqYefYYQWbvqDB8VylymxDD-F9kxI,2248
+spykes/spk.py,sha256=kIbF4Gh81dpDeNoyPGYDyhZlaUe4nkPRAiGnCixECZg,690
+spykes/store.py,sha256=reYl6qHOvRv046d48CE6_-xxfl-OtGuk2RXflB4aWRc,2735
+spykes/store_manager.py,sha256=nPEcGZA5ZSIq7S8GMEwoC6ShX8VXV3nDHRw7A1ulMb4,1012
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_main.py,sha256=W6kdTh2NBYCrFvtXIb7S6phEDa9zC7LMYZlCSD13FaA,633
+test/test_parsing.py,sha256=6_RPV7f5cm4BaFMSzdqT3a3kRGh8Sxq6oCSbcbDaHTU,454
+test/test_secret.py,sha256=kD87hTzLz-sDpHOx0HxEP7yUUQ9vNQHdakbq3NUBbwM,1864
+test/test_store.py,sha256=yIS5EYtQK9UmlFRBJtJm2BhKiXRzmrwFUJD_6KLVeKw,989
+spykeys-0.1.5.dist-info/LICENSE,sha256=PIfPOLs8-wOfD1jR775z_TG4uQka0nx5Lf03KtAvUcM,1068
+spykeys-0.1.5.dist-info/METADATA,sha256=gbP4Cd39oSsqkDuPjZ7f4JNwG5dI9Wkcss3XBSD8ss8,1736
+spykeys-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spykeys-0.1.5.dist-info/entry_points.txt,sha256=jj7KfeL__zZLjjTMnqU9DWf-0QMIomPXJ-fHKaX8Nz0,41
+spykeys-0.1.5.dist-info/top_level.txt,sha256=ZdN1Sx6FS-NSahUcVVWR71KwuMnIQiWe4aeL-ttgKAg,12
+spykeys-0.1.5.dist-info/RECORD,,
