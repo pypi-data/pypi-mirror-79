@@ -1,0 +1,3 @@
+[console_scripts]
+cube = cube.__main__:main
+

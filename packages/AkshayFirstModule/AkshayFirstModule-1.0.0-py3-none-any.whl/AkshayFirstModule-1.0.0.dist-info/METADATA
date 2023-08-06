@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: AkshayFirstModule
+Version: 1.0.0
+Summary: It cubes the number
+Home-page: https://github.com/uditvashisht/saral-square
+Author: Akshay Dhomse
+Author-email: adhomse99@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# AkshayDhomseModule Cube
+It takes an integer as an input and prints it cube.
+
+## Installation
+```pip install AkshayFirstModule```
+
+## How to use it?
+Open terminal and type cube and then input the integer
+
+## License
+
+Â© 2020 Akshay Dhomse
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
