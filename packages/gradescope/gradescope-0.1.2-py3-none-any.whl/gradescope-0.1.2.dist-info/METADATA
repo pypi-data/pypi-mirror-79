@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gradescope
+Version: 0.1.2
+Summary: Python utility toolkit for Gradescope
+Home-page: https://github.com/mooey5775/gradescope
+Author: Edward Li
+Author-email: edwardli@andrew.cmu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: confuse
+Requires-Dist: pywsse
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: six
+
+# gradescope
+
+This is a Python utility library for Gradescope.
+
+This library is a subset of a library created by Jérémie Lumbroso, licensed under the LGPL3 license. You can find this library here: https://github.com/jlumbroso/pylifttk.
+
+## Configuration file
+
+The `config.yaml` file contains Gradescope credentials.
+
+```yaml
+gradescope:
+  username: "" # credentials for https://gradescope.com
+  password: ""
+```
+
+## Example
+
+Coming soon!
+
