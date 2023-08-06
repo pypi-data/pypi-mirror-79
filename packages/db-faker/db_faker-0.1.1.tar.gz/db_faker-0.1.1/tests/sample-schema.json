@@ -1,0 +1,94 @@
+{
+    "name": "testdb",
+    "locale": "es_ES",
+    "dbEngine": "mysql",
+    "tables": [
+        {
+            "name": "table1",
+            "fields": [
+                {
+                    "name": "username",
+                    "type": "username"
+                },
+                {
+                    "name": "name",
+                    "type": "name"
+                },
+                {
+                    "name": "address",
+                    "type": "address"
+                },
+                {
+                    "name": "creditcard",
+                    "type": "creditcard"
+                },
+                {
+                    "name": "company",
+                    "type": "company"
+                },
+                {
+                    "name": "phone",
+                    "type": "phone"
+                },{
+                    "name": "email",
+                    "type": "email"
+                },{
+                    "name": "vehicle_license",
+                    "type": "vehicle_license"
+                },
+                {
+                    "name": "iban",
+                    "type": "iban"
+                },
+                {
+                    "name": "color",
+                    "type": "color"
+                },
+                {
+                    "name": "string",
+                    "type": "string"
+                },
+                {
+                    "name": "integer",
+                    "type": "integer"
+                },
+                {
+                    "name": "numeric",
+                    "type": "numeric"
+                },
+                {
+                    "name": "date",
+                    "type": "date"
+                },
+                {
+                    "name": "time",
+                    "type": "time"
+                },
+                {
+                    "name": "timestamp",
+                    "type": "timestamp"
+                },
+                {
+                    "name": "binary",
+                    "type": "binary"
+                },
+                {
+                    "name": "bool",
+                    "type": "bool"
+                },
+                {
+                    "name": "uuid",
+                    "type": "uuid"
+                },
+                {
+                    "name": "inet",
+                    "type": "inet"
+                },
+                {
+                    "name": "macaddr",
+                    "type": "macaddr"
+                }
+            ]
+        }
+    ]
+}
