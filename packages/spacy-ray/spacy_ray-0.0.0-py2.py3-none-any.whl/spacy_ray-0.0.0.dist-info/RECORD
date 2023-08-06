@@ -1,0 +1,16 @@
+spacy_ray/__init__.py,sha256=jwAKYFQpIPMeQ0pH03M5MWVyqgx7d0dcz7ttHVvCkWc,32
+spacy_ray/loggers.py,sha256=uvzL6rVC_kveLYmDDs_nBs_39VykqJMAqJtt3lAnTm0,2477
+spacy_ray/proxies.py,sha256=3o1aHJgaQe38GoSWsNl0xZ4hb7gAPLFueyA_9uewg5I,4731
+spacy_ray/train_cli.py,sha256=brsSNUzmVY_26pS6vP8Q3rFuO_hPLxD1lEt63T7BwiA,3123
+spacy_ray/util.py,sha256=aQXw7UB8wPLVPbjx69td0UdCfnGfR_JnW5qB1ChLWFw,1911
+spacy_ray/worker.py,sha256=kOKHcvLZ8jlHU5-c8KHst8w-sZ3VyGX52PUzq8FCbQ4,13225
+spacy_ray/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_ray/tests/mock_ray.py,sha256=MRjgXuBTlOoVtXJgI2SnwrFon1swtpK50I1QQENzYrw,134
+spacy_ray/tests/test_worker.py,sha256=cFzi7MAeNrWzjkMAWbRoj3CgpOfeZAXVTFd3s-ZDGfA,742
+spacy_ray-0.0.0.dist-info/LICENSE,sha256=yF5NvuRneP5EuN0DX0NTJUBHqRcoYjIghVZSCY9c9S0,1073
+spacy_ray-0.0.0.dist-info/METADATA,sha256=dIKizieQd0vOjiiNRpfBSCiufkxtY7hGPC7SXIHw41k,2910
+spacy_ray-0.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+spacy_ray-0.0.0.dist-info/entry_points.txt,sha256=jsNT-9CTe9jRFmPQugaFgAPXzA2J6qyw8gJ81_641Ok,130
+spacy_ray-0.0.0.dist-info/top_level.txt,sha256=bKXNbosWnGBczO1AiLakAcLCrvprZz74PTmk1P8mDxE,10
+spacy_ray-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spacy_ray-0.0.0.dist-info/RECORD,,
