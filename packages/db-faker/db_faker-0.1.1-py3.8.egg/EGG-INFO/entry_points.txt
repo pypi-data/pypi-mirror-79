@@ -1,0 +1,7 @@
+[console_scripts]
+db_faker = db_faker.cli:main
+
+[db_faker.commands]
+generate-data = db_faker.commands.generate_data:GenerateData
+validate-schema = db_faker.commands.validate_schema:ValidateSchema
+
