@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: am4894ga
+Version: 0.0.4
+Summary: Helper library for google analytics reporting api
+Home-page: https://github.com/andrewm4894/am4894ga/tree/master/
+Author: Andrew Maguire
+Author-email: email@example.com
+License: Apache Software License 2.0
+Description: # am4894ga
+        > My helper library for Google Analytics reporting API.
+        
+        
+        foo.
+        
+        ## Install
+        
+        `pip install am4894ga`
+        
+Keywords: googleanalytics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
