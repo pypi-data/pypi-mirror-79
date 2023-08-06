@@ -1,0 +1,4 @@
+[console_scripts]
+fab = fabric.main:program.run
+fl = fabric.main:program.run
+
