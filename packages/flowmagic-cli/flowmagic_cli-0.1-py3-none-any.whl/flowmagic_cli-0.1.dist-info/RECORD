@@ -1,0 +1,10 @@
+cli/__init__.py,sha256=IopJykuMWie69Nhet2Kkk7LnFQ6d6NoAYHLyLBhm_vc,11318
+cli/utils.py,sha256=ynwubb4dnAcXsUaVAFrsQNMndl25bktHiPrJa-q57v8,704
+cli/data/.gitignore,sha256=4oH645DnEgR05jnds76xkiYC9iEjAAC3sn2ubcVJIs8,16
+cli/data/Dockerfile,sha256=7hQOGw36cxEy0a9ajL0xUGcRVNoU3AKZqIuiIbEnuT8,50
+cli/data/config.json,sha256=j-Y0e4Vc14ddPB7J5etP0jLKJlQLJQrLRg3GEb--Lts,180
+flowmagic_cli-0.1.dist-info/METADATA,sha256=z4G3eit8usm_7bF8MqoSX-qIis_L970JrpkEM-CsvLM,762
+flowmagic_cli-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+flowmagic_cli-0.1.dist-info/entry_points.txt,sha256=zlL_FdggukW0cRKV7A8QgBx1zZCQnnmYEpK7-gywUR4,54
+flowmagic_cli-0.1.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+flowmagic_cli-0.1.dist-info/RECORD,,

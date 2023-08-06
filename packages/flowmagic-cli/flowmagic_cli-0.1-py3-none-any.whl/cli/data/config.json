@@ -1,0 +1,14 @@
+{
+	"name": "$NAME",
+	"description": "$DESCRIPTION",
+	"author": "",
+	"version": "0.1",
+	"type": "ui",
+	"port": 5000,
+	"config_required": [
+	],
+	"inputs" : [
+	],
+	"outputs" : [
+	]
+}
