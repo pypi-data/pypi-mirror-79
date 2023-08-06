@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: find-domains
+Version: 0.0.6
+Summary: Library to search domain names in text data
+Home-page: https://github.com/lorien/find_domains
+Author: Gregory Petukhov
+Author-email: lorien@lorien.name
+Maintainer: Gregory Petukhov
+Maintainer-email: lorien@lorien.name
+License: MIT
+Download-URL: https://github.com/lorien/find_domains/releases
+Description: ## find_domains Documentation
+        
+        This library is for searching domain names in raw text data. First it searches domain-like strings
+        using simple regexp. Then it uses list of top level domain names to remove names which could be a
+        domain name i.e. last segment is not top level domain name. TLD list is provided by
+        [tldextract](https://github.com/john-kurkowski/tldextract) library, technicall that means that
+        when you will use `find_domains` in first time it will download top level domains list (this is
+        tldextract behaviour).
+        
+        ## Installation
+        
+        `pip install -U find_domains`
+        
+        
+        ## Usage
+        
+        ```
+        from find_domains import find_domains
+        
+        data = """
+        foo bar google.com foo.bar.com domain.info
+        превед-медвед.рф
+        """
+        
+        for domain in find_domains(data):
+            print(domain)
+        ```
+        
+Keywords: domain search hostname dns parser
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
