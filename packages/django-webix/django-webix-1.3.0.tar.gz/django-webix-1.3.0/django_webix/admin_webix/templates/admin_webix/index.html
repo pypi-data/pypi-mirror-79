@@ -1,0 +1,11 @@
+{% extends 'admin_webix/base_site.html' %}
+
+{% block content %}
+
+    {% if history_url %}
+        load_js('{{history_url}}');
+    {% else %}
+        load_js('{% url 'admin_webix:dashboard' %}');
+    {% endif %}
+
+{% endblock %}
