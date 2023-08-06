@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+django_select2_admin_filters/__init__.py
+django_select2_admin_filters/admin.py
+django_select2_admin_filters/filters.py
+django_select2_admin_filters/mixins.py
+django_select2_admin_filters.egg-info/PKG-INFO
+django_select2_admin_filters.egg-info/SOURCES.txt
+django_select2_admin_filters.egg-info/dependency_links.txt
+django_select2_admin_filters.egg-info/not-zip-safe
+django_select2_admin_filters.egg-info/requires.txt
+django_select2_admin_filters.egg-info/top_level.txt
+django_select2_admin_filters/templatetags/__init__.py
+django_select2_admin_filters/templatetags/select2_filters.py
