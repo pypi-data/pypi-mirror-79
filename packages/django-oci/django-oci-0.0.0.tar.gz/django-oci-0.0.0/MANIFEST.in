@@ -1,0 +1,5 @@
+include README.md AUTHORS.md LICENSE
+global-exclude __pycache__
+global-exclude migrations
+graft django_oci
+recursive-include django_oci *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
