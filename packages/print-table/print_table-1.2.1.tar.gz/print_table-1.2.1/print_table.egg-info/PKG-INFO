@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: print-table
+Version: 1.2.1
+Summary: Simple package to print responsive tables
+Home-page: UNKNOWN
+Author: noidea
+Author-email: noidea1238@gmail.com
+License: UNKNOWN
+Description: # print_table<br>
+        **A simple package to print responsive tables**<br>
+        
+        **Usage:**
+        
+        
+            from print_table import Table
+        
+            Table(numberOfCols=2).head(['Title1','Title2']).row(['Row1Col1','Row1Col2']).printTable()
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
