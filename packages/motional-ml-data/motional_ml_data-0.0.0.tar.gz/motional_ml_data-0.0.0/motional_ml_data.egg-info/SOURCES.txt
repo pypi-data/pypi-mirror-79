@@ -1,0 +1,5 @@
+setup.py
+motional_ml_data.egg-info/PKG-INFO
+motional_ml_data.egg-info/SOURCES.txt
+motional_ml_data.egg-info/dependency_links.txt
+motional_ml_data.egg-info/top_level.txt
