@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: motional-ml-core
+Version: 0.0.0
+Summary: motional_ml_core
+Home-page: https://motional.com/
+Author: Motional
+Author-email: devops@motional.com
+License: UNKNOWN
+Description: motional_ml_core
+Platform: UNKNOWN
+Requires-Python: >=5
+Description-Content-Type: text/markdown
