@@ -1,0 +1,9 @@
+[package]
+name = "paperplane"
+version = "0.0.1"
+description = ""
+authors = ["Abhilash Kishore <abhilash1in@gmail.com>"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

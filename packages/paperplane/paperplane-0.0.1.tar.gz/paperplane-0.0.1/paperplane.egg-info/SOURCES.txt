@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+paperplane/__init__.py
+paperplane/main.py
+paperplane.egg-info/PKG-INFO
+paperplane.egg-info/SOURCES.txt
+paperplane.egg-info/dependency_links.txt
+paperplane.egg-info/entry_points.txt
+paperplane.egg-info/top_level.txt
