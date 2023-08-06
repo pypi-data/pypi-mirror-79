@@ -1,0 +1,6 @@
+include *.txt
+exclude *.yml
+include LICENCE
+recursive-exclude examples *.h5
+recursive-exclude examples *.ipynb
+recursive-exclude scripts *.py
