@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: zoom-audio-transcribe
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/jdvala/zoom_audio_transcribe
+Author: Jay Vala
+Author-email: jay.vala@msn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Requires-Dist: prompt-toolkit (==1.0.14)
+Requires-Dist: PyInquirer (==1.0.3)
+Requires-Dist: pydub (==0.24.1)
+Requires-Dist: halo (==0.0.30)
+Requires-Dist: art (==4.7.0)
+Requires-Dist: vosk (==0.3.10)
+
+UNKNOWN
+
+
