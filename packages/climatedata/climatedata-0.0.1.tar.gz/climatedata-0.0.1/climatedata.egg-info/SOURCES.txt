@@ -1,0 +1,6 @@
+README
+setup.py
+climatedata.egg-info/PKG-INFO
+climatedata.egg-info/SOURCES.txt
+climatedata.egg-info/dependency_links.txt
+climatedata.egg-info/top_level.txt
