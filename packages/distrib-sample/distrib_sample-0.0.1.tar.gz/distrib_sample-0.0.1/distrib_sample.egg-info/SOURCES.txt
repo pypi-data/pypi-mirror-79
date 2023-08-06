@@ -1,0 +1,9 @@
+README.md
+setup.py
+distrib_sample/__init__.py
+distrib_sample/randomfunc.py
+distrib_sample/randomobj.py
+distrib_sample.egg-info/PKG-INFO
+distrib_sample.egg-info/SOURCES.txt
+distrib_sample.egg-info/dependency_links.txt
+distrib_sample.egg-info/top_level.txt
