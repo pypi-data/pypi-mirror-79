@@ -1,0 +1,5 @@
+setup.py
+course_packt.egg-info/PKG-INFO
+course_packt.egg-info/SOURCES.txt
+course_packt.egg-info/dependency_links.txt
+course_packt.egg-info/top_level.txt
