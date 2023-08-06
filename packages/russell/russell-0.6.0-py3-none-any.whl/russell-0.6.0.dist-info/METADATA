@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: russell
+Version: 0.6.0
+Summary: A static HTML blog generator.
+Home-page: https://github.com/anlutro/russell
+Author: Andreas Lutro
+Author-email: anlutro@gmail.com
+License: GPL-3.0
+Keywords: blog,static,html,generator
+Platform: UNKNOWN
+Requires-Dist: Jinja2 (<3,>=2.8)
+Requires-Dist: Markdown (<4,>=2.6)
+Requires-Dist: python-dateutil (<3,>=2.6)
+Requires-Dist: python-slugify (<5,>=1.2)
+Requires-Dist: feedgen (<1,>=0.9)
+
+UNKNOWN
+
+
