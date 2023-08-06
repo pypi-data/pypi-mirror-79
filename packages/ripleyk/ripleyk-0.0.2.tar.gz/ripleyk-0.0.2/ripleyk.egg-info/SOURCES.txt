@@ -1,0 +1,9 @@
+README.md
+setup.py
+ripleyk/__init__.py
+ripleyk/ripleyk.py
+ripleyk.egg-info/PKG-INFO
+ripleyk.egg-info/SOURCES.txt
+ripleyk.egg-info/dependency_links.txt
+ripleyk.egg-info/requires.txt
+ripleyk.egg-info/top_level.txt
