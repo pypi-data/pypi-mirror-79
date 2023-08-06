@@ -1,0 +1,6 @@
+gym
+numpy
+matplotlib
+pytest
+pytest-cov
+codecov
