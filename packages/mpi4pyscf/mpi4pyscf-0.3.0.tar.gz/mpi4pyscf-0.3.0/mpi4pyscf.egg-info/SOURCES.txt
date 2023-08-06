@@ -1,0 +1,5 @@
+mpi4pyscf.egg-info/PKG-INFO
+mpi4pyscf.egg-info/SOURCES.txt
+mpi4pyscf.egg-info/dependency_links.txt
+mpi4pyscf.egg-info/requires.txt
+mpi4pyscf.egg-info/top_level.txt
