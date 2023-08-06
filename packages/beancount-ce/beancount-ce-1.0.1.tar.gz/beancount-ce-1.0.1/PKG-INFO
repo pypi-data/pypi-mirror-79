@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: beancount-ce
+Version: 1.0.1
+Summary: Beancount Importer for Caisse d'Epargne PDF statement exports
+Home-page: https://github.com/ArthurFDLR/beancount-ce
+License: MIT
+Keywords: banking,beancount,cli-accounting,finance
+Author: Arthur Findelair
+Author-email: arthfind@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beancount (==2.3.0)
+Requires-Dist: pdfminer.six (>=20200726,<20200727)
+Requires-Dist: regex (>=2020.7.14,<2021.0.0)
+Project-URL: Repository, https://github.com/ArthurFDLR/beancount-ce
+Description-Content-Type: text/markdown
+
+# Beancount Caisse d'Epargne Importer
+
+[![GitHub](https://img.shields.io/github/license/ArthurFDLR/beancount-ce)](https://github.com/ArthurFDLR/beancount-ce/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/beancount-ce)](https://pypi.org/project/beancount-ce/)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/beancount-ce)
+
+`beancount-ce` provides a PDF statements importer for the bank [Caisse d'Epargne](http://www.caisse-epargne.fr) to the [Beancount](http://furius.ca/beancount/) format.
+
+## Installation
+
+```console
+    $ pip install beancount-ce
+```
+
+## Usage
+
+```python
+    IBAN_NUMBER_CE = 'FR00 1111 2222 3333 4444 5555 666'
+
+    CONFIG = [
+        CEImporter(
+            iban=IBAN_NUMBER_CE,
+            account='Assets:FR:CdE:CompteCourant',
+            expenseCat='Expenses:FIXME',    #Optional
+            creditCat='Income:FIXME',       #Optional
+            showOperationTypes=False        #Optional
+        ),
+    ]
+```
+
