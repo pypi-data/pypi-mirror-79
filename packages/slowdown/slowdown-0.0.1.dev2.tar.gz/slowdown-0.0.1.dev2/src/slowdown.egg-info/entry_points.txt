@@ -1,0 +1,3 @@
+[console_scripts]
+slowdown = slowdown.__main__:main
+

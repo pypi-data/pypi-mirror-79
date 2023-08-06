@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: slowdown
+Version: 0.0.1.dev2
+Summary: A coroutine-based web framework
+Home-page: http://slowdown.pyforce.com
+Author: Wilhelm Shen
+Author-email: wilhelmshen@pyforce.com
+License: MIT
+Description: ========
+        Slowdown
+        ========
+        
+        Slowdown is a coroutine-based Python web framework based on gevent.
+        
+        Read the documentation online at http://slowdown.pyforce.com/ .
+        
+Keywords: coroutine cooperative gevent greenlet web framework async asynchronous http server
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.6
