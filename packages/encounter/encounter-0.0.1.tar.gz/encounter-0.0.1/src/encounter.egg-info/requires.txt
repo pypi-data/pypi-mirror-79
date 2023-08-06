@@ -1,0 +1,8 @@
+appdirs
+paramiko
+
+[dev]
+pylint
+
+[test]
+pytest

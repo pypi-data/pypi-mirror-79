@@ -1,0 +1,3 @@
+[console_scripts]
+encounter = encounter.__main__:main
+
