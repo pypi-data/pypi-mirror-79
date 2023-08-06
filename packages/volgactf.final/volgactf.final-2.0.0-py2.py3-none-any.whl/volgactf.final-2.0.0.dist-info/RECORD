@@ -1,0 +1,13 @@
+volgactf.final-2.0.0-py3.7-nspkg.pth,sha256=LL43W1SI-F_E47QWZw59Y8tVKeP8-NsDfjijLBBvgds,549
+volgactf/final/__about__.py,sha256=rKVQ8mmYj7fV670PCYb6r9lNotSVSpv1rQmMpnazjho,46
+volgactf/final/__init__.py,sha256=X8psW57WwzCWrh1KA5fS5FHQcT9tcze3qL7TlP4nMfk,5155
+volgactf/final/capsule_api.py,sha256=DHcNQAkaED6aE7d4h1oO-bpgfWkHCvdbhzb3XcYHSIg,1500
+volgactf/final/flag_api.py,sha256=zLW93om_EYCz_19xd6Z8GJfgmgoDg6Xbqm_3XMLJdXE,4704
+volgactf/final/service_api.py,sha256=VaxmG2EcVP-gW5RkYr04QHMpPUwrCI6NGOsTd6zDrQo,2733
+volgactf.final-2.0.0.dist-info/LICENSE,sha256=sHgBtTf4Vl8QlMKIeGYZJG1ayjNKUJx4hAzDyCK5zu4,1075
+volgactf.final-2.0.0.dist-info/METADATA,sha256=FwwPTeQQ37a3ivA8n0iZzTTQdTCaceOIE-dSDNQmvtw,574
+volgactf.final-2.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+volgactf.final-2.0.0.dist-info/entry_points.txt,sha256=LbELTSdInBvPKDByXPvmcnntkD23MoqpH6HhEZT9IKQ,55
+volgactf.final-2.0.0.dist-info/namespace_packages.txt,sha256=VVtcr9SY2UEfw-Uj3A3fQllr8O7zDi-qmJYkuQDRo6c,9
+volgactf.final-2.0.0.dist-info/top_level.txt,sha256=VVtcr9SY2UEfw-Uj3A3fQllr8O7zDi-qmJYkuQDRo6c,9
+volgactf.final-2.0.0.dist-info/RECORD,,
