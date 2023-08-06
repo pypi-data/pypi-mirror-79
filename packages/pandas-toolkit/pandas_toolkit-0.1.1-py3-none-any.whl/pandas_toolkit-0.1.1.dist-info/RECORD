@@ -1,0 +1,16 @@
+pandas_toolkit/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+pandas_toolkit/_version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+pandas_toolkit/ml/__init__.py,sha256=vJJlvty9Q0qA5faBNUBRBibOwZA_tIv_vuy8r2LC_I8,2404
+pandas_toolkit/ml/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_toolkit/ml/tests/test_ml.py,sha256=ZXXi-wsJYDPunSIZal9T9DeH5KMJaGsHG3AuuXS9mR0,2875
+pandas_toolkit/nn/Model.py,sha256=pbb49uNqQAgcbh21ieLuUqxa5jqUg6aVj96RiypMYSA,2567
+pandas_toolkit/nn/__init__.py,sha256=_IXoLEZIMei1aVa30lgp-3Vellf9abeWiBykSDqsDO0,8312
+pandas_toolkit/nn/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_toolkit/nn/tests/test_nn.py,sha256=BKsjWCXyyT21AnT1eXjpmfoMYqxMqb8jPjYjbEpyj8w,3993
+pandas_toolkit/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandas_toolkit/utils/custom_types.py,sha256=TYjVIvMk7IcCFz9jHzQA0bpEBipOqpXRHd2sqdT701Q,71
+pandas_toolkit-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pandas_toolkit-0.1.1.dist-info/METADATA,sha256=x3LO9H5tqI17KYgAvDrIqrqCSkwBjLKlhaYty5RrWdk,1019
+pandas_toolkit-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pandas_toolkit-0.1.1.dist-info/top_level.txt,sha256=iN7BFeTaz-Zc-da7nvw-Es5jTx6hk2GEM9ME5XYvXsA,15
+pandas_toolkit-0.1.1.dist-info/RECORD,,
