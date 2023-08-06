@@ -1,0 +1,16 @@
+pyscaffold<5.0a0,>=4.0a3
+configupdater<2,>=1.1.2
+packaging>=20.4
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+tox
+pre-commit
+setuptools_scm
+virtualenv
+configupdater
+pytest
+pytest-cov
+pytest-xdist
