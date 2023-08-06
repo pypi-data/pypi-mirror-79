@@ -1,0 +1,12 @@
+dleamse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dleamse/dleamse_encode_and_embed.py,sha256=BmgoY091HxdI_ynkaOzFp5DszmVdkwe4eTg-U3gdnsk,33218
+dleamse/dleamse_faiss_index_search.py,sha256=fzXr-6bRkyVyv3eakdrq3s43Xf3DFO_UKYsXrPy5Q94,11120
+dleamse/dleamse_faiss_index_writer.py,sha256=1oWjFDxgl1k-vvSkWpOXdOtEty2ngBXctXH50Np83Go,9341
+dleamse/dleamse_tests.py,sha256=-GoYYa-0OLo4wUxhRuES_vrY7YkL30mnvDAAFtLOk-s,3041
+dleamse/mslookup.py,sha256=bMAgxPw7hGEUZJ9xzoHlalsAuZKtPXStbQYNIM6u9kU,12782
+dleamse-0.3.6.data/scripts/mslookup.py,sha256=bMAgxPw7hGEUZJ9xzoHlalsAuZKtPXStbQYNIM6u9kU,12782
+dleamse-0.3.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dleamse-0.3.6.dist-info/METADATA,sha256=dxLUFVqR4wHVY6lJnqYB6Pm-SWnhI3nkJiXzrHlyUsY,6395
+dleamse-0.3.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dleamse-0.3.6.dist-info/top_level.txt,sha256=LW1a2PM1cZz4bcrIoGDwE0aNBSzWME80OtC0VSTn1YU,8
+dleamse-0.3.6.dist-info/RECORD,,
