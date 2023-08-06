@@ -1,0 +1,7 @@
+README.md
+setup.py
+ss4/__init__.py
+ss4.egg-info/PKG-INFO
+ss4.egg-info/SOURCES.txt
+ss4.egg-info/dependency_links.txt
+ss4.egg-info/top_level.txt
