@@ -1,0 +1,6 @@
+pubchempy
+scipy
+seaborn
+python-pptx
+wget
+xlrd
