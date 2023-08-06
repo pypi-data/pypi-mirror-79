@@ -1,0 +1,9 @@
+kad2gp/__init__.py,sha256=1DKglr9uK-AtJV4eiFGlWF2DG-VOD-6L0VB5y1dF1c4,35
+kad2gp/logger.py,sha256=vU7QiGSy_AJuJFmClUocqIJ-Ltku_8C24ZU8L6fLJR0,53
+kad2gp/main_converter.py,sha256=EkFU6SjPHMuScYHXkDpdtPb4r6ywxMrIW_fHpXQLw7M,3350
+kad2gp/tools.py,sha256=P5o518HJy8LO3K3BvF9wufFqvQMS55UvQUeosyFjyw4,5007
+kad2gp-0.1.dist-info/METADATA,sha256=oJKrkcwrTi3xrHIqf3gc90e_gfK8P1iEUh7JyWWdGdc,1276
+kad2gp-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kad2gp-0.1.dist-info/entry_points.txt,sha256=VFcGVvGoTrn8aanrERtAL2r08s50K2nV1l1iIXoy05A,55
+kad2gp-0.1.dist-info/top_level.txt,sha256=jY-cQVJ3lKVwTjIi17q0ZM_ZYRwJrAHFJVJYqjSemkg,7
+kad2gp-0.1.dist-info/RECORD,,
