@@ -1,0 +1,9 @@
+README.md
+setup.py
+alphavant/__init__.py
+alphavant/techindicators.py
+alphavant/time_series.py
+alphavant.egg-info/PKG-INFO
+alphavant.egg-info/SOURCES.txt
+alphavant.egg-info/dependency_links.txt
+alphavant.egg-info/top_level.txt
