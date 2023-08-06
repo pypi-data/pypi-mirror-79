@@ -1,0 +1,7 @@
+aiologger==0.5.0
+aiorun==2020.6.1
+arcor2==0.8.0rc1
+arcor2_execution_data==0.8.0rc1
+dataclasses-jsonschema[fast-validation]@ git+https://github.com/zdenekm/dataclasses-jsonschema.git@issue-126
+pydobot@ git+https://github.com/zdenekm/pydobot
+websockets==8.1
