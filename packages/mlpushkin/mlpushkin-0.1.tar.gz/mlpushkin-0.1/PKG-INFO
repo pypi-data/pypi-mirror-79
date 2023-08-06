@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mlpushkin
+Version: 0.1
+Summary: Scikit-learn wrapper function library
+Home-page: https://mlpushkin.readthedocs.io/en/latest/
+Author: Sylvain N. Breton
+Author-email: sylvain.breton@cea.fr
+Maintainer: Sylvain N. Breton
+Maintainer-email: sylvain.breton@cea.fr
+License: CeCILL
+Description: UNKNOWN
+Platform: UNKNOWN

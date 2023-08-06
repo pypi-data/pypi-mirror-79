@@ -1,0 +1,3 @@
+include LICENSE *.md
+recursive-include docs *.rst
+recursive-include notebooks *.ipynb
