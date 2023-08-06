@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: chemlib
+Version: 1.5
+Summary: An easy-to-use library that quickly performs chemistry calculations.
+Home-page: https://github.com/harirakul/chemlib
+Author: Hari Ambethkar
+Author-email: harirakul.a@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/chemlib/
+Description: # chemlib: a pure Python chemistry library
+        
+        [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/harirakul/chemlib/blob/master/LICENSE.txt)
+        
+        An easy-to-use library that quickly performs chemistry calculations.
+        
+        ## Installation
+        ```
+        pip install chemlib
+        ```
+        
+        ## Features
+Keywords: Chemistry,Chemlib
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
