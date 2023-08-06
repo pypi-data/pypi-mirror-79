@@ -1,0 +1,10 @@
+tdsbconnects/__init__.py,sha256=3M4Ir-wDZNBt6suPS1qSbrF6y4axPC-CEEhR6TClTdo,104
+tdsbconnects/objects.py,sha256=mnWlncZoD2FVjCJdkCUGMY2TfO0oyIgb6A4EPXUvdXI,7120
+tdsbconnects/tdsbconnects.py,sha256=9VfTCxY0Nrl5ggBF9o3ts5Vb8w6sh9RTPDdfdD0YaE4,4373
+tdsbconnects/util.py,sha256=CEnyKBnaaum1m2PWjnezN-3KPA4xREerOM73ojTE4S0,621
+tdsbconnects/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+pytdsbconnects-0.1.1.dist-info/LICENSE,sha256=VGDGbRG4RyKkkcvF5lOlfWrS1B5q-RPEGSSxgClwfa0,1087
+pytdsbconnects-0.1.1.dist-info/METADATA,sha256=itQHXQifFA3gecmCMLZC0xxwd78H-_CkjpLMQH3GUj4,2588
+pytdsbconnects-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytdsbconnects-0.1.1.dist-info/top_level.txt,sha256=Qv4qVlOpd_qg_2p4PkI0_Clki1cVHM9LzqQEtW1QthI,13
+pytdsbconnects-0.1.1.dist-info/RECORD,,
