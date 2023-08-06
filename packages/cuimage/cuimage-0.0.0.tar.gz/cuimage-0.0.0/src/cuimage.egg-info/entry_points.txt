@@ -1,0 +1,3 @@
+[console_scripts]
+cuimage = cuimage.cli:main
+
