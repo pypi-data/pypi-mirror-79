@@ -1,0 +1,8 @@
+README.md
+setup.py
+ArabicOcr/arabicocr.py
+ArabicOcr.egg-info/PKG-INFO
+ArabicOcr.egg-info/SOURCES.txt
+ArabicOcr.egg-info/dependency_links.txt
+ArabicOcr.egg-info/requires.txt
+ArabicOcr.egg-info/top_level.txt
