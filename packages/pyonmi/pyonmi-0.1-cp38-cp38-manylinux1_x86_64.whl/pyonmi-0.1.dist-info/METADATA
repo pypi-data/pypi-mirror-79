@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyonmi
+Version: 0.1
+Summary: a python module to calculate the overlaping NMI of two sets
+Home-page: UNKNOWN
+Author: Angel Panizo
+Author-email: angel.panizo@upm.es
+License: UNKNOWN
+Platform: UNKNOWN
+
+a python wrapper of the Overlapping Normalized Mutual Information function implemented in https://github.com/aaronmcdaid/Overlapping-NMI
+
+
