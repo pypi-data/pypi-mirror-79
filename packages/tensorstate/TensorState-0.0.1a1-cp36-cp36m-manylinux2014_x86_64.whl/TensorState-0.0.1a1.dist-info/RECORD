@@ -1,0 +1,8 @@
+TensorState-0.0.1a1.dist-info/RECORD,,
+TensorState-0.0.1a1.dist-info/top_level.txt,sha256=edQ7XwNHvlhV0gWi8n-dswiQP1mT_NlgBldKzybG5O8,12
+TensorState-0.0.1a1.dist-info/METADATA,sha256=LR_Sx9VOtVauKk6tCXzyDZI5ToNB2iWjf98SxTCOS44,608
+TensorState-0.0.1a1.dist-info/LICENSE,sha256=oJc9j8g4TE08WnsIamTR8GJZpjMtrkpQrqCaej84rM8,1074
+TensorState-0.0.1a1.dist-info/WHEEL,sha256=PkgmUciUS_7GjgAEIlC_GqRpRuEQmnJPlf4pmAEpdrY,112
+TensorState/__init__.py,sha256=CirCN6gTec-57rTkjM6-3CEXHCGinKfMN4W42AFeXY0,112
+TensorState/TensorState.py,sha256=vJehvFXwSkk1N2sMoMvnKMoYyHdZ1uZZLXMrWOC1wuI,16190
+TensorState/_TensorState.cpython-36m-x86_64-linux-gnu.so,sha256=GeWy7pJitYsOyEbTUTugi4vg0uJChnvRyQi6ocBYuu0,1452848
