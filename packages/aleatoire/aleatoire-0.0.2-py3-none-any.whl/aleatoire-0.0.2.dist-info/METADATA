@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: aleatoire
+Version: 0.0.2
+Summary: System reliability analysis.
+Home-page: https://github.com/claudioperez/aleatoire
+Author: Claudio Perez
+Author-email: claudio_perez@berkeley.edu
+License: Apache-2.0
+Project-URL: Changelog, https://github.com/claudioperez/aleatoire/blob/master/CHANGELOG.md
+Project-URL: Issue Tracker, https://github.com/claudioperez/aleatoire/issues
+Keywords: reliability,form,system-reliability,nataf,copula
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+---
+title: Aleatoire
+description: A set of tools for the probabilistic analysis of systems.
+...
+
+<h1>Aleatoire</h1>
+
+A set of tools for the probabilistic analysis of systems.
+
+--------------------
+
+[![PyPI Version][pypi-v-image]][pypi-v-link]
+[![Commits since latest release][gh-image]][gh-link]
+
+**Table of contents**
+
+- [Installation](#installation)
+
+A rough compilation of general-purpose system reliability functions and classes written over the course of a semester. This package implements probability transformations composed of marginal distributions which are defined using objects from the popular scipy.stats statistical library. This package is largely built upon the framework for reliability computations layed out in CalRel and FERUM.
+
+## Installation
+
+    pip install aleatoire
+
+You can also install the in-development version with:
+
+    pip install https://github.com/claudioperez/aleatoire/archive/master.zip
+
+
+
+[pypi-v-image]: https://img.shields.io/pypi/v/aleatoire.svg
+[pypi-v-link]: https://pypi.org/project/aleatoire/
+
+[travis-image]: https://api.travis-ci.org/claudioperez/aleatoire.svg?branch=master
+[travis-link]: https://travis-ci.org/claudioperez/aleatoire
+
+[gh-link]: https://github.com/claudioperez/aleatoire/compare/v0.0.2...master
+[gh-image]: https://img.shields.io/github/commits-since/claudioperez/aleatoire/v0.0.2?style=social
+
+
+# Changelog
+
+## 0.0
+
+### 0.0.2
+
+- Match version with Github tag.
+
+### 0.0.1
+
+- Fix long description on PyPi.
+
+### 0.0.0
+
+- First release on PyPi.
+
+
+
+
