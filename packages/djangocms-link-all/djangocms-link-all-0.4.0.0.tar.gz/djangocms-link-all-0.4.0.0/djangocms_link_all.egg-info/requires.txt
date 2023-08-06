@@ -1,0 +1,5 @@
+django<3,>=2.2
+django-cms<4,>=3.7
+django-filer
+dataclasses
+jsons
