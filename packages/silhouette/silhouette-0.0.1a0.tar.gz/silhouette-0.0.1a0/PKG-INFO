@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: silhouette
+Version: 0.0.1a0
+Summary: 
+Author: tnahs
+Author-email: 31777797+tnahs@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
