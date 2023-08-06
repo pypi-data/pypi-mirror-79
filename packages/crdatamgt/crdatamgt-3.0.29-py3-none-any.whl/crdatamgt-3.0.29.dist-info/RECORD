@@ -1,0 +1,12 @@
+crdatamgt/__init__.py,sha256=TdDQBZ3N9VqB0wCRLeACWDyIdDskodlQnjDyaMOv1Ic,219
+crdatamgt/__main__.py,sha256=KrwKolxGqFyCtQJPzK577RHDHMNHNcD0BfdV22AjUIE,180
+crdatamgt/formulations.py,sha256=MkVMKbqN950Aq7YUMg8p9EprJNA-28Z5mbsLKzIpP9I,9653
+crdatamgt/helpers.py,sha256=yCHneGBl-25dCBjg55_xerExvUnJRHzs33UkVHItP0k,5174
+crdatamgt/offlinestats.py,sha256=yEfM4UkRUQPI-chk0rSVnnnTJUrhgkevjokCdxgeHEI,3660
+crdatamgt/parameters.yaml,sha256=W7D_8qw7Hr86TvdXbExtfYse0oxggsehPb_iN8y-qDg,277
+crdatamgt/project.py,sha256=rWt6RpnShkm7JnHnDwOuQn1iORMV2AdRAHDtW8qGJ7k,5978
+crdatamgt/runner.py,sha256=tRl-DxPmDZzDRphN2nc0Dgjsi7pLfi9uoSEFAs2jgQc,2454
+crdatamgt/topic.py,sha256=iPx7DT6vgIHjIGPKRip4v886ZjSDrP0p9Wgcn5B7E2Q,1101
+crdatamgt-3.0.29.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+crdatamgt-3.0.29.dist-info/METADATA,sha256=eSCIoYs0tlPOkkbta5DlfR_e11hDwlK63vRaNym5f3Y,526
+crdatamgt-3.0.29.dist-info/RECORD,,
