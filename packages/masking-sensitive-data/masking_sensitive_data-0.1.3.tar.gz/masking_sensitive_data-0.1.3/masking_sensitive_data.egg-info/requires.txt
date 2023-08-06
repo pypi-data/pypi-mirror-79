@@ -1,0 +1,3 @@
+
+[ipapp]
+ipapp[rabbitmq]
