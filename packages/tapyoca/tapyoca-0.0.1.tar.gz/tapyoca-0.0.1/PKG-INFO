@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tapyoca
+Version: 0.0.1
+Summary: A medley of things that got coded because there was an itch to do so
+Home-page: https://github.com/thorwhalen/tapyoca
+Author: thorwhalen
+License: Apache Software License
+Description: # tapyoca
+        A medley of small projects
+        
+Keywords: documentation,packaging,publishing
+Platform: any
+Description-Content-Type: text/markdown

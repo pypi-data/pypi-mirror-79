@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+tapyoca.egg-info/PKG-INFO
+tapyoca.egg-info/SOURCES.txt
+tapyoca.egg-info/dependency_links.txt
+tapyoca.egg-info/top_level.txt
