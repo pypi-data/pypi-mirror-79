@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mproxy
+Version: 0.0.6
+Summary: Mproxy
+Home-page: https://github.com/simonm3/mproxy.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: googletrans
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: stem
+Requires-Dist: apache-libcloud
+Requires-Dist: fabric
+
+UNKNOWN
+
+
