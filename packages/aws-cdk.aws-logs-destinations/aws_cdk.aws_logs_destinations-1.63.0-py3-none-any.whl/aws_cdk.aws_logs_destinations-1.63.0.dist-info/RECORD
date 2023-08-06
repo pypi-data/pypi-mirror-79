@@ -1,0 +1,8 @@
+aws_cdk/aws_logs_destinations/__init__.py,sha256=Dmg636KWb3ihZVXgeFoX25gLu0FoJpOGYVWHHK8ZzEQ,2891
+aws_cdk/aws_logs_destinations/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_logs_destinations/_jsii/__init__.py,sha256=BcrhiWMQE7o8BF0pqtAzwOZOHdQwY6aGLZxl1Y8YqwQ,522
+aws_cdk/aws_logs_destinations/_jsii/aws-logs-destinations@1.63.0.jsii.tgz,sha256=WFA88kShJw3kBfTCqFKFo-laLEe6I6v6L0Ujdq6W0ug,16357
+aws_cdk.aws_logs_destinations-1.63.0.dist-info/METADATA,sha256=wf1d02gXH7SQflu678TOcjRDVn5ndQbhOF5b3QjCyz8,1393
+aws_cdk.aws_logs_destinations-1.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_logs_destinations-1.63.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_logs_destinations-1.63.0.dist-info/RECORD,,
