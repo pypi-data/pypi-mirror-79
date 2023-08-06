@@ -1,0 +1,420 @@
+Single and multiple line status updates with minimal update sequences.
+
+*Latest release 20200914*:
+Bugfix UpdProxy.__enter__: return self.
+
+This is available as an output mode in `cs.logutils`.
+
+Single line example:
+
+    from cs.upd import Upd, nl, print
+    .....
+    with Upd() as U:
+        for filename in filenames:
+            U.out(filename)
+            ... process filename ...
+            U.nl('an informational line to stderr')
+            print('a line to stdout')
+
+Multiline multithread example:
+
+    from threading import Thread
+    from cs.upd import Upd, print
+    .....
+    def runner(filename, proxy):
+        # initial status message
+        proxy.text = "process %r" % filename
+        ... at various points:
+            # update the status message with current progress
+            proxy.text = '%r: progress status here' % filename
+        # completed, remove the status message
+        proxy.close()
+        # print completion message to stdout
+        print("completed", filename)
+    .....
+    with Upd() as U:
+        U.out("process files: %r", filenames)
+        Ts = []
+        for filename in filenames:
+            proxy = U.insert(1) # allocate an additional status line
+            T = Thread(
+                "process "+filename,
+                target=runner,
+                args=(filename, proxy))
+            Ts.append(T)
+            T.start()
+        for T in Ts:
+            T.join()
+
+## A note about Upd and terminals
+
+I routinely use an `Upd()` as a progress reporting tool for commands
+running on a terminal. This attaches to `sys.stderr`.
+However, it is usually not desirable to run an `Upd` display
+if the backend is not a tty/terminal.
+Therefore, an `Upd` has a "disabled" mode
+which performs no output;
+if the backend is not a tty (as tested by `backend.isatty()`)
+this mode activates by default.
+
+The constructor has an optional parameter `disabled` to override
+this default behaviour.
+
+The whole purpose of this "disabled" mode is to ease main programme
+implementation.
+Before this mode one had two basic idioms to support "noninteractive" use,
+described below.
+
+The former was to test `sys.stderr.isatty()` and define an `Upd` or not:
+
+    upd = Upd() if sys.stderr.isatty() else None
+
+and to scatter tests throughout the code:
+
+    if upd:
+        upd.out("new status here")
+
+The latter was to work entirely through `UpdProxy` instances
+(which is convenient anyway), like this 2 status line example:
+
+    if sys.stderr.isatty():
+        upd = Upd()
+        status_proxy = upd.proxy(0)
+        progress_proxy = upd.insert(1)
+    else:
+        status_proxy = UpdProxy(None, None)
+        progress_proxy = UpdProxy(None, None)
+
+and to use the proxies thereafter:
+
+    status_proxy.text = "doing task A"
+    ... during task A ...
+    ... progress_proxy.text = progress.status() ...
+
+This works because `UpdProxy` instances support a "detached" mode,
+which is they state they move to when deleted
+in the normal course of operations.
+
+However, because an `Upd` defaults to being "disabled"
+if its backend is not a tty
+the usual main programme can just set one up and use it unconditionally;
+on a nontty there will simply be no output.
+
+## Function `cleanupAtExit()`
+
+Cleanup function called at programme exit to clear the status line.
+
+## Function `nl(msg, *a, **kw)`
+
+Write `msg` to `file` (default `sys.stdout`),
+without interfering with the `Upd` instance.
+This is a thin shim for `Upd.print`.
+
+## Function `out(msg, *a, **outkw)`
+
+Update the status line of the default `Upd` instance.
+Parameters are as for `Upd.out()`.
+
+## Function `print(*a, **kw)`
+
+Wrapper for the builtin print function
+to call it inside `Upd.above()` and enforce a flush.
+
+The function supports an addition parameter beyond the builtin print:
+* `upd`: the `Upd` instance to use, default `Upd()`
+
+Programmes integrating `cs.upd` with use of the builtin `print`
+function should use this at import time:
+
+    from cs.upd import print
+
+## Class `Upd(cs.obj.SingletonMixin)`
+
+A `SingletonMixin` subclass for maintaining a regularly updated status line.
+
+The default backend is `sys.stderr`.
+
+### Method `Upd.__exit__(self, exc_type, exc_val, _)`
+
+Tidy up on exiting the context.
+
+If we are exiting because of an exception
+which is not a `SystemExit` with a `code` of `None` or `0`
+then we preserve the status lines one screen.
+Otherwise we clean up the status lines.
+
+### Method `Upd.__len__(self)`
+
+The length of an `Upd` is the number of slots.
+
+### Method `Upd.above(self, need_newline=False)`
+
+Move to the top line of the display, clear it, yield, redraw below.
+
+This context manager is for use when interleaving _another_
+stream with the `Upd` display;
+if you just want to write lines above the display
+for the same backend use `Upd.nl`.
+
+The usual situation for `Upd.above`
+is interleaving `sys.stdout` and `sys.stderr`,
+which are often attached to the same terminal.
+
+Note that the caller's output should be flushed
+before exiting the suite
+so that the output is completed before the `Upd` resumes.
+
+Example:
+
+    U = Upd()   # default sys.stderr Upd
+    ......
+    with U.above():
+        print('some message for stdout ...', flush=True)
+
+### Method `Upd.adjust_text_v(oldtxt, newtxt, columns, raw_text=False)`
+
+Compute the text sequences required to update `oldtxt` to `newtxt`
+presuming the cursor is at the right hand end of `oldtxt`.
+The available area is specified by `columns`.
+
+We normalise `newtxt` as using `self.normalise`.
+`oldtxt` is presumed to be already normalised.
+
+### Method `Upd.close(self)`
+
+Close this Upd.
+
+### Method `Upd.closed(self)`
+
+Test whether this Upd is closed.
+
+### Method `Upd.delete(self, index)`
+
+Delete the status line at `index`.
+
+Return the `UpdProxy` of the deleted status line.
+
+### Method `Upd.disable(self)`
+
+Disable updates.
+
+### Method `Upd.enable(self)`
+
+Enable updates.
+
+### Method `Upd.flush(self)`
+
+Flush the backend stream.
+
+### Method `Upd.insert(self, index, txt='')`
+
+Insert a new status line at `index`.
+
+Return the `UpdProxy` for the new status line.
+
+### Method `Upd.move_to_slot_v(self, from_slot, to_slot)`
+
+Compute the text sequences required to move our cursor
+to the end of `to_slot` from `from_slot`.
+
+### Method `Upd.nl(self, txt, *a, redraw=False)`
+
+Write `txt` to the backend followed by a newline.
+
+Parameters:
+* `txt`: the message to write.
+* `a`: optional positional parameters;
+  if not empty, `txt` is percent formatted against this list.
+* `redraw`: if true (default `False`) use the "redraw" method.
+
+This uses one of two methods:
+* insert above:
+  insert a line above the top status line and write the message there.
+* redraw:
+  clear the top slot, write txt and a newline,
+  redraw all the slots below.
+
+The latter method is used if `redraw` is true
+or if `txt` is wider than `self.columns`
+or if there is no "insert line" capability.
+
+### Method `Upd.normalise(txt)`
+
+Normalise `txt` for display,
+currently implemented as:
+`unctrl(txt.rstrip())`.
+
+### Method `Upd.out(self, txt, *a, slot=0, raw_text=False, redraw=False)`
+
+Update the status line at `slot` to `txt`.
+Return the previous status line content.
+
+Parameters:
+* `txt`: the status line text.
+* `a`: optional positional parameters;
+  if not empty, `txt` is percent formatted against this list.
+* `slot`: which slot to update; default is `0`, the bottom slot
+* `raw_text`: if true (default `False`), do not normalise the text
+* `redraw`: if true (default `False`), redraw the whole line
+  instead of doing the minimal and less visually annoying
+  incremental change
+
+### Method `Upd.proxy(self, index)`
+
+Return the `UpdProxy` for `index`.
+
+### Method `Upd.redraw_line_v(self, txt)`
+
+Compute the text sequences to redraw the specified slot,
+being `CR`, slot text, clear to end of line.
+
+### Method `Upd.redraw_slot_v(self, slot)`
+
+Compute the text sequences to redraw the specified slot,
+being `CR`, slot text, clear to end of line.
+
+This presumes the cursor is on the requisite line.
+
+### Method `Upd.redraw_trailing_slots_v(self, upper_slot, skip_first_vt=False)`
+
+Compute text sequences to redraw the slots from `upper_slot` downward,
+leaving the cursor at the end of the lowest slot.
+
+This presumes the cursor is on the line _above_
+the uppermost slot to redraw,
+as the sequences commence with `''` (`VT`).
+
+### Method `Upd.selfcheck(self)`
+
+Sanity check the internal data structures.
+
+Warning: this uses asserts.
+
+### Method `Upd.ti_str(self, ti_name)`
+
+Fetch the terminfo capability string named `ti_name`.
+Return the string or `None` if not available.
+
+### Method `Upd.update_slot_v(self, slot, newtxt, raw_text=False, redraw=False)`
+
+Compute the text sequences to update the status line at `slot` to `newtxt`.
+
+### Method `Upd.without(self, temp_state='', slot=0)`
+
+Context manager to clear the status line around a suite.
+Returns the status line text as it was outside the suite.
+
+The `temp_state` parameter may be used to set the inner status line
+content if a value other than `''` is desired.
+
+## Class `UpdProxy`
+
+A proxy for a status line of a multiline `Upd`.
+
+This provides a stable reference to a status line after it has been
+instantiated by `Upd.insert`.
+
+The status line can be accessed and set via the `.text` property.
+
+An `UpdProxy` is also a context manager which self deletes on exit:
+
+    U = Upd()
+    ....
+    with U.insert(1, 'hello!') as proxy:
+        .... set proxy.text as needed ...
+    # proxy now removed
+
+### Method `UpdProxy.__call__(self, msg, *a)`
+
+Calling the proxy sets its `.text` property
+in the form used by other messages: `(msg,*a)`
+
+### Method `UpdProxy.__del__(self)`
+
+Delete this proxy from its parent `Upd`.
+
+### Method `UpdProxy.delete(self)`
+
+Delete this proxy from its parent `Upd`.
+
+### Property `UpdProxy.text`
+
+The text of this proxy's slot.
+
+### Property `UpdProxy.width`
+
+The available space for text after `self.prefix`.
+
+This is available width for uncropped text,
+intended to support presizing messages such as progress bars.
+Setting the text to something longer will crop the rightmost
+portion of the text which fits.
+
+# Release Log
+
+
+
+*Release 20200914*:
+Bugfix UpdProxy.__enter__: return self.
+
+*Release 20200716.1*:
+DISTINFO: make the cs.obj requirement more specific due to the SingletonMixin API change.
+
+*Release 20200716*:
+Update for changed cs.obj.SingletonMixin API.
+
+*Release 20200626.1*:
+Upd.__exit__: bugfix test of SystemExit exceptions.
+
+*Release 20200626*:
+* UpdProxy: call self.delete on __del__.
+* If self._backend is None act as if disabled, occurs during shutdown.
+* Upd.delete: ignore attempts to delete the last line, also occurs during shutdown.
+
+*Release 20200621*:
+New "disabled" mode, triggered by default if not backend.isatty().
+
+*Release 20200613*:
+* New UpdProxy.__call__ which sets the .text property in the manner of logging calls, with (msg,*a).
+* New Upd.normalise static method exposing the text normalisation `unctrl(text.rstrip())`.
+* New UpdProxy.prefix attribute with a fixed prefix for status updates; `prefix+text` is left cropped for display purposes when updated.
+* New UpdProxy.width property computing the space available after the prefix, useful for sizing things like progress bars.
+* Make UpdProxy a context manager which self deletes on exit.
+* Upd: make default backend=sys.stderr, eases the common case.
+* New Upd.above() context manager to support interleaving another stream with the output, as when stdout (for print) is using the same terminal as stderr (for Upd).
+* New out() top level function for convenience use with the default Upd().
+* New nl() top level function for writing a line to stderr.
+* New print() top level function wrapping the builtin print; callers can use "from cs.upd import print" to easily interleave print() with cs.upd use.
+
+*Release 20200517*:
+* Multiline support!
+* Multiline support!
+* Multiline support!
+* New UpdProxy class to track a status line of a multiline Upd in the face of further inserts and deletes.
+* Upd(...) now returns a context manager to clean up the display on its exit.
+* Upd(...) is now a SingletonMixin in order to use the same state if set up in multiple places.
+
+*Release 20200229*:
+* Upd: can now be used as a context manager, clearing the line on exit.
+* Upd.without is now a context manager, returning the older state, and accepting an optional inner state (default "").
+* Upd is now a singleton factory, obsoleting upd_for.
+* Upd.nl: use "insert line above" mode if supported.
+
+*Release 20181108*:
+Documentation improvements.
+
+*Release 20170903*:
+* New function upd_for(stream) returning singleton Upds.
+* Drop noStrip keyword argument/mode - always strip trailing whitespace.
+
+*Release 20160828*:
+* Use "install_requires" instead of "requires" in DISTINFO.
+* Add Upd.flush method.
+* Upd.out: fix longstanding trailing text erasure bug.
+* Upd.nl,out: accept optional positional parameters, use with %-formatting if supplied, just like logging.
+
+*Release 20150118*:
+metadata fix
+
+*Release 20150116*:
+Initial PyPI release.
