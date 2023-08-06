@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-migration-scripts
+Version: 0.1.2
+Summary: Add migration scripts seamlessly
+Home-page: https://github.com/harshatba/django-migration-scripts/
+Author: Harsha Tanguturi
+Author-email: harshatba@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=1.6)
+
+
+PyPI: https://pypi.org/project/django-migration-scripts
+
+### Installation
+
+```bash
+pip install django_migration_scripts
+```
+
+### Usage
+
+Add to INSTALLED_APPS in settings.py
+
+```python
+INSTALLED_APPS = [
+######,
+
+'django_migration_scripts',
+
+#####
+]
+```
+
+Then run the script from shell
+
+```python
+python manage.py addscript <app_name>
+```
+
+This adds a script in the app in the <app>/scripts folder. Add your script there
+
+### Running the script
+
+```python
+python manage.py runscripts
+```
+
