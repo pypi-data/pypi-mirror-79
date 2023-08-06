@@ -1,0 +1,9 @@
+pytest
+flake8
+scikit-hep-testdata
+lz4
+xxhash
+pandas
+awkward1
+boost_histogram
+hist>=2.0.0a1
