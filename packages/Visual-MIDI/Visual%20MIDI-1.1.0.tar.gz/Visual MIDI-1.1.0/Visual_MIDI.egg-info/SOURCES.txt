@@ -1,0 +1,13 @@
+README.md
+setup.py
+Visual_MIDI.egg-info/PKG-INFO
+Visual_MIDI.egg-info/SOURCES.txt
+Visual_MIDI.egg-info/dependency_links.txt
+Visual_MIDI.egg-info/entry_points.txt
+Visual_MIDI.egg-info/requires.txt
+Visual_MIDI.egg-info/top_level.txt
+tests/__init__.py
+tests/test_plot.py
+visual_midi/__init__.py
+visual_midi/presets.py
+visual_midi/visual_midi.py
