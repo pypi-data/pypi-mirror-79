@@ -1,0 +1,13 @@
+Supercap_analysis/__init__.py,sha256=Wzm2wLQcdqgpLVDs6icTN-q2PacW8DvTFsGgQn6uxuY,192
+Supercap_analysis/glob_analysis.py,sha256=jP12TddWlrrbq7NrumwnXkhnk_p2DhRolclaX6Cid4o,7049
+Supercap_analysis/load_capacitor.py,sha256=1Aa4hB_xnM_xQwKpXG_QxHqHqMP1LYB6cPAJxut7KzI,5479
+Supercap_analysis/supercap.py,sha256=tgRCsTH_eVkxZlr7Adqo_KRvf-qxj-MQ2Jy4w-DpWFs,16394
+Supercap_analysis/utilities.py,sha256=9mt1eZ-UGHbGIOTlYXrht59MU36FQbW_3EhbjKmJ9f0,3211
+Supercap_analysis/cccap/__init__.py,sha256=mUq1qHw5XBQE8jhyMygCmg1GopWaoLg-6uas7p9Q33E,45
+Supercap_analysis/cccap/cc_cap.py,sha256=anhzViQjiHzjep80vqPzzjnnVYvAPpQF6it2eCCqLro,4126
+Supercap_analysis/cccap/utilities.py,sha256=B2ilohJ9fsXbM6k4RVovANec_MFP4DvWe3H8rTtPrD4,2991
+Supercap_analysis-1.4.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+Supercap_analysis-1.4.dist-info/METADATA,sha256=93JHGR5sHRt3Gdvk6ic1makA0DMCAUQLRJUZzx0_KYg,27844
+Supercap_analysis-1.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+Supercap_analysis-1.4.dist-info/top_level.txt,sha256=7_scdBcm7BshlzwSF9AID8NIw9ai5VewL3ChKrHaipQ,18
+Supercap_analysis-1.4.dist-info/RECORD,,
