@@ -1,0 +1,17 @@
+paco.models>=7.5.0
+boto3
+click
+cookiecutter
+Setuptools
+tldextract
+pexpect
+troposphere>=2.6.2
+awacs
+deepdiff>=4.3.2
+gitpython
+parliament
+Chameleon
+
+[docs]
+Sphinx>=1.3.5
+sphinx_rtd_theme
