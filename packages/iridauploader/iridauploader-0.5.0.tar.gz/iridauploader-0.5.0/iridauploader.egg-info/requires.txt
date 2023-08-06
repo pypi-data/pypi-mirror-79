@@ -1,0 +1,17 @@
+rauth
+requests
+appdirs
+cerberus
+argparse
+requests-toolbelt
+
+[GUI]
+PyQt5==5.12.1
+PyQt5-stubs==5.12.1
+
+[TEST]
+selenium
+
+[WINDOWS]
+PyQt5==5.12.1
+pynsist
