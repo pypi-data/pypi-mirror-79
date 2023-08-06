@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/test_search_es_client/__init__.py
+src/test_search_es_client/hello.py
+src/test_search_es_client.egg-info/PKG-INFO
+src/test_search_es_client.egg-info/SOURCES.txt
+src/test_search_es_client.egg-info/dependency_links.txt
+src/test_search_es_client.egg-info/requires.txt
+src/test_search_es_client.egg-info/top_level.txt

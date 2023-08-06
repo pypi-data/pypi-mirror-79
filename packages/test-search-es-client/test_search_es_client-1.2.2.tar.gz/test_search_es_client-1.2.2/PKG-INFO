@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: test_search_es_client
+Version: 1.2.2
+Summary: to search es client and record log
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Description: 
+        
+        ### 提供python查询的组件
+        
+        --- 此处描述为 pypi上面的描述
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
