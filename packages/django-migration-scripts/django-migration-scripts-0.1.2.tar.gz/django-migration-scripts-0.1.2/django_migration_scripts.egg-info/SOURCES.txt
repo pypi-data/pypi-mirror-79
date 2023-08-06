@@ -1,0 +1,13 @@
+README.md
+setup.py
+django_migration_scripts/__init__.py
+django_migration_scripts/admin.py
+django_migration_scripts/apps.py
+django_migration_scripts/models.py
+django_migration_scripts/tests.py
+django_migration_scripts/views.py
+django_migration_scripts.egg-info/PKG-INFO
+django_migration_scripts.egg-info/SOURCES.txt
+django_migration_scripts.egg-info/dependency_links.txt
+django_migration_scripts.egg-info/requires.txt
+django_migration_scripts.egg-info/top_level.txt
