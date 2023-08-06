@@ -1,0 +1,1643 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12. mpl &#8212; Jscatter 1.2.7.2 documentation</title>
+    <link rel="stylesheet" href="_static//default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="shortcut icon" href="_static/Jscatter-32x-32.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="13. Examples" href="examples.html" />
+    <link rel="prev" title="11. Plotting in XmGrace" href="GracePlot.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="13. Examples"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="GracePlot.html" title="11. Plotting in XmGrace"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Jscatter 1.2.7.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><span class="section-number">12. </span>mpl</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="mpl">
+<h1><span class="section-number">12. </span>mpl<a class="headerlink" href="#mpl" title="Permalink to this headline">¶</a></h1>
+<p>This is a rudimentary interface to <a class="reference external" href="https://matplotlib.org/">matplotlib</a> to use dataArrays/sasImage easier.
+The standard way to use matplotlib is full available without using this module.
+Nevertheless the source can be used as template to be adapted.</p>
+<p>You may switch to use mpl in fitting and examples using</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">js</span><span class="o">.</span><span class="n">usempl</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The intention is to allow fast/easy plotting (one command to plot) with some convenience
+function in relation to dataArrays and in a non blocking mode of matplotlib.
+E.g. to include automatically the value of an attribute (qq in example) in the legend:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">mydataArray</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># dataList</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">mydataList</span> <span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>With somehow shorter form to determine the marker (sy=symbol) and line (li)
+and allow plotting in one line. Matplotlib is quite slow (and looks for me ugly).
+For 2D plotting use xmgrace.
+For 3D plotting this will give some simple plot options (planned).</p>
+<ul class="simple">
+<li><p>The new methods introduced all start with a big Letter to allow still the access of the original methods.</p></li>
+<li><p>By indexing subplots can be accessed as figure[i] which is figure.axes[i].</p></li>
+<li><p>Same for axes with lines figure[0][i] is figure.axes[0].lines[i].</p></li>
+</ul>
+<p>Example 1:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">i5</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;Q= $q&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;intermediate scattering function&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.13</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># x,y in relative units of the plot</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;I(Q,t)/I(Q,0)&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Q / 1/nm&#39;</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Example 2  ( same as js.mpl.test() ):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span>
+<span class="c1"># use this</span>
+<span class="c1">#fig=pyplot.figure(FigureClass=js.mpl.Figure)</span>
+<span class="c1"># or</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">Multi</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.25</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.9</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.09</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.23</span><span class="p">)</span>
+<span class="n">q</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">loglist</span><span class="p">(</span><span class="mf">0.01</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">aa</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">aa</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="o">-</span><span class="n">pp</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">q</span><span class="p">),</span><span class="mf">0.2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">q</span><span class="p">)]</span><span class="o">.</span><span class="n">T</span><span class="p">))</span>
+    <span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="n">pp</span>
+<span class="n">bb</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="n">q</span><span class="o">**</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="n">bb</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="mi">123</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;some stufff&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,(</span><span class="n">pp</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mf">10.</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;qq = $qq&#39;</span><span class="p">,</span> <span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">],</span> <span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">markeredgewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="o">/</span><span class="mi">5</span><span class="o">+</span><span class="n">pp</span><span class="p">,</span><span class="n">pp</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;q=</span><span class="si">%.1f</span><span class="s1">&#39;</span> <span class="o">%</span><span class="n">pp</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">li</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span><span class="n">markeredgewidth</span> <span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">bb</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq &#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">li</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;y-axis&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;something else&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelbottom</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;x-axis&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Some short hints for matplotlib</strong>
+Dont use the pyplot interface as it hides how most things work and e.g. how to access lines later.
+See <a class="reference external" href="http://pbpython.com/effective-matplotlib.html">THIS</a> .
+After fitting the errorplot can be accessed as <code class="docutils literal notranslate"><span class="pre">data.errplot</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>                         <span class="c1"># access figure properties from fig</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>                            <span class="c1"># access to axes properties</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lines</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>                   <span class="c1"># access to lines properties in axes 0</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lines</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>    <span class="c1"># change color</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>                <span class="c1"># set legend</span>
+<span class="n">data</span><span class="o">.</span><span class="n">errplot</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_yscale</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">)</span> <span class="c1"># set log scale in errplot</span>
+<span class="c1"># for more read matplotlib documentation</span>
+</pre></div>
+</div>
+<div class="section" id="plot">
+<h2><span class="section-number">12.1. </span>Plot<a class="headerlink" href="#plot" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.mplot" title="jscatter.mpl.mplot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mplot</span></code></a>([width, height])</p></td>
+<td><p>Open matplotlib figure in paper layout with methods to display dataArray/dataList.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.surface" title="jscatter.mpl.surface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">surface</span></code></a>(x, y, z[, shape, levels, colorMap, …])</p></td>
+<td><p>Surface plot of x,y,z, data</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.scatter3d" title="jscatter.mpl.scatter3d"><code class="xref py py-obj docutils literal notranslate"><span class="pre">scatter3d</span></code></a>(x[, y, z, pointsize, color])</p></td>
+<td><p>Scatter plot of x,y,z data points.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.contourImage" title="jscatter.mpl.contourImage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">contourImage</span></code></a>(x[, y, z, levels, fontsize, …])</p></td>
+<td><p>Image with contour lines of 3D dataArrays or sasImage/image array.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.plot2Dimage" title="jscatter.mpl.plot2Dimage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">plot2Dimage</span></code></a>(data[, shape, yaxis_label, …])</p></td>
+<td><p>Show a 2D image of a dataarray with XZW values like from oriented cloudscattering.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.showColors" title="jscatter.mpl.showColors"><code class="xref py py-obj docutils literal notranslate"><span class="pre">showColors</span></code></a>()</p></td>
+<td><p>Get a list of the colormaps in matplotlib.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.showlastErrPlot2D" title="jscatter.mpl.showlastErrPlot2D"><code class="xref py py-obj docutils literal notranslate"><span class="pre">showlastErrPlot2D</span></code></a>(data[, lastfit, shape, …])</p></td>
+<td><p>Show a 2D errplot for 2D fit data.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.test" title="jscatter.mpl.test"><code class="xref py py-obj docutils literal notranslate"><span class="pre">test</span></code></a>([keepopen])</p></td>
+<td><p>A small test for mpl module making a plot.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="figures">
+<h2><span class="section-number">12.2. </span>Figures<a class="headerlink" href="#figures" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt>
+<em class="property">class </em><code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">jsFigure</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure"><span class="viewcode-link">[source]</span></a></dt>
+<dd><p>Create figure with Axes as jspaperAxes projection.</p>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">i5</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;Q= $q&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;intermediate scattering function&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.13</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># x,y in relative units of the plot</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;I(Q,t)/I(Q,0)&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">1.1</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Q / 1/nm&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Multi" title="jscatter.mpl.jsFigure.Multi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Multi</span></code></a>(n, m)</p></td>
+<td><p>Creates multiple subplots on grid n,m.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Addsubplot" title="jscatter.mpl.jsFigure.Addsubplot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Addsubplot</span></code></a>([bbox])</p></td>
+<td><p>Add a subplot in the foreground using jscatter paper default layout.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Plot" title="jscatter.mpl.jsFigure.Plot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Plot</span></code></a>(*args, **kwargs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Clear" title="jscatter.mpl.jsFigure.Clear"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Clear</span></code></a>()</p></td>
+<td><p>Clear content of all axes</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Save" title="jscatter.mpl.jsFigure.Save"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Save</span></code></a>(filename[, format, dpi])</p></td>
+<td><p>Save with filename</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.is_open" title="jscatter.mpl.jsFigure.is_open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.is_open</span></code></a>()</p></td>
+<td><p>Is the figure window still open.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jsFigure.Exit" title="jscatter.mpl.jsFigure.Exit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jsFigure.Exit</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="axes">
+<h2><span class="section-number">12.3. </span>Axes<a class="headerlink" href="#axes" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt>
+<em class="property">class </em><code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">jspaperAxes</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes"><span class="viewcode-link">[source]</span></a></dt>
+<dd><p>Build an axes in a figure.</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>fig</strong><span class="classifier"><cite>~matplotlib.figure.Figure</cite></span></dt><dd><p>The axes is build in the <cite>.Figure</cite> <em>fig</em>.</p>
+</dd>
+<dt><strong>rect</strong><span class="classifier">[left, bottom, width, height]</span></dt><dd><p>The axes is build in the rectangle <em>rect</em>. <em>rect</em> is in
+<cite>.Figure</cite> coordinates.</p>
+</dd>
+<dt><strong>sharex, sharey</strong><span class="classifier"><cite>~.axes.Axes</cite>, optional</span></dt><dd><p>The x or y <cite>~.matplotlib.axis</cite> is shared with the x or
+y axis in the input <cite>~.axes.Axes</cite>.</p>
+</dd>
+<dt><strong>frameon</strong><span class="classifier">bool, optional</span></dt><dd><p>True means that the axes frame is visible.</p>
+</dd>
+<dt><strong>**kwargs</strong></dt><dd><blockquote>
+<div><dl class="simple">
+<dt>Other optional keyword arguments:</dt><dd><p>adjustable: {‘box’, ‘datalim’}</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array
+alpha: float
+anchor: 2-tuple of floats or {‘C’, ‘SW’, ‘S’, ‘SE’, …}
+animated: bool
+aspect: {‘auto’, ‘equal’} or num
+autoscale_on: bool
+autoscalex_on: bool
+autoscaley_on: bool
+axes_locator: Callable[[Axes, Renderer], Bbox]
+axisbelow: bool or ‘line’
+clip_box: <cite>.Bbox</cite>
+clip_on: bool
+clip_path: [(<cite>~matplotlib.path.Path</cite>, <cite>.Transform</cite>) | <cite>.Patch</cite> | None]
+contains: callable
+facecolor: color
+fc: color
+figure: <cite>.Figure</cite>
+frame_on: bool
+gid: str
+in_layout: bool
+label: object
+navigate: bool
+navigate_mode: unknown
+path_effects: <cite>.AbstractPathEffect</cite>
+picker: None or bool or float or callable
+position: [left, bottom, width, height] or <cite>~matplotlib.transforms.Bbox</cite>
+rasterization_zorder: float or None
+rasterized: bool or None
+sketch_params: (scale: float, length: float, randomness: float)
+snap: bool or None
+title: str
+transform: <cite>.Transform</cite>
+url: str
+visible: bool
+xbound: unknown
+xlabel: str
+xlim: (left: float, right: float)
+xmargin: float greater than -0.5
+xscale: {“linear”, “log”, “symlog”, “logit”, …}
+xticklabels: List[str]
+xticks: list
+ybound: unknown
+ylabel: str
+ylim: (bottom: float, top: float)
+ymargin: float greater than -0.5
+yscale: {“linear”, “log”, “symlog”, “logit”, …}
+yticklabels: List[str]
+yticks: list
+zorder: float</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl>
+<dt><strong>axes</strong><span class="classifier"><cite>~.axes.Axes</cite></span></dt><dd><p>The new <cite>~.axes.Axes</cite> object.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Plot" title="jscatter.mpl.jspaperAxes.Plot"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Plot</span></code></a>(*datasets, **kwargs)</p></td>
+<td><p>Plot dataArrays/dataList or array in matplotlib axes.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Yaxis" title="jscatter.mpl.jspaperAxes.Yaxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Yaxis</span></code></a>([min, max, label, scale, …])</p></td>
+<td><p>Set xaxis</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Xaxis" title="jscatter.mpl.jspaperAxes.Xaxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Xaxis</span></code></a>([min, max, label, scale, …])</p></td>
+<td><p>Set xaxis</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Legend" title="jscatter.mpl.jspaperAxes.Legend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Legend</span></code></a>(**kwargs)</p></td>
+<td><p>Show/update legend.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Title" title="jscatter.mpl.jspaperAxes.Title"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Title</span></code></a>(title[, size])</p></td>
+<td><p>set figure title</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Subtitle" title="jscatter.mpl.jspaperAxes.Subtitle"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Subtitle</span></code></a>(subtitle[, size])</p></td>
+<td><p>Append subtitle to title</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.SetView" title="jscatter.mpl.jspaperAxes.SetView"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.SetView</span></code></a>([xmin, ymin, xmax, ymax])</p></td>
+<td><p>This sets the bounding box of the axes.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Clear" title="jscatter.mpl.jspaperAxes.Clear"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Clear</span></code></a>()</p></td>
+<td><p>Clear data of this axes.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Text" title="jscatter.mpl.jspaperAxes.Text"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Text</span></code></a>(string, x, y, **kwargs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="#jscatter.mpl.jspaperAxes.Arrow" title="jscatter.mpl.jspaperAxes.Arrow"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jspaperAxes.Arrow</span></code></a>([x1, y1, x2, y2, …])</p></td>
+<td><p>Plot an arrow or line.</p></td>
+</tr>
+</tbody>
+</table>
+<hr class="docutils" />
+<span class="target" id="module-jscatter.mpl"></span><p>This is a rudimentary interface to <a class="reference external" href="https://matplotlib.org/">matplotlib</a> to use dataArrays/sasImage easier.
+The standard way to use matplotlib is full available without using this module.
+Nevertheless the source can be used as template to be adapted.</p>
+<p>You may switch to use mpl in fitting and examples using</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">js</span><span class="o">.</span><span class="n">usempl</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The intention is to allow fast/easy plotting (one command to plot) with some convenience
+function in relation to dataArrays and in a non blocking mode of matplotlib.
+E.g. to include automatically the value of an attribute (qq in example) in the legend:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">mydataArray</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># dataList</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">mydataList</span> <span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>With somehow shorter form to determine the marker (sy=symbol) and line (li)
+and allow plotting in one line. Matplotlib is quite slow (and looks for me ugly).
+For 2D plotting use xmgrace.
+For 3D plotting this will give some simple plot options (planned).</p>
+<ul class="simple">
+<li><p>The new methods introduced all start with a big Letter to allow still the access of the original methods.</p></li>
+<li><p>By indexing subplots can be accessed as figure[i] which is figure.axes[i].</p></li>
+<li><p>Same for axes with lines figure[0][i] is figure.axes[0].lines[i].</p></li>
+</ul>
+<p>Example 1:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">i5</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;Q= $q&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;intermediate scattering function&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.13</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># x,y in relative units of the plot</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;I(Q,t)/I(Q,0)&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Q / 1/nm&#39;</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Example 2  ( same as js.mpl.test() ):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span>
+<span class="c1"># use this</span>
+<span class="c1">#fig=pyplot.figure(FigureClass=js.mpl.Figure)</span>
+<span class="c1"># or</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">Multi</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.25</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.9</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.09</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.23</span><span class="p">)</span>
+<span class="n">q</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">loglist</span><span class="p">(</span><span class="mf">0.01</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">aa</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">aa</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="o">-</span><span class="n">pp</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">q</span><span class="p">),</span><span class="mf">0.2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">q</span><span class="p">)]</span><span class="o">.</span><span class="n">T</span><span class="p">))</span>
+    <span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="n">pp</span>
+<span class="n">bb</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="n">q</span><span class="o">**</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="n">bb</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="mi">123</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;some stufff&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,(</span><span class="n">pp</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mf">10.</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;qq = $qq&#39;</span><span class="p">,</span> <span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">],</span> <span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">markeredgewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="o">/</span><span class="mi">5</span><span class="o">+</span><span class="n">pp</span><span class="p">,</span><span class="n">pp</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;q=</span><span class="si">%.1f</span><span class="s1">&#39;</span> <span class="o">%</span><span class="n">pp</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">li</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span><span class="n">markeredgewidth</span> <span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">bb</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq &#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">li</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;y-axis&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;something else&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelbottom</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;x-axis&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Some short hints for matplotlib</strong>
+Dont use the pyplot interface as it hides how most things work and e.g. how to access lines later.
+See <a class="reference external" href="http://pbpython.com/effective-matplotlib.html">THIS</a> .
+After fitting the errorplot can be accessed as <code class="docutils literal notranslate"><span class="pre">data.errplot</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>                         <span class="c1"># access figure properties from fig</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>                            <span class="c1"># access to axes properties</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lines</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>                   <span class="c1"># access to lines properties in axes 0</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">lines</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>    <span class="c1"># change color</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>                <span class="c1"># set legend</span>
+<span class="n">data</span><span class="o">.</span><span class="n">errplot</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_yscale</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">)</span> <span class="c1"># set log scale in errplot</span>
+<span class="c1"># for more read matplotlib documentation</span>
+</pre></div>
+</div>
+<dl class="py function">
+<dt id="jscatter.mpl.close">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">close</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Close figure/s. See matplotlib.pyplot.close .</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.contourImage">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">contourImage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">levels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">fontsize</span><span class="o">=</span><span class="default_value">10</span></em>, <em class="sig-param"><span class="n">colorMap</span><span class="o">=</span><span class="default_value">'jet'</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">'norm'</span></em>, <em class="sig-param"><span class="n">lineMap</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">axis</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">origin</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">block</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">invert_yaxis</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">invert_xaxis</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="n">linthresh</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">linscale</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">badcolor</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#contourImage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.contourImage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Image with contour lines of 3D dataArrays or sasImage/image array.</p>
+<p>This is a convenience function to easily plot dataArray/sasImage content and covers not all matplotlib options.
+The first pixel is at upper left corner and X is vertical as for images which
+is sometimes not intuitive for dataArrays.
+Use <a href="#id4"><span class="problematic" id="id5">invert_</span></a>?axis and origin as needed or adapt the source code to your needs.</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>x,y,z</strong><span class="classifier">arrays</span></dt><dd><p>x,y,z coordinates for z display in x,y locations.
+If x is image_array or sasImage this is used ([0,0] pixel upper left corner).
+If x is dataArray we plot like x,y,z=x.X,x.Z,x.Y as dataArray use always .Y as value in X,Z coordinates.
+x may be dataArray created from a sasImage using <code class="docutils literal notranslate"><span class="pre">`image.asdataArray`</span></code>.
+Using .regrid the first .X values is at upper left corner.</p>
+</dd>
+<dt><strong>levels</strong><span class="classifier">int, None, sequence of values</span></dt><dd><p>Number of contour lines between min and max or sequence of specific values.</p>
+</dd>
+<dt><strong>colorMap</strong><span class="classifier">string</span></dt><dd><p>Get a colormap instance from name.
+Standard mpl colormap name (see showColors).</p>
+</dd>
+<dt><strong>badcolor</strong><span class="classifier">float, color</span></dt><dd><p>Set the color for bad values (like masked pixel) values in an image.
+Default is  bad values be transparent.
+Color can be matplotlib color as ‘k’,’b’ or
+float value in interval [0,1] of the chosen colorMap.
+0 sets to minimum value, 1 to maximum value.</p>
+</dd>
+<dt><strong>scale</strong><span class="classifier">‘log’, ‘symlog’, default = ‘norm’</span></dt><dd><p>Scale for intensities.</p>
+<ul class="simple">
+<li><p>‘norm’ Linear scale.</p></li>
+<li><p>‘log’ Logarithmic scale</p></li>
+<li><p>‘symlog’ Symmetrical logarithmic scale is logarithmic in both the positive
+and negative directions from the origin. This works also for only positive data.
+Use linthresh, linscale to adjust.</p></li>
+</ul>
+</dd>
+<dt><strong>linthresh</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+The range within which the plot is linear (-linthresh to linthresh).</p>
+</dd>
+<dt><strong>linscale</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+Its value is the number of decades to use for each half of the linear range.
+E.g. 10 uses 1 decade.</p>
+</dd>
+<dt><strong>lineMap</strong><span class="classifier">string</span></dt><dd><p>Label color
+Colormap name as in colorMap, otherwise as cs in in Axes.clabel
+* if None, the color of each label matches the color of the corresponding contour
+* if one string color, e.g., colors = ‘r’ or colors = ‘red’, all labels will be plotted in this color
+* if a tuple of matplotlib color args (string, float, rgb, etc),</p>
+<blockquote>
+<div><p>different labels will be plotted in different colors in the order specified</p>
+</div></blockquote>
+</dd>
+<dt><strong>fontsize</strong><span class="classifier">int, default 10</span></dt><dd><p>Size of line labels in pixel</p>
+</dd>
+<dt><strong>axis</strong><span class="classifier">None, ‘pixel’</span></dt><dd><p>If coordinates should be forced to pixel.
+Wavevectors are used only for sasImage using getPixelQ.</p>
+</dd>
+<dt><strong>invert_yaxis,invert_xaxis</strong><span class="classifier">bool</span></dt><dd><p>Invert corresponding axis.</p>
+</dd>
+<dt><strong>origin</strong><span class="classifier">‘lower’,’upper’</span></dt><dd><p>Origin of the plot in upper left or lower left corner.
+See matplotlib imshow.</p>
+</dd>
+<dt><strong>block</strong><span class="classifier">bool</span></dt><dd><p>Open in blocking or non-blocking mode</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>figure</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul>
+<li><p>For irregular distributed points (x,z,y) the point positions can later be added by</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="s1">&#39;ko&#39;</span><span class="p">,</span> <span class="n">ms</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">block</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>dataArray created from sasImage(.asdataArray) need to be complete with out missing pixels.
+e.g. using <code class="docutils literal notranslate"><span class="pre">`image.asdataArray(masked=0)`</span></code> or by interpolating the missing pixel.
+Otherwise the used  matplotlib.tricontour will interpolate which looks different than expected.</p></li>
+</ul>
+<p class="rubric">Examples</p>
+<p>Create log scale image for maskedArray (sasImage).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1"># sets negative values to zero</span>
+<span class="n">calibration</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">sas</span><span class="o">.</span><span class="n">sasImage</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/calibration.tiff&#39;</span><span class="p">)</span>
+<span class="n">fig1</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">contourImage</span><span class="p">(</span><span class="n">calibration</span><span class="p">)</span>
+<span class="n">fig1</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Calibration lin scale&#39;</span><span class="p">)</span>
+<span class="n">fig2</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">contourImage</span><span class="p">(</span><span class="n">calibration</span><span class="p">,</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;log&#39;</span><span class="p">)</span>
+<span class="c1">#</span>
+<span class="c1"># change labels and title</span>
+<span class="n">ax</span><span class="o">=</span><span class="n">fig2</span><span class="o">.</span><span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;qx &#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;qy&#39;</span><span class="p">)</span>
+<span class="n">fig2</span><span class="o">.</span><span class="n">suptitle</span><span class="p">(</span><span class="s1">&#39;Calibration log scaled&#39;</span><span class="p">)</span>
+<span class="c1"># in case something is not shown</span>
+<span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="n">block</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Use <code class="docutils literal notranslate"><span class="pre">scale='symlog'</span></code> for mixed lin=log scaling to pronounce low scattering.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1"># sets negative values to zero</span>
+<span class="n">bsa</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">sas</span><span class="o">.</span><span class="n">sasImage</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/BSA11mg.tiff&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">contourImage</span><span class="p">(</span><span class="n">bsa</span><span class="p">,</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;sym&#39;</span><span class="p">,</span><span class="n">linthresh</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">linscale</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Other examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1"># On a regular grid</span>
+<span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="o">-</span><span class="mi">4</span><span class="p">:</span><span class="mi">8</span><span class="p">:</span><span class="mf">0.1</span><span class="p">,</span><span class="o">-</span><span class="mi">3</span><span class="p">:</span><span class="mi">5</span><span class="p">:</span><span class="mf">0.1</span><span class="p">]</span>
+<span class="n">xyz</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+                <span class="n">z</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+                <span class="mf">0.3</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">z</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">+</span><span class="mf">0.01</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">())),</span>
+                <span class="mf">0.01</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span> <span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="c1"># set columns where to find X,Y,Z )</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">setColumnIndex</span><span class="p">(</span><span class="n">ix</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">iy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">iz</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="c1"># first X value (here -4) is in [0,0] upper left corner, so we invert the corresponding axis</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">contourImage</span><span class="p">(</span><span class="n">xyz</span><span class="p">,</span><span class="n">invert_yaxis</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1">#fig.savefig(js.examples.imagepath+&#39;/contourImage.jpg&#39;)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/contourImage.jpg"><img alt="contourImage" class="align-center" src="_images/contourImage.jpg" style="width: 50%;" /></a>
+<p>If points are missing the tricontour allows interpolation of missing contours.
+In this case contour lines are used.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># remove each 3rd point that we have missing points</span>
+<span class="c1"># like random points</span>
+<span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">formel</span><span class="o">.</span><span class="n">randomPointsInCube</span><span class="p">(</span><span class="mi">1500</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">T</span><span class="o">*</span><span class="mi">10</span><span class="o">-</span><span class="mi">4</span>
+<span class="n">xyz</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+                <span class="n">z</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+                <span class="mf">1.3</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">z</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">+</span><span class="mf">0.001</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">()))]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">setColumnIndex</span><span class="p">(</span><span class="n">ix</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">iy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">iz</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">contourImage</span><span class="p">(</span><span class="n">xyz</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.figure">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">figure</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#figure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.figure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Opens matplotlib figure using pyplot.</p>
+<p>Arguments are passed to matplotlib</p>
+</dd></dl>
+
+<dl class="py data">
+<dt id="jscatter.mpl.gf">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">gf</code><em class="property"> = 20</em><a class="headerlink" href="#jscatter.mpl.gf" title="Permalink to this definition">¶</a></dt>
+<dd><p>gracefactor to get same scaling as in grace set to 10</p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="jscatter.mpl.jsFigure">
+<em class="property">class </em><code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">jsFigure</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">matplotlib.figure.Figure</span></code></p>
+<p>Create figure with Axes as jspaperAxes projection.</p>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">i5</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">datapath</span><span class="o">+</span><span class="s1">&#39;/iqt_1hho.dat&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">i5</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;Q= $q&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="s1">&#39;l&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;intermediate scattering function&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.13</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># x,y in relative units of the plot</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;I(Q,t)/I(Q,0)&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="nb">max</span><span class="o">=</span><span class="mf">1.1</span><span class="p">)</span>
+<span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;Q / 1/nm&#39;</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="mi">120</span><span class="p">)</span>
+</pre></div>
+</div>
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Addsubplot">
+<code class="sig-name descname">Addsubplot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">bbox</span><span class="o">=</span><span class="default_value">0.2, 0.2, 0.6, 0.6</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Addsubplot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Addsubplot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a subplot in the foreground using jscatter paper default layout.</p>
+<p>To use matplotlib default use add_subplot.</p>
+<p>To change order of drawing (stacking) use the zorder attribute as
+<em>fig.axes[1].set_zorder(3)</em></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>bbox</strong><span class="classifier">rect [left, bottom, width, height]</span></dt><dd><p>Bounding box position and size.</p>
+</dd>
+<dt><strong>args,kwargs :</strong></dt><dd><p>See all arguments for matplotlib subplot except projection.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">Addsubplot</span><span class="p">()</span> <span class="c1"># a default position (dont repeat same positions)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">Addsubplot</span><span class="p">([</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.3</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Clear">
+<code class="sig-name descname">Clear</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Clear"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear content of all axes</p>
+<p>to clear axes use fig.clear()</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Close">
+<code class="sig-name descname">Close</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Close"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Close" title="Permalink to this definition">¶</a></dt>
+<dd><p>Close the figure</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Exit">
+<code class="sig-name descname">Exit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Exit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Exit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Legend">
+<code class="sig-name descname">Legend</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Legend"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Legend" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Line">
+<code class="sig-name descname">Line</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Line"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Line" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Multi">
+<code class="sig-name descname">Multi</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">n</span></em>, <em class="sig-param"><span class="n">m</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Multi"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Multi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates multiple subplots on grid n,m. with projection “jspaperAxes”.</p>
+<p>Subplots can be accesses as fig[i]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Plot">
+<code class="sig-name descname">Plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#jscatter.mpl.jsFigure.Plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Save">
+<code class="sig-name descname">Save</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filename</span></em>, <em class="sig-param"><span class="n">format</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">dpi</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Save"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Save" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save with filename</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Show">
+<code class="sig-name descname">Show</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#jscatter.mpl.jsFigure.Show" title="Permalink to this definition">¶</a></dt>
+<dd><p>If using a GUI backend with pyplot, display the figure window.</p>
+<p>If the figure was not created using
+<code class="xref py py-func docutils literal notranslate"><span class="pre">figure()</span></code>, it will lack a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">FigureManagerBase</span></code>, and
+will raise an AttributeError.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This does not manage an GUI event loop. Consequently, the figure
+may only be shown briefly or not shown at all if you or your
+environment are not managing an event loop.</p>
+<p>Proper use cases for <cite>.Figure.show</cite> include running this from a
+GUI application or an IPython shell.</p>
+<p>If you’re running a pure python shell or executing a non-GUI
+python script, you should use <cite>matplotlib.pyplot.show</cite> instead,
+which takes care of managing the event loop for you.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>warn</strong><span class="classifier">bool</span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> and we are not running headless (i.e. on Linux with an
+unset DISPLAY), issue warning when called on a non-GUI backend.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Subtitle">
+<code class="sig-name descname">Subtitle</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Subtitle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Subtitle" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Text">
+<code class="sig-name descname">Text</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Title">
+<code class="sig-name descname">Title</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Title"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Xaxis">
+<code class="sig-name descname">Xaxis</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Xaxis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Xaxis" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.Yaxis">
+<code class="sig-name descname">Yaxis</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.Yaxis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.Yaxis" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.is_open">
+<code class="sig-name descname">is_open</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.is_open"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.is_open" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is the figure window still open.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.plot">
+<code class="sig-name descname">plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.plot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.plot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jsFigure.show">
+<code class="sig-name descname">show</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jsFigure.show"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jsFigure.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>If using a GUI backend with pyplot, display the figure window.</p>
+<p>If the figure was not created using
+<code class="xref py py-func docutils literal notranslate"><span class="pre">figure()</span></code>, it will lack a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">FigureManagerBase</span></code>, and
+will raise an AttributeError.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This does not manage an GUI event loop. Consequently, the figure
+may only be shown briefly or not shown at all if you or your
+environment are not managing an event loop.</p>
+<p>Proper use cases for <cite>.Figure.show</cite> include running this from a
+GUI application or an IPython shell.</p>
+<p>If you’re running a pure python shell or executing a non-GUI
+python script, you should use <cite>matplotlib.pyplot.show</cite> instead,
+which takes care of managing the event loop for you.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>warn</strong><span class="classifier">bool</span></dt><dd><p>If <code class="docutils literal notranslate"><span class="pre">True</span></code> and we are not running headless (i.e. on Linux with an
+unset DISPLAY), issue warning when called on a non-GUI backend.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="jscatter.mpl.jspaperAxes">
+<em class="property">class </em><code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">jspaperAxes</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">matplotlib.axes._axes.Axes</span></code></p>
+<p>Build an axes in a figure.</p>
+<dl class="field-list">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl>
+<dt><strong>fig</strong><span class="classifier"><cite>~matplotlib.figure.Figure</cite></span></dt><dd><p>The axes is build in the <cite>.Figure</cite> <em>fig</em>.</p>
+</dd>
+<dt><strong>rect</strong><span class="classifier">[left, bottom, width, height]</span></dt><dd><p>The axes is build in the rectangle <em>rect</em>. <em>rect</em> is in
+<cite>.Figure</cite> coordinates.</p>
+</dd>
+<dt><strong>sharex, sharey</strong><span class="classifier"><cite>~.axes.Axes</cite>, optional</span></dt><dd><p>The x or y <cite>~.matplotlib.axis</cite> is shared with the x or
+y axis in the input <cite>~.axes.Axes</cite>.</p>
+</dd>
+<dt><strong>frameon</strong><span class="classifier">bool, optional</span></dt><dd><p>True means that the axes frame is visible.</p>
+</dd>
+<dt><strong>**kwargs</strong></dt><dd><blockquote>
+<div><dl class="simple">
+<dt>Other optional keyword arguments:</dt><dd><p>adjustable: {‘box’, ‘datalim’}</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array
+alpha: float
+anchor: 2-tuple of floats or {‘C’, ‘SW’, ‘S’, ‘SE’, …}
+animated: bool
+aspect: {‘auto’, ‘equal’} or num
+autoscale_on: bool
+autoscalex_on: bool
+autoscaley_on: bool
+axes_locator: Callable[[Axes, Renderer], Bbox]
+axisbelow: bool or ‘line’
+clip_box: <cite>.Bbox</cite>
+clip_on: bool
+clip_path: [(<cite>~matplotlib.path.Path</cite>, <cite>.Transform</cite>) | <cite>.Patch</cite> | None]
+contains: callable
+facecolor: color
+fc: color
+figure: <cite>.Figure</cite>
+frame_on: bool
+gid: str
+in_layout: bool
+label: object
+navigate: bool
+navigate_mode: unknown
+path_effects: <cite>.AbstractPathEffect</cite>
+picker: None or bool or float or callable
+position: [left, bottom, width, height] or <cite>~matplotlib.transforms.Bbox</cite>
+rasterization_zorder: float or None
+rasterized: bool or None
+sketch_params: (scale: float, length: float, randomness: float)
+snap: bool or None
+title: str
+transform: <cite>.Transform</cite>
+url: str
+visible: bool
+xbound: unknown
+xlabel: str
+xlim: (left: float, right: float)
+xmargin: float greater than -0.5
+xscale: {“linear”, “log”, “symlog”, “logit”, …}
+xticklabels: List[str]
+xticks: list
+ybound: unknown
+ylabel: str
+ylim: (bottom: float, top: float)
+ymargin: float greater than -0.5
+yscale: {“linear”, “log”, “symlog”, “logit”, …}
+yticklabels: List[str]
+yticks: list
+zorder: float</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl>
+<dt><strong>axes</strong><span class="classifier"><cite>~.axes.Axes</cite></span></dt><dd><p>The new <cite>~.axes.Axes</cite> object.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Arrow">
+<code class="sig-name descname">Arrow</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x1</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">y1</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">x2</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">y2</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">linewidth</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">arrow</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Arrow"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Arrow" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot an arrow or line.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x1,y1,x2,y2</strong><span class="classifier">float</span></dt><dd><p>Start/end coordinates in box units [0..1].</p>
+</dd>
+<dt><strong>linewidth</strong><span class="classifier">float</span></dt><dd><p>Linewidth</p>
+</dd>
+<dt><strong>arrow</strong><span class="classifier">int or [‘-‘,’-&gt;’,’&lt;-‘,’&lt;-&gt;’]</span></dt><dd><p>Type of arrow.
+If int it selects from [‘-‘,’-&gt;’,’&lt;-‘,’&lt;-&gt;’]</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Autoscale">
+<code class="sig-name descname">Autoscale</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Autoscale"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Autoscale" title="Permalink to this definition">¶</a></dt>
+<dd><p>Autoscale, see matplotlib.axes.Axes.autoscale_view() .</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Clear">
+<code class="sig-name descname">Clear</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Clear"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clear data of this axes.</p>
+<p>To clear everything use clear().</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Legend">
+<code class="sig-name descname">Legend</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Legend"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Legend" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show/update legend.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>charsize, fontsize</strong><span class="classifier">int, default 12</span></dt><dd><p>Font size of labels</p>
+</dd>
+<dt><strong>labelspacing</strong><span class="classifier">int , default =12</span></dt><dd><p>Spacing of labels</p>
+</dd>
+<dt><strong>loc</strong><span class="classifier">int [0..10] default 1 ‘upper right’</span></dt><dd><p>Location specifier
+- ‘best’    0, ‘upper right’ 1, ‘upper left’ 2, ‘lower left’ 3, ‘lower right’ 4,‘center left’ 6,</p>
+</dd>
+<dt><strong>x,y</strong><span class="classifier">float [0..1]</span></dt><dd><p>Determines, <strong>if both</strong> given, loc and sets position in axes coordinates.
+Sets bbox_to_anchor=(x,y). Values outside [0,1] are ignored.</p>
+</dd>
+<dt><strong>kwargs</strong><span class="classifier">kwargs of axes.legend</span></dt><dd><p>Any given kwarg overrides the previous</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Plot">
+<code class="sig-name descname">Plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">datasets</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot dataArrays/dataList or array in matplotlib axes.</p>
+<p>Parameters are passed to matplotlib.axes.Axes.plot</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>datasets</strong><span class="classifier">dataArray/dataList or 1D arrays</span></dt><dd><dl class="simple">
+<dt>Datasets to plot.</dt><dd><ul class="simple">
+<li><p>Can be several dataArray/dataList (with .X, .Y and .eY) or 1D arrays (a[1,:],b[2,:]), but dont mix it.</p></li>
+<li><p>If dataArray/dataList has .eY errors a errorbars are plotted.</p></li>
+<li><p>If format strings are found  only the first is used. symbol, line override this.</p></li>
+<li><p>Only a single line for 1D arrays is allowed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt><strong>symbol,sy</strong><span class="classifier">int, list of float</span></dt><dd><ul class="simple">
+<li><p>[symbol,size,color,fillcolor,fillpattern] as [1,1,1,-1];</p></li>
+<li><p>single integer to chose symbol eg symbol=3;  symbol=0 switches off</p></li>
+<li><p>negative increments from last</p></li>
+<li><p>symbol =&gt; see Line2D.filled_markers</p></li>
+<li><p>size   =&gt;    size in pixel</p></li>
+<li><p>color  =&gt; int in sequence = wbgrcmyk</p></li>
+<li><p>fillcolor=None    see color</p></li>
+<li><p>fillpattern=None  0 empty, 1 full, ….test it</p></li>
+</ul>
+</dd>
+<dt><strong>line,li</strong><span class="classifier">int, list of float or Line object</span></dt><dd><ul class="simple">
+<li><p>[linestyle,linewidth,color] as [1,1,’’];</p></li>
+<li><p>negative increments</p></li>
+<li><p>single integer to chose linestyle line=1; line=0 switches of</p></li>
+<li><p>linestyle int   ‘-‘,’–’,’-.’,’:’</p></li>
+<li><p>linewidth float increasing thickness</p></li>
+<li><p>color        see symbol color</p></li>
+</ul>
+</dd>
+<dt><strong>errorbar,er</strong><span class="classifier">int or list of float or Errorbar object</span></dt><dd><ul class="simple">
+<li><p>[color,size] as [1,1]; no increment, no repeat</p></li>
+<li><p>color int             see symbol color, non-integer syncs to symbol color</p></li>
+<li><p>size float            default 1.0 ; smaller is 0.5</p></li>
+</ul>
+</dd>
+<dt><strong>legend,le</strong><span class="classifier">string</span></dt><dd><ul class="simple">
+<li><p>determines legend for all datasets</p></li>
+<li><p>string replacement: attr name prepended by ‘$’ (eg. ‘$par’)
+is replaced by value str(par1.flatten()[0]) if possible.
+$(par) for not unique names</p></li>
+</ul>
+</dd>
+<dt><strong>errorbar,er</strong><span class="classifier">float</span></dt><dd><ul class="simple">
+<li><p>errorbar thickness, zero is no errorbar</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Resetlast">
+<code class="sig-name descname">Resetlast</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Resetlast"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Resetlast" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.SetView">
+<code class="sig-name descname">SetView</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">xmin</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">ymin</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">xmax</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">ymax</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.SetView"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.SetView" title="Permalink to this definition">¶</a></dt>
+<dd><p>This sets the bounding box of the axes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>xmin,xmax,ymin,ymax</strong><span class="classifier">float</span></dt><dd><p>view range</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Subtitle">
+<code class="sig-name descname">Subtitle</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">subtitle</span></em>, <em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Subtitle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Subtitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Append subtitle to title</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Text">
+<code class="sig-name descname">Text</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">string</span></em>, <em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Title">
+<code class="sig-name descname">Title</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">title</span></em>, <em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Title"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Title" title="Permalink to this definition">¶</a></dt>
+<dd><p>set figure title</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Xaxis">
+<code class="sig-name descname">Xaxis</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">min</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">max</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">charsize</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">tick</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">ticklabel</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Xaxis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Xaxis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set xaxis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>label</strong><span class="classifier">string</span></dt><dd><p>Label</p>
+</dd>
+<dt><strong>scale</strong><span class="classifier">‘log’, ‘normal’</span></dt><dd><p>Scale</p>
+</dd>
+<dt><strong>min,max</strong><span class="classifier">float</span></dt><dd><p>Set min and max of scale</p>
+</dd>
+<dt><strong>size</strong><span class="classifier">int</span></dt><dd><p>Pixelsize of label</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.Yaxis">
+<code class="sig-name descname">Yaxis</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">min</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">max</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">label</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">size</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">charsize</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">tick</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">ticklabel</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.Yaxis"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.Yaxis" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set xaxis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>label</strong><span class="classifier">string</span></dt><dd><p>Label</p>
+</dd>
+<dt><strong>scale</strong><span class="classifier">‘log’, ‘normal’</span></dt><dd><p>Scale</p>
+</dd>
+<dt><strong>min,max</strong><span class="classifier">float</span></dt><dd><p>Set min and max</p>
+</dd>
+<dt><strong>size</strong><span class="classifier">int</span></dt><dd><p>Pixelsize of label</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.linlog">
+<code class="sig-name descname">linlog</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.linlog"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.linlog" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.loglin">
+<code class="sig-name descname">loglin</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.loglin"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.loglin" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="jscatter.mpl.jspaperAxes.name">
+<code class="sig-name descname">name</code><em class="property"> = 'paper'</em><a class="headerlink" href="#jscatter.mpl.jspaperAxes.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="jscatter.mpl.jspaperAxes.plot">
+<code class="sig-name descname">plot</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">datasets</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#jspaperAxes.plot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.jspaperAxes.plot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot dataArrays/dataList or array in matplotlib axes.</p>
+<p>Parameters are passed to matplotlib.axes.Axes.plot</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>datasets</strong><span class="classifier">dataArray/dataList or 1D arrays</span></dt><dd><dl class="simple">
+<dt>Datasets to plot.</dt><dd><ul class="simple">
+<li><p>Can be several dataArray/dataList (with .X, .Y and .eY) or 1D arrays (a[1,:],b[2,:]), but dont mix it.</p></li>
+<li><p>If dataArray/dataList has .eY errors a errorbars are plotted.</p></li>
+<li><p>If format strings are found  only the first is used. symbol, line override this.</p></li>
+<li><p>Only a single line for 1D arrays is allowed.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt><strong>symbol,sy</strong><span class="classifier">int, list of float</span></dt><dd><ul class="simple">
+<li><p>[symbol,size,color,fillcolor,fillpattern] as [1,1,1,-1];</p></li>
+<li><p>single integer to chose symbol eg symbol=3;  symbol=0 switches off</p></li>
+<li><p>negative increments from last</p></li>
+<li><p>symbol =&gt; see Line2D.filled_markers</p></li>
+<li><p>size   =&gt;    size in pixel</p></li>
+<li><p>color  =&gt; int in sequence = wbgrcmyk</p></li>
+<li><p>fillcolor=None    see color</p></li>
+<li><p>fillpattern=None  0 empty, 1 full, ….test it</p></li>
+</ul>
+</dd>
+<dt><strong>line,li</strong><span class="classifier">int, list of float or Line object</span></dt><dd><ul class="simple">
+<li><p>[linestyle,linewidth,color] as [1,1,’’];</p></li>
+<li><p>negative increments</p></li>
+<li><p>single integer to chose linestyle line=1; line=0 switches of</p></li>
+<li><p>linestyle int   ‘-‘,’–’,’-.’,’:’</p></li>
+<li><p>linewidth float increasing thickness</p></li>
+<li><p>color        see symbol color</p></li>
+</ul>
+</dd>
+<dt><strong>errorbar,er</strong><span class="classifier">int or list of float or Errorbar object</span></dt><dd><ul class="simple">
+<li><p>[color,size] as [1,1]; no increment, no repeat</p></li>
+<li><p>color int             see symbol color, non-integer syncs to symbol color</p></li>
+<li><p>size float            default 1.0 ; smaller is 0.5</p></li>
+</ul>
+</dd>
+<dt><strong>legend,le</strong><span class="classifier">string</span></dt><dd><ul class="simple">
+<li><p>determines legend for all datasets</p></li>
+<li><p>string replacement: attr name prepended by ‘$’ (eg. ‘$par’)
+is replaced by value str(par1.flatten()[0]) if possible.
+$(par) for not unique names</p></li>
+</ul>
+</dd>
+<dt><strong>errorbar,er</strong><span class="classifier">float</span></dt><dd><ul class="simple">
+<li><p>errorbar thickness, zero is no errorbar</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.mplot">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">mplot</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">width</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">height</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#mplot"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.mplot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Open matplotlib figure in paper layout with methods to display dataArray/dataList.</p>
+<p>Paper layout means white background, black axis.
+Plot separates X,Y, eY of dataList automatically.
+In interactive mode the figure is shown, in headless these can be saved after plotting.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>width,height</strong><span class="classifier">float</span></dt><dd><p>Size of plot in cm.</p>
+</dd>
+<dt><strong>kwargs :</strong></dt><dd><p>Keyword args of matplotlib.pyplot.figure .</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>matplotlib figure</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<ul class="simple">
+<li><p>By indexing as the axes subplots can be accessed as figure[i] which is figure.axes[i].</p></li>
+<li><p>Same for axes with lines figure[0][i] is figure.axes[0].lines[i].</p></li>
+<li><p>Some methods with similar behaviour as in grace are defined (big letter commands)</p></li>
+<li><p>matplotlib methods are still available (small letters commands)</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.plot2Dimage">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">plot2Dimage</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">yaxis_label</span><span class="o">=</span><span class="default_value">'Z'</span></em>, <em class="sig-param"><span class="n">xaxis_label</span><span class="o">=</span><span class="default_value">'X'</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'nearest'</span></em>, <em class="sig-param"><span class="n">colorMap</span><span class="o">=</span><span class="default_value">'jet'</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">'norm'</span></em>, <em class="sig-param"><span class="n">linthresh</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">linscale</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">badcolor</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">transpose</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">figsize</span><span class="o">=</span><span class="default_value">[6, 6]</span></em>, <em class="sig-param"><span class="n">origin</span><span class="o">=</span><span class="default_value">'upper'</span></em>, <em class="sig-param"><span class="n">txtkwargs</span><span class="o">=</span><span class="default_value">{'fontsize': 'small'}</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#plot2Dimage"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.plot2Dimage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show a 2D image of a dataarray with XZW values like from oriented cloudscattering.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>data</strong><span class="classifier">dataArray</span></dt><dd><p>dataArray optional with fit values in lastfit.</p>
+</dd>
+<dt><strong>shape</strong><span class="classifier">[int,int]</span></dt><dd><p>Optional shape of the data if these are from an image.
+If not given the data are interpolated (regrid)</p>
+</dd>
+<dt><strong>yaxis_label</strong><span class="classifier">string</span></dt><dd></dd>
+<dt><strong>xaxis_label</strong><span class="classifier">string</span></dt><dd></dd>
+<dt><strong>method</strong><span class="classifier">float,’linear’, ‘nearest’, ‘cubic’</span></dt><dd><p>Filling value for new points as float or order of interpolation
+between existing points.
+See <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html">griddata</a></p>
+</dd>
+<dt><strong>colorMap</strong><span class="classifier">string</span></dt><dd><p>Get a colormap instance from name.
+Standard mpl colormap name (see showColors).</p>
+</dd>
+<dt><strong>scale</strong><span class="classifier">‘log’, ‘symlog’, default = ‘norm’</span></dt><dd><p>Scale for intensities.</p>
+<ul class="simple">
+<li><p>‘norm’ Linear scale.</p></li>
+<li><p>‘log’ Logarithmic scale</p></li>
+<li><p>‘symlog’ Symmetrical logarithmic scale is logarithmic in both the positive
+and negative directions from the origin. This works also for only positive data.
+Use linthresh, linscale to adjust.</p></li>
+</ul>
+</dd>
+<dt><strong>linthresh</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+The range within which the plot is linear (-linthresh to linthresh).</p>
+</dd>
+<dt><strong>linscale</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+Its value is the number of decades to use for each half of the linear range.
+E.g. 10 uses 1 decade.</p>
+</dd>
+<dt><strong>badcolor</strong><span class="classifier">float, color</span></dt><dd><p>Set the color for bad values (like masked pixel) values in an image.
+Default is  bad values be transparent.
+Color can be matplotlib color as ‘k’,’b’ or
+float value in interval [0,1] of the chosen colorMap.
+0 sets to minimum value, 1 to maximum value.</p>
+</dd>
+<dt><strong>transpose</strong><span class="classifier">bool</span></dt><dd><p>Transpose coordinates, e.g. for sasImages.</p>
+</dd>
+<dt><strong>figsize</strong><span class="classifier">[float,float], default [6,6]</span></dt><dd><p>Figure Size in inch.</p>
+</dd>
+<dt><strong>txtkwargs</strong><span class="classifier">kwargs</span></dt><dd><p>Keyword arguments passed to Text <a class="reference external" href="https://matplotlib.org/api/text_api.html#matplotlib.text.Text">https://matplotlib.org/api/text_api.html#matplotlib.text.Text</a>).
+except x,y,text arguments.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>figure</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">R</span><span class="o">=</span><span class="mi">8</span>    <span class="c1"># maximum</span>
+<span class="n">N</span><span class="o">=</span><span class="mi">200</span>  <span class="c1"># number of points</span>
+<span class="n">ds</span><span class="o">=</span><span class="mi">15</span><span class="p">;</span>
+<span class="n">qxy</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="o">-</span><span class="n">R</span><span class="p">:</span><span class="n">R</span><span class="p">:</span><span class="n">N</span><span class="o">*</span><span class="mi">1</span><span class="n">j</span><span class="p">,</span> <span class="o">-</span><span class="n">R</span><span class="p">:</span><span class="n">R</span><span class="p">:</span><span class="n">N</span><span class="o">*</span><span class="mi">1</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+<span class="c1"># add z=0 component</span>
+<span class="n">qxyz</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">qxy</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">qxy</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])]</span><span class="o">.</span><span class="n">T</span> <span class="c1"># as position vectors</span>
+<span class="c1"># create fcc lattice which includes reciprocal lattice vectors and methods to get peak positions</span>
+<span class="n">fcclattice</span><span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">lattice</span><span class="o">.</span><span class="n">fccLattice</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="c1"># Orient 111 direction perpendicular to qxy plane</span>
+<span class="n">fcclattice</span><span class="o">.</span><span class="n">rotatehkl2Vector</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+<span class="c1"># rotation by 15 degrees to be aligned to xy plane</span>
+<span class="n">fcclattice</span><span class="o">.</span><span class="n">rotateAroundhkl</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">],</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="mi">15</span><span class="p">))</span>
+<span class="n">ffs</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">sf</span><span class="o">.</span><span class="n">orientedLatticeStructureFactor</span><span class="p">(</span><span class="n">qxyz</span><span class="p">,</span><span class="n">fcclattice</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">deg2rad</span><span class="p">(</span><span class="mi">10</span><span class="p">)],</span>
+                           <span class="n">domainsize</span><span class="o">=</span><span class="n">ds</span><span class="p">,</span><span class="n">rmsd</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span><span class="n">hklmax</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">nGauss</span><span class="o">=</span><span class="mi">23</span><span class="p">)</span>
+
+<span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">plot2Dimage</span><span class="p">(</span><span class="n">ffs</span><span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/2dfccplot.png"><img alt="2dfccplot" class="align-center" src="_images/2dfccplot.png" style="width: 70%;" /></a>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.regrid">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">regrid</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#regrid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.regrid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a meshgrid from XYZ data columns.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x,y,z</strong><span class="classifier">array like</span></dt><dd><p>Array like data should be quadratic or rectangular.</p>
+</dd>
+<dt><strong>shape</strong><span class="classifier">None, shape or first dimension size</span></dt><dd><p>If None the number of unique values in x is used as first dimension.
+If integer the second dimension is guessed from size.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>2dim arrays for x,y,z</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.scatter3d">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">scatter3d</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">z</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">pointsize</span><span class="o">=</span><span class="default_value">3</span></em>, <em class="sig-param"><span class="n">color</span><span class="o">=</span><span class="default_value">'k'</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#scatter3d"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.scatter3d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scatter plot of x,y,z data points.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x,y,z</strong><span class="classifier">arrays</span></dt><dd><p>Data to plot. If x.shape is Nx3 these points are used.</p>
+</dd>
+<dt><strong>pointsize</strong><span class="classifier">float</span></dt><dd><p>Size of points</p>
+</dd>
+<dt><strong>color</strong><span class="classifier">string</span></dt><dd><p>Colors for points</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>figure</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># ellipsoid with grid build by mgrid</span>
+<span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1"># cubic grid points</span>
+<span class="n">ig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">formel</span><span class="o">.</span><span class="n">randomPointsInCube</span><span class="p">(</span><span class="mi">200</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">scatter3d</span><span class="p">(</span><span class="n">ig</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.show">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">show</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#show"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates figures or saves figures in noninteractive mode (headless)</p>
+<p>In headless mode all figures are save to lastopenedplots{i}.png .</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>kwargs</strong><span class="classifier">args</span></dt><dd><p>Passed to pyplot.show added by block=False</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.showColors">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">showColors</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#showColors"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.showColors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a list of the colormaps in matplotlib.</p>
+<p>Ignore the ones that end with ‘_r’ because these are
+simply reversed versions of ones that don’t end with ‘_r’</p>
+<dl class="simple">
+<dt>Colormaps Names</dt><dd><p>Accent, Accent_r, Blues, Blues_r, BrBG, BrBG_r, BuGn, BuGn_r, BuPu, BuPu_r,
+CMRmap, CMRmap_r, Dark2, Dark2_r, GnBu, GnBu_r, Greens, Greens_r, Greys,
+Greys_r, OrRd, OrRd_r, Oranges, Oranges_r, PRGn, PRGn_r, Paired, Paired_r,
+Pastel1, Pastel1_r, Pastel2, Pastel2_r, PiYG, PiYG_r, PuBu, PuBuGn,
+PuBuGn_r, PuBu_r, PuOr, PuOr_r, PuRd, PuRd_r, Purples, Purples_r,
+RdBu, RdBu_r, RdGy, RdGy_r, RdPu, RdPu_r, RdYlBu, RdYlBu_r, RdYlGn,
+RdYlGn_r, Reds, Reds_r, Set1, Set1_r, Set2, Set2_r, Set3, Set3_r,
+Spectral, Spectral_r, Vega10, Vega10_r, Vega20, Vega20_r, Vega20b,
+Vega20b_r, Vega20c, Vega20c_r, Wistia, Wistia_r, YlGn, YlGnBu, YlGnBu_r,
+YlGn_r, YlOrBr, YlOrBr_r, YlOrRd, YlOrRd_r, afmhot, afmhot_r, autumn,
+autumn_r, binary, binary_r, bone, bone_r, brg, brg_r, bwr, bwr_r, cool,
+cool_r, coolwarm, coolwarm_r, copper, copper_r, cubehelix, cubehelix_r,
+flag, flag_r, gist_earth, gist_earth_r, gist_gray, gist_gray_r, gist_heat,
+gist_heat_r, gist_ncar, gist_ncar_r, gist_rainbow, gist_rainbow_r, gist_stern,
+gist_stern_r, gist_yarg, gist_yarg_r, gnuplot, gnuplot2, gnuplot2_r, gnuplot_r,
+gray, gray_r, hot, hot_r, hsv, hsv_r, inferno, inferno_r, jet, jet_r, magma,
+magma_r, nipy_spectral, nipy_spectral_r, ocean, ocean_r, pink, pink_r, plasma,
+plasma_r, prism, prism_r, rainbow, rainbow_r, seismic, seismic_r, spectral,
+spectral_r, spring, spring_r, summer, summer_r, tab10, tab10_r, tab20, tab20_r,
+tab20b, tab20b_r, tab20c, tab20c_r, terrain, terrain_r, viridis, viridis_r,
+winter, winter_r</p>
+</dd>
+</dl>
+<p>From
+<a class="reference external" href="https://matplotlib.org/1.2.1/examples/pylab_examples/show_colormaps.html">https://matplotlib.org/1.2.1/examples/pylab_examples/show_colormaps.html</a></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.showlastErrPlot2D">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">showlastErrPlot2D</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">lastfit</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">'norm'</span></em>, <em class="sig-param"><span class="n">colorMap</span><span class="o">=</span><span class="default_value">'jet'</span></em>, <em class="sig-param"><span class="n">method</span><span class="o">=</span><span class="default_value">'nearest'</span></em>, <em class="sig-param"><span class="n">linthresh</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">linscale</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">badcolor</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">transpose</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">figsize</span><span class="o">=</span><span class="default_value">[6, 6]</span></em>, <em class="sig-param"><span class="n">txtkwargs</span><span class="o">=</span><span class="default_value">{'fontsize': 'small'}</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#showlastErrPlot2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.showlastErrPlot2D" title="Permalink to this definition">¶</a></dt>
+<dd><p>Show a 2D errplot for 2D fit data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>data</strong><span class="classifier">dataArray</span></dt><dd><p>dataArray optional with fit values in lastfit.</p>
+</dd>
+<dt><strong>lastfit</strong><span class="classifier">None, dataArray</span></dt><dd><p>Lastfit dataArray if not present in data.
+Can be used to create showlastErrPlot2D from saved data and lastfit.</p>
+</dd>
+<dt><strong>shape</strong><span class="classifier">[int,int]</span></dt><dd><p>Optional shape of the data if these are from an image.
+If not given the data are interpolated (regrid)</p>
+</dd>
+<dt><strong>method</strong><span class="classifier">float,’linear’, ‘nearest’, ‘cubic’</span></dt><dd><p>Filling value for new points as float or order of interpolation
+between existing points.
+See <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.griddata.html">griddata</a></p>
+</dd>
+<dt><strong>colorMap</strong><span class="classifier">string</span></dt><dd><p>Get a colormap instance from name.
+Standard mpl colormap name (see showColors).</p>
+</dd>
+<dt><strong>badcolor</strong><span class="classifier">float, color</span></dt><dd><p>Set the color for bad values (like masked pixel) values in an image.
+Default is  bad values be transparent.
+Color can be matplotlib color as ‘k’,’b’ or
+float value in interval [0,1] of the chosen colorMap.
+0 sets to minimum value, 1 to maximum value.</p>
+</dd>
+<dt><strong>scale</strong><span class="classifier">‘log’, ‘symlog’, default = ‘norm’</span></dt><dd><p>Scale for intensities.</p>
+<ul class="simple">
+<li><p>‘norm’ Linear scale.</p></li>
+<li><p>‘log’ Logarithmic scale</p></li>
+<li><p>‘symlog’ Symmetrical logarithmic scale is logarithmic in both the positive
+and negative directions from the origin. This works also for only positive data.
+Use linthresh, linscale to adjust.</p></li>
+</ul>
+</dd>
+<dt><strong>linthresh</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+The range within which the plot is linear (-linthresh to linthresh).</p>
+</dd>
+<dt><strong>linscale</strong><span class="classifier">float, default = 1</span></dt><dd><p>Only used for scale ‘sym’.
+Its value is the number of decades to use for each half of the linear range.
+E.g. 10 uses 1 decade.</p>
+</dd>
+<dt><strong>transpose</strong><span class="classifier">bool</span></dt><dd><p>Transpose coordinates, e.g. for sasImages.</p>
+</dd>
+<dt><strong>figsize</strong><span class="classifier">[float,float], default [6,6]</span></dt><dd><p>Figure Size in inch.</p>
+</dd>
+<dt><strong>txtkwargs</strong><span class="classifier">kwargs</span></dt><dd><p>Keyword arguments passed to Text <a class="reference external" href="https://matplotlib.org/api/text_api.html#matplotlib.text.Text">https://matplotlib.org/api/text_api.html#matplotlib.text.Text</a>).
+except x,y,text arguments.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1"># create 2D data with X,Z axes and Y values as Y=f(X,Z)</span>
+<span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="o">-</span><span class="mi">5</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mf">0.05</span><span class="p">,</span><span class="o">-</span><span class="mi">5</span><span class="p">:</span><span class="mi">9</span><span class="p">:</span><span class="mf">0.05</span><span class="p">]</span>
+<span class="n">xyz</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+               <span class="n">z</span><span class="o">.</span><span class="n">flatten</span><span class="p">(),</span>
+               <span class="mf">0.3</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="n">z</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span><span class="o">+</span><span class="mf">0.01</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">flatten</span><span class="p">())),</span>
+               <span class="mf">0.01</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ones_like</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span> <span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="c1"># set columns where to find X,Y,Z )</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">setColumnIndex</span><span class="p">(</span><span class="n">ix</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">iz</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">iy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">iey</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="c1">#</span>
+<span class="n">ff</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span><span class="n">z</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">:</span><span class="n">a</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">b</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">z</span><span class="p">)</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">ff</span><span class="p">,{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">:</span><span class="mi">1</span><span class="o">/</span><span class="mf">3.</span><span class="p">},{},{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span><span class="s1">&#39;X&#39;</span><span class="p">,</span><span class="s1">&#39;z&#39;</span><span class="p">:</span><span class="s1">&#39;Z&#39;</span><span class="p">})</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">showlastErrPlot2D</span><span class="p">(</span><span class="n">xyz</span><span class="p">)</span>
+<span class="c1">#fig.savefig(js.examples.imagepath+&#39;/2dfitgoodfit2.jpg&#39;)</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;dat.dat&#39;</span><span class="p">)</span>  <span class="c1"># save data</span>
+<span class="n">xyz</span><span class="o">.</span><span class="n">lastfit</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;lastfit.dat&#39;</span><span class="p">)</span>  <span class="c1"># save lastfit</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># recover from saved data above</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">showlastErrPlot2D</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="s1">&#39;dat.dat&#39;</span><span class="p">),</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="s1">&#39;lastfit.dat&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/2dfitgoodfit2.jpg"><img alt="2dfitgoodfit2" class="align-center" src="_images/2dfitgoodfit2.jpg" style="width: 70%;" /></a>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">pyplot</span>
+<span class="kn">import</span> <span class="nn">matplotlib.tri</span> <span class="k">as</span> <span class="nn">tri</span>
+<span class="n">randn</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span>
+<span class="n">rand</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span>
+<span class="k">def</span> <span class="nf">somepeaks</span><span class="p">(</span><span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span><span class="o">*</span><span class="n">width</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">width</span><span class="p">)</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">b</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">width</span><span class="p">)</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">c</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">height</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="c1"># create random points in [0,1]</span>
+<span class="n">NN</span><span class="o">=</span><span class="mi">1000</span>
+<span class="n">xz</span> <span class="o">=</span> <span class="n">rand</span><span class="p">(</span><span class="n">NN</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">v</span> <span class="o">=</span> <span class="n">somepeaks</span><span class="p">(</span><span class="n">xz</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span> <span class="n">xz</span><span class="p">[:,</span><span class="mi">1</span><span class="p">],</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="c1"># create dataArray</span>
+<span class="n">data</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">stack</span><span class="p">([</span><span class="n">xz</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span> <span class="n">xz</span><span class="p">[:,</span><span class="mi">1</span><span class="p">],</span><span class="n">v</span><span class="o">+</span><span class="mf">0.01</span><span class="o">*</span><span class="n">randn</span><span class="p">(</span><span class="n">NN</span><span class="p">),</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">NN</span><span class="p">)</span><span class="o">*</span><span class="mf">0.01</span><span class="p">]),</span> <span class="n">XYeYeX</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="kc">None</span><span class="p">])</span>
+<span class="c1"># bad start parameters</span>
+<span class="n">data</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">somepeaks</span><span class="p">,{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">},{},{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span><span class="s1">&#39;X&#39;</span><span class="p">,</span><span class="s1">&#39;height&#39;</span><span class="p">:</span><span class="s1">&#39;Z&#39;</span><span class="p">})</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">showlastErrPlot2D</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="c1"># good start parameters</span>
+<span class="n">data</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">somepeaks</span><span class="p">,{</span><span class="s1">&#39;a&#39;</span><span class="p">:</span><span class="mf">0.8</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">:</span><span class="mf">3.8</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">:</span><span class="mf">4.2</span><span class="p">},{},{</span><span class="s1">&#39;width&#39;</span><span class="p">:</span><span class="s1">&#39;X&#39;</span><span class="p">,</span><span class="s1">&#39;height&#39;</span><span class="p">:</span><span class="s1">&#39;Z&#39;</span><span class="p">})</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">showlastErrPlot2D</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="c1">#fig.savefig(js.examples.imagepath+&#39;/2dfitgoodfit.jpg&#39;)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="_images/2dfitgoodfit.jpg"><img alt="2dfitgoodfit" class="align-center" src="_images/2dfitgoodfit.jpg" style="width: 70%;" /></a>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.surface">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">surface</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em>, <em class="sig-param"><span class="n">y</span></em>, <em class="sig-param"><span class="n">z</span></em>, <em class="sig-param"><span class="n">shape</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">levels</span><span class="o">=</span><span class="default_value">8</span></em>, <em class="sig-param"><span class="n">colorMap</span><span class="o">=</span><span class="default_value">'jet'</span></em>, <em class="sig-param"><span class="n">lineMap</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">alpha</span><span class="o">=</span><span class="default_value">0.7</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#surface"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.surface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Surface plot of x,y,z, data</p>
+<p>If x,y,z differ because of numerical precision use the shape parameter to give the shape explicitly.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>x,y,z</strong><span class="classifier">array</span></dt><dd><p>Data as array</p>
+</dd>
+<dt><strong>shape</strong><span class="classifier">integer, 2x integer</span></dt><dd><p>Shape of image with len(x)=shape[0]*shape[1] or only first dimension.
+See regrid shape parameter.</p>
+</dd>
+<dt><strong>levels</strong><span class="classifier">integer, array</span></dt><dd><p>Levels for contour lines as number of levels or array of specific values.</p>
+</dd>
+<dt><strong>colorMap</strong><span class="classifier">string</span></dt><dd><p>Color map name, see showColors.</p>
+</dd>
+<dt><strong>lineMap</strong><span class="classifier">string</span></dt><dd><dl class="simple">
+<dt>Color name for contour lines</dt><dd><p>b: blue
+g: green
+r: red
+c: cyan
+m: magenta
+y: yellow
+k: black
+w: white</p>
+</dd>
+</dl>
+</dd>
+<dt><strong>alpha</strong><span class="classifier">float [0,1], default 0.7</span></dt><dd><p>Transparency of surface</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>figure</dt><dd></dd>
+</dl>
+</dd>
+</dl>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">R</span><span class="o">=</span><span class="mi">8</span>
+<span class="n">N</span><span class="o">=</span><span class="mi">50</span>
+<span class="n">qxy</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="o">-</span><span class="n">R</span><span class="p">:</span><span class="n">R</span><span class="p">:</span><span class="n">N</span><span class="o">*</span><span class="mi">1</span><span class="n">j</span><span class="p">,</span> <span class="o">-</span><span class="n">R</span><span class="p">:</span><span class="n">R</span><span class="p">:</span><span class="n">N</span><span class="o">*</span><span class="mi">1</span><span class="n">j</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+<span class="n">qxyz</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">qxy</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">qxy</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])]</span>
+<span class="n">sclattice</span><span class="o">=</span> <span class="n">js</span><span class="o">.</span><span class="n">lattice</span><span class="o">.</span><span class="n">scLattice</span><span class="p">(</span><span class="mf">2.1</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">ds</span><span class="o">=</span><span class="p">[[</span><span class="mi">20</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]]</span>
+<span class="n">sclattice</span><span class="o">.</span><span class="n">rotatehkl2Vector</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">],[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">ffs</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">sf</span><span class="o">.</span><span class="n">orientedLatticeStructureFactor</span><span class="p">(</span><span class="n">qxyz</span><span class="p">,</span><span class="n">sclattice</span><span class="p">,</span><span class="n">domainsize</span><span class="o">=</span><span class="n">ds</span><span class="p">,</span><span class="n">rmsd</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span><span class="n">hklmax</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mpl</span><span class="o">.</span><span class="n">surface</span><span class="p">(</span><span class="n">qxyz</span><span class="p">[:,</span><span class="mi">0</span><span class="p">],</span><span class="n">qxyz</span><span class="p">[:,</span><span class="mi">1</span><span class="p">],</span><span class="n">ffs</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">array</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt id="jscatter.mpl.test">
+<code class="sig-prename descclassname">jscatter.mpl.</code><code class="sig-name descname">test</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">keepopen</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/jscatter/mpl.html#test"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#jscatter.mpl.test" title="Permalink to this definition">¶</a></dt>
+<dd><p>A small test for mpl module making a plot.</p>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">jscatter</span> <span class="k">as</span> <span class="nn">js</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span>
+<span class="c1"># use this</span>
+<span class="c1">#fig=pyplot.figure(FigureClass=js.mpl.Figure)</span>
+<span class="c1"># or</span>
+<span class="n">fig</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">mplot</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">Multi</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.25</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.9</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">SetView</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.09</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="mf">0.23</span><span class="p">)</span>
+<span class="n">q</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">loglist</span><span class="p">(</span><span class="mf">0.01</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">aa</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dL</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">aa</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="o">-</span><span class="n">pp</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">q</span><span class="p">),</span><span class="mf">0.2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">q</span><span class="p">)]</span><span class="o">.</span><span class="n">T</span><span class="p">))</span>
+    <span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="n">pp</span>
+<span class="n">bb</span><span class="o">=</span><span class="n">js</span><span class="o">.</span><span class="n">dA</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">c_</span><span class="p">[</span><span class="n">q</span><span class="p">,</span><span class="n">q</span><span class="o">**</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+<span class="n">bb</span><span class="o">.</span><span class="n">qq</span><span class="o">=</span><span class="mi">123</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="n">pp</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;some stufff&#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,(</span><span class="n">pp</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mf">10.</span><span class="p">],</span><span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="s1">&#39;qq = $qq&#39;</span><span class="p">,</span> <span class="n">sy</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">],</span> <span class="n">li</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">markeredgewidth</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">pp</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">X</span><span class="o">/</span><span class="mi">5</span><span class="o">+</span><span class="n">pp</span><span class="p">,</span><span class="n">pp</span><span class="o">*</span><span class="n">aa</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;q=</span><span class="si">%.1f</span><span class="s1">&#39;</span> <span class="o">%</span><span class="n">pp</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">li</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span><span class="n">markeredgewidth</span> <span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Plot</span><span class="p">(</span><span class="n">bb</span><span class="p">,</span><span class="n">legend</span><span class="o">=</span><span class="s1">&#39;sqr=$qq &#39;</span><span class="p">,</span><span class="n">sy</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">li</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Title</span><span class="p">(</span><span class="s1">&#39;test&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Legend</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mf">1.3</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;y-axis&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Yaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;something else&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">tick_params</span><span class="p">(</span><span class="n">labelbottom</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fig</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">Xaxis</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;x-axis&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/Jscatter1.gif" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="BeginnersGuide.html">1. Beginners Guide / Help</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataArray.html">2. dataArray</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dataList.html">3. dataList</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formel.html">4. formel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sas.html">5. smallanglescattering (sas)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formfactor.html">6. formfactor (ff)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="structurefactor.html">7. structurefactor (sf)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dynamic.html">8. dynamic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dls.html">9. dls</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parallel.html">10. parallel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="GracePlot.html">11. Plotting in XmGrace</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">12. mpl</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#plot">12.1. Plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#figures">12.2. Figures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#axes">12.3. Axes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">13. Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Extending.html">14. Extending/Contributing/Fortran</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tips.html">15. Tips</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Remarks.html">16. Intention and Remarks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation.html">17. Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="citing.html">18. Citing Jscatter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">19. Changelog</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="GracePlot.html"
+                        title="previous chapter"><span class="section-number">11. </span>Plotting in XmGrace</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="examples.html"
+                        title="next chapter"><span class="section-number">13. </span>Examples</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/mpl.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="examples.html" title="13. Examples"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="GracePlot.html" title="11. Plotting in XmGrace"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Jscatter 1.2.7.2 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><span class="section-number">12. </span>mpl</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-19, Ralf Biehl.
+      Last updated on Sep 15, 2020.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+    </div>
+  </body>
+</html>
