@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: topkappy
+Version: 0.2.4
+Summary: Pythonic wrapper for the Kappa language (bio simulations)
+Home-page: https://github.com/Edinburgh-Genome-Foundry/topkappy
+Author: Zulko
+Author-email: UNKNOWN
+License: MIT
+Keywords: simulation biology modeling complex kappa binding
+Platform: UNKNOWN
+Requires-Dist: kappy (<4.1)
+Requires-Dist: networkx
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: termcolor
+
+Topkappy
+========
+
+Topkappy is a Python library built on top ``kappy`` for using the Kappa language (for simulation of biological complexation processes) in a pythonic way, using Python objects to define agents and rules, and with some methods
+for plotting complexes and time series.
+
+Infos
+-----
+
+**PIP installation:**
+
+.. code:: bash
+
+  pip install topkappy
+
+**Github Page:**
+
+`<https://github.com/Edinburgh-Genome-Foundry/topkappy>`_
+
+**License:** MIT, Copyright Edinburgh Genome Foundry
+
+More biology software
+---------------------
+
+.. image:: https://raw.githubusercontent.com/Edinburgh-Genome-Foundry/Edinburgh-Genome-Foundry.github.io/master/static/imgs/logos/egf-codon-horizontal.png
+  :target: https://edinburgh-genome-foundry.github.io/
+
+Topkappy is part of the `EGF Codons <https://edinburgh-genome-foundry.github.io/>`_ synthetic biology software suite for DNA design, manufacturing and validation.
+
+
