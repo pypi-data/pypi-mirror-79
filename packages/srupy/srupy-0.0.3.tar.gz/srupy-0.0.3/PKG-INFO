@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: srupy
+Version: 0.0.3
+Summary: Still under development
+Author: Andreas Lüschow
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
