@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: discord-notifier
+Version: 0.0.3
+Summary: Simple discord notification bot
+Home-page: https://github.com/josephbmanley/discord-notifier
+Author: Joseph Manley
+Author-email: j@cloudsumu.com
+License: MIT
+Keywords: AWS,Discord,Cloud,Notification
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: discord.py
+
+# discord-notifier
+
+
