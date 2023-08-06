@@ -1,0 +1,17 @@
+spacy_crfsuite/__init__.py,sha256=B1Ee_ja8bjqxP_tdZT8UFDzPnkxTU6YPsstED3fHYtI,141
+spacy_crfsuite/about.py,sha256=KjUwjOt7hcpauh_5z0j11aVeOtGVHg5tz6myzyhluVw,253
+spacy_crfsuite/bilou.py,sha256=Dgvy0IxCX8yRaRS3hd1eTDRVK55saT3HVKOTD6sKVA8,2883
+spacy_crfsuite/conll.py,sha256=GVX63eAQ4lXZuIxzwe2OAD1SZ3h0f4_uSbFp6ORrO88,2163
+spacy_crfsuite/crf_extractor.py,sha256=MNviBMRFFVXcxueCqNldTZoymVxC7iZOuUOS0Mdhg7c,22199
+spacy_crfsuite/eval.py,sha256=putU6-socLWkaiqiSLYVxnYWdy_FPlrRoFbhNN8FaFs,2051
+spacy_crfsuite/features.py,sha256=uDgUUDIzfSEeuECnO8BMzfRlOkZ1hAHe4DcgYtMSbqM,5389
+spacy_crfsuite/markdown.py,sha256=bjEjnUAP7hPwe30GW4vLMM0ewXUQ145VVJT5icPK1pQ,3078
+spacy_crfsuite/tokenizer.py,sha256=niN8tLsl-BX70rvbeL2f89N9dTYagR14LOI7DcaSStU,2970
+spacy_crfsuite/train.py,sha256=1Sv1Re4ZzXKMmXg7eAgZNKYkcFekAt7dZGgOWFUKyTQ,4593
+spacy_crfsuite/utils.py,sha256=SyIaSvqbB4HjA1CM_U2nxK8xXMPicDvKYJViPdk4Xh4,1739
+spacy_crfsuite-1.2.0.dist-info/LICENSE,sha256=1OxUr0MLwet0yKl5YmVIQ3FADsNupuNqhzy2HVl2b7Q,1089
+spacy_crfsuite-1.2.0.dist-info/METADATA,sha256=1lAg4PmAdCVgqRcrTwh_wcZQixhAKNZI6RbLegdCr74,7167
+spacy_crfsuite-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spacy_crfsuite-1.2.0.dist-info/entry_points.txt,sha256=ZaS9eVgRFD_xKyHSIylyZEGA8PbckkEQQBwtGXwUfJA,84
+spacy_crfsuite-1.2.0.dist-info/top_level.txt,sha256=LB_Uj9t6npZA2s_s27lDJv2gvgkzP6SBcTHtnKy5_Is,15
+spacy_crfsuite-1.2.0.dist-info/RECORD,,
