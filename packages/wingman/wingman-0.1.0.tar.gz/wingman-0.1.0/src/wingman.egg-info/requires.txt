@@ -1,0 +1,8 @@
+dataclassy
+fl-flint>=0.3
+ago
+Pillow
+PyQt5
+
+[:platform_system == "Windows"]
+fl-flair
