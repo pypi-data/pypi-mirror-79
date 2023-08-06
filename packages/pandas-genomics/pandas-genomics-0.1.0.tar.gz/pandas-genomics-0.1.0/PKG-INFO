@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pandas-genomics
+Version: 0.1.0
+Summary: 
+Author: John McGuigan
+Author-email: jrm5100@psu.edu
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
