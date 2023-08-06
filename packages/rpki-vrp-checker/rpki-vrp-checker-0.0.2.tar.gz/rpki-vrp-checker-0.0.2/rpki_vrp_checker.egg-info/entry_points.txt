@@ -1,0 +1,3 @@
+[console_scripts]
+rpki-vrp-checker = rpki_vrp_checker.main:main
+
