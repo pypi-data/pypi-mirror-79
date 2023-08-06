@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: khronus
+Version: 0.0.0
+Summary: Just testing some python packaging stuff.
+Home-page: https://github.com/shaypal5/blamf
+Author: Shay Palachy
+Author-email: shay.palachy@gmail.com
+License: MIT
+Description: blamf
+        #####
+        Just testing some python packaging principles.
+        
+        ``pip install -r requirements.txt``
+        
+        Blah
+        
+        ``pip install pipenv versioneer pytest coverage pytest-cov collective.checkdocs pygments twine``
+        
+        Blah
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.5
