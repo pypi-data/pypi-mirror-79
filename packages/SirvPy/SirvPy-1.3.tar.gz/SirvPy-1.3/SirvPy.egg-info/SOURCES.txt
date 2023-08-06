@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+SirvPy/Sirv.py
+SirvPy/__init__.py
+SirvPy/access_token.txt
+SirvPy/file_handling.py
+SirvPy/token_timestamp.txt
+SirvPy.egg-info/PKG-INFO
+SirvPy.egg-info/SOURCES.txt
+SirvPy.egg-info/dependency_links.txt
+SirvPy.egg-info/requires.txt
+SirvPy.egg-info/top_level.txt
