@@ -1,0 +1,6 @@
+babel
+pillow
+pyserial>=2.2
+pyusb
+qrcode~=5.3
+zope.interface>=3.0
