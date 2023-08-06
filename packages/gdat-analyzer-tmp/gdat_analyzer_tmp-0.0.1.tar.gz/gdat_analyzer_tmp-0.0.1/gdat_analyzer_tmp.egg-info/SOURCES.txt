@@ -1,0 +1,6 @@
+README.md
+setup.py
+gdat_analyzer_tmp.egg-info/PKG-INFO
+gdat_analyzer_tmp.egg-info/SOURCES.txt
+gdat_analyzer_tmp.egg-info/dependency_links.txt
+gdat_analyzer_tmp.egg-info/top_level.txt

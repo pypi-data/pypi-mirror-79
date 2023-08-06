@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gdat_analyzer_tmp
+Version: 0.0.1
+Summary: Compute observable averages for BNGL/NFsim model outputs
+Home-page: https://github.com/pypa/sampleproject
+Author: Ani Chattaraj
+Author-email: chattaraj@uchc.edu
+License: UNKNOWN
+Description: # Example Package
+        This script computes avarage of different observable outputs over multiple trajectories
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
