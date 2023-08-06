@@ -1,0 +1,9 @@
+include LICENSE
+recursive-include rbx *.md
+
+exclude VERSION
+exclude .bumpversion.cfg
+exclude .properties
+exclude tox.ini
+
+prune tests
