@@ -1,0 +1,13 @@
+maccorcyclingdata/__init__.py,sha256=eE6DwDJdH87kc7UFfffT2v-a7jCRCXaRjq10X0qO0o0,142
+maccorcyclingdata/schedules.py,sha256=wBSjjZZYxbd8L0YRZ5l9hARVUSt4SjNQCPpz9_4NOWY,6682
+maccorcyclingdata/testdata.py,sha256=lxJsfDULq6WsVSsTxbSOSxUSrWQ6ohgC7K3SIKYJoVE,13621
+maccorcyclingdata/validate.py,sha256=ExtywBLQ4XEkAM7UbL09N-eOQBWEo5vfTpW2TBeS3C0,34967
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_schedules.py,sha256=HJHXP9VaE-lQY0pLmxOUdyFxAD_W6axanR9OctnTqbE,2525
+tests/test_testdata.py,sha256=Jge8BLQCW80K3RpSSViyyTCYi6D_613rZmVceL_PJlQ,7567
+tests/test_validate.py,sha256=CAdzMpBmk1z99ckv7H3vEctZO57yRgBOXGG2Z1Rvurk,21400
+maccorcyclingdata-0.0.1.dist-info/LICENSE.txt,sha256=WAzoDmVq9DndfpMoNSpR5J1cfzht0USj2kpjIvWSLXE,1061
+maccorcyclingdata-0.0.1.dist-info/METADATA,sha256=wpvcf566gypM-bU9NyR0GEcyGxpvljdkP9GE5dGIr9o,3769
+maccorcyclingdata-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+maccorcyclingdata-0.0.1.dist-info/top_level.txt,sha256=45S2aZYSCBRWcNgeFQdewLA1fx2mEZ-jWXuZ-pgu38g,24
+maccorcyclingdata-0.0.1.dist-info/RECORD,,
