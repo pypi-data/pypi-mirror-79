@@ -1,0 +1,12 @@
+README.md
+setup.py
+noscrypto/Client.py
+noscrypto/Server.py
+noscrypto/Utils.py
+noscrypto/__init__.py
+noscrypto.egg-info/PKG-INFO
+noscrypto.egg-info/SOURCES.txt
+noscrypto.egg-info/dependency_links.txt
+noscrypto.egg-info/top_level.txt
+noscrypto/tests/__init__.py
+noscrypto/tests/tests.py
