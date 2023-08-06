@@ -1,0 +1,14 @@
+pywaclient/__init__.py,sha256=corjtO90ACdjLwrjYIdYFv8stf4cqJzn1OiBZ5Z-1aw,685
+pywaclient/api.py,sha256=4thgF6N_AQlcXX3ZTWcdNyFhxaGOkSPrIQywa9IBl5o,1636
+pywaclient/endpoints/__init__.py,sha256=I8yo6tEpL2whcUlT5h5GSBw8Co41lxI9ZVbXQQzYirA,2213
+pywaclient/endpoints/article.py,sha256=DCNh9YyJYEZW-UtA4Y7carWmZVPNiNib3CBtiLfqvk0,1321
+pywaclient/endpoints/block.py,sha256=NSHkOLjr6meRl-ICGTRDsxGSbTuOwT_8qCR4T5rEThw,1073
+pywaclient/endpoints/image.py,sha256=AG-Qvi0w5Sxre0GuduO8OQuHo2Rs_FERo23MZKaqjUU,1439
+pywaclient/endpoints/manuscript.py,sha256=cnTpbOC0ibFl-m-g7hxxuly9KAJJvRzXtcAnaxHeLlo,3185
+pywaclient/endpoints/user.py,sha256=CD6Sge4rzg6G5OWmmpWCw6_OxNrHQX1o-dsJ5WBydWI,2871
+pywaclient/endpoints/world.py,sha256=ci8ib8HZy8JPkN9DAzzLP_jUpPUT2K6GdNxxWcQHtyk,3935
+pywaclient-0.2.0.dist-info/LICENCE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+pywaclient-0.2.0.dist-info/METADATA,sha256=rh-9Lrfw4Y8vRWXziACqbt7V37acC-H1ccSRfvBdeJs,799
+pywaclient-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pywaclient-0.2.0.dist-info/top_level.txt,sha256=CSZb4yHacOYkAMva5CyIwnwNtScbkZDfLfBjQQmCC1U,11
+pywaclient-0.2.0.dist-info/RECORD,,
