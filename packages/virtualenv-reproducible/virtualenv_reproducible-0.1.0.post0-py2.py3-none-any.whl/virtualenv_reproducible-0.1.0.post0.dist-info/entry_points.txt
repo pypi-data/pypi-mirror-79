@@ -1,0 +1,3 @@
+[pthogen]
+virtualenv_reproducible=virtualenv_reproducible:pth
+
