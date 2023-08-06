@@ -1,0 +1,5 @@
+requests<3,>=2.18
+paramiko<3,>=2.7
+scp<1,>=0.13
+conan<2,>=1.19
+stsff_automation@ git+ssh://git@git.flightfactor.aero/dev-ops/stsff-automation-lib-py.git@1.1.1#egg=stsff_automation

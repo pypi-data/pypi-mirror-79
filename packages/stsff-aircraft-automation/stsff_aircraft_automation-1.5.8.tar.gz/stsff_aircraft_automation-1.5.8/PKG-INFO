@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: stsff_aircraft_automation
+Version: 1.5.8
+Summary: Python scripts for product packages creation, uploading, etc
+Home-page: https://git.flightfactor.aero/dev-ops/stsff-aircraft-automation
+Author: StepToSky & FlightFactor
+Author-email: technical@flightfactor.aero
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
