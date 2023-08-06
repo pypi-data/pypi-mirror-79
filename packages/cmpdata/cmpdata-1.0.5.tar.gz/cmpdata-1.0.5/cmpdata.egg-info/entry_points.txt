@@ -1,0 +1,3 @@
+[console_scripts]
+cmpdata = cmpdata.cli:main
+
