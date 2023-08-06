@@ -1,0 +1,12 @@
+include *.py
+include *.rst
+include .mailmap
+include LICENSE
+include MANIFEST.in
+
+recursive-include .github *
+
+include mopidy_*/ext.conf
+
+recursive-include tests *.py
+recursive-include tests/data *
