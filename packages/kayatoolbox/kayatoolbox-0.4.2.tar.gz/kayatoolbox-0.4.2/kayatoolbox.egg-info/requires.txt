@@ -1,0 +1,6 @@
+ijson
+matplotlib
+numpy
+pandas
+scikit-learn
+tqdm
