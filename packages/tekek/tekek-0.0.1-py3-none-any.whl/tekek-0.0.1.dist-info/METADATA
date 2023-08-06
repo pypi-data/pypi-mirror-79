@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tekek
+Version: 0.0.1
+Summary: An Asynchronous Remote and Local Debugging Tools
+Home-page: https://github.com/dolano-tours/tekek
+Author: Erlangga Ibrahim
+Author-email: erlanggaibr2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+
+# Tekek
+client for sending log or debugging message to realtime logging server
+
+
