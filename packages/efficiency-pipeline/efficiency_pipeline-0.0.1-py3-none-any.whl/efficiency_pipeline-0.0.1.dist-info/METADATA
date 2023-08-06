@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: efficiency-pipeline
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Kyle OConnor
+Author-email: oconnorf@email.sc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: astroquery
+Requires-Dist: photutils
+Requires-Dist: requests
+Requires-Dist: pytest-astropy
+
+UNKNOWN
+
+

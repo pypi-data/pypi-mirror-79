@@ -1,0 +1,8 @@
+efficiency_pipeline/__init__.py,sha256=rdhPdxEKWa_ZJAvJTVEE2JOUWjQDkRVt1Y0AM3wOU2A,3446
+efficiency_pipeline/lco_fakeSNpipeline.py,sha256=zxBRXFbhAGxmF1XPyPik1t-lGU9tqRlY5gKv5Yi50YY,46269
+efficiency_pipeline/lco_figures.py,sha256=n0ZoOyoIuyimv9bHX2agYf_FIEXXaanm3bzMTfQeVOs,21525
+efficiency_pipeline/test_efficiency_pipeline.py,sha256=6o3owE8_UbarpdFRyoaoHnnEJNaR4j7v6F5wT9WWIx8,525
+efficiency_pipeline-0.0.1.dist-info/METADATA,sha256=55GaJvmnmeR_7ZUL2o6G4opaTQbd6fW-HfkCZ17BAFE,398
+efficiency_pipeline-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+efficiency_pipeline-0.0.1.dist-info/top_level.txt,sha256=PN3VYULBiMjyx0NMqEC1JgXfEKG40-Yhcm2wx3s3hRg,20
+efficiency_pipeline-0.0.1.dist-info/RECORD,,
