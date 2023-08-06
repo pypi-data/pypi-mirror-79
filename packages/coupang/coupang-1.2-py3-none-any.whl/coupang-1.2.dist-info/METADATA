@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: coupang
+Version: 1.2
+Summary: Python wrapper for coupang open api
+Home-page: https://github.com/kyungdongseo/coupang
+Author: kyungdong seo
+Author-email: kyungdongseo@gmail.com
+License: MIT
+Keywords: coupang,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: scrapy
+
+UNKNOWN
+
+
