@@ -1,0 +1,131 @@
+{
+  "Log": [
+    "INFO  ---- Main Problem : mini no uncert ----",
+    "INFO  No inconsistencies in ter",
+    "INFO  Max size of index2name : 3",
+    "INFO  Start builds aggregation matrix",
+    "INFO  Stops builds aggregation matrix",
+    "INFO  MFA model created, size 3",
+    "INFO  All bound constraints are honored",
+    "",
+    "INFO  All linear constraints are honored",
+    "",
+    ""
+  ],
+  "result ter moy": {
+    "use": [
+      [
+        null,
+        "S1(1)"
+      ],
+      [
+        "P1(1)",
+        34.15
+      ],
+      [
+        "P2(1)",
+        68.29
+      ],
+      [
+        "P3(1)",
+        null
+      ]
+    ],
+    "supply": [
+      [
+        null,
+        "S1(1)"
+      ],
+      [
+        "P1(1)",
+        null
+      ],
+      [
+        "P2(1)",
+        null
+      ],
+      [
+        "P3(1)",
+        102.44
+      ]
+    ]
+  },
+  "Results": [
+    [
+      "id",
+      "table",
+      "produit",
+      "secteur",
+      "origine",
+      "destination",
+      "valeur in",
+      "sigma in",
+      "sigma in %",
+      "min in",
+      "max in",
+      "valeur out",
+      "nb_sigmas",
+      "Ai",
+      "free min",
+      "free max",
+      "classif"
+    ],
+    [
+      0,
+      "s",
+      "P3",
+      "S1",
+      "S1",
+      "P3",
+      100.0,
+      5.0,
+      0.1,
+      0.0,
+      500000000.0,
+      102.44,
+      0.49,
+      "0 - ",
+      null,
+      null,
+      "redondant"
+    ],
+    [
+      1,
+      "u",
+      "P1",
+      "S1",
+      "P1",
+      "S1",
+      35.0,
+      1.75,
+      0.1,
+      0.0,
+      500000000.0,
+      34.15,
+      -0.49,
+      "0 - ",
+      null,
+      null,
+      "redondant"
+    ],
+    [
+      2,
+      "u",
+      "P2",
+      "S1",
+      "P2",
+      "S1",
+      70.0,
+      3.5,
+      0.1,
+      0.0,
+      500000000.0,
+      68.29,
+      -0.49,
+      "0 - ",
+      null,
+      null,
+      "redondant"
+    ]
+  ]
+}
