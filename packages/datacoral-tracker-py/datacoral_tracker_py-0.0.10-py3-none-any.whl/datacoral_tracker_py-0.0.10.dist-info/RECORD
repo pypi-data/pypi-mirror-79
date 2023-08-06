@@ -1,0 +1,13 @@
+snowplow_tracker/__init__.py,sha256=tG7A7HakvujUmHa6Kuqdi9TwhvWXd4vmvB-PO0Q7ZMg,378
+snowplow_tracker/_version.py,sha256=sSJ6mfNb99TeXvfP14cM9o5Wwc2m36Y6d6gkZuNox-o,975
+snowplow_tracker/emitters.py,sha256=8h-mrjY4uPCyRy8rdO3tTFRkaxOeRLPbG_l5zRZvKYA,12875
+snowplow_tracker/payload.py,sha256=ZMUexRQ2fbDIUw9XS2L2sFhKSN27wM8fJyMhKuBbCks,3156
+snowplow_tracker/redis_worker.py,sha256=m4GMKKpN9SdB2cJq51I3h_0-k9a5pXPh02HgDAakjhw,2354
+snowplow_tracker/self_describing_json.py,sha256=D6hiwJVJMsfL_unvg7mEUSwVR0gp9h6gRQsnUHjMKTI,1142
+snowplow_tracker/subject.py,sha256=SjE4KgeGgrCB7nenYEuJ0bue8_7mqUwyDDXk0HlIEz0,5056
+snowplow_tracker/tracker.py,sha256=yB7V3l5z7ES4U7808zv3kyKGHz6zWBp6d_jWO1_u0GA,14622
+datacoral_tracker_py-0.0.10.dist-info/LICENSE-2.0.txt,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+datacoral_tracker_py-0.0.10.dist-info/METADATA,sha256=nN1z_slHHRaSlYHfCWiDvcV2PmHtMTTQ6G6aDEvjHls,3192
+datacoral_tracker_py-0.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+datacoral_tracker_py-0.0.10.dist-info/top_level.txt,sha256=ZEHYnx272RFLLEU1PAuoM0K4FtAV-n_YYxdR2bEbuSs,17
+datacoral_tracker_py-0.0.10.dist-info/RECORD,,
