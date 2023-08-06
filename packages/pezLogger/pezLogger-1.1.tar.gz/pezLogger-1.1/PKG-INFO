@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pezLogger
+Version: 1.1
+Summary: Custom logger
+Home-page: https://github.com/YesmynameisPerry/pezLogger
+Author: Jason 'Perry' Taylor
+Author-email: yesmynameisperry@gmail.com
+License: MIT
+Download-URL: https://github.com/YesmynameisPerry/pezLogger/archive/1.1.tar.gz
+Description: UNKNOWN
+Keywords: LOGGER,CUSTOM,PEZ
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
