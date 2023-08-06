@@ -1,0 +1,13 @@
+README.md
+setup.py
+authlib_httpx/__init__.py
+authlib_httpx/assertion_client.py
+authlib_httpx/oauth1_client.py
+authlib_httpx/oauth2_client.py
+authlib_httpx/utils.py
+authlib_httpx.egg-info/PKG-INFO
+authlib_httpx.egg-info/SOURCES.txt
+authlib_httpx.egg-info/dependency_links.txt
+authlib_httpx.egg-info/not-zip-safe
+authlib_httpx.egg-info/requires.txt
+authlib_httpx.egg-info/top_level.txt
