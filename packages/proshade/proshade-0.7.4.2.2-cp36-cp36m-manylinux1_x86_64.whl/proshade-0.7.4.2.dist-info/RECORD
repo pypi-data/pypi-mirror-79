@@ -1,0 +1,16 @@
+proshade-0.7.4.2.dist-info/WHEEL,sha256=sls3I4AwOjcUUS0eD_jeWVVjbWXRb5AM-U3YAwvxhss,109
+proshade-0.7.4.2.dist-info/top_level.txt,sha256=h7uZ3pTx8Ge5HRXjiTLCRKjXtZyDBiMzUMmx3puSO1g,9
+proshade-0.7.4.2.dist-info/METADATA,sha256=-sNFfEHFmDiUlpcBXTwNWX9WYAz8x4SeBAIQuhaU3yg,86385
+proshade-0.7.4.2.dist-info/RECORD,,
+proshade-0.7.4.2.dist-info/LICENSE.txt,sha256=dt5zOhJaKlWgytjlQAQTAV1ZMYSB3E33P3J0FjXlgFo,1918
+proshade/_proshade.so,sha256=1mD550e32yQdW93jg7BCaqCdYjcM_Tz8ayR2Ow6EXOQ,978232
+proshade/proshade.py,sha256=wiqLyzSTuEpr9sl6d_cJ1NhNh6mX9c17XpAj7kLpbNc,107746
+proshade-0.7.4.2.data/scripts/proshade,sha256=3AUi4r48ad1BQEVsekvYcKsWY-UCyPYN_M-gbFGKjzo,19890759
+proshade-0.7.4.2.data/scripts/ProSHADE.hpp,sha256=7XChwfKkPfQ5RRp7mwUUy3hHMAgGcijEkDeCrh5R41w,9964
+proshade-0.7.4.2.data/scripts/libproshade.so,sha256=-7d815lJkIxuIlm9I4YeLsYAWAbZbMaUYf1q0j_aZ88,19540328
+proshade.libs/libgfortran-ed201abd.so.3.0.0,sha256=qKqgvlf0fwb_9d8LQ6xwpHV3igVXxOplo0uum9--YQg,1023960
+proshade.libs/libproshade-fbb77cd7.so,sha256=nXx7tfAtwEaOz8hlLNfPh_NUd5CTGd4Q9_2EwAK5jwQ,20471520
+proshade.libs/libblas-42b39b8c.so.3.8.0,sha256=LGVxbR0ZhEZgBzgIhxlNO7GaXTzD9D8Xh1U9wl-OShA,382928
+proshade.libs/libz-7f57503f.so.1.2.11,sha256=yt6qtjp7wIx759kXtHxAwC6PhMK5ziZgB_Xdm795ejo,117048
+proshade.libs/libfftw3-bf8b0ca6.so.3.5.8,sha256=NG274FL9MmbH5YYPrrfxRSI6mqnW73IK2pGqSA5mbZM,1190248
+proshade.libs/liblapack-cfc34709.so.3.8.0,sha256=AxvGJfKV1kQTDs5O61VeVxHzJWCgLfwcgR7vdzz3zUg,7206000
