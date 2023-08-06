@@ -1,0 +1,11 @@
+README.md
+setup.py
+pandazip/__init__.py
+pandazip/pandazip.py
+pandazip/pandazip_old.py
+pandazip/utils.py
+pandazip.egg-info/PKG-INFO
+pandazip.egg-info/SOURCES.txt
+pandazip.egg-info/dependency_links.txt
+pandazip.egg-info/requires.txt
+pandazip.egg-info/top_level.txt
