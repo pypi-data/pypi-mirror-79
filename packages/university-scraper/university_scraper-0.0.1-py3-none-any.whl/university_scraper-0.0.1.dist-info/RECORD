@@ -1,0 +1,14 @@
+university_scraper/__init__.py,sha256=NUZBhd9e6Izqi7XXbReRN61keXN5sw8NsejqFe2c_dQ,868
+university_scraper/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+university_scraper/_abstract.py,sha256=4rrsH3anbKZMG7j9ob9I5Loc8HRtpG-Kn8zK1HFbpGg,641
+university_scraper/universities/__init__.py,sha256=-WU2Ui2bc7bj6pSSnX5_NiyASzB8423G8j7p7NQuR3g,37
+university_scraper/universities/usyd.py,sha256=flWWL2mrv-qMdsfIZAM685wDdiE2i2ZOp4-6fGNZ6qQ,12248
+university_scraper/utils/__init__.py,sha256=iAI3UJ5NNKPUEFpa9tLjT9XMvjsWE8GxTyXpCo714_0,78
+university_scraper/utils/crawler.py,sha256=sU8uZYCZfgjBkyd3_-V3gBM85-Ww-V7EubcxD5GKNvw,4114
+university_scraper/utils/formatters.py,sha256=rup-U4x8IQeypSiIprtdPlBvO5hYFW9Tw4zdYUaWneI,95
+university_scraper/utils/scraper.py,sha256=qmW6i3-l0ZqU8zQLiGeIyrO4vbGon_8hYEaUKUYcT9k,807
+university_scraper-0.0.1.dist-info/LICENSE,sha256=PfkYOHzWWWWr2vsxkSBfv_8gI2ifBFmkarlNmyEQFcE,1067
+university_scraper-0.0.1.dist-info/METADATA,sha256=Ee138nK3SvYoF3TvNkJBQiANqd6qYiilREl3wlK4RpU,3165
+university_scraper-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+university_scraper-0.0.1.dist-info/top_level.txt,sha256=rLOl1j7IK-L4_ouhpXKkVSeUyHva_HY4OmsCSJCSTpI,19
+university_scraper-0.0.1.dist-info/RECORD,,
