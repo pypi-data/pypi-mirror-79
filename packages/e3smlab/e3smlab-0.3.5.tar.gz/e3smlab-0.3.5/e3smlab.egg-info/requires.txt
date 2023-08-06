@@ -1,0 +1,8 @@
+meteolab>=0.3.0
+gunzip>=0.1.10
+nmlread>=0.1.5
+dict2json>=0.1.2
+uxml2dict>=0.2.2
+langlab>=0.3.0
+sqlalchemy
+pymysql
