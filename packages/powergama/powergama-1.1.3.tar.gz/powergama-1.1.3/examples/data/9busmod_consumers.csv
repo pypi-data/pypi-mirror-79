@@ -1,0 +1,4 @@
+node,demand_avg,demand_ref
+bus5,150,demand2
+bus7,100,demand2
+bus9,250,demand2

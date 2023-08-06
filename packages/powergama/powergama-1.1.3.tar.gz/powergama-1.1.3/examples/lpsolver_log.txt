@@ -1,0 +1,49 @@
+Solver command line: ['c:\\users\\hsven\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\hsven\\AppData\\Local\\Temp\\tmpugmkb0m5.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\hsven\\AppData\\Local\\Temp\\tmpugmkb0m5.pyomo.soln']
+
+Welcome to the CBC MILP Solver 
+Version: 2.9.7 
+Build Date: Nov 24 2015 
+
+command line - c:\users\hsven\bin\cbc.exe -printingOptions all -import C:\Users\hsven\AppData\Local\Temp\tmpugmkb0m5.pyomo.lp -stat=1 -solve -solu C:\Users\hsven\AppData\Local\Temp\tmpugmkb0m5.pyomo.soln (default strategy 1)
+Option for printingOptions changed from normal to all
+Presolve 868 (-4826) rows, 2655 (-3649) columns and 6709 (-10587) elements
+Statistics for presolved model
+
+
+Problem has 868 rows, 2655 columns (1914 with objective) and 6709 elements
+There are 1271 singletons with objective 
+Column breakdown:
+970 of type 0.0->inf, 935 of type 0.0->up, 0 of type lo->inf, 
+102 of type lo->up, 648 of type free, 0 of type fixed, 
+0 of type -inf->0.0, 0 of type -inf->up, 0 of type 0.0->1.0 
+Row breakdown:
+97 of type E 0.0, 0 of type E 1.0, 0 of type E -1.0, 
+637 of type E other, 0 of type G 0.0, 0 of type G 1.0, 
+0 of type G other, 0 of type L 0.0, 0 of type L 1.0, 
+0 of type L other, 0 of type Range 0.0->1.0, 134 of type Range other, 
+0 of type Free 
+Presolve 868 (-4826) rows, 2655 (-3649) columns and 6709 (-10587) elements
+Perturbing problem by 0.001 % of 9631.2538 - largest nonzero change 0.0053555496 (% 0.10063724) - largest zero change 0.005117261
+0  Obj -0.034338011 Primal inf 13908094 (706) Dual inf 49610681 (83)
+92  Obj -2181260.2 Primal inf 12456.219 (675)
+166  Obj -2181260.2 Primal inf 41576.727 (621)
+258  Obj -2181260.2 Primal inf 67053.305 (549)
+335  Obj -2181260.2 Primal inf 63795.209 (477)
+415  Obj -2181260.2 Primal inf 79195.388 (414)
+492  Obj -2181260.2 Primal inf 78847.915 (347)
+584  Obj -2181260.2 Primal inf 66156.72 (259)
+676  Obj -2171431.8 Primal inf 3202450.1 (177)
+763  Obj 2358039.6 Primal inf 216856.74 (140)
+855  Obj 6312254.5 Primal inf 19374.061 (111)
+941  Obj 7492508.9 Primal inf 5820.3178 (91)
+1033  Obj 8401872.6 Primal inf 67311.594 (44)
+1085  Obj 8409627.7
+Optimal - objective value 8409666.9
+After Postsolve, objective 8409666.9, infeasibilities - dual 561.59517 (23), primal 0 (0)
+Presolved model was optimal, full model needs cleaning up
+0  Obj 8409666.9
+Optimal - objective value 8409666.9
+Optimal objective 8409666.899 - 1085 iterations time 0.122, Presolve 0.02
+Total time (CPU seconds):       0.32   (Wallclock seconds):       0.31
+
+

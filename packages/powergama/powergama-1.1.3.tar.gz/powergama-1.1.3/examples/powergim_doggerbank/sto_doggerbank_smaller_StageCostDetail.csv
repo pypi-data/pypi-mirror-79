@@ -1,0 +1,6 @@
+1, root, Scenario1, stageCost, 1, 8100563050.0
+1, root, Scenario2, stageCost, 1, 8100563050.0
+1, root, Scenario3, stageCost, 1, 8100563050.0
+2, Scenario1, Scenario1, stageCost, 2, -13546071000.0
+2, Scenario2, Scenario2, stageCost, 2, -13672358810.0
+2, Scenario3, Scenario3, stageCost, 2, -14038823480.0
