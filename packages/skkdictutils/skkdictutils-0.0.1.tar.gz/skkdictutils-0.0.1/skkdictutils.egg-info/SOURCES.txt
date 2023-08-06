@@ -1,0 +1,8 @@
+README.md
+setup.py
+skkdictutils/__init__.py
+skkdictutils.egg-info/PKG-INFO
+skkdictutils.egg-info/SOURCES.txt
+skkdictutils.egg-info/dependency_links.txt
+skkdictutils.egg-info/requires.txt
+skkdictutils.egg-info/top_level.txt
