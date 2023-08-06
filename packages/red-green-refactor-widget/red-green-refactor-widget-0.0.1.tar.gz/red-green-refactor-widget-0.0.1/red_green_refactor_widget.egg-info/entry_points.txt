@@ -1,0 +1,3 @@
+[console_scripts]
+red-green-refactor-widget = red_green_refactor_widget.cli:main
+
