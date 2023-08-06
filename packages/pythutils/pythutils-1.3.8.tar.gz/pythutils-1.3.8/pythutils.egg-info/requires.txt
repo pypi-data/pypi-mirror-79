@@ -1,0 +1,7 @@
+pyyaml
+
+[:python_version >= "2" and python_version < "3"]
+numpy==1.16.5
+
+[:python_version >= "3"]
+numpy
