@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+entity_addict/__init__.py
+entity_addict/entity.py
+entity_addict.egg-info/PKG-INFO
+entity_addict.egg-info/SOURCES.txt
+entity_addict.egg-info/dependency_links.txt
+entity_addict.egg-info/not-zip-safe
+entity_addict.egg-info/requires.txt
+entity_addict.egg-info/top_level.txt
