@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: wordsolver
+Version: 0.0.2
+Summary: A package to solve word games
+Home-page: https://github.com/chrismalcolm/solver
+Author: Christopher Malcolm
+Author-email: chris.c.malcolm.96@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
