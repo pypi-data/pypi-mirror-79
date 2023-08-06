@@ -1,0 +1,3 @@
+[kedro.hooks]
+kedro-accelerator = kedro_accelerator.plugins:hooks
+
