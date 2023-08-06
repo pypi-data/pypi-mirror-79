@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mockplatform
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/jakewan/mockplatform
+Author: Jacob Wan
+Author-email: jacobwan840@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.3
+Provides-Extra: dev
