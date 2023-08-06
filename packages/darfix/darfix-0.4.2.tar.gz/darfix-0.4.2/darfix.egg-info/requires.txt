@@ -1,0 +1,13 @@
+numpy
+setuptools
+opencv-python==4.1.2.30
+scikit-image
+silx
+
+[full]
+matplotlib>=1.2.0
+PyQt5
+orange3
+
+[test]
+pillow==7.0.0
