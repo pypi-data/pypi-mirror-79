@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: uniplot
+Version: 0.2.0
+Summary: Lightweight plotting to the terminal. 4x resolution via Unicode.
+Home-page: https://github.com/olavolav/uniplot
+Author: Olav Stetter
+Author-email: olav.stetter@googlemail.com
+License: MIT
+Description: Simple plotting tool.
+        
+        When working with production data science code it can be handy to have plotting
+        tool that does not rely on graphics dependencies or works only in a Jupyter notebook.
+        
+        The **use case** that this was built for is to have plots as part of your data science /
+        machine learning CI pipeline - that way whenever something goes wrong, you get not only
+        the error and backtrace but also plots that show what the problem was.
+        
+        Demo:
+        [On asciinema](https://asciinema.org/a/Ldgn5pHOgxPJmIf2ZvlfIPR3L)
+        [On Youtube](https://youtu.be/rZxGAGMjP5k)
+        
+        [![asciicast](https://asciinema.org/a/Ldgn5pHOgxPJmIf2ZvlfIPR3L.png)](https://asciinema.org/a/Ldgn5pHOgxPJmIf2ZvlfIPR3L)
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
