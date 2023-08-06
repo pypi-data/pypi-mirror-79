@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ccxmeshreader/__init__.py
+ccxmeshreader/parser_error.py
+ccxmeshreader/read_mesh.py
+ccxmeshreader.egg-info/PKG-INFO
+ccxmeshreader.egg-info/SOURCES.txt
+ccxmeshreader.egg-info/dependency_links.txt
+ccxmeshreader.egg-info/top_level.txt
