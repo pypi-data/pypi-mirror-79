@@ -1,0 +1,15 @@
+argo/workflows/dsl/__about__.py,sha256=T96S5S8g3IBKU2uoAmgeC9HdCQWvEAZoN17eXZl8wJs,547
+argo/workflows/dsl/__init__.py,sha256=tSnfdhjOxBccP44BxfFXfrVLDJOBvwGFGBAWGFrarLk,330
+argo/workflows/dsl/_arguments.py,sha256=a5T58K-6A5OYNRFHIgNNs26cqCkVTU8j41XopdQBiEo,1710
+argo/workflows/dsl/_base.py,sha256=yZhmET7Mdrfn4vnRJWXM3FTexR1JlT0mRN7UMJhjPWU,5675
+argo/workflows/dsl/_inputs.py,sha256=BT2FN1EoaFQxrdA_3T3tJpBVfFPaRZNFpPcs9cDc2qM,603
+argo/workflows/dsl/_outputs.py,sha256=QxIs08suWY4U17SmI8Yd8EdfdQ7PFgJ2U2hBMK8VRZc,608
+argo/workflows/dsl/_utils.py,sha256=Yllg-FtiUJjZIWdzBsqQ3qht_Bbpk29EPevWdoacdII,1915
+argo/workflows/dsl/_workflow.py,sha256=nBhZreUQbedJ61USmPI3crOzu08SEpqRT5ooVk0afbg,15068
+argo/workflows/dsl/tasks.py,sha256=u5-JyUMpwIvLprJLo1EbbOmAmMT3wCxYmW1tzgf9ot4,1999
+argo/workflows/dsl/templates.py,sha256=OHpJ1JWwD3y0NvATOSQPTjm7waxCnx66b9RwCNcnZbE,5583
+argo_workflows_dsl-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+argo_workflows_dsl-0.2.0.dist-info/METADATA,sha256=bQjrO6F-8MRbqQdN7qWG_93TsjbWjrWFXm6ruZFr5k4,14454
+argo_workflows_dsl-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+argo_workflows_dsl-0.2.0.dist-info/top_level.txt,sha256=Svly2iFb6Zb1-Uy3XOd2Km5UgbhX2dGFWJW9Dp9p4xc,5
+argo_workflows_dsl-0.2.0.dist-info/RECORD,,
