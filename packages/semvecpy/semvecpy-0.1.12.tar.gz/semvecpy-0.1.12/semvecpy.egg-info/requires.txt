@@ -1,0 +1,4 @@
+bitarray
+multiprocess
+numpy
+scipy
