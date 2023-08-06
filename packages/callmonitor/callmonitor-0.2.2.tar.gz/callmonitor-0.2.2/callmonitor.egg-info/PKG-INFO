@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: callmonitor
+Version: 0.2.2
+Summary: A light-weight package that allows you to monitor function calls with ease.
+Home-page: https://github.com/JBlaschke/call-monitor
+Author: Johannes Blaschke
+Author-email: johannes@blaschke.science
+License: UNKNOWN
+Description: # `callmonitor` -- A Simple Tool to Monitor Function Calls
+        
+        It's simple to use, just decorate any function with the `@intercept` decorator.
+        This will save the input arguments to the
+        `call-monitor/<function_name>/<invocation count>` folder.
+        
+        The `Loader` class helps load the input arguments:
+        ```python
+        l = callmonitor.Loader("<function name>", invocation_count)
+        args, kwargs = l.load()
+        ```
+        loads the `invocation_count`-th call to `<function_name>`.
+        
+        If the call data has been saved using `v0.2.0` or greater, then the
+        `inspect.FullArgSpec` will also be saved. This can be accessed using
+        `l.argspec`. Otherwise `l.argspec` will throw an `ArgspecUnkown` error.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
