@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rocksdb3
+Version: 0.0.1
+Summary: Python bindings for the Rust rocksdb crate
+Home-Page: https://github.com/xyb/rocksdb3
+Author: Xie Yanbo <xieyanbo@gmail.com>
+Author-Email: Xie Yanbo <xieyanbo@gmail.com>
+License: Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Python bindings for rocksdb based on rust wrapper and PyO3.
+
+A very early proof-of-concept version.
+
+## build
+
+```
+pip install maturin
+maturin build
+```
+
