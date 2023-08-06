@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: cloudtest
+Version: 0.0.1.0
+Summary: cloudtest
+Home-page: https://github.com/juewuer/cloudtest
+Author: Juewuer
+Author-email: lihechao@gmail.com
+License: MIT
+Description: used for test openstack projects
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Testing

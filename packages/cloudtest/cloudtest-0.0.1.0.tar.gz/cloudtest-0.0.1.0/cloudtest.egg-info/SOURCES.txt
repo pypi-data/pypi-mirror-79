@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+cloudtest.egg-info/PKG-INFO
+cloudtest.egg-info/SOURCES.txt
+cloudtest.egg-info/dependency_links.txt
+cloudtest.egg-info/top_level.txt
