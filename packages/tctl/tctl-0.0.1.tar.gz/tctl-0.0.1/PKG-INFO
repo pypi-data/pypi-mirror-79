@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: tctl
+Version: 0.0.1
+Summary: Tradologics Command-line Utility
+Home-page: https://github.com/tradologics.com/tctl
+Author: Tradologics, Inc.
+Author-email: opensource@tradologics.com
+License: Apache 2.0
+Description: README.md
+        
+        ```bash
+        $ tctl config: Initialize, authorize, and configure the tctl tool.
+        $ tctl version: Display version
+        $ tctl info: Display current tctl tool environment details.
+        ```
+        
+        ```bash
+        $ tctl [components] [command] [options]
+        ```
+        
+Keywords: tradologics,tradologics.com
+Platform: any
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
