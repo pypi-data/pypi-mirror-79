@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torchmd
+Version: 0.0.1
+Summary: TorchMD. Molecular dynamics with pytorch
+Home-page: https://github.com/torchmd/torchmd/
+Author: Acellera
+Author-email: info@acellera.com
+License: UNKNOWN
+Description: To run the code:
+        
+        ```
+        conda create -n torchmd
+        conda activate torchmd
+        conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+        conda install pyyaml ipython
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
