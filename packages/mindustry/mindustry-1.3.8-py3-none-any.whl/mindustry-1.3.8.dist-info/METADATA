@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mindustry
+Version: 1.3.8
+Summary: this library allows you to manage mindustry ------------------------------------ lib using PyAutoGUI Keyboard Mouse ----------------------------------- Command to install pip install mindustry
+Author: ASVI
+Author-email: aaaaaabbbbbbccscc@gmail.com
+Requires-Python: >=3.2,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
