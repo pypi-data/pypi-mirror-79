@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: loganalysispackage
+Version: 0.6
+Summary: loganalysispackage
+Home-page: https://github.com/shinjiniray/loganalysispackage
+Author: Shinjini Ray
+Author-email: shinjini.ray@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/loganalysispackage
+Description: # loganalysispackage
+        
+        ## History
+Keywords: log,analysis,neuralnetwork
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
