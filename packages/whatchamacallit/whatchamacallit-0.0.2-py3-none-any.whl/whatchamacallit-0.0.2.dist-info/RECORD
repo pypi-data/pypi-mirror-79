@@ -1,0 +1,9 @@
+whatchamacallit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatchamacallit/__main__.py,sha256=IeO4YER9dYFlbjl3SNT2xHXpTPFMkg3hPbvs8_HvCNA,427
+whatchamacallit/fastapi_server.py,sha256=hcpUhAFOZPuOd6GS0z6pY3TMwtd-JMZcYJMJVVgyxEk,1198
+whatchamacallit/make.py,sha256=sGnbjzI8qlI9KNm-L5xJ4D_TNROdIaEDHyKKqfVLPAI,5711
+whatchamacallit/test_make.py,sha256=9MWCTJe8jErM3eRdscSJmKrwYpJICRlQW0GYseZQ-sk,3372
+whatchamacallit-0.0.2.dist-info/LICENSE,sha256=NAiYmyZ4m6p0SWP-H5IQlsomOzVQ1rYa4QbWDB-CGpg,1092
+whatchamacallit-0.0.2.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+whatchamacallit-0.0.2.dist-info/METADATA,sha256=m7HvHIFKctoiumjeaTSoPaIunjwmOqSIxWx1lNsIaAA,1377
+whatchamacallit-0.0.2.dist-info/RECORD,,
