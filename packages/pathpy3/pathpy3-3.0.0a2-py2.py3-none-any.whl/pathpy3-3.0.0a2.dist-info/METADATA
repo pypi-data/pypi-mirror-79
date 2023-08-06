@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pathpy3
+Version: 3.0.0a2
+Summary: pathpy: path data analysis
+Home-page: https://www.pathpy.net
+Author: Ingo Scholtes, Jürgen Hackl
+Author-email: info@pathpy.net
+Maintainer: Ingo Scholtes, Jürgen Hackl
+Maintainer-email: info@pathpy.net
+License: AGPL-3.0+
+Download-URL: https://github.com/pathpy/pathpy
+Project-URL: Issue Tracker, https://github.com/pathpy/pathpy/issues
+Project-URL: Documentation, https://pathpy.github.io/
+Project-URL: Source Code, https://github.com/pathpy/pathpy
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: tqdm (>=4.36.1)
+Requires-Dist: pandas (>=0.25.2)
+Requires-Dist: singledispatchmethod (>=1.0)
+Requires-Dist: intervaltree (>=3.0.2)
+
+An OpenSource python package for the analysis of time series data on networks
+using higher-order and multi-order graphical models.
+
+
