@@ -1,0 +1,9 @@
+dynet_config.py,sha256=dmD7hbiYN48l_jah900LFjXDR07doVdGMisscNytfdo,2199
+dynet.py,sha256=XhT-r6GRwioKCKaur-2TMkNWbZM4Y_MqLD028IdYY6Y,942
+_dynet.cpython-39-x86_64-linux-gnu.so,sha256=acImdNMFTD_feQ7niLv2VNnrt7ZN7dvQh-eKuQBAQv8,8803368
+dynet_viz.py,sha256=BPrts76QTRjlWjfjAkT1khC1jbnQy7QAcc_WmyslGvM,39058
+dyNET38-2.1.dist-info/RECORD,,
+dyNET38-2.1.dist-info/WHEEL,sha256=MbtbqAZac_n2F4h43wTK1gDTc2gN4Ms3L62s7suaJMo,108
+dyNET38-2.1.dist-info/METADATA,sha256=2uIJfReBHyYjt7NWQPe1zqh9TAKSbb83MADBLNCoC-k,883
+dyNET38-2.1.dist-info/top_level.txt,sha256=qzwV1OnBtJvZ8TkaGZ24zFfXU8Sjkwmt1xe7jqpxDpw,36
+dyNET38.libs/libdynet-dbf8d59b.so,sha256=VjFZjOgPH7E7JudQ4BfN4Rbysf3s2ZFXUNZQl4L2Ltw,6523504
