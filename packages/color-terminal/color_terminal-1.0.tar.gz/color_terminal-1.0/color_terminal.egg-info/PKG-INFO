@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: color-terminal
+Version: 1.0
+Summary: Color terminal
+Home-page: UNKNOWN
+Author-email: easyhelloworld228@gmail.com
+License: UNKNOWN
+Description: ## Example
+        
+        ```Python
+        import colorterminal
+        
+        print(colorterminal.ColorText.RED + 'Hello' + colorterminal.ColorText.PURPLE + ' World')
+        ```
+        
+        #### Output
+        
+        ![Output](https://i.ibb.co/cDvN6Z4/2-5413863330953562736.png)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

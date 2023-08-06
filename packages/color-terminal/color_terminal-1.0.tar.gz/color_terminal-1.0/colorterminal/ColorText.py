@@ -1,0 +1,10 @@
+CSI = '\033['
+
+BLACK = CSI + '30m'
+RED = CSI + '31m'
+GREEN = CSI + '32m'
+YELLOW = CSI + '33m'
+BLUE = CSI + '34m'
+PURPLE = CSI + '35m'
+BEREZOVY = CSI + '36m'
+WHITE = CSI + '37m'

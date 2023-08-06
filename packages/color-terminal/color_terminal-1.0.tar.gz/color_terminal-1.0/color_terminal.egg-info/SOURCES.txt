@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+color_terminal.egg-info/PKG-INFO
+color_terminal.egg-info/SOURCES.txt
+color_terminal.egg-info/dependency_links.txt
+color_terminal.egg-info/not-zip-safe
+color_terminal.egg-info/top_level.txt
+colorterminal/ColorBackground.py
+colorterminal/ColorText.py
+colorterminal/EffectsText.py
+colorterminal/__init__.py
