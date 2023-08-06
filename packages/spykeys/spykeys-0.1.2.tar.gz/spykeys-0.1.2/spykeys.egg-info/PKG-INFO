@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: spykeys
+Version: 0.1.2
+Summary: 
+This is the SPyKeS package. It provides simple key storage capabilities.
+
+Home-page: https://github.com/Pythocrates/SPyKeS
+Author: Pythocrates
+Author-email: 23015037+Pythocrates@users.noreply.github.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: MIT
+Classifier: Operating System :: OS Independent
