@@ -1,0 +1,6 @@
+Django>=2.0
+Pillow
+
+[full]
+django-solo>1.1
+django-mptt>0.9
