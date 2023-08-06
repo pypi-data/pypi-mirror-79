@@ -1,0 +1,4 @@
+keyring
+requests
+requests_toolbelt
+tabulate
