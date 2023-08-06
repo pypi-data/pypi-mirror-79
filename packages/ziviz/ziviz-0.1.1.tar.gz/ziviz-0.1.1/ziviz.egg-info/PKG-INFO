@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ziviz
+Version: 0.1.1
+Summary: Ziviz
+Home-page: https://github.com/mikheyevav/ziviz
+Author: mikheyevav
+Author-email: mikheyevav@gmail.com
+License: UNKNOWN
+Description: Ziviz exploratory data analysis tool for Jupyter
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
