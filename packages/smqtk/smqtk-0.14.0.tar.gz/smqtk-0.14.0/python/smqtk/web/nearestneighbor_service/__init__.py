@@ -1,0 +1,3 @@
+from .service import NearestNeighborServiceServer
+
+SMQTK_PLUGIN_CLASS = NearestNeighborServiceServer
