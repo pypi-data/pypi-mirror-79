@@ -1,0 +1,4 @@
+h5py
+silx
+deepdish
+h5io
