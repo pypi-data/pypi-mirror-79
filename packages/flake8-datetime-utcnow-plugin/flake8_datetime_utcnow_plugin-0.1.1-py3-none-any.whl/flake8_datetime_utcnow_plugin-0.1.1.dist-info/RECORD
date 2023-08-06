@@ -1,0 +1,10 @@
+flake8_datetime_utcnow/__init__.py,sha256=mVJErgm4_Zec9ui5aIr5duKHLSn_uJcY0e1Q6eeie8Q,63
+flake8_datetime_utcnow/__version__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+flake8_datetime_utcnow/linter.py,sha256=i_92KN2pGWnlWqkeAYM1i1odGolUtxWnqtno_XjZO6M,768
+flake8_datetime_utcnow/visitor.py,sha256=CugTi9gv58QtZJAGdWcSzBHXtIkwVwhkQzllvBAf-fI,812
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/LICENSE,sha256=mpv9RbLVJESFh9ne3LWsN7DFxBS5RvNQDv0zfZ-6eFE,1072
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/METADATA,sha256=CkW7GYuJm-4xUd_onRYEjEbRlnKaDxEp3xG3qPYPZcs,1491
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/entry_points.txt,sha256=b9DNoCGEA7Vc75224trx22piyLv4pm0f4FC475haBjo,69
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/top_level.txt,sha256=ZyiOALQxpXrWQnYXVRSkUXZu6dkZkHq0--kupwRaJdY,23
+flake8_datetime_utcnow_plugin-0.1.1.dist-info/RECORD,,
