@@ -1,0 +1,37 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 8pt;
+    margin: 4pt 4pt 4pt 8pt
+}
+
+.level_even {
+    background-color: #f6f6f6;
+}
+
+
+.level_odd {
+    background-color: #ffffff;
+}
+
+.card-header {
+    font-size: 1.3em;
+}
+
+.card-body {
+    padding-left: 8pt;
+}
+
+.leaf_node {
+    border: 1px solid #ccc;
+    padding: 8pt;
+    margin-top: 4pt;
+}
+
+button.btn{
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.card h3.jupyxml {
+    margin: 1pt;
+}
