@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mediascraper
+Version: 0.0.1
+Summary: A small package for scrapping media.
+Home-page: https://github.com/Tim232
+Author: Tim232
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# mediascaper
+
+Scraper!
+
