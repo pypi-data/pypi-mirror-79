@@ -1,0 +1,17 @@
+cotoba_cli/cli.py,sha256=z2jUA9VOrwFhOKmpMsRMQNB4XKt6048mIf5jNYx8aC0,4927
+cotoba_cli/cli_nlu.py,sha256=LiTW2uee_VuLGjYWn5I8T19-q8ue6G6frZPo9DZtls0,21283
+cotoba_cli/cli_platform.py,sha256=uULBAqRZaiKp90FY_D6jUl9iYyAgKQCaE4MaGsplExA,17012
+cotoba_cli/cli_test.py,sha256=0bAma9cQl85_9cb2L4BCgaOtjMeXbg8aK4mry1FHWg4,11398
+cotoba_cli/cognito.py,sha256=NLQ9y9B2sjBi7b9glXCZBMh1qR5N2sqoDsvYtnkGs04,2863
+cotoba_cli/config.py,sha256=mjHenC6BgLTbGUKiNLOSZoGUaX1jOct8O4x5OKahhqY,1759
+cotoba_cli/configuration.py,sha256=3xiG0rbMjqp9gyAwOowPOf2eSkf-86AmvFye3JCvl0E,7510
+cotoba_cli/error.py,sha256=Pats2gf4c75iu5bZYHIJraOMraRBm6OXrKIYKLax1ss,701
+cotoba_cli/nlu.py,sha256=VFNo9BCwRVUcMDCyfr3mFjjBK4w7LYqop6ZIIjYKgmg,29715
+cotoba_cli/platform.py,sha256=e68gB1cTFs0BA1y2vW2trssFFLH6BcFj3Rx5Xtx5ijI,13363
+cotoba_cli/service/bot_test.py,sha256=WElJ7xl9WuX6pcvNOZQR1I95BZRoD1bG4Uz8rIRnfUg,5761
+cotoba_cli/session.py,sha256=XgyFbu78S2rQgUk_kI8qa62K-yul9fqUNdrbBId7uJY,1348
+cotoba_cli/util.py,sha256=rj1ypOFf4ltx6WKmrJZq_6IYqT4Tdrwo3TJoxKiMEj0,1472
+cotoba_cli-1.3.1.dist-info/entry_points.txt,sha256=lJ5eXSJq2ByI2uMQYq3Ip9wOqzRd1B-CZmdlXmQlETc,46
+cotoba_cli-1.3.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+cotoba_cli-1.3.1.dist-info/METADATA,sha256=ixXiMwXgsbv1-dTCC9zH2wi3OjS7NdiGQRZ0v8EJ5f4,500
+cotoba_cli-1.3.1.dist-info/RECORD,,
