@@ -1,0 +1,14 @@
+gallerycrawler/__init__.py,sha256=Jx3rLfAHn_GRqYhibaE-HMKJJByzu4o7J3BCDgRF0Ns,147
+gallerycrawler/cli.py,sha256=O2mNLVWp88KfKaKZfuBrcwDbsFQfDU7RcUj5XlTwAmQ,606
+gallerycrawler/crawler.py,sha256=m-bv9Ezagiyu-lC1vbG4tMhOUAu7B80mUWXJXmTH6oA,5940
+gallerycrawler/exporter.py,sha256=uWIaMBbuMAyyt0wI3PMliarm-30e71eiPfrL4AbRtmA,1955
+gallerycrawler/page_details.py,sha256=II74sPNgdWRN8pJLJzCUY86DB4SiwcRVspoGK7ijMIc,416
+gallerycrawler/toolbox.py,sha256=O_ZOYe8DQ2QRzNQgQVT_4Jg9Dh27fVwZbhPDPjlwPbQ,851
+gallerycrawler/utils.py,sha256=-gjlfw4CQ6JwTgKKPhG5NdzqhYFEUgAXTbRHewSux78,229
+gallerycrawler-0.1.0.dist-info/AUTHORS,sha256=tPC5v2u0yuP6SGW1wO_vxMGMRAaZ4Nqidb7fmX2W3EY,193
+gallerycrawler-0.1.0.dist-info/LICENSE,sha256=rdI8Cs13B-mlYfxJYiqZUBaqA-6NC0DHAxuAl_gEMxM,1502
+gallerycrawler-0.1.0.dist-info/METADATA,sha256=PiiXMaZDImiV887dn8_DIsSm-kN-ELaeQib1nvTTkkQ,1903
+gallerycrawler-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gallerycrawler-0.1.0.dist-info/entry_points.txt,sha256=h9F6jo7-G3DsxXji3i3umkc16wI7_eAxBikKQulnFOw,60
+gallerycrawler-0.1.0.dist-info/top_level.txt,sha256=xGjAOHi7sdTnO1WsK5EkIUZy7lqdMpAkFQxKTwHVrW0,15
+gallerycrawler-0.1.0.dist-info/RECORD,,
