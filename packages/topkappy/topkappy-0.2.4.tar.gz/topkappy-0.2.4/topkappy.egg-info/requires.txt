@@ -1,0 +1,5 @@
+kappy<4.1
+networkx
+matplotlib
+numpy
+termcolor
