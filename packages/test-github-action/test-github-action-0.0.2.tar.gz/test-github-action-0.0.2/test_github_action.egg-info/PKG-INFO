@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-github-action
+Version: 0.0.2
+Summary: okta cli
+Home-page: https://github.com/MaHu6/TestGithubAction
+Author: husima
+Author-email: simahu@outlook.com
+License: MIT Licence
+Description: # TestGithubAction
+Keywords: pip,okta,cli,cmd,steven
+Platform: any
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
