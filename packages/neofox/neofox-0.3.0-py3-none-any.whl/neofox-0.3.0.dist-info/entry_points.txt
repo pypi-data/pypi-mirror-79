@@ -1,0 +1,3 @@
+[console_scripts]
+neofox = neofox.command_line:neofox_cli
+
