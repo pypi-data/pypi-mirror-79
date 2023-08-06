@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+getcred.egg-info/SOURCES.txt
+getcred.egg-info/dependency_links.txt
+getcred.egg-info/top_level.txt
+getcreds.egg-info/PKG-INFO
+getcreds.egg-info/SOURCES.txt
+getcreds.egg-info/dependency_links.txt
+getcreds.egg-info/top_level.txt

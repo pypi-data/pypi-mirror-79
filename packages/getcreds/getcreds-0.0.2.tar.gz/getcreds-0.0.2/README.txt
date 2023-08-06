@@ -1,0 +1,1 @@
+Function to hide your credentials
