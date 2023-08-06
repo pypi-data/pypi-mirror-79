@@ -1,0 +1,6 @@
+xarray
+pandas
+dask
+xesmf
+pytest
+setuptools
