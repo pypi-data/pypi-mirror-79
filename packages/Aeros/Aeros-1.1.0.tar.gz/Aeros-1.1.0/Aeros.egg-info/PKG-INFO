@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Aeros
+Version: 1.1.0
+Summary: High-performance ASGI framework
+Home-page: https://gitlab.com/wiesen.leon/aeros
+Author: Leon Wiesen
+License: UNKNOWN
+Description: ![](https://gitlab.com/wiesen.leon/aeros/-/raw/master/doc/header.png)
+        
+        
+        | Status information    |   |
+        |-----------------------|---|
+        | [Repository](https://gitlab.com/wiesen.leon/aeros)            | ![](https://img.shields.io/gitlab/pipeline/wiesen.leon/aeros/master) ![](https://img.shields.io/pypi/dm/Aeros?label=Downloads) ![](https://img.shields.io/github/repo-size/TheClockTwister/Aeros?label=Repo%20size)
+        | [Python module](https://pypi.org/project/Aeros/)              | ![](https://img.shields.io/pypi/v/Aeros?label=PyPi%20version) ![](https://img.shields.io/pypi/pyversions/Aeros?label=Python%20version) ![](https://img.shields.io/pypi/format/Aeros?label=PyPi%20format)
+        | [npm package](https://www.npmjs.com/package/aeros-frontend)   | ![](https://img.shields.io/npm/v/aeros-frontend?label=npm%20version) ![](https://img.shields.io/bundlephobia/min/aeros-frontend?label=npm%20bundle%20size)
+        
+        
+        Aeros is a framework that makes development for JavaScript frontends on Python backends
+        extreamly easy and as much straight-forward as possible. It features a production-grade
+        ASGI (Asynchronous Server Gateway Interface) package for the Python backend and an npm
+        package for the JavaScript frontend. These packages contain wrappers, functions and other
+        helpers for widely used Web and API functions.
+        
+        ________________________________________________________________________________________
+        
+        # Aeros framework documentation
+        Both packages are documented separately in a different repository folder. Feel free to
+        read there respective documentation by clicking on the links below.
+        
+        
+        ## Package documentation
+        ### [Python package documentation](Python)
+        This module is for the development of web server and API backends. The module can be
+        installed from [Aeros PyPI](https://pypi.org/project/Aeros/) with `pip install Aeros`.
+        
+        ### [npm package documentation](JavaScript)
+        This package is for the implementation in frontend projects like ReactJS or similar and
+        can handle all API requests. This package can be installed from
+        [Aeros npm](https://www.npmjs.com/package/aeros-frontend) via `npm install aeros-frontend`.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
