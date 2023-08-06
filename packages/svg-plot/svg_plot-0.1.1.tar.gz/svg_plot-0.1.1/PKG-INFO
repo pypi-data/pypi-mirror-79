@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: svg_plot
+Version: 0.1.1
+Summary: Lightweight tool to generate SVG plots.
+Home-page: https://github.com/tgree/svg_plot
+Author: Terry Greeniaus
+Author-email: terrygreeniaus@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: svg_plot
+        ========
+        This pacakge provides a simple plot tool to generate SVG graphs.
+        
+Keywords: svg plot
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
