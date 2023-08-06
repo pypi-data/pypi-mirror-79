@@ -1,0 +1,16 @@
+SSRS/__init__.py,sha256=BQr-Yg_g3uO9LQnfRrP-byNTaty23pmFo24VXZ4dWrE,8123
+SSRS/schemas.py,sha256=iaEcpF8_9Bt9FOV6qQb54E68Pqilktqhy1CCUshR0zg,1055
+samples/FindItem.py,sha256=R_LDBhteNh2aCBUqMmHdt3njtoQS_OLnCmHhgKA5YmE,1134
+samples/GetParameters.py,sha256=LKdPwDqgfHpqdDDn0lfDf72MawmNLpyp3qR43GFxuFk,814
+samples/ListDir.py,sha256=yjdgXTsTkH37bmGLq5x-PzyYjqqPPqkvmMg0IMy2U9A,1073
+samples/ListMethods.py,sha256=zPsoUB3AhheQZutjHyTDRtDmi6Jf19hBnF_FZ2T471g,423
+samples/LoadReport.py,sha256=-ekoWFJ-1zKdE4rXkq61yJbQlyUlLpl8swOwtqRc-0A,1519
+samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samples/connection_data.py,sha256=0EdhrBXB0JUSZi9NFTiT6PEX3JmrkyDpXmyIdIkVoNE,246
+samples/context.py,sha256=pXUCcxXSAaVuRN56_rPGlZoYOyKYg6jy49BSDTtqxs4,130
+samples/test.py,sha256=fvGy-3YQFGgWmMCoDoydM4-Pw5cLZ3vMy7tNjpMRmCE,1825
+pySSRS2-2.0.1.dist-info/LICENSE,sha256=AHvIA4_qjyOwmusVZHwQ1myi-hu7K6YkQ3lr0F13v_E,1081
+pySSRS2-2.0.1.dist-info/METADATA,sha256=9ApnhdQhz15Qj8fjUv8wI5wfl3soFqoUEpeuq28AgiY,781
+pySSRS2-2.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pySSRS2-2.0.1.dist-info/top_level.txt,sha256=kw67wYMKH041SHu_E2_yyfcKAfIbQdJ6hC9WV_CReXc,13
+pySSRS2-2.0.1.dist-info/RECORD,,
