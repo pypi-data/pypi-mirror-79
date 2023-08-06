@@ -1,0 +1,17 @@
+webob<=1.8.6
+psutil<=5.7.2
+PasteDeploy<=2.1.0
+six==1.11.0
+pyyaml<=5.3.1
+galaxy-job-metrics<20.5.0
+galaxy-objectstore<20.5.0
+galaxy-tool-util<20.5.0
+paramiko<=2.7.2
+
+[:python_version=="2.7"]
+paste<=3.4.4
+PasteScript<=3.2.0
+
+[galaxy_extended_metadata]
+galaxy-job-execution>=19.9.0.dev0
+galaxy-util[template]
