@@ -1,0 +1,7 @@
+datasette
+seaborn>=0.11.0
+
+[test]
+pytest
+pytest-asyncio
+httpx
