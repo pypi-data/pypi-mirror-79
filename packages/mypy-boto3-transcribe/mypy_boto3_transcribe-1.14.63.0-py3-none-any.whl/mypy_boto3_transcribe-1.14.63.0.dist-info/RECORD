@@ -1,0 +1,13 @@
+mypy_boto3_transcribe/__init__.py,sha256=c0CnmjhlpYLId_mvJGJCg5VF0JsvyWzitq5qDCR9Pgg,512
+mypy_boto3_transcribe/__init__.pyi,sha256=lufN44dKdIB38kaDkp-5oj8e-HwAk-tKlnTvPK1WNSU,511
+mypy_boto3_transcribe/__main__.py,sha256=lKnpz2l-7PoGnxSVIBOA0j423u1nNjzEdVA-aBMqOn4,407
+mypy_boto3_transcribe/client.py,sha256=XHNBOH0skfvbGzFzt6_nvfzYUBnlzZ3fRG_KwxY3YeI,20835
+mypy_boto3_transcribe/client.pyi,sha256=lKkYefNRh0Rn1vmgT1gymBePAkKJ5MWBtHZlbUQtlXo,20801
+mypy_boto3_transcribe/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_transcribe/type_defs.py,sha256=E0raS2ZNu08NJUcShh55lu-sJRhRMive5iT1tmeqkus,25552
+mypy_boto3_transcribe/type_defs.pyi,sha256=4b3qFgG6RvttpZ-pEaQU2k3PS_ixBWUHoCr8LylIgaI,25549
+mypy_boto3_transcribe/version.py,sha256=LkpJIN5yyGDULzS-q2WniGz04z9zzO3E5NY-Nnvj7Yg,57
+mypy_boto3_transcribe-1.14.63.0.dist-info/METADATA,sha256=QK6p4jo_uo0ntKCqlvu-NIkp5eUGUR-Uy82G3lzTAVQ,7133
+mypy_boto3_transcribe-1.14.63.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mypy_boto3_transcribe-1.14.63.0.dist-info/top_level.txt,sha256=feeLxmOaANsNS15rTqQmHIxvwZoO3fx7SonWXOzOZFM,22
+mypy_boto3_transcribe-1.14.63.0.dist-info/RECORD,,
