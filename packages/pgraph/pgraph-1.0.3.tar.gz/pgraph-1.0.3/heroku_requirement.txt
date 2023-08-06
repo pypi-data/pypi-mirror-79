@@ -1,0 +1,5 @@
+PasteDeploy
+sqlalchemy
+pylibmc
+psycopg2
+newrelic
