@@ -1,0 +1,17 @@
+sqlcli/__init__.py,sha256=OxZOXAgc85ZvtZipY_xdzN1tQUrBorWVVFzf4WdoDr8,24
+sqlcli/commandanalyze.py,sha256=vt1R0pL_VsHI1yL-fREGciUi4eIcE-88gziyCGBgAtw,3129
+sqlcli/kafkawrapper.py,sha256=18JSiAaW854AaW0ARQR7mYefZn3GbWDfaAWvYn8UB-0,12106
+sqlcli/main.py,sha256=egR2CjVeuAdVB4oGR4-boUFP5STznz-KNHuhHMxVFSY,88178
+sqlcli/sqlcliexception.py,sha256=vT-SiIFBlfJ3tAaFALWDg9vu2Mj8Mp7zF8mIXf4B-_0,164
+sqlcli/sqlexecute.py,sha256=N4IdvjHI8r5MeEcBTy7zWkgwS1lTJkG3be08slJLoDI,28112
+sqlcli/sqlinternal.py,sha256=61yOCw7IhIRmJHyiy0aX4svlEYaHd3a7M4pmoEuYkoM,36809
+sqlcli/sqloption.py,sha256=b6jsg89B7PrDoWqSZLkD59UAyUEcYkRUE7bZz5TveYo,5109
+sqlcli/sqlparse.py,sha256=IpkxyJbeOgGgkAB6mgV4bhdqb9aMa6DCCZaNMfcw4cU,39307
+sqlcli/conf/sqlcli.ini,sha256=5grizxXxFHHlNV5gMwnFTdJWPtd_8yv-kbZ6VwLfcqU,3606
+sqlcli/jlib/README,sha256=FRnRTlbK1BA9fa69LGmP7k1LdMhSfCMqJ4IERp35U2s,92
+robotslacker_sqlcli-0.1.19.dist-info/LICENSE.txt,sha256=vSkHQwjcpkug_wgRzlrCN4kmTDUSd8v93raNzRT4IFs,212
+robotslacker_sqlcli-0.1.19.dist-info/METADATA,sha256=FMmixDqtcBAJz6qfAnIFeKo8RMt0n_sJp7zjmsYVua8,771
+robotslacker_sqlcli-0.1.19.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+robotslacker_sqlcli-0.1.19.dist-info/entry_points.txt,sha256=HMKtybLjZ63kPhmBm9EkHHq5ooHjcZIzRhgvJ31bRvI,102
+robotslacker_sqlcli-0.1.19.dist-info/top_level.txt,sha256=pOvFebbv0CY-iCmgZCZBhYU-_PeMvuBpiXXv2JL4aro,7
+robotslacker_sqlcli-0.1.19.dist-info/RECORD,,
