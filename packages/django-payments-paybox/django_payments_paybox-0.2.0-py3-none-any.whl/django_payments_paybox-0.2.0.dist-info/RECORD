@@ -1,0 +1,8 @@
+django_payments_paybox/__init__.py,sha256=xZKciFevTgUffUKofVDNuXP-YWflZojun1ZZi1-gjhs,105
+django_payments_paybox/provider.py,sha256=rA8hFNEjQD4TdPZYcJpfh6JkkU1H54-dG8012qvVYWU,5678
+django_payments_paybox/schemas.py,sha256=UUIDHEss3r0QzRfEnDSoAlfwA65B1vnAvjCUZkQTt9o,3479
+django_payments_paybox/utils.py,sha256=FlIZCW3I6XlpXoG7edYzK7cnpWaEIFg7andYGrxMxSA,170
+django_payments_paybox-0.2.0.dist-info/LICENSE,sha256=SCvhbzZTd-PH2mqoJs4Ez7QP2361vfjBWFC4oDvGldA,1062
+django_payments_paybox-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+django_payments_paybox-0.2.0.dist-info/METADATA,sha256=JdEo0zJ8PMn0hWPgIIjLWF8L-2I5I5nfiA4sz7Lzml8,1849
+django_payments_paybox-0.2.0.dist-info/RECORD,,
