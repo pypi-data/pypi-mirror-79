@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: batik
+Version: 0.0.6
+Summary: Batik Cluster Client (CLI and py lib)
+Home-page: https://github.com/pfnsec/batik.py
+Author: Peter Sherman
+Author-email: pfnsec@gmail.com
+License: MIT
+Requires-Dist: docopt
+Requires-Dist: requests
+Requires-Dist: qrcode
+Requires-Dist: docker
+Requires-Dist: requests-toolbelt
+Requires-Dist: clint
+Requires-Dist: pyyaml
+Requires-Dist: gitignore-parser
+Requires-Dist: pycryptodome
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# batik.py
+
+
