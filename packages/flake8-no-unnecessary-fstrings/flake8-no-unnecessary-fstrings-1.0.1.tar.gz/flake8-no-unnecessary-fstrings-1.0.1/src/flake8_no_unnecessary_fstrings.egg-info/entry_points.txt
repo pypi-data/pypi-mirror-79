@@ -1,0 +1,3 @@
+[flake8.extension]
+NUF = flake8_no_unnecessary_fstrings:NoUnnecessaryFstringChecker
+
