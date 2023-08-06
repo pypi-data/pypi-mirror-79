@@ -1,0 +1,17 @@
+setup.py,sha256=ze4uaNj9nf5Is5YmKMLrUBEBJpiCMZsyCiQPlvn17kI,1974
+lingu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lingu/main.py,sha256=fjBZ5p6rhINHX6qG5EmqF1cPOyCsT8OF6-A0Jfpcm84,62
+lingu/correctors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lingu/correctors/reynir.py,sha256=VDe2psQ2vewViNJtTYgM8Q8B-46kwJ2nrz96O4Nll8Y,1657
+lingu/correctors/text.py,sha256=tPeRXXeefV89aEdWhWO5Zwd614bpc0JTjk3nfcO6UvE,1912
+lingu/ocr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lingu/ocr/general.py,sha256=YBJmKf3nHz0d_axdAQQ_uVo8deQ9zDkXcrau6HXqBW0,256
+lingu/ocr/ngrams.py,sha256=SbZe7nuBBRRg3trWhzEsnthXI9UdQN4NKrjjJIvzSz4,5377
+lingu/ocr/postprocessing.py,sha256=GfJaJvPsQ-07XLsxNNJqdSr_qXvY4Ph3V8nOgeM9nRQ,818
+lingu/ocr/reynir.py,sha256=mF_bOrLviR7hRWhn-qE6MSDUUL-INOplVxn1m0gcWdk,1600
+lingu-0.1.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+lingu-0.1.1.dist-info/METADATA,sha256=RNz7qFNR805d_cMLaHO8I3V_5cWjecWB_7HRDG497Fg,1356
+lingu-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lingu-0.1.1.dist-info/top_level.txt,sha256=4q2x08t-V3vKnQBGODMulMWiIIQUJEhRVYZSmS2_aWQ,12
+lingu-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lingu-0.1.1.dist-info/RECORD,,
