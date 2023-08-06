@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_file_backup/__init__.py
+simple_file_backup/__main__.py
+simple_file_backup.egg-info/PKG-INFO
+simple_file_backup.egg-info/SOURCES.txt
+simple_file_backup.egg-info/dependency_links.txt
+simple_file_backup.egg-info/entry_points.txt
+simple_file_backup.egg-info/top_level.txt
