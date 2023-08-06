@@ -1,0 +1,8 @@
+README.md
+setup.py
+classification_text_email.egg-info/PKG-INFO
+classification_text_email.egg-info/SOURCES.txt
+classification_text_email.egg-info/dependency_links.txt
+classification_text_email.egg-info/requires.txt
+classification_text_email.egg-info/top_level.txt
+example_pkg/__init__.py
