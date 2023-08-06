@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: hwhpykit
+Version: 1.0.2
+Summary: My toolbox
+Home-page: UNKNOWN
+Author: louishwh
+Author-email: louishwh@gmail.com
+License: UNKNOWN
+Description: 
+        
+        
+        # hwhpykit
+        
+        - 依据个人习惯封装的常用第三方库
+        - 依赖的第三方库：
+          - [Redis](https://github.com/andymccurdy/redis-py) 
+        
+        ## Main function
+        
+        - Cache
+        > Redis-client 
+        
+        - Buffer
+        > Kafka-client
+        
+        - DataBase
+        > MySQL-client
+        > PostgreSQL-client
+        
+        
+        ## Cache
+        
+        ### Redis-client
+        
+        from hwhpykit.cache.reids.RedisManager import RedisManager
+        
+        RedisManager.config(host="127.0.0.1", db=0)
+        
+        
+        #### string
+        
+        RedisManager.string.set("reids", "value")
+        
+        RedisManager.string.set_keys({"a":1, "b": 2})
+        
+        RedisManager.string.set_range("redis", 6, "666")
+        
+        RedisManager.string.set_not_exist_key('11', "1222")
+        
+        RedisManager.string.append('redis', '---')
+        
+        key = 'redis'
+        r = RedisManager.string.get(key)
+        print(r)
+        
+        r = RedisManager.string.get_len(key)
+        print(r)
+        
+        r = RedisManager.string.get_range(key, 0, -1)
+        print(r)
+        
+        r = RedisManager.string.get_values(['11', "1222"])
+        print(r)
+        
+        RedisManager.string.set('2', '0')
+        
+        RedisManager.string.increase('2')
+        
+        RedisManager.string.increase('2', -100000)
+        
+        r = RedisManager.string.get('2')
+        
+        print(r)
+        
+        
+        #### hash
+        
+        key = "redis-hash"
+        
+        RedisManager.hash.set_map(key, {"louis1": "1", "louis2": "2"})
+        RedisManager.hash.set_value(key, "louis3", "3")
+        RedisManager.hash.set_not_exits_value(key, "louis3", "4")
+        r = RedisManager.hash.get_all(key)
+        print(r)
+        
+        RedisManager.hash.delete_field(key, "louis1")
+        RedisManager.hash.increase_field_int(key, "louis3", 100)
+        RedisManager.hash.increase_field_float(key, "louis2", 100.000001)
+        r = RedisManager.hash.get_all(key)
+        print(r)
+        
+        r = RedisManager.hash.get_all_keys(key)
+        print(r)
+        
+        r = RedisManager.hash.get_all_values(key)
+        print(r)
+        
+        r = RedisManager.hash.get_all_key_count(key)
+        print(r)
+        
+        r = RedisManager.hash.get_value_bytes_len(key, "louis2")
+        print(r)
+        
+        r = RedisManager.hash.scan(key, cursor=0, pattern="louis2", count=10)
+        print(r)
+        
+        #### set
+        
+        
+        
+        
+        ### Database
+        
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
