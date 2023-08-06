@@ -1,0 +1,8 @@
+README.md
+setup.py
+jf_util/__init__.py
+jf_util.egg-info/PKG-INFO
+jf_util.egg-info/SOURCES.txt
+jf_util.egg-info/dependency_links.txt
+jf_util.egg-info/not-zip-safe
+jf_util.egg-info/top_level.txt
