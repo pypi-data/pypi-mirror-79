@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{%- block extrajs -%}
+<script src="{{ pathto('_static/searchtools.js', 1) }}"></script>
+{%- endblock extrajs-%}
+
+{% block body -%}
+{% include "layouts/search.html" with context %}
+<script src="{{ pathto('searchindex.js', 1) }}" defer></script>
+{%- endblock body %}
