@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: dlg-home-content
+Version: 0.0.7
+Summary: model to identify tv sizes using images
+Home-page: https://gitlab.com/fractal/dlg_home_content/tree/master/
+Author: Fractal Image Group
+Author-email: dle@fractal.ai
+License: Apache Software License 2.0
+Description: # dlg-home-content
+        
+        ## setup environment
+        
+        - `conda env create -f environment.yml`
+        - install detectron2 from source
+        
+        - cpu version  
+        
+        ```bash
+        > conda install pytorch torchvision cpuonly -c pytorch
+        > python -m pip install detectron2 -f \
+          https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.6/index.html
+        > update environment `conda env update --file environment.yml`
+        ```
+        
+        - for other gpu versions, use [this](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md)
+        
+        ## CLI commands available
+        
+        - convert labelme2coco
+        
+        ```bash
+        labelme2coco --labelme_json_location 'data/processed_tv_annotations_v1/' --labels_loc "assets/keypoints.yml" --save_json "data/keypoints/" --train_ratio 0.9 --seed 50
+        ```
+        
+        - train using custom dataset
+        
+        We need to define three config files
+        
+        - base cfg file name available on detectron. check `detectron/configs` for examples.
+        - cfg file which contains modified params . check `configs` folder for specific examples
+        - data_cfg which has dataset and keypoints related params. For example `assets/datasets.yml`
+        
+        ```bash
+        # normal instance segmentation
+        custom_train --base_cfg 'COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml' --cfg 'configs/mask_only_exp1.yml' --data_cfg "assets/datasets.yml"
+        
+        # instance segmentation with keypoints
+        custom_train --base_cfg 'COCO-Keypoints/keypoint_rcnn_R_50_FPN_3x.yaml' --cfg 'configs/keypoint_mask_on_exp1.yml' --data_cfg "assets/datasets.yml"
+        ```
+        
+        ## Inference
+        
+        ### LOGO Detection
+        
+        Download latest inference file from [here](https://fractalanalytic-my.sharepoint.com/:u:/r/personal/sindhura_k_fractal_ai/Documents/TV_indentification/logo_detection_weight_files/logo_detection_v2.pth?csf=1&web=1&e=nOtvzp)
+        
+        ```python
+        from dlg_home_content.tv_detection import InferLogo
+        config = '../assets/e2e_infer.yml
+        model = InferLogo(config)
+        model.predict(img_loc, visualize=True)
+        ```
+        
+        
+        ### Inference for Keypoint Detetion
+        
+        Download weight files and config files from [here] (https://fractalanalytic-my.sharepoint.com/:u:/g/personal/sindhura_k_fractal_ai/EXCaFSHWv3hMo99lvfP4zKIBLBO8dlnWzY7iUAFWYiXHKA?e=23XheZ)
+        
+        ```bash
+        #for inner keyoint detection
+        from dlg_home_content.inference_pipeline import KeypointInference
+        
+        config = '../assets/e2e_infer.yml'
+        #kp_type in ['kp_inner_edge','kp_outer_edge','kp_sticky_note']
+        model_inner = KeypointInference(config, kp_type='kp_inner_edge')
+        predicted_keyoints = model_inner.predict_keypoints(img_loc, visualize=True)
+        ```
+        
+        ### End-to-End Inference pipeline
+        
+        ```python
+        from dlg_home_content.e2e_inference import E2EInference
+        config = '../assets/e2e_infer.yml'
+        final_pipeline = E2EInference(config)
+        result = final_pipeline.infer(img_loc, 8, 8, True)
+        ```
+        
+        
+Keywords: some keywords
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
