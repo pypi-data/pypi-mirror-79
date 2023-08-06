@@ -1,0 +1,3 @@
+[console_scripts]
+gallerycrawler = gallerycrawler.cli:main
+
