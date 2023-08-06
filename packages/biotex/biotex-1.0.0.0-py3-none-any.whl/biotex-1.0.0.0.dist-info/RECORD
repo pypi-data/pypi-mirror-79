@@ -1,0 +1,20 @@
+biotex/__init__.py,sha256=0eJIOSxvoonYbS2IbmDQ5ACuKZWPBr_4yID18ag1OIo,240
+biotex/aminocode.py,sha256=pkL--_eZ6seYSGHApNBLVTrtIEXjulRpZRgBuUvhx7A,6224
+biotex/dnabits.py,sha256=37H9jnHbsTHu1Ezw3lY_qr0jdRcg9XXqieT36ItOylk,4441
+biotex/fastatools.py,sha256=_D-BDC5_MysJa4Rrz9pv2MHv-DXbV341tufXAYBBJ1I,5073
+biotex/searchtools.py,sha256=rU1eFPnUvI1aWYmwPcZWJyHWgf1pd0dgXJsp-zM4LlI,2975
+biotex/utilities.py,sha256=7CRD2aDqhCppYo7_3vCLlRfIvFDIbLZjdvggHI47T8E,2186
+biotex/bag/__init__.py,sha256=wQIYD1cydfliVIMatR01ak8tvjfpqmyj5_wym_1TaBo,57
+biotex/bag/matlab_like.py,sha256=9keZGqZ9xmNY5FrRDSMtIoOCWdokDytIJ1p1ul7cdh4,1407
+biotex/bag/text_operation/__init__.py,sha256=BWD1CMtDAPb7D3JckaBdxS7nszbiL7y3JcxLGXTNuvE,17
+biotex/bag/text_operation/stopwords.txt,sha256=S-sP2lzn-SzzTnWmYst3F1pkrkstDtgXG-oXno31F10,747
+biotex/bag/text_operation/tm.py,sha256=2aRw0uk4o5ArmNH-KTX6Mmxag293uX5QvuU3-N3WVMw,2182
+biotex/collsci/__init__.py,sha256=A7xxeinZ1iwqsPKun5AbfqdSeybpv-nYqDDGgyC6TS8,20
+biotex/collsci/brain.py,sha256=eEagNnjjzwAbxEcwZLUjm04NCNyDZ-AzYzX6L6J7g38,6070
+biotex/huflus/Novo Documento de Texto.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biotex/huflus/__init__.py,sha256=BsvDXPETSJWs5CZxgwTXVW6yoe23Yrfy5nn7vlVxbQQ,21
+biotex/huflus/huflus.py,sha256=K3RwyipcaNABLoD7BJ0MZE7mDm1WN49qG5v4PTwj28M,4644
+biotex-1.0.0.0.dist-info/METADATA,sha256=0prPhW4EVfA_vTslxYf9Efp1OCd3cYM1fTN0pEJW6rQ,6986
+biotex-1.0.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+biotex-1.0.0.0.dist-info/top_level.txt,sha256=K51ItvJzDRX3lWFqLT1lbPZrIgHTjzICcFHauF5nOd8,7
+biotex-1.0.0.0.dist-info/RECORD,,
