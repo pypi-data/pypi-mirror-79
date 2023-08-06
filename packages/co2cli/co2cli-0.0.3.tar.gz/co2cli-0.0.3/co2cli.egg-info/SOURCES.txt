@@ -1,0 +1,8 @@
+README.md
+setup.py
+co2cli/co2cli
+co2cli.egg-info/PKG-INFO
+co2cli.egg-info/SOURCES.txt
+co2cli.egg-info/dependency_links.txt
+co2cli.egg-info/requires.txt
+co2cli.egg-info/top_level.txt
