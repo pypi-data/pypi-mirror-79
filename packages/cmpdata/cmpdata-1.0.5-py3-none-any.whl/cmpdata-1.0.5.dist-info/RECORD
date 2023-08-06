@@ -1,0 +1,12 @@
+cmpdata/__init__.py,sha256=RnjPTWu1ScpqdP3Yc0UDvbr4eoAYncudXpFTPoKGRlM,151
+cmpdata/c6Data.py,sha256=9NyLvpQ1z8J4AnLOFnV2157LV7-RI5cGyl1wI1zr3Kg,3155
+cmpdata/c6Stats.py,sha256=sT7JTLrGuH7hR5v0Tudl79eQ5OSZt_QbWeIgmQgfO6U,2106
+cmpdata/cli.py,sha256=E6XbTDWPsimylbaKYyN3bV0nIJuqH3YFl3-clNn3hUo,2924
+cmpdata/file_system_util.py,sha256=h2PeO4NQHWj9z5Zi4_BM3NUAz9g9zR0PbI8eQPl--hE,13025
+cmpdata-1.0.5.dist-info/AUTHORS.rst,sha256=iT4EmWzW7Dy_4wgRnLi1dAOLd0TXiZUpH2egFh9HDT8,117
+cmpdata-1.0.5.dist-info/LICENSE,sha256=QEp8kE9k2mbhq1fu_LUgdVt_y3aX2vycui6_qMPejFU,1110
+cmpdata-1.0.5.dist-info/METADATA,sha256=lOsKlBiWH8KbLBDT_1irFkZ1tAjFNE5g5zenRiqlEgc,2117
+cmpdata-1.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cmpdata-1.0.5.dist-info/entry_points.txt,sha256=FqF58bU5idm9buDMSVizcLwts3lbsQlpb_54sHhcFMo,46
+cmpdata-1.0.5.dist-info/top_level.txt,sha256=uWWQAghXEpAtZMVzLe6CdYDIkyQPHt5PNXPrPEaJXbQ,8
+cmpdata-1.0.5.dist-info/RECORD,,
