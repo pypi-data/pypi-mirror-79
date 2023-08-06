@@ -1,0 +1,6 @@
+[console_scripts]
+bands-inspect = bands_inspect._cli:cli
+
+[fsc.hdf5_io.load]
+bands_inspect = bands_inspect
+
