@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gnome-extension-uploader
+Version: 0.1.4
+Summary: Gnome Extension Uploader
+Author: Sebastian Noel Lübke
+Author-email: sebastian@luebke.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytest (>=6.0.2,<7.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
