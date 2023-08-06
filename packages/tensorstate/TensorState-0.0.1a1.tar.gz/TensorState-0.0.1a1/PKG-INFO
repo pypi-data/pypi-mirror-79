@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: TensorState
+Version: 0.0.1a1
+Summary: Tools for analyzing neural network architecture.
+Home-page: https://github.com/nicholas-schaub/TensorState/
+Author: Nick Schaub
+Author-email: nick.schaub@nih.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

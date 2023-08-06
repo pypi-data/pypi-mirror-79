@@ -1,0 +1,5 @@
+cython>=3.0a1
+numpy>=1.19.1
+tensorflow>=2.1.0
+zarr>=2.4.0
+numcodecs>=0.6.4
