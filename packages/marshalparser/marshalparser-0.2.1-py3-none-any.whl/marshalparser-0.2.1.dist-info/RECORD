@@ -1,0 +1,12 @@
+marshalparser/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+marshalparser/__main__.py,sha256=-NLk-rxcC9UoYTO2_fc9i1yUNzC7DBat7sRdjsd8rIc,40
+marshalparser/bits.py,sha256=1qeKkEpoGGLeSGqKfLsoRRln2ISiXMZleTScPsi79Ok,878
+marshalparser/magic.py,sha256=wcn0HygXG52oW67aA5XI-Bwks4BrbJt0qM6l8McEctM,1459
+marshalparser/marshalparser.py,sha256=ef9hN-zFLFGy298r6oOYm213aAxQW6_BZhiddFyedyA,12093
+marshalparser/object_types.py,sha256=WFzenoJ5tI0WODpIY3Ru9o3qBaU_mcuh8Xl6-kKnvSw,767
+marshalparser-0.2.1.dist-info/LICENSE,sha256=JNm1Ybb52xHD38o-bObx4wqNrHlhKk_6asZlI5PfsjU,1079
+marshalparser-0.2.1.dist-info/METADATA,sha256=qs1Q1eyaBtbZE0OENakp0onE9DCN6OO7sZSzPOk8UaY,9554
+marshalparser-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+marshalparser-0.2.1.dist-info/entry_points.txt,sha256=Ax18JAKanNGZ321TJz7xenYHhxq53d399Vt16XeAWxE,68
+marshalparser-0.2.1.dist-info/top_level.txt,sha256=A86r5Rz6qE4yzhEH4yd9cxfRTtOJ079p4w7zdhwRLkk,14
+marshalparser-0.2.1.dist-info/RECORD,,
