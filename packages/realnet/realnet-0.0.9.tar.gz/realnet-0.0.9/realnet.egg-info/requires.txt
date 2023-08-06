@@ -1,0 +1,6 @@
+keyring
+pynecone==0.0.18
+python-dotenv
+requests
+requests_toolbelt
+tabulate
