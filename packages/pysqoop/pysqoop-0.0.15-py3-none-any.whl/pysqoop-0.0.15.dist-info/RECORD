@@ -1,0 +1,9 @@
+pysqoop/MapredJob.py,sha256=AAg-TEy__RshcLxkn8tFR5Dlw27w3nmJvcIF6I_Nzpw,1668
+pysqoop/SqoopImport.py,sha256=Gyeq6iqXIvlwDvC7BwFWsIOYX_9J7qyTAX2h6R0WJt0,9897
+pysqoop/SqoopJob.py,sha256=ILhZt6Qky1Icmztfo1JC0Kj7N8YeJTq8MmhgTHy2Jm0,947
+pysqoop/__init__.py,sha256=0-lbedDGPFGaqmgbePcbSs1mAb50DsOnxZ5L9NfiMmk,66
+pysqoop-0.0.15.dist-info/LICENSE,sha256=7IpngqDuOtofBzDoJBKN7ey8MRF1BRpWkgzfXvyfpco,1063
+pysqoop-0.0.15.dist-info/METADATA,sha256=utmpkhu2Jb0wYWBN-plXVjnBfoTlVIrcJasDnQNeQlQ,4309
+pysqoop-0.0.15.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pysqoop-0.0.15.dist-info/top_level.txt,sha256=JZHLuIoKk-nSywh4e_A6IubOoTnxRznlkTTbQYK9g8s,8
+pysqoop-0.0.15.dist-info/RECORD,,
