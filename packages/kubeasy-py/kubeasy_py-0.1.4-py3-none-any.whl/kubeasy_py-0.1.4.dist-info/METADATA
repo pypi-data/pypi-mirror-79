@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kubeasy-py
+Version: 0.1.4
+Summary: Kubernetes made easy!
+Home-page: https://github.com/dylanturn/kubeasy
+Author: Dylan Turnbull
+Author-email: dylanturn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# KubEasy
+#### Kubernetes made easy!
+
+### Getting Started
+``` bash
+brew install cdk8s
+git clone git@github.com:dylanturn/kubeasy.git
+cd kubeasy
+pipenv install
+cdk8s install
+
+cdk8s synth
+--- OR ---
+pipenv run python3.8 main.py
+```
+
