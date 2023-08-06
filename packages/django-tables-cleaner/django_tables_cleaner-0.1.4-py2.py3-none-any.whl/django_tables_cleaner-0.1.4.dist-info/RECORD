@@ -1,0 +1,16 @@
+tables_cleaner/__init__.py,sha256=4AT426zGgmzp-s3ux9bOMwHLZ8vzEpZMTz7myQpGJa4,85
+tables_cleaner/app_settings.py,sha256=uqH0yCQNh0mtD21dmzggw4XZkyqd8SzoP7VN4nSSSew,90
+tables_cleaner/apps.py,sha256=li7Ooqse66mgcwga1hM8bYUryq1swQccFqF7ggsUNfg,102
+tables_cleaner/clean.py,sha256=Hu0Gqwd2-M5Q6jjDAPsNIco__AH811xdejc6cD6I_Q8,3994
+tables_cleaner/management/commands/clean_tables.py,sha256=826tt8rw7IXXNufmJWu8FFufls7Z8Aj2VmE55MeTtCI,3611
+tables_cleaner/management/commands/__pycache__/clean_tables.cpython-37.pyc,sha256=SfJ0sOt_It5fwE_eqWGjHt3zYaxBPK67LFHFVBx41CE,5175
+tables_cleaner/management/commands/__pycache__/clean_tables.cpython-38.pyc,sha256=WRiN98fJWAbcBbh6nSwQIBDDj8sVE2g_UN8dB9HoO0U,3307
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=YUFbCotwyfI4pmBIB-CN-vS22Y-dJcP06WAb9ieKw_4,241
+tests/test_settings.py,sha256=M0QONBo6g-NMMenAI06rh7Ud3CfqJMRoG1JXc2yr7yw,519
+tests/tests.py,sha256=WARzacDUmKR1luaCJRxq4EtDOVSkdjAPfK3tIaaJF90,4242
+django_tables_cleaner-0.1.4.dist-info/LICENSE,sha256=tzh3MjX80wa2EIYb5yHrPi1TF131RzzLTvMX1HwiluA,1076
+django_tables_cleaner-0.1.4.dist-info/METADATA,sha256=arEn9Qx0CbUc3Jy4htofK2nSe-WoO1G7BXwULrTlivI,7293
+django_tables_cleaner-0.1.4.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_tables_cleaner-0.1.4.dist-info/top_level.txt,sha256=VdSkyvSR3lXmKRyTSQMAMMChNVgvA3d-viPOJU5fWW8,21
+django_tables_cleaner-0.1.4.dist-info/RECORD,,
