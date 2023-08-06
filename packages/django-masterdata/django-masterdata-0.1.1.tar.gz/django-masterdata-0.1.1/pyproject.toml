@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-masterdata"
+version = "0.1.1"
+description = "Simple data mastering tools for Django"
+authors = ["Sebastian Acuna <sebastian@unholster.com>"]
+repository = "https://github.com/unholster/django-masterdata"
+packages = [
+    { include = "masterdata" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+Django = "^3.0.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
