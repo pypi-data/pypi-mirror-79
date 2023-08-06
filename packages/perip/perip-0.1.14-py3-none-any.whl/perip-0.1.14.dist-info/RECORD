@@ -1,0 +1,8 @@
+perip/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+perip/comm.py,sha256=vWx7Dl5vqMKsZRxZjQhYHbIpHXrxmXRAXZrGC2mK7UA,400
+perip/device_am2315.py,sha256=ln2WATC8p8WfAi0ux32XlGaWrRCHE20oJry-Gmx-PzE,435
+perip/device_srd_dc03v_sl_c.py,sha256=p8uDIClHuR-LF315kfjoOnyvi9XOTTsURhIGSmzyLUE,638
+perip/perip.py,sha256=T7XbyR1_ft4SmbuwillvBpAKz5csWAaR5CeGmb9BWdE,369
+perip-0.1.14.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+perip-0.1.14.dist-info/METADATA,sha256=Js8efb9ryqxzxv_G-am4qnuSjEB4003_eSNqFx0T6oc,372
+perip-0.1.14.dist-info/RECORD,,
