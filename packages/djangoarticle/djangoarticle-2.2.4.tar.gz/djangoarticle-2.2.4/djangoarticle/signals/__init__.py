@@ -1,0 +1,1 @@
+from djangoarticle.signals.setDefaultCategory import setDefaultCategory

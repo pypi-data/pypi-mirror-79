@@ -1,0 +1,3 @@
+from djangoarticle.models.CategoryModelScheme import CategoryModelScheme
+from djangoarticle.models.ArticleModelScheme import ArticleModelScheme
+from djangoarticle.models.ArticleBookmarkModelScheme import ArticleBookmarkModelScheme

@@ -1,0 +1,3 @@
+from djangoarticle.modeladmins.CategoryModelSchemeAdmin import CategoryModelSchemeAdmin
+from djangoarticle.modeladmins.ArticleModelSchemeAdmin import ArticleModelSchemeAdmin
+from djangoarticle.modeladmins.ArticleBookmarkModelSchemeAdmin import ArticleBookmarkModelSchemeAdmin
