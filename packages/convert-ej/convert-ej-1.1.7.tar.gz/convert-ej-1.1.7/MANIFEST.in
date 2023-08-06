@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include convert_ej/templates/BOCA *
+recursive-include convert_ej/templates/CodeRunner *
