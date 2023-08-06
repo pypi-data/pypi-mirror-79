@@ -1,0 +1,8 @@
+setup.py
+GxCsvToJson/__init__.py
+GxCsvToJson/main.py
+GxCsvToJson.egg-info/PKG-INFO
+GxCsvToJson.egg-info/SOURCES.txt
+GxCsvToJson.egg-info/dependency_links.txt
+GxCsvToJson.egg-info/entry_points.txt
+GxCsvToJson.egg-info/top_level.txt
