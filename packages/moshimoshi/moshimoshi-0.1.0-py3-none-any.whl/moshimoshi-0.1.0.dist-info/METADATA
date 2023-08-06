@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: moshimoshi
+Version: 0.1.0
+Summary: call a function in any python scripts using a formated string or json
+License: ISC
+Author: Nutchanon Ninyawee
+Author-email: me@nutchanon.org
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: parse_with_dot_access (>=1.17.1,<2.0.0)
