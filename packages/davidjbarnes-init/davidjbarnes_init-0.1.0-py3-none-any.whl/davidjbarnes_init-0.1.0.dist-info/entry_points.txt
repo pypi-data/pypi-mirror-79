@@ -1,0 +1,3 @@
+[console_scripts]
+dev=davidjbarnes_init.index:main
+
