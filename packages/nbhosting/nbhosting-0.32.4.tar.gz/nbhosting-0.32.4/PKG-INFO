@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nbhosting
+Version: 0.32.4
+Summary: An infrastructure for hosting notebooks behind an open-edX MOOC platform, or for registered students like in a classroom
+Home-page: https://github.com/parmentelat/nbhosting
+Author: Thierry Parmentelat
+Author-email: thierry.parmentelat@inria.fr
+License: See LICENSE
+Description: no description could be found
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
