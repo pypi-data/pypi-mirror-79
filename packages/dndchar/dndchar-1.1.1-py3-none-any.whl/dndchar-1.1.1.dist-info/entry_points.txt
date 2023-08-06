@@ -1,0 +1,3 @@
+[console_scripts]
+dndchar = dndchar.command_line:main
+
