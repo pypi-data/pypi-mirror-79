@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: rifatozvyska
+Version: 1.0.0
+Summary: Main().say_fraze('Hello world')
+Author: rifat_zabirov
+Author-email: rifatzabirov08@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
