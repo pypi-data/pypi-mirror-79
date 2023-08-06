@@ -1,0 +1,8 @@
+README.md
+gja.py
+setup.py
+gja.egg-info/PKG-INFO
+gja.egg-info/SOURCES.txt
+gja.egg-info/dependency_links.txt
+gja.egg-info/requires.txt
+gja.egg-info/top_level.txt
