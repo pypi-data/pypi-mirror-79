@@ -1,0 +1,4 @@
+Click
+Requests
+Python-dateutil
+Webbrowser
