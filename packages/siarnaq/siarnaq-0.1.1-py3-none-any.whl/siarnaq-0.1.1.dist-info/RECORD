@@ -1,0 +1,10 @@
+siarnaq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+siarnaq/degrees.py,sha256=zlsaEAX0Qshb49bB0BnJxeqm96yi_AZE8uez7bfUMt4,9263
+tests/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+tests/test_degrees.py,sha256=Aqu_XrJspZYFV3ehJP5xeRHiRs64wsk24agVmnZ2gu8,6491
+siarnaq-0.1.1.dist-info/AUTHORS.md,sha256=xfroO0s6pXxLRaI0gqCf09QFvO7H4ZWvooLLIYcBwAM,66
+siarnaq-0.1.1.dist-info/LICENSE.md,sha256=4w7kca5PKaLklTPS9EcPEvnSWtODX_kZp8bUl41YzEs,1095
+siarnaq-0.1.1.dist-info/METADATA,sha256=53ym6vO6Q5XRRERwpgk2U11zrg6SiQL9k7xvVZ4jP90,1112
+siarnaq-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+siarnaq-0.1.1.dist-info/top_level.txt,sha256=eyefIXU_rFwuLKIjouygehytXYqIw9tseuZHA0AMy0M,14
+siarnaq-0.1.1.dist-info/RECORD,,
