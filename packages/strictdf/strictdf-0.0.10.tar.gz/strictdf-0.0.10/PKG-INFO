@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: strictdf
+Version: 0.0.10
+Summary: A very basic dataframe check
+Home-page: UNKNOWN
+Author: Test Test
+Author-email: testpypi01@gmail.com
+License: MIT
+Description: ========
+        strictdf
+        ========
+        
+        ========================
+        A simple dataframe check
+        ========================
+        
+        .. image:: https://pypip.in/d/blackhole/badge.svg
+                :target: https://pypi.python.org/pypi/blackhole/
+        
+        .. image:: https://pypip.in/v/blackhole/badge.svg
+                :target: https://pypi.python.org/pypi/blackhole/
+        
+        .. image:: https://pypip.in/wheel/blackhole/badge.svg
+                :target: https://pypi.python.org/pypi/blackhole/
+        
+        .. image:: https://pypip.in/license/blackhole/badge.svg
+                :target: https://pypi.python.org/pypi/blackhole/
+        
+        
+        Change Log
+        ==========
+        
+        0.0.8 (14/09/2020)
+        -------------------
+        - First Release
+        
+Keywords: strictdf
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
