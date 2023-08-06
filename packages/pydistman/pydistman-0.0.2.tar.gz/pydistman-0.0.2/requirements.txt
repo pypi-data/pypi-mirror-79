@@ -1,0 +1,6 @@
+cookiecutter
+coverage
+pytest-cov
+pytest>=4.6
+requests
+twine
