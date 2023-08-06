@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: datapy
+Version: 0.1
+Summary: An intuitive lightweight file based database and query tool.
+Home-page: https://github.com/xanderyzwich/datapy
+Author: Corey McCarty
+Author-email: corey@mccarty.dev
+License: apache-2.0
+Download-URL: https://github.com/xanderyzwich/datapy/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: file,database,query
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
