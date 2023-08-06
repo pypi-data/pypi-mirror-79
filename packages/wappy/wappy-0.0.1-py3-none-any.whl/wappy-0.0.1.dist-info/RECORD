@@ -1,0 +1,11 @@
+wappy/__init__.py,sha256=-bBNFYOq80A2Egtpo5V5zWJtYOxQfRZFQ_feve5lkFU,23
+wappy/main.py,sha256=egphanxXmAR66eWC8y4B60GAOGRlaDKFAAt2Tok-0Nk,7814
+wappy/md5.py,sha256=f1FZp07vSaq1eFyCbKfH25pcAIvpt3iT-qbQ8ucoepk,222
+wappy/technologies.json,sha256=lSYYtHcxOvxwRhbetC8beOppyekZAQAgaH4hOp51EUE,414201
+wappy/update.py,sha256=c0oJtrj94eOx8NfNyuzanLNVC2WC2S4S-OWwxpilm-w,2432
+wappy-0.0.1.dist-info/LICENSE,sha256=D_1Od1-lVT3aUbhNdD_4vuwd8yblO6PvGVUpbFTu_7U,35079
+wappy-0.0.1.dist-info/METADATA,sha256=nMGu05je9Q9UgcmcgF6jgq3yOhJjmspdCGlhfSYZCcQ,5158
+wappy-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wappy-0.0.1.dist-info/entry_points.txt,sha256=aUEVDMU4vePO0JTg6JhV2xs0JzDic3W_DfkC1lgsrvU,76
+wappy-0.0.1.dist-info/top_level.txt,sha256=XqhXcNob9VugxfjG8T5B-sH8PqC-pYXI9eJMNGc_FYY,6
+wappy-0.0.1.dist-info/RECORD,,
