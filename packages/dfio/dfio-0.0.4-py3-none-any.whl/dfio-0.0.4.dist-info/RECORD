@@ -1,0 +1,9 @@
+dfio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfio/gcs.py,sha256=8ixiYzWOxOoSaDpOgi820YZkgcSSVbh8c44ZgXhPiLk,1528
+dfio/testing.py,sha256=vXzQmtDXHBJkrkOS1mBbA-6AGDyr1Y39TQ1f_r42hCc,96
+dfio/utilities.py,sha256=EA4D02nFemXadcR-Oc5rh1UBHl571PSaLdUvoMUVJFk,1573
+dfio-0.0.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+dfio-0.0.4.dist-info/METADATA,sha256=L7XG24Vw81KxCUeeIaKwGpwZ3g8cljG-f9S1Z6lZo4k,1758
+dfio-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dfio-0.0.4.dist-info/top_level.txt,sha256=HsDs0LjzVQCvkNIfh3gXhusawN8S_4d0SMtgZKbgPWM,5
+dfio-0.0.4.dist-info/RECORD,,
