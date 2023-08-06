@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ansible-playbook-runner
+Version: 0.1.0
+Summary: simple ansible playbook runner
+Home-page: UNKNOWN
+Author: Avi Naftalis
+Author-email: anaftalis@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ansible (>=2)
+
+simple ansible playbook runner
+
+
