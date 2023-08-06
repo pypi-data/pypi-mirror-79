@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ge-custom-slack-renderer
+Version: 0.1.1
+Summary: Complement library to customize Great Expectations Slack notifications
+Author: Eli Pino
+Author-email: elisabet.pino@glovoapp.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: great_expectations (>=0.12.1,<0.13.0)
