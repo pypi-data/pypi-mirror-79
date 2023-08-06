@@ -1,0 +1,15 @@
+preserve/__init__.py,sha256=XG4-Tfj3KstOEK12UK-hmOtgKakKYouUwZRaN8FJbXI,411
+preserve/cli.py,sha256=9KzYsYo_B3dX1xjypJtse7-0OMm_o4luzYdC6_J9uBY,7192
+preserve/preserve.py,sha256=E2UkoLCaanxF3YXHHnkccYZAHZVjcDQNTrqaJ1wksv8,4505
+preserve/skeleton.py,sha256=Aad-sU8hPs6nBwYYil1MQ22Vi01EwIBkGNzhNlksACU,2898
+preserve/utils.py,sha256=tUoXEru3ccKwX1gxkVY3M60H5-l1Vk03vlGZyPsfzVo,759
+preserve/connectors/__init__.py,sha256=hakWht8-nKL_41RLUae-EAo7LYfUGdPHK6HsStK1Pd0,166
+preserve/connectors/memory.py,sha256=HLF44OSEOFyZ-h9fXAppgrnhbQdAik7zHDDDIpoFE_k,2076
+preserve/connectors/mongo.py,sha256=Kxdl8263iRRRVjhlAtJ87-4ZYF1u6AlomFjWUUUx9YA,4194
+preserve/connectors/shelf.py,sha256=7E_qJ-HSRWnMgk1wQrlPDXjGl4lTSZuR4xINi_1HSEM,4380
+preserve-0.1.0a0.dist-info/LICENSE,sha256=Q7PqDIvUwtRvO2u2l-RkTh9E1rPIoZTskgU16TeoOas,1103
+preserve-0.1.0a0.dist-info/METADATA,sha256=e2pbbwZp-dSznUvrJ6HzHocvDQ4Ll2QqSA2sXuzxyO4,3843
+preserve-0.1.0a0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+preserve-0.1.0a0.dist-info/entry_points.txt,sha256=nhJg27gyhhw5NepNY0KjjdnYNZQb9MRSRyMZ1BbmFfU,47
+preserve-0.1.0a0.dist-info/top_level.txt,sha256=MBzShp0pJPdeWRv5gqPaRf2sF7YtSQs-KHnHUAjWRu8,9
+preserve-0.1.0a0.dist-info/RECORD,,
