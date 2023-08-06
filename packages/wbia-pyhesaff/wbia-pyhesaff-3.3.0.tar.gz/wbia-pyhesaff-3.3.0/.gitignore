@@ -1,0 +1,45 @@
+build
+.DS_Store
+*.pyc
+*.pyo
+*.egg-info
+dist
+*.dylib
+*.dll
+*.so
+*.a
+_skbuild/
+pip-wheel-metadata/
+src/cpp/hesaff/config.h
+
+.coverage*
+htmlcov/
+
+# utool output
+_test_times.txt
+failed.txt
+
+# Cyth
+*_cyth.pyx
+*_cyth.pxd
+*_cyth.pyd
+*_cyth.so
+*_cyth.c
+*_cyth.html
+*_cyth_bench.py
+run_cyth_benchmarks.sh
+
+
+*.orig
+_doc
+test_times.txt
+
+failed_doctests.txt
+
+timeings.txt
+cmake_builds
+
+# setuptools_scm version discovery writes the version to <pkg>/_version.py
+**/_version.py
+
+_docs/_build
