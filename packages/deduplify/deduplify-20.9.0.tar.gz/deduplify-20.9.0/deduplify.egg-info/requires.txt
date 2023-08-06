@@ -1,0 +1,16 @@
+incremental
+tqdm
+incremental
+
+[dev]
+pytest
+coverage
+incremental
+
+[docs]
+
+[full]
+
+[tests]
+pytest
+coverage
