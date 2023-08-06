@@ -1,0 +1,17 @@
+README.md
+setup.py
+martin/IMDB.py
+martin/Movie.py
+martin/MovieCollection.py
+martin/__init__.py
+martin.egg-info/PKG-INFO
+martin.egg-info/SOURCES.txt
+martin.egg-info/dependency_links.txt
+martin.egg-info/requires.txt
+martin.egg-info/top_level.txt
+martin.egg-info/zip-safe
+martin/old/CollectionDirectory.py
+martin/old/MovieFile.py
+martin/old/__init__.py
+martin/old/get_title_year_and_resolution.py
+martin/old/is_movie_file.py
