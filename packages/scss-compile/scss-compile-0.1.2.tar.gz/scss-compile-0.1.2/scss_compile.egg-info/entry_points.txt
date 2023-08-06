@@ -1,0 +1,3 @@
+[console_scripts]
+scss-compile = scss_compile:run_compile
+

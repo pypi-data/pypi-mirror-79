@@ -1,0 +1,12 @@
+.pre-commit-hooks.yaml
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+scss_compile/__init__.py
+scss_compile.egg-info/PKG-INFO
+scss_compile.egg-info/SOURCES.txt
+scss_compile.egg-info/dependency_links.txt
+scss_compile.egg-info/entry_points.txt
+scss_compile.egg-info/requires.txt
+scss_compile.egg-info/top_level.txt
