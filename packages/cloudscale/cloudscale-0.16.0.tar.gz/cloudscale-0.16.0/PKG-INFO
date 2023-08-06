@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cloudscale
+Version: 0.16.0
+Summary: A library and command line interface for cloudscale.ch
+Home-page: https://github.com/cloudscale-ch/python-cloudscale
+Author: René Moser
+Author-email: mail@renemoser.net
+License: MIT
+Description:  __*** Deprecated: Please install [`cloudscale-cli`](https://pypi.org/project/cloudscale-cli/) for the CLI or [`cloudscale-sdk`](https://pypi.org/project/cloudscale-sdk/) for the SDK only ***__
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Development Status :: 7 - Inactive
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

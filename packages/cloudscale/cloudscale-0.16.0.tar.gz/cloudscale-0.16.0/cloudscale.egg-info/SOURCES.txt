@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+cloudscale/__init__.py
+cloudscale/cli.py
+cloudscale.egg-info/PKG-INFO
+cloudscale.egg-info/SOURCES.txt
+cloudscale.egg-info/dependency_links.txt
+cloudscale.egg-info/entry_points.txt
+cloudscale.egg-info/top_level.txt
