@@ -1,0 +1,3 @@
+pytest>=3.7.0
+pint<1.0,>=0.15
+numpy
