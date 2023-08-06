@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: multivolumefile
+Version: 0.0.4
+Summary: multi volume file wrapper library
+Home-page: https://github.com/miurahr/multivolumefile
+Author: Hiroshi Miura
+Author-email: miurahr@linux.com
+License: LGPL-2.1+
+Description: ===============
+        multivolumefile
+        ===============
+        
+        MultiVolumefile is a python library to provide a file-object wrapping multiple files
+        as virtually like as a single file.
+        
+        Install
+        =======
+        
+        
+        ```
+        pip install multivolumefile
+        ```
+        
+        Contribution
+        ============
+        
+        You are welcome to contribute the project, as usual on github projects,
+        Pull-Request are welcome.
+        
+        License
+        =======
+        
+        Multivolume is licensed under GNU Lesser General Public license version 2.1 or later.
+        
+        =========
+        ChangeLog
+        =========
+        
+        All notable changes to this project will be documented in this file.
+        
+        `Unreleased`_
+        =============
+        
+        Added
+        -----
+        
+        Changed
+        -------
+        
+        Fixed
+        -----
+        
+        Deprecated
+        ----------
+        
+        Removed
+        -------
+        
+        Security
+        --------
+        
+        `v0.0.4`_
+        =========
+        
+        * Support context manager
+        
+        `v0.0.3`_
+        =========
+        
+        * Fix read() behavior after all data has read.
+        
+        `v0.0.2`_
+        =========
+        
+        * Add test
+        
+        v0.0.1
+        ======
+        
+        * Support preliminary read functions.
+        
+        .. History links
+        .. _Unreleased: https://github.com/miurahr/py7zr/compare/v0.0.4...HEAD
+        .. _v0.0.4: https://github.com/miurahr/py7zr/compare/v0.0.3...v0.0.4
+        .. _v0.0.3: https://github.com/miurahr/py7zr/compare/v0.0.2...v0.0.3
+        .. _v0.0.2: https://github.com/miurahr/py7zr/compare/v0.0.1...v0.0.2
+        
+Keywords: multivolume,file
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: check
