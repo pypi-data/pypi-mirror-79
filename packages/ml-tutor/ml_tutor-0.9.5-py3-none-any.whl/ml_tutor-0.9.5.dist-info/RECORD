@@ -1,0 +1,16 @@
+ml_tutor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_tutor/model.py,sha256=9sdbPwL0gh8Yb4eLOhkn9ctFdy49ZjmR1vSPVZJCBHY,2935
+ml_tutor/classification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_tutor/classification/knn.py,sha256=yKNZ6hR3JKu28R8tZpbobUzPfiQVt18_YDkgU9YyUlc,17995
+ml_tutor/classification/logistic_regression.py,sha256=MyOdRFCm8gNH0i_Rpa4h1F6kll4joPjhDkJX-2YUS8s,11518
+ml_tutor/classification/tree.py,sha256=2W-peAbZhfbzx_ExMLFjXqNmX3Y-mp5cSxA1nUzQnwQ,6147
+ml_tutor/clustering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_tutor/clustering/kmeans.py,sha256=pSG_fQiSQFdUfjc1IjaJ_blY0nGt_Iw0yj0PR_nMx5Q,7213
+ml_tutor/regression/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_tutor/regression/linear_regression.py,sha256=bVpvWMT_a3vZKIDZelMBeXJYsygZrb382gjBYh3fNqs,13660
+ml_tutor/regression/tree.py,sha256=CJOefw9mDDF48mExa4lrm78XUNLusfLbehrLx7QXtwU,5994
+ml_tutor-0.9.5.dist-info/LICENSE,sha256=2hULdeYInI5XiLcZ5sk5ILaXQgd15gdtno0vjO5nUgk,1089
+ml_tutor-0.9.5.dist-info/METADATA,sha256=7ItNP8zW1RuYU7_djbYTw800_psc4qiRmE0RG2B7-Dc,949
+ml_tutor-0.9.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+ml_tutor-0.9.5.dist-info/top_level.txt,sha256=nDxqAjfZOVW6IV_mFz0-HVTBG1rnggxZP2FO1xwvhok,9
+ml_tutor-0.9.5.dist-info/RECORD,,
