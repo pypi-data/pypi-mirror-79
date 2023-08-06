@@ -1,0 +1,12 @@
+CHANGELOG.md,sha256=LYnZ8wbcWH_w2cahJxx2luL729MWEqncWetiu0W2ZJQ,520
+README.md,sha256=tUw9QWjIaLWNvJ67EZs9-7GH3ogxqbMZyekGSXR2RpY,3394
+sqlalchemy_model_factory/__init__.py,sha256=GBlm3Mmg1c1I_K6ugix194ku1Rk6O65a8YAwLhpSCIY,150
+sqlalchemy_model_factory/base.py,sha256=ynKhK3G5ZUsGSkL0CIikp6vvqH7FZnoXKXR21Q1itR0,5466
+sqlalchemy_model_factory/pytest.py,sha256=Phsc8MbzDlso-iVzPwruOGjaKrLPOU3MFq_QWKTdqbo,1685
+sqlalchemy_model_factory/registry.py,sha256=oX3EXr3yOPaaa6gs9S82kV2leV1nbZYebbWFbP0J1dA,1025
+sqlalchemy_model_factory/utils.py,sha256=6kclIxyntQaNXwZA9VpQlKHPEpxgmJKisBwEfb-QLrY,6275
+sqlalchemy_model_factory-0.3.1.dist-info/entry_points.txt,sha256=c4Dv4ko3qJb5KP-8bN5KBqmQVcQnBtHLBYJdY-tVNXA,58
+sqlalchemy_model_factory-0.3.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sqlalchemy_model_factory-0.3.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+sqlalchemy_model_factory-0.3.1.dist-info/METADATA,sha256=ydtzFnE8vfZ7ul2xRbUgAH5WWSvfyZyotQBPniG7xdU,4503
+sqlalchemy_model_factory-0.3.1.dist-info/RECORD,,
