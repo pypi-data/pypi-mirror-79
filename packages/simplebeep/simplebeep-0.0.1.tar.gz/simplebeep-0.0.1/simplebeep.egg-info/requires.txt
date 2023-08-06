@@ -1,0 +1,4 @@
+numpy
+
+[:sys_platform == "darwin" or sys_platform == "win32"]
+simpleaudio
