@@ -1,0 +1,17 @@
+ds4ml/__init__.py,sha256=BwEYf6v8rtpIdf8azsSN0gP3de2j4eLJ5Q1UdfvH7pU,292
+ds4ml/attribute.py,sha256=BW5eh5ch1cEAMy0F0Av6FrH7WsN8jp9dZ3ooHr7HSto,13090
+ds4ml/dataset.py,sha256=0MeXAxuzP81fWxCvwAyFfC6wAjYYfBZNj7Su-aiYrww,6150
+ds4ml/evaluator.py,sha256=FFnc1pwXfP4GyOC003V3jh_C7gszkz0vfhlFwXubdag,13971
+ds4ml/metrics.py,sha256=tzTK-xaNbrt0BHgMCcHnKmSF4xq1IKNvgcQR3jbFNhA,2197
+ds4ml/synthesizer.py,sha256=MCNtyArQWrnT07aBd17x5Ui6um0kqUO9pBjKSFIDGjo,8459
+ds4ml/utils.py,sha256=Cm-uH-cGo5W7SKFDztuiQSQJB3eT-ARu8eEBn3jnaGY,15726
+ds4ml/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ds4ml/command/evaluate.py,sha256=P8T1cJWC7VRHEzEP1Ko8ARPBk4ISmZn4SjXmg3bQCnI,3378
+ds4ml/command/synthesize.py,sha256=lskmf1xIK3q7DMNnEArxKvSD93AlhfX1EYHshMiu-d8,4257
+ds4ml/template/report.html,sha256=0CjFXB2nGW4oaQlsmcHgxTdhs7yPq4RDxvjcUAdFasU,10966
+ds4ml-0.1.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+ds4ml-0.1.0.dist-info/METADATA,sha256=8V1vzAazH8yjUurHvMNBoYBab6ng2-ThOaRWJ9yQ1MU,1683
+ds4ml-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ds4ml-0.1.0.dist-info/entry_points.txt,sha256=b2KXHbkqUrwpUkreBLpuioW0ClO7a8EAF2IOasdr1yQ,111
+ds4ml-0.1.0.dist-info/top_level.txt,sha256=1o_-RcNYdF2dNGU0_JMmpFxkcfaWvvXn5UU-TAKIeSE,6
+ds4ml-0.1.0.dist-info/RECORD,,
