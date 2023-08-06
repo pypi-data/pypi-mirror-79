@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: tgenv
+Version: 1.0.0
+Summary: A tool for managing terragrunt versions
+Home-page: https://gitlab.com/claudiuskastner/tgenv
+Author: Claudius Kastner
+Author-email: claudiuskastner@kabelmail.de
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: terragrunt terraform versioning
+Platform: UNKNOWN
+Requires-Python: >=3.8

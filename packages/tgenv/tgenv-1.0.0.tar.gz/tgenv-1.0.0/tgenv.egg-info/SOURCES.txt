@@ -1,0 +1,17 @@
+README.md
+setup.py
+tgenv/__init__.py
+tgenv/asset_downloader.py
+tgenv/console_logger_format.py
+tgenv/file_handler.py
+tgenv/git_wrapper.py
+tgenv/main.py
+tgenv/version_handler.py
+tgenv.egg-info/PKG-INFO
+tgenv.egg-info/SOURCES.txt
+tgenv.egg-info/dependency_links.txt
+tgenv.egg-info/entry_points.txt
+tgenv.egg-info/requires.txt
+tgenv.egg-info/top_level.txt
+tgenv/res/default.conf
+tgenv/res/quotes
