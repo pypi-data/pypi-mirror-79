@@ -1,0 +1,16 @@
+[tool.black]
+target-version =  ['py37']
+include = '''
+^/(
+    setup.py
+    | src/epcpm/.*\.pyi?
+)$
+'''
+exclude = ''
+
+[build-system]
+requires = [
+    "alqtendpy",
+    "setuptools",
+    "wheel",
+]
