@@ -1,0 +1,2 @@
+pytket~=0.6
+projectq~=0.5.0
