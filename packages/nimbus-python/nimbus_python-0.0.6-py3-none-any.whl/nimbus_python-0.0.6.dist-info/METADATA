@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nimbus-python
+Version: 0.0.6
+Summary: python bindings for nimbus 3D camera
+Home-page: https://github.com/pieye/nimbus-python
+Author: Markus Proeller
+Author-email: markus.proeller@pieye.org
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: websockets
+Requires-Dist: numpy
+Requires-Dist: requests
+
+UNKNOWN
+
+
