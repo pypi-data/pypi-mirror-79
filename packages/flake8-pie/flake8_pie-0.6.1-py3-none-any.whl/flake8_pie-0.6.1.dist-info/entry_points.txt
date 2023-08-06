@@ -1,0 +1,7 @@
+[flake8.extension]
+PIE781=flake8_pie:Flake8PieCheck781
+PIE783=flake8_pie:Flake8PieCheck783
+PIE784=flake8_pie:Flake8PieCheck784
+PIE785=flake8_pie:Flake8PieCheck785
+PIE786=flake8_pie:Flake8PieCheck786
+
