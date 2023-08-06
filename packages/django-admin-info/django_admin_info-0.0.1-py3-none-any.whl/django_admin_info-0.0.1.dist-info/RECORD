@@ -1,0 +1,12 @@
+admin_info/static/css/foldable_admin.css,sha256=rRu50wryAyhdvMOTpO_Xu382ThUGZYiJG30btHXUt_c,1047
+admin_info/static/js/foldable_admin.js,sha256=_rh-it9YcadhYljdhhS1v40aSz8rq0Y9n2gGBU-DU4w,2688
+admin_info/templates/admin/change_list.html,sha256=JOU_H1fLqYOVpefL6xpFe_9Js3Vt8k4PCJJ4J7TCfdA,3041
+admin_info/templates/admin/foldable_admin.html,sha256=3YbQMOxF36sFUNGpmwR4Ur47XHyl07MzkZra4e2V1qg,2177
+admin_info/templates/admin/index.html,sha256=8-Ng9POnDAslURBkWbou3LAYPSJY2AtEcs1QcyPCM9E,2120
+admin_info/templates/admin/summary.tpl,sha256=eA9p7gg4pHMUjwp3Qzy1L27EwAEMuc9oAUaCpyp76wo,118
+admin_info/templatetags/custom_tags.py,sha256=wW8b6eiJ8qdf32M35i9FXSf471CDKH_EagXc5L18VcI,4271
+django_admin_info-0.0.1.dist-info/LICENSE,sha256=LYwI-tu27m2dil9sxCsvWGjyl4c99gTL4hhvaAv1Dus,1075
+django_admin_info-0.0.1.dist-info/METADATA,sha256=0hqkTr5jtQu_QtW8xUnAP4qeiT_MuEUZnN2tMyjh0yw,1461
+django_admin_info-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_admin_info-0.0.1.dist-info/top_level.txt,sha256=2Ne6F0Les-o91EAzrgaeN5MOdF4wKINVc5QMPlget4w,11
+django_admin_info-0.0.1.dist-info/RECORD,,
