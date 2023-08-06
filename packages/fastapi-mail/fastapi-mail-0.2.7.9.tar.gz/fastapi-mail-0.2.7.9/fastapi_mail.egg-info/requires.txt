@@ -1,0 +1,5 @@
+fastapi>=0.61.1
+aiosmtplib>=1.1.4
+python-multipart==0.0.5
+pydantic>=1.6.1
+email-validator>=1.1.1
