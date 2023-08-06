@@ -1,0 +1,77 @@
+Metadata-Version: 1.1
+Name: asciidag
+Version: 0.1.0
+Summary: Draw DAGs (directed acyclic graphs) as ASCII art, à la git log --graph
+Home-page: https://www.github.com/sambrightman/asciidag
+Author: Sam Brightman
+Author-email: sam.brightman@gmail.com
+License: MPL 2.0
+Description: asciidag - draw DAGs as ASCII art
+        =================================
+        
+        |build-status| |win-build-status| |coverage| |requires|
+        
+        .. |build-status| image:: https://travis-ci.org/sambrightman/asciidag.svg?branch=master
+            :target: https://travis-ci.org/sambrightman/asciidag
+            :alt: Travis CI status
+        
+        .. |win-build-status| image:: https://ci.appveyor.com/api/projects/status/t4dv71xsfcifk8mg/branch/master?svg=true
+            :target: https://ci.appveyor.com/project/sambrightman/asciidag
+            :alt: AppVeyor CI status
+        
+        .. |coverage| image:: https://coveralls.io/repos/github/sambrightman/asciidag/badge.svg?branch=master
+            :target: https://coveralls.io/github/sambrightman/asciidag?branch=master
+            :alt: Coverage
+        
+        .. |requires| image:: https://requires.io/github/sambrightman/asciidag/requirements.svg?branch=master
+             :target: https://requires.io/github/sambrightman/asciidag/requirements/?branch=master
+             :alt: Requirements Status
+        
+        Overview
+        --------
+        
+        This is a direct port of the `Git`_ log graphing code, which draws
+        directed acyclic commit graphs as ASCII art. It was done very
+        mechnically and quickly, so the code is not Pythonic. Dependencies on
+        `Git`_ specifics should be gone but look and feel remains.
+        
+        This project is alpha quality and subject to breaking API changes.
+        
+        If you are thinking about doing a large refactoring, please submit an
+        issue for discussion first; I consider it potentially worth staying
+        close to the `Git`_ source.
+        
+        
+        Usage
+        -----
+        
+        .. code-block:: bash
+        
+            git clone https://github.com/sambrightman/asciidag.git
+            cd asciidag && pip install .
+            tests/demo.py
+        
+        You likely need to use ``sudo`` for the install unless you work in a
+        `Python virtual environment`_ or use the ``--user`` option to
+        ``pip``. Will soon be on `PyPI`_.
+        
+        .. image:: images/demo.png?raw=true
+           :alt: Demonstration screenshot
+        
+        :copyright: © 2016 Sam Brightman
+        :license: Mozilla Public License version 2.0, see LICENSE for more details.
+        
+        .. _Python virtual environment: http://docs.python-guide.org/en/latest/dev/virtualenvs
+        .. _Git: https://git-scm.com
+        .. _PyPI: https://pypi.python.org
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development
