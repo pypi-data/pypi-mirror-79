@@ -1,0 +1,9 @@
+README.md
+setup.py
+dfio/__init__.py
+dfio/utilities.py
+dfio.egg-info/PKG-INFO
+dfio.egg-info/SOURCES.txt
+dfio.egg-info/dependency_links.txt
+dfio.egg-info/not-zip-safe
+dfio.egg-info/top_level.txt
