@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+src/ruitestpackage/__init__.py
+src/ruitestpackage/greet.py
+src/ruitestpackage.egg-info/PKG-INFO
+src/ruitestpackage.egg-info/SOURCES.txt
+src/ruitestpackage.egg-info/dependency_links.txt
+src/ruitestpackage.egg-info/requires.txt
+src/ruitestpackage.egg-info/top_level.txt
+test/test.py
