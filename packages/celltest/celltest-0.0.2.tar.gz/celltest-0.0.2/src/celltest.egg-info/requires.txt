@@ -1,0 +1,15 @@
+ipykernel
+ipython
+nbformat
+notebook
+pandas
+requests
+
+[black]
+black
+
+[isort]
+isort
+
+[yapf]
+yapf
