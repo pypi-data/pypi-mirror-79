@@ -1,0 +1,3 @@
+<input type="hidden" value="__checkbox_begin__" name="{{ widget.name }}">
+<input type="{{ widget.type }}" name="{{ widget.name }}"{% if widget.value != None %} value="{{ widget.value|stringformat:'s' }}"{% endif %}{% include "django/forms/widgets/attrs.html" %}>
+<input type="hidden" value="__checkbox_end__" name="{{ widget.name }}">
