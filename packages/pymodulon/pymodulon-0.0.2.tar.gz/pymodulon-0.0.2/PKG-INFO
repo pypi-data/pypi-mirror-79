@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: pymodulon
+Version: 0.0.2
+Summary: Python package for analyzing and visualizing iModulons
+Home-page: https://github.com/SBRG/pymodulon
+Author: Anand V. Sastry
+Author-email: avsastry@eng.ucsd.edu
+Maintainer: Anand V. Sastry
+Maintainer-email: avsastry@eng.ucsd.edu
+License: MIT
+Description: # pymodulon
+        Python package for analyzing and visualizing iModulons
+        
+Keywords: python iModulon RNA-seq transcriptomics ICA regulation
+Platform: GNU/Linux
+Platform: Mac OS X > 10.7
+Platform: Microsoft Windows >= 7
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.6
