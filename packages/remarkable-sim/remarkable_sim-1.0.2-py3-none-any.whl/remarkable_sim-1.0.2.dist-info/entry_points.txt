@@ -1,0 +1,4 @@
+[console_scripts]
+ph = remarkable_sim.sim:main
+resim = remarkable_sim.sim:main
+
