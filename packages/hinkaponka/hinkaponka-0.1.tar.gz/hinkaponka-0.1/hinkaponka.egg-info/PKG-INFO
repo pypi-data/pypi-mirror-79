@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hinkaponka
+Version: 0.1
+Summary: Test Helo World package
+Home-page: https://github.com/shinjiniray/testpackage
+Author: Sayjini Tay
+Author-email: shinyan1301@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/hinkaponka/
+Description: # Hinkaponka
+        
+        ## History
+Keywords: Hello,World,HelloWorld
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+hinkaponka/__init__.py
+hinkaponka/helloworld.py
+hinkaponka.egg-info/PKG-INFO
+hinkaponka.egg-info/SOURCES.txt
+hinkaponka.egg-info/dependency_links.txt
+hinkaponka.egg-info/requires.txt
+hinkaponka.egg-info/top_level.txt
