@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: badgrclient
+Version: 0.1.1
+Summary: A python library for Badgr APIs
+Home-page: https://github.com/snehalbaghel/badgrclient
+Author: Snehal Baghel
+Author-email: snehalbaghel@gmail.com
+License: GNU General Public License v3.0
+Keywords: badgr,openbadges,api,library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# BadgrClient
+_A python library for Badgr APIs_
+
+
+## Usage
+
+Instantiate a client
+
+```python
+from badgrclient import BadgrClient
+
+client = BadgrClient('username', 'password', 'client_id', 'rw:profile rw:issuer rw:backpack')
+```
+Fetch your entities with the client or by providing an entityId
+
+```python
+>>> my_issuers = client.get_issuer()
+[Issuer(7fde21f03a30dfg), Issuer(de21ce2d52df0)]
+
+>>> baby_badger = client.get_badgeclass('entity_id')[0]
+BadgeClass(nm190nsk093msdf)
+```
+
+Use member functions to perform actions on the entity
+
+```python
+>>> baby_badger.issue('jane@gmail.com')
+Assertion(amfsdlkmlsfmkfd)
+```
+
+
