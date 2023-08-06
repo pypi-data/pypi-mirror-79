@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: minotaur-trading
+Version: 1.7.4
+Summary: Machine learning tool for trading built for non-data scientist to easily applying data science concept into trading knowledge
+Home-page: https://github.com/Anggi-Permana-Harianja/minotaur-trading
+Author: Anggi Permana Harianja
+Author-email: permanaharianja@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+**minotaur-trading**
+=================
+
+Machine learning tool for trading built for non-data scientist to easily applying data science concept into trading knowledge
+
+
+Installation
+------------
+
+Install using ``pip``
+
+    pip install minotaur-trading
+
+
+Usage Example
+-------------
+
+    >>> from minotaur_trading.src.simple_chart import simple_chart
+    >>> simple = Simple_chart('BBCA.JK')
+    >>> df = simple.ingest()
+    >>> df = simple.set_ma(100)
+    >>> print(df.tail())
+    >>> simple.visualize(df,['Open', 'Close'])
+
+
+
+
+## Requirements
+
+Using minotaur-trading requires the following packages:
+
+~~~~~~~~~~
+
+* pandas
+
+* pandas-datareader
+
+* scikit-learn
+
+* beautifulsoup4
+
+* matplotlib
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Install latest development version
+
+    >>> pip install git+https://github.com/Anggi-Permana-Harianja/minotaur-trading.git
+
+or
+
+    >>> git clone https://github.com/Anggi-Permana-Harianja/minotaur-trading.git
+
+    >>> cd minotaur-trading
+
+    >>> python setup.py install
+
+
+
