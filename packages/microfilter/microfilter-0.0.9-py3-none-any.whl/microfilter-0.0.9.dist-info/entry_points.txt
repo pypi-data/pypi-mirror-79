@@ -1,0 +1,3 @@
+[console_scripts]
+microfilter = microfilter.__main__:main
+
