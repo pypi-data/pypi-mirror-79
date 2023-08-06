@@ -1,0 +1,10 @@
+opendatasets/__init__.py,sha256=IxSc_K2KYhVeiYs3jifQ3xIHdHmXAZ_ksflDJg89tfs,581
+opendatasets/_version.py,sha256=fncup7nhwTHo8LVvisqBlbxiDUcmZMPsOo1pegSBOQs,23
+opendatasets/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendatasets/datasets/stackoverflow-developer-survey-2020/__init__.py,sha256=yOWaVW2Y2-jNLTfO83ZVoOpa9bZlViG7zqUXXVhjjlg,408
+opendatasets/utils/__init__.py,sha256=lil5s0HIU6dL1hdF9ObRIoCPIE2DMTiKZjBl2Qgejeg,2734
+opendatasets-0.0.107.dist-info/LICENSE,sha256=p51hVVfk31chtpyEUqpCiHowGCOP6hAwJVvOWXV_56A,1066
+opendatasets-0.0.107.dist-info/METADATA,sha256=3RUV2K6AoVyW2S6H2ZQI_A7QMv1QLF2vzqq1JzCD6O8,1991
+opendatasets-0.0.107.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opendatasets-0.0.107.dist-info/top_level.txt,sha256=V1cf0ouhZzNUtxJoYyFXt_1KnuSh74fbvhsTMXoYlz4,13
+opendatasets-0.0.107.dist-info/RECORD,,
