@@ -1,0 +1,7 @@
+bce-python-sdk-reborn
+bidict
+matplotlib
+numpy
+protobuf
+requests
+scipy
