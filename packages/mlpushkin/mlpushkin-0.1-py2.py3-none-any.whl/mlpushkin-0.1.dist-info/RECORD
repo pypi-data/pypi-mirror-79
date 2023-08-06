@@ -1,0 +1,11 @@
+pushkin/__init__.py,sha256=XK-zyR5L0OPdoYOr179V82ONlfDDpOcpSJe0fjIGk7Q,273
+pushkin/test.py,sha256=ZhMOUYifBY9dO4tVKL7Cs2LxuzBnvNOtxaw8PoyYS-M,1207
+pushkin/classify/__init__.py,sha256=A_4fEheR9UvwP1xZ9tYMFBFqngNpY8vtDU3uU0NmvA8,24
+pushkin/classify/classify.py,sha256=clNi61jbaY24fSlCKw9Wa6qZr3MnBDi7cgRNlbt162I,3731
+pushkin/train/__init__.py,sha256=jUAA37ZYWbejqdGVohj3Wk6MHG8x3K3CUN2rHFLeAjM,21
+pushkin/train/train.py,sha256=ePdJteAiinOkPYxJEIk2NVdNt4hx8gkdRu8s3Q7Excg,27344
+mlpushkin-0.1.dist-info/LICENSE,sha256=8wSyT0mkK7Af2pbuoqqVsbtIvPvQe4PY0rSd6XDq9H0,21782
+mlpushkin-0.1.dist-info/METADATA,sha256=4ULJapZbQHMZvYPpuZvs7x533QjLlGUrdh5NRexwhCk,396
+mlpushkin-0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+mlpushkin-0.1.dist-info/top_level.txt,sha256=eAbljz88mHoSvRVcneruW1GKoBQN56TBp2ThRfea9m4,8
+mlpushkin-0.1.dist-info/RECORD,,
