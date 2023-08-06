@@ -1,0 +1,16 @@
+megaspark/__init__.py,sha256=1hdQp7dcmOiPIrGhIb-LlaRo_CaHU9Ckah5W262bCOk,41
+megaspark/tomega.py,sha256=L6UEUTNd_cbtfXCvJQj-vtqwfn7sL_zc7UwV58nDClE,6832
+megaspark/case/__init__.py,sha256=KVTBnDECpvHlfZDBhD2VN9ODz99AT24EdRkKbIMzcJ8,19
+megaspark/case/test.py,sha256=cKWRdlV38Da0xZnNFlpQcxxFg__D4FKtAfztBTRABgA,2239
+megaspark/ml/__init__.py,sha256=dxgFUU2oRKmvb4Jp5AuZhdwxpA0vsQ4yGr9s887Xo68,611
+megaspark/ml/mega_xgboost.py,sha256=yZ6XasL6w6Ls6z0kKxPGZ_rkuRbJU86Zy4b_Eo52-CU,2032
+megaspark/ml/pipeline.py,sha256=pZ4tiO1EzcblfVA5oxwGClUB-g_fVLSuGjUlCI7CD3A,5540
+megaspark/ml/util.py,sha256=ZTMR9AHSUscbjU1CPgza7xagNRhJGMpJEj6qTT4Tjsk,2536
+megaspark/ml/xgboost.py,sha256=MJX61j9AlvU415M4TVoc1fXX7y_z_mdHPTIKxzdAcVY,13094
+megaspark/sql/__init__.py,sha256=GPR99RGqwG0kyp83l6Ai5xmcJowW83JSm8uhhasY6SA,24
+megaspark/sql/megaframe.py,sha256=dDPzI4rYzdvFmpQtWUBeayafcb-BWhxDzony47PDoQk,5044
+mega_spark-1.1.1.dist-info/LICENSE,sha256=8Xzz3L0eUXY6_0wAY3qtJdTI00JcJ-_AazuHFgErNpk,11954
+mega_spark-1.1.1.dist-info/METADATA,sha256=xaVhyrgcwjRgsmD0QTpGp7mtIJqxT5wECzr8ObDFnIY,1723
+mega_spark-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mega_spark-1.1.1.dist-info/top_level.txt,sha256=A_AQu-IqQFY3406MzCXZgSo00uH0vPB_qUma4XNbPNc,10
+mega_spark-1.1.1.dist-info/RECORD,,
