@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: madewithml
+Version: 0.0.1
+Summary: Share what you've made with ML
+Home-page: https://madewithml.com/
+Author: Made With ML
+Author-email: hello@madewithml.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: machine-learning,artificial-intelligence,computer-science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
