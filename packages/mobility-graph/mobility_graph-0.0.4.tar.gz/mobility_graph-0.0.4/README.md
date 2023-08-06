@@ -1,0 +1,35 @@
+# Project Thunderbird
+Project Thunderbird is a TFC project based on a fellowship program. The goal is to study and develop an intermodal
+trip planning tool based on Transit data.
+ ---
+## What is Project Thunderbird?
+OD_MTO_DARP is a platform for simulating and solving Dial-a-ride problems.
+The platform is divided into the following items:
+###### GTFS Reader:
+* Search for the GTFS feed
+* Make sure the GTFS file has all the values we need (we can use )
+###### GTFS To Directed Graph Tool:
+* read GTFS data and transform it into a directed mutli graph
+###### Search Algorithm Tool:
+* Search algorithm to find potential 
+###### Best Path Algorithm:
+* Search Algorithm to define the best possible route 
+
+---
+## Documentation
+If you meet the following error on a Windows machine:
+
+> A GDAL API version must be specified. Provide a path to gdal-config using a GDAL_CONFIG environment variable or use a GDAL_VERSION environment variable.
+
+>[Click here](https://docs.google.com/document/d/1PF0l9LtsrhsUs3WZcB8eT20CzDM3_sy-0xHDDod95Vo/edit?usp=sharing) for a complete walkthrough
+---
+
+##Usage
+This repository contains all project files. GTFS data can be downloaded from the following platforms:
+## Roadmap
+The objective of this tool is to develop a time conscious trip planning service. For more info please check the this [whitepaper](https://docs.google.com/document/d/1wl_YGfecbTujSkPWsCfECim2OPL1EkT04-U0yEIWXBg/edit?usp=sharing) 
+## Contribution 
+You are welcome to create a pull request, for major changes and ideas to improve the framework feel free to open a discussion
+or send me an [email](ayman.mahmoud@student-cs.fr) to collaborate.
+
+## License
