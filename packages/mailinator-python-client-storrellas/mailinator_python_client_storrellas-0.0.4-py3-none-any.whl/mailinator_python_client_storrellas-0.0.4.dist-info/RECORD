@@ -1,0 +1,14 @@
+mailinator/__init__.py,sha256=3N76-P4N5BlU1wYAiipR9iJXNsZrkUhl7TCwns1HK6M,113
+mailinator/base.py,sha256=rNWRl7dpuST6J_Y_ca6HrV9YH_zD3cOTXT6YS3_yiWQ,505
+mailinator/domain.py,sha256=sZ8wPvLEPVhU80HguScNZjyS-Y10OfziCzjdLI4wNKc,452
+mailinator/mailinator.py,sha256=z8zACADmw9YjIQ3r_cSQbhh1iRJ6eQ9mlHZD1f2fJ4I,1947
+mailinator/message.py,sha256=3zc8HW549FZkFxN2p8368tbYw0SOxB9GvdIJMeN6ZcQ,3269
+mailinator/models.py,sha256=e729jiSESrNn6pnQ75XJC5D9Z5DHz_MQ0DW3xXVw_9o,8324
+mailinator/rules.py,sha256=pyv2X7DKWWyD_Jebjght9x5vcYb2MCTuepzATzw8NTs,1804
+tests/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tests/test_mailinator.py,sha256=91s9EQNK6BcrFG7yfWIc54X_Ch-b8Bl4wX15EQrkmwk,6492
+mailinator_python_client_storrellas-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+mailinator_python_client_storrellas-0.0.4.dist-info/METADATA,sha256=F8edTBpV936Bi7wypS3MaWfKqvwqwQ3cy7yTWxnkzN0,521
+mailinator_python_client_storrellas-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mailinator_python_client_storrellas-0.0.4.dist-info/top_level.txt,sha256=L2-bbJeDx6XT3wxSmmgh9WWbLDndQf3Wx0cehn2wOLo,17
+mailinator_python_client_storrellas-0.0.4.dist-info/RECORD,,
