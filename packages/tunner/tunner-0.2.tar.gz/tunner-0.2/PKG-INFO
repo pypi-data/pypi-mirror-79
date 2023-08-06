@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tunner
+Version: 0.2
+Summary: Test Runner
+Home-page: https://github.com/ShadowCodeCz/tunner
+Author: ShadowCodeCz
+Author-email: shadow.code.cz@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/ShadowCodeCz/tunner
+Project-URL: Tracker, https://github.com/ShadowCodeCz/tunner/issues
+Description: # TUNNER: Test Runner
+        
+        Test Runner
+        
+        # Development Status 
+        
+        Pre-Alpha
+Keywords: test runner
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
