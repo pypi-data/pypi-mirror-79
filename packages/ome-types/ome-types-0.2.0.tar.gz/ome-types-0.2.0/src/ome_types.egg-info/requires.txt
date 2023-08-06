@@ -1,0 +1,12 @@
+pydantic[email]>=1.0
+xmlschema>=1.0.16
+Pint>=0.15
+
+[autogen]
+isort>=5.0
+black
+autoflake
+numpydoc
+
+[tiff]
+tifffile>=2019.2.22
