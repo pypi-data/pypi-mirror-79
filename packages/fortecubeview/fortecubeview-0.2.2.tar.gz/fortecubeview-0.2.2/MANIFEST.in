@@ -1,0 +1,4 @@
+include extra/screenshot.png
+include examples/psi4/*.cube
+include examples/psi4/*.ipynb
+include examples/psi4/output.nh3.molden_normal_modes
