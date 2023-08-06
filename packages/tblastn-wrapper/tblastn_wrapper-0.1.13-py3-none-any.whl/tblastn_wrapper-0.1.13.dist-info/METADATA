@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tblastn-wrapper
+Version: 0.1.13
+Summary: A wrapper for tblastn that parallelises queries
+Author: Yasir Kusay
+Author-email: yasir.kusay@student.unsw.edu.au
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
