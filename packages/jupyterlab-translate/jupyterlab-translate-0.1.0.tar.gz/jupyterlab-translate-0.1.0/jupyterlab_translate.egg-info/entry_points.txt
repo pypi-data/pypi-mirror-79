@@ -1,0 +1,5 @@
+[console_scripts]
+jlab-trans = jupyterlab_translate.cli:main
+jlab-translate = jupyterlab_translate.cli:main
+jupyterlab-translate = jupyterlab_translate.cli:main
+
