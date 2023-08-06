@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: scriptengine-tasks-ecearth
+Version: 0.2.0
+Summary: ScriptEngine tasks for use with the EC-Earth climate model
+Home-page: https://github.com/uwefladrich/scriptengine-tasks-ecearth
+Author: Uwe Fladrich, Valentina Schueller
+Author-email: uwe.fladrich@protonmail.com, valentina.schueller@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scriptengine (>=0.6)
+Requires-Dist: pyYAML (>=5.1)
+Requires-Dist: numpy (>=1.16.1)
+Requires-Dist: imageio (>=2.0)
+Requires-Dist: scitools-iris (>=2.4)
+Requires-Dist: cartopy (>=0.18)
+Requires-Dist: iris-grib (>=0.15)
+Requires-Dist: python-redmine
+
+[![Coverage Status](https://coveralls.io/repos/github/valentinaschueller/scriptengine-tasks-ecearth/badge.svg?branch=master)](https://coveralls.io/github/valentinaschueller/scriptengine-tasks-ecearth?branch=master)
+
+# ScriptEngine Tasks for EC-Earth
+
+Provides [ScriptEngine](https://github.com/uwefladrich/scriptengine) tasks useful for the EC-Earth climate model.
+
+This package is currently being developed. The documentation can be found in the `docs` folder and will be continuously updated.
+
+
