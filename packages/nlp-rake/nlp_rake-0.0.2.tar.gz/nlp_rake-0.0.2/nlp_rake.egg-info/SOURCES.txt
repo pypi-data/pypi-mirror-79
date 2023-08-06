@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+nlp_rake/__init__.py
+nlp_rake/algorithm.py
+nlp_rake/stopwords.py
+nlp_rake/utils.py
+nlp_rake.egg-info/PKG-INFO
+nlp_rake.egg-info/SOURCES.txt
+nlp_rake.egg-info/dependency_links.txt
+nlp_rake.egg-info/requires.txt
+nlp_rake.egg-info/top_level.txt
+requirements/core.txt
