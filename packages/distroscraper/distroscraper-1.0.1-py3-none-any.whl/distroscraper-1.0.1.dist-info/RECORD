@@ -1,0 +1,17 @@
+distroscraper/__init__.py,sha256=FRfnC8YwhrGxI1TGRGcFqjqRRTq57K7egN3HUcuH8jU,742
+distroscraper/lib.py,sha256=WoSjIS770Bcso5A-mFjEPgNVPExrksljluZSbFZYrb0,1261
+distroscraper/tm_add_torrent.py,sha256=cZFXxH3j-U6CUB5z8IhO5B1-wPCmYPL8XOQlysUBipo,1343
+distroscraper/tm_get_stats.py,sha256=curoqjKtlKTRXN8s5FyVjLMlAOyJMLPksroIO-b_RFg,2830
+distroscraper/tmlib.py,sha256=zQ3zwz_uUJvo7_coCIAnzclptI3rWvXiTJ4tRVbzvmM,1397
+distroscraper/scrape/__init__.py,sha256=FRfnC8YwhrGxI1TGRGcFqjqRRTq57K7egN3HUcuH8jU,742
+distroscraper/scrape/archlinux.py,sha256=j5nLC6TgN1Kw31DrzVbIsfh6aHjskrLq1CAs5ZOM0w4,1354
+distroscraper/scrape/centos.py,sha256=G3f92pYKOI8n7JI6kBHw5OHI_VPoz8AvnzsCMms2Whg,1897
+distroscraper/scrape/debian.py,sha256=n5KZro2gQ6QspJdeaNjR7PTvLDmLRJ0RFIEO8QiqMrs,1860
+distroscraper/scrape/fedora.py,sha256=Xjssqbijp4wzl2PSSTchQgJO12-2cYB1B5UB00x9Oig,1989
+distroscraper/scrape/linuxmint.py,sha256=KT5M0g8aU5uvemIgxBOCmRNg7hXjWHLParkqXAjaDEM,2093
+distroscraper/scrape/raspberrypi.py,sha256=nNCy8XzaVEBgPfiuEnc3dDDnudWCSGFlNfLNGzJuhNQ,1578
+distroscraper-1.0.1.dist-info/LICENSE,sha256=E5KABoK4M5_21quqxhGO1sB3qsnapg6Om0xxDYOPkIU,35366
+distroscraper-1.0.1.dist-info/METADATA,sha256=63h414_se0yNJB1w7Tkvl3qHB8RZ6qEV-lL1B-DKhmY,3940
+distroscraper-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+distroscraper-1.0.1.dist-info/top_level.txt,sha256=ELKL4ELRqt_zzyYuelcF_FtSDbUK2nbFcCro9myYb_I,14
+distroscraper-1.0.1.dist-info/RECORD,,
