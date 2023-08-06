@@ -1,0 +1,8 @@
+setup.py
+kedro_accelerator.egg-info/PKG-INFO
+kedro_accelerator.egg-info/SOURCES.txt
+kedro_accelerator.egg-info/dependency_links.txt
+kedro_accelerator.egg-info/entry_points.txt
+kedro_accelerator.egg-info/requires.txt
+kedro_accelerator.egg-info/top_level.txt
+kedro_accelerator/plugins/__init__.py
