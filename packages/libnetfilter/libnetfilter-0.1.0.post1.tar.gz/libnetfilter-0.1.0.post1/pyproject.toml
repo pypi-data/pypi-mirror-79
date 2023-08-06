@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "libnetfilter"
+version = "0.1.0-1"
+description = "Python wrapper (partial) around libnetfilter libraries"
+authors = ["Mark Bools <mark@saltyvagrant.com>"]
+readme = "README.rst"
+homepage = "https://gitlab.com/python-utils2/libnetfilter"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: System :: Networking :: Firewalls",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
