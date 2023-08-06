@@ -1,0 +1,3 @@
+[mopidy.ext]
+defaultplaylist = mopidy_defaultplaylist:Extension
+
