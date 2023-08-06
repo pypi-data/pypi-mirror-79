@@ -1,0 +1,5 @@
+[console_scripts]
+synbols = synbols.entrypoints.run_docker:main
+synbols-datasets = synbols.entrypoints.generate_datasets:entrypoint
+synbols-view = synbols.entrypoints.view_dataset:entrypoint
+
