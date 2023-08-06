@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/firefly_integration.egg-info/PKG-INFO
+src/firefly_integration.egg-info/SOURCES.txt
+src/firefly_integration.egg-info/dependency_links.txt
+src/firefly_integration.egg-info/requires.txt
+src/firefly_integration.egg-info/top_level.txt
+src/firefly_integration/application/__init__.py
+src/firefly_integration/domain/__init__.py
+src/firefly_integration/infrastructure/__init__.py
+src/firefly_integration/presentation/__init__.py
