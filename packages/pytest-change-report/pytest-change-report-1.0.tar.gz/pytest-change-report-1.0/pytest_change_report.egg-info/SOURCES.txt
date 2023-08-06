@@ -1,0 +1,9 @@
+README.rst
+pytest_change_report.py
+setup.py
+pytest_change_report.egg-info/PKG-INFO
+pytest_change_report.egg-info/SOURCES.txt
+pytest_change_report.egg-info/dependency_links.txt
+pytest_change_report.egg-info/entry_points.txt
+pytest_change_report.egg-info/requires.txt
+pytest_change_report.egg-info/top_level.txt
