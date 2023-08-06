@@ -1,0 +1,5 @@
+setup.py
+lightly.egg-info/PKG-INFO
+lightly.egg-info/SOURCES.txt
+lightly.egg-info/dependency_links.txt
+lightly.egg-info/top_level.txt
