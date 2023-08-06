@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: Voicelab
+Version: 0.1.3
+Summary: Automated Repreducible Voice Analysis
+Home-page: https://github.com/Voice-Lab/VoiceLab
+Author: David Feinberg
+Author-email: feinberg@mcmaster.ca
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: qdarkstyle
+Requires-Dist: praat-parselmouth
+Requires-Dist: crepe
+Requires-Dist: openpyxl
+Requires-Dist: PyQt5 (==5.9.2)
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: tensorflow (==2.0.0)
+
+<img src="Voicelab/favicon.ico">**VoiceLab**
+======
+**Automated Reproducible Acoustical Analysis**
+
+
+
+## Contributors
+David Feinberg, PhD  
+
+Oliver Cook
+
+## Version 
+* Version 0.1
+
+## Contact
+- feinberg@mcmaster.ca
+
+## Citing Voicelab
+Feinberg, D. R., & Cook, O. (2020, September 15). VoiceLab: Automated Reproducible Acoustic Analysis. Retrieved from psyarxiv.com/v5uxf
+
+## Documentation
+- https://voice-lab.github.io/VoiceLab/
+
+## Precompiled binaries
+- Windows exe file and Linux binary, and OSX app file are here: https://github.com/Voice-Lab/VoiceLab/releases
+- OSX binary is in a zip file, don't forget to unzip it
+
+
+## Python package installation instructions
+pip install Voicelab
+
+## To run Voicelab
+python voicelab.py
+
+
