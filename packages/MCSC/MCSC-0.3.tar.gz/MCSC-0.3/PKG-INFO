@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: MCSC
+Version: 0.3
+Summary: A package for solving MCSC problems.
+Home-page: https://github.com/samiptimalsena/MCSC
+Author: Samip Timalsena
+Author-email: samip425@gmail.com
+License: MIT
+Download-URL: https://github.com/samiptimalsena/MCSC/archive/v_04.tar.gz
+Description: UNKNOWN
+Keywords: MCSC,KATHMANDU UNIVERSITY,Algorithms
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
