@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: melime
+Version: 0.1
+Summary: melime repository
+Home-page: https://github.com/tiagobotari/melime
+Author: Tiago Botari
+Author-email: tiagobotari@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Client for Oka repository.
+
+
