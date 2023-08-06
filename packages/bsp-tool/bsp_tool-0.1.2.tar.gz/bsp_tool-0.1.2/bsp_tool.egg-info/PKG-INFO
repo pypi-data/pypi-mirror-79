@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: bsp-tool
+Version: 0.1.2
+Summary: A library for .bsp file analysis & modification
+Home-page: https://github.com/snake-biscuits/bsp_tool
+Author: Jared Ketterer
+Author-email: haveanotherbiscuit@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/snake-biscuits/bsp_tool/archive/v0.1.2.tar.gz
+Description: # bsp_tool
+         A library for .bsp file analysis & modification
+        
+        bsp_tool has no UI, it only provides a python interface to the contents of the requested .bsp  
+        This interface is provideded via the `bsp_tool.bsp` class  
+        At present the tool read .bsps from most Source Engine games, as well as Titanfall 2 & Apex Legends  
+        
+        The `mods/` folder contains classes for interpretting the lumps within .bsp files  
+        bsp_tool needs to know each lump is constructed & this varies from game to game  
+        `mods/common.py` provides some base classes  
+        `vindictus.py` extends `team_fortress2.py`  
+        
+        At present, not every lump's exact format is understood  
+        When a lump of unknown format is loaded, it becomes `RAW_LUMPNAME` and the raw data is preserved  
+        By default, bsp_tool assumes .bsps are version 20 (Team Fortress 2)  
+        If this assumption is found to be false, bsp_tool will try other mods  
+        The user can also specify what mod bsp_tool is to expect  
+         
+        
+Keywords: source,bsp,valve
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

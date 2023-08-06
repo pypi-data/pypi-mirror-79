@@ -1,0 +1,15 @@
+README.md
+setup.py
+bsp_tool/__init__.py
+bsp_tool.egg-info/PKG-INFO
+bsp_tool.egg-info/SOURCES.txt
+bsp_tool.egg-info/dependency_links.txt
+bsp_tool.egg-info/top_level.txt
+bsp_tool/mods/__init__.py
+bsp_tool/mods/_lump_tools.py
+bsp_tool/mods/apex_legends.py
+bsp_tool/mods/common.py
+bsp_tool/mods/team_fortress2.py
+bsp_tool/mods/titanfall2.py
+bsp_tool/mods/vector.py
+bsp_tool/mods/vindictus.py
