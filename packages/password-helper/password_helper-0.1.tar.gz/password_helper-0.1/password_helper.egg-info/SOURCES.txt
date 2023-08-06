@@ -1,0 +1,8 @@
+setup.py
+password_helper/__init__.py
+password_helper/mot_de_passe.py
+password_helper.egg-info/PKG-INFO
+password_helper.egg-info/SOURCES.txt
+password_helper.egg-info/dependency_links.txt
+password_helper.egg-info/not-zip-safe
+password_helper.egg-info/top_level.txt
