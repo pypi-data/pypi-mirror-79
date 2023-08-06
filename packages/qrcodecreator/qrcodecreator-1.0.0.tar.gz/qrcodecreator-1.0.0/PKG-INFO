@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: qrcodecreator
+Version: 1.0.0
+Summary: A module for creating qr codes without any extra effort. It is based on the: qrcode module:"https://pypi.org/project/qrcode/" so it must be installed. Usage example: qrcoder("some text for the qrcode.","example.png")""" you can just write the name without format, it will be automatically saved as .jpg
+Author: Pavel Popov
+Author-email: p16.popov@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
