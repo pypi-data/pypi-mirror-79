@@ -1,0 +1,5 @@
+setuptools
+psycopg2
+sqlalchemy
+
+[test]
