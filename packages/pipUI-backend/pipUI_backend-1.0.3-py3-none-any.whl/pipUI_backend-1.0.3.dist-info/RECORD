@@ -1,0 +1,15 @@
+pipUI_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipUI_backend/__main__.py,sha256=b5ZyMmLmANFB9fR6Sj2C4oxu-Ji_-1ESP2psaFOR7-8,46
+pipUI_backend/autocomplete.py,sha256=IMVntGSUEM8wSjYivgKkVTltlRFd69B1vRJZmGEZOSk,972
+pipUI_backend/pypiscraper.py,sha256=4OUJXdP3LCrsH2Asu3hxqb3iqZit3pybpcI1law5sa4,1923
+pipUI_backend/server.py,sha256=JomqDj_q6wlr9uu96qJghXoZIJQK9jUX9TVMmhqia_E,681
+pipUI_backend/startup.py,sha256=lL7yEaPKoRzygNvSCFrjiDDs94QUUj6ysdmCsAA1tqY,887
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=aNJxdQvllM2zmHvxuIjju931FQQJLuJm9YgwLC8Fr7c,334
+src/autocomplete.py,sha256=IMVntGSUEM8wSjYivgKkVTltlRFd69B1vRJZmGEZOSk,972
+src/pypiscraper.py,sha256=4OUJXdP3LCrsH2Asu3hxqb3iqZit3pybpcI1law5sa4,1923
+src/startup.py,sha256=zYCdhS0i3hntXVdVSBAMHp9JLATGEqb0xLB5wtNcULY,858
+pipUI_backend-1.0.3.dist-info/METADATA,sha256=kAlamzBXyqxdQKgAJWErPMsJSimMFeQfuko8ZSUPe8c,865
+pipUI_backend-1.0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+pipUI_backend-1.0.3.dist-info/top_level.txt,sha256=pEEF3yByxvPT6IoksmjsGg9mWpfpnCuOQELy14lHEAM,15
+pipUI_backend-1.0.3.dist-info/RECORD,,
