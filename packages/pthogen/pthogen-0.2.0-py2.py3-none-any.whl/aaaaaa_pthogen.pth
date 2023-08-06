@@ -1,0 +1,2 @@
+import sys; exec('try:\n    import pthogen\nexcept ImportError:\n    pass\nelse:\n    pthogen.run()\n')
+
