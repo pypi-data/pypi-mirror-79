@@ -1,0 +1,6 @@
+
+[dev]
+coverage
+dunamai
+flake8
+nose
