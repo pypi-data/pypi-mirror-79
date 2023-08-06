@@ -1,0 +1,12 @@
+setup.py,sha256=UFhQ3K96XdSM74IZ0GI5JjoczRL7vF8L8uq3jwYrVXY,1983
+writerscript/__init__.py,sha256=NF-mFtjnvCZ-vcpT2zfoscXcBUbOF3CQc2QKXKTaHNQ,1003
+writerscript/cli.py,sha256=_nYeSHOyv9NTJWH4YiIwKf_GvmmzHjQrJNCkDEzfBSQ,2533
+writerscript/generator.py,sha256=vNX_vJo5zK43VfW5PClgITwxY5fUk1wyNbC5UnGxH6M,2074
+writerscript/interpreter.py,sha256=DO1ACiHtl-9WTYG23TblDdD8JjhKAcuxq8YyrAyXvCE,3727
+writerscript/translator.py,sha256=TYbFGj1ri_1Zoe1OO5tPBMkOC1aZYVIrsopdW2E8kVs,2594
+writerscript-0.4.0.dist-info/LICENSE,sha256=qwMR36TrOMRkjejelBWjthYzCLh3N7zQxzq_ycmQgbo,1071
+writerscript-0.4.0.dist-info/METADATA,sha256=A333XrgyMZvVetidiMpbdmX2JUekQfNal1pz25wz26c,6524
+writerscript-0.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+writerscript-0.4.0.dist-info/entry_points.txt,sha256=T_nHCUsvFe0XZlH14UliOZqSKlovHQzbajIvcbsZjKA,51
+writerscript-0.4.0.dist-info/top_level.txt,sha256=LXTzBF08wplbyzRn3THHd2BQr_Udyxeg0h6uFuiLeyc,19
+writerscript-0.4.0.dist-info/RECORD,,
