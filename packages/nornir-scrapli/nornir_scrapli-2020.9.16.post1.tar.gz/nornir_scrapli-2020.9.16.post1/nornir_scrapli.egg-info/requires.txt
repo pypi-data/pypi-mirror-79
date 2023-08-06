@@ -1,0 +1,10 @@
+scrapli>=2020.06.06
+nornir>=3.0.0
+
+[genie]
+genie>=20.2
+pyats>=20.2
+
+[textfsm]
+textfsm>=1.1.0
+ntc-templates>=1.1.0
