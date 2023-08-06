@@ -1,0 +1,11 @@
+venv/
+.env/
+
+.idea/
+build/
+dist/
+*.egg-info/
+.player_token
+
+.hackgame_cli_state
+.hackgame_cli_state.db
