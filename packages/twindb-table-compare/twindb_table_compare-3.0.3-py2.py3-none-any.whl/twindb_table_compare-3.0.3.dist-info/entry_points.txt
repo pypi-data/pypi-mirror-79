@@ -1,0 +1,3 @@
+[console_scripts]
+twindb-table-compare = twindb_table_compare.cli:main
+
