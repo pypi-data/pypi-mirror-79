@@ -1,0 +1,14 @@
+numpy
+scipy
+nibabel
+numba
+six
+loguru
+fslpy
+zarr
+h5py
+colorcet
+dask[array]
+pandas
+sklearn
+scikit-image
