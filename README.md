@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2020-09-09 05:41 and 2020-09-19 07:25.
 
-The repo is 44% (17992/40000) complete.
+The repo is 49% (19991/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-79/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| pyagrum-nightly | 210 |
-| libpymath | 184 |
-| dependency-injector | 180 |
-| advent-of-code | 179 |
-| tfa-nightly | 168 |
-| tensorflow-io-nightly | 132 |
-| aurflux | 122 |
-| warpctc-pytorch | 80 |
-| lalsuite | 80 |
-| elastiknn-client | 80 |
-| caer | 74 |
-| awkward1 | 72 |
-| compressed-segmentation | 69 |
-| bapy | 67 |
-| scrypt | 65 |
-| nfstream | 63 |
-| pyawscp | 62 |
-| wapt-tools | 60 |
-| numcodecs | 60 |
-| lusid-sdk-preview | 60 |
-| lbt-dragonfly | 58 |
-| signatory | 56 |
-| RelStorage | 56 |
-| pynecone | 54 |
-| frida | 52 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-79).
 
 
