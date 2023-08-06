@@ -1,0 +1,10 @@
+spice21py-0.1.4.dist-info/METADATA,sha256=ecUDRV_r2w3GArwut7Kj3YaJ7hISygr3WUVTmEH1CCg,267
+spice21py-0.1.4.dist-info/WHEEL,sha256=KX4TWQdNMAWUjt1sCTcUWbT90OMHLY24Y3GtlADphxI,103
+spice21py/__init__.py,sha256=juM0DHIDEp7tXNqf2OWbEIe2WN5arkL-F1vl847-Fls,1685
+spice21py/spice21_pb2.py,sha256=a-h3I_kaUIrvyl_bceRNlOIDQlA4crsVOul2vXapuz4,40376
+spice21py/__pycache__/protos.cpython-38.pyc,sha256=DoMeZE0bPNrzm72CPR4UPeaaT7EPjpsIjLU-mmRkOsk,174
+spice21py/__pycache__/__init__.cpython-38.pyc,sha256=tGtR2_niP68dVAbD8RvP9Lnz0DD3vehPfDhsKtbTt5Q,1832
+spice21py/__pycache__/spice21_pb2.cpython-38.pyc,sha256=Lco_6Ifz2ESv8pHulaNbDisFFZADtramt-8s-l3awcA,13576
+spice21py/protos.py,sha256=Rq3Zgdt3CfVFrSYvTr-_mYYW_SlEvfDvSq_9qDE8XQU,53
+spice21py/spice21py.cpython-38-darwin.so,sha256=5BhKYZQ2nEp0heXcYG_zoee73QdnIX_6cJG0vYkunjE,518848
+spice21py-0.1.4.dist-info/RECORD,,
