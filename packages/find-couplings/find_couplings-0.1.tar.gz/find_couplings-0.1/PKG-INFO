@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: find_couplings
+Version: 0.1
+Summary: lookup x coordinates for couplings in jpeg files
+Home-page: https://YogenderPalChandra@bitbucket.org/YogenderPalChandra/find_couplings.git
+Author: Yogender Pal Chandra
+Author-email: yogender027mae@gmail.com
+License: MIT
+Description: Finds x coordinates of couplings in each jpg file.
+        
+Keywords: list of Pandas series to list of pandas data frame
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6

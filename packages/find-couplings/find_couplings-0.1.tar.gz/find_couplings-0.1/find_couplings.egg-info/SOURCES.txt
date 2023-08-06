@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+find_couplings/__init__.py
+find_couplings/find_couplings.py
+find_couplings.egg-info/PKG-INFO
+find_couplings.egg-info/SOURCES.txt
+find_couplings.egg-info/dependency_links.txt
+find_couplings.egg-info/not-zip-safe
+find_couplings.egg-info/top_level.txt
