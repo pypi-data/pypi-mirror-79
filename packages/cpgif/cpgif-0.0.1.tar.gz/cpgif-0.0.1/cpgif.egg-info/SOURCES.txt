@@ -1,0 +1,11 @@
+README.md
+setup.py
+cpgif/__init__.py
+cpgif/cpgif.py
+cpgif.egg-info/PKG-INFO
+cpgif.egg-info/SOURCES.txt
+cpgif.egg-info/dependency_links.txt
+cpgif.egg-info/entry_points.txt
+cpgif.egg-info/requires.txt
+cpgif.egg-info/top_level.txt
+cpgif.egg-info/zip-safe
