@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+blockrope/BitcoinWallet.py
+blockrope/BitcoinWalletGenerator.py
+blockrope/PeerConnection.py
+blockrope/PrivateKeyGenerator.py
+blockrope/WalletConfigurator.py
+blockrope/__init__.py
+blockrope.egg-info/PKG-INFO
+blockrope.egg-info/SOURCES.txt
+blockrope.egg-info/dependency_links.txt
+blockrope.egg-info/requires.txt
+blockrope.egg-info/top_level.txt
