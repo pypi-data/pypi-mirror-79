@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kome"
+version = "0.1.0"
+description = ""
+authors = ["YutaUra <yuuta3594@outlook.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^20.8b1", allow-prereleases = true}
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
