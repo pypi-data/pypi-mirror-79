@@ -1,0 +1,15 @@
+dpymenus/__init__.py,sha256=vwPb-l0tTYLIZidTiOgxC7SXkFegWN-thY7Oib__I-I,242
+dpymenus/auto_paginated_menu.py,sha256=oh0dMUpqmVYuHdISRZdzOpdG6ByEYW-KUu770opXXZA,91
+dpymenus/base_menu.py,sha256=tt4HxZN4N8a7ZHtCOBmJfmTLmYZsTCNdtAQoMdPs654,10777
+dpymenus/button_menu.py,sha256=9aNvnphgMESJ70rzB5V2tFeKzpKq4-X5SW5TmAf5s8w,2727
+dpymenus/exceptions.py,sha256=iKxX0mutJzf2tCHpf3w6gJpyR7-5oa6jZM-q_i7tX4M,307
+dpymenus/page.py,sha256=z249DI8mX8cmpwrdyathsbCXZI7ubcBJFF7Vg0qFox0,3006
+dpymenus/paginated_menu.py,sha256=bVsyW-M2oDJvVHLkcHidQKWASJJPhEen71wkzjlF4xo,10207
+dpymenus/poll.py,sha256=i4RG_rDbITxZMS9UDs3PHAGtsRBuyMpyHYNJ5xFf-EI,5999
+dpymenus/text_menu.py,sha256=Kx_V7mbEyK_bbJgFgYLFdBjY8OXLjE_i2OeBuScQf2k,2119
+dpymenus/constants/__init__.py,sha256=XUKUSp6Y9IRxUvJ03K3sbJzH0D8ma2dS4rPqAbhFERY,274
+dpymenus-1.0.0rc2.dist-info/LICENSE.md,sha256=7HOdsgk2rogWBbIKre1DoCjP6eRIb3gwiNtDfId3P2Q,1078
+dpymenus-1.0.0rc2.dist-info/METADATA,sha256=hSMkqMH7VJyCpXUvNEDPIg0tZMUEjMOCkidzG5Yg9Bw,7613
+dpymenus-1.0.0rc2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+dpymenus-1.0.0rc2.dist-info/top_level.txt,sha256=g9LVOtZMCvUw3XS2kjvaKblNwFUb7H80YsNgwUWQVBI,9
+dpymenus-1.0.0rc2.dist-info/RECORD,,
