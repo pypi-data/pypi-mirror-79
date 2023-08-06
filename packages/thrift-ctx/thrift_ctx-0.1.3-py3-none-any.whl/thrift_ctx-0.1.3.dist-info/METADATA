@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: thrift-ctx
+Version: 0.1.3
+Summary: thrift context
+Home-page: UNKNOWN
+Author: csc
+Author-email: caishc@hrtps.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: Werkzeug
+Requires-Dist: thrift
+
+UNKNOWN
+
+
