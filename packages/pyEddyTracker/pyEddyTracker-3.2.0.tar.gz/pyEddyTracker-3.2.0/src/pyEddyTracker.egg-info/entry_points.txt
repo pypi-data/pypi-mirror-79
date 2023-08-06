@@ -1,0 +1,9 @@
+[console_scripts]
+EddyAnim = py_eddy_tracker.appli.gui:anim
+EddyId = py_eddy_tracker.appli.grid:eddy_id
+EddyNetworkBuildPath = py_eddy_tracker.appli.network:divide_network
+EddyNetworkGroup = py_eddy_tracker.appli.network:build_network
+GridFiltering = py_eddy_tracker.appli.grid:grid_filtering
+MergeEddies = py_eddy_tracker.appli.eddies:merge_eddies
+ZarrDump = py_eddy_tracker.appli.misc:zarrdump
+
