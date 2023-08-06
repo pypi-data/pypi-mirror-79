@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_postgres_product.egg-info/PKG-INFO
+django_postgres_product.egg-info/SOURCES.txt
+django_postgres_product.egg-info/dependency_links.txt
+django_postgres_product.egg-info/requires.txt
+django_postgres_product.egg-info/top_level.txt
+postgres_product/__init__.py
+postgres_product/aggregates.py
