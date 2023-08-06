@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+numba
+parse
+jupyterlab
+specutils
+tqdm
+weno4
