@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mockplatform
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/jakewan/mockplatform
+Author: Jacob Wan
+Author-email: jacobwan840@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.3
+Requires-Dist: sanic
+Provides-Extra: dev
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+UNKNOWN
+
+
