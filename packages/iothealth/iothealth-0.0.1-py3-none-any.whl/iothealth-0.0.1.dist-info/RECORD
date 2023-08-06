@@ -1,0 +1,10 @@
+iothealth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iothealth/__main__.py,sha256=F0ncXde7C99Gzo_3EdVI0H12bAgHsrwOxIT5G30_N7A,72
+iothealth/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iothealth/bin/cli.py,sha256=4T0pK4tO33x4-QTKDNmPxj6CjvqDuzOH6Lve8ImEmFk,59
+iothealth-0.0.1.dist-info/LICENSE,sha256=FYGNwS0Er6io0dLVk_J9I3XAviByp0qMwUOBEo1-Id8,1070
+iothealth-0.0.1.dist-info/METADATA,sha256=jRdSrinizIdK3r53nych8Be6xubjw0xfqpLC2Zjs65o,673
+iothealth-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+iothealth-0.0.1.dist-info/entry_points.txt,sha256=IMG-BSZAQrNjYcw7PR7X5IDv71c07tB_ieUHYJ-jQeU,52
+iothealth-0.0.1.dist-info/top_level.txt,sha256=o5PG3QwfOFD_IfRg9MbAnwWeYK-A6khdhqXmNsIBo1U,10
+iothealth-0.0.1.dist-info/RECORD,,
