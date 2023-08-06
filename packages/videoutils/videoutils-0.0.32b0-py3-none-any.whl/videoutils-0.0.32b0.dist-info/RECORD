@@ -1,0 +1,10 @@
+videoutils/__init__.py,sha256=LaXHLiGYoxOl24oscv2tCIbe8KdJmo_jpct1hnwc2ck,24
+videoutils/_nbdev.py,sha256=Vyh5NlgVq54Eai5avkYvpftF9_LEHxH-01kj2VjMEHY,648
+videoutils/io.py,sha256=I7Ihga_mcD6IotIv77bL01reO1hCJ2akfxhZa791VuQ,4864
+videoutils/utils.py,sha256=1gtiK48Yx3U9NkFzSmfp8PV8Sjs-qvTa_RwJEGl36lk,1691
+videoutils-0.0.32b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+videoutils-0.0.32b0.dist-info/METADATA,sha256=Tfzq3tCaCB3MEgvyig8l7toHuYf7OCoS3sPrAhFxeLA,5624
+videoutils-0.0.32b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+videoutils-0.0.32b0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+videoutils-0.0.32b0.dist-info/top_level.txt,sha256=fuUPmyJpYe0amkm6i7mt_4jONwHewYshRerbAiuvaqI,11
+videoutils-0.0.32b0.dist-info/RECORD,,
