@@ -1,0 +1,13 @@
+monitorcontrol/__init__.py,sha256=JDA4VcOOPPQSeluaKI8Z-M5tUCly0nOtnEMx4kUekas,1447
+monitorcontrol/__main__.py,sha256=vOuPP1kk-562RD8GdsJcZNPGLeqUiOBtiIK7DBWUsLs,3251
+monitorcontrol/monitorcontrol.py,sha256=PgRyjNHhm4TohYD1hT_QH0Xjzl_ccrkdzN1IjIRXXhE,10560
+monitorcontrol/vcp/__init__.py,sha256=tKw6X3_6zW1VhDfEWa-BrCzrpnJt-MN9zKX8jFaRjrw,1579
+monitorcontrol/vcp/vcp_abc.py,sha256=iPo69ZyGd9MoMZW189omX2Mc9ezSTEGBMxxCcddDkSg,2642
+monitorcontrol/vcp/vcp_codes.py,sha256=WKtsrMkIgi8gnY43IyrwfOECBhBGb0vGEpSYmbI3hp8,3725
+monitorcontrol/vcp/vcp_linux.py,sha256=r-upvzmjnD0j97aPkf97hB7MVIQismIdja86wKfCvl8,8691
+monitorcontrol/vcp/vcp_windows.py,sha256=JaV5a_G79YXPNXGFawaERQbqlMeaI5xyYeJjftNClrY,6341
+monitorcontrol-2.1.1.dist-info/entry_points.txt,sha256=HmWwsoTlZmXt08rlP5FUBUHcds7zskWYFv0xuETzfAc,63
+monitorcontrol-2.1.1.dist-info/LICENSE,sha256=Mx3vk8SARA774oAkqz34XuJoJuOIivvVJRXhS6rFP2E,1072
+monitorcontrol-2.1.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+monitorcontrol-2.1.1.dist-info/METADATA,sha256=Vs9-HW-HiegyUu2t4wfSa6M-x6EzwzdDK_Ngg6_Iy-c,2218
+monitorcontrol-2.1.1.dist-info/RECORD,,
