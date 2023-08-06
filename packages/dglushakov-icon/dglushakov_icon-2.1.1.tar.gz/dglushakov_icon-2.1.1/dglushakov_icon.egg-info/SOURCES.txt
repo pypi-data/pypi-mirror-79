@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+Icon/AR2NS.py
+Icon/__init__.py
+dglushakov_icon.egg-info/PKG-INFO
+dglushakov_icon.egg-info/SOURCES.txt
+dglushakov_icon.egg-info/dependency_links.txt
+dglushakov_icon.egg-info/not-zip-safe
+dglushakov_icon.egg-info/requires.txt
+dglushakov_icon.egg-info/top_level.txt
