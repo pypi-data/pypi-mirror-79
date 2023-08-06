@@ -1,0 +1,5 @@
+pandas<2.0,>=1.1
+numpy<2.0,>=1.16
+requests<3.0,>=2.20
+pyjwt<2.0,>=1.7
+cryptography<3.0,>=2.5
