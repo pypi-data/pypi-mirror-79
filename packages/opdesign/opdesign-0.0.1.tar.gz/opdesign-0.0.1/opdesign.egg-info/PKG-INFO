@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: opdesign
+Version: 0.0.1
+Summary: A python package for optimal-design of any experiment
+Home-page: https://github.com/zhul9311/optimal-design.git
+Author: Zhu Liang
+Author-email: zliang8@uic.edu
+License: UNKNOWN
+Description: # optimal-design
+        A python package for optimal-design of any experiment
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
