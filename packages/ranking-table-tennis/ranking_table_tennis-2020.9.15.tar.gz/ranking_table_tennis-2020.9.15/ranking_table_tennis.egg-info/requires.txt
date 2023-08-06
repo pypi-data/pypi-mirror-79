@@ -1,0 +1,9 @@
+gspread>=3.6.0
+oauth2client>=4.1.2
+PyYAML>=3.12
+urllib3>=1.23
+openpyxl>=3.0.4
+Unidecode>=1.0.22
+pandas>=1.0.5
+xlrd>=1.0.0
+gspread-dataframe>=1.0.4
