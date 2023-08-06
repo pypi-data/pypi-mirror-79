@@ -1,0 +1,3 @@
+[sentry.plugins]
+dingtalk_ecooltwo = sentry_dingtalk_ecooltwo.plugin:DingtalkPluginEcooltwo
+
