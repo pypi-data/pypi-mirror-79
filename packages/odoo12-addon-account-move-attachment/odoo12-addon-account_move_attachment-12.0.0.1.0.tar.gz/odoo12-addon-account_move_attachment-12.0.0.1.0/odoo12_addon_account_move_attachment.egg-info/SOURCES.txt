@@ -1,0 +1,11 @@
+setup.py
+odoo/addons/account_move_attachment/__init__.py
+odoo/addons/account_move_attachment/__manifest__.py
+odoo/addons/account_move_attachment/account_move.py
+odoo/addons/account_move_attachment/account_move_view.xml
+odoo12_addon_account_move_attachment.egg-info/PKG-INFO
+odoo12_addon_account_move_attachment.egg-info/SOURCES.txt
+odoo12_addon_account_move_attachment.egg-info/dependency_links.txt
+odoo12_addon_account_move_attachment.egg-info/not-zip-safe
+odoo12_addon_account_move_attachment.egg-info/requires.txt
+odoo12_addon_account_move_attachment.egg-info/top_level.txt
