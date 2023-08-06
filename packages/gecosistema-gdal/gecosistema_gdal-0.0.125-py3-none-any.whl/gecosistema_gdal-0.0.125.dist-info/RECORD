@@ -1,0 +1,11 @@
+gecosistema_gdal/__init__.py,sha256=Kt0PjJNZkSjNvk-uViyjSed4JoDfz9raCCKrLzkW-1Q,1110
+gecosistema_gdal/gdal_numpy.py,sha256=8ZmyD90QV1h2GpPj9iyjFPiXklPQMBfDFRSfQT24lwA,7702
+gecosistema_gdal/gdal_sparse.py,sha256=CPpOYG6DxQNYRw8kt8HJ8x-dDTKr0uk1D48XdNXouBk,2938
+gecosistema_gdal/gdal_utils.py,sha256=HxCAiBuRD69CW8hxS70pG76DJSCmuHXv5NDOT9-Edjs,22691
+gecosistema_gdal/ogr_utils.py,sha256=o0bz6fBoCW33pqVdggrh6T3AEVRn9q-F8pwuecM3Hvc,11029
+gecosistema_gdal/taudem.py,sha256=SF6jKtukcH_gmaop6BYM_K5z7XUN4MwMXPPPrztcXtQ,4496
+gecosistema_gdal-0.0.125.dist-info/LICENSE,sha256=djyKbJMN4U8g5Xuc34qSLM6hoBP4OLVITS8OfKi7uq4,1091
+gecosistema_gdal-0.0.125.dist-info/METADATA,sha256=YLA2CB0KMFzwy7XE6fBWwkqHbrXDDP0iXR4_7axgCJo,420
+gecosistema_gdal-0.0.125.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+gecosistema_gdal-0.0.125.dist-info/top_level.txt,sha256=wJeq2fy_N4dinmfxUJC3UkrI4Rpsrl1vZaCuh8WE97k,17
+gecosistema_gdal-0.0.125.dist-info/RECORD,,
