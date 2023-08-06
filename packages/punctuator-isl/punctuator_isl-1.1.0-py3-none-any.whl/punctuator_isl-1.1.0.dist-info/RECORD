@@ -1,0 +1,10 @@
+punctuator/__init__.py,sha256=pMQFynPWhhApsq5MK7F1hpVifBZD67tmbilJSZzPLHw,164
+punctuator/api.py,sha256=ZF7ZLmnuMcieeCsTwrH5-fUUFlzw79ihFKSVmF8U4oU,10035
+punctuator/main.py,sha256=TP8-cjlWdGjh_Nrx51HNgMwsF8F9npxRev5mbjlGt3A,1169
+punctuator/models.py,sha256=OmU9jqdIJBn0X9-sbgQlIFwJ0z5qs57LkAhAmK0HQ9M,8726
+punctuator_isl-1.1.0.dist-info/LICENSE,sha256=xiffJREYVYTCYvLB35OTijemTKd4KfFx4gUI9-6ahgU,1146
+punctuator_isl-1.1.0.dist-info/METADATA,sha256=Rl0xPfhGl8YMsCJQOg5t9f0hQwv3ShW-dAZw1MqwNUw,4945
+punctuator_isl-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+punctuator_isl-1.1.0.dist-info/entry_points.txt,sha256=23n3C0j3TW90MoG_RjWEQlxGyLfvJsv4a35zgSjesks,52
+punctuator_isl-1.1.0.dist-info/top_level.txt,sha256=hxU-CQqY66rOPFHNzd2nv6gg7YJpPSdUYfla-iF-0sQ,11
+punctuator_isl-1.1.0.dist-info/RECORD,,
