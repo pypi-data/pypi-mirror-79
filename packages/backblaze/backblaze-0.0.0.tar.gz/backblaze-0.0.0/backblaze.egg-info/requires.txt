@@ -1,0 +1,4 @@
+httpx
+aiofiles
+asynctest
+sphinxcontrib-trio

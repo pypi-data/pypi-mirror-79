@@ -1,0 +1,9 @@
+README.md
+setup.py
+backblaze/__init__.py
+backblaze.egg-info/PKG-INFO
+backblaze.egg-info/SOURCES.txt
+backblaze.egg-info/dependency_links.txt
+backblaze.egg-info/not-zip-safe
+backblaze.egg-info/requires.txt
+backblaze.egg-info/top_level.txt
