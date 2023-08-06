@@ -1,0 +1,7 @@
+README.md
+setup.py
+kompozitor/__init__.py
+kompozitor.egg-info/PKG-INFO
+kompozitor.egg-info/SOURCES.txt
+kompozitor.egg-info/dependency_links.txt
+kompozitor.egg-info/top_level.txt

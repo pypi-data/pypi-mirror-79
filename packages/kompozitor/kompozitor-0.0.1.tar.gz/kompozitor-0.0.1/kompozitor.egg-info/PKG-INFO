@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kompozitor
+Version: 0.0.1
+Summary: Biblioteka nota za komponovanje melodija
+Home-page: https://github.com/jocapc/python-kompozitor
+Author: Jovan Popovic
+Author-email: jocapc@gmail.com
+License: UNKNOWN
+Description: Biblioteka sadrzi funkcije koje predstavljaju note kojima se mogu predstaviti melodije kao Python programi.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
