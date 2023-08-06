@@ -1,0 +1,4 @@
+[console_scripts]
+wio = workspacesio.cli:cli
+workspaces-create-tables = workspacesio.dev_cli:main
+
