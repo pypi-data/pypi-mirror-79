@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+scalg.egg-info/PKG-INFO
+scalg.egg-info/SOURCES.txt
+scalg.egg-info/dependency_links.txt
+scalg.egg-info/entry_points.txt
+scalg.egg-info/not-zip-safe
+scalg.egg-info/top_level.txt
