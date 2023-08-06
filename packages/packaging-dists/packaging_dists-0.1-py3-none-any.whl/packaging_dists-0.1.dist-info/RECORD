@@ -1,0 +1,6 @@
+packaging_dists/__init__.py,sha256=0f4iEp5MH0X_G2W_oen2JUMz_g19aEmcqnx8WTcUdIM,3828
+packaging_dists/_utils.py,sha256=yjB3KTBFA4QbW6VIhCjE9K9hgvODib32D5usdWNVER0,1446
+packaging_dists-0.1.dist-info/METADATA,sha256=Eh1kA-qNnvw9l_M6EAMCr2xajU81uFgdmaYBNNECZ2Y,2500
+packaging_dists-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+packaging_dists-0.1.dist-info/top_level.txt,sha256=Rq8IOdNvqsFh81QWWD-YhbeP3Yh5xK5V2gUPx0BcSXE,16
+packaging_dists-0.1.dist-info/RECORD,,
