@@ -1,0 +1,6 @@
+[console_scripts]
+cli.py = yoda_powers.scripts.cli:main
+
+[yoda_powers]
+yoda_powers = __init__
+
