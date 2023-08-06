@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "printtable"
+dist-name = "printtable-demo"
+author = "Olav Vahtras"
+author-email = "vahtras@kth.se"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
