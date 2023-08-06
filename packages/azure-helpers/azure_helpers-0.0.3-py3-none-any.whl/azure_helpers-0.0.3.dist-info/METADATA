@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: azure-helpers
+Version: 0.0.3
+Summary: A package which uses azure SDK for creating simple resources and managing them.
+Home-page: https://github.com/msanath/azure-helpers.git
+Author: Sanath Manavarte
+Author-email: msanath@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: azure-cli-core
+Requires-Dist: azure-mgmt-compute (==13.0.0)
+
+# Azure Helpers
+
+This is a simple project which makes use of azure's python SDK to create simple resources in azure. Today, you can use the helpers to perform basic CRUD operations on
+
+* [Virtual Machine Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)
+
+
+## Using the package
+
+To start using the helpers, run
+
+> `pip install azure-helpers`
+
+Follow examples in the examples directory to use the library.
+
+
+## Developing the package
+To extend the package and customize it further, clone it from git and run the following to setup a virtual environment:
+
+> `git clone https://github.com/msanath/azure-helpers.git`\
+> `cd azure-helpers`\
+> `python3 -m venv`\
+> `source bin/activate`\
+> `pip install -r requirements.txt`
+
+Before merging to the main branch, make sure you generate the distribution archives.
+From the directory containing `setup.py`, run:
+
+> `python3 -m pip install --user --upgrade setuptools wheel`\
+> `python3 setup.py sdist bdist_wheel`
+
+For more information, refer [python packaging tutorial](https://packaging.python.org/tutorials/packaging-projects/).
+
+**Note**: The git repository also contains settings file for [Visual Studio Code](https://code.visualstudio.com/).
+
