@@ -1,0 +1,9 @@
+dialogflow_fulfillment/__init__.py,sha256=Jbdnlu_gBMyd2CSSWCCaNh-6dfuPwMKSvjJoTwBSkic,329
+dialogflow_fulfillment/contexts.py,sha256=rgUqcJ2icgABfKR2HeLoOmN3VefIviRmVMa8_MkJvp8,3999
+dialogflow_fulfillment/rich_responses.py,sha256=xeOwtmMzDaBXZdioU6eiF3O1ih-y8zEgX4KEH37j1RA,25834
+dialogflow_fulfillment/webhook_client.py,sha256=0MjM5Y0qJx-MdqIvZo6Pv2NfcRvfBoBuDp2BR2xn6po,11331
+dialogflow_fulfillment-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dialogflow_fulfillment-0.4.0.dist-info/METADATA,sha256=2lwVXdOikDK_hRgE3i8K6zVME4Vnz8UGoTE0_GYgULw,4075
+dialogflow_fulfillment-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dialogflow_fulfillment-0.4.0.dist-info/top_level.txt,sha256=zoyRe9oxmML8KLkZShyN6c616HdKE2soLblLl1L8vY0,23
+dialogflow_fulfillment-0.4.0.dist-info/RECORD,,
