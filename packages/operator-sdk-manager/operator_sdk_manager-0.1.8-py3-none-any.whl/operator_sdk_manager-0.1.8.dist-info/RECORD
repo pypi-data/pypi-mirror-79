@@ -1,0 +1,11 @@
+operator_sdk_manager/__about__.py,sha256=MWdX8ryvLtR4Ip5J8ge16PSqpsc50KYI-UHpwCixa1c,716
+operator_sdk_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+operator_sdk_manager/main.py,sha256=2fdN4vQJ02RzeaNWBYcPyAnsEhEAfLhBYR945L0HKpo,1773
+operator_sdk_manager/update.py,sha256=Zzxl8Ok8JSAL-IV7xNJrRdc2M-SWKsLdSrJj5UO0oTk,3733
+operator_sdk_manager/util.py,sha256=tTdZobWInAsVq_fU3SkDFULZ2RF5bu2at7-Yu8z4img,1130
+operator_sdk_manager-0.1.8.dist-info/LICENSE,sha256=lQckRE7ZacPCp5oIQLvDhHLeY9AZS9OZrfXa0mOXkoQ,1267
+operator_sdk_manager-0.1.8.dist-info/METADATA,sha256=MR_eAHKcctAXXSk73yC3DvacXgKrdVBfKvuIMmc1C88,1156
+operator_sdk_manager-0.1.8.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+operator_sdk_manager-0.1.8.dist-info/entry_points.txt,sha256=yiNwe5x2Muv1sRZsj8iaGkSPaWyP0CXy-ZmJ5LW2lS8,73
+operator_sdk_manager-0.1.8.dist-info/top_level.txt,sha256=L9SLd4GRMqtFGQkhPYNTeLEAayMqnL4m8sd_enyAZHQ,21
+operator_sdk_manager-0.1.8.dist-info/RECORD,,
