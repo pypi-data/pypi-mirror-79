@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: openstates-metadata
+Version: 2020.9.1
+Summary: metadata for the openstates project
+Home-page: https://github.com/openstates/metadata
+License: MIT
+Author: James Turk
+Author-email: james@openstates.org
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs (>=19.3,<20.0)
+Project-URL: Repository, https://github.com/openstates/metadata
+Description-Content-Type: text/markdown
+
+# openstates-metadata
+
+This package is obsolete, please install 'openstates' instead and change your imports to openstates.metadata.
+
+
