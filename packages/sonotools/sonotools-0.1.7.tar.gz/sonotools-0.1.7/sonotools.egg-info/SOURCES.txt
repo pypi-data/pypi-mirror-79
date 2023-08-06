@@ -1,0 +1,9 @@
+README.md
+setup.py
+sonotools/__init__.py
+sonotools/__version__.py
+sonotools.egg-info/PKG-INFO
+sonotools.egg-info/SOURCES.txt
+sonotools.egg-info/dependency_links.txt
+sonotools.egg-info/requires.txt
+sonotools.egg-info/top_level.txt
