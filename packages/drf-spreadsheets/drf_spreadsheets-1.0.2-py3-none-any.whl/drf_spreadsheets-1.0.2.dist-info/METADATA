@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: drf-spreadsheets
+Version: 1.0.2
+Summary: A Django REST Framework package allowing views to be rendered as CSV or XLSX
+Home-page: https://github.com/jpaav/drf-spreadsheets
+Author: Joe Paavola
+Author-email: joepaavola@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=3.1)
+Requires-Dist: djangorestframework (>=3.6)
+Requires-Dist: openpyxl (>=2.4)
+
+# Django REST Spreadsheets renderer
+
+This project pulls work from [drf-renderer-xlsx](https://github.com/wharton/drf-renderer-xlsx) and 
+[django-rest-framework-csv](https://github.com/mjumbewu/django-rest-framework-csv) aiming to combine these renders into
+a single package while fixing some of their individual quirks.
+
+## Differences
+An important use case for file export in a RESTful API is to allow the user to manipulate data using their own tools. 
+While pagination is useful for endpoints where you don't need to see all the data, they don't make sense for these types
+of file export. This project will handle pagination by ignoring it, serializing the entire queryset.
+
+---
+
+In addition, to enable CSV/XLSX on an endpoint, all that needs to be done is adding a single mixin like such:
+
+```lang=py
+from drf_spreadsheets.mixins import SpreadsheetMixIn
+
+class YourViewSet(SpreadsheetMixIn, ModelViewSet):
+    ...
+
+```
+
+This instead of manually overriding renderer_classes, or adding the renderer to the defaults. The former is clunky and 
+can lead to unwanted behavior and the latter is rarely necessary since there will be many endpoints that don't need
+spreadsheet exports in most projects.
+
+---
+
+One regression is in XLSX styling. For the initial version of this package, no styling can be applied to generated 
+XLSX files. Since this is not an essential feature for most export use-cases, it has been left as a potential future feature
+
+## Usage
+
+To use this package, simply add the `SpreadsheetMixIn` to a ViewSet! By default, both CSV and XLSX formats will be 
+available on that view. There are three fields provided by `SpreadsheetMixIn`:
+
+ |field|default|use|
+ |-----|-------|---|
+ |enable_csv|True|Allows CSV format to be accessed on that particular ViewSet|
+ |enable_xlsx|True|Allows XLSX format to be accessed on that particular ViewSet|
+ |filename|None|Overrides the auto-generated filename of the form "\<Model name> Report"|
+
