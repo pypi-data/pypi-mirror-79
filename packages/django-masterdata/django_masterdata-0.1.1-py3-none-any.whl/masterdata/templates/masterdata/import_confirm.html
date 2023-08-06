@@ -1,0 +1,35 @@
+{% extends 'admin/base.html' %}
+{% load i18n admin_urls static %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}">{% endblock %}
+
+{% block breadcrumbs %}
+{% endblock %}
+
+
+{% block content %}
+<h2>Datos importados</h2>
+<table>
+    <tr>
+        <td>{% trans 'Created' %}</td>
+        <td>{{ job.created }}</td>
+    </tr>
+    <tr>
+        <td>{% trans 'Updated' %}</td>
+        <td>{{ job.updated }}</td>
+    </tr>
+    <tr>
+        <td>{% trans 'Errors' %}</td>
+        <td>{{ job.errors }}</td>
+    </tr>
+    <tr>
+        <th>{% trans 'Total rows' %}</th>
+        <td>{{ job.total }}</td>
+    </tr>
+</table>
+<form method="POST">
+    {% csrf_token %}
+    <button name="action" value="cancel">{% trans 'Cancel' %}</button>
+    <button name="action" value="publish">{% trans 'Publish' %}</button>
+</form>
+{% endblock %}

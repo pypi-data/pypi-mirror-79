@@ -1,0 +1,33 @@
+{% extends 'admin/change_list.html' %}
+
+
+{% block extrastyle %}
+<style type="text/css">
+    .masterdata-issuecount-count {
+        text-align: center;
+        width: 30px;
+        padding: 2px;
+        height: 1.2em;
+        line-height: 1.2em;
+        font-size: ;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+
+    li.selected .masterdata-issuecount-count {
+        background: #5b80b2;
+        color: #fff;
+    }
+
+    li.selected:hover .masterdata-issuecount-count {
+        background: #036;
+        color: #fff;
+    }
+
+
+    .masterdata-issuecount-display {
+        flex: 1;
+    }
+</style>
+{{ block.super }}
+{% endblock %}

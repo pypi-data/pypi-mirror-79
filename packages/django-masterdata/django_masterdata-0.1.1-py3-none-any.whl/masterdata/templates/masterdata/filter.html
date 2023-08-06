@@ -1,0 +1,16 @@
+{% load i18n %}
+<h3>{% trans title %}</h3>
+<ul>
+{% for choice in choices %}
+    <li{% if choice.selected %} class="selected"{% endif %}>
+    <a style="display: flex" href="{{ choice.query_string|iriencode }}">
+        {% if forloop.first %}
+            <div class="masterdata-issuecount-display">{% trans 'All' %}</div>
+        {% else %}
+            <div class="masterdata-issuecount-display">{{ choice.display.check.name }}</div>
+            <div class="masterdata-issuecount-count">{{ choice.display.count }}</div>
+        {% endif %}
+    </a>
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: django-masterdata
+Version: 0.1.1
+Summary: Simple data mastering tools for Django
+Home-page: https://github.com/unholster/django-masterdata
+Author: Sebastian Acuna
+Author-email: sebastian@unholster.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/unholster/django-masterdata
