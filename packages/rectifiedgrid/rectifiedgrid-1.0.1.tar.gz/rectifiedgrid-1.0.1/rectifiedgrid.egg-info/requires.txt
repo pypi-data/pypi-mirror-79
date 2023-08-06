@@ -1,0 +1,11 @@
+numpy
+geopandas
+scipy
+rasterio
+fiona
+shapely
+rtree
+pandas
+affine
+matplotlib
+cartopy
