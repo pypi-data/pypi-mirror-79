@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bigaussian_distributions/Binomialdistribution.py
+bigaussian_distributions/Gaussiandistribution.py
+bigaussian_distributions/Generaldistribution.py
+bigaussian_distributions/__init__.py
+bigaussian_distributions.egg-info/PKG-INFO
+bigaussian_distributions.egg-info/SOURCES.txt
+bigaussian_distributions.egg-info/dependency_links.txt
+bigaussian_distributions.egg-info/not-zip-safe
+bigaussian_distributions.egg-info/top_level.txt
