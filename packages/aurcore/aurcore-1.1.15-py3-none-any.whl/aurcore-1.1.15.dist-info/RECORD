@@ -1,0 +1,6 @@
+aurcore/__init__.py,sha256=wgWkfXZON0eIy8XMgk7sa5bGft49HrKNtlRiefNKWFU,769
+aurcore/event/__init__.py,sha256=QHZrnxXWyY65TGMCKXq1jQ2mYd2zf3k6IDWsxnpz3do,7079
+aurcore/util/__init__.py,sha256=37TVv7Fuwp2yFHbSz6qdoBWa8E9nbUT_qQYCd__f2IY,1782
+aurcore-1.1.15.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aurcore-1.1.15.dist-info/METADATA,sha256=teP3OqgLoi7mETvDf37i4QOzH5PXyZXg1V4IgConK8s,182
+aurcore-1.1.15.dist-info/RECORD,,
