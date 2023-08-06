@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: commonthread
+Version: 0.3
+Summary: Common Threading Library
+Home-page: https://github.com/javacommons/commonthread
+Author: javacommons
+Author-email: javacommons@gmail.com
+License: MIT
+Keywords: development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# commonthread
+
+
