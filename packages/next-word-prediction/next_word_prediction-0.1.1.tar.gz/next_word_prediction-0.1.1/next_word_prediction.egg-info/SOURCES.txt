@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+next_word_prediction/__init__.py
+next_word_prediction/model.py
+next_word_prediction.egg-info/PKG-INFO
+next_word_prediction.egg-info/SOURCES.txt
+next_word_prediction.egg-info/dependency_links.txt
+next_word_prediction.egg-info/top_level.txt
