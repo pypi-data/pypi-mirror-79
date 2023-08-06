@@ -1,0 +1,12 @@
+README.md
+setup.py
+new_pytest_needle/__init__.py
+new_pytest_needle/driver.py
+new_pytest_needle/exceptions.py
+new_pytest_needle/plugin.py
+new_pytest_needle/settings.py
+new_pytest_needle.egg-info/PKG-INFO
+new_pytest_needle.egg-info/SOURCES.txt
+new_pytest_needle.egg-info/dependency_links.txt
+new_pytest_needle.egg-info/requires.txt
+new_pytest_needle.egg-info/top_level.txt
