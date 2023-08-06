@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bapy.iml" filepath="$PROJECT_DIR$/.idea/bapy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xcm-lib/.idea/xcm-lib.iml" filepath="$PROJECT_DIR$/../xcm-lib/.idea/xcm-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xcm-lib-appveyor/.idea/xcm-lib-appveyor.iml" filepath="$PROJECT_DIR$/../xcm-lib-appveyor/.idea/xcm-lib-appveyor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xcm-lib-poetry/.idea/xcm-lib-poetry.iml" filepath="$PROJECT_DIR$/../xcm-lib-poetry/.idea/xcm-lib-poetry.iml" />
+    </modules>
+  </component>
+</project>
