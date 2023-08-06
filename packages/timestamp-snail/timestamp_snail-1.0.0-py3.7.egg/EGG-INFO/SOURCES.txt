@@ -1,0 +1,8 @@
+setup.py
+timestamp/__init__.py
+timestamp/timestamp.py
+timestamp_snail.egg-info/PKG-INFO
+timestamp_snail.egg-info/SOURCES.txt
+timestamp_snail.egg-info/dependency_links.txt
+timestamp_snail.egg-info/entry_points.txt
+timestamp_snail.egg-info/top_level.txt

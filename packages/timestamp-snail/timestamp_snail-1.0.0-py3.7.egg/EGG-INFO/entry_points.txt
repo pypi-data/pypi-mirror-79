@@ -1,0 +1,3 @@
+[console_scripts]
+timestamp = timestamp:main
+
