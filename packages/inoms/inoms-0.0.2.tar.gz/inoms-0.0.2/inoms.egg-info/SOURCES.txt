@@ -1,0 +1,8 @@
+README.md
+setup.py
+inoms/__init__.py
+inoms/inoActivity.py
+inoms.egg-info/PKG-INFO
+inoms.egg-info/SOURCES.txt
+inoms.egg-info/dependency_links.txt
+inoms.egg-info/top_level.txt
