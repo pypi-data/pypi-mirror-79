@@ -1,0 +1,9 @@
+README.md
+setup.py
+modulemap/__init__.py
+modulemap/modulemap.py
+modulemap.egg-info/PKG-INFO
+modulemap.egg-info/SOURCES.txt
+modulemap.egg-info/dependency_links.txt
+modulemap.egg-info/requires.txt
+modulemap.egg-info/top_level.txt
