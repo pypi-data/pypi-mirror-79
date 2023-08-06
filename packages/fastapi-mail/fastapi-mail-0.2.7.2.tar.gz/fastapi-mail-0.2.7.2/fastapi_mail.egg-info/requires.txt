@@ -1,0 +1,17 @@
+fastapi
+aiosmtplib
+python-multipart
+pydantic
+pydantic[email]
+
+[aiosmtplib]
+aiosmtplib
+
+[fastapi]
+fastapi
+
+[pydantic]
+pydantic
+
+[python-multipart]
+python-multipart
