@@ -1,0 +1,13 @@
+[
+  "DEBUG Names of excel sheet :['Dim produits', 'Dim secteurs', 'data', 'min_max', 'other_constraints', 'ter1']",
+  "INFO  No inconsistencies in ter",
+  "ERROR Origine or Destination not found in list of products or sectors. Check spelling of 'Semence'",
+  "ERROR Origine or Destination not found in list of products or sectors. Check spelling of 'Semence'",
+  "INFO  The following flows were not found in ter1",
+  "ERROR data, row #18, table u, orig. Orge grain collect\u00e9 + imports, dest. Semence",
+  "ERROR constraints, row #4, table s, orig. Ferme orge, dest. Freinte",
+  "ERROR constraints, row #6, table s, orig. Ferme orge, dest. Inconsommables",
+  "ERROR constraints, row #8, table u, orig. Orge grain non-collect\u00e9, dest. Semence",
+  "ERROR Problem with file.",
+  ""
+]
