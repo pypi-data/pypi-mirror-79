@@ -1,0 +1,4 @@
+#!/bin/sh
+# chkconfig: 35 20 80
+# description: netrec-server
+~/miniconda/bin/netrec-server

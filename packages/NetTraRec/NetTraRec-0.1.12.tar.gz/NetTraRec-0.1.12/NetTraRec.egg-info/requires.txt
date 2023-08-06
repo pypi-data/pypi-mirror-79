@@ -1,0 +1,6 @@
+basecolors
+psutil
+redis
+requests
+numpy
+scipy
