@@ -1,0 +1,14 @@
+cjieba/_native__lib.so,sha256=r7ypXvoY3aNFm8BG2Uyob6-9YcPf3iZq89rg0fejwFo,195743
+cjieba/_native.py,sha256=hR7sjsW9Hz0VOr7z_qLc7MA2odcXrXew2h2un4wZTAg,185
+cjieba/_native__ffi.py,sha256=VDwn02sJjUTn_sWm24Gqnb6-rkhYAVejXWJw7KCYxR8,2845
+cjieba/__init__.py,sha256=4CJ_gkO_tV2xidx1XloMeDxouo0sypheYfPk8LkOzCk,7841
+cjieba/dict/stop_words.utf8,sha256=t4i4qTnS4v4Hmr1XnqmPEvn7hDcL_Q3d2Bu5OB96tCw,8974
+cjieba/dict/hmm_model.utf8,sha256=8XeQWGrIbdBIyK3_7QUsS9KyjtBoKXLBJ15ZBAwFiac,519739
+cjieba/dict/user.dict.utf8,sha256=TqCEtVtVN5sXdu0Rx6rH1ePjX9cVMCV4ygKXmvXkacQ,33
+cjieba/dict/jieba.dict.utf8,sha256=MEO3cGjgnJkE8nytgvErbr6dvbWu_zsl5Fq3-cESK1U,5071204
+cjieba/dict/idf.utf8,sha256=29HgPXKyJjzI2EpDBO13Z37tnn3q9DoaUTO7upcztTU,5998717
+cjieba-0.4.4.dist-info/top_level.txt,sha256=8Q4cOIK6natDXMwvg5bEFBIzb7y24z4vCQnKo1U5p-Q,7
+cjieba-0.4.4.dist-info/RECORD,,
+cjieba-0.4.4.dist-info/METADATA,sha256=alrjcQb2AHxRM6ornuD4-DVA0gpBhZqkhl3HeEEx6dY,257
+cjieba-0.4.4.dist-info/LICENSE,sha256=BIk4gtJrm4L1An4ZS7mkGkhj3nwBmEP4CkCzGck67kE,1075
+cjieba-0.4.4.dist-info/WHEEL,sha256=H71ajIPnntp4O8BzcOL7QQ98KMrikSlkEayZfRUKQQs,139
