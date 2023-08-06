@@ -1,0 +1,13 @@
+dask
+dask[complete]
+xarray
+numpy
+matplotlib
+netCDF4
+scipy
+gsw
+scikit-learn
+matplotlib
+netcdf4
+numpy
+xarray
